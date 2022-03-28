@@ -1,5 +1,5 @@
 # COURS
-
+- Cours via slide 
 - PF.Vos-competences : https://pf.vos-competences.com/apprenant/ 
     - Formation 
         - PROGRAMMATION - GIT / GITHUB
