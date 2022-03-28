@@ -250,3 +250,4 @@ Une fois réalisée, vous pouvez observer sur le projet original toutes les prop
 - OHMYGIT : https://ohmygit.org/
 
 # Evaluation
+- w3schools QUIZZ : https://www.w3schools.com/quiztest/quiztest.asp?qtest=GIT
