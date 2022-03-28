@@ -7,23 +7,23 @@
 - Classement ?
 
 ## Langage (17) - 3 par groupe :
-- FORTRAN
-- Cobol
-- Basic
-- C
-- SQL
-- C++
-- Objectif-C
-- Caml
-- Bash
-- Python
-- Visual Basic
-- Brainfuck
-- Java
-- PHP
-- Javascript
-- C#
-- Swift
+- FORTRAN (Francois)
+- Cobol (Bruno / Maxime)
+- Basic (Frank)
+- C (Baptiste)
+- SQL (Ousmane)
+- C++ (Baptise)
+- Objectif-C (Alexis)
+- Caml (Frank)
+- Bash (Francois)
+- Python (Alexis)
+- Visual Basic (Frank)
+- Brainfuck (Francois)
+- Java (Alexis)
+- PHP (Bruno / Maxime)
+- Javascript (Baptise)
+- C# (Ousmane)
+- Swift (Bruno / Maxime)
 
 # Cours - Histoire des langages de programmations
 Des premiers langages à ceux d’aujourd’hui.
