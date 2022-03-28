@@ -1,5 +1,6 @@
-# Objectif
-
+# Cours pour apprendre Git et ses bonnes pratiques
+# Sommaire
+# Git : Historique, commandes de base
 ## Slide 1
 
 Un problème courant dans la production de données est celui de la conservation d'étapes : on développe souvent des principes de nomenclatures particulièrement personnels qui finissent bien souvent pas rendre l'ensemble d'un dossier illisible. C'est un cas de figure que l'on retrouve souvent avec rapports, mémoires, thèse.
@@ -117,6 +118,7 @@ Faire une démo (essayer de faire deviner les commandes)
 - Tenter la même chose avec une image blanche et une image blanche avec un carré noire
         -> Parler des limitations pour les fichiers compilés !
 
+# Les branches
 ## Slide 1
 
 Les branches permettent d'avoir des états parallèles d'un même dépôt, une sorte de "sauvegarder sous" sur l'ensemble d'un dossier et des ses sous-dossiers. La différence, c'est qu'il existe tout un système pour fusionner ces versions entre elles.
@@ -170,44 +172,7 @@ git merge resume
 git log
 ```
 
-## Slide 4
-
-```bash
-git status # Être sur d'être sur master
-gedit exercice.xml # Copier le contenu de https://ponteineptique.github.io/cours-git/cours-2/exemple.xml
-git add exercice.xml
-git commit -m "Ajout d'un barebone xml"
-git branch changement-texte
-git checkout changement-texte
-gedit exercice.xml # Changer titre, auteur et description
-git commit -m "Ajout d'un barebone xml"
-git log
-git status
-
-```
-
-## Slide 5
-
-```bash
-git checkout master
-git log 
-git status
-gedit exercice.xml # Titre et l'auteur pour "Epigrammes" et "Martial"
-git add exercice.xml
-git commit -m "Titre martial"
-git merge changement-texte
-git log
-git status
-```
-
-```bash
-gedit exercice.xml # Titre et l'auteur pour "Epigrammes" et "Martial"
-git add exercice.xml
-git commit -m "Résolution d'un conflit pour version personnelle"
-git status
-git log
-```
-
+# Git : Serveur distant
 ## Slide 1
 
 Avec les branches, nous avons vu la capacité de travailler sur des versions alternatives à notre version principale, des sortes d'enregistrer sous. Si l'on compare ce que l'on a vu avec les capacités d'un Dropbox ou d'un Google Drive, quelle fonctionnalité est manquante ?
@@ -283,7 +248,7 @@ Le terme "technical debt" est dérivé de la méthode agile de management et de 
 
 ## Slide 6
 
-On est ici devant un repository de textes et de métadonnées sur ces textes. Il s'agit du corpus original latin du Perseus project, en cours de conversion vers CapiTainS.
+On est ici devant un repository de textes et de métadonnées sur ces textes. Il s'agit du corpus original latin du Perseus project.
 
 Que pouvez-vous dire sur ce repository ?
 
@@ -306,7 +271,6 @@ Concernait des identifiants doublons sur certains fichiers. Mais aucun listé co
 
 ## Slide 9
 
-
 - Les données de https://github.com/chartes/elec vous intéressent. Mais vous aimeriez changer une partie des données : ne conserver que les testaments de poilu et supprimer les éléments qui ne correspondent pas à vos besoins.
 - À ce moment-là, on va réaliser un fork du repository sur son propre compte. On obtient ainsi les droits d'écritures sur le repository tout en gardant l'ensemble de son historique. On travaille sur ce repository ensuite localement, comme on travaillerait avec n'importe quel repository.
 - Si l'on fait des modifications sur un dépôt d'une autre personne, il est plus respectueux de faire un fork que de télécharger et de créer un nouveau dépôt.
@@ -317,16 +281,11 @@ La contribution et le travail en équipe sont au centre de l'utilisation d'outil
 
 Ces propositions de changement sur github sont appelées des *pull requests*. Un-e utilisateur-rice produit des commits sur un fork, pour corriger des coquilles ou améliorer la documentation par exemple, et ouvre un ticket *pull request*. Les gestionnaires du repository ensuite entrent dans une discussion ouverte avec cette personne jusqu'à fusion (*merge*) de cette pull request ou son refus. 
 
-
 **À voir plus tard ?** Il existe par ailleurs trois types de merge : les merge normaux, les squash et les rebases.
 
 ## Slide 11
 
 Lire la proposition
-
-## Slide 12
-
-Le faire soi-même puis laisser les étudiantes le faire
 
 ## Slide 1
 
@@ -387,25 +346,10 @@ Pour prendre un exemple, lorsque l'on écrit son XML en utilisant un schéma Rel
 
 Prendre l'image, essayer de montrer la différence avec du TDD.
 
-## Slide 8
-
-L'outil que nous utiliserons dans ce cours pour l'intégration continue sera Travis. C'est un outil qui a l'avantage d'être gratuit pour les logiciels open source, documenté et bien intégré avec github. En fonction d'un fichier de paramètres, il lancera l'ensemble des scripts fournis.
-
-L'un des intérêts de le connecter à github est de fournir un compte-rendu directement sur les pulls requests. Regardons plutôt l'exemple qui suit :
-
-## Slide 9
-
-## Slide 10
-
-Prendre le fichier ligne par ligne, essayez de leur faire comprendre.
-
-Si bonne compréhension, voire avec le fichier complet https://github.com/PerseusDL/canonical-latinLit/blob/master/.travis.yml
-
+# Bonnes pratiques
 ## Quelles bonnes pratiques
 
 Si le développement et la gestion d'un projet vous semblent être l'apanage des futures ingénieures, conservatrices et développeuses qui sont là, sachez bien qu'aujourd'hui, on demande aux chercheurs et chercheuses de savoir gérer leur projet. Plus encore, savoir gérer un projet, y compris personnel, est primordial si vous souhaitez être assuré de sa fonctionnalité et de son expansion dans un futur plus ou moins proche.
-
-Bien sûr, je vous renvoie à la [conférence de Bridget Almas](https://www.youtube.com/watch?v=bhlBwnN_Pf4) d'octobre dernier qui est disponible sur YouTube sur la chaîne de l'École.
 
 Il n'y a pas grand-chose à dire à part lister ces bonnes pratiques. Pour chacune de ces bonnes pratiques, je vous laisserai poser des questions le cas échéant.
 
@@ -467,15 +411,3 @@ La documentation est certainement la chose la plus difficile à faire, car en ta
 ## Documenter
 
 Pour finir, voici un exemple de ce qu'il ne faut pas faire : écrire en documentation quelque chose qui n'aide en rien à la compréhension.
-
-## Slide 2
-
-- Ne pas parler de FRBR
-- Essayer de faire construire des identifiants
-	- Parler de la base Jonas, du catalogue de Perseus, voir le fichier stoa https://docs.google.com/spreadsheets/d/1RHN6KBulDGbpKATLU6PtwU4o5xVsaBB6xbQRtKjMyWE/edit#gid=0
-	- Victor Hugo, Les Misérables, Éditions Ecole des Chartes
-		- Traduction en anglais
-	- Molière, Misanthrope, Labex Obvil
-		- https://github.com/dramacode/moliere/blob/gh-pages/moliere_misanthrope.xml
-	- Autres auteurs
-		- https://github.com/oeuvres

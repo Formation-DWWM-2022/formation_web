@@ -10,13 +10,6 @@
     Qu'est-ce que le gitignore ?
 
 
-<style>
-section { font-size: 22pt; }
-h1 { font-size: 1.6em; margin:0 0; padding:0 0; }
-h2 { font-size: 1.4em; margin:0 0; padding:0 0; }
-h3 { font-size: 1.2em; margin:0 0; padding:0 0; }
-</style>
-
 # Git : Historique, commandes de base
 
 ## 1. Problème
@@ -152,27 +145,6 @@ Où `\n` est un retour à la ligne.
 
 ![h:600px](images/branches.png)
 
----
-
-## 4. Conflits d'historique
-
-1. Copier le fichier xml  [https://ponteineptique.github.io/cours-git/cours-2/exemple.xml](https://ponteineptique.github.io/cours-git/cours-2/exemple.xml)
-2. Enregistrer ce changement dans git
-3. Changer de branche pour `changement-texte`
-4. Remplir titre et auteur avec le titre de votre livre préféré et auteur préféré
-5. Ajouter une description dans le document TEI
-2. Enregistrer ce changement dans git
-
----
-
-## 5.  Conflits d'historique : le professeur change d'avis 
-
-1. Changer de branche pour `master`
-2. Changer le titre et l'auteur pour "Epigrammes" et "Martial"
-3. Enregistrer le changement
-4. Fusionner avec la branche changement de texte
-    1. Alors ?
-
 # Git : Serveur distant
 ## 1. Ce qu'il manque jusque là
 
@@ -244,8 +216,6 @@ Un dépôt git en ligne est peu ou prou la même chose qu'un dépôt git local s
 Tous les dépôts git ne sont **pas disponible en écriture**. Il se peut qu'un repository git distant soit protégé pour n'être complété que par tel groupe de personne.
 
 Cependant, cela n'empêche pas de les **cloner** et de travailler dessus localement. Vous ne pourrez juste pas modifier le Git distant (remote)
-
-> [https://github.com/ponteineptique/cours-git](https://github.com/ponteineptique/cours-git)
 
 ---
 
@@ -343,7 +313,7 @@ Cependant, cela n'empêche pas de les **cloner** et de travailler dessus localem
 -  Je remarque une erreur dans les métadonnées d'un document
 	1. J'ouvre une issue qui explique le problème (Typo dans le fichier X, etc.)
 	2. Parce que je veux être encore plus utile, je veux proposer la modification pour que le propriétaire n'ait pas à faire la correction lui-même
-	3. Je fais un fork du dépôt du cours ( https://github.com/ponteineptique/cours-git )
+	3. Je fais un fork du dépôt du cours
 	4. Je crée une branche spécifique et je rentre dessus
 		- Tips : quand on fait une branche pour un objectif particulier, on l'appelle du nom de l'issue pour se souvenir de pourquoi on a créé cette branche
 	5. Je fais la modification et je la commit
