@@ -8,6 +8,7 @@
 - [CruorDei] baptiste.denoue@gmail.com 
 - [ElliahVD] amandine_dw@hotmail.fr 
 - [Shiigen] oleroy63720@gmail.com
+- [Leroux63] dleroux63160@gmail.com
 
 - [Myogamevideo] alexandre.bougrat@hotmail.fr
 
