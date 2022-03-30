@@ -1,3 +1,10 @@
+Groupe aujourd'hui :
+- Laetitia / Franck / Maxime
+- Alexis / François
+- Amandine / Bruno
+- Baptiste / David
+- Ousmane / Olivier
+
 ## Installer AnyDesk
 
 ---
