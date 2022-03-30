@@ -1,7 +1,7 @@
 ## Installer AnyDesk
 
 ---
-# COURS - J1 - 29 / 03 / 2022
+# COURS - J1 - 30 / 03 / 2022
 ## EXO 1 : SEO - Responsive
 Qu’est-ce que le responsive design ?
 - Lien utile = https://www.seo.fr/definition/responsive-design
@@ -36,7 +36,7 @@ Qu’est-ce que l'ergonomie d'un site web et le métier UX-UI design ?
  
 ---
 
-# COURS - J2 - 30 / 03 / 2022
+# COURS - J2 - 31 / 03 / 2022
 - Présentation de Figma : https://www.youtube.com/watch?v=e68PKFYWfoQ
 
 ## EXO 1 : Maquettage simples du site 
