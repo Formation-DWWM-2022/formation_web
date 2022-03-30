@@ -40,21 +40,41 @@ Qu’est-ce que l'ergonomie d'un site web et le métier UX-UI design ?
   - Comment on navigue de page en page
   - Critiquer ergonomie du site
   - Nuancier et constraste de couleur
- 
----
 
-# COURS - J2 - 31 / 03 / 2022
-- Présentation de Figma : https://www.youtube.com/watch?v=e68PKFYWfoQ
+## EXO 6 : Maquettage 
+- Maquette de site web : qu’est-ce que c’est ?
+- Pourquoi réaliser une maquette de site internet ?
 
-## EXO 1 : Maquettage simples du site 
-Vous aidez de : Cathering.zip
+## EXO 7 : Zoning
+Qu’est-ce que le zoning dans les technique de maquettage ?
 
-## EXO 1.2 : Maquettage compliquée du site 
-https://www.justinguitar.com/
+## EXO 8 : Wireframing
+A quoi sert un wireframe ?
+
+## EXO 9 : La planche de style
+Qu’est-ce que la planche de style  dans les technique de maquettage ?
+
+## EXO 10 : La maquette graphique
+Qu’est-ce que la planche de style  dans les technique de maquettage ?
+
+## EXO 11 : Les outils
+Quels sont les outils pour créer une maquette de site internet ?
 
 ## ---> Cours Maquettage 2 <---
 
-## EXO 2 : Refactorisation du site 
+## ---> Cours de Présentation de Figma  <---
+- Tuto du cours : https://fr.tuto.com/ux/gratuit-maitrisez-les-bases-de-figma,104881.html
+- Lien utiles : 
+  - Présentation de Figma de Grafikart : https://grafikart.fr/tutoriels/figma-presentation-1203
+  - OpenClassroom : https://openclassrooms.com/fr/courses/7342806-creez-une-maquette-pour-le-developpement-web 
+
+## EXO 12 : Maquettage simples du site 
+Vous aidez de : Cathering.zip
+
+## EXO 12.2 : Maquettage compliquée du site 
+https://www.justinguitar.com/
+
+## EXO 13 : Refactorisation du site 
 Travail reprendre les étapes site : http://www.players-bar.com/
   - à partir de la navigation de la veille de faire d'abord le wireframing 
   - réfléchir à la planche de style
