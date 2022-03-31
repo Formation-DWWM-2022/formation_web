@@ -63,6 +63,18 @@ Quels sont les outils pour créer une maquette de site internet ?
 ## ---> Cours Maquettage 2 <---
 
 ## ---> Cours de Présentation de Figma  <---
+FIGMA est une application de conception graphique, GRATUITE et puissante, qui s'exécute en ligne ou dans une application à télécharger. Comme Figma est entièrement en ligne, n’importe quelle machine disposant d’un navigateur web peut partager, ouvrir ou éditer un fichier Figma.
+
+FIGMA regroupe l'ensemble des outils nécessaires à la conception graphique et permet de faire presque tout:
+
+    Concevoir des affiches
+    Mettre en forme des documents écrits: communiqué de presse, dossier de presse...
+    Composer une publication pour vos réseaux sociaux
+    Designer des sites et des applications
+    Faire du prototypage d'application (l'icône, l'écran, les pop-up, les scrolls).
+
+Si vous maîtrisez FIGMA, vous pourrez faire quasi-tout en conception graphique. Pour cela je vous propose un cours à travers des exemples de travaux. 
+
 - Tuto du cours : https://fr.tuto.com/ux/gratuit-maitrisez-les-bases-de-figma,104881.html
 - Lien utiles : 
   - Présentation de Figma de Grafikart : https://grafikart.fr/tutoriels/figma-presentation-1203
