@@ -1,0 +1,11 @@
+Liens Ressources :
+
+- Maitriser le pen tool (la plume) : http://bezier.method.ac/
+
+- Pictogrammes : https://www.flaticon.com/ ou https://thenounproject.com/
+
+- Comprendre les modes de fusion : https://helpx.adobe.com/fr/photoshop/using/blending-modes.html
+
+- Bootstrap : https://getbootstrap.com/
+
+- Bonus Figma : https://www.figmaresources.com/
