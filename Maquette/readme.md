@@ -55,7 +55,7 @@ A quoi sert un wireframe ?
 Qu’est-ce que la planche de style  dans les technique de maquettage ?
 
 ## EXO 10 : La maquette graphique
-Qu’est-ce que la planche de style  dans les technique de maquettage ?
+Qu’est-ce que la maquette graphique  dans les technique de maquettage ?
 
 ## EXO 11 : Les outils
 Quels sont les outils pour créer une maquette de site internet ?
