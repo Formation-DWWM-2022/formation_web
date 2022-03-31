@@ -67,6 +67,7 @@ Quels sont les outils pour créer une maquette de site internet ?
 - Lien utiles : 
   - Présentation de Figma de Grafikart : https://grafikart.fr/tutoriels/figma-presentation-1203
   - OpenClassroom : https://openclassrooms.com/fr/courses/7342806-creez-une-maquette-pour-le-developpement-web 
+  - Jessica Trocmé : https://youtube.com/playlist?list=PLiSzSWhiCkPChSgMHFC7RSP8DECgmnQcw
 
 ## EXO 12 : Maquettage simples du site 
 Vous aidez de : Cathering.zip
