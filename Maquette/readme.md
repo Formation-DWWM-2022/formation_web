@@ -5,8 +5,6 @@ Groupe aujourd'hui :
 - Baptiste / David
 - Ousmane / Olivier
 
-## Installer AnyDesk
-
 ---
 # COURS - J1 - 30 / 03 / 2022
 ## EXO 1 : SEO - Responsive
@@ -54,6 +52,9 @@ A quoi sert un wireframe ?
 ## EXO 9 : La planche de style
 Qu’est-ce que la planche de style  dans les technique de maquettage ?
 
+---
+# COURS - J2 - 31 / 03 / 2022
+
 ## EXO 10 : La maquette graphique
 Qu’est-ce que la maquette graphique  dans les technique de maquettage ?
 
@@ -82,7 +83,8 @@ Si vous maîtrisez FIGMA, vous pourrez faire quasi-tout en conception graphique.
   - Jessica Trocmé : https://youtube.com/playlist?list=PLiSzSWhiCkPChSgMHFC7RSP8DECgmnQcw
 
 ## EXO 12 : Maquettage simples du site 
-Vous aidez de : Cathering.zip
+Vous aidez de : Cathering.zip 
+- https://www.figma.com/file/ALOjtZ3s6hpvfQO4US3np4/Gourmet-au-Catering-EXO-Maquettage 
 
 ## EXO 12.2 : Maquettage compliquée du site 
 https://www.justinguitar.com/
@@ -96,3 +98,63 @@ Travail reprendre les étapes site : http://www.players-bar.com/
   - faire une recherche d'image (site pour image freepik, unsplash , vecteezy, pixabay...)
   - Maquette graphique
   - Vous aidez de : utiles.rar
+
+---
+# COURS - J3 - 01 / 04 / 2022
+## ---> Cours Ameliorer la lisibilite d'une page Web <---
+## ---> Cours Concevoir un formulaire efficace <---
+## ---> Cours Renforcer vos pages Web <---
+## ---> Cours Valoriser une video sur le Web <---
+## EXO 14 : Plugin figma et les examples de la communauté
+- Plugin figma : https://www.figma.com/community/plugins
+- Examples de la communauté : https://www.figma.com/community/web_design 
+
+TOP Plugin figma : 
+- https://graphiste.com/blog/plug-ins-figma-free-concevoir-designs-outil
+- https://www.hiboost.fr/top-10-des-plugins-gratuits-figma/
+- https://www.youtube.com/watch?v=H3DWWEf7UE4
+- https://www.bigblog.fr/les-plugins-figma-indispensables/
+- https://blog.arcoptimizer.com/15-plugins-figma-pour-vous-aider-a-mieux-concevoir 
+- ...
+
+## EXO 15 : Portfolio
+Creer un portfolio en ligne ?
+- Exemple de Recherche : https://www.vincentjaques.ch/ ou https://loic-gosset.com/prestations-et-services ou https://www.nolancrochot.fr/
+
+---
+# COURS - J4 - 05 / 03 / 2022
+- Composant
+- Prototypage
+- Finir "Player's Bar"
+
+---
+# Objectif Maquette
+- Il faut réaliser des petits modules de base par exemple :
+  - Plusieurs POPUPS cookies [RGPD]
+  - Plusieurs NAVBAR / MENUSCROLL
+  - Plusieurs CARD [classic, vertical, horizontal, illustartion...]
+  - Plusieurs FOOTER
+  - Plusieurs ARTICLES
+  - Plusieurs FORM
+  - Plusieurs BLOGS
+  - Plusieurs 404
+  - Plusieurs BUTTONS
+  - Plusieurs NEWSLETTERS
+  - Plusieurs CONTACTS PAGE
+  - Plusieurs PARTENAIRES
+  - Plusieurs SLIDERTEAM
+  - Plusieurs TIMELINE
+  - Plusieurs GALERIES / PORTFOLIO
+- Il faut réaliser une palette de palette/typography.
+
+## Mise au point en groupe de maquettiste
+
+## En équipe de 2 :
+Réalisée une page statique / landing page sur le thème :
+- Thème personnel
+- Miel
+- Spa
+- Fleuriste
+- Mécanique
+- Sushi
+- Bière
