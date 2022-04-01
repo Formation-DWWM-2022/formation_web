@@ -91,6 +91,10 @@ https://www.justinguitar.com/
 
 ---
 # COURS - J3 - 01 / 04 / 2022
+## ---> Cours Ameliorer la lisibilite d'une page Web <---
+## ---> Cours Concevoir un formulaire efficace <---
+## ---> Cours Renforcer vos pages Web <---
+## ---> Cours Valoriser une video sur le Web <---
 
 ## EXO 13 : Refactorisation du site 
 Travail reprendre les étapes site : http://www.players-bar.com/
@@ -102,10 +106,6 @@ Travail reprendre les étapes site : http://www.players-bar.com/
   - Maquette graphique
   - Vous aidez de : utiles.rar
 
-## ---> Cours Ameliorer la lisibilite d'une page Web <---
-## ---> Cours Concevoir un formulaire efficace <---
-## ---> Cours Renforcer vos pages Web <---
-## ---> Cours Valoriser une video sur le Web <---
 ## EXO 14 : Plugin figma et les examples de la communauté
 - Plugin figma : https://www.figma.com/community/plugins
 - Examples de la communauté : https://www.figma.com/community/web_design 
