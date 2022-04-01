@@ -89,6 +89,9 @@ Vous aidez de : Cathering.zip
 ## EXO 12.2 : Maquettage compliquée du site 
 https://www.justinguitar.com/
 
+---
+# COURS - J3 - 01 / 04 / 2022
+
 ## EXO 13 : Refactorisation du site 
 Travail reprendre les étapes site : http://www.players-bar.com/
   - à partir de la navigation de la veille de faire d'abord le wireframing 
@@ -99,8 +102,6 @@ Travail reprendre les étapes site : http://www.players-bar.com/
   - Maquette graphique
   - Vous aidez de : utiles.rar
 
----
-# COURS - J3 - 01 / 04 / 2022
 ## ---> Cours Ameliorer la lisibilite d'une page Web <---
 ## ---> Cours Concevoir un formulaire efficace <---
 ## ---> Cours Renforcer vos pages Web <---
