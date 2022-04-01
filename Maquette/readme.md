@@ -119,7 +119,7 @@ TOP Plugin figma :
 - ...
 
 ---
-# COURS - J4 - 05 / 03 / 2022
+# COURS - J4 - 05 / 04 / 2022
 ## ---> Cours Aller plus loin avec Figma  <---
     Composants et instances (initiation au design systems)
     Les masques
