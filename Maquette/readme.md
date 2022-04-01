@@ -118,15 +118,28 @@ TOP Plugin figma :
 - https://blog.arcoptimizer.com/15-plugins-figma-pour-vous-aider-a-mieux-concevoir 
 - ...
 
+---
+# COURS - J4 - 05 / 03 / 2022
+## ---> Cours Aller plus loin avec Figma  <---
+    Composants et instances (initiation au design systems)
+    Les masques
+    Les groupes booléens
+    Prototyper pour rendre ses maquettes plus vraies que jamais
+    Partager son travail avec ses clients et ses collègues (en pause)
+    Collaborer avec les développeurs
+
+- Tuto du cours : https://fr.tuto.com/ux/gratuit-maitrisez-les-bases-de-figma,104881.html
+- Lien utiles : 
+  - Présentation de Figma de Grafikart : https://grafikart.fr/tutoriels/figma-presentation-1203
+  - OpenClassroom : https://openclassrooms.com/fr/courses/7342806-creez-une-maquette-pour-le-developpement-web 
+  - Jessica Trocmé : https://youtube.com/playlist?list=PLiSzSWhiCkPChSgMHFC7RSP8DECgmnQcw
+  
 ## EXO 15 : Portfolio
 Creer un portfolio en ligne ?
 - Exemple de Recherche : https://www.vincentjaques.ch/ ou https://loic-gosset.com/prestations-et-services ou https://www.nolancrochot.fr/
 
----
-# COURS - J4 - 05 / 03 / 2022
-- Composant
-- Prototypage
-- Finir "Player's Bar"
+## EXO 16 : Player's Bar
+- Finir tous simplement
 
 ---
 # Objectif Maquette
