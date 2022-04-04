@@ -1,3 +1,4 @@
+# COURS - J1 - 22 / 03 / 2022
 ## Installer LARP sur Windows -> Q/R
 http://larp.marcolavoie.ca/fr/default.htm
 
@@ -194,6 +195,9 @@ Les habitants de Zorglub paient l’impôt selon les règles suivantes :
 
 Le programme demandera donc l’âge et le sexe du Zorglubien, et se prononcera donc ensuite sur le fait que l’habitant est imposable.
 
+---
+# COURS - J2 - 23 / 03 / 2022
+
 ### Exercice 4.6
 Les élections législatives, en Guignolerie Septentrionale, obéissent à la règle suivante :
 
@@ -217,6 +221,9 @@ Ecrivez un algorithme qui a près avoir demandé un numéro de jour, de mois et 
 Cet exercice est certes d’un manque d’originalité affligeant, mais après tout, en algorithmique comme ailleurs, il faut connaître ses classiques ! Et quand on a fait cela une fois dans sa vie, on apprécie pleinement l’existence d’un type numérique « date » dans certains langages…).
 Il n'est sans doute pas inutile de rappeler rapidement que le mois de février compte 28 jours, sauf si l’année est bissextile, auquel cas il en compte 29. L’année est bissextile si elle est divisible par quatre. Toutefois, les années divisibles par 100 ne sont pas bissextiles, mais les années divisibles par 400 le sont. Ouf !
 Un dernier petit détail : vous ne savez pas, pour l’instant, exprimer correctement en pseudo-code l’idée qu’un nombre A est divisible par un nombre B. Aussi, vous vous contenterez d’écrire en bons télégraphistes que A divisible par B se dit « A dp B ».
+
+---
+# COURS - J3 - 24 / 03 / 2022
 
 ## Les boucles [10 min] -> Q/R
 https://grafikart.fr/tutoriels/boucles-tantque-444#autoplay
@@ -286,6 +293,9 @@ X et Y nous sont donnés par la formule suivante, si n est le nombre de chevaux 
 X = n ! / (n - p) !
 Y = n ! / (p ! * (n – p) !)
 NB : cet algorithme peut être écrit d’une manière simple, mais relativement peu performante. Ses performances peuvent être singulièrement augmentées par une petite astuce. Vous commencerez par écrire la manière la plus simple, puis vous identifierez le problème, et écrirez une deuxième version permettant de le résoudre.
+
+---
+# COURS - J4 - 25 / 03 / 2022
 
 ## Les Tableaux [9 min] -> Q/R
 https://grafikart.fr/tutoriels/tableaux-446#autoplay
@@ -390,6 +400,9 @@ Ecrivez un algorithme permettant, toujours sur le même principe, à l’utilisa
 ### Exercice 6.14
 Toujours et encore sur le même principe, écrivez un algorithme permettant, à l’utilisateur de saisir les notes d'une classe. Le programme, une fois la saisie terminée, renvoie le nombre de ces notes supérieures à la moyenne de la classe.
 
+---
+# PAS REALISER
+
 ### Exercice 7.1
 Ecrivez un algorithme qui permette de saisir un nombre quelconque de valeurs, et qui les range au fur et à mesure dans un tableau. Le programme, une fois la saisie terminée, doit dire si les éléments du tableau sont tous consécutifs ou non.
 Par exemple, si le tableau est :
@@ -424,6 +437,9 @@ Ecrivez l'algorithme qui recherche un mot saisi au clavier dans un dictionnaire.
 ### Exercice 7.6
 Écrivez un algorithme qui fusionne deux tableaux (déjà existants) dans un troisième, qui devra être trié.
 Attention ! On présume que les deux tableaux de départ sont préalablement triés : il est donc irrationnel de faire une simple concaténation des deux tableaux de départ, puis d'opérer un tri : comme quand on se trouve face à deux tas de papiers déjà triés et qu'on veut les réunir, il existe une méthode bien plus économique (et donc, bien plus rationnelle...) 
+
+---
+# COURS - J4 - 25 / 03 / 2022
 
 ## Les tableaux multidimensionnels [5 min] -> Q/R
 https://grafikart.fr/tutoriels/tableau-multidimension-447#autoplay
@@ -515,6 +531,9 @@ Soit un tableau T à deux dimensions [12, 8] préalablement rempli de valeurs nu
 L’ordinateur demande à l’utilisateur dans quelle case se trouve son pion (quelle ligne, quelle colonne). On met en place un contrôle de saisie afin de vérifier la validité des valeurs entrées.
 Ensuite, on demande à l’utilisateur quel mouvement il veut effectuer : 0 (en haut à gauche), 1 (en haut à droite), 2 (en bas à gauche), 3 (en bas à droite).
 Si le mouvement est impossible (i.e. on sort du damier ), on le signale à l’utilisateur et on s’arrête là . Sinon, on déplace le pion et on affiche le damier résultant, en affichant un « O » pour une case vide et un « X » pour la case où se trouve le pion.
+
+---
+# COURS - J5 - 28 / 03 / 2022
 
 ## Les fonctions [5 min] -> Q/R
 https://grafikart.fr/tutoriels/fonctions-448#autoplay
