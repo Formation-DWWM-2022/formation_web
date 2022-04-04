@@ -664,3 +664,12 @@ Il ne reste plus qu'à écrire la procédure principale, et l'affaire est dans l
 ````
 ## Boss final : le tri à bulle [11 min] -> Q/R
 https://grafikart.fr/tutoriels/tri-bulle-450#autoplay
+
+---
+# COURS - COMPLEMENTAIRE
+## Qu’est-ce qu’un algorigramme ?
+Un algorigramme, aussi appelé organigramme de programmation, est la représentation visuelle d’un algorithme. Il montre les enchaînements de décisions et d’opérations à faire pour un algorithme donné. Un algorithme est une suite de règles opératoires rigoureuses propre à un calcul. Les algorithmes sont le plus souvent utilisés lors de programmation informatique. 
+  
+Pile / file / liste chaine / arbre binaire ?
+Complexite : temps / mémoire ?
+Fonction récursive ?
