@@ -668,8 +668,84 @@ https://grafikart.fr/tutoriels/tri-bulle-450#autoplay
 ---
 # COURS - COMPLEMENTAIRE
 ## Qu’est-ce qu’un algorigramme ?
-Un algorigramme, aussi appelé organigramme de programmation, est la représentation visuelle d’un algorithme. Il montre les enchaînements de décisions et d’opérations à faire pour un algorithme donné. Un algorithme est une suite de règles opératoires rigoureuses propre à un calcul. Les algorithmes sont le plus souvent utilisés lors de programmation informatique. 
-  
-Pile / file / liste chaine / arbre binaire ?
-Complexite : temps / mémoire ?
-Fonction récursive ?
+    Un algorigramme, aussi appelé organigramme de programmation, est la représentation visuelle d’un algorithme. Il montre les enchaînements de décisions et d’opérations à faire pour un algorithme donné. Un algorithme est une suite de règles opératoires rigoureuses propre à un calcul. Les algorithmes sont le plus souvent utilisés lors de programmation informatique. 
+
+## Les avantages d’un algorigramme
+
+Pour qu’un algorithme marche, il faut procéder très rigoureusement et les erreurs ne sont pas permises. Pour créer un algorithme il faut donc être préparé et savoir exactement quels sont les tenants et les aboutissants de l’algorithme. Quand un programmeur écrit un algorithme compliqué il peut parfois se perdre dans ses idées. Pour éviter toutes erreurs, il fait un schéma de son algorithme : un algorigramme donc. Cela permet de visualiser facilement les blocs du programme, les boucles, les tests et les erreurs. De plus certains programmeurs peuvent revenir dessus et utiliser cet algorigramme pour comprendre et changer l’algorithme.
+
+Plusieurs programmes se font en équipe et pour éviter à chaque programmeur de marcher sur le territoire des autres, une visualisation de ce que chacun doit faire est primordiale. D’ailleurs, certains algorithmes peuvent se contredire et créer un « bug ». Faire un algorigramme peut éviter ce genre de problème. On peut voir très facilement si les algorithmes vont s’annuler entre eux. L’un des intérêts non négligeable de l’algorigramme, c’est qu’il est compréhensible peu importe sont langage de programmation. Donc peu importe si certains programmeurs ne sont pas à l’aise avec des types de langages spécifiques, un algorigramme, tout le monde le comprend. 
+
+Pour conclure, l’algorigramme a de nombreux avantages : il permet de mieux visualiser ces idées, de travailler plus facilement en équipe, d’éviter les erreurs potentielles et il est compréhensible par tous. Il est important, si ce n’est primordial, d’en créer un avant de commencer sa programmation. 
+
+## Symboles de base d'un algorigramme
+![bg right w:110%](images/blocs_algo.svg)
+
+## Les règles 
+Il existe différentes règles pour construire un algorigramme :
+
+    Il faut centrer l’algorigramme au centre de la feuille
+    Il faut que la lecture de l’algorigramme puisse se faire verticalement
+    Les lignes de liaisons entre les symboles ne doivent pas se couper. 
+    Une ligne de liaison doit toujours arriver sur le haut et au centre d’un symbole. 
+    Les commentaires sont à placer de préférence à droite et les renvois de branchement à gauche.              
+
+## Mots clés du langage
+![bg right w:110%](images/Mots_cles.png)
+
+## Structures de base
+![bg right w:110%](images/structure_linéaire.svg)
+![bg right w:110%](images/structure_tantque.svg)
+![bg right w:110%](images/blocs_pour.svg)
+![bg right w:110%](images/structure_sisinon.svg)
+
+
+## Qu’est-ce qu’une pile ?
+## Présentation
+
+Il s’agit d’une structure de données qui donne accès en priorité aux dernières données ajoutées. Ainsi, la dernière information ajoutée sera la première à en sortir.
+
+Les piles sont ce que l’on appelle un traitement des données LIFO (Last In First Out, ou dans la langue de Molière : dernier ajouté premier parti), très pratique lorsque nous aurons à utiliser en premier les dernières données ajoutées.
+
+    Pourquoi appeler cela une pile ? Car vous empilez les données comme vous le feriez avec des t-shirts dans votre armoire : la seconde vient "au-dessus" de la première.
+
+Les piles sont très utilisées sur les plateformes de streaming musical. Lorsque vous demandez à la plateforme de lire une chanson à la suite, elle va ajouter cette dernière tout en haut de la liste "en attente de lecture".
+
+Mais que se passe-t-il si nous avons besoin d’accéder non pas aux dernières données ajoutées, mais aux premières ? C’est exactement ce qui se passe lorsque vous constituez une liste de musique. Vous ajoutez peu à peu les chansons qui seront lues dans le même ordre : les premières chansons ajoutées sont les premières lues. Impossible de réaliser cela avec une pile. C’est pourquoi les files existent !
+
+## Qu’est-ce qu’une file ?
+## Présentation
+
+Une file (queue en anglais) est une structure de données dans laquelle on accède aux éléments suivant la règle du premier arrivé premier sorti, ou encore FIFO (First In First Out).
+
+Elle suit la même logique que les files d’attente (au McDrive, à Pôle Emploi...) : plus vous arrivez tôt et plus vous partez tôt !
+
+Prenons un exemple de notre vie courante. Vous vous rendez à la Poste, car vous avez reçu un colis. Vous prenez un ticket qui vous indique votre ordre dans la file d’attente. Vous comparez alors ce numéro avec celui qui s’affiche et vous avez une idée du nombre de personnes avant vous. Vous râlez : si seulement vous étiez arrivé·e plus tôt, vous auriez moins attendu ! Premier arrivé, premier servi (et premier parti !)...
+
+Les programmeurs l’utilisent dans des services de commande en ligne (commande de pizza sur Internet) ou dans les plateformes de gestion de la clientèle (le premier à avoir posé une question est le premier servi).
+
+## En résumé
+![bg right w:110%](images/14925237517103_FIFO-LIFO.png)
+
+Les piles (de type LIFO) s’utilisent lorsque vous devez traiter en priorité les dernières données arrivées. Nous retrouvons ce système dans les placards de notre cuisine ou dans notre frigo : ce qui est mis en avant est ce que l’on va consommer le plus vite ! C’est également le cas dans le flux d’actualité de Facebook ou de Twitter (la dernière information arrivée est la première que vous voyez).
+
+Les files (de type FIFO) s’utilisent lorsque vous devez traiter un flux de données par ordre d’arrivée. C’est le cas lorsque vous faites une todo list (votre première action est celle qui vous devez réaliser en priorité) ou que vous listez les bugs en attente de traitement.
+
+## Algorithme récursif
+Un algorithme récursif est un algorithme qui résout un problème en calculant des solutions d'instances plus petites du même problème1. L'approche récursive est un des concepts de base en informatique. Une fonction récursive est une fonction qui s'appelle elle-même dans sa définition ; on parle également de définition récursive ou d'appel récursif de fonction. 
+
+Une fois n’est pas coutume, utilisons un exemple du monde des mathématiques : les factorielles. Une factorielle d’un entier naturel n est le produit des nombres entiers strictement positifs inférieurs ou égaux à n.
+Elle est notée n! et se calcule ainsi : n! = (n-1)! * n.
+
+Exemple : la factorielle 10!
+
+1 × 2 × 3 × 4 × 5 × 6 × 7 × 8 × 9 × 10 = 3 628 800
+
+    def factorielle_recursive(n):
+        if n <= 1:
+            return 1
+        else:
+            return n*factorielle_recursive(n-1)
+
+## Complexité des algorithmes
+https://youtu.be/vzUK6YxkhB0

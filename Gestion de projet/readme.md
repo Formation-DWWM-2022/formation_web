@@ -1,20 +1,98 @@
 # COURS - J1 - 07 / 04 / 2022
+---
+# COURS - J2 - 13 / 04 / 2022
+
+## Une démarche structurée qui tient compte de vos idées
+## Gestion de projet opérationnelle
 ## Par où commencer la gestion de projet web ? 
-Gestion de projet opérationnelle :
-- Etape 1 : (Avant-pojet et besoin)
-    Analyse du besoin
-    Cahier des charges 
-    Chiffrage de projet
 
-- Etape 2 : (Pilotage stratégique)
-    Cadrage fonctionnel
-    Lotissement du projet
-    Planification
+# DOCUMENT :
+- Dossier de conception
+- Cahier des charges
+- Conception centrée sur l'utilisateur (UCD)
 
-- Etape 3 : (Suivi opérationnel)
-    Suivi de projet
-    Reunion et workshop
-    Briefs projet
+# Etape 1 : (Avant-pojet et besoin / Préparer la création de votre site internet / Évaluer le budget pour créer votre site internet) 
+## La phase d’analyse :
+- Préciser les attentes / besoins user finaux
+- Analyser contexte
+- Préciser utilité 
+- QCM 
+- Ordonner besoins fct importances / contraintes technique
+- Analyse du besoin
+- Quel objectif pour quel type de site internet ?
+
+## Cahier des charges (site ecommerce - refonte - basique):
+### Découper son projet en plusieurs prestations
+- Conception des maquettes
+- Intégration 
+- Développement du site
+- Maintenance 
+- Accompagnement WebMarketing
+## Le catalogue de produits
+- Définir des catégories de produits
+- Organiser la recherche de produits sur votre site
+- Détailler le rôle des fiches produits
+- Panier & tunnel de conversion
+- Options d’achats
+- Compte client
+- Le backoffice d’un site ecommerce
+- Mise à jour du contenu sur votre site
+- Interface & synchronisation avec des outils tiers
+
+## Chiffrage de projet (Devis) :
+- https://www.lafabriquedunet.fr/blog/devis-site-internet-les-pieges-a-eviter/
+- https://www.lafabriquedunet.fr/blog/evaluer-devis-creation-site-internet/
+
+- Combien coûte la création d’un site internet ?
+- Créer un site WordPress en 2022: combien ça coûte ? 
+- Combien coûte la création d’un site internet avec un logiciels de création de sites web (WordPress.com vs Weebly vs GoDaddy vs Strikingly vs Jimdo vs SITE123 vs Wix vs SimpleSite vs Squarespace vs Duda) --> Quels sont les risques ?
+
+- Combien ça coûte vraiment l’hébergement d’un site web ?
+- Combien ça coûte vraiment un nom de domaine ?
+- Combien coûte le référencement naturel ? -> Tarifs moyens & modèle économique des prestataires SEO
+- Combien coûte les coûts de maintenance d’un site internet ?
+- Prix de création d’un logo – Zoom sur 4 options ?
+- Combien coûte la traduction d'un site web ?
+
+- Tarifs des développeurs freelances dans les grandes villes de France ?
+- Tarifs des freelances web par compétences métier ? 
+- Tarifs des freelances web par langege de programmation ? (hopwork)
+- Tarifs des freelances web par pays ? (freelancer)
+- Freelance VS Agence web ? 
+
+## Benchmark
+
+# Etape 2 : (Pilotage stratégique - La phase de conception)
+- Maquette / Prototype
+- Recommandation ergonomique
+- Conception
+- Itération pour enrichir / finaliser
+- Cadrage fonctionnel
+- Lotissement du projet
+- Planification
+- Digitaliser votre entreprise 
+    - 5 solutions de paiement en ligne
+    - 5 solutions de logistique
+    - 5 outils de Click & Collect
+    - 5 places de marché
+    - 5 outils de communication interne
+    - 5 solutions de visioconférence
+    - 5 outils de gestion de projet
+    - 5 outils de gestion des planning & des rendez-vous
+## Persona
+## Equipe
+
+# Etape 3 : (Suivi opérationnel - Promouvoir votre site internet)
+- Test utilistauer
+- Reunion et workshop / Briefs projet / Suivi de projet
+- valider satisfaction
+- Planifier pas à pas le lancement de votre site web
+- Estimer le coût d’un campagne emailing
+- Améliorer votre référencement avec les réseaux sociaux
+- Choisir ses indicateurs clés de performance
+- https://www.lafabriquedunet.fr/blog/canaux-acquisition-trafic-web/
+
+
 
 Cycle de projet :
 - Genèse du projet
@@ -46,20 +124,36 @@ Cycle de projet :
 
 
 ---
-# COURS - J2 - 13 / 04 / 2022
+# Jeux de role = J3 - 14 / 04 / 2022 ET J4 - 15 / 04 / 2022
+# Objectif Gestion de projet + Maquettage
 
----
-# COURS - J3 - 14 / 04 / 2022
+## Création d'un agence web fictive
+- Nom d'entreprise - Logo - Localisation - Prestataire dev ou Prestataire UI/UX ou les 2 ?
+- Equipe de travail (Le Chef de projet, Le Développeur, Le Directeur Artistique... )
+- Maquette préexistant ? Portfolio ?
 
----
-# COURS - J4 - 15 / 04 / 2022
+## Entreprise porteur du projet (En équipe de 2)
+- Voir cahier des charges en fonction de chaque theme 
+    - Groupe 1 (Miel) :
+    - Groupe 2 (Spa) :
+    - Groupe 3 (Fleuriste) :
+    - Groupe 4 (Mécanique) :
+    - Groupe 5 (Sushi) :
+    - Groupe 6 (Bière) :
 
----
-# Objectif Maquette
-- Il faut réaliser Zoning
-- Il faut réaliser Wireframing
-- Il faut réaliser la planche de style
+## Planning de jeux de role
+- Phase 1 : (reu)
+    - Présentation du client / objectif 
+- Phase 2 : Réalisation du brief (reu)
+- Phase 3 : Appel d'offre - Négociation (reu)
+- Phase 4 : La phase de conception (reu)
+- Phase 5 : Réalisation (reu - reu - reu)
+    - Test utilisateur
+    - Client chiant
+- Phase 6 : Promouvoir votre site internet (reu)
+- Phase 7 : Promouvoir votre site internet (reu)
 
+## Liste des choses à faire en maquettage
 - Il faut réaliser des petits modules/composant animer de base par exemple :
   - POPUPS cookies [RGPD]
   - NAVBAR / MENUSCROLL
@@ -78,16 +172,3 @@ Cycle de projet :
   - GALERIES / PORTFOLIO
 
 
-## En équipe de 2 :
-Réalisée une page statique / landing page sur le thème :
-- Groupe 1 (Miel) :
-
-- Groupe 2 (Spa) :
-
-- Groupe 3 (Fleuriste) :
-
-- Groupe 4 (Mécanique) :
-
-- Groupe 5 (Sushi) :
-
-- Groupe 6 (Bière) :
