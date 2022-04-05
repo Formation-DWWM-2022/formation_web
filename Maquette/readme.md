@@ -106,6 +106,9 @@ Travail reprendre les étapes site : http://www.players-bar.com/
   - Maquette graphique
   - Vous aidez de : utiles.rar
 
+---
+# COURS - J4 - 05 / 04 / 2022
+
 ## EXO 14 : Plugin figma et les examples de la communauté
 - Plugin figma : https://www.figma.com/community/plugins
 - Examples de la communauté : https://www.figma.com/community/web_design 
@@ -118,8 +121,6 @@ TOP Plugin figma :
 - https://blog.arcoptimizer.com/15-plugins-figma-pour-vous-aider-a-mieux-concevoir 
 - ...
 
----
-# COURS - J4 - 05 / 04 / 2022
 ## ---> Cours Aller plus loin avec Figma  <---
     Composants et instances (initiation au design systems)
     Les masques
