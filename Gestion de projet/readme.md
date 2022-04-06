@@ -125,3 +125,24 @@ Cycle de projet :
 
 ---
 # Jeux de role = J3 - 14 / 04 / 2022 ET J4 - 15 / 04 / 2022
+
+https://pf.vos-competences.com/manager/error_redirect.php?url=%2Fapprenant%2F&err=2
+https://www.messenger.com/t/100004749150937
+https://keep.google.com/u/0/#NOTE/1He9TA-N53zunpByxyWSRot1yW98TtMXdTSK0ROUoR-vU6TH6ykv2TRajHABadA
+https://www.fastmail.com/mail/Bo%C3%AEte_de_r%C3%A9ception/T8e5c8c3077a4c219.Me957066aa0160efe4a4f539e?u=29c94039
+https://docs.google.com/forms/u/0/
+https://www.agence-kn.fr/le-process-complet-de-la-creation-dun-site-internet/
+http://www.iafactory.fr/service-ux/consulting-ux/gestion-de-projet-web-par-ou-commencer.php
+https://www.enzoci.com/etapes-conception-site-web.php
+https://www.lafabriquedunet.fr/blog/exemple-cahier-des-charges-site-internet/
+https://www.lafabriquedunet.fr/conseils/
+https://www.lafabriquedunet.fr/creer-site-internet/
+https://www.lafabriquedunet.fr/conseils/preparer-projet-web/rediger-brief-creation-site-internet/
+https://www.lafabriquedunet.fr/conseils/preparer-projet-web/creer-site-internet-maintenant/
+https://www.lafabriquedunet.fr/conseils/developpement-maintenance-site-web/suivi-developpement-site-internet-agence-web/
+https://www.lafabriquedunet.fr/creation-site-vitrine/articles/exemples-design-wix/
+https://www.lafabriquedunet.fr/blog/wix-avis/
+https://www.lafabriquedunet.fr/blog/hebergements-francais-comparatif-hebergeurs-web/
+https://www.lafabriquedunet.fr/refonte-site-internet/
+https://www.lafabriquedunet.fr/thematique/cahier-charges-site-web/
+https://www.lafabriquedunet.fr/creer-site-internet/cahier-des-charges-web/modele-cahier-charges-application-web/
