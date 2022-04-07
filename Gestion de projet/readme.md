@@ -97,21 +97,46 @@
 - La phase de conception
 
 ## TP N°3 :
+    Q1 : Qu'est-ce que le cadrage fonctionnel ou cadrage projet ? (Lister et expliquer | ex : Les besoins identifiés via l'analyse du besoin. ...)
+
+    Q2 : Qui et comment est fixée la planification ? (Definition et une explication simple)
+
+    Q3 : Qu'est-ce qu'un diagramme de Gantt ? (Definition et une explication simple)
+
+    Q4 : Qu'elles sont les outils utilisés par le chef de projet pour communiquer et planifier  ? (Lister et expliquer | ex : outils de communication interne ...)
+
+    Q5 : Qu'elles sont les différences entre la conception fonctionnelle, la conception éditoriale et la conception graphique ? (Definition et une explication simple)
+
+    Q6 : Est-ce que les dev participe à cette étape ? (Definition et une explication simple)
+
+    Q7 : En quoi consiste la conception centrée sur l'utilisateur [UCD] ? (Definition et une explication simple)
+
+    Q8 : Qu'est-ce qu'une fiche persona ? (Definition et une explication simple)
+
+    Q9 : Combien de phases d'aller-retours doit être faite entre le client et agence ? (Definition et une explication simple)
 
 # Etape 4 : Le développement / production
 ## TP N°4 : 
+    Q1 : Comment faire un suivi de projet efficace ? (Definition et une explication simple)
+
+    Q2 : En quoi consiste un workshops ? (Definition et une explication simple)
+
+    Q3 : Qu'est-ce qu'un site de « préproduction » ou « version bêta » ? (Definition et une explication simple)
+
+    Q4 : Quel est le temps moyen de développement d'un site Internet ? (Definition et une explication simple)
 
 # Etape 5 : Le recettage & mise en ligne du site 
 - Suivi opérationnel 
 - Promouvoir votre site internet
 
 ## TP N°5 : 
+    Q1 : Quel element, il est important de tester à la suite de la phase de production d'un site ? (Lister et expliquer | ex : La vitesse du site ou responsive ...)
+
+    Q2 : Comment faire un plan de communication solide pour la mise en ligne de son nouveau site ? Quel sont les canaux et leviers de communication ? (Lister et expliquer | ex : Publicité digitale ...)
 
 # Etape 6 : La maintenance et l’optimisation post mise en ligne
-## TP N°6 : 
 
 # Etape 7 : Le SEO (Search Engine Optimization)
-## TP N°7 : 
 
 ---
 # Jeux de role = J3 - 14 / 04 / 2022 ET J4 - 15 / 04 / 2022

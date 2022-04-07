@@ -42,7 +42,7 @@ Il n’existe pas une seule et unique méthode de gestion de projet, loin de là
     
     - La méthodologie de la chaîne critique (Critical Chain Project Management, CCPM), qui consiste à porter le focus au départ sur les ressources nécessaires pour accomplir les différentes tâches du projet. Avec cette méthodologie, on commence par construire un emploi du temps, par identifier les tâches les plus importantes (la chaîne critique) et par allouer les ressources à ces tâches prioritaires.
 
-    * La méthodologie PMI / PMBOK. Certaines entreprises utilisent ce qu’elles appellent la méthodologie PMI ou PMBOK. Il s’agit, dans cette méthode, de décomposer la gestion du projet en cinq étapes qui sont les suivants :
+    - La méthodologie PMI / PMBOK. Certaines entreprises utilisent ce qu’elles appellent la méthodologie PMI ou PMBOK. Il s’agit, dans cette méthode, de décomposer la gestion du projet en cinq étapes qui sont les suivants :
     * Le démarrage, ou phase d’initialisation, dont l’objectif est de définir le projet et de le formaliser (ressources nécessaires, compétences requises, constitution de l’équipe…).
     * La planification, qui consiste à clarifier les objectifs et à créer le plan d’actions (et la feuille de route) permettant d’atteindre ces objectifs.
     * L’exécution, qui est la phase de réalisation des actions planifiées et des actions correctives éventuelles.
@@ -260,8 +260,11 @@ En principe, le cadrage doit permettre de disposer d'une vision générale des g
     Processus de commande.
     Espace client.
     Espaces transversaux.
+    Solution de paiement en ligne.
+    Solutions de logistique
+    Outils de Click & Collect
 
-Le chef de projet est en mesure de projeter la mise en oeuvre par étape. Le projet sur des groupes fonctionnelles permet de fixer la planification du projet sur l'avancement effectif de sa conception - production : ce sont des étapes concrètes qui matérialisent des parties du support à produire. C'est le diagramme de Gantt qui sera utilisé pour établir le planning du projet. Chaque groupe est présenté sur un axe des temps. Pour assurer l'avancement opérationnel du projet, le chef de projet établira des briefs pour orienter la production. Chaque jour, le chef de projet est amené à faire circuler les informations et à piloter les travaux de conception production.
+Le chef de projet est en mesure de projeter la mise en oeuvre par étape. Le projet sur des groupes fonctionnelles permet de fixer la planification du projet sur l'avancement effectif de sa conception - production : ce sont des étapes concrètes qui matérialisent des parties du support à produire. C'est le diagramme de Gantt qui sera utilisé pour établir le planning du projet. Chaque groupe est présenté sur un axe des temps. Pour assurer l'avancement opérationnel du projet, le chef de projet établira des briefs pour orienter la production. Chaque jour, le chef de projet est amené à faire circuler les informations et à piloter les travaux de conception production avec des outils de communication interne, des solutions de visioconférence ou des outils de gestion des planning et de rendez-vous.
 
 Avant le démarrage du développement du site, il est important de valider un certain nombre de points avec votre agence web. Ces points peuvent être précisés dans la proposition de l’agence ou faire l’objet d’échanges au départ. Attention à garder une trace écrite des obligations du prestataire notamment en matière de périmètre fonctionnel et de timing.
 
@@ -272,35 +275,15 @@ Avant le démarrage du développement du site, il est important de valider un ce
     - Interlocuteurs : Dans la plupart des cas, l’interlocuteur principal pour le suivi du projet dans l’agence est le chef de projet. Dans certaines petites agences, cela peut être l’un des fondateurs, qui joue alors aussi le rôle de commercial, voire l’architecte technique ou le développeur principal. En tout cas, il est vivement conseillé de rencontrer l’interlocuteur principal avant de signer.
 
 La phase de conception s'articule autour de la conception fonctionnelle, la conception éditoriale, ainsi que la conception graphique. La conception est une phase de recherche dans laquelle tous les concepteurs cherchent à trouver des solutions de conception.
-Ces solutions de conception se matérialisent par des principes d'arborescence sur le plan éditorial, le maquettage de quelques écrans clés au travers des wireframes pour la conception fonctionnelle, et l'esquisse d'une ligne graphique désignée par le directeur artistique. A ce stade, on fixe les éléments structurants du dispositif digital et il n'estpas encore question de produire du code.
+Ces solutions de conception se matérialisent par des principes d'arborescence sur le plan éditorial, le maquettage de quelques écrans clés au travers des wireframes pour la conception fonctionnelle, et l'esquisse d'une ligne graphique désignée par le directeur artistique. A ce stade, on fixe les éléments structurants du dispositif digital et il n'est pas encore question de produire du code.
 
 Les méthodes UX présupposent un cadre dans lequel l'expérience utilisateur est prise en compte à chacune des étapes du projet. La méthode de design d'expérience utilisateur suppose un cycle de conception centrée sur les utilisateurs finaux. 
 
-L'identification des scénarios d'utilisation critiques et  création de fiches persona pour les profils d'utilisateurs les plus importants. Les solutions de conception sont testées et évaluées avec des usagers représentatifs de l'audience du dispositif digital (test de perception).
-
-- Zoning / Wireframing
-- Recommandation ergonomique
-- Conception
-- Itération pour enrichir / finaliser
-- Cadrage fonctionnel
-- Lotissement du projet
-- Planification
-- Arborescence
-- Digitaliser votre entreprise 
-    - 5 solutions de paiement en ligne
-    - 5 solutions de logistique
-    - 5 outils de Click & Collect
-    - 5 places de marché
-    - 5 outils de communication interne
-    - 5 solutions de visioconférence
-    - 5 outils de gestion de projet
-    - 5 outils de gestion des planning & des rendez-vous
-- Equipe de travail
+L'identification des scénarios d'utilisation critiques et création de fiches persona pour les profils d'utilisateurs les plus importants. Les solutions de conception sont testées et évaluées avec des usagers représentatifs de l'audience du dispositif digital (test de perception). Ainsi, définir son cœur de cible a l’air évident mais par expérience, nous avons constaté qu’elle ne l’ai pas toujours pour tous nos clients qui ont parfois des difficultés à décrire précisément les caractéristiques de leur cible. Commençons donc par définir un groupe cible. Découvrez à qui et pour qui vous allez vendre vos produits. Quel est leur âge ? Sont-ils des hommes ou des femmes ? De quelle CSP sont-ils ? Sont-ils clients de longue date ou novice avec votre produit ? Si votre groupe cible s'avère être tout sauf homogène, vous pouvez envisager de les catégoriser. Par exemple, si vous ciblez principalement des hommes, ils peuvent être divisés en experts et profanes. Créer des personas nécessite une certaine pratique ou au moins une bonne base théorique. Les personas aident à mieux saisir le cœur de cible. Il est possible d’avoir déjà défini des utilisateurs cibles comme des hommes d'âge moyen avec beaucoup ou peu d'expérience préalable. Mais ce n'est pas assez pour une démarche UCD. Pour réellement créer une conception centrée sur les futurs utilisateurs, il est important d’apprendre à les connaître « en personne ». Cela peut paraître idiot, mais cela vaut la peine d’essayer. Concevoir pour Paul, 32 ans, qui ne peut pas attendre la sortie de produits innovants avec des nouvelles fonctionnalités, nécessite une approche complètement différente de la conception pour Jeanne, 39 ans, qui préfère ne pas être impliqué avec les aspects mais le doit pour professionnel. S’inspirer de la vie via une liste de caractéristiques utilisateurs vous rendra la tâche plus simple pour concevoir pour votre cœur de cible. Essayez de définir les personas de manière aussi détaillée que possible, mais n’incluez que les informations pertinentes en tant qu'utilisateur. Par exemple, n'hésitez pas à mentionner si votre client aime le sport et quel sport, si l'activité physique est en quelque sorte pertinente pour votre produit. Vous pouvez également utiliser des caractéristiques plus indirectes comme les voyages, la mode, le bricolage… Alors que les scénarios d'utilisation décrivent la situation globale dans laquelle les utilisateurs interagissent avec votre produit, des cas d'utilisation décrivent des actions plus spécifiques. Habituellement, un cas d'utilisation peut être divisé en tâches simples que l'utilisateur doit remplir pour atteindre un objectif défini. Ces tâches peuvent être aussi précises que (1) cliquez sur un bouton de menu, (2) sélectionnez l'un des éléments du menu déroulant, et (3) cliquez sur l'élément sélectionné.
 
 S’en suit ensuite une phase d’aller-retours. A l’Agence digitale, les aller-retours sont illimités jusqu’à entière satisfaction du client.
 
 ---
-
 # Etape 4 : Le développement / production
 La production s'appuie sur la phase de conception et la validation des principes structurants du dispositif digital pour lancer la réalisation complète du projet. En matière éditorial, il s'agira d'écrire les contenus. La production graphique aura pour objectif de décliner tous les écrans de la ligne graphique (Prototypage). Le développement front-end et l'intégration sont réalisés sur la base des maquettes graphiques et en suivant le tracé régulateur fixé par les wireframes. Un projet numérique implique forcément une phase de programmation. Les développements informatiques peuvent faire l'objet d'une phase spécifique en fonction de la charge de travail. Les développements informatiques constituent une partie de la production. 
 
@@ -315,24 +298,46 @@ Le chef de projet est un maitre dans l'organisation des réunions qui peuvent ê
 Le chef de projet est le garant de la communication tout au long de la chaine projet et les réunions constituent un outil fondamental.
 Pour les parties plus créatives, on pourra mettre en place des ateliers de conception ou des ateliers de création : on parle de workshops. Ce sont des formats de réunion où l'animateur va créer des activités pour favoriser le travail en équipe et le processus de création.
 
-Dès lors qu’une page webdesignée est validée par le client, celle-ci passe en « développement« . L’agence web fournit alors au client une url de « pré-production » ou « Version beta ». Ainsi, le client peut suivre, en temps réel, l’avancée de la construction et de la création de son site Internet. Ce site de pré-production n’est pas indexé par Google et est hébergé par l’agence digitale sur un serveur dédié, qui sert à la fois à la création du site et à sa maintenance.
+Dès lors qu’une page webdesignée est validée par le client, celle-ci passe en « développement« . L’agence web fournit alors au client une url de « pré-production » ou « version beta ». Ainsi, le client peut suivre, en temps réel, l’avancée de la construction et de la création de son site Internet. Ce site de pré-production n’est pas indexé par Google et est hébergé par l’agence digitale sur un serveur dédié, qui sert à la fois à la création du site et à sa maintenance.
 
 Le temps de développement d’un site Internet varie considérablement en fonction de nombre et de la complexité des fonctionnalités retenues lors du dossier technique. Cependant, nous partons du principe qu’il faut 3 à 5 semaines pour un site vitrine et 5 à 8 semaines pour un site eCommerce.
 
 # Etape 5 : Le recettage & mise en ligne du site (Suivi opérationnel - Promouvoir votre site internet)
-La phase de recette consiste à tester le dispositif digital. On parle de débuggage. Corriger les problèmes techniques, ajuster les dysfonctionnements sur le plan du design, corriger les fautes d'orthographes et de grammaires. Par extension, la phase de test considère également un ensemble de tests techniques.
+La phase de recette consiste à tester le dispositif digital. On parle de débuggage. Corriger les problèmes techniques, ajuster les dysfonctionnements sur le plan du design, corriger les fautes d'orthographes et de grammaires. Par extension, la phase de test considère également un ensemble de tests techniques afin de valider la satisfaction du client et des utilisateurs.
+
+Le verrouillage du contenu et du code est nécessaire avant de lancer la phase de test du nouveau site web. Voici les éléments sur lesquels il est important de porter votre attention.
+- La vitesse du site (à savoir la durée nécessaire au chargement de chacune des pages) influe sur l'expérience utilisateur, sur le taux de conversion et même sur le classement dans les résultats de recherche depuis que Google a ajouté ce critère dans son algorithme de référencement en 2010. Des outils de test tels que Website Grader permettent de se faire une idée générale de la vitesse de chargement d'un site web.
+- Il est important de vérifier que toutes les images du site sont compressées afin d'accélérer la vitesse de chargement des pages. Veillez également à ce que les images contiennent du texte alternatif pour que les moteurs de recherche puissent les identifier et les indexer. Des outils tels que TinyPNG permettent de réduire la taille des fichiers. Vérifiez également que la qualité et la taille des images sont cohérentes.
+- Chaque page du site web doit inclure une balise titre et une méta-description uniques. Bien que tout le contenu du site doive être optimisé pour le SEO, les éléments sur lesquels il est essentiel de se concentrer sont les titres de page, les méta-descriptions, les titres des paragraphes, le corps du texte, le titre des images, leur texte alternatif, ainsi que les URL.
+- L'algorithme Google offre désormais un meilleur classement aux sites optimisés pour les mobiles et pénalise ceux qui ne le sont pas. Par ailleurs, les entreprises dont le site web utilise un design responsive génèrent plus de leads et se démarquent des sociétés qui n'ont pas recours à ce procédé.
+- Tous les formulaires du site doivent suivre une séquence logique. Vérifiez, par exemple, qu'une page de remerciement s'affiche ou qu'un e-mail automatique est envoyé lorsqu'un utilisateur soumet un formulaire.
+- Assurez-vous également que la plateforme de votre nouveau site internet stocke toutes les soumissions de formulaire dans une base de données et que votre logiciel d'analytics les enregistre comme conversion.
+- Tous les liens du site web doivent renvoyer vers la page prévue. Cette consigne est particulièrement importante si vous restructurez votre site.
+- Assurez-vous également que votre page d'erreur (page 404) est prête.
+- Le faux-texte (Lorem Ipsum) est l'exemple parfait du type de contenu que les équipes oublient parfois de remplacer.
+- Il peut arriver, par exemple, qu'une erreur de code modifie la police d'une page. Il est donc indispensable de s'assurer que la mise en forme est cohérente sur l'ensemble du site.
+- Le certificat SSL permet de chiffrer le site web afin d'empêcher le piratage de vos données. Non seulement il tranquillise les visiteurs de votre site, mais il améliore aussi le classement dans les résultats de recherche, car la conformité avec la norme SSL fait partie des critères pris en compte dans l'algorithme Google. Si le site web est sécurisé et qu'il comprend un certificat SSL, sa migration vers le nouveau serveur est possible. Dans le cas contraire, il faudra acheter, configurer et installer un nouveau certificat SSL. Cette procédure peut durer jusqu'à deux semaines. Il est donc essentiel de prévoir le temps nécessaire avant le lancement.
+- Un plan de site est un fichier de code stocké sur un serveur web et qui répertorie toutes les URL pertinentes formant la structure du nouveau site internet. Il joue un rôle déterminant dans l'optimisation pour les moteurs de recherche, car il aide les robots d'indexation à effectuer leur tâche de façon plus pertinente.
+- Faire appel à l'équipe juridique permet d'éviter les problèmes éventuels liés aux droits d'auteur, aux marques déposées ou autres. Cette équipe joue également un rôle déterminant dans la rédaction de la politique de confidentialité de votre site, qui détermine la façon dont les informations sont collectées et exploitées.
 
 Et dans le cadre de la méthodologie du design d'expérience utilisateur, un ensemble d'études spécifiques (tests utilisateurs) sont réalisées pour évaluer les qualités et les performances du dispositif sur les plans UX et ergonomiques du dispositif digital. Les données issues de ces tests sont analysées pour entamer un nouveau cycle de conception et de correction. On parle de processus d'amélioration continue. A noter que la démarche UX s'infiltre dans toutes les étapes du projet et pas juste en phase d'évaluation.
 
-- Valider la satisfaction
-- Planifier pas à pas le lancement de votre site web
+Vous avez réussi à concrétiser votre projet de création de site web, bravo ! Mais sans un plan de communication solide pour accompagner son lancement, vos clients et prospects n’auront pas connaissance de votre projet. La première étape consiste à établir la stratégie que vous allez adopter. Concrètement, vous devez donc déterminer les moyens que vous allez engager pour atteindre vos objectifs. Pour structurer votre réflexion : Quel budget êtes-vous prêt à investir ?
+En fonction de votre activité et surtout de votre audience cible, vous allez devoir prioriser certains canaux. Notre ressource liste les canaux et leviers de communication qui vous intéresseront ainsi que les principaux postes de dépense à prévoir pour chacun d’entre eux :
+
+    Relation presse – Il s’agit de l’ensemble des actions effectuées à destination de la presse et des journalistes afin d’obtenir une couverture favorable pour le lancement de votre site web. 
+    Publicité digitale – On parle ici des publications sponsorisées sur les réseaux sociaux et Google Adwords pour apparaître en priorité dans les résultats de recherche Google. 
+    Publicité offline – Les canaux de communication « traditionnels ».
+    Referral Marketing – Le « marketing de recommandation » en français est une stratégie de marketing digital qui consiste à référencer votre activité auprès d’acteurs clés du secteur. Cela se concrétise donc par la rédaction d’articles invités sur des sites de référence pour votre activité par exemple ou l’inscription aux annuaires de votre corporation.
+    Animation Réseaux sociaux – Impossible d’ignorer cette partie aujourd’hui, vos réseaux sociaux doivent être vivants afin de créer et d’engager votre communauté sur vos différents comptes.
+
+Maintenant que vous avez une meilleure idée des canaux que vous allez privilégier pour atteindre votre audience cible ainsi que du budget que vous allez allouer à ces différents leviers, vous devez réfléchir aux ressources humaines que cela va impliquer. En effet, vous ne serez pas en mesure de tout faire tout seul, vous allez manquer de temps et, certainement de compétences sur certains aspects de la communication digitale.
+Maintenant que vous savez quel budget vous allez allouer à chaque poste de dépense et qui dans votre équipe, sera responsable de chaque tâche, vous devez planifier ces actions dans le temps.
 
 # Etape 6 : La maintenance et l’optimisation post mise en ligne
 Le projet est mis en ligne et on procède aux premières analyses. La communication, l'animation et les techniques webmarketing seront à l'oeuvre pour dynamiser le dispositif, au lancement, et tout au long de la durée de vie du projet.
 
-- Assistance technique
-- Correction des anomalies
-- Mises à jour du CMS et des modules
+En théorie, une fois mis en ligne, le nouveau site internet doit être parfait. En pratique, même les sites les mieux préparés nécessitent souvent quelques mises à jour. Plutôt que de passer un temps considérable à concevoir un site web qui n'aura peut-être pas l'effet escompté, il est préférable de commencer par en publier une version initiale stable et fiable, puis de l'améliorer au fur et à mesure. Créer un document répertoriant toutes les améliorations à apporter après le lancement vous permettra de les réaliser à mesure que vous découvrirez comment les visiteurs interagissent avec le site. Il faudra aussi continuer de réaliser une assistance technique en continu, la correction des anomalies et mettre à jour du CMS et des modules
 
 # Etape 7 : Le SEO (Search Engine Optimization)
 A cela s'ajoute les expertises transversales, telles que le SEO (search engine optimization) ainsi que les méthodologies d'évaluation de l'expérience utilisateur. Ces expertises métier sont à l'oeuvre à chaque étape...
@@ -341,7 +346,6 @@ A cela s'ajoute les expertises transversales, telles que le SEO (search engine o
 - Améliorer votre référencement avec les réseaux sociaux
 - Choisir ses indicateurs clés de performance
 - https://www.lafabriquedunet.fr/blog/canaux-acquisition-trafic-web/
-
 
 Une méthodologie projet bien orchestrée établit des objectifs clairs en matière de délais, de budget et de qualité. Ces 3 piliers sont les bases de la gestion de projet stratégique et opérationnelle.
 Une bonne gestion de projet est focalisée sur le dispositif digital et non sur la production de livrables. Les livrables restent des traces de la prestation et participent à faire avancer le projet pas à pas. Il faut toutefois éviter les projets centrés sur les livrables qui tendent à privilégier la documentation projet à l'avancement réel de la fabrication du site internet !
