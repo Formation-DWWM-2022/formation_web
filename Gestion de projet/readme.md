@@ -7,12 +7,12 @@
 ## -> Cours : Histoire & définition de la gestion de projet web <-
 
 ## Création de groupe (par 2)
-- Groupe 1 :
-- Groupe 2 :
-- Groupe 3 :
-- Groupe 4 :
-- Groupe 5 :
-- Groupe 6 :
+- Groupe 1 : Amandine / Laetitia
+- Groupe 2 : Bruno / Franck
+- Groupe 3 : David / Maxime
+- Groupe 4 : Baptiste / François
+- Groupe 5 : Ousmane / Alexis
+- Groupe 6 : Lucas / Olivier
 
 ## TP N°0
     Q1 : Qu'elle est le rôle du chef de projet web ?  (Definition et une explication simple)
