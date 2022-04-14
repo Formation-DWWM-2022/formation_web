@@ -149,12 +149,12 @@
 
 ## Entreprise porteur du projet (En équipe de 2)
 - Voir cahier des charges en fonction de chaque theme 
-    - Groupe 1 (Miel) :
-    - Groupe 2 (Spa) :
-    - Groupe 3 (Fleuriste) :
-    - Groupe 4 (Mécanique) :
-    - Groupe 5 (Sushi) :
-    - Groupe 6 (Bière) :
+    - Groupe 1 (Miel) : Amandine 10k
+    - Groupe 2 (Spa) : Francois 20k 17k
+    - Groupe 3 (Fleuriste) : Maxime 15k500
+    - Groupe 4 (Mécanique) : Lucas 6k
+    - Groupe 5 (Sushi) : Alexis 15k
+    - Groupe 6 (Bière) : Bruno 20k 14k 
 
 ## Planning de jeux de role
 - Phase 1 : (reu)
