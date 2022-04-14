@@ -1,6 +1,6 @@
 # Désoler pour les fautes de grammaire et d'orthographe de ce cours/TP
 
-# COURS = J1 - 07 / 04 / 2022 ET J2 - 13 / 04 / 2022
+# COURS = J1 - 07 / 04 / 2022
 
 # Gestion de projet en général
 
@@ -85,6 +85,8 @@
 
     Q12 : Quels sont les outils à utiliser réussir le benchmark des sites concurrents ? (Lister et expliquer | ex : Google PageSpeed tools ...)
 
+## COURS :  J2 - 13 / 04 / 2022
+
 # Etape 2 : Devis
 ## TP N°2 : 
     Q1 : Quel sont les pieges a éviter lors de la réalisation d'un devis ? (Lister et expliquer | ex : Les coûts cachés du TJM dans un devis ...)
@@ -139,7 +141,7 @@
 # Etape 7 : Le SEO (Search Engine Optimization)
 
 ---
-# Jeux de role = J3 - 14 / 04 / 2022 ET J4 - 15 / 04 / 2022
+# Jeux de role = J2 - 13/04/2022 ET 14 / 04 / 2022 ET J4 - 15 / 04 / 2022
 # Objectif Gestion de projet + Maquettage (Jeux de role)
 
 ## Création d'un agence web fictive
@@ -149,24 +151,37 @@
 
 ## Entreprise porteur du projet (En équipe de 2)
 - Voir cahier des charges en fonction de chaque theme 
-    - Groupe 1 (Miel) : Amandine 10k
-    - Groupe 2 (Spa) : Francois 20k 17k
-    - Groupe 3 (Fleuriste) : Maxime 15k500
-    - Groupe 4 (Mécanique) : Lucas 6k
-    - Groupe 5 (Sushi) : Alexis 15k
-    - Groupe 6 (Bière) : Bruno 20k 14k 
+    - Groupe 1 (Miel) : Amandine Laetitia - 10k
+    - Groupe 2 (Spa) : Francois Baptiste - 20k à 17k
+    - Groupe 3 (Fleuriste) : Maxime David - 15k500
+    - Groupe 4 (Mécanique) : Lucas Olivier - 6k
+    - Groupe 5 (Sushi) : Alexis Ousmane - 15k
+    - Groupe 6 (Bière) : Bruno Franck - 20k à 14k 
 
 ## Planning de jeux de role
-- Phase 1 : (reu)
-    - Présentation du client / objectif 
-- Phase 2 : Réalisation du brief (reu)
-- Phase 3 : Appel d'offre - Négociation (reu)
-- Phase 4 : La phase de conception (reu)
-- Phase 5 : Réalisation (reu - reu - reu)
-    - Test utilisateur
-    - Client chiant
-- Phase 6 : Promouvoir votre site internet (reu)
-- Phase 7 : Promouvoir votre site internet (reu)
+- Phase 1 : (reu) : Présentation du client / objectif + 1er appel d'offre
+- Phase 2 : (reu) : Présentation de l'agence web / méthode de travail
+- Phase 3 : (reu) : Benchmark concurrentiels ?
+- Phase 4 : Réalisation d'un devis ?
+- Phase 5 : (reu) : Point sur analyse
+---
+- Phase 5 : Réalisation d'un brief de projet
+- Phase 6 : (reu) : kick-off
+- Phase 7 : Réalisation d'un cadrage fonctionnel
+- Phase 8 : Fixation d'un plannification / diagramme de Gantt
+- Phase 9 : (reu avec CP) : Présentation de la phase de conception / engagement sur les delais / interlocuteur / temps de recettage / points d'étapes ?
+- Phase 10 : (reu avec GR) : Création de fichie persona 
+- Phase 11 : Réalisation d'un cahier des charges (zonning ? / wireframes ? / arborescence ? / chartre graphique ?)
+- Phase 12 : (reu) : Satisfaction ?
+---
+- Phase 11 : Dev prototypage / SUIVI DE PROJET [Tableau] / test usage + site pré-production
+- Phase 12 : (reu) : Rendu de projet infini 
+---
+- Phase 13 : Test utilisateur
+- Phase 14 : (reu) : Point sur les tests
+- Phase 15 : Plan de communication solide pour accompagner son lancement
+- Phase 16 : (reu) : Lancement
+- Phase 17 : Document amélioration futur
 
 ## Liste des choses à faire en maquettage
 - Il faut réaliser des petits modules/composant animer de base par exemple :
