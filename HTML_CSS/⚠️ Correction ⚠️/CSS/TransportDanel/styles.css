@@ -1,0 +1,120 @@
+.header {
+    background-color: #044938;
+    border-bottom: 3px solid;
+}
+
+.header .navbar-brand {
+    width: 40%;
+}
+
+.header .nav-link {
+    color: #fff !important;
+    font-size: 1.6rem;
+    font-family: Regular;
+}
+
+.header.navbar-toggler {
+    border: 1px solid #fff;
+}
+
+.header.navbar-toggler .navbar-toggler-icon {
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+
+.container-triangle_1 {
+    background-image: linear-gradient(55deg, #045b46 15%, transparent 15%),
+        linear-gradient(150deg, #03533f 15%, transparent 15%), linear-gradient(-20deg, #045b46 20%, transparent 20%),
+        linear-gradient(-130deg, #03533f 15%, transparent 15%), linear-gradient(-90deg, #126752 10%, transparent 10%);
+}
+
+.container-triangle_2 {
+    background-image: linear-gradient(25deg, #033f30 15%, transparent 15%),
+        linear-gradient(115deg, #145c4a 10%, transparent 10%), linear-gradient(150deg, #03533f 17%, transparent 17%),
+        linear-gradient(-130deg, #03533f 20%, transparent 20%), linear-gradient(-30deg, #033f30 25%, transparent 25%);
+}
+
+.container-triangle_3 {
+    background-image: linear-gradient(145deg, #e3e4e4 13%, transparent 13%),
+        linear-gradient(40deg, #cccaca 20%, transparent 20%), linear-gradient(-45deg, #e3e4e4 20%, transparent 20%),
+        linear-gradient(-157deg, #c8c8c8 23%, transparent 23%), linear-gradient(-130deg, #d8d5d5 20%, transparent 20%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #044938;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-spe h2,
+.container-spe h4,
+.container-spe h3 {
+    text-transform: uppercase;
+    font-family: "Lato";
+}
+
+.container-spe h2 {
+    font-size: 3rem;
+    font-family: "Roboto";
+    font-weight: bold;
+    position: relative;
+}
+
+.container-spe h2::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    bottom: -0.75rem;
+    left: 0;
+}
+
+/*
+.container_white {
+    @extend .container-spe;
+
+    h2,
+    h3 {
+        color: #044938;
+    }
+
+    h2::after {
+        border-bottom: 3px solid #9a9a9a;
+    }
+}
+
+.container-triangle_1,
+.container-triangle_2 {
+    @extend .container-spe;
+    background-color: #044938;
+
+    .container_green {
+
+        h2,
+        h4,
+        p {
+            color: #fff;
+        }
+
+        h2::after {
+            border-bottom: 3px solid #fff;
+        }
+    }
+}
+*/
+
+.form-color {
+    color: white;
+}

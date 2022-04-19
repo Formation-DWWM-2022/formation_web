@@ -141,7 +141,7 @@
 # Etape 7 : Le SEO (Search Engine Optimization)
 
 ---
-# Jeux de role = J2 - 13/04/2022 ET 14 / 04 / 2022 ET J4 - 15 / 04 / 2022
+# Jeux de role = J2 - 13 / 04 / 2022 ET J3 - ET 14 / 04 / 2022 ET J4 - 15 / 04 / 2022 ET J5 - 20 / 04 / 2022
 # Objectif Gestion de projet + Maquettage (Jeux de role)
 
 ## Création d'un agence web fictive
