@@ -306,7 +306,7 @@ td {
 
 Pour centrer le contenu d'un élément avec avec la propriété display à block, il faut utiliser la propriété et la valeur suivante : margin: auto;.
 
-![image](https://aymeric-auberton.fr/img/css/css-exo19.jpg)
+![image](https://aymeric-auberton.fr/img/css/css-exo20.png)
 
 
 # Exercice 4
