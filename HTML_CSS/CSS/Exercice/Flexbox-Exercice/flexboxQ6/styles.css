@@ -1,0 +1,19 @@
+/* ====================================
+   CSS setup – ne rien modifier
+   éditer plus bas
+ * ==================================== */
+
+body { border: 0; margin: 0; padding: 0; }
+header { background-color: #1abc9c; line-height: 80px; }
+nav { background-color: #3498db; }
+article { background-color: #9b59b6; }
+footer { background-color: #e67e22; }
+header, nav, article, footer { color: white; padding: 10px; }
+header, footer { height: 80px; text-align: center; }
+h1, p { margin: 0 0 15px 0; }
+nav a { border-bottom: 1px solid rgba(255,255,255,.3); color: white; display: block; line-height: 40px; text-decoration: none; }
+
+/* ====================================
+   éditer à partir d'ici
+ * ==================================== */
+

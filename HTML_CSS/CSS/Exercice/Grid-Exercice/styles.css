@@ -1,0 +1,14 @@
+/* Ne pas toucher */
+.container { font-family: arial; color:#FFF;}
+header, nav, section, aside, footer{ display:flex; justify-content:center; align-items:center; padding:10px;}
+header { background-color: #1abc9c; }
+nav { background-color: #3498db; }
+section { background-color: #9b59b6; }
+aside { background-color: #e67e22; }
+footer { background-color: #e74c3c; }
+
+/* Editer a partir d'ici */
+ 
+.container {
+	display: grid;
+}

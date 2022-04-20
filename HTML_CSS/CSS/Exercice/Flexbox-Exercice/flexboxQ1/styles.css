@@ -1,0 +1,19 @@
+/* ====================================
+   CSS setup – ne rien modifier
+   éditer plus bas
+ * ==================================== */
+
+body { margin: 0; padding: 0; border: 0; }
+section { min-height: 100vh; }
+div { background-color: lightgrey; }
+div:nth-of-type(5n+1) { background-color: #1abc9c; }
+div:nth-of-type(5n+2) { background-color: #3498db; }
+div:nth-of-type(5n+3) { background-color: #9b59b6; }
+div:nth-of-type(5n+4) { background-color: #e67e22; }
+div:nth-of-type(5n) { background-color: #e74c3c; }
+span { background-color: rgba(255, 255, 255, .5); border-radius: 50%; display: block; font-size: 48px; height: auto; line-height: 3em; text-align: center; width: 3em; }
+
+/* ====================================
+   éditer à partir d'ici
+ * ==================================== */
+ 

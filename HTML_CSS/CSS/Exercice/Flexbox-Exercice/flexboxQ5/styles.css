@@ -1,0 +1,19 @@
+/* ====================================
+   CSS setup – ne rien modifier
+   éditer plus bas
+ * ==================================== */
+
+body { margin: 0; padding: 0; border: 0; }
+ul { list-style: none; padding: 0; margin: 0; height: 100px; }
+li { background-color: lightgrey; text-align: center; }
+li:nth-of-type(5n+1) { background-color: #1abc9c; }
+li:nth-of-type(5n+2) { background-color: #3498db; }
+li:nth-of-type(5n+3) { background-color: #9b59b6; }
+li:nth-of-type(5n+4) { background-color: #e67e22; }
+li:nth-of-type(5n) { background-color: #e74c3c; }
+a { color: white; font-size: 16px; line-height: 50px; text-decoration: none; }
+
+/* ====================================
+   éditer à partir d'ici
+ * ==================================== */
+
