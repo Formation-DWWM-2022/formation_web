@@ -161,7 +161,8 @@ Pour utiliser une fonction prédéfinie, il suffit de l’appeler en utilisant s
 Pour appeler une fonction, on écrit donc son nom suivi d’un couple de parenthèses (obligatoires) dans lesquelles on peut éventuellement placer des données (arguments) qui seront transmis à la fonction pour qu’elle effectue des calculs.
 
 Prenons immédiatement quelques exemples en présentant quelque fonctions Sass utiles. Vous pouvez obtenir la liste complète des fonctions Sass sur la documentation officielle ici.
-La fonction Sass random()
+
+## La fonction Sass random()
 
 La fonction Sass random() retourne un nombre aléatoire. Si on utilise cette fonction sans lui passer d’argument, la fonction retournera un nombre décimal aléatoire compris entre 0 et 1. Si on lui passe un argument plus grand que 1, la fonction random() retournera un nombre entier aléatoire compris entre 1 et le nombre passé.
 

@@ -5,13 +5,20 @@ OUTILS : https://nekocalc.com/fr/px-a-rem-convertisseur
 Grafikart [cours video] : https://grafikart.fr/formations/html
 ## --- HTML/html.md ---
 Documentation :
-- MDN Mozilla : https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics
+- Memo HTML : --- HTML/memo-html5.pdf ---
+- MDN Mozilla : https://developer.mozilla.org/fr/docs/Web/HTML
+- 3WAcademy [Leçon et exercice]: https://apprendre-html.3wa.fr/html/ 
 
 ## HTML - EXERCICE
 
 # CSS - 4J
 ## CSS - COURS
 Grafikart [cours video] : https://grafikart.fr/formations/css
+Documentation :
+- Memo CSS : --- CSS/memo-css3.pdf ---
+- MDN Mozilla : https://developer.mozilla.org/fr/docs/Web/CSS
+- 3WAcademy [Leçon et exercice]: https://apprendre-html.3wa.fr/html/ 
+
 ## --- CSS/css.md ---
 
 ## CSS - TP

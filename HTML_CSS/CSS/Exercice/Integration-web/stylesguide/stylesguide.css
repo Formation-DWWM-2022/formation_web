@@ -1,0 +1,69 @@
+/*
+  Styles pour le stylesguide
+  NE PAS INCLURE CE FICHIER DANS VOTRE PROJET
+*/
+body {
+  background: #f5f8ff;
+  line-height: 1.5;
+  color: #546da5
+}
+
+
+
+main {
+  padding: 2em;
+  max-width: 80rem;
+  background: #fff;
+  min-height: 100vh;
+
+}
+ul,
+p,
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #1b3c87;
+}
+
+
+
+.bloc {
+  margin-top: 1em;
+  border-left: 4px solid #d4f7f3;
+  padding-left: .5em;
+}
+
+
+.section-bloc:not(:first-of-type) {
+  margin-top: 3em;
+}
+
+
+.colors {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20rem);
+  gap: 1em
+}
+
+.color {
+  padding: .5em;
+  border: 2px solid #f0f4fb;
+  border-radius: 8px;
+}
+.color:before {
+  content:"";
+  width: 128px;
+  height: 128px;
+  border-radius: 8px;
+  background: var(--color);
+  margin-bottom: .5em;
+  display: block;
+  box-shadow: 0 0 0 2px rgba(#000,.2);
+}
+
