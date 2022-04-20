@@ -5,289 +5,60 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BreakCity - Index !</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/index.css" type="text/css" media="all">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./styles/base.css" type="text/css" media="all">
+
 </head>
 
 <body>
     <header>
-        <section class="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="./assets/images/logo-cle-beige.png" alt="Break City" title="Break City">
-                            </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Accueil</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="appartements.html">Appartements</a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="./appartements/gare.html">Le Break City
-                                                Gare</a>
-                                            <a class="dropdown-item" href="./appartements/royat.html">Le Break City
-                                                Royat</a>
-                                            <a class="dropdown-item" href="./appartements/oradou.html">Le break City
-                                                Oradou</a>
-                                            <a class="dropdown-item" href="./appartements/chu.html">Le break City
-                                                CHU</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="./tourisme-clermont-ferrand.html">Tourisme</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./contact.html">Contact</a>
-                                    </li>
-                                    <li class="nav-item booked">
-                                        <a class="nav-link" href="./contact.html">Réserver</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <ul>
+            <li>
+                <a href="./index.html">Accueil</a>
+            </li>
+            <li>
+                <a href="./appartements.html">Appartement</a>
+                <ul>
+                    <li>
+                        <a href="./appartements/chu.html">CHU</a>
+                    </li>
+                    <li>
+                        <a href="./appartements/gare.html">Gare</a>
+                    </li>
+                    <li>
+                        <a href="./appartements/oradou.html">Oradou</a>
+                    </li>
+                    <li>
+                        <a href="./appartements/royat.html">Royat</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="./tourisme.html">Tourisme</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="./contact.html">Réserver</a>
+            </li>
+        </ul>
     </header>
 
-    <div class="page-tourisme">
-        <section class="tourisme-one">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <section class="appartements-header">
-                            <h1 class="title-section">Au cœurs du parc naturel régional des volcans d'Auvergne</h1>
-                        </section>
-                        <section class="tourisme-top pt-3">
-                            <p class="text-blue text-justify p-3">En visite en Auvergne pour un court ou long séjour, les activités à Clermont Ferrand et ses alentours ne manquent pas. Plutôt tourné vers les activités de pleine nature ? Vous pouvez partir très facilement randonner dans le
-                                parc des volcans d'Auvergne pour y découvrir sa faune et sa flore, mais aussi ses lacs et sa pierre rouge volcanique. Attiré par la culture et le patrimoine ? Clermont-Ferrand regorge également de lieux incontournables
-                                à ne pas louper ! N'attendez plus pour partir à la découverte de la ville et ses alentours, pour en savoir plus et organiser votre séjour, vous pouvez consulter le site de l'office de tourisme de Clermont-Ferrand.</p>
-                            <a class="center-element" href="#">Office du tourisme <i class="fas fa-arrow-right"></i></a>
-                        </section>
-                        <section class="img-abs mt-5 mb-5">
-                            <img class="img-abs" src="./assets/images/chemin.jpg" alt="tourisme clermont ferrand" title="tourisme clermont ferrand">
-                            <div class="bg-beige mb-4">
-                                <div class="row justify-content-center pt-5 pb-5">
-                                    <div class="col-lg-8 col-md-10">
-                                        <div class="bg-white-break">
-                                            <h2 class="title">Les volcans d'Auvergne, un lieu récemment classé au patrimoine de l'UNESCO (2018)</h2>
-                                            <p class="text-justify">Aux portes de Clermont, vous aurez accès au parc des volcans, un site géologique exceptionnel. Le Puy-de-Dôme, surplombant la ville, en est le principal. Vous pourrez d'ailleurs monter jusqu'à son sommet (à
-                                                pied ou par le train à crémaillère) pour contempler la chaîne des Puys, la plaine de la Limagne, le massif du Sancy, les monts du Forez et même le plateau de Millevaches. Envie d'en savoir plus sur l'histoire
-                                                de nos volcans ? Vulcania et le volcan de l'Emptegy sont des parcs d'exploration pour réunir petits et grands autour de ce thème !
-                                            </p>
-                                            <img class="cle-trou" src="./assets/picto/clef-troubeige.png" alt="Clé Break City" title="Clé Break City">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="two-side tourisme-two">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 bg-blue order-lg-1 order-sm-2 justify-content-center">
-                        <div class="bg-white-break">
-                            <h2 class="title text-center">Clermont-Ferrand tourisme - Un lieu riche en culture et patrimoine</h2>
-                            <p class="text-justify p-2">Découvrez la ville à travers son histoire, sa culture et son patrimoine. De nombreux lieux incontournables vous attendent comme la place de la Victoire, dans le centre historique, offrant une vue remarquable sur la cathédrale
-                                de Clermont-Ferrand, construite en pierre noire de Volvic. Ce matériau, très utilisé dans l'architecture de la ville, est une caractéristique Clermontoise indéniable. Pour une halte au vert proche du centre historique,
-                                le jardin Lecoq sera l'idéal. Un peu plus éloignés, d'autres parcs ou jardins comme le parc Montjuzet ou le jardin botanique de la charme vous offriront calme et sérénité, un moment de détente assurée. Laissez-vous séduire
-                                par les différents musées et leur Histoire : Musée Bargoin (archéologie et textile), musée Henri-Lecoq (herbiers, roches, fossiles, minéraux), musée d'art Roger-Quillot (peintures et objets d'art). L'entreprise Michelin
-                                propose aussi de vous conter l'histoire du bibendum lors de la visite de son musée L'aventure Michelin. Des expositions photographiques, de peintures ou sur l'art contemporain vous attendent également ! Une promenade sur
-                                le plateau de Gergovie vous amènera sur les traces de Vercingétorix et sa Gaulle. Vous pourrez d'ailleurs observer sa statue trônant sur la place de Jaude Clermont-Ferrand,. Finalement, laissez-vous porter par la musique,
-                                de la coopérative de Mai jusqu'au Zénith d'Auvergne ! Vous pourrez aussi assister à des spectacles et pièces de théâtre à la Comédie de Clermont ou à l'Opéra
-                            </p>
-                            <img class="cle-trou" src="./assets/picto/clef-troubeige.png" alt="Clé Break City" title="Clé Break City">
-                        </div>
-                    </div>
-                    <div class="col-lg-5 p-0 d-flex order-lg-2 order-sm-1">
-                        <img class="img-cat" src="./assets/images/cathedralebis.jpg" alt="Clé Break City" title="Clé Break City">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="tourisme-three">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <section class="img_abs-2 mt-5 mb-5">
-                            <img class="img-abs-2" src="./assets/images/jardin-lecoq.jpg" alt="tourisme clermont ferrand" title="tourisme clermont ferrand">
-                            <div class="bg-beige mb-4">
-                                <div class="row justify-content-center pt-5 pb-5">
-                                    <div class="col-lg-8 col-md-8">
-                                        <div class="bg-white-break p-2">
-                                            <h2 class="title">Quelles autres activités à Clermont-Ferrand et ses alentours </h2>
-                                            <h3 class="">Randonnée</h3>
-                                            <p class="text-justify">Plus de 300 km de sentiers de randonnée pédestres et VTT vous mèneront du parc des volcans jusqu'au Massif du Sancy où vous pourrez profiter de la station thermale du Mont-Dore en toutes saisons, de ses pistes
-                                                de ski en hiver et de ses activités d'accrobranche en été. Plusieurs lacs et l'Allier vous attendent également vous offrant un peu de fraîcheur lors d'une baignade ou d'une sortie canoë.
-                                            </p>
-                                            <h3 class="">Parapente</h3>
-                                            <img class="cle-trou" src="./assets/picto/clef-troubeige.png" alt="Clé Break City" title="Clé Break City">
-                                            <p class="text-justify">Découvrez la vue spectaculaire lors d'un vol en parapente au dessus du Puy-de-Dôme. Sensations fortes assurées</p>
-                                            <h3 class="">Rugby</h3>
-                                            <p class="text-justify">Venez assister à un match de l'équipe régionale de l'ASM au stade Michelin !</p>
-                                            <h3 class="">Détente </h3>
-                                            <p class="text-justify">Pour un moment de détente, les thermes de Royat et Royatonic seront les lieux parfaits à cet effet. Bains, spa, massages, soins.... on vous promet décontraction et relaxation</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="two-side tourisme-four">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 bg-blue order-lg-1 order-sm-2">
-                        <div class="bg-white-break">
-                            <h2 class="title text-center">Instant gastronomique</h2>
-                            <p class="text-justify p-1">
-                                Envie de réveiller vos papilles ? Rien de mieux qu'un bon restaurant pour partager des saveurs d'ici et d'ailleurs. La ville regorge de bonnes adresses pour une cuisine du terroir, raffinée, gourmande et gastronomique. L'Auvergne c'est aussi 5 fromages
-                                AOP de renommée internationale : le Saint-Nectaire, le Cantal, le Salers, la Fourme d'Ambert et le Bleu d'Auvergne, sans compter les nombreux autres fromages qui n'ont pas (encore!) de labels. Les vins AOC des côtes d'Auvergne,
-                                fruités et épicés, accompagneront le tout. Vous finirez votre dégustation avec les pâtes de fruits d'Auvergne, tradition Clermontoise !
-                            </p>
-                            <img class="cle-trou" src="./assets/picto/clef-troubeige.png" alt="Clé Break City" title="Clé Break City">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 d-flex order-lg-2 order-sm-1">
-                        <img class="img-rue" src="./assets/images/rue-retoucher.jpg" alt="Clé Break City" title="Clé Break City">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <footer class="main-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 pt-4">
-                    <div class="footer-contact-list">
-                        <div class="text-blue contact-item">
-                            <div>
-                                <i class="fas fa-map-marked-alt adress"></i>
-                            </div>
-                            <span>
-                                BreakCity <br>Clermont-Ferrand
-                            </span>
-                        </div>
-                        <div class="text-blue contact-item">
-                            <div>
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                            +33 7 49 09 72 48
-                        </div>
-                        <div class="text-blue contact-item">
-                            <div>
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            contact[at]break-city.fr
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pt-3">
-                    <div class="row">
-                        <div class="justify-content-center d-flex">
-                            <img src="./assets/images/logo-cle-blanche-footer.png" alt="break City" title="break City">
-                        </div>
-                        <div class="col-12">
-                            <div class="row mt-3 justify-content-center">
-                                <div class="col justify-content-end d-flex">
-                                    <a href="./contact.html" class="btn btn-break-city">Réserver</a>
-                                </div>
-                                <div class="col justify-content-start d-flex">
-                                    <a href="./contact.html" class="btn btn-break-city-dark">Contact</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pt-3">
-                    <div class="row justify-content-center">
-                        <h3 class="nav pl-5 mb-4">Navigation</h3>
-                    </div>
-                    <div class="row justify-content-center">
-                        <ul>
-                            <li><a href="./index.html">Accueil</a></li>
-                            <li><a href="./appartements.html">Appartements</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <footer>
     </footer>
-    <div class="copyright"> Copyright © Drosalys 2020, tous droits réservés - <a href="mentions-legales.html">Mentions
+    <!-- COPYRIGHT -->
+    <div class="copyright"> Copyright © Drosalys 2020, tous droits réservés - <a href="./mentions-legales.html">Mentions
             légales</a> | <span id="rgpd-footer" class="cursor-pointer">RGPD</span></div>
 
-    <div class="gdpr-module" id="gdpr-module">
-        <div>
-            <div class="gdpr-module-dialog">
-                <div class="gdpr-module-content">
-                    <h2>
-                        Nous avons besoin de votre consentement
-                    </h2>
-                    <p>
-                        Afin d'analyser le trafic de notre site Web, activer les fonctionnalités liées aux réseaux sociaux, et vous proposer un contenu personnalisé, nous avons besoin que vous acceptiez que les cookies soient placés par votre navigateur. Cela impliquera le traitement
-                        de vos informations personnelles, y compris votre adresse IP et votre comportement de navigation. Pour plus d'informations, veuillez consulter notre Politique de cookies
-                    </p>
-
-                    <p>
-                        Voulez-vous accepter ces cookies ?
-                    </p>
-
-                    <div class="gdpr-module-actions">
-                        <button class="accept-btn" id="accept-btn">
-                                    J'accepte
-                                </button>
-
-                        <button class="accept-btn" id="refuse-btn">
-                                    Je refuse
-                                </button>
-
-                        <button class="config-button" id="config-button">
-                                    Configurer les préférences
-                                </button>
-                    </div>
-
-                    <div class="trackers-choices">
-                        <div>
-                            <div class="choices">
-                                <div class="item" id="analytics-checkbox">
-                                    <label class="switch">
-                                                <input type="checkbox">
-                                                <span class="slider round"></span>                                
-                                                <span class="tracker-name">
-                                                    Analytics
-                                                </span>
-                                            </label>
-                                </div>
-                            </div>
-                            <div class="validate">
-                                <button class="accept-btn" id="refuse-gdpr">
-                                            Valider
-                                        </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
