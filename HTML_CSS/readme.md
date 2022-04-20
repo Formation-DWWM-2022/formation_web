@@ -1,3 +1,29 @@
+## Q1 Votre niveau en HTML ? :
+1. Pas de connaissances
+2. Débutant
+3. Intermédiaire
+4. Développeurs
+
+## Q2 Votre niveau en CSS ? :
+1. Pas de connaissances
+2. Débutant
+3. Intermédiaire
+4. Développeurs 
+
+## Q3 Votre niveau en SASS ? :
+1. Pas de connaissances
+2. Débutant
+3. Intermédiaire
+4. Développeurs
+
+## Q4 Votre niveau en Bootstrap ? :
+1. Pas de connaissances
+2. Débutant
+3. Intermédiaire
+4. Développeurs
+   
+## Commencez à réflechir à votre projet personnelle et proposer projet au formateur rapidement pour validation [Débuter conception - Cahier des charges - Dev]
+    Si aucune idée [Ex : Dealabs - Ecommerce - Réseaux sociaux - Site de streaming ...]
 
 ---
 # HTML - 2J

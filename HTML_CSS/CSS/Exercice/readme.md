@@ -64,6 +64,100 @@ Pour cet exercice, il faut :
 - Les titres de niveau 1 doivent être aligné au centre, écrit en rouge et de taille 2em.
 - Les titres de niveau 2 doivent avoir une marge intérieure de 10px, être sur un fond rouge et avoir une bordure à gauche de 50px noire continue.
 
+## Q5
+Faire disparaître l'élément #hidden.
+
+``` html
+<body>
+   <p>Le <strong>Moscow mule</strong> est un cocktail à base de vodka, de bière de gingembre épicée et de jus de citron vert.</p>
+   <p id="hidden">Un <strong>French Connection</strong> est un cocktail composé de parts égales de cognac et d'amaretto.</p>
+   <p>Le <strong>Long Island Iced Tea</strong> est un cocktail à base de tequila, de gin, de vodka, de rhum et de liqueur d'oranges.</p>
+</body>
+```
+
+## Q6
+Définir une couleur différente avec le nom de votre choix pour les deux paragraphes.
+
+``` html
+<body>
+   <p class="b-52">Le B-52 est un cocktail composé en proportions égales de Kahlua, de Baileys et de Cointreau.</p>
+   <p class="basil-smash">Le Basil Smash est un cocktail rafraîchissant de gin, de citron, de sirop de sucre et de basilic frais.</p>
+</body>
+``` 
+
+``` css
+body {
+   font-size: 14px;
+}
+```
+
+## Q7
+Définir une couleur différente avec un code hexadécimal pour les éléments <span> et <h1>.
+
+``` html
+<body>
+   <h1>Tequila sunrise</h1>
+   <p>Le <span>Tequila sunrise</span> est un cocktail à base de tequila, de jus d'orange, et de grenadine.</p>
+</body>
+``` 
+``` css
+body {
+   font-size: 14px;
+}
+``` 
+
+## Q8
+Centrer horizontalement les paragraphes à l'intérieur du premier élément <div>.
+
+``` html
+<body>
+   <div class="super1">
+      <p>Le Moscow mule est un cocktail à base de vodka, de bière de gingembre épicée et de jus de citron vert, accompagné d'une rondelle de citron.</p>
+      <p>Le Long Island Iced Tea est un cocktail à base de tequila, de gin, de vodka, de rhum et de liqueur d'oranges.</p>
+   </div>
+   <div class="super2">
+      <p>Un French Connection est un cocktail composé de parts égales de cognac et d'amaretto.</p>
+      <p>Le Tequila sunrise est un cocktail à base de tequila, de jus d'orange, et de grenadine.</p>
+   </div>
+</body>
+``` 
+``` css
+body {
+   font-size: 14px;
+}
+```
+
+## Q9
+Transformer les titres en majuscules.
+
+``` html
+<body>
+   <h1>Titre 1</h1>
+   <h2>Titre 2</h2>
+   <h3>Titre 3</h3>
+</body>
+```
+``` css
+body {
+   font-size: 14px;
+}
+```
+
+## Q10
+Supprimer le souligné des liens et barrer les éléments <span>.
+
+``` html
+<body>
+   <p>Le <a href="https://fr.wikipedia.org/wiki/Mule_de_Moscou">Moscow mule</a> est un cocktail à base de <span>vodka</span>, de <span>bière</span> de gingembre épicée et de jus de citron vert, accompagné d'une rondelle de citron.</p>
+   <p>Le <a href="https://fr.wikipedia.org/wiki/Long_Island_Iced_Tea">Long Island Iced Tea</a> est un cocktail à base de <span>tequila</span>, de <span>gin</span>, de <span>vodka</span>, de <span>rhum</span> et de <span>liqueur d'oranges</span>.</p>
+</body>
+```
+``` css
+body {
+   font-size: 14px;
+}
+```
+
 # Exercice 2
 Tous les exercices de cette page utilisent le code HTML ci-après comme base.
 
@@ -93,8 +187,15 @@ En utilisant les sélecteurs réaliser les mises en forme suivantes :
 - les paragraphes suivant directement un titre de niveeau 2 doivent être en rouge italique.
 - les paragraphes suivant un titre de niveau 1 doivent être en violet.
 
+## Q2
+Écrire le code HTML et la feuille de style CSS pour obtenir le rendu ci-dessous, en utilisant l'image ci-dessous. 
+- https://aymeric-auberton.fr/img/css/nyamcatrainbow.gif
+
+![image](https://aymeric-auberton.fr/img/css/css-exo14.png)
+
 # Exercice 3
 Tous les exercices de cette page utilisent le code HTML ci-après comme base.
+
 ``` html
 <table>
 	<tr>
@@ -150,6 +251,63 @@ Pour cet exercice, il faut :
 - mettre une bordure et une marge interne sur chaque case du tableau.
 - colorier le fond des lignes impaires du tableau.
 - colorier le texte de la dernière ligne du tableau.
+
+## Q2
+Modifier le code HTML et la feuille de style CSS pour obtenir le rendu ci-dessous, en utilisant les images suivantes.
+- https://aymeric-auberton.fr/img/css/black.png
+- https://aymeric-auberton.fr/img/css/white.png
+- https://aymeric-auberton.fr/img/css/red.png
+
+![image](https://aymeric-auberton.fr/img/css/css-exo15.png)
+
+``` html
+<body>
+    <table></table>
+</body>
+```
+``` css
+img {
+    display: block;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td {
+    padding: 20px;
+    border: 1px black solid;
+}	
+```
+
+## Q3
+Écrire le code HTML et la feuille de style CSS pour obtenir le rendu ci-dessous, en utilisant les images ci-après.
+- https://aymeric-auberton.fr/img/css/bg.webp
+- https://aymeric-auberton.fr/img/css/planet-1.png
+- https://aymeric-auberton.fr/img/css/planet-2.png
+- https://aymeric-auberton.fr/img/css/planet-3.png
+ 
+![image](https://aymeric-auberton.fr/img/css/css-exo16.jpg)
+
+## Q4
+Écrire le code HTML et la feuille de style CSS pour obtenir le rendu ci-dessous, en utilisant les codes couleurs ci-après.
+- Couleur de fond : #5c94fc
+- Couleur 1 : #4976c9
+- Couleur 2 : #375897
+- Couleur 3 : #243b64
+- Couleur 4 : #121d32
+  
+![image](https://aymeric-auberton.fr/img/css/css-exo18.jpg)
+
+## Q5
+Écrire le code HTML et la feuille de style CSS pour obtenir le rendu ci-dessous, en utilisant l'image ci-après.
+
+- https://aymeric-auberton.fr/img/css/snow-black.gif
+
+Pour centrer le contenu d'un élément avec avec la propriété display à block, il faut utiliser la propriété et la valeur suivante : margin: auto;.
+
+![image](https://aymeric-auberton.fr/img/css/css-exo19.jpg)
+
 
 # Exercice 4
 Tous les exercices de cette page utilisent le code HTML ci-après comme base.
@@ -318,3 +476,22 @@ Modifiez la page grace a align-self pour que le NAV et le ASIDE soit coller en h
 
 ![images](https://mescours.ovh/img/grid_5.png)
 
+# Exercice 7 - CSS 3D
+Le CSS vous permet d'agrémenter votre page web d'effet 3D grace a l'attribut transform. Pour vous aider, reportez vous au cours, a la W3School et a CSS-Tricks
+
+## Q1 - Mise en place
+
+Créez une page avec une mise en page flexbox et 3 blocs sur une seule ligne. Chaques bloc fera 200px de large pour 400px de haut et contiendra une carte (face avant, face arrière). Chaque face aura une couleur de fond différente et un texte qui lui est propre. Seul la face avant doit etre visible.
+
+Quelques conseils
+- Pensez a utiliser les positions relative et absolue
+- Revoir Flexbox
+- N'oubliez pas le backface-visible
+
+![image](https://mescours.ovh/img/3D-1.jpg)
+
+## Q2 - Transition
+
+Au survol d'un bloc, la carte doit se retourner pour pouvoir voir la face arrière. Pensez a ajouter de la perspective pour améliorer l'effet
+
+![image](https://mescours.ovh/img/3D-2.jpg)
