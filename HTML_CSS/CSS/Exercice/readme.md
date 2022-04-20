@@ -92,7 +92,7 @@ body {
 ```
 
 ## Q7
-Définir une couleur différente avec un code hexadécimal pour les éléments <span> et <h1>.
+Définir une couleur différente avec un code hexadécimal pour les éléments span et h1.
 
 ``` html
 <body>
@@ -107,7 +107,7 @@ body {
 ``` 
 
 ## Q8
-Centrer horizontalement les paragraphes à l'intérieur du premier élément <div>.
+Centrer horizontalement les paragraphes à l'intérieur du premier élément div.
 
 ``` html
 <body>
@@ -144,7 +144,7 @@ body {
 ```
 
 ## Q10
-Supprimer le souligné des liens et barrer les éléments <span>.
+Supprimer le souligné des liens et barrer les éléments span.
 
 ``` html
 <body>
