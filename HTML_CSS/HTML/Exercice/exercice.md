@@ -94,30 +94,8 @@ Faire en sorte qu'à l'intérieur des paragraphes, chaque vers du poème soit su
 
 # Exercice 7
 
-Construire un tableau avec la liste des pays et des capitales du Benelux.
+Construire un tableau avec la liste des pays et des capitales du Benelux. https://fr.wikipedia.org/wiki/Benelux
 
-``` html
-<body>
-   <table>
-      <tr>
-         <th>Pays</th>
-         <th>Capitale</th>
-      </tr>
-      <tr>
-         <td>Belgique</td>
-         <td>Bruxelles</td>
-      </tr>
-      <tr>
-         <td>Pays-Bas</td>
-         <td>Amsterdam</td>
-      </tr>
-      <tr>
-         <td>Luxembourg</td>
-         <td>Luxembourg</td>
-      </tr>
-   </table>
-</body>
-```
 ![image](./img/exercice7.png)
 
 # Exercice 8
