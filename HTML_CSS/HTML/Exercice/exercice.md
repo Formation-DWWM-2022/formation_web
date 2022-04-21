@@ -237,31 +237,6 @@ En conservant les attributs, transformer la balise <input /> du formulaire en <t
 # Exercice 17
 
 Écrire le code HTML du <body> pour obtenir le rendu ci-dessous.
-Aperçu de l'exercice 17
-Aperçu du rendu de l'exercice 17
-
-``` html
-<body>
-   <h1>Gin Basil Smash</h1>
-   <p>Créé en 2008 et aussi connu sous le nom <strong>Basil Smash</strong>, il à été mis au point par le mixologiste Jörg Meyer à Hambourg (Allemagne) en 2008. Ce délicieux cocktail moderne et simple est devenu très rapidement un classique dans le monde entier.</p>
-   <p>Smash signifie "fracasser/piler" ou "grand succès", mais c'est aussi une catégorie de cocktails très en vogue dans les années 1840.</p>
-
-   <h2>Ingrédients</h2>
-   <ul>
-      <li>8 feuilles de basilic</li>
-      <li>1/2 citron</li>
-      <li>2 cl de sirop de sucre de canne</li>
-      <li>6 cl de gin</li>
-   </ul>
-
-   <h2>Préparation</h2>
-   <ol>
-      <li>Piler le basilic avec le jus d'un demi citron dans le shaker</li>
-      <li>Ajouter les autres ingrédients ainsi que des glaçons et frapper</li>
-      <li>Verser dans le verre à moitié rempli de glaçons en filtrant le contenu du shaker dans un verre de type "old fashioned"</li>
-   </ol>
-</body>
-```
 ![image](./img/exercice17.png)
 
 # Exercice 18
