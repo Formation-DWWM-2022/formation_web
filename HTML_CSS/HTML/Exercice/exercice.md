@@ -242,8 +242,6 @@ En conservant les attributs, transformer la balise <input /> du formulaire en <t
 # Exercice 18
 
 En utilisant cette image, écrire le code HTML du <body> pour obtenir le rendu ci-dessous.
-Aperçu de l'exercice 18
-Aperçu du rendu de l'exercice 18
 ![image](./img/exercice18.png)
 
 # Exercice 19
