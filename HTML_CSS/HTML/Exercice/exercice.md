@@ -223,7 +223,7 @@ Modifier le chemin de la première image pour qu'elle pointe dans le dossier img
 
 # Exercice 16
 
-En conservant les attributs, transformer la balise <input /> du formulaire en <textarea>.
+En conservant les attributs, transformer la balise input du formulaire en textarea.
 
 ``` html
 <h1>Mon formulaire</h1>
@@ -236,17 +236,17 @@ En conservant les attributs, transformer la balise <input /> du formulaire en <t
 
 # Exercice 17
 
-Écrire le code HTML du <body> pour obtenir le rendu ci-dessous.
+Écrire le code HTML du body pour obtenir le rendu ci-dessous.
 ![image](./img/exercice17.png)
 
 # Exercice 18
 
-En utilisant cette image, écrire le code HTML du <body> pour obtenir le rendu ci-dessous.
+En utilisant cette image, écrire le code HTML du body pour obtenir le rendu ci-dessous.
 ![image](./img/exercice18.png)
 
 # Exercice 19
 
-En utilisant les images ci-après, écrire le code HTML du <body> pour obtenir le rendu ci-dessous.
+En utilisant les images ci-après, écrire le code HTML du body pour obtenir le rendu ci-dessous.
 
     Jim https://aymeric-auberton.fr/img/html-jim.jpg
     Sarah https://aymeric-auberton.fr/img/html-sarah.jpg
@@ -256,38 +256,5 @@ En utilisant les images ci-après, écrire le code HTML du <body> pour obtenir l
 
 # Exercice 20
 
-Écrire le code HTML du <body> pour obtenir le rendu ci-dessous.
+Écrire le code HTML du body pour obtenir le rendu ci-dessous.
 ![image](./img/exercice20.png)
-
-# Exercice 21
-
-Modifier le code HTML du <form> pour ne plus obtenir d'erreurs et gagner le sésame. N'hésitez pas à soumettre le formulaire pour avoir des indications sur les points à modifier.
-
-``` html
-<form action="https://aymeric-auberton.fr/code/html/21.php" method="POST">
-   <label for="color">Couleur</label>
-   <input type="text" id="color" name="color" /><br />
-   <br />
-   <label for="ip">IP</label>
-   <input type="ip" id="ip" name="ip" /><br />
-   <br />
-   <input type="submit" name="???" value="Valider" />
-</form>
-```
-![image](./img/exercice21.png)
-
-# Exercice 22
-
-Modifier le code HTML du <form> pour envoyer à l'adresse indiqué trois champs :
-
-    Un champ texte avec le nom title
-    Une liste déroulante avec le nom category et les choixs : red, green, et blue
-    Un champ caché avec le nom fantome et la valeur casper
-
-``` html
-<form action="https://aymeric-auberton.fr/code/html/22.php" method="POST">
-   ...
-   <input type="submit" value="Valider" />
-</form>
-```
-![image](./img/exercice22.png)
