@@ -250,19 +250,15 @@ Aperçu du rendu de l'exercice 18
 
 En utilisant les images ci-après, écrire le code HTML du <body> pour obtenir le rendu ci-dessous.
 
-    Jim
-    Sarah
-    Arcturus
+    Jim https://aymeric-auberton.fr/img/html-jim.jpg
+    Sarah https://aymeric-auberton.fr/img/html-sarah.jpg
+    Arcturus https://aymeric-auberton.fr/img/html-arcturus.jpg
 
-Aperçu de l'exercice 19
-Aperçu du rendu de l'exercice 19
 ![image](./img/exercice19.png)
 
 # Exercice 20
 
 Écrire le code HTML du <body> pour obtenir le rendu ci-dessous.
-Aperçu de l'exercice 20
-Aperçu du rendu de l'exercice 20
 ![image](./img/exercice20.png)
 
 # Exercice 21
