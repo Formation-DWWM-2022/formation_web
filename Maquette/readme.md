@@ -1,12 +1,6 @@
 Groupe aujourd'hui :
-- Laetitia / Franck / Maxime
-- Alexis / François
-- Amandine / Bruno
-- Baptiste / David
-- Ousmane / Olivier
-
 ---
-# COURS - J1 - 30 / 03 / 2022
+# COURS - J1
 ## EXO 1 : SEO - Responsive
 Qu’est-ce que le responsive design ?
 - Lien utile = https://www.seo.fr/definition/responsive-design
@@ -53,7 +47,7 @@ A quoi sert un wireframe ?
 Qu’est-ce que la planche de style  dans les technique de maquettage ?
 
 ---
-# COURS - J2 - 31 / 03 / 2022
+# COURS - J2
 
 ## EXO 10 : La maquette graphique
 Qu’est-ce que la maquette graphique  dans les technique de maquettage ?
@@ -90,7 +84,7 @@ Vous aidez de : Cathering.zip
 https://www.justinguitar.com/
 
 ---
-# COURS - J3 - 01 / 04 / 2022
+# COURS - J3
 ## ---> Cours Ameliorer la lisibilite d'une page Web <---
 ## ---> Cours Concevoir un formulaire efficace <---
 ## ---> Cours Renforcer vos pages Web <---
@@ -107,7 +101,7 @@ Travail reprendre les étapes site : http://www.players-bar.com/
   - Vous aidez de : utiles.rar
 
 ---
-# COURS - J4 - 05 / 04 / 2022
+# COURS - J4
 
 ## EXO 14 : Plugin figma et les examples de la communauté
 - Plugin figma : https://www.figma.com/community/plugins
