@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BreakCity - Index !</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css" type="text/css" media="all">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="./assets/images/logo-cle-beige.png" alt="Break City" title="Break City">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Accueil</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="appartements.html">Appartements</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="./appartements/gare.html">Le Break City
+                                                Gare</a>
+                                            <a class="dropdown-item" href="./appartements/royat.html">Le Break City
+                                                Royat</a>
+                                            <a class="dropdown-item" href="./appartements/oradou.html">Le break City
+                                                Oradou</a>
+                                            <a class="dropdown-item" href="./appartements/chu.html">Le break City
+                                                CHU</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./tourisme-clermont-ferrand.html">Tourisme</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="./contact.html">Contact</a>
+                                    </li>
+                                    <li class="nav-item booked">
+                                        <a class="nav-link" href="./contact.html">Réserver</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="appartements-header">
+        <h1 class="title-section">Contact</h1>
+    </section>
+    <section class="">
+        <div class="container contact-section pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 bg-white p-3">
+                    <h2 class="title">Nous contacter</h2>
+                    <p class="text-center">
+                        N'hésitez pas à nous contacter pour en savoir plus sur nos hébergements et connaître leur disponibilité.
+                    </p>
+                </div>
+                <div class="col-lg-3 img-contact">
+                    <img class="" src="./assets/picto/serrure.png" alt="Appartement Royat" title="Appartement Royat">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="">
+        <div class="container contact-form pt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-12">
+                    <form name="contact" method="post" action="https://emails-static.drosalys.net/submit/contact/67144ed2-3ab1-4c89-845c-a1bb8239ba00" novalidate="novalidate" data-drosalys-remote-submit="data-drosalys-remote-submit">
+                        <div class="alert alert-success d-none" data-message-success="d-none">
+                            Message envoyé avec succès !
+                        </div>
+                        <div class="alert alert-danger d-none" data-message-error="d-none">
+                            Erreur, vérifier le formulaire.
+                        </div>
+                        <div class="alert alert-warning d-none" data-message-timeout="d-none">
+                            Impossible d'envoyer le message. Veuillez réessayer dans quelques minutes.
+                        </div>
+                        <div id="contact" novalidate="novalidate">
+                            <div class="form-row row">
+                                <div class="form-group col-md-6">
+                                    <label for="contact_name">Nom </label><input type="text" id="contact_name" name="contact[name]" class="form-control">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="contact_phone">Téléphone </label><input type="tel" id="contact_phone" name="contact[phone]" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row row">
+                                <div class="form-group col-md-6">
+                                    <label for="contact_object">Objet </label><input type="text" id="contact_object" name="contact[object]" class="form-control">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="contact_email">E-mail </label><input type="email" id="contact_email" name="contact[email]" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact_message ">Message </label>
+                                <textarea id="contact_message" name="contact[message]" class="form-control" rows="5"></textarea>
+                            </div>
+                            <input type="hidden" id="contact_referer" name="contact[referer]">
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="d-flex justify-content-center">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-break-city-booked">Envoyer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pt-4">
+                    <div class="footer-contact-list">
+                        <div class="text-blue contact-item">
+                            <div>
+                                <i class="fas fa-map-marked-alt adress"></i>
+                            </div>
+                            <span>
+                                BreakCity <br>Clermont-Ferrand
+                            </span>
+                        </div>
+                        <div class="text-blue contact-item">
+                            <div>
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            +33 7 49 09 72 48
+                        </div>
+                        <div class="text-blue contact-item">
+                            <div>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            contact[at]break-city.fr
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-3">
+                    <div class="row">
+                        <div class="justify-content-center d-flex">
+                            <img src="./assets/images/logo-cle-blanche-footer.png" alt="break City" title="break City">
+                        </div>
+                        <div class="col-12">
+                            <div class="row mt-3 justify-content-center">
+                                <div class="col justify-content-end d-flex">
+                                    <a href="./contact.html" class="btn btn-break-city">Réserver</a>
+                                </div>
+                                <div class="col justify-content-start d-flex">
+                                    <a href="./contact.html" class="btn btn-break-city-dark">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-3">
+                    <div class="row justify-content-center">
+                        <h3 class="nav pl-5 mb-4">Navigation</h3>
+                    </div>
+                    <div class="row justify-content-center">
+                        <ul>
+                            <li><a href="./index.html">Accueil</a></li>
+                            <li><a href="./appartements.html">Appartements</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright"> Copyright © Drosalys 2020, tous droits réservés - <a href="mentions-legales.html">Mentions
+            légales</a> | <span id="rgpd-footer" class="cursor-pointer">RGPD</span></div>
+    <div class="gdpr-module" id="gdpr-module">
+        <div>
+            <div class="gdpr-module-dialog">
+                <div class="gdpr-module-content">
+                    <h2>
+                        Nous avons besoin de votre consentement
+                    </h2>
+                    <p>
+                        Afin d'analyser le trafic de notre site Web, activer les fonctionnalités liées aux réseaux sociaux, et vous proposer un contenu personnalisé, nous avons besoin que vous acceptiez que les cookies soient placés par votre navigateur. Cela impliquera le traitement
+                        de vos informations personnelles, y compris votre adresse IP et votre comportement de navigation. Pour plus d'informations, veuillez consulter notre Politique de cookies
+                    </p>
+
+                    <p>
+                        Voulez-vous accepter ces cookies ?
+                    </p>
+
+                    <div class="gdpr-module-actions">
+                        <button class="accept-btn" id="accept-btn">
+                                            J'accepte
+                                        </button>
+
+                        <button class="accept-btn" id="refuse-btn">
+                                            Je refuse
+                                        </button>
+
+                        <button class="config-button" id="config-button">
+                                            Configurer les préférences
+                                        </button>
+                    </div>
+
+                    <div class="trackers-choices">
+                        <div>
+                            <div class="choices">
+                                <div class="item" id="analytics-checkbox">
+                                    <label class="switch">
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>                                
+                                                        <span class="tracker-name">
+                                                            Analytics
+                                                        </span>
+                                                    </label>
+                                </div>
+                            </div>
+                            <div class="validate">
+                                <button class="accept-btn" id="refuse-gdpr">
+                                                    Valider
+                                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
