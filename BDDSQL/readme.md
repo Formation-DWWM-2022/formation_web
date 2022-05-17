@@ -31,39 +31,12 @@ L'évaluation de ce cours comportera trois points :
 # Sommaire 
 ## Introduction
 - Qu'est ce qu'une base de données ?
-    - Un systeme universellement employé
-    - Le formalisme Merise
-    - Un langage standard 
 - Historique rapide
 
 ## Préparation environnement de travail
-- Installation :
-    - MySQL Server et MySQL Workbench
-    - PostgreSQL et dvdrental sur pgadmin
-    - Oracle MySQL Workbench
-    - L'environnement WAMP
-        - Présentation
-            - Présentation de la solution WampServer sous Windows.
-        - Télécharger WampServer
-            - Télécharger les packages Microsoft Visual C++.
-            - Télécharger l'outil de vérification.
-            - Télécharger les mises à jour.
-            - Télécharger WampServer.
-        - Installer WampServer
-            - Installer les packages VC++.
-            - Lancer l'outil de vérification.
-            - Installer WampServer.
-        - Vérifier et configurer WampServer
-            - Vérifier l'installation.
-            - Configurer MySQL.
-            - Solutions alternatives.
-        - De Workbench à MySQL
-            - Connecter Workbench à MySQL.
-            - Envoyer la conception vers MySQL.
-            - Vérifier la base de données.
-            - Exporter pour sauvegarder.
-            - Importer pour restaurer.
-- Importer base de données
+- MySQL Server et MySQL Workbench
+- PostgreSQL et pgadmin
+- L'environnement WAMP
 
 ## Conception des bases de données
 - Du cahier des charges au MCD
@@ -96,8 +69,6 @@ L'évaluation de ce cours comportera trois points :
     - Les différentes cardinalités possibles.
 - Du MCD au MLD
     - Règles de traduction du MCD en MLD.
-
-## Le Modène Physique
 - Le Modèle Physique
     - Récapitulatif.
     - Nécessité du MPD.

@@ -4,25 +4,26 @@ https://grafikart.fr/tutoriels/php-presentation-1112#autoplay
 https://grafikart.fr/tutoriels/install-php-windows-1114#autoplay
 
 Afin d'installer et configurer rapidement et sans difficulté un serveur web, un gestionnaire de bases de données MySQL et PHP sous Windows, existe parmi d'autres la solution tout-en-un WAMP (acronyme de « Windows-Apache-MySQL-PHP »).
+C'est une plateforme de développement web open source qui utilise Apache2, MySQL, MariaDB et PHP pour développer des applications web dynamiques sur le système d’exploitation Windows. D’ailleurs, WAMP peut être utilisé pour des tests internes et peut également servir à créer des sites web. Donc, dans ce tutoriel, nous allons voir comment installer le serveur WAMP pour Windows 10.
 
-L'installation qui fait l'objet de ce tutoriel est réalisée sur un système Windows 10 Pro 64 bits, et la version la plus récente de WampServer disponible est la 3.2.6, comprenant principalement :
+XAMPP est un autre alternatif de WAMP et c’est une distribution Apache facile à installer contenant MariaDB, PHP et Perl.
 
-    Apache 2.4.51
-    MySQL 5.7.36|8.0.27
-    phpMyAdmin 4.9.7
-    PHP 5.6.4 et 7.4.26 et 8.1.0
- 
+## Install
+
 Téléchargez l'exécutable d'installation qui correspond à votre architecture (32 ou 64 bits) sur le site www.wampserver.com. (cliquez sur le menu « Télécharger »).
 
-    https://sourceforge.net/projects/wampserver/files/WampServer%203/WampServer%203.0.0/wampserver3.2.6_x64.exe/download
+https://sourceforge.net/projects/wampserver/files/WampServer%203/WampServer%203.0.0/wampserver3.2.6_x64.exe/download
 
+## Puis 
 Suivant -> Suivant -> Installer -> oui -> oui -> Suivant -> Terminer
 
 Double-cliquez sur le raccourci créé.
 
-    Si le système vous retourne un message d'erreur « Fichier MSVCR110.dll manquant » ou « Fichier VCRUNTIME140.dll manquant », il s'agit d'un problème bien connu. Vous pouvez essayer de trouver sur le net la dll manquante, mais il faut qu'elle soit de la bonne version et de la bonne architecture. Alors, pour ne pas vous casser la tête, téléchargez Visual C++ Redistributable for Visual Studio 2012 à cette adresse.
-    Autre possibilité : utiliser l'outil check_vcredist disponible dans la section « Outils » du site wampserver.aviatechno.net ; des paquetages de Visual C++ Redistributable for Visual Studio y sont également disponibles.
-    Il ne s'agit pas de la dernière version de Visual C++ Redistributable for Visual Studio, mais c'est celle qui correspond à la version désirée de la dll manquante.
+Si le système vous retourne un message d'erreur « Fichier MSVCR110.dll manquant » ou « Fichier VCRUNTIME140.dll manquant », il s'agit d'un problème bien connu. Vous pouvez essayer de trouver sur le net la dll manquante, mais il faut qu'elle soit de la bonne version et de la bonne architecture. Alors, pour ne pas vous casser la tête, téléchargez Visual C++ Redistributable for Visual Studio 2012 à cette adresse : https://docs.microsoft.com/fr-FR/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2012-vc-110-update-4
+    
+Autre possibilité : utiliser l'outil check_vcredist disponible dans la section « Outils » du site wampserver : des paquetages de Visual C++ Redistributable for Visual Studio y sont également disponibles.
+    
+Il ne s'agit pas de la dernière version de Visual C++ Redistributable for Visual Studio, mais c'est celle qui correspond à la version désirée de la dll manquante.
 
 L'exécution de WampServer ne déclenche pas grand-chose de visible, tout au plus la console qui s'ouvre et se referme rapidement. Mais si vous regardez dans votre zone de notification, à droite de la barre des tâches, vous verrez une icône avec le logo de WampServer devenir verte. Laissez traîner votre souris sur cette icône : une info-bulle vous indique que tous les services sont lancés.
 
