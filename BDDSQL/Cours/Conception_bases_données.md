@@ -1,6 +1,25 @@
 # Conception des bases de données
-
-# Utiliser MoCoDO
+- Du cahier des charges au MCD
+    - Analyser le cahier des charges
+    - Décrire les entités et associations
+- Du MCD au MLD
+- Le Modèle Physique
+    - Récapitulatif.
+    - Les types de données
+        - Les types numériques.
+        - Les chaînes de caractères.
+        - Les dates.
+        - Quelques autres types.
+        - La valeur NULL.
+    - Jeu de caractères et interclassement
+        - Le codage des caractères.
+        - Les jeux de caractères.
+        - L'interclassement.
+    - Normalisation
+        - Clé primaire.
+        - Atomicité.
+        - Stabilité dans le temps.
+        - Dépendances fonctionnelles.
 
 Dans cette partie, nous nous posons la question de comment concevoir une base de données relationnelle. Après avoir présenté les spécificités du modèle relationnel, nous introduirons la notation UML qui nous servira à représenter de manière schématique le monde réel à modéliser.
 
@@ -187,6 +206,11 @@ L'apprentissage d'un formalisme standardisé va nous permettre de résoudre ce p
 Deux caractéristiques ont contribué à sa démocratisation : les diagrammes UML sont facilement lisibles par un humain et sont interprétables par les ordinateurs. Il est ainsi possible de créer des programmes ou bases de données directement à partir de schémas réalisés en UML.
 
 L'utilisation d'UML aboutit à la réalisation de diagrammes. Dans le cadre de ce cours, nous nous intéresserons au **diagramme de bases de données** (aussi appelé **diagramme de classes**).
+
+    Actuellement en version 2
+    14 diagrammes :
+
+![image](https://github.com/ClementDelgrange/Cours_bases_de_donnees/raw/master/img/14_diagrammes_UML.png)
 
 ---
 ---
@@ -375,7 +399,7 @@ Le passage du MCD au MLD se fait de la façon suivante :
 
 Le passage du MLD au MPD se fait simplement en précisant les types des champs
 
-![image](http://www.turrier.fr/articles/mysql-modeliser-une-base-de-donnees/02.png)
+![image](./image/mysql-modeliser-une-base-de-donnees-02.png)
 
 Dans le cas de figure "1 vers 1" on a la cardinalité 0,1 (ou 1,1) d’un coté et 0,1 (ou 1,1) de l’autre coté. L’exemple suivant indique qu’un judoka possède 0 ou 1 carte de sécurité sociale et qu’une carte de sécurité sociale donnée appartient à un et un seul judoka. 
  
@@ -387,7 +411,7 @@ Le passage du MCD au MLD se fait de la façon suivante :
 
 Le passage du MLD au MPD se fait en précisant les types des champs. 
 
-![image](http://www.turrier.fr/articles/mysql-modeliser-une-base-de-donnees/03.png)
+![image](./image/mysql-modeliser-une-base-de-donnees-03.png)
 
 Dans le cas de figure "N ver N", on a la cardinalité 0,N (ou 1,N) d’un coté et 0,N (ou 1,N) de l’autre coté L’exemple suivant indique qu’un judoka donné participe à nombre de stages pouvant varier de 1 à N et qu’un stage donné a une participation d’un nombre de judokas pouvant varier de 1 à N 
 
@@ -399,7 +423,7 @@ Le passage du MCD au MLD se fait de la façon suivante :
 
 Le passage du MLD au MPD se fait simplement en précisant les types des champs. 
 
-![image](http://www.turrier.fr/articles/mysql-modeliser-une-base-de-donnees/04.png)
+![image](./image/mysql-modeliser-une-base-de-donnees-04.png)
 
 ## Etape par etape
 - Du cahier des charges au MCD
@@ -408,22 +432,7 @@ Le passage du MLD au MPD se fait simplement en précisant les types des champs.
 - Du MCD au MLD
 - Le Modèle Physique
     - Récapitulatif.
-    - Les types de données
-        - Les types numériques.
-        - Les chaînes de caractères.
-        - Les dates.
-        - Quelques autres types.
-        - La valeur NULL.
-    - Jeu de caractères et interclassement
-        - Le codage des caractères.
-        - Les jeux de caractères.
-        - L'interclassement.
-    - Normalisation
-        - Clé primaire.
-        - Atomicité.
-        - Stabilité dans le temps.
-        - Dépendances fonctionnelles.
-
+    
 ## Exemple
 - Les entités, les attributs et le MCD
     - Un cahier des charges très simple.
@@ -453,3 +462,45 @@ Le passage du MLD au MPD se fait simplement en précisant les types des champs.
     - Les types de données
     - Jeu de caractères et interclassement
     - Normalisation
+
+---
+---
+# Utiliser MoCoDO
+---
+---
+
+Mocodo est un logiciel d’aide à la modélisation de base de données, notamment à des fins d’apprentissage du SQL. L’enseignement et la modélisation est ainsi simplifiée. L’outils est simple, il suffit d’écrire textuellement les entités et associations du modèle conceptuel de données (MCD). Il peut alors générer le diagramme entité-association en SVG et son schéma relationnel (MLD) en SQL.
+
+http://mocodo.wingi.net/
+
+L’outils est open-source, ce qui signifie qu’il est libre et gratuit. Vous pouvez l’installer sur votre propre ordinateur.
+
+L’un des grands avantages de l’outil est la beauté des diagrammes généré et la simplicité à les éditer ou imprimer.
+
+A noter, le nom est inspiré de “Modélisation Conceptuelle de Données”, tandis que le slogan de l’outil est “Nickel. Ni Souris”.
+
+## Exemple concret
+
+Code en entré :
+
+DF, 11 Élève, 1N Classe
+Classe: Num. classe, Num. salle
+Faire Cours, 1N Classe, 1N Prof: Vol. horaire
+Catégorie: Code catégorie, Nom catégorie
+
+Élève: Num. élève, Nom élève
+Noter, 1N Élève, 0N Prof, 0N Matière, 1N Date: Note
+Prof: Num. prof, Nom prof
+Relever, 0N Catégorie, 11 Prof
+
+Date: Date
+Matière: Libellé matière
+Enseigner, 11 Prof, 1N Matière
+
+Génération du MCD (diagramme conceptuel) par Mocodo :
+
+![image](https://sql.sh/wp-content/uploads/2017/06/mocodo-diagramme.png)
+
+Génération du MLD (schéma relationnel) par Mocodo :
+
+![image](https://sql.sh/wp-content/uploads/2017/06/mocodo-schema-relationnel.png)
