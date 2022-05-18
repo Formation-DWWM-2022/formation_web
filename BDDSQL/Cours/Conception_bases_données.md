@@ -1,64 +1,6 @@
 # Conception des bases de données
-## MCD
-- Du cahier des charges au MCD
-    - Analyser le cahier des charges
-    - Décrire les entités et associations
-    - Utiliser MoCoDO
-- Les entités, les attributs, le MCD et l'EAD
-    - Un cahier des charges très simple.
-    - L'entité produit.
-    - Les attributs d'un produit.
-    - La syntaxe MoCoDo des entités.
-    - Obtenir le diagramme EAD du MCD.
-    - Le formalisme Merise.
-- Les associations et les cardinalités
-    - Perfectionnons le cahier des charges.
-    - L'entité categorie.
-    - L'association appartenir.
-    - La syntaxe MoCoDo des associations et des cardinalités.
-    - Obtenir le diagramme du MCD.
-- Les associations et les cardinalités (suite 1)
-    - Perfectionnons le cahier des charges.
-    - L'entité client.
-    - L'association commander.
-    - Obtenir le diagramme du MCD.
-    - Est-ce correct ?
-- Les associations et les cardinalités (suite 2)
-    - L'entité commande.
-    - L'association contenir.
-    - Le diagramme final.
-    - Les différentes cardinalités possibles.
 
-## MLD
-- Du MCD au MLD
-    - Règles de traduction du MCD en MLD.
-
-## MPD
-- Le Modèle Physique
-    - Récapitulatif.
-    - Nécessité du MPD.
-- Les types de données
-    - Les types numériques.
-    - Les chaînes de caractères.
-    - Les dates.
-    - Quelques autres types.
-    - La valeur NULL.
-- Jeu de caractères et interclassement
-    - Le codage des caractères.
-    - Les jeux de caractères.
-    - L'interclassement.
-- Modéliser avec Workbench
-    - Créer le projet acme.
-    - Créer la table client.
-- Modéliser avec Workbench (suite)
-    Ajouter les relations.
-- Normalisation
-    - Clé primaire.
-    - Atomicité.
-    - Stabilité dans le temps.
-    - Dépendances fonctionnelles.
-- Dénormalisation
-    - Dénormaliser le projet acme.
+# Utiliser MoCoDO
 
 Dans cette partie, nous nous posons la question de comment concevoir une base de données relationnelle. Après avoir présenté les spécificités du modèle relationnel, nous introduirons la notation UML qui nous servira à représenter de manière schématique le monde réel à modéliser.
 
@@ -76,7 +18,11 @@ Remarque : la communauté historique des bases de données relationnelles privil
 
 ![image](.\image\demarcheconceptionbd.png)
 
-## Le modèle relationnel 
+---
+---
+# Le modèle relationnel ou MRD
+---
+---
 Il repose sur la théorie mathématique des ensembles. En raison de sa fiabilité et grace aux opérations qu'il rend possible sur les données, c'est le type de base de données la plus utilisé actuellement.
 
 ## Fondements et propriétés ##
@@ -87,7 +33,9 @@ Dans le modèle relationnel, les données sont contenues dans des *relations*.
 Il s'agit d'une sorte de contrat sur la forme attendue des données. 
 Une relation est classiquement représentée sous la forme d'une table possédant à ce titre une **en-tête** et des **lignes** (nous parlerons aussi parfois de **tuples**).
 
-A un autre niveau, la **colonne** est le constituant de base de la relation. Chaque colonne est caractérisée par un **nom** et un **domaine**. Le domaine d'une colonne permet de préciser des contraintes sur le contenu qui y est autorisé. Nous pouvons par exemple indiquer un type de données pour une colonne (texte, nombre entier, nombre à virgule, date, etc.) ainsi qu'une longueur et/ou précision pour les valeurs contenues (20 caractères, 32 bits, 5 décimales, etc.). Mais le domaine ne se limite pas à décrire le contenu de la colonne : il peut contenir des règles ou contraintes sur les valeurs qui y sont autorisées (valeur non nulle, inférieure à 10, date antérieure à la date du jour, etc.).
+A un autre niveau, la **colonne** ou **attribut** est le constituant de base de la relation. Chaque colonne est caractérisée par un **nom** et un **domaine**. Le domaine d'une colonne permet de préciser des contraintes sur le contenu qui y est autorisé. Nous pouvons par exemple indiquer un type de données pour une colonne (texte, nombre entier, nombre à virgule, date, etc.) ainsi qu'une longueur et/ou précision pour les valeurs contenues (20 caractères, 32 bits, 5 décimales, etc.). Mais le domaine ne se limite pas à décrire le contenu de la colonne : il peut contenir des règles ou contraintes sur les valeurs qui y sont autorisées (valeur non nulle, inférieure à 10, date antérieure à la date du jour, etc.).
+
+![image](.\image\MRDExemple.png)
 
 Exemple :
 
@@ -223,7 +171,12 @@ La jointure combine dans une relation des éléments de deux relations répondan
 
 ![Jointure entre deux relations](https://github.com/ClementDelgrange/Cours_bases_de_donnees/raw/master/img/op_jointure.png)
 
-## Modélisation à l'aide d'UML
+---
+---
+# Modélisation à l'aide d'UML
+---
+---
+
 A ce stade du cours, nous sommes capable de décrire de manière textuelle une relation en précisant, là encore de manière textuelle, les domaînes des différentes colonnes. Cette manière de procéder par descriptions textuelles ne sera satisfaisante que pour une ou deux petites tables, mais deviendra très vite laborieuse à mettre en oeuvre dès que la taille de la base augmentera (nombre de tables, nombre de colonnes).
 
 L'apprentissage d'un formalisme standardisé va nous permettre de résoudre ce problème.
@@ -235,7 +188,11 @@ Deux caractéristiques ont contribué à sa démocratisation : les diagrammes UM
 
 L'utilisation d'UML aboutit à la réalisation de diagrammes. Dans le cadre de ce cours, nous nous intéresserons au **diagramme de bases de données** (aussi appelé **diagramme de classes**).
 
-## Modèle E-A ou MCD
+---
+---
+# Modèle E-A ou MCD
+---
+---
 Le Modèle Entité-Association créé en 1976 ou le Modèle Conceptuel des Données (MCD) fait partie de la méthode de conception et réalisation de projets informatiques à l'aide de MERISE créé en 1978-1979.
 
 Le but de cette méthode est d’arriver à concevoir un système d’information, avant son développement, afin de prévoir en amont les différents problèmes que l’on va rencontrer et donc de les éviter.
@@ -243,6 +200,11 @@ Le but de cette méthode est d’arriver à concevoir un système d’informatio
 MCD permet d’écrire de façon formelle les données qui seront utilisées par le système d’information. Il s’agit d’une représentation des données, facilement compréhensible, permettant de décrire le système d’information à l’aide d’entités.
 
 Une entité est la représentation d’un élément matériel ou immatériel ayant un rôle dans le système d’information.
+
+## Merise
+Merise est une méthode d'analyse, de conception et de gestion de projet intégrée, ce qui en constitue le principal atout.
+
+Issue de l'analyse systémique, la méthode Merise est le résultat des travaux menés par Hubert Tardieu dans les années 1970 et qui s'inséraient dans le cadre d'une réflexion internationale, autour notamment du modèle relationnel d'Edgar Frank Codd. Elle est devenue un projet opérationnel au début des années 1980 à la demande du ministère de l'industrie, et a surtout été utilisée en France, par les SSII de ses membres fondateurs (Sema-Metra, ainsi que par la CGI Informatique) et principalement pour les projets d'envergure, notamment des grandes administrations publiques ou privées.
 
 ## Introduction ##
 Etape 1:
@@ -323,15 +285,11 @@ Autre exemple, une maison est une agrégation de murs. Il n'y a pas unicité d'a
 
 ![Liens de composition et d'agrégation - 2](https://github.com/ClementDelgrange/Cours_bases_de_donnees/raw/master/img/uml_composition_agregation-2.png)
 
-## MLD
-On emploie souvent l’abréviation suivante : 
-- MLD : Modèle logique des données
-
-Et quelquefois, les abréviations suivantes sont employées :
-- MLDR : Modèle logique de données relationnelles
-- MRD : Modèle relationnel de données
-- MLRD : Modèle relationnel logique de données
-
+---
+---
+# MLD
+---
+---
 Le MCD (Modèle Conceptuel de Données) ne peut pas être implanté dans une base de données sans modification car il est indépendant de l'organisation informatique de l'entreprise. Il ne prend pas en compte, par exemple, les systèmes d'exploitation utilisés (MS-Dos, Windows, Linux, ...), les langages de programmation ou même les logiciels disponibles sur ces systèmes. 
 
 Il est obligatoire de transformer ce modèle. On dit qu’on effectue un passage du modèle conceptuel de données vers le modèle logique de données.
@@ -354,10 +312,144 @@ De manière simplifiée et raccourcie, les règles sont les suivantes :
 
 - Lorsque la relation contient une cardinalité simple, la flèche part de l’objet ayant la cardinalité
 multiple vers celui ayant la cardinalité simple. La flèche ne s’arrête pas à la relation.
+
 ![](.\image\cardinalitesimpleMLD.png)
 
 - Lorsque la relation contient 2 cardinalités multiples, une flèche part de chaque objet vers la
 relation et s’y arrête :
+
 ![](.\image\cardinalitemultiplesMLD.png)
 
+---
+---
+# Comment passer d’un MCD à un MRD ?
+---
+---
+## Entité = Relation
+![](.\image\entite=relation.png)
+
+## Association binaire 1,1 - 0/1,1/N
+![](.\image\associationbinaire_1.png)
+
+## Association binaire 0/1,N - 0/1,N
+![](.\image\associationbinaire_2.png)
+
+## Association avec propriétés
+![](.\image\associationpropriétés.png)
+
+## Association ternaire
+![](.\image\associationternaire.png)
+
+## Transformation du MCD d’un département en MRD
+
+![](.\image\rappelmcd.png)
+![](.\image\mrdobtenu.png)
+
+---
+---
 ## MPD
+---
+---
+
+La modélisation physique des données (MPD) est la dernière des trois étapes de la modélisation des données. Les concepteurs de bases de données produisent des modèles physiques de données à partir des modèles créés lors des étapes de modélisation conceptuelle et logique des données. Les modèles créés à ce stade permettent une dénormalisation gérée et tiennent compte de la technologie cible pour le déploiement. Ils sont suffisamment complets pour représenter la conception de la base de données telle qu’elle a été mise en œuvre, ou telle qu’elle doit être mise en œuvre.
+
+Deux types de changements entre MLD et MPD :
+- Entités => Tables
+- Propriétés => Champs
+
+Le passage du MLD au MPD se fait simplement en précisant les types des champs
+
+---
+---
+## Conclusion
+---
+---
+
+Dans le cas de figure "1 vers N" on a la cardinalité 0,N (ou 1,N) d’un coté et 0,1 (ou 1,1) de l’autre coté. L’exemple suivant indique qu’une cotisation donnée a été payée par un et un seul judoka tandis qu’un judoka peut payer 0 à N cotisations (selon le nombre d’années d’inscription au club).
+
+Le passage du MCD au MLD se fait de la façon suivante :
+
+    Les deux entités deviennent des tables ;
+    Les identifiants, dans ces des tables, deviennent des clés primaires ;
+    L’association devient une clé étrangère (id_judoka) ajoutée dans la table cotisation.
+
+Le passage du MLD au MPD se fait simplement en précisant les types des champs
+
+![image](http://www.turrier.fr/articles/mysql-modeliser-une-base-de-donnees/02.png)
+
+Dans le cas de figure "1 vers 1" on a la cardinalité 0,1 (ou 1,1) d’un coté et 0,1 (ou 1,1) de l’autre coté. L’exemple suivant indique qu’un judoka possède 0 ou 1 carte de sécurité sociale et qu’une carte de sécurité sociale donnée appartient à un et un seul judoka. 
+ 
+Le passage du MCD au MLD se fait de la façon suivante :
+
+    Les deux entités deviennent des tables ;
+    Les identifiants deviennent des clés primaires ;
+    L’association devient une clé étrangère (id_judoka) ajoutée dans la table carte_secu ou une clé étrangère (id_securite_sociale) ajoutée dans la table judoka.
+
+Le passage du MLD au MPD se fait en précisant les types des champs. 
+
+![image](http://www.turrier.fr/articles/mysql-modeliser-une-base-de-donnees/03.png)
+
+Dans le cas de figure "N ver N", on a la cardinalité 0,N (ou 1,N) d’un coté et 0,N (ou 1,N) de l’autre coté L’exemple suivant indique qu’un judoka donné participe à nombre de stages pouvant varier de 1 à N et qu’un stage donné a une participation d’un nombre de judokas pouvant varier de 1 à N 
+
+Le passage du MCD au MLD se fait de la façon suivante :
+
+    Les deux entités deviennent des tables ;
+    Les identifiants id_judoka et id_stage des tables judoka et stage deviennent des clés primaires ;
+    L’association devient une table (participation) dotée de deux clés étrangères (id_judoka et id_stage).
+
+Le passage du MLD au MPD se fait simplement en précisant les types des champs. 
+
+![image](http://www.turrier.fr/articles/mysql-modeliser-une-base-de-donnees/04.png)
+
+## Etape par etape
+- Du cahier des charges au MCD
+    - Analyser le cahier des charges
+    - Décrire les entités et associations
+- Du MCD au MLD
+- Le Modèle Physique
+    - Récapitulatif.
+    - Les types de données
+        - Les types numériques.
+        - Les chaînes de caractères.
+        - Les dates.
+        - Quelques autres types.
+        - La valeur NULL.
+    - Jeu de caractères et interclassement
+        - Le codage des caractères.
+        - Les jeux de caractères.
+        - L'interclassement.
+    - Normalisation
+        - Clé primaire.
+        - Atomicité.
+        - Stabilité dans le temps.
+        - Dépendances fonctionnelles.
+
+## Exemple
+- Les entités, les attributs et le MCD
+    - Un cahier des charges très simple.
+    - L'entité produit.
+    - Les attributs d'un produit.
+    - La syntaxe MoCoDo des entités.
+    - Obtenir le diagramme MCD.
+- Les associations et les cardinalités
+    - Perfectionnons le cahier des charges.
+    - L'entité categorie.
+    - L'association appartenir.
+    - La syntaxe MoCoDo des associations et des cardinalités.
+    - Obtenir le diagramme du MCD.
+- Les associations et les cardinalités
+    - Perfectionnons le cahier des charges.
+    - L'entité client.
+    - L'association commander.
+    - Obtenir le diagramme du MCD.
+- Les associations et les cardinalités
+    - L'entité commande.
+    - L'association contenir.
+    - Le diagramme final.
+    - Les différentes cardinalités possibles.
+- Du MCD au MLD
+- Le Modèle Physique
+    - Récapitulatif.
+    - Les types de données
+    - Jeu de caractères et interclassement
+    - Normalisation
