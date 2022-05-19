@@ -35,7 +35,7 @@ La suite de cette partie se concentre sur l'élaboration de schémas logiques da
 
 Remarque : la communauté historique des bases de données relationnelles privilégiait le modèle entité-association pour modéliser les bases de données. Aujourd'hui le language UML, très utilisé en programmation, l'est également pour le création de bases de données relationnelles. C'est ce formalisme que nous employerons pour décrire les schémas logiques. 
 
-![image](.\image\demarcheconceptionbd.png)
+![image](image\demarcheconceptionbd.png)
 
 ---
 ---
@@ -54,7 +54,7 @@ Une relation est classiquement représentée sous la forme d'une table possédan
 
 A un autre niveau, la **colonne** ou **attribut** est le constituant de base de la relation. Chaque colonne est caractérisée par un **nom** et un **domaine**. Le domaine d'une colonne permet de préciser des contraintes sur le contenu qui y est autorisé. Nous pouvons par exemple indiquer un type de données pour une colonne (texte, nombre entier, nombre à virgule, date, etc.) ainsi qu'une longueur et/ou précision pour les valeurs contenues (20 caractères, 32 bits, 5 décimales, etc.). Mais le domaine ne se limite pas à décrire le contenu de la colonne : il peut contenir des règles ou contraintes sur les valeurs qui y sont autorisées (valeur non nulle, inférieure à 10, date antérieure à la date du jour, etc.).
 
-![image](.\image\MRDExemple.png)
+![image](image\MRDExemple.png)
 
 Exemple :
 
@@ -259,7 +259,7 @@ Les noms de la colonne ou des colonnes utilisés comme clé primaire sont soulig
 
 ![Clés primaires et étrangères en UML](https://github.com/ClementDelgrange/Cours_bases_de_donnees/raw/master/img/uml_cles.png)
 
-![Clés primaires et étrangères en UML](.\image\entite.png)
+![Clés primaires et étrangères en UML](image\entite.png)
 
 Définitions
 - une **Occurrence** est une réalisation particulière d’une entité
@@ -289,8 +289,8 @@ La représentation pour les tables d'association est identique à celle des tabl
 
 ## Exemple - Modélisation (très) simpliste d’un département de l’IUT ##
 
-![](.\image\iutentite.png)
-![](.\image\iutassociation.png)
+![](image\iutentite.png)
+![](image\iutassociation.png)
 
 ## Agrégation, composition ##
 UML permet d'indiquer qu'une entité est une partie d'un autre entité. Nous parlons alors de relations de **composition** ou d'**agrégation**. Par exemple : une rivière est composée de tronçons de cours d'eau. 
@@ -337,12 +337,12 @@ De manière simplifiée et raccourcie, les règles sont les suivantes :
 - Lorsque la relation contient une cardinalité simple, la flèche part de l’objet ayant la cardinalité
 multiple vers celui ayant la cardinalité simple. La flèche ne s’arrête pas à la relation.
 
-![](.\image\cardinalitesimpleMLD.png)
+![](image\cardinalitesimpleMLD.png)
 
 - Lorsque la relation contient 2 cardinalités multiples, une flèche part de chaque objet vers la
 relation et s’y arrête :
 
-![](.\image\cardinalitemultiplesMLD.png)
+![](image\cardinalitemultiplesMLD.png)
 
 ---
 ---
@@ -350,24 +350,24 @@ relation et s’y arrête :
 ---
 ---
 ## Entité = Relation
-![](.\image\entite=relation.png)
+![](image\entite=relation.png)
 
 ## Association binaire 1,1 - 0/1,1/N
-![](.\image\associationbinaire_1.png)
+![](image\associationbinaire_1.png)
 
 ## Association binaire 0/1,N - 0/1,N
-![](.\image\associationbinaire_2.png)
+![](image\associationbinaire_2.png)
 
 ## Association avec propriétés
-![](.\image\associationpropriétés.png)
+![](image\associationpropriétés.png)
 
 ## Association ternaire
-![](.\image\associationternaire.png)
+![](image\associationternaire.png)
 
 ## Transformation du MCD d’un département en MRD
 
-![](.\image\rappelmcd.png)
-![](.\image\mrdobtenu.png)
+![](image\rappelmcd.png)
+![](image\mrdobtenu.png)
 
 ---
 ---
@@ -399,7 +399,7 @@ Le passage du MCD au MLD se fait de la façon suivante :
 
 Le passage du MLD au MPD se fait simplement en précisant les types des champs
 
-![image](./image/mysql-modeliser-une-base-de-donnees-02.png)
+![image](image/mysql-modeliser-une-base-de-donnees-02.png)
 
 Dans le cas de figure "1 vers 1" on a la cardinalité 0,1 (ou 1,1) d’un coté et 0,1 (ou 1,1) de l’autre coté. L’exemple suivant indique qu’un judoka possède 0 ou 1 carte de sécurité sociale et qu’une carte de sécurité sociale donnée appartient à un et un seul judoka. 
  
@@ -411,7 +411,7 @@ Le passage du MCD au MLD se fait de la façon suivante :
 
 Le passage du MLD au MPD se fait en précisant les types des champs. 
 
-![image](./image/mysql-modeliser-une-base-de-donnees-03.png)
+![image](image/mysql-modeliser-une-base-de-donnees-03.png)
 
 Dans le cas de figure "N ver N", on a la cardinalité 0,N (ou 1,N) d’un coté et 0,N (ou 1,N) de l’autre coté L’exemple suivant indique qu’un judoka donné participe à nombre de stages pouvant varier de 1 à N et qu’un stage donné a une participation d’un nombre de judokas pouvant varier de 1 à N 
 
@@ -423,7 +423,7 @@ Le passage du MCD au MLD se fait de la façon suivante :
 
 Le passage du MLD au MPD se fait simplement en précisant les types des champs. 
 
-![image](./image/mysql-modeliser-une-base-de-donnees-04.png)
+![image](image/mysql-modeliser-une-base-de-donnees-04.png)
 
 ## Etape par etape
 - Du cahier des charges au MCD
