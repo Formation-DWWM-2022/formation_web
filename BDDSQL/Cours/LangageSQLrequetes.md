@@ -46,6 +46,17 @@ On divise en général les commandes SQL en quatre parties :
   - Les commandes qui permettent de gérer la sécurité des données, le DCL (Data Control Language)  : GRANT, REVOKE
   - Les commandes qui permettent d'agir sur les transactions, appelées TCL (Transaction Control Language) :  COMMIT, ROLLBACK, SAVEPOINT
 
+# CRUD : La base de la gestion de données.
+
+Le terme CRUD est étroitement lié avec la gestion des données numériques. Plus précisément, CRUD est un acronyme des noms des quatre opérations de base de la gestion de la persistance des données et applications :
+
+- Create (créer)
+- Read ou Retrieve (lire)
+- Update (mettre à jour)
+- Delete ou Destroy (supprimer)
+
+Plus simplement, le terme CRUD résume les fonctions qu’un utilisateur a besoin d’utiliser pour créer et gérer des données. Divers processus de gestion des données sont basés sur CRUD, cependant les opérations sont spécifiquement adaptées aux besoins des systèmes et des utilisateurs, que ce soit dans la gestion des bases de données ou pour l’utilisation des applications. Ainsi, les opérations sont des outils d’accès classiques et indispensables avec lesquels les experts, peuvent par exemple vérifier les problèmes de base de données. Tandis que pour un utilisateur, CRUD signifie la création d’un compte (create), l’utilisation à tout moment (read), la mise à jour (update) ou encore la suppression (delete). En fonction de l’environnement de langage informatique, les opérations CRUD sont exécutées différemment.
+
 ## Opérations sur une seule table ##
 Nous nous intéressons dans cette partie à la traduction dans le langage SQL des opérations l'algèbre relationnel étudiées au début de cours. Nous commencerons par les opérations n'impliquant qu'une seule table (projection, sélection et renommage) et dans la partie suivante nous nous intéresserons aux opérations impliquant plusieurs tables.
 

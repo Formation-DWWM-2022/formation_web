@@ -139,3 +139,4 @@ Si nous reprenons l'exemple précédent du virement de 500e :
 
 Une transaction qui respecte ces quatre règles est dite **ACID** (nous parlerons aussi d'acidité du SQGB). Les SGBD hiérarchiques comme relationnels offrent la garanti d'effectuer des transactions acides. Les systèmes NoSQL, apparus pour répondre à de nouvelles demandes (haute disponibilité, volumes de données énormes, etc.), offrent de nouvelles possibilités en terme de stockage et de performance en sacrifiant une part de leur acidité : les systèmes NoSQL ne garantissent plus systématiquement l'acidité des transactions.
 
+

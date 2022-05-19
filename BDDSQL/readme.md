@@ -56,6 +56,11 @@ L'évaluation de ce cours comportera trois points :
 - Le Modèle Physique
     - Récapitulatif.
 
+# Qu'est-ce que PHPMyAdmin?
+L'administration d'une base de données MySQL sur Internet est gérée par un outil écrit dans PHP appelé PhpMyAdmin. La base de données elle-même est d'abord installée dans un serveur, mais phpmyadmin gère ses fonctions. Par exemple, phpmyadmin peut créer et modifier des bases de données. Vous pouvez l'utiliser pour ajouter, éditer, supprimer des champs, déposer des bases de données entières, exécuter des instructions SQL ou même transmettre des informations dans différents formats et administrer des clés. Fondamentalement, toute commande de table que vous exécuteriez à partir de la coquille à l'invite MySQL peut être accomplie ici dans cette interface utilisateur graphique. 
+
+![image](https://hw-images.hostwinds.com/cdn-cgi/image/f=auto%2cq=85%2cfit=scale-down%2cwidth=1800/strapi-images/IMG_Cpanel_Phpmyadmin_Overview_89ed49545a.png)
+
 ## Le langage SQL et fondamenataux des requetes SQL
 - Présentation
     - Historique SQL
@@ -126,6 +131,16 @@ L'évaluation de ce cours comportera trois points :
 ## Vues
 - Introduction et Créations des Vues
 - Renommer et Supprimer une Vue
+
+# MariaDB
+
+MariaDB est un Système de Gestion de Base de Données (SGBD) disponible sous licence GPL. Ce système est un fork de MySQL, ce qui signifie que c’est un nouveau logiciel créé à partir du code source de MySQL.
+
+Le projet a été lancé par l’entreprise Monty Program AB et sa maintenance est assurée par la fondation MariaDB. Cette fondation est une organisation à but non lucrative qui permet de s’assurer que le projet restera libre et qu’il y a une protection légale autour du projet.
+
+Sachant que MySQL a fini par devenir un projet de l’entreprise Oracle, l’informaticien Michael Widenius qui est le principal développeur de MySQL décide de créer MariaDB dans le but de remplacer MySQL et d’assurer une interropérabilité avec celui-ci.
+
+Les versions de MariaDB sont basées au moins sur la version 5.1 de MySQL. L’objectif de MariaDB est de créer une communauté qui puisse maintenir et faire évoluer ce SGBD.
 
 # Le NoSQL
 
