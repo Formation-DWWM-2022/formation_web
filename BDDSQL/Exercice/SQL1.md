@@ -1,226 +1,507 @@
-https://aymeric-auberton.fr/academie/mysql/exercices
+https://aymeric-auberton.fr/academie/mysql/# Exercices
 
-https://developpement-informatique.com/article/45/exercices-corriges-de-langage-sql
+https://developpement-informatique.com/article/45/# Exercices-corriges-de-langage-sql
 
 https://github.com/ponsfrilus/kata-sql
 
 https://github.com/XD-DENG/SQL-exercise/tree/master/SQL_exercise_01
 
-IV / Quatrième partie
-
-Ci-après les trois tables à utiliser pour la quatrième partie des exercices. Dans les tableaux, il y a seulement un extrait aléatoire des données, donc toutes les lignes des tables ne sont pas listées. Dernier point, dans la table lpecom_cities, il y a uniquement les villes de la région Île-de-France. Pour cette nouvelle partie d'exercices, vous pouvez bien évidemment utiliser la console afin de tester vos requêtes.
-Table : lpecom_cities id 	department_code 	insee_code 	zip_code 	name 	gps_lat 	gps_lng
-30864	77	77236	77480	Jaulnes	48.41863547486034	3.28138541899442
-31396	78	78643	78540	Vernouillet	48.96550000000000	1.97599000000000
-31218	78	78193	78720	Dampierre-en-Yvelines	48.70825963302752	1.97073623853211
-35532	95	95392	95630	Mériel	49.07733312500000	2.21302166666667
-31082	77	77462	77230	Thieux	49.00079873563218	2.67002413793103
-Table : lpecom_departments id 	region_code 	code 	name 	slug
-64	84	63	Puy-de-Dôme	puy de dome
-13	93	13	Bouches-du-Rhône	bouches du rhone
-68	44	67	Bas-Rhin	bas rhin
-49	76	48	Lozère	lozere
-90	27	89	Yonne	yonne
-Table : lpecom_regions id 	code 	name 	slug
-11	44	Grand Est	grand est
-7	24	Centre-Val de Loire	centre val de loire
-19	COM	Collectivités d'Outre-Mer	collectivites doutre mer
-6	11	Île-de-France	ile de france
-13	53	Bretagne	bretagne
 # Exercice 1
 
-Quelle requête utiliser pour retrouver la ville qui possède les coordonnées GPS suivantes : 48.66913724637683, 1.87586057971015 ?
+Soit la base de données d’un festival de musique : Dans une représentation peut participer un ou plusieurs musiciens. Un musicien ne peut participer qu’à une seule représentation.
+
+    Representation (Num_Rep , titre_Rep , lieu)
+    Musicien (Num_mus , nom , #Num_Rep)
+    Programmer (Date , #Num_Rep , tarif)
+
+La liste des titres des représentations.
+?
+
+La liste des titres des représentations ayant lieu au « théâtre allissa ».
+?
+
+La liste des noms des musiciens et des titres et les titres des représentations auxquelles ils participent.
+?
+
+La liste des titres des représentations, les lieux et les tarifs du 25/07/2008.
+?
+
+Le nombre des musiciens qui participent à la représentations n°20.
+?
+
+Les représentations et leurs dates dont le tarif ne dépasse pas 20DH.
+?
+
 
 # Exercice 2
 
-Sans jointure, quelle requête utiliser pour calculer le nombre de villes que compte le département de l'Essonne ?
+Soit la base de données suivante :
+
+    Départements :( DNO, DNOM, DIR, VILLE)
+    Employés : ( ENO, ENOM, PROF, DATEEMB, SAL, COMM, #DNO)
+
+Exprimez en SQL les requêtes suivantes :
+
+Donnez la liste des employés ayant une commission
+?
+
+Donnez les noms, emplois et salaires des employés par emploi croissant, et pour chaque emploi, par salaire décroissant
+?
+
+Donnez le salaire moyen des employés
+?
+
+Donnez le salaire moyen du département Production
+?
+
+Donnes les numéros de département et leur salaire maximum
+?
+
+Donnez les différentes professions et leur salaire moyen
+?
+
+Donnez le salaire moyen par profession le plus bas
+?
+
+Donnez le ou les emplois ayant le salaire moyen le plus bas, ainsi que ce salaire moyen
+? 
 
 # Exercice 3
 
-Sans jointure, quelle requête utiliser pour calculer le nombre de villes en Île-de-France se terminant par "-le-Roi" ?
+Soit le modèle relationnel suivant relatif à la gestion des notes annuelles d’une promotion d’étudiants :
+
+    ETUDIANT(NEtudiant, Nom, Prénom)
+    MATIERE(CodeMat, LibelléMat, CoeffMat)
+    EVALUER(#NEtudiant, #CodeMat, Date, Note)
+
+Exprimez en SQL les requêtes suivantes :
+
+Quel est le nombre total d’étudiants ?
+?
+
+Quelles sont, parmi l’ensemble des notes, la note la plus haute et la note la plus basse ?
+?
+
+Quelles sont les moyennes de chaque étudiant dans chacune des matières ?
+?
+
+Quelles sont les moyennes par matière ? Avec la vue MGETU de la question 3 ( MOYETUMAT)
+?
+
+Quelle est la moyenne générale de chaque étudiant ? Avec la vue MGETU de la question 3 ( MOYETUMAT)
+?
+
+Quelle est la moyenne générale de la promotion ? Avec la vue MGETU de la question 5 :
+?
+
+Quels sont les étudiants qui ont une moyenne générale supérieure ou égale à la moyenne générale de la promotion? Avec la vue MGETU de la question 5
+?
+
 
 # Exercice 4
 
-Combien de villes possèdent le code postal (zip_code) 77320 ? Renommez la colonne de résultat n_cities.
+Soit la base de données intitulée "gestion_projet" permettant de gérer les projets relatifs au développement de logiciels. Elle est décrite par la représentation textuelle simplifiée suivante :
+
+    Developpeur (NumDev, NomDev, AdrDev, EmailDev, TelDev)
+    Projet (NumProj, TitreProj, DateDeb, DateFin)
+    Logiciel (CodLog, NomLog, PrixLog, #NumProj)
+    Realisation (#NumProj, #NumDev)
+
+Ecrire les requêtes SQL permettant :
+
+D’afficher les noms et les prix des logiciels appartenant au projet ayant comme titre « gestion de stock », triés dans l’ordre décroissant des prix .
+?
+
+D’afficher le total des prix des logiciels du projet numéro 10. Lors de l’affichage, le titre de la colonne sera « cours total du projet ».
+?
+
+Afficher le nombre de développeurs qui ont participé au projet intitulé « gestion de stock »
+?
+
+Afficher les projets qui ont plus que 5 logiciels
+?
+
+Les numéros et noms des développeurs qui ont participés dans tout les projets.
+?
+
+Les numéros de projets dans lesquelles tous les développeurs y participent dans sa réalisation.
+?
+
 
 # Exercice 5
 
-Sans jointure, quelle requête utiliser pour calculer le nombre de villes commençant par "Saint-" en Seine-et-Marne ?
+Ci-après, on donne la représentation textuelle simplifiée d’une base de données concernant un cycle de formation destiné à des étudiants. Il regroupe un ensemble de matières. On considère que chaque enseignant n’enseigne qu’une seule matière et qu’à la fin du cycle de formation, une note par matière, est attribuée à chaque étudiant. D’autre par, les étudiants peuvent ne pas suivre les mêmes matières.
+
+    ETUDIANT(CodeEt, NomEt, DatnEt)
+    MATIERE(CodeMat, NomMat, CoefMat)
+    ENSEIGNANT(CodeEns, NomEns, GradeEns, #CodeMat)
+    NOTE(#CodeEt, #CodeMat, note)
+
+Ecrire les requêtes SQL permettant d’afficher :
+
+Les informations relatives aux étudiants (Code, Nom et Date de naissance) selon l’ordre alphabétique croisant du nom
+?
+
+Les noms et les grades des enseignants de la matière dont le nom est ‘BD’.
+?
+
+La liste distincte formée des noms et les coefficients des différentes matières qui sont enseignées par des enseignants de grade ‘Grd3’.
+?
+
+La liste des matières (Nom et Coefficient) qui sont suivies par l’étudiant de code ‘Et321’.
+?
+
+Le nombre d’enseignants de la matière dont le nom est ‘Informatique’
+?
+
 
 # Exercice 6
 
-Quelles villes possèdent un code postal (zip_code) compris entre 77210 et 77810 ?
+On considère la base de données BD_AIR_MAROC suivante :
+
+    PILOTE (NUMPIL, NOMPIL, VILLE, SALAIRE)
+    AVION (NUMAV, NOMAV, CAPACITE, VILLE)
+    VOL (NUMVOL, #NUMPIL, #NUMAV, VILLE_DEP, VILLE_ARR, H_DEP, H_ARR)
+
+Donnez la liste des avions dont la capacité est supérieure à 350 passagers.
+?
+
+Quels sont les numéros et noms des avions localisés à Marrakech ?
+
+
+Quels sont les numéros des pilotes en service et les villes de départ de leurs vols ?
+
+
+Donnez toutes les informations sur les pilotes de la compagnie.
+?
+
+Quel est le nom des pilotes domiciliés à Meknès dont le salaire est supérieur à 20000 DH ?
+
+
+Quels sont les avions (numéro et nom) localisés à Marrakech ou dont la capacié est inférieure à 350 passagers ?
+?
+
+Quels sont les numéros des pilotes qui ne sont pas en service ?
+?
+
+Donnez le numéro des vols effectués au départ de Marrakech par des pilotes de Meknès ?
+?
+
+Quels sont les vols effectu"s par un avion qui n’est pas localisé à Marrakech ?
+?
+
+Quelles sont les villes desservies à partir de la ville d’arrivée d’un vol au départ de Guelmim ?
+?
+
 
 # Exercice 7
 
-Sans jointure, quelles sont les deux villes de Seine-et-Marne à avoir le code postal (zip_code) le plus grand ?
+Soit le schéma relationnel suivant :
+
+    Departement (NomD, N_Dep, Directeur)
+    Employe (Matricule, Nom, Prénom, DateNaissance, Adresse, Salaire, #N_dep, superieur)
+    Projet (NomP, N_pro, Lieu, #N_Dep)
+    Travaille (#Matricule, #N_Proj, Heures)
+
+L’attribut supérieur dans la relation Employe contient le matricule du supérieur direct de l’employé. Chaque employé appartient à un département et travaille sur zéro, un ou plusieurs projets. Chaque projet est rattaché à un département qui peut être différent de celui des employés travaillant sur ce projet.
+
+Exprimer en SQL les requêtes suivantes :
+
+Date de naissance et l’adresse de Taha Lamharchi.
+?
+
+Nom et adresse des employés qui travaillent au département de recherche.
+?
+
+Nom et Prénom des employés dont le supérieur est Taha Lamharchi.
+?
+
+Nom des employés qui travaillent plus de 10heures sur un projet à Guelmim
+?
+
+Nom des projets sur lesquelles travaillent Taha Lamharchi et Dounia Mahmoud.
+?
+
+Nom et prénom des employés qui ne travaillent sur aucun projet.
+?
+
+Numéro des projets qui ont au moins un participant de chaque département.
+?
+
+Nom des employés qui ne travaillent pas sur un projet à Guelmim.
+?
+
 
 # Exercice 8
 
-Quel est le code postal (zip_code) le plus grand de la table lpecom_cities ?
+Soit le schéma relationnel suivant qui représente la base de données d’une agence de voyage en ligne.
+
+    CLIENT (NumCli, Nom, Prénom, e-mail, NumCB )
+    VOYAGE (CodeVoyage, Destination, Durée, Prix )
+    RESERVATION (#NumCli, #CodeVoyage, DateRes )
+
+Formuler en SQL les requêtes suivantes :
+
+Nom, prénom et e-mail des clients ayant une réservation en cours
+?
+
+Nom, prénom et e-mail des clients n’ayant aucune réservation en cours
+?
+
+Destination et liste des clients ayant réservés pour un voyage de plus de 10 jours et coûtant moins de 1000 DH.
+?
+
+Numéros de tous les clients ayant réservés sur tous les voyages proposés.
+?
 
 # Exercice 9
 
-Avec un seul WHERE et aucun OR, quelle est la requête permettant d'afficher les départements des régions ayant le code suivant : 75, 27, 53, 84 et 93 ? Le résultat doit afficher le nom du département ainsi que le nom et le slug de la région associée.
+Soit la base de données « cinéma » dont le schéma relationnel est donné ci-dessous :
+
+    VILLE (CodePostal, NomVille )
+    CINEMA (NumCine, NomCine, Adresse, #CodePostal )
+    SALLE (NumSalle, Capacité, #NumCine )
+    FILM (NumExploit, Titre, Durée)
+    PROJECTION (#NumExploit, #NumSalle, NumSemaine, Nbentrees)
+
+Ecrivez les requêtes suivantes en algèbre relationnelle :
+
+Titre des films dont la durée est supérieure ou égale à deux heures
+?
+
+Nom des villes abritant un cinéma nommé « RIF »
+?
+
+Nom des cinémas situés à Meknès ou contenant au moins une salle de plus 100 places
+?
+
+Nom, adresse et ville des cinémas dans lesquels on joue le film « Hypnose » la semaine 18
+?
+
+Numéro d’exploitation des films projetés dans toutes les salles
+?
+
+Titre des films qui n’ont pas été projetés
+?
+
 
 # Exercice 10
 
-Point important, il sera sans doute nécessaire d'utiliser AS pour obtenir le résultat souhaité.
+Soit le modèle relationnel suivant relatif à la gestion simplifiée des étapes du Tour de France 97, dont une des étapes de type "contre la montre individuel" se déroula à Saint-Etienne :
 
-Quelle requête utiliser pour obtenir en résultat, les noms de la région, du département et de chaque ville du département ayant pour code 77 ?
+    EQUIPE(CodeEquipe, NomEquipe, DirecteurSportif)
+    COUREUR(NuméroCoureur, NomCoureur, #CodeEquipe, #CodePays)
+    PAYS(CodePays, NomPays)
+    TYPE_ETAPE(CodeType, LibelleType)
+    ETAPE(NuméroEtap, DateEtape, VilleDép, VilleArr, NbKm, #CodeType
+    PARTICIPER(#NuméroCoureur, #NuméroEtape, TempsRealisé)
+    ATTRIBUER_BONIFICATION(#NuméroEtape, #NuméroCoureur, km, Rang, NbSecondes)
 
-V / Cinquième partie
+Exprimez en SQL les requetes suivantes
 
-Ci-après les deux tables à utiliser pour la cinquième partie des exercices. Sujet d'actualité des années 2020 et 2021, la pandémie du COVID-19 va être au coeur de notre sujet pour cette nouvelle partie d'exercices. Nous utiliserons les tables lpecom_covid et lpecom_regions. La table lpecom_covid liste le nombre quotidien de personnes ayant reçu au moins une dose, par date d'injection, par région. Les colonnes n_cum_dose1 et n_cum_dose2 s'occupent de cumuler le nombre d'injection. Les colonnes couv_dose1 et couv_dose2 calculent la couverture vaccinale des régions chaque jour.
+Quelle est la composition de l’équipe Festina (Numéro, nom et pays des coureurs) ?
+?
 
-Dans les tableaux, seul un extrait des données est affiché, donc toutes les lignes des tables ne sont pas listées. Pour cette nouvelle partie d'exercices, vous pouvez bien évidemment utiliser la console afin de tester vos requêtes.
-Table : lpecom_covid id 	id_region 	jour 	n_dose1 	n_dose2 	n_cum_dose1 	n_cum_dose2 	couv_dose1 	couv_dose2
-404	04	2021-04-06	676	633	40066	22082	4.70	2.60
-202	02	2021-04-06	615	104	18330	5236	5.10	1.50
-303	03	2021-04-06	301	300	10572	5199	3.60	1.80
-505	06	2021-04-06	125	184	10236	4781	3.70	1.70
-101	01	2021-04-06	227	166	10503	4027	2.80	1.10
-Table : lpecom_regions id 	code 	name 	slug
-12	52	Pays de la Loire	pays de la loire
-14	75	Nouvelle-Aquitaine	nouvelle aquitaine
-5	06	Mayotte	mayotte
-9	28	Normandie	normandie
-8	27	Bourgogne-Franche-Comté	bourgogne franche comte
-# Exercice 1
+Quel est le nombre de kilomètres total du Tour de France 97 ?
+?
 
-Quelle requête utiliser pour afficher toutes les données de vaccination uniquement pour le 1er avril 2021 ?
+Quel est le nombre de kilomètres total des étapes de type "Haute Montagne" ?
+?
 
-# Exercice 2
+Quels sont les noms des coureurs qui n’ont pas obtenu de bonifications ?
+?
 
-Quelle requête utiliser pour afficher toutes les données de vaccination uniquement pour le 1er avril 2021 avec le nom de la région concernée ?
+Quels sont les noms des coureurs qui ont participé à toutes les étapes ?
+?
 
-# Exercice 3
+Quel est le classement général des coureurs (nom, code équipe, code pays et temps des coureurs) à l’issue des 13 premières étapes sachant que les bonifications ont été intégrées dans les temps réalisés à chaque étape ?
+?
 
-Quelle requête utiliser pour afficher le nombre au cumulé de vaccination première dose toutes régions en 2020 ? Proposez également une solution pour les vaccination deuxième dose.
+Quel est le classement par équipe à l’issue des 13 premières étapes (nom et temps des équipes) ?
+?
 
-# Exercice 4
 
-Quelle requête SQL utiliser pour afficher le nombre au cumulé de vaccination première dose pour la région avec le code 93 uniquement pour le mois de mars 2021 ?
+# Exercice 11 : Extrait HEC 2014
 
-# Exercice 5
+A partir du système d’information de l’entreprise. le service des ressources humaines peut extraire et analyser les infor- mations relatives à tous les personnels. celui-ci lui permet en particulier d’exercer un suivi dans le domaine de la formation. un extrait de ce domaine est présenté sours forme d’un schéma relation :
 
-Quelle requête utiliser pour afficher le nombre au cumulé de vaccination deuxième dose pour la région avec le code 11 uniquement pour le mois de mars 2021 ?
+![image](https://developpement-informatique.com/upload/33b7c9db414ef0f2cdf22c6f2f180df68b74f91c.png)
 
-# Exercice 6
+Construire les requêtes en langage SQL permettant de répondre aux questions suivantes :
 
-Quelle requête SQL utiliser pour afficher le record de vaccination première dose en une seule journée ? Avec une deuxième requête, afficher les informations de la région concernée, dont son nom, ainsi que le jour du record.
+Quel est le nombre de formations suivies par catégories de salariés ayant débuté au cours de la période du 01/06/2011 au 31/12/2011 ?
+?
 
-# Exercice 7
+Quelles sont les catégories pour lesquelles le nombre d’heures de formation est supérieur à la moyenne du nombre d’heures des formations suivies par l’ensemble des personnels ?
+?
 
-Quelle requête utiliser pour afficher le record de vaccination deuxième dose en une seule journée ? Avec une deuxième requête, afficher les informations de la région concernée, dont son nom, ainsi que le jour du record.
+le responsable des ressources humaines souhaite intégrer dans la base de données une nouvelle formation liée au sertissage des boîtes de conserve.
+Les nouvelles données à insérer sont les suivantes : "FORM587, sertissage niveau 1, 25j, perfectionnement, 12, 525 " Ecrire la requête permettant de mettre à jour la base.
+?
 
-# Exercice 8
 
-Quelles requêtes permettent de connaitre quelle région possède la plus grande couverture de vaccination avec une dose et deux doses ? Vous aurez besoin de 4 requêtes pour répondre aux deux questions. Vous aurez besoin du résultat de la première requête pour la deuxième.
+# Exercice 12
 
-# Exercice 9
+La société X utilise le logiciel de gestion de base de données Access pour gérer ses clients et ses représentants. Voici la liste des tables crées dans Access :
 
-Quelle requête utiliser pour afficher le nom de la région qui a le plus faible taux de couverture de vaccination avec une dose ? Vous aurez besoin de 2 requêtes pour répondre à la question.
+![image](https://developpement-informatique.com/upload/93743ff2b843f6a730722fb5618f7c296d3aa6c0.png)
 
-# Exercice 10
+Ecrire les requêtes suivantes
 
-Quelle requête utiliser pour calculer la couverture moyenne entre les différentes régions à la date la plus récente, pour les vaccinations une et deux doses ? Vous renommez les colonnes de résultats : couverture_dose1_avg et couverture_dose2_avg.
+Afficher la liste des clients appartenant à la catégorie tarifaire n°1, classée par ordre alphabétique
+?
 
-# Exercice 11
+Afficher la liste des clients (code, nom de client) rattachés au représentant HINAUD
+?
 
-Quelle requête utiliser pour afficher les données de vaccination des régions (avec leur nom) qui possèdent une couveture vaccinale supérieure à 15 % pour la première dose et supérieure à 5 % pour la deuxième dose ?
+Afficher la liste des clients bénéficiant d’une remise de 10%
+?
 
-VI / Sixième partie
+Afficher la liste des représentants (Numéro et nom) dépendant du chef de secteur PONS
+?
 
-Dans cette sixième partie d'exercices, nous nous intéresserons toujours au même sujet qui nous tient tous en haleine : le COVID-19. Dans cette nouvelle partie, nous travaillerons sur les différents types de vaccins. Nous utiliserons les tables lpecom_covid_vaccin, lpecom_covid_vaccin_type et lpecom_departments. La table lpecom_covid_vaccin liste le nombre quotidien de personnes ayant reçu au moins une dose, par date d'injection, par département. Il y a uniquement les données pour les différents départements de la région Ile-de-France. Les colonnes n_cum_dose1 et n_cum_dose2 s'occupent de cumuler le nombre d'injection.
+Afficher la liste des départements (code, nom, chef de secteur)
+?
 
-La table lpecom_covid_vaccin_type liste les différents types de vaccins utilisés pour les injections.
+Afficher la liste des chefs de secteur
+?
 
-Dans les tableaux, seul un extrait des données est affiché, donc toutes les lignes des tables ne sont pas listées. Pour rappel, il y a uniquement les données pour les différents départements de la région Ile-de-France. Pour cette nouvelle partie d'exercices, vous pouvez bien évidemment utiliser la console afin de tester vos requêtes.
-Table : lpecom_covid_vaccin id 	dep_code 	vaccin 	jour 	n_dose1 	n_dose2 	n_cum_dose1 	n_cum_dose2
-2526	75	0	2021-04-06	5273	3457	370829	116607
-102	75	1	2021-04-06	4114	3384	240541	109520
-203	75	2	2021-04-06	3	70	7579	6946
-304	75	3	2021-04-06	1156	3	122709	141
-2627	77	0	2021-04-06	2626	1915	142547	44880
-Table : lpecom_covid_vaccin_type id 	nom
-0	Tous vaccins
-1	COMIRNATY Pfizer/BioNTech
-2	Moderna
-3	AstraZeneka
-Table : lpecom_departments id 	region_code 	code 	name 	slug
-43	84	42	Loire	loire
-61	32	60	Oise	oise
-58	44	57	Moselle	moselle
-77	28	76	Seine-Maritime	seine maritime
-66	76	65	Hautes-Pyrénées	hautes pyrenees
-# Exercice 1
 
-Sans jointure, quelle requête SQL utiliser pour afficher toutes les données de vaccination du 14 février 2021 uniquement, pour le département de Seine-et-Marne (77) ?
+# Exercice 13
 
-# Exercice 2
+Le responsable du SAV d’une entreprise d’électroménager a mis en place une petite base de données afin de gérer les interventions de ces techniciens. Le modèle relationnel à la source de cette base de données est le suivant :
 
-Sans jointure, quelle requête SQL utiliser pour afficher le cumul de toutes les données de vaccination pour tous les vaccins du 14 février 2021 uniquement, pour les départements de l'Essonne (91) et de la Seine-et-Marne (77) ?
+    Client (Codecl, nomcl, prenomcl, adresse, cp, ville)
+    Produit (Référence, désignation, prix)
+    Techniciens (Codetec, nomtec, prenomtec, tauxhoraire)
+    Intervention (Numéro, date, raison, #codecl, #référence, #codetec)
 
-# Exercice 3
+Le responsable vous demande d’écrire en langage SQL les requêtes suivantes :
 
-Sans jointure, quelle requête utiliser pour afficher la somme des vaccinations première dose réalisées uniquement avec le vaccin AstraZeneka pour le mois de février 2021 pour le département de la Seine-et-Marne (77) ?
+La liste des produits (référence et désignation) classées du moins cher au plus cher.
+?
 
-# Exercice 4
+Le nombre d’intervention du technicien n°2381.
+?
 
-Sans jointure, quelle requête utiliser pour afficher la somme des vaccinations deuxième dose réalisées avec le vaccin AstraZeneka ou Moderna pour le mois de mars 2021 pour le département de la Seine-et-Marne (77) ?
+La liste des clients ayant demandé une intervention pour des produits d’un prix supérieur à 300 dhs.
+?
 
-# Exercice 5
+Les interventions effectuées par le technicien : ‘Mestiri Mohamed’ entre le 1er et le 31 août 2009.
+?
 
-Sans jointure, quelle requête utiliser pour afficher le record de vaccination première dose avec un type de vaccin en une seule journée ? Avec une deuxième requête qui exploitera une jointure, afficher toutes les informations possibles pour cette journée record et sur le type de vaccin.
+Par ailleurs il vous informe que le produit référencé 548G a vu son prix augmenter (nouveau prix = 320 dhs).
+?
 
-# Exercice 6
+Vous apprenez également par le directeur des ressources humaines qu’un nouveau technicien a été recruté : son code est le 3294, il s’appelle ‘El Abed Ridha’ et est rémunéré à un taux horaire de 15 dhs.
+?
 
-Sans jointure, quelle requête utiliser pour afficher le record de vaccination deuxième dose avec un type de vaccin en une seule journée ? Avec une deuxième requête qui exploitera deux jointures, afficher toutes les informations possibles pour cette journée record, sur le type de vaccin et sur le département.
 
-# Exercice 7
+# Exercice 14
 
-Quelle requête permet de savoir quel département possède le plus grand nombre d'injections première dose pour le vaccin AstraZeneka ? Avec une deuxième requête, afficher uniquement les colonnes suivantes :
+La représentation textuelle suivante est une description simplifiée d’une base de données de gestion de facturation d’une entreprise commerciale.
 
-    le nom du vaccin ;
-    le jour ;
-    le nom et le code du département ;
-    le nombre cumulé d'injections.
+    Client (Numcli, Nomcli, Prenomcli, adressecli, mailcli)
+    Produit (Numprod, désignation, prix , qte_stock)
+    Vendeur (Idvendeur, Nomvendeur, adresse_vend)
+    Commande (Numcom, #Numcli, #Idvendeur, #Numprod, date_com, qte_com)
 
-# Exercice 8
+On suppose que Numcli, Numprod, Idvendeur et Numcom sont de type numérique.
+Le nom, le prénom et l’adresse des clients ainsi que les vendeurs sont des informations obligatoires, le mail peut ne pas être indiqué.
+La valeur par défaut de la quantité en stock des produits (qte_stock) est égale à 0
 
-Quelle requête permet de savoir quel département a eu le moins de vaccinations première dose avec le vaccin COMIRNATY Pfizer/BioNTech ? Avec une deuxième requête, afficher uniquement les colonnes suivantes :
+Exprimer en SQL les requêtes suivantes :
 
-    le nom du vaccin ;
-    le jour ;
-    le nom et le code du département ;
-    le nombre cumulé d'injections.
+Créer les tables : Client, Produit, Vendeur et Commande.
+?
 
-# Exercice 9
+la liste des clients de marrakech.
+?
 
-Quelle requête permet de connaître la moyenne de vaccinations première dose dans tous les départements pour le vaccin Moderna ? Renommer la colonne de résultat avec avg_moderna.
+la liste des produits (Numprod, désignation, prix) classés de plus cher au moins cher.
+?
 
-# Exercice 10
+noms et adresses des vendeurs dont le nom commence par la lettre ‘M’.
+?
 
-Quelle requête utiliser pour afficher les départements (avec leur nom) qui possèdent un nombre d'injections deuxième dose avec le vaccin Moderna supérieur à 9000 ou un nombre d'injections première dose avec le vaccin COMIRNATY Pfizer/BioNTech supérieur à 120000 ? Vous aurez besoin de deux jointures.
+la liste des commandes effectuées par le vendeur "Mohammed" entre le 1er et 30 janvier 2020.
+?
 
-VII / Septième partie
+le nombre des commandes contenant le produit n° 365.
+?
 
-Cette nouvelle partie d'exercices concerne les professionnels de santé. Chaque professionnel santé possède un numéro unique, le code RPPS (Répertoire Partagé des Professionnels de Santé). Dans la table lpecom_rpps, ce code unique est stocké dans la colonne id_pp_nat. Nous utiliserons pour cette partie d'exercices 4 tables : lpecom_rpps, lpecom_cities, lpecom_departments et lpecom_regions.
+# Exercice 15
 
-La table lpecom_rpps ne contient que les données pour les professionnels de santé de Seine-et-Marne (77).
+Soit la base de données suivante :
 
-Il est possible qu'un professionel de santé apparaisse plusieurs fois dans la table. En effet, un professionel de santé peut pratiquer dans plusieurs communes. Il y a donc des doublons sur la colonne id_pp_nat.
-Table : lpecom_rpps id 	id_pp_nat 	nom 	prenom 	code_profession 	lib_profession 	code_savoir_faire 	lib_savoir_faire 	code_postal
-3472	810100067809	BLOUIN	PATRICK-EMILE	21	Pharmacien			77796
-5268	810100155612	BONHOMME-MARTINET	Céline	21	Pharmacien			77140
-6116	810000118629	PHONGPRIXA	KHAMSAY	21	Pharmacien			77200
-6169	810006144892	GARBE	CAROLINE	80	Pédicure-Podologue			77000
-4497	810005734065	JONKISZ	MARCIN	70	Masseur-Kinésithérapeute			77000
-# Exercice 1
+![image](https://developpement-informatique.com/upload/93466eff73d076c3f4b5e440bff356e1da98975d.png)
 
-Quelle requête SQL utiliser pour compter, sans doublons, le nombre de professionnels de santé en Seine-et-Marne (77) ?
+Ecrire les commandes SQL permettant de rechercher :
 
-# Exercice 2
+La liste de tous les étudiants.
+?
 
-Quelle requête SQL utiliser pour afficher pour tous les professionnels de santé avec le code postal 77300 les colonnes suivantes : id_pp_nat, prenom, nom, code_postal, ville, departement et région. Vous aurez besoin de plusieurs jointures.
+Nom et coefficient des matières.
+?
+
+Les numéros des cartes d’identité des étudiants dont la moyenne entre 7 et 12.
+?
+
+La liste des étudiants dont le nom commence par ‘ben’.
+?
+
+Le nombre des étudiants qui ont comme matière ‘12518’.
+?
+
+La somme des coefficients des matières.
+?
+
+Les noms des étudiants qui une note_examen >10.
+?
+
+Afficher les noms et les coefficients des matières étudier par l’étudiant "01234568".
+?
+
+# Exercice 16
+
+Afin d’assurer la qualité des produits attendues par les Clients, l’entreprise cherche à optimiser la gestion des pannes pouvant survenir dans les infrastructures de production nécessaires à la fabrication du Ciment. voici un extrait de la base de données :
+
+TECHNICIEN (idTech, nom, prénom, spécialité)
+STATION (idstat, nom, Position, coordLat, coordLong,phase)
+MACHINE (idmach, état, dateMiseEnService, dateDernièreRévision, #idStat)
+TYPEINCIDENT (id, description, tempsRéparationPrévu)
+INCIDENT (idInd, remarques, dateHeure, dateHeureCloture,#idmach,#idType)
+INTERVENTION (idInterv, dateHeureDébut, dateHeureFin, #idInd, #idTech)
+
+Rédiger la requête SQL permettant d’obtenir la liste par ordre alphabétique des noms et prénoms des techniciens ayant réalisé une intervention sur la Machine identifiée par Ber001.
+?
+
+Rédiger la requête SQL permettant d’obtenir la liste des phases ayant connue un incident de "sur-chauffage" pour le mois Mai 2019.
+?
+
+Rédiger la requête SQL permettant d’obtenir le nombre d’incidents non clôturés.
+?
+
+Rédiger la requête SQL permettant d’obtenir la liste des noms des stations ayant eu plus de dix incidents.
+?
+
+# Exercice 17
+
+Voici un extrait de la base de données gestion des ventes :
+
+    Produit (Ref, Designation, PrixUnitaire, Dimension, #code_Machine)
+    Vente (Ncom, #Ref, Qte , DateLiv)
+    Commande (Ncom, DateCmd, #CodeClt,#Code_Salarie)
+    Produit_concurrent(Ref,Designation,PrixUnitaire,PrixUnitaire,Dimension,#code_Machine,Nom_Concurrent)
+
+Donner la requête qui permet d’obtenir le chiffre d’affaire mensuel de l’année en cours
+?
+
+Donner la requête qui calcule le taux de vente de chaque produit.
+?
+
+Donner la requête qui affiche le produit le plus vendu du mois en cour.
+?
+
+La table produit concurrent est composée des informations sur les produits vedettes des concurrents ; Donner la requête qui permet d’ajouter tous les produits du concurrent GleenAlu à la table Produits.
+?
