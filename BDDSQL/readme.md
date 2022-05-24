@@ -1,8 +1,8 @@
-# Dates :
+# Base de données / SQL
+# Dates [7j9j]:
 - MARDI 17 MAI - Guillaume
 - MERCREDI 18 MAI - Guillaume
 - JEUDI 19 MAI
-- // VENDREDI 20 MAI
 - MARDI 24 MAI
 - MERCREDI 25 MAI
 - MARDI 31 MAI
