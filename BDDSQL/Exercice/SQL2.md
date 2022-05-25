@@ -299,13 +299,13 @@ V / Cinquième partie
 Ci-après les deux tables à utiliser pour la cinquième partie des exercices. Sujet d'actualité des années 2020 et 2021, la pandémie du COVID-19 va être au coeur de notre sujet pour cette nouvelle partie d'exercices. Nous utiliserons les tables lpecom_covid et lpecom_regions. La table lpecom_covid liste le nombre quotidien de personnes ayant reçu au moins une dose, par date d'injection, par région. Les colonnes n_cum_dose1 et n_cum_dose2 s'occupent de cumuler le nombre d'injection. Les colonnes couv_dose1 et couv_dose2 calculent la couverture vaccinale des régions chaque jour.
 
 Dans les tableaux, seul un extrait des données est affiché, donc toutes les lignes des tables ne sont pas listées. Pour cette nouvelle partie d'exercices, vous pouvez bien évidemment utiliser la console afin de tester vos requêtes.
-| id_region | jour | n_dose1 | n_dose2 | n_cum_dose1 | n_cum_dose2 | couv_dose1 | couv_dose2
-| --- |--- | --- | --- | --- | --- | --- | ---
-| 404 | 04 | 2021-04-06 | 676 | 633 | 40066 | 22082 | 4.70 | 2.60
-| 202 | 02 | 2021-04-06 | 615 | 104 | 18330 | 5236 | 5.10 | 1.50
-| 303 | 03 | 2021-04-06 | 301 | 300 | 10572 | 5199 | 3.60 | 1.80
-| 505 | 06 | 2021-04-06 | 125 | 184 | 10236 | 4781 | 3.70 | 1.70
-| 101 | 01 | 2021-04-06 | 227 | 166 | 10503 | 4027 | 2.80 | 1.10
+| id | id_region | jour | n_dose1 | n_dose2 | n_cum_dose1 | n_cum_dose2 | couv_dose1 | couv_dose2
+| --- |--- | --- | --- | --- | --- | --- | --- | ---
+| 404 | 04 | 2021-04-06 | 486 | 676 | 633 | 40066 | 22082 | 4.70 | 2.60
+| 202 | 02 | 2021-04-06 | 654 | 615 | 104 | 18330 | 5236 | 5.10 | 1.50
+| 303 | 03 | 2021-04-06 | 156 | 301 | 300 | 10572 | 5199 | 3.60 | 1.80
+| 505 | 06 | 2021-04-06 | 65 | 125 | 184 | 10236 | 4781 | 3.70 | 1.70
+| 101 | 01 | 2021-04-06 | 145 | 227 | 166 | 10503 | 4027 | 2.80 | 1.10
 
 | id | code | name | slug
 | --- |--- | --- |  ---
