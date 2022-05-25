@@ -213,3 +213,11 @@ Un hébergement se trouve sur une étape mais il peut y avoir plusieurs héberge
 Il nous reste enfin à intégrer les avis sur les hébergements. Ceux-ci étant nominatifs, nous décidons d'ajouter une table pour représenter les adhérents de l'association. Cet table nous permettra de retrouver tous les avis d'un adhérent donné.
 
 Les avis sont ajoutés sous forme de table d'association liant les adhérents et les hébergements. La cardinalité entre ces deux table des de type M-N : un adhérent peut évaluer plusieurs hébergement et un hébergement peut être évalué par plusieurs adhérents.
+
+https://aymeric-auberton.fr/academie/mysql/# Exercices
+
+https://developpement-informatique.com/article/45/# Exercices-corriges-de-langage-sql
+
+https://github.com/ponsfrilus/kata-sql
+
+https://github.com/XD-DENG/SQL-exercise/tree/master/SQL_exercise_01
