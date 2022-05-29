@@ -471,7 +471,7 @@ Parlons du temps pour la mise en place de l'ensemble , prenez garde de ne pas vo
 
 Les défies pour les DevOps sont nombreux , premièrement réalisé l'ensemble, en d'autres mots , finir, car malheureusement il est parfois jugé non prioritaire de continuer. Un des défis est l'ensemble de l'aspect de la sécurité, car nous avons un nombre élevé de fonctionnalités à mettre en place et le temps n'est pas toujours entièrement disponible. Bien entendu nous sommes humains donc certains aspects sont moins bien réalisé par exemple la sécurité , une petite image pour sourire :
 
-![](./imgs/devops-vs-sec.jpg)
+![](https://github.com/x3rus/training/raw/master/devops/imgs/devops-vs-sec.jpg)
 
 Nous devons, nous assurer que la sécurité n'est pas mise en péril par nos méthodes de travail. 
 

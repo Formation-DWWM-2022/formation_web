@@ -1,5 +1,11 @@
 # Node.js
+
+## Vidéo simples et efficace
+NodeJS est une plateforme construite sur le moteur JavaScript V8 de Chrome qui permet de développer des applications en utilisant du JavaScript. Il se distingue des autres plateformes gràce à une approche non bloquante permettant d'effectuer des entrées/sorties (I/O) de manière asynchrone.
+https://grafikart.fr/formations/nodejs
+
 ## Qu'est ce que NodeJS
+
 JavaScript est l’un des langages de programmation les plus populaires au monde. Aujourd’hui, il propulse des millions de sites web et il a attiré des masses de développeurs et de concepteurs pour créer des fonctionnalités pour le web. Si vous êtes novice en programmation, JavaScript est facilement l’un des meilleurs langages de programmation à maîtriser.
 
 Au cours de ses 20 premières années, JavaScript a été utilisé principalement pour les scripts[^1] côté client[^2]. Étant donné que JavaScript ne pouvait être utilisé qu’à l’intérieur de la balise ```<script>```, les développeurs devaient travailler dans plusieurs langages et frameworks[^3] entre les composants frontend et backend. Plus tard est apparu Node.js, qui est un environnement d’exécution comprenant tout ce qui est nécessaire pour exécuter un programme écrit en JavaScript.
@@ -54,6 +60,7 @@ Node.js est utilisé pour une grande variété d’applications. Explorons quelq
 ![image](https://kinsta.com/wp-content/uploads/2021/03/nodejs-applications.png)
 
 ## Node.js est-il un langage de programmation ?
+
 En un mot : Non.
 
 Node.js n’est pas un langage de programmation. Il s’agit plutôt d’un environnement d’exécution qui est utilisé pour exécuter JavaScript en dehors du navigateur.
@@ -73,14 +80,15 @@ Voyons pourquoi Node.js fonctionne à la fois pour le backend et le frontend :
 - Vaste communauté – Une communauté en ligne florissante contribue à la rapidité d’un cycle de développement réussi. Lorsque vous êtes bloqué sur un problème, il y a de fortes chances que quelqu’un l’ait déjà résolu et partagé la solution sur Stack Overflow. Node.js fait grand usage de cette communauté, qui est active et engagée lorsqu’il s’agit du runtime populaire et de ses paquets.
 
 ## Installation de NodeJS
+
 Il peut être difficile de décider par où commencer avec Node.js. Heureusement, il est assez simple à installer, et vous pourrez ensuite le tester par vous-même.
 
-Téléchargez le programme d’installation Windows directement depuis le site Web nodejs.org : https://nodejs.org/en/#home-downloadhead
+Téléchargez le programme d’installation Windows directement depuis le site Web nodejs.org : <https://nodejs.org/en/#home-downloadhead>
 
 Dans la section précédente, nous avons installé Node. Vérifions-le en contrôlant la version installée. Exécutez la commande suivante dans le terminal :
 ``` node -v ```
 
-# Qu’est-ce que NPM ?
+## Qu’est-ce que NPM ?
 
 NPM est l’écosystème de paquets de Node.js. C’est le plus grand écosystème de toutes les bibliothèques open source au monde, avec plus d’un million de paquets et en pleine croissance. L’utilisation de NPM est gratuite et des milliers de développeurs open source y contribuent quotidiennement.
 
@@ -90,11 +98,15 @@ NPM est livré avec un utilitaire de ligne de commande. Vous pouvez simplement v
 
 Lorsque vous installez Node.js, NPM est automatiquement installé avec lui. Nous avons vu comment installer Node.js dans les sections précédentes, alors regardons maintenant la commande pour installer un paquet avec NPM :
 
+``` sh
 npm install <package-name>
+```
 
 Oui, c’est aussi simple que cela ! Vous pouvez même installer plusieurs paquets à la fois :
 
+``` sh
 npm install <pkg-1> <pkg-2> <pkg-3>
+```
 
 Vous pouvez également spécifier le drapeau -g (global) si vous souhaitez installer un paquet dans le contexte global. Cela vous permet d’utiliser le paquet n’importe où sur votre machine.
 
@@ -102,7 +114,7 @@ Lorsque vous initialisez une nouvelle application, NPM crée automatiquement un 
 
 Il existe une longue liste de commandes fournies avec l’utilitaire NPM, notamment publish, audit, run, etc. Vous pouvez vérifier comment les utiliser en utilisant la commande npm help.
 
-# Paquets populaires
+## Paquets populaires
 
 Voici quelques-uns des paquets les plus populaires pour Node.js aujourd’hui :
 
@@ -124,7 +136,7 @@ Comme toujours, commençons par le programme de base « Hello World », où nous
 
 Une fois que vous avez ouvert votre éditeur de texte, voici le code que vous utiliserez pour votre programme « Hello World » :
 
-```
+``` js
 // server.js
 const http = require('http');
 
@@ -144,11 +156,9 @@ server.listen(port, hostname, () => {
 
 Enregistrez ce fichier sous le nom de « server.js ». Maintenant, allez dans le terminal et démarrez le serveur en utilisant la commande : ``` node server.js ```
 
-Le serveur devrait commencer à fonctionner. Pour vérifier le résultat, ouvrez http://localhost:3000 dans votre navigateur. Vous devriez voir le message –
+Le serveur devrait commencer à fonctionner. Pour vérifier le résultat, ouvrez <http://localhost:3000> dans votre navigateur. Vous devriez voir le message –
 
-```
-Hello World! Welcome to Node.js
-```
+  Hello World! Welcome to Node.js
 
 ## Explication du serveur Hello World
 
@@ -158,15 +168,139 @@ Dans le code ci-dessus, nous chargeons d’abord le module http dans notre progr
 
 Félicitations : vous venez de créer votre premier serveur en Node.js ! Dans la section suivante, nous allons apprendre à utiliser le framework Express pour créer un serveur.
 
+## Résumé
 
-# Exemple - SASS
+En un mot, Node.js est un environnement de programmation populaire qui peut être utilisé pour créer des applications à grande échelle qui doivent prendre en charge plusieurs requêtes simultanées. Les E/S non bloquantes single thread en font également un excellent choix pour les applications en temps réel et les applications de flux de données.
+
+Pour le renforcer encore, Node.js dispose d’une communauté massive de développeurs actifs et peut se vanter d’avoir le plus grand dépôt de paquets open source du monde, NPM, qui contient actuellement plus d’un million de paquets.
+
+Il est facile de commencer avec Node.js. Nous avons vu comment installer et créer un serveur en Node.js, il ne reste donc plus qu’à réfléchir à la manière dont vous allez utiliser et mettre en œuvre Node.js dans votre propre pile. Vous pouvez également approfondir vos connaissances en consultant la documentation officielle de Node.js sur nodejs.dev.
+
+## Exemple - SASS
+
+![gif](https://cms-assets.tutsplus.com/cdn-cgi/image/width=630/uploads/users/1534/posts/28275/final_image/2017-02-26%2023.25.53.gif)
 Sass est peut-être le plus populaire des pré-processeurs CSS; depuis des années, il nous aide à écrire des CSS propres, réutilisables et modulaires. Dans ce tutoriel rapide, je vais expliquer comment compiler Sass en CSS en utilisant la ligne de commande.
 
-# Exemple - Bootstrap
+1. Initialisez le NPM
 
-[^1]: Un script est chargé d'exécuter une fonction bien précise lorsqu'un utilisateur réalise une action ou lorsqu'une page web est en cours d'affichage 
+NPM est le gestionnaire de nœuds pour JavaScript. NPM facilite l'installation et la désinstallation de packages tiers. Pour initialiser un projet Sass avec NPM, ouvrez votre terminal et CD (répertoire de modification) dans votre dossier de projet.
+Navigating to SASS-tutorial folder
 
-[^2]: Le client est une application comme un navigateur qui fonctionne localement sur l'ordinateur et qui envoie des requêtes sur le serveur quand nécessaire. 
+Une fois dans le dossier correct, exécutez la commande npm init. Vous serez invité à répondre à plusieurs questions sur le projet, après quoi NPM va générer un fichier package.json dans votre dossier.
+
+2. Installez Node-Sass
+
+Node-sass est un paquet NPM qui compile Sass en CSS (ce qu'il fait très rapidement aussi). Pour installer node-sass, exécutez la commande suivante dans votre terminal: `npm install node-sass`
+
+3. Écrivez la commande Node-sass
+
+Tout est prêt à écrire un petit script pour compiler Sass. Ouvrez le fichier package.json dans un éditeur de code. Vous verrez quelque chose comme ceci:
+
+``` json
+{
+  "name": "sass-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+```
+
+Dans la section scripts, ajoutez une commande scss, sous la commande test, comme indiqué ci-dessous:
+
+``` json
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "scss": "node-sass -watch scss -o css"
+}
+```
+
+Passons par cette ligne mot à mot.
+
+- node-sass: Désigne le paquet node-sass.
+- -watch: Un drapeau facultatif qui signifie "regarder tous les fichiers .scss dans le dossier scss/ et les recompiler chaque fois qu'il y a un changement".
+- scss: Le nom du dossier où nous mettons tous nos fichiers .scss.
+- -o css: Le dossier de sortie de notre CSS compilé.
+
+Lorsque nous exécutons ce script, il va regarder chaque fichier .scss dans le dossier scss/, puis enregistrer le css compilé dans css/ dossier chaque fois que nous changeons un fichier .scss.
+
+4. Exécutez le script
+
+Pour exécuter notre script en une seule ligne, nous devons exécuter la commande suivante dans le terminal: npm run scss
+
+Et voilà! Nous regardons et compilons SASS.
+
+## Exemple - Bootstrap
+
+Les gestionnaires de packages tels que npm et yarn peuvent s'avérer être un autre moyen efficace d'ajouter Bootstrap au HTML sans effort. Étant donné que npm est le gestionnaire de packages le plus populaire, l'exemple suivant montre comment Bootstrap peut être installé et intégré à n'importe quel projet l'utilisant.
+
+Tapez l'une des commandes suivantes dans le dossier du projet. Ceci n'est valable que si vous avez initialisé npm dans le projet.
+
+- Bootstrap 4 : npm install bootstrap
+- Bootstrap 5 : npm install bootstrap@next
+
+Une copie locale de la version souhaitée des fichiers Bootstrap est maintenant téléchargée dans le dossier "node_modules" de votre projet. Une fois la version Bootstrap souhaitée importée :
+
+  Pour CS :
+
+Incluez le fichier bootstap.min.css dans le `<head>` de votre fichier HTML pour utiliser les composants CSS Bootstrap.
+
+  Pour JS :
+
+Utilisez le fichier bootstrap.min.js avant la fin de la partie `<body>` de votre fichier HTML pour utiliser les composants Bootstrap JS.
+
+Comme mentionné précédemment, jquery.min.js et popper.min.js doivent tous deux être chargés avant de charger bootstrap.min.js.
+
+## Exemple - Yarn
+
+## Qu'est-ce qu'un "package manager" ?
+
+Je ne pense pas que ce paragraphe serve à beaucoup d'entre vous, mais dans le doute, une petite explication ne fera pas de mal
+
+Un package manager, où gestionnaire de paquet en français est un outil permettant de simplifier la gestion (installation, mise à jour, changement de version, etc.) des dépendances de vos projets ou systèmes.
+
+C'est souvent le programme central des distributions Linux (apt-get pour Debian, RPM pour Red-Hat, Pacman pour Arch, …), et il est très facile de voir les stores Windows, Apple ou Android comme des gestionnaires de paquets.
+
+Pour le cas qui nous intéresse (le développement web), la plupart des gestionnaires de paquets se sont construits sur le modèle de Bundler, le gestionnaire de paquets pour Ruby. Leur fonctionnement est généralement tout le temps le même : un simple fichier texte recense toutes les dépendances de votre projet ainsi que leurs versions. Pour l'installation d'une nouvelle machine de développement ou le déploiement de votre projet en production, il ne vous suffit donc que d'une seule commande (ex : npm install)
+
+Tous les langages (ou presque) possèdent le leur (npm pour Node Js, Composer pour PHP, Bower pour les ressources front-end, etc) et si vous n'en utilisez pas encore (que vous soyez intégrateur ou développeur) je ne peux que vous conseiller d'y jeter un coup d'oeil, c'est sans doute le meilleur endroit ou investir votre temps de formation !
+
+## Yarn, gestionnaire de paquets pour Node.js
+
+Bien que pour la grande majorité d'entre nous, npm est tout à fait suffisant pour notre travail avec Node js, il faut reconnaitre que ce package manager a quelques défauts assez gênants (comme sa lenteur catastrophique, par exemple).
+
+Pour adresser une solution à tous ces problèmes, certaines petites entreprises (Facebook et Google entre autres) ont décidé de fournir un nouveau package manager pour Javascript : Yarn.
+
+Alors, pour commencer, rassurez-vous, Yarn n'est pas là pour tout changer, et reste compatible avec une grosse quantité de l'infrastructure actuelle : les dépôts restent identiques, et vos fichiers packages Json restent compatibles sans avoir à faire le moindre changement. La seule "pièce" qui change dans l'engrenage est l'outil CLI, et comme vous allez le voir cela suffit à corriger bon nombre de problèmes.
+
+## Pourquoi utiliser Yarn
+
+Pour commencer, Yarn est plus rapide, beaucoup plus rapide : 40% en moyenne. Il semblerait que  plus le nombres de dependances installees soit grande, moins la difference soit flagrante, mais Yarn reste plus rapide dans tout les cas.
+
+Ensuite, Yarn possède un lockfile au fonctionnement exactement identique au fichier bundle.lock de bundler. Pour comprendre ce point, il faut savoir que les numéros de version du fichier package.json ne sont pas forcément "fixes". Ils peuvent par exemple exprimer "n'importe quel version au-dessus de la version 3". Le problème avec ce fonctionnement est que nous pouvons nous retrouver avec deux machines avec des dépendances différentes, ce qui est prône aux bugs.
+
+Pour corriger cela, Yarn met à jour un fichier avec des numéros de versions fixes : yarn.lock. De cette manière, il sera toujours possible d'installer exactement les bonnes versions de toutes vos dépendances.
+
+Enfin, et c'est pour moi un des points les plus agréables : Yarn est compatible avec npm ET avec bower. Plus besoin d'avoir deux gestionnaires de paquets par projet, vous pouvez tout manager depuis Yarn !
+
+Pour finir, sachez qu'il existe d'autres petits goodies : l'affichage est bien moins verbeux, Yarn peut fonctionner hors ligne, etc. Ces points ne changeront pas vraiment votre vie, mais sachez au moins qu'ils existent.
+
+## Installer Yarn
+
+L'installation de Yarn depend de votre plateforme.
+
+Sous Linux, vous aurez à ajouter un dépôt puis l'installer avec votre gestionnaire de paquets.
+Enfin pour Windows, vous pourrez retrouver un installateur sur le site de Yarn : https://classic.yarnpkg.com/en/docs/install#windows-stable 
+
+----
+
+[^1]: Un script est chargé d'exécuter une fonction bien précise lorsqu'un utilisateur réalise une action ou lorsqu'une page web est en cours d'affichage
+
+[^2]: Le client est une application comme un navigateur qui fonctionne localement sur l'ordinateur et qui envoie des requêtes sur le serveur quand nécessaire.
 
 [^3]: L’objectif d’un framework est généralement de simplifier le travail des développeurs informatiques, en leur offrant une architecture « prête à l’emploi » et qui leur permette de ne pas repartir de zéro à chaque nouveau projet. C'est un ensemble d'outils et de composants logiciels à la base d'un logiciel ou d'une application
 
