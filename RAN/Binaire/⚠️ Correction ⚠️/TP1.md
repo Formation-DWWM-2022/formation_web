@@ -94,11 +94,11 @@ Même question avec les entiers 135 et 46.
         --------------------
         1100001000010 = 6210
 
-1. Indiquer la valeur codée par le mot de 16 bits 1101100101110101 suivant qu’il représente un entier non signé, ou un entier signé. 
+8. Indiquer la valeur codée par le mot de 16 bits [1]101,1001,0111,0101 suivant qu’il représente un entier non signé, ou un entier signé. 
 
 C: En non signé, la valeur est 1101100101110101[2] = 55669[10]. En signé, le premier bit (bit de signe) vaut 1, c’est donc un nombre négatif dont la valeur est −101100101110101[2] = −22901[10].
 
-Même question avec le mot 1001000011101101.
+Même question avec le mot [1]001000011101101.
 
 C: En non signé, la valeur est 1001000011101101[2] = 37101[10]. 
 En signé, c’est un nombre négatif dont la valeur est −1000011101101[2] = −4333[10].
