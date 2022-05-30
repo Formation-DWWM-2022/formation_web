@@ -319,3 +319,6 @@ Comment obtenir plus rapidement l'opposé d'un entier ?
 > * Le bit de poids fort est à `0`, donc ce nombre est positif ; il suffit de lire sa partie numérique.
 > * La partie numérique est $1+4+8 = 13$
 > * Le nombre de départ était $+13$.
+
+![image](https://www.electronique-et-informatique.fr/Electronique-et-Informatique/Digit/Proc_ordi/Images/Correspondances_Octaux_Hexadecimaux.GIF)
+![image](https://tdeecalculator.io/wp-content/uploads/2020/05/Puissance-de-2-2-1024x757.png)
