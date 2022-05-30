@@ -49,6 +49,14 @@ C: La mémoire contient 4 × 2^20 octets, c.-à-d. 4 × 2^20 × 8 = 33 554 432 b
 
 6. Coder en binaire sur un octet les entiers 105 et 21 puis effectuer l’addition binaire des entiers ainsi codés. Vérifier que le résultat sur un octet est correct. Même question avec les entiers 184 et 72.
     
+        105/2 = 52.5 = 52 reste 1
+        52/2 = 26 reste 0
+        26/2 = 13 reste 0
+        13/2 = 6 reste 1
+        6/2 = 3 reste 0
+        3/2 = 1 reste 1
+        1/2 = 0 reste 1
+        
         105 = 1101001 +
         21 = 10101
         =
@@ -57,32 +65,36 @@ C: La mémoire contient 4 × 2^20 octets, c.-à-d. 4 × 2^20 × 8 = 33 554 432 b
         184 = 10111000 +
         72 = 1001000
         =
-        0 = (1)00000000 pas correct(sur 8 bits)
+        0 = 1 00000000 pas correct (sur 8 bits)
 
 7. Coder en binaire sur un octet les entiers 79 et 52 puis effectuer la multiplication binaire des entiers ainsi codés.
 Même question avec les entiers 135 et 46.
 
         1001111 = 79
         × 110100 = 52
-        =
-        1001111
-
-        1001111
-        + 1001111
-        =
+        --------------------
+        000000000000[0]
+        00000000000[0]0
+        0000100111[1]00
+        000000000[0]000
+        00100111[1]0000
+        0100111[1]00000
+        --------------------
         1000000001100 = 4108
 
         10000111 = 135
         × 101110 = 46
-        =
-        10000111
-
-        10000111
-        + 10000111
-        =
+        --------------------
+        0000000000000[0]
+        00001000011[1]0
+        0001000011[1]00
+        001000011[1]000
+        00000000[0]0000
+        1000011[1]00000
+        --------------------
         1100001000010 = 6210
 
-8. Indiquer la valeur codée par le mot de 16 bits 1101100101110101 suivant qu’il représente un entier non signé, ou un entier signé. 
+1. Indiquer la valeur codée par le mot de 16 bits 1101100101110101 suivant qu’il représente un entier non signé, ou un entier signé. 
 
 C: En non signé, la valeur est 1101100101110101[2] = 55669[10]. En signé, le premier bit (bit de signe) vaut 1, c’est donc un nombre négatif dont la valeur est −101100101110101[2] = −22901[10].
 

@@ -106,6 +106,9 @@ Travail reprendre les étapes site : http://www.players-bar.com/
 ## EXO 14 : Plugin figma et les examples de la communauté
 - Plugin figma : https://www.figma.com/community/plugins
 - Examples de la communauté : https://www.figma.com/community/web_design 
+- How to Add Fonts to Figma :
+  - https://www.wikihow.com/Add-Fonts-to-Figma
+  - https://help.figma.com/hc/fr/articles/360039956894-Acc%C3%A9der-aux-polices-locales-sur-votre-ordinateur
 
 TOP Plugin figma : 
 - https://graphiste.com/blog/plug-ins-figma-free-concevoir-designs-outil
