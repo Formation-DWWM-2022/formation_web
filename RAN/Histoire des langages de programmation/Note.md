@@ -1,36 +1,8 @@
-# EXERCICE - Histoire des langages de programmations
-- Date de création ?
-- Usage ?
-- Fortement ou faiblement typé ?
-- Typage dynamique ?
-- Interprété ou natif ?
-- Classement ?
-
-## Langage (17) - 3 par groupe :
-- FORTRAN (Davy)
-- Cobol (Kava)
-- Basic (Julien)
-- C (Laurent)
-- SQL (Xavier)
-- C++ (Fred)
-- Objectif-C (Tom)
-- Caml (Davy)
-- Bash (Kava)
-- Python (Xavier)
-- Visual Basic (Julien)
-- Brainfuck (Fred)
-- Java (Kava)
-- PHP (Fred)
-- Javascript (Tom)
-- C# (Xavier)
-- Swift (Davy)
-
 # Cours - Histoire des langages de programmations
 Des premiers langages à ceux d’aujourd’hui.
 
 ## Terminolgie
 Quelques définitions pour mieux comprendre
-
 
 ## Variable
 En informatique, les variables sont des éléments qui associent un nom (l’identifiant) à une valeur. La valeur peut être de nature différente : nombre, texte, etc. Les variables sont physiquement implantées dans la mémoire du système programmé (ordinateur, microprocesseur…)
