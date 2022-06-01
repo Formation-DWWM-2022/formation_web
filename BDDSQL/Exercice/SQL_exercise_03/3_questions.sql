@@ -1,24 +1,24 @@
 -- The Warehouse
 -- lINK: https://en.wikibooks.org/wiki/SQL_Exercises/The_warehouse
---3.1 Select all warehouses.
---3.2 Select all boxes with a value larger than $150.
---3.3 Select all distinct contents in all the boxes.
---3.4 Select the average value of all the boxes.
---3.5 Select the warehouse code and the average value of the boxes in each warehouse.
---3.6 Same as previous exercise, but select only those warehouses where the average value of the boxes is greater than 150.
---3.7 Select the code of each box, along with the name of the city the box is located in.
---3.8 Select the warehouse codes, along with the number of boxes in each warehouse. 
-    -- Optionally, take into account that some warehouses are empty (i.e., the box count should show up as zero, instead of omitting the warehouse from the result).
---3.9 Select the codes of all warehouses that are saturated (a warehouse is saturated if the number of boxes in it is larger than the warehouse's capacity).
---3.10 Select the codes of all the boxes located in Chicago.
---3.11 Create a new warehouse in New York with a capacity for 3 boxes.
---3.12 Create a new box, with code "H5RT", containing "Papers" with a value of $200, and located in warehouse 2.
---3.13 Reduce the value of all boxes by 15%.
---3.14 Remove all boxes with a value lower than $100.
--- 3.15 Remove all boxes from saturated warehouses.
--- 3.16 Add Index for column "Warehouse" in table "boxes"
-    -- !!!NOTE!!!: index should NOT be used on small tables in practice
--- 3.17 Print all the existing indexes
-    -- !!!NOTE!!!: index should NOT be used on small tables in practice
--- 3.18 Remove (drop) the index you added just
-    -- !!!NOTE!!!: index should NOT be used on small tables in practice
+--3.1 Sélectionnez tous les entrepôts.
+--3.2 Sélectionnez toutes les cases dont la valeur est supérieure à 150 $.
+--3.3 Sélectionnez tous les contenus distincts dans toutes les cases.
+--3.4 Sélectionnez la valeur moyenne de toutes les cases.
+--3.5 Sélectionnez le code de l'entrepôt et la valeur moyenne des boîtes dans chaque entrepôt.
+--3.6 Identique à l'exercice précédent, mais ne sélectionnez que les entrepôts où la valeur moyenne des boîtes est supérieure à 150.
+--3.7 Sélectionnez le code de chaque boîte, ainsi que le nom de la ville dans laquelle se trouve la boîte.
+--3.8 Sélectionnez les codes d'entrepôt, ainsi que le nombre de boîtes dans chaque entrepôt.
+    -- Facultativement, tenez compte du fait que certains entrepôts sont vides (c'est-à-dire que le nombre de boîtes doit apparaître comme zéro, au lieu d'omettre l'entrepôt du résultat).
+--3.9 Sélectionnez les codes de tous les entrepôts qui sont saturés (un entrepôt est saturé si le nombre de boîtes qu'il contient est supérieur à la capacité de l'entrepôt).
+--3.10 Sélectionnez les codes de toutes les boîtes situées à Chicago.
+--3.11 Créer un nouvel entrepôt à New York d'une capacité de 3 boîtes.
+--3.12 Créez une nouvelle boîte, avec le code "H5RT", contenant des "Papiers" d'une valeur de 200 $, et située dans l'entrepôt 2.
+--3.13 Réduisez la valeur de toutes les cases de 15 %.
+--3.14 Retirez toutes les cases dont la valeur est inférieure à 100 $.
+-- 3.15 Retirer toutes les boîtes des entrepôts saturés.
+-- 3.16 Ajouter Index pour la colonne "Entrepôt" dans le tableau "boîtes"
+    -- !!!NOTE!!! : l'index ne doit PAS être utilisé sur de petites tables dans la pratique
+-- 3.17 Imprimer tous les index existants
+    -- !!!NOTE!!! : l'index ne doit PAS être utilisé sur de petites tables dans la pratique
+-- 3.18 Supprimer (supprimer) l'index que vous venez d'ajouter
+    -- !!!NOTE!!! : l'index ne doit PAS être utilisé sur de petites tables dans la pratique
