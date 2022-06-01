@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS `pokemon` (
   `is_default` smallint(6) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `slug_idx` (`slug`)
-) ENGINE=InnoDB AUTO_INCREMENT=1118 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1118 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
 
 --
 -- Déchargement des données de la table `pokemon`

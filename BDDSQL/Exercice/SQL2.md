@@ -7,13 +7,13 @@ Il est possible de télécharger le fichier .sql avec les tables et les enregist
 I / Première partie
 
 Ci-après la table à utiliser pour la première partie des exercices.
-| id_livre 	| titre | 	isbn_10 | 	auteur | 	prix
+| id_livre  | titre |  isbn_10 |  auteur |  prix
 | ----------| ----------|----------|----------|----------|
-| 1 | 	Forteresse digitale | 	2709626306 | 	Dan Brown | 	20.5
-| 2 | 	La jeune fille et la nuit | 	2253237620 | 	Guillaume Musso | 	21.9
-| 3 | 	T'choupi se brosse les dents | 	2092589547 | 	Thierry Courtin | 	5.7
-| 4 | 	La Dernière Chasse 	2226439412 | 	Jean-Christophe Grangé | 	22.9
-| 5 | 	Le Signal | 	2226319484 | 	Maxime Chattam | 	23.9
+| 1 |  Forteresse digitale |  2709626306 |  Dan Brown |  20.5
+| 2 |  La jeune fille et la nuit |  2253237620 |  Guillaume Musso |  21.9
+| 3 |  T'choupi se brosse les dents |  2092589547 |  Thierry Courtin |  5.7
+| 4 |  La Dernière Chasse  2226439412 |  Jean-Christophe Grangé |  22.9
+| 5 |  Le Signal |  2226319484 |  Maxime Chattam |  23.9
 
 # Exercice 1
 
@@ -52,25 +52,25 @@ II / Deuxième partie
 Ci-après les deux tables à utiliser pour la deuxième partie des exercices.
 | id_etudiant | prenom |nom
 |----|----|---
-| 30 |	Joseph |	Biblo
-| 31 |	Paul |	Bismuth
-| 32 |	Jean |	Michel
-| 33 |	Ted |	Bundy
-| 34 |	Caroline |	Martinez
-| 35 |	Joséphine |	Henry
+| 30 | Joseph | Biblo
+| 31 | Paul | Bismuth
+| 32 | Jean | Michel
+| 33 | Ted | Bundy
+| 34 | Caroline | Martinez
+| 35 | Joséphine | Henry
 
-| id | id_examen |	id_etudiant |	matiere |	note
+| id | id_examen | id_etudiant | matiere | note
 |---|---|---|---|---
-| 788 |	45 |	30 |	Histoire-Geographie |	10.5
-| 789 |	87 |	33 |	Mathématiques |	14
-| 790 |	87 |	34 |	Mathématiques |	4
-| 791 |	45 |	31 |	Histoire-Geographie |	15.5
-| 792 |	45 |	32 |	Histoire-Geographie |	8
-| 793 |	87 |	31 |	Mathématiques |	14
-| 794 |	45 |	33 |	Histoire-Geographie |	9.5
-| 795 |	45 |	36 |	Histoire-Geographie |	13
-| 796 |	45 |	34 |	Histoire-Geographie |	17
-| 797 |	87 |	30 |	Mathématiques |	7.5
+| 788 | 45 | 30 | Histoire-Geographie | 10.5
+| 789 | 87 | 33 | Mathématiques | 14
+| 790 | 87 | 34 | Mathématiques | 4
+| 791 | 45 | 31 | Histoire-Geographie | 15.5
+| 792 | 45 | 32 | Histoire-Geographie | 8
+| 793 | 87 | 31 | Mathématiques | 14
+| 794 | 45 | 33 | Histoire-Geographie | 9.5
+| 795 | 45 | 36 | Histoire-Geographie | 13
+| 796 | 45 | 34 | Histoire-Geographie | 17
+| 797 | 87 | 30 | Mathématiques | 7.5
 
 # Exercice 1
 
@@ -112,35 +112,36 @@ III / Troisième partie
 
 Ci-après les trois tables à utiliser pour la troisième partie des exercices. Pour cette nouvelle partie d'exercices, il est préférable de ne pas utiliser la console pour s'entrainer à comprendre les requêtes.
 
-| id |	nom |	prenom |	sexe |	nation
-| --- |--- | ---| --- |--- 
-| 16 |	Scott |	Ridley |	0 |	uk
-| 22 |	Aronofsky |	Darren	0 |	us
-| 47 | Jenkins |	Patty |	1 |	us
-| 66 |	Ritchie	| Guy |	0 |	uk
+| id | nom | prenom | sexe | nation
+| --- |--- | ---| --- |---
+| 16 | Scott | Ridley | 0 | uk
+| 22 | Aronofsky | Darren 0 | us
+| 47 | Jenkins | Patty | 1 | us
+| 66 | Ritchie | Guy | 0 | uk
 
-| id |	nom |	id_realisateur
+| id | nom | id_realisateur
 | --- |--- | ---
-| 121	Requiem for a Dream	22
-| 546	Gladiator	16
-| 666	Fight Club	61
-| 775	Blade Runner	16
-| 984	Seul sur Mars	16
-| 986	Black Swan	22
-| 987	Wonder Woman	47
-| 988	The Tomorrow Man	85
+| 121 | Requiem for a Dream 22
+| 546 | Gladiator | 16
+| 666 | Fight Club | 61
+| 775 | Blade Runner | 16
+| 984 | Seul sur Mars | 16
+| 986 | Black Swan | 22
+| 987 | Wonder Woman | 47
+| 988 | The Tomorrow Man | 85
 
-| id |	id_film |	note
+| id | id_film | note
 | --- |--- | ---
-| 1	| 546 |	4.5
-| 2	| 546 |	2.5
-| 3	| 775 |	5
-| 4	| 984 |	3.5
-| 5	| 987 |	3.1
-| 6	| 666 |	4.2
-| 7	| 986 |	3
-| 8	| 986 |	4.3
-| 9	| 121 |	1
+| 1 | 546 | 4.5
+| 2 | 546 | 2.5
+| 3 | 775 | 5
+| 4 | 984 | 3.5
+| 5 | 987 | 3.1
+| 6 | 666 | 4.2
+| 7 | 986 | 3
+| 8 | 986 | 4.3
+| 9 | 121 | 1
+
 # Exercice 1
 
 Quel est le résultat de la requête ci-dessous ?
@@ -228,16 +229,16 @@ WHERE r.nation = "uk";
 IV / Quatrième partie
 
 Ci-après les trois tables à utiliser pour la quatrième partie des exercices. Dans les tableaux, il y a seulement un extrait aléatoire des données, donc toutes les lignes des tables ne sont pas listées. Dernier point, dans la table lpecom_cities, il y a uniquement les villes de la région Île-de-France. Pour cette nouvelle partie d'exercices, vous pouvez bien évidemment utiliser la console afin de tester vos requêtes.
-| id | 	department_code | insee_code | zip_code | name | gps_lat | gps_lng
-| --- |--- | ---| --- |--- | ---| --- 
-| 30864 | 77 | 	77236 | 77480 | Jaulnes	| 48.41863547486034	| 3.28138541899442
-| 31396	| 78 | 	78643 | 78540 | Vernouillet	| 48.96550000000000	| 1.97599000000000
-| 31218	| 78 | 	78193 | 78720 | Dampierre-en-Yvelines | 48.70825963302752 | 1.97073623853211
-| 35532	| 95 | 	95392 | 95630 | Mériel | 49.07733312500000 | 2.21302166666667
-| 31082	| 77 | 	77462 | 77230 | Thieux | 49.00079873563218 | 2.67002413793103
+| id |  department_code | insee_code | zip_code | name | gps_lat | gps_lng
+| --- |--- | ---| --- |--- | ---| ---
+| 30864 | 77 |  77236 | 77480 | Jaulnes | 48.41863547486034 | 3.28138541899442
+| 31396 | 78 |  78643 | 78540 | Vernouillet | 48.96550000000000 | 1.97599000000000
+| 31218 | 78 |  78193 | 78720 | Dampierre-en-Yvelines | 48.70825963302752 | 1.97073623853211
+| 35532 | 95 |  95392 | 95630 | Mériel | 49.07733312500000 | 2.21302166666667
+| 31082 | 77 |  77462 | 77230 | Thieux | 49.00079873563218 | 2.67002413793103
 
 | id | region_code | code | name | slug
-| --- |--- | ---| --- |--- 
+| --- |--- | ---| --- |---
 | 64 | 84 | 63 | Puy-de-Dôme | puy de dome
 | 13 | 93 | 13 | Bouches-du-Rhône | bouches du rhone
 | 68 | 44 | 67 | Bas-Rhin | bas | rhin
@@ -245,7 +246,7 @@ Ci-après les trois tables à utiliser pour la quatrième partie des exercices. 
 | 90 | 27 | 89 | Yonne | yonne
 
 | id | code | name | slug
-| --- |--- | --- | --- 
+| --- |--- | --- | ---
 | 11 | 44 | Grand Est | grand est
 | 7 | 24 | Centre-Val de Loire | centre val de loire
 | 19 | COM | Collectivités d'Outre-Mer | collectivites doutre mer
@@ -376,10 +377,10 @@ Dans les tableaux, seul un extrait des données est affiché, donc toutes les li
 
 | id | nom
 | --- | ---
-| 0	| Tous vaccins
-| 1	| COMIRNATY Pfizer/BioNTech
-| 2	| Moderna
-| 3	| AstraZeneka
+| 0 | Tous vaccins
+| 1 | COMIRNATY Pfizer/BioNTech
+| 2 | Moderna
+| 3 | AstraZeneka
 
 | id | region_code | code | name | slug
 | --- | --- | --- | --- | ---
@@ -449,10 +450,10 @@ Il est possible qu'un professionel de santé apparaisse plusieurs fois dans la t
 | id | id_pp_nat | nom | prenom | code_profession | lib_profession | code_savoir_faire | lib_savoir_faire | code_postal
 | --- |  --- | --- | --- | --- | --- | --- | --- | ---
 | 4201 | 810100703585 | GELY | Florence | 10 | Médecin | SM53 | Spécialiste en Médecine Générale | 77177
-| 569 | 810001409373 | GUIGOU | DAVID | 10	| Médecin | SM26 | Qualifié en Médecine Générale | 77150
+| 569 | 810001409373 | GUIGOU | DAVID | 10 | Médecin | SM26 | Qualifié en Médecine Générale | 77150
 | 1320 | 810000707066 | ELBAZ | SERGE | 10 | Médecin | SM44 | Radio-diagnostic | 77450
-| 1698 | 810000686203 | ELBAZ | Marc | 10	| Médecin | SM44 | Radio-diagnostic | 77200
-| 4339 | 810101969797 | BAEZA | CAROLINE | 10	| Chirurgien-Dentiste | | | 77100
+| 1698 | 810000686203 | ELBAZ | Marc | 10 | Médecin | SM44 | Radio-diagnostic | 77200
+| 4339 | 810101969797 | BAEZA | CAROLINE | 10 | Chirurgien-Dentiste | | | 77100
 
 # Exercice 1
 

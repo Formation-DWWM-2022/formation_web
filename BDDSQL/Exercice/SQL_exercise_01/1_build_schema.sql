@@ -1,10 +1,9 @@
 -- LINK: https://en.wikibooks.org/wiki/SQL_Exercises/The_computer_store
 
 CREATE TABLE Manufacturers (
-  Code INTEGER,
   Name VARCHAR(255) NOT NULL,
   PRIMARY KEY (Code)   
-);
+) ENGINE=INNODB;
 
 CREATE TABLE Products (
   Code INTEGER,
