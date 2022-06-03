@@ -85,8 +85,35 @@ SELECT * FROM utilisateur LEFT OUTER JOIN commande ON tilisateur.id = commande.u
 | 2       | Damien      | Lefort   | damien.lefort@example.com    | Montréal   | 2       | 2013-02-17 | A00105      | 149.45     |
 | 2       | Damien      | Lefort   | damien.lefort@example.com    | Montréal   | 2       | 2013-02-21 | A00106      | 235.35     |
 | 3       | Sophie      | Prevost  | sophie.prevost@example.com   | Marseille  | NULL    | NULL       | NULL        | NULL       |
-| 4       | Yann        | Rolland  | yann.rolland@example.com     | Lille      | 9999    | NULL       | NULL        | NULL       | 
+| 4       | Yann        | Rolland  | yann.rolland@example.com     | Lille      | 9999    | NULL       | NULL        | NULL       |
 | 5       | Léa         | Esmée    | lea.esmee@example.com        | Paris      | 1       | NULL       | NULL        | NULL       |
+
+```
+SELECT * FROM utilisateur RIGHT OUTER JOIN commande ON tilisateur.id = commande.utilisateur_id;
+```
+
+| user_id | user_prenom | user_nom | user_email                   | user_ville | pays_id | date_achat | num_facture | prix_total |
+| ------- | ----------- | -------- | ---------------------------- | ---------- | ------- | ---------- | ----------- | ---------- |
+| 1       | Jérémie     | Marechal | jeremie.marechal@example.com | Paris      | 1       | 2013-01-23 | A00103      | 203.14     |
+| 1       | Jérémie     | Marechal | jeremie.marechal@example.com | Paris      | 1       | 2013-02-14 | A00104      | 124.00     |
+| 2       | Damien      | Lefort   | damien.lefort@example.com    | Montréal   | 2       | 2013-02-17 | A00105      | 149.45     |
+| 2       | Damien      | Lefort   | damien.lefort@example.com    | Montréal   | 2       | 2013-02-21 | A00106      | 235.35     |
+| 6 | NULL | NULL | NULL | NULL | NULL | 2013-03-02  | A00107   | 47.58                        |
+
+```
+SELECT * FROM utilisateur FULL JOIN commande ON utilisateur.id = commande.utilisateur_id
+``` 
+
+| user_id | user_prenom | user_nom | user_email                   | user_ville | pays_id | date_achat | num_facture | prix_total |
+| ------- | ----------- | -------- | ---------------------------- | ---------- | ------- | ---------- | ----------- | ---------- |
+| 1       | Jérémie     | Marechal | jeremie.marechal@example.com | Paris      | 1       | 2013-01-23 | A00103      | 203.14     |
+| 1       | Jérémie     | Marechal | jeremie.marechal@example.com | Paris      | 1       | 2013-02-14 | A00104      | 124.00     |
+| 2       | Damien      | Lefort   | damien.lefort@example.com    | Montréal   | 2       | 2013-02-17 | A00105      | 149.45     |
+| 2       | Damien      | Lefort   | damien.lefort@example.com    | Montréal   | 2       | 2013-02-21 | A00106      | 235.35     |
+| 3       | Sophie      | Prevost  | sophie.prevost@example.com   | Marseille  | NULL    | NULL       | NULL        | NULL       |
+| 4       | Yann        | Rolland  | yann.rolland@example.com     | Lille      | 9999    | NULL       | NULL        | NULL       |
+| 5       | Léa         | Esmée    | lea.esmee@example.com        | Paris      | 1       | NULL       | NULL        | NULL       |
+| 6 | NULL | NULL | NULL | NULL | NULL | 2013-03-02  | A00107   | 47.58                        |
 
 # Jointure “à la main”
 On peut aussi faire les jointures internes “à la main”, i.e. faire les restrictions dans le
