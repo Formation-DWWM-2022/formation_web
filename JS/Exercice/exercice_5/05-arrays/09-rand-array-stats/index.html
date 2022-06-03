@@ -1,0 +1,67 @@
+<!--
+ * becode/javascript
+ *
+ * /05-arrays/09-rand-array-stats/index.html - 5.9: tableau aléatoire & statistiques
+ *
+ * coded by leny@BeCode
+ * started at 26/10/2018
+-->
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>BeCode/JavaScript - 5.9: tableau aléatoire & statistiques</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+        <link rel="stylesheet" href="../../_shared/css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>BeCode / JavaScript</h1>
+                <h2>
+                    <span>5.9</span>
+                    <strong>tableau aléatoire & statistiques</strong>
+                </h2>
+            </header>
+            <div class="content">
+                <section class="explain">
+                    <p>Au clic sur le bouton, affiche dans les balises prévues les dix éléments d'un tableau de 10 nombres (entre 1 et 100), ainsi que les statistiques suivantes : le plus petit nombre, le plus grand, la somme des nombres et la moyenne de ceux-ci.</p>
+                </section>
+                <section class="material">
+                    <table>
+                        <tr>
+                            <td id="n-1">-</td>
+                            <td id="n-2">-</td>
+                            <td id="n-3">-</td>
+                            <td id="n-4">-</td>
+                            <td id="n-5">-</td>
+                            <td id="n-6">-</td>
+                            <td id="n-7">-</td>
+                            <td id="n-8">-</td>
+                            <td id="n-9">-</td>
+                            <td id="n-10">-</td>
+                        </tr>
+                    </table>
+                    <dl>
+                        <dt>Le plus petit nombre :</dt>
+                        <dd id="min">-</dd>
+                        <dt>Le plus grand nombre :</dt>
+                        <dd id="max">-</dd>
+                        <dt>Somme des nombres :</dt>
+                        <dd id="sum">-</dd>
+                        <dt>Moyenne des nombres :</dt>
+                        <dd id="average">-</dd>
+                    </dl>
+                    <div class="actions">
+                        <button type="button" id="run">Lancer le script</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
+

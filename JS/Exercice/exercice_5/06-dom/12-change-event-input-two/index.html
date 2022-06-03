@@ -1,0 +1,47 @@
+<!--
+ * becode/javascript
+ *
+ * /06-dom/12-change-event-input-two/index.html - 6.12: événement change (2)
+ *
+ * coded by leny@BeCode
+ * started at 26/10/2018
+-->
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>BeCode/JavaScript - 6.12: événement change (2)</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+        <link rel="stylesheet" href="../../_shared/css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>BeCode / JavaScript</h1>
+                <h2>
+                    <span>6.12</span>
+                    <strong>événement change (2)</strong>
+                </h2>
+            </header>
+            <div class="content">
+                <section class="explain">
+                    <p>Observe les changements de l'input et affiche "ok" si le contenu fait 8 caractères au minimum, et contient au moins 2 chiffres.</p>
+                </section>
+                <section class="material">
+                    <form action="#" method="post">
+                        <div class="field with-indicator">
+                            <label for="pass-one">Mot de passe:</label>
+                            <input type="text" name="pass-one" id="pass-one" />
+                            <span id="validity" class="indicator">Pas ok</span>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
+

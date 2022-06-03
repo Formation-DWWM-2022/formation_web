@@ -1,0 +1,59 @@
+<!--
+ * becode/javascript
+ *
+ * /07-misc/05-worst-ui-three/index.html - 7.5: la pire interface (3) : phone slot
+ *
+ * coded by leny@BeCode
+ * started at 26/10/2018
+-->
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>BeCode/JavaScript - 7.5: la pire interface (3) : phone slot</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+        <link rel="stylesheet" href="../../_shared/css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>BeCode / JavaScript</h1>
+                <h2>
+                    <span>7.5</span>
+                    <strong>la pire interface (3) : phone slot</strong>
+                </h2>
+            </header>
+            <div class="content">
+                <section class="explain">
+                    <p>Petit exercice, réaliser des interfaces horribles pour encoder un numéro de téléphone : chaque groupe de chiffre se comporte comme un bandit manchot de casino : chaque input fait cycler sa valeur, limitée par les attributs <em>data-min</em> et <em>data-max</em>. Au clic sur le bouton correspondant, le champs se bloque et détermine la portion de numéro à garder. Un second clic sur un bouton relance le défilement.</p>
+                </section>
+                <section class="material">
+                    <p id="target">+460000000</p>
+                    <form action="#" method="post">
+                        <div class="field slot">
+                            <input type="text" name="part-one" id="part-one" value="460" data-min="460" data-max="499" />
+                            <button type="button" id="fix-part-one">Stop</button>
+                        </div>
+                        <div class="field slot">
+                            <input type="text" name="part-two" id="part-two" value="00" data-min="00" data-max="99" />
+                            <button type="button" id="fix-part-two">Stop</button>
+                        </div>
+                        <div class="field slot">
+                            <input type="text" name="part-three" id="part-three" value="00" data-min="00" data-max="99" />
+                            <button type="button" id="fix-part-three">Stop</button>
+                        </div>
+                        <div class="field slot">
+                            <input type="text" name="part-four" id="part-four" value="00" data-min="00" data-max="99" />
+                            <button type="button" id="fix-part-four">Stop</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
+

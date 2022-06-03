@@ -1,0 +1,47 @@
+<!--
+ * becode/javascript
+ *
+ * /07-misc/04-worst-ui-two/index.html - 7.4: la pire interface (2) : phone clicker
+ *
+ * coded by leny@BeCode
+ * started at 26/10/2018
+-->
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>BeCode/JavaScript - 7.4: la pire interface (2) : phone clicker</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+        <link rel="stylesheet" href="../../_shared/css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>BeCode / JavaScript</h1>
+                <h2>
+                    <span>7.4</span>
+                    <strong>la pire interface (2) : phone clicker</strong>
+                </h2>
+            </header>
+            <div class="content">
+                <section class="explain">
+                    <p>Petit exercice, réaliser des interfaces horribles pour encoder un numéro de téléphone : chaque clic sur un bouton incrémente la valeur sélectionnée. Chaque bouton cycle entre les valeurs indiquée dans ses attributs <em>data-min</em> et <em>data-max</em>.</p>
+                </section>
+                <section class="material">
+                    <p id="target">+460000000</p>
+                    <div class="actions">
+                        <button type="button" id="part-one" data-min="460" data-max="499">460</button>
+                        <button type="button" id="part-two" data-min="00" data-max="99">00</button>
+                        <button type="button" id="part-three" data-min="00" data-max="99">00</button>
+                        <button type="button" id="part-four" data-min="00" data-max="99">00</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
+

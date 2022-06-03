@@ -31,7 +31,6 @@ https://pf.vos-competences.com/apprenant/
 # Sommaire :
 
 
-
 # Déboguer son code JS :
 Dans cette série de vidéos vous découvrirez les erreurs classiques qui peuvent se produire en JavaScript ainsi que les outils qui vous permettront de les identifier plus facilement : https://grafikart.fr/formations/deboguer-javascript
 -  Cannot read property of null 
