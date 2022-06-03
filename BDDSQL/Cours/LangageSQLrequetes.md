@@ -1,5 +1,7 @@
 # Le langage SQL #
 
+https://sqlzoo.net/wiki/SQL_Tutorial
+
 ## Introduction ##
 La première partie du cours s'est concentrée sur la modélisation d'une base de données relationnelle. A l'issue de la phase de modélisation, nous sommes capable d'établir un modèle de données, qu'il nous reste à implémenter dans une base de données pour pouvoir profiter de toute la puissance de cet outil.
 

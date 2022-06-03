@@ -1,13 +1,17 @@
-Sécurité informatique / Réseau / HTTP / IP 
-SEO avancée [referencement]
-Indépendant
-API
-IA
-NFT
-Cryptomonnaie
-Linkedin
-Cookies
-IOT
+- Sécurité informatique [métier] / Réseau / HTTP / IP 
+- SEO avancée [referencement]
+- Indépendant
+- API
+- IA
+- NFT
+- Cryptomonnaie
+- Linkedin
+- Cookies
+- IOT
+- Apache
+- Nginx
+- Docker
+- Jeux vidéo / Animation [métier]
 
 https://github.com/Fyndir/Note-de-cours
 https://www.youtube.com/watch?v=SwcNkCY1dmo
