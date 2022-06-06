@@ -13,6 +13,7 @@
 - Docker
 - Jeux vidéo / Animation [métier]
 
+https://cours-web.ch/outils/cloudstorage.html
 https://hackernoon.com/what-is-the-difference-between-web2-vs-web3
 https://github.com/Fyndir/Note-de-cours
 https://www.youtube.com/watch?v=SwcNkCY1dmo
@@ -29,17 +30,6 @@ https://openclassrooms.com/fr/courses/5079046-mettez-en-place-une-architecture-p
 https://www.schoolmouv.fr/cours/internet-le-reseau-des-reseaux/fiche-de-cours
 
 JS :
-https://www.primfx.com/tutos/js/page-2/
-https://www.udemy.com/fr/topic/javascript/
-https://www.udemy.com/course/comprendre-javascript/
-https://www.udemy.com/course/javascript-la-formation-ultime/
-https://www.udemy.com/course/20-projets-en-javascript/
-https://github.com/adrienjoly/cours-javascript
-https://github.com/sfrenot/javascript
-https://github.com/coursweb/javascript
-https://github.com/javascriptdezero/module-debutant
-https://www.pierre-giraud.com/javascript-apprendre-coder-cours/
-https://github.com/JustFS/cours-js
 https://www.youtube.com/results?search_query=javascript
 https://www.youtube.com/watch?v=9OJLxDxyNg4
 https://www.youtube.com/watch?v=QB1DTl7HFnc&list=PLEiMYEzpB4Qt1mtW0yzJDJccqp7LKQBeF

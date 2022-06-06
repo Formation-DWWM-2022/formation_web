@@ -1,3 +1,6 @@
+https://apprendre-html.3wa.fr/javascript/intro-javascript
+http://adrienjoly.com/cours-javascript/
+
 # Introduction à JavaScript
 ## Qu’est-ce que JavaScript ?
 
