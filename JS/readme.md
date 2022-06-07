@@ -1,7 +1,6 @@
 # JavaScript
 <!--
 - Correction
-- Correction cours
 -->
 
 <!--
@@ -42,11 +41,12 @@ Le JavaScript va vous permettre de rajouter des intéractions au niveau de vos �
 https://grafikart.fr/formations/debuter-javascript
 
 > PrimFX : 
-> 
+
 C'est parti pour une nouvelle série sur le JavaScript ! Dans ce premier épisode d'introduction, nous verrons ce qu'est le JS et à quoi il pourra nous servir avant d'aborder quelques notions essentielles de ce langage.
 https://www.youtube.com/watch?v=XkvrHQNmigs&list=PLEagTQfI6nPPVSKoYo2p8Cf8eijcyz5t9
 
 > From Scratch - Développement Web : 
+
 - LibrairyJS : https://www.youtube.com/watch?v=x5kTcfN9xL0&list=PLEiMYEzpB4Qu8A6ycWzv_Q8BkvE2F8K9P
 - Débuter Javascript de zéro, apprendre les bases : https://www.youtube.com/watch?v=QB1DTl7HFnc&list=PLEiMYEzpB4Qt1mtW0yzJDJccqp7LKQBeF
 
@@ -58,6 +58,7 @@ JavaScript est un langage de programmation qui ajoute de l'interactivité à vot
 - Cours aformac (https://pf.vos-competences.com/apprenant/)
   - Formations / Programmation - javascript / Cours interactif
 - Cours 3WAcademy (https://apprendre-html.3wa.fr/javascript/intro-javascript)
+- Cours complet (https://fr.javascript.info/)
 
 # Evaluation 
 

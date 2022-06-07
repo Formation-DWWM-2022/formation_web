@@ -50,7 +50,7 @@ Si j'ai créé une variable dont la valeur est un nombre, que se passera-t-il si
     les deux valeurs vont être concaténées.
 
 ---
-# TP02
+# TP2
 
 Quel section va être exécutée, si on exécute le code suivant ?
 ```js
