@@ -104,20 +104,3 @@ Un test de dactylographie est conçu pour déterminer à quelle vitesse une pers
 - https://github.com/trekhleb/javascript-algorithms/blob/master/README.fr-FR.md 
 
 ## Création de particules [AnimeJS] [Particles.js] [VanillaJS]
-
-https://keep.google.com/u/0/?pli=1#home
-https://www.fastmail.com/login/
-https://www.messenger.com/t/100032316344138/
-http://adrienjoly.com/cours-javascript/
-https://javascript.info/
-https://github.com/javascript-tutorial/fr.javascript.info/tree/master/1-js/01-getting-started
-https://www.reverso.net/traduction-texte#sl=eng&tl=fra&text=In%2520this%2520article%252C%2520you%2520will%2520learn%2520how%2520to%2520create%2520Rain%2520Animation%2520Effects%2520using%2520CSS%2520and%2520javascript.%2520You%2520will%2520see%2520this%2520kind%2520of%2520CSS%2520Rain%2520Effects%2520animation%2520in%2520different%2520places.%2520Creating%2520this%2520effect%2520is%2520much%2520easier%2520if%2520you%2520know%2520basic%2520CSS%2520and%2520javascript.%250A%250AThis%2520type%2520of%2520Rain%2520Animation%2520effect%2520is%2520used%2520in%2520the%2520background%2520of%2520different%2520projects%2520or%2520elements.%2520The%2520black%2520color%2520of%2520the%2520webpage%2520background%2520has%2520been%2520used%2520to%2520create%2520this%2520CSS%2520animation%2520rain.%2520Then%2520the%2520point%2520of%2520white%2520water%2520is%2520falling%2520from%2520top%2520to%2520bottom.%2520Although%2520JavaScript%2520has%2520been%2520used%2520to%2520make%2520it%2520work.
-https://www.foolishdeveloper.com/2022/03/responsive-image-slider.html
-https://www.foolishdeveloper.com/2022/02/custom-video-player-using-javascript.html
-https://www.foolishdeveloper.com/2022/02/faq-section-html-css.html
-https://www.foolishdeveloper.com/2021/11/day-and-night-mode-javascript.html
-https://www.codingnepalweb.com/create-todo-list-app-html-javascript/
-https://freshman.tech/todo-list/
-https://jsfiddle.net/ayoisaiah/0gxLab39/18/
-
-

@@ -521,3 +521,13 @@ requête, par quoi faut-il replacer /* A SAISIR */ ?
     xhr.responseText.email
     reponse.email
     responseText['email']
+
+https://javascript.info/
+https://github.com/javascript-tutorial/fr.javascript.info/tree/master/1-js/01-getting-started
+https://www.foolishdeveloper.com/2022/03/responsive-image-slider.html
+https://www.foolishdeveloper.com/2022/02/custom-video-player-using-javascript.html
+https://www.foolishdeveloper.com/2022/02/faq-section-html-css.html
+https://www.foolishdeveloper.com/2021/11/day-and-night-mode-javascript.html
+https://www.codingnepalweb.com/create-todo-list-app-html-javascript/
+https://freshman.tech/todo-list/
+https://jsfiddle.net/ayoisaiah/0gxLab39/18/
