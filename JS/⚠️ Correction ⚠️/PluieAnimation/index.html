@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style media="screen">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-image: linear-gradient(to bottom, #030420, #000000 70%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        hr {
+            width: 50px;
+            border-color: transparent;
+            border-right-color: rgba(255, 255, 255, 0.7);
+            border-right-width: 50px;
+            position: absolute;
+            bottom: 100%;
+            transform-origin: 100% 50%;
+            animation-name: rain;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes rain {
+            from {
+                transform: rotate(105deg) translateX(0);
+            }
+            to {
+                transform: rotate(105deg) translateX(calc(100vh + 20px));
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<script type="text/javascript">
+    let hrElement;
+    let counter = 100;
+    for (let i = 0; i < counter; i++) {
+        hrElement = document.createElement("HR");
+
+        hrElement.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
+        hrElement.style.animationDuration = 0.2 + Math.random() * 0.3 + "s";
+        hrElement.style.animationDelay = Math.random() * 5 + "s";
+
+        document.body.appendChild(hrElement);
+    }
+</script>
+
+</html>

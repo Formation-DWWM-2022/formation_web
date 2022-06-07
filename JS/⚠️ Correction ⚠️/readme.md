@@ -1,10 +1,6 @@
-https://github.com/aman-maharshi/vanilla-js
-
-## Le jeux du juste prix (Plus ou moins) 
-- https://github.com/Simplonline-foad/exercice-js-plus-ou-moins
-- https://gist.github.com/annabreyer/9f46750aec00cb58521a
-- https://github.com/ljahier/more-less-js
-
+- https://github.com/aman-maharshi/vanilla-js
+- https://www.foolishdeveloper.com/search/label/javascript?updated-max=2021-11-28T00%3A14%3A00-08%3A00&max-results=6#PageNo=11
+  
 ## Pong (Breakout)
 - https://www.webtips.dev/building-the-game-breakout-using-javascript
 - https://codepen.io/hackerzilla/pen/NjyodR
@@ -44,6 +40,7 @@ https://github.com/aman-maharshi/vanilla-js
 - https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/
 - https://perso.liris.cnrs.fr/remy.delanaux/2016-17/TP_js/TP1/
 
+
 ## Horloge avec alarmes 
 - https://perso.liris.cnrs.fr/remy.delanaux/2016-17/TP_js/TP2/index.html
 - https://believemy.com/r/creer-un-horloge-grace-a-javascript
@@ -80,15 +77,6 @@ https://github.com/aman-maharshi/vanilla-js
 - https://raajnadar.medium.com/github-rest-apis-with-vanilla-javascript-63f568814b8d
 - https://github.com/aman-maharshi/vanilla-js/tree/master/github-finder-app
 
-## Jeu de Pierre Papier Ciseaux
-- https://codepen.io/phillux700/pen/xXqpeP
-- https://gist.github.com/adrientetar/4961486
-- https://www.delftstack.com/fr/howto/javascript/rock-paper-scissors-javascript/
-- https://fr.acervolima.com/jeu-de-pierre-papier-et-ciseaux-utilisant-javascript/
-
-## Le pendu
-- https://github.com/Fred-Vaniss/jeu-pendu
-
 ## Clone de YouTube
 - https://enlear.academy/how-to-create-a-youtube-clone-f6f7a5ff996e
 - https://dev.to/kunaal438/create-working-youtube-clone-with-search-box-youtube-api-2a6e
@@ -120,7 +108,32 @@ https://github.com/aman-maharshi/vanilla-js
 - https://traveling-coderman.net/code/light-mode/
 - https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
 
-## Accordéon
-- https://github.com/adrienjoly/cours-javascript/blob/master/tp13.md
-- https://www.w3schools.com/howto/howto_js_accordion.asp
-- https://www.equinode.com/blog/article/afficher-des-contenus-en-accordeon-avec-javascript-et-css
+## Stripe Follow Along Dropdown
+- https://codyhouse.co/gem/stripe-navigation
+- https://codepen.io/richh93/pen/KWdMQP
+
+## Menu burger 
+- https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+- https://codepen.io/joesayegh/pen/jOEVPKO
+- https://jenseign.com/apprendre-html-css/pratique-exemple/menu-burger/
+- https://iridescent.dev/posts/web/creer-un-menu-hamburger
+- https://codepen.io/lapasserelle/pen/VwwRgKO
+
+## Native Speech Recognition
+- https://webdeasy.de/en/js-speech-recognition-api/
+- https://www.studytonight.com/post/javascript-speech-recognition-example-speech-to-text
+- https://www.section.io/engineering-education/speech-recognition-in-javascript/
+- https://developer.mozilla.org/fr/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API
+
+## Jeu vitesse d'écriture
+- https://github.com/sayantanm19/js-simple-typing-game
+
+## Pokedex
+- https://codepen.io/jamesqquick/pen/NWKaNQz
+- https://levelup.gitconnected.com/create-a-pokedex-with-vanilla-js-7aa580d6c96b
+- https://github.com/ArobyR/pokedex-js
+
+## Création de particules
+- https://codepen.io/rvmook/pen/wGLvJV
+- https://codepen.io/nashvail/pen/wpGgXO

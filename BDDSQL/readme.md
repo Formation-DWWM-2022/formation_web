@@ -17,6 +17,7 @@ Une base de données permet de stocker des informations pour ensuite les utilise
 https://grafikart.fr/formations/mysql
 
 Apprendre et maitriser SQL
+
 SQL, pour Structured Query Language, est un langage qui permet d'interroger une base de données relationnelle afin de pouvoir modifier ou récupérer des informations. Les bases de données relationnelles permettent de sauvegarder les informations sous forme de tableau à 2 dimensions.
 https://grafikart.fr/formations/apprendre-sql
 
