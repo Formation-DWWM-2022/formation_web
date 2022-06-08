@@ -1,7 +1,6 @@
-- Sécurité informatique [métier] / Réseau / HTTP / IP 
+- Sécurité informatique [métier] / Réseau
 - SEO avancée [referencement]
 - Indépendant
-- API
 - IA
 - NFT
 - Cryptomonnaie
@@ -12,9 +11,10 @@
 - Nginx
 - Docker
 - Jeux vidéo / Animation [métier]
+- Hébergeur / Domaine
+- TCP / IP Osi
 
 https://cours-web.ch/outils/cloudstorage.html
-https://hackernoon.com/what-is-the-difference-between-web2-vs-web3
 https://github.com/Fyndir/Note-de-cours
 https://www.youtube.com/watch?v=SwcNkCY1dmo
 https://www.youtube.com/watch?v=GQgEMUHfSOI

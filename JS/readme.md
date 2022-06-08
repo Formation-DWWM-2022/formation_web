@@ -1,10 +1,11 @@
 # JavaScript
 <!--
 - Correction
+- best pratice
 -->
 
 <!--
-- API cours
+- Attack JS
 - More cours
 - Framework cours
 - Library cours
@@ -115,3 +116,14 @@ Dans cette série de vidéos vous découvrirez les erreurs classiques qui peuven
 - Vue.js
 - Angular
 - React
+
+## Notre guide de style JavaScript
+Par [Harrison Shoff](https://www.linkedin.com/in/hshoff/)
+
+Jetez-y un coup d’œil sur Github : https://github.com/airbnb/javascript
+
+Tout le monde écrit JavaScript un peu différemment. Nous avons finalement décidé qu’il était temps que nous nous mettions d’accord sur la façon dont nous écrivons JavaScript.
+
+Nous le décrivons comme une approche plutôt raisonnable de JavaScript.
+
+Nous le libérons sous licence MIT, alors n’hésitez pas à vous servir à votre guise. Nous ne nous attendons pas à ce que tout le monde soit d’accord avec la façon dont nous faisons les choses, mais nous espérons que cela vous aidera à lancer votre propre guide de style comme modèle ou carte.
