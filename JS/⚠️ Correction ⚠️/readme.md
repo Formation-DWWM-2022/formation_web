@@ -40,7 +40,6 @@
 - https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/
 - https://perso.liris.cnrs.fr/remy.delanaux/2016-17/TP_js/TP1/
 
-
 ## Horloge avec alarmes 
 - https://perso.liris.cnrs.fr/remy.delanaux/2016-17/TP_js/TP2/index.html
 - https://believemy.com/r/creer-un-horloge-grace-a-javascript

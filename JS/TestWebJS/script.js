@@ -1,1 +1,1 @@
-let message = 1;
+alert('ok');

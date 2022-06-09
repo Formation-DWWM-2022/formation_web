@@ -14,31 +14,56 @@
 ---
 # Projet - LVL 1 : 
 ## Calculatrice [IMC]
+![image](./img/CalculatriceIMC.png)
+
 Ici, nous proposons de résoudre une application Web capable de calculer l'indice de masse corporelle (IMC) de l'internaute, en fonction de sa taille et de son poids.
+
 [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/CalculatriceIMC/index.html)
 
 ## Compte à rebours [chronomètre]
+![image](./img/Chronometre.png)
+
 Un chronomètre est utilisé pour mesurer le temps qui s’écoule entre son activation et sa désactivation. Il permet de mesurer le temps pris pour une activité spécifique.
+
 [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/Chronometre/index.html)
 
 ## TODO List 
+![image](./img/TODOList.png)
+
 Une Todo List est principalement utilisé pour organiser n’importe laquelle de vos informations. Ici, vous pouvez créer une liste de nombreux textes que vous voulez faire plus tard. Une fois que vous avez fait cela, vous pouvez les supprimer. Il peut essentiellement servir de routine quotidienne.
 
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/TODOList/index.html)
+
 ## Basculement en mode CLAIR/SOMBRE
+![image](./img/CLAIR_SOMBRE.png)
+
 Vous avez jamais vu un site Web qui vous permet de basculer entre un thème clair et sombre à la demande. Comment vous pouvez mettre en œuvre cette fonctionnalité sur votre site Web ?
+
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/CLAIR_SOMBRE/index.html)
 
 ---
 # Projet - LVL 2 : 
 ## Effets d’animation de pluie simples
+![image](./img/PluieAnimation.png)
+
 Ce type d’effet de pluie animés est utilisé en arrière-plan de différents projets ou éléments. La couleur noire de l’arrière-plan de la page Web a été utilisée pour créer cette pluie d’animation CSS. Alors le point de l’eau blanche tombe de haut en bas. Bien que JavaScript a été utilisé pour le faire fonctionner.
+
 [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/PluieAnimation/index.html)
 
 ## Les yeux animés suivent le curseur de la souris 
+![image](./img/YeuxAnimesSouris.png)
+
 L’animation joue un rôle important pour rendre une page Web attrayante. Deux yeux ont été faits ici. Ces deux yeux suivront votre curseur de souris. Ici, l’œil sera au même endroit, mais le point oculaire changera de position.
+
 [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/YeuxAnimesSouris/index.html)
 
+<!--
 ## Formulaire avec vérification
+![image]()
+
 Ce n'est pas tout d'envoyer des données, il faut aussi s'assurer que les données mises dans un formulaire par un utilisateur sont dans un format correct pour pouvoir être traitées correctement et qu'elles ne vont pas casser nos applications. Nous voulons également aider les utilisateurs à compléter les formulaires correctement et à ne pas ressentir de frustration en essayant d'utiliser les applications. La validation des données de formulaire vous aide à remplir ces objectifs.
+
+> Il faut garder à l'esprit que le JavaScript est facilement désactivable dans les paramètres des navigateurs et par conséquent, ce langage ne permet pas une réelle sécurité. C'est la même chose pour les CAPTCHAS codés en JavaScript. Il faudra dans ce cas privilégier une sécurisation de formulaire avec le langage PHP. Cependant, ces petits contrôles JavaScript permettent dans bien des cas d'éviter les problèmes de saisie qui ne sont pas forcément malveillants, mais plutôt causés par des étourderies de saisies
 
 ## Horloge avec alarmes 
 Imaginez une horloge permettant de montrer l’heure à vos utilisateurs, sur un site de voyage par exemple avec le fuseau horaire du pays de destination
@@ -106,3 +131,4 @@ Un test de dactylographie est conçu pour déterminer à quelle vitesse une pers
 ## Création de particules [AnimeJS] [Particles.js] [VanillaJS]
 
 ## Parallax Website
+-->
