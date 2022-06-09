@@ -5,7 +5,7 @@
 -->
 
 <!--
-- Attack JS
+- La sécurité d'un site Web
 - More cours
 - Framework cours
 - Library cours

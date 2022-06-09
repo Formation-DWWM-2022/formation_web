@@ -1,5 +1,4 @@
 # TP1
-
 Comment ouvrir la console JavaScript dans Google Chrome ?
 
     En tapant "console"
