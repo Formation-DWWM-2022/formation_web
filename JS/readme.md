@@ -94,10 +94,10 @@ Dans cette série de vidéos vous découvrirez les erreurs classiques qui peuven
 -  Cannot read property of null 
 -  RegeneratorRuntime is not defined 
 
-# Library JS
+# Library JS [11]
 - SweetAlert
 - PhotoSwipe
-- TinySlider OU Swiper.JS
+- TinySlider ou Swiper.JS
 - RellaxJS ou fullPage.js
 - AOS.JS
 - Anime.JS
@@ -108,11 +108,13 @@ Dans cette série de vidéos vous découvrirez les erreurs classiques qui peuven
 - Popper.js
 
 # More JS
-- jQuery
+- Babel
 - TypeScript
 - Webpack
 
 # Framework JS
+https://grafikart.fr/tutoriels/frameworkjs-744
+- jQuery
 - Vue.js
 - Angular
 - React

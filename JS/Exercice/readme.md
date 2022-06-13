@@ -57,14 +57,16 @@ L’animation joue un rôle important pour rendre une page Web attrayante. Deux 
 
 [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/YeuxAnimesSouris/index.html)
 
-<!--
 ## Formulaire avec vérification
-![image]()
+![image](https://www.javascripttutorial.net/wp-content/uploads/2020/09/JavaScript-Form-Validation-Example.png)
 
 Ce n'est pas tout d'envoyer des données, il faut aussi s'assurer que les données mises dans un formulaire par un utilisateur sont dans un format correct pour pouvoir être traitées correctement et qu'elles ne vont pas casser nos applications. Nous voulons également aider les utilisateurs à compléter les formulaires correctement et à ne pas ressentir de frustration en essayant d'utiliser les applications. La validation des données de formulaire vous aide à remplir ces objectifs.
 
 > Il faut garder à l'esprit que le JavaScript est facilement désactivable dans les paramètres des navigateurs et par conséquent, ce langage ne permet pas une réelle sécurité. C'est la même chose pour les CAPTCHAS codés en JavaScript. Il faudra dans ce cas privilégier une sécurisation de formulaire avec le langage PHP. Cependant, ces petits contrôles JavaScript permettent dans bien des cas d'éviter les problèmes de saisie qui ne sont pas forcément malveillants, mais plutôt causés par des étourderies de saisies
 
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/FormulaireVerification/index.html)
+ 
+<!--
 ## Horloge avec alarmes 
 Imaginez une horloge permettant de montrer l’heure à vos utilisateurs, sur un site de voyage par exemple avec le fuseau horaire du pays de destination
 
