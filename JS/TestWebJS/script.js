@@ -1,5 +1,11 @@
-document.getElementById('mon-bouton').onclick = function () {
-    var nombre1 = parseInt(document.getElementById('premier-nombre').value);
-    var nombre2 = parseInt(document.getElementById('deuxieme-nombre').value);
-    document.getElementById('resultat').value = nombre1 + nombre2;
-};
+// 1. créer l'élément
+var bouton = document.createElement('button');
+bouton.classList.add('yellow');
+
+// 2. créer le contenu du bouton (noeud textuel)
+var texteDuBouton = document.createTextNode('Mon beau bouton');
+
+// 3. ajouter le contenu au bouton
+bouton.appendChild(texteDuBouton);
+// 4. ajouter le bouton au body de la page
+document.body.appendChild(bouton);

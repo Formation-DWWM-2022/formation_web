@@ -1,7 +1,6 @@
 # JavaScript
 <!--
 - Correction
-- best pratice
 -->
 
 <!--
@@ -9,22 +8,25 @@
 - More cours
 - Framework cours
 - Library cours
+- Best pratice
+- Function fleche
+- Voir photo
 -->
 
 # Dates [11j]:
 - // Mardi 07 juin [PF] Distanciel
-- Mercredi 08 juin - Cours / Exo
-- Jeudi 09 juin - Cours / Exo
-- Vendredi 10 juin - Cours / Exo
+- Mercredi 08 juin - Cours / Exo : TP01 - TP02 - TP03
+- Jeudi 09 juin - Cours / Exo : TP04 - TP05 - TP06
+- Vendredi 10 juin - Cours / Exo : TP07 - TP08 - TP09
 - // Lundi 13 juin [Anglais] Distanciel
-- Mardi 14 juin - Projet
+- Mardi 14 juin - Cours / Exo : TP09 - TP1qsedrt-0 - Projet
 - Mercredi 15 juin - Projet
-- Jeudi 16 juin - Projet + API
-- Vendredi 17 juin - Projet + API
+- Jeudi 16 juin - Cours / Exo : TP11 - TP12 - TP13 - TP14
+- Vendredi 17 juin - Projet
 - // Lundi 20 juin [RAN] Distanciel
-- Mardi 21 juin - Library JS
-- Mercredi 22 juin - More JS
-- Jeudi 23 juin - Framework JS
+- Mardi 21 juin - Cours / Exo : TP16 - TP17 - Library JS
+- Mercredi 22 juin - Projet - More JS
+- Jeudi 23 juin - Projet - Framework JS
 - // Vendredi 24 juin [PF] - Autodidacte
 - // Lundi 27 juin [RAN] - Recherche de stage 
 - // Mardi 28 juin [APPUI] - DS

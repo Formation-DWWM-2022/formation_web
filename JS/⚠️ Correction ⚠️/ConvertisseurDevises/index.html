@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Convertisseur de devises</title>
+</head>
+
+<body>
+    <form>
+        <input id="amount" type="number" value="1" />
+        <select id="primary" class="input"></select>
+        <select id="secondary" class="input"></select>
+        <input id="btn-convert" type="button" value="Convert" />
+    </form>
+    <p id="result" style="display:none;">
+        <span id="txt-primary"></span>
+        <span id="txt-secondary"></span>
+    </p>
+    <script>
+        const currencies = {
+            AUD: "Australian Dollar",
+            CAD: "Canadian Dollar",
+            EUR: "Euro",
+            GBP: "British Pound",
+            INR: "Indian Rupee",
+            JPN: "Japanese Yen",
+            USD: "United States Dollar",
+            ZAR: "South African Rand",
+        };
+
+        const primaryCurrency = document.getElementById("primary");
+        const secondaryCurrency = document.getElementById("secondary");
+        primaryCurrency.innerHTML = getOptions(currencies);
+        secondaryCurrency.innerHTML = getOptions(currencies);
+
+        function getOptions(data) {
+            return Object.entries(data)
+                .map(([country, currency]) => `<option value="${country}">${country} | ${currency}</option>`)
+                .join("");
+        }
+
+        document.getElementById("btn-convert").addEventListener("click", fetchCurrencies);
+
+        function fetchCurrencies() {
+            const primary = primaryCurrency.value;
+            const secondary = secondaryCurrency.value;
+            const amount = document.getElementById("amount").value;
+
+            var myHeaders = new Headers();
+            myHeaders.append("apikey", "5fIs05YJOe75bJdQDFkRAfFMagJ4G7Fm");
+            var requestOptions = {
+                method: 'GET',
+                redirect: 'follow',
+                headers: myHeaders
+            };
+            // Important: Include your API key below
+            fetch("https://api.apilayer.com/exchangerates_data/convert?to="+secondary+"&from="+primary+"&amount="+amount+"", requestOptions)
+                .then((response) => {
+                    if (response.ok) {
+                        return response.json();
+                    } else {
+                        console.log(response)
+                        throw new Error("NETWORK RESPONSE ERROR");
+                    }
+                })
+                .then((data) => {
+                    console.log(data);
+                    displayCurrency(data, primary, secondary, amount);
+                })
+                .catch((error) => console.error("FETCH ERROR:", error));
+        }
+
+        function displayCurrency(data, primary, secondary, amount) {
+            document.getElementById("result").setAttribute("style", "display:block");
+            document.getElementById("txt-primary").innerText = amount + " " + primary + " = ";
+            document.getElementById("txt-secondary").innerText = data.result + " " + secondary;
+        }
+
+    </script>
+</body>
+
+</html>

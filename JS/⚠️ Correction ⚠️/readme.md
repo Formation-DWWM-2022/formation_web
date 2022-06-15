@@ -1,3 +1,4 @@
+<!--
 - https://github.com/aman-maharshi/vanilla-js
 - https://www.foolishdeveloper.com/search/label/javascript?updated-max=2021-11-28T00%3A14%3A00-08%3A00&max-results=6#PageNo=11
   
@@ -136,3 +137,5 @@
 ## Création de particules
 - https://codepen.io/rvmook/pen/wGLvJV
 - https://codepen.io/nashvail/pen/wpGgXO
+
+-->

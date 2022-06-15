@@ -66,21 +66,36 @@ Ce n'est pas tout d'envoyer des données, il faut aussi s'assurer que les donné
 
 [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/FormulaireVerification/index.html)
  
-<!--
 ## Horloge avec alarmes 
+![image](https://contactmentor.com/wp-content/uploads/2021/08/alarm-clock-1.gif)
+
 Imaginez une horloge permettant de montrer l’heure à vos utilisateurs, sur un site de voyage par exemple avec le fuseau horaire du pays de destination
 
-## Convertisseur de devises 
-Nous allons implémenter un convertisseur de devises qui convertit simplement la devise dans la devise de n’importe quel autre pays.
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/HorlogesAlarmes/index.html)
 
 ## Menu burger 
+![image](./img/MenuBurger.png)
+
 Un menu hamburger est une fonctionnalité classique de l’interface utilisateur présente dans d’innombrables sites Web. Il est utilisé pour afficher et masquer un menu sur clic, en particulier utilisé dans la conception mobile.
 
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/MenuBurger/index.html)
+
+# Projet - LVL 3 : 
+## Convertisseur de devises [API]
+![image](./img/ConvertisseurDevises.png)
+
+Nous allons implémenter un convertisseur de devises qui convertit simplement la devise dans la devise de n’importe quel autre pays.
+
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/ConvertisseurDevises/index.html)
+
+<!--
 ## Stripe Follow Along Dropdown
+![image](./img/)
+
 Il y a quelques semaines, stripe.com a lancé un nouveau design de site Web. Il semble génial. Une chose que nous recherchons en particulier est le menu déroulant de navigation de morphing : au lieu de cacher et d’afficher un nouveau « conteneur » lorsque l’utilisateur passe d’un élément de navigation à l’autre, ils animent l’arrière-plan du menu déroulant pour faire de l’espace pour différentes tailles de contenu.
 
----
-# Projet - LVL 3 : 
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/)
+
 ## Le Morpion
 Dans ce défi, vous allez créer un jeu de morpion. Voici un résumé des règles :
 - le jeu se joue sur une grille de 3 carrés sur 3.
