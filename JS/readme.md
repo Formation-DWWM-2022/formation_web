@@ -1,16 +1,15 @@
 # JavaScript
 <!--
 - Correction
+- Regex
+- TUTO fonction par projet
+- Exercice class
 -->
 
 <!--
-- La sécurité d'un site Web
-- More cours
-- Framework cours
-- Library cours
-- Best pratice
-- Function fleche
-- Voir photo
+- Prototype
+- Voir photo et discord
+- Sommaire RAN
 -->
 
 # Dates [11j]:
@@ -19,11 +18,11 @@
 - Jeudi 09 juin - Cours / Exo : TP04 - TP05 - TP06
 - Vendredi 10 juin - Cours / Exo : TP07 - TP08 - TP09
 - // Lundi 13 juin [Anglais] Distanciel
-- Mardi 14 juin - Cours / Exo : TP09 - TP1qsedrt-0 - Projet
+- Mardi 14 juin - Cours / Exo : TP09 - TP10 - Projet
 - Mercredi 15 juin - Projet
-- Jeudi 16 juin - Cours / Exo : TP11 - TP12 - TP13 - TP14
-- Vendredi 17 juin - Projet
-- // Lundi 20 juin [RAN] Distanciel
+- Jeudi 16 juin - Cours / Exo : TP11 - TP12
+- Vendredi 17 juin - TP13 - TP14 - Projet
+- // Lundi 20 juin [RAN] Distanciel - Projet
 - Mardi 21 juin - Cours / Exo : TP16 - TP17 - Library JS
 - Mercredi 22 juin - Projet - More JS
 - Jeudi 23 juin - Projet - Framework JS
@@ -64,6 +63,10 @@ JavaScript est un langage de programmation qui ajoute de l'interactivité à vot
 - Cours complet (https://fr.javascript.info/)
 
 # Evaluation 
+L'évaluation de ce cours comportera trois points :
+- des questions portant sur les aspects théoriques des bases de JavaScript introduits dans le cours ;
+- un premier exercice de modélisation d'une application web : à partir de l'énoncé d'une problématique, il s'agit de proposer un modèle de code JavaScript sans utiliser l'API DOM. La pertinence du code et la bonne utilisation des bonnes pratiques seront pris en compte dans la notation ;
+- un second exercice où, étant donné la documentation d'un API et d'une librairie, il s'agit d'écrire des composant Web permettant d'extraire des informations d'un API et de les afficher via l'API DOM de JavaScript.
 
 # Objectifs
 - Savoir associer un programme JavaScript à une page HTML
@@ -75,6 +78,7 @@ JavaScript est un langage de programmation qui ajoute de l'interactivité à vot
 # Sommaire :
 * [TP 1 - Les Bases](./Cours/tp01.md)
 * [TP 2 - Conditions](./Cours/tp02.md)
+* [TP VAR vs LET vs CONST - Quelles sont les différences ?](./Cours/varletconst.md)
 * [TP 3 - Algorithmes et Jeux](./Cours/tp03.md)
 * [TP 4 - Fonctions](./Cours/tp04.md)
 * [TP 5 - Tableaux](./Cours/tp05.md)
@@ -83,43 +87,113 @@ JavaScript est un langage de programmation qui ajoute de l'interactivité à vot
 * [TP 8 - Manipuler le Web avec DOM](./Cours/tp08.md)
 * [TP 9 - Manipuler les classes et styles CSS](./Cours/tp09.md)
 * [TP 10 - Manipulation DOM avancée](./Cours/tp10.md)
+* [TP La différence entre addEventListener et onclick](./Cours/addEventListenerVSonclick.md)
 * [TP 11 - Récupération de données avec AJAX](./Cours/tp11.md)
 * [TP 12 - Envoi de données avec AJAX](./Cours/tp12.md)
+* [TP Fetch - API plus flexible et plus puissante que XMLHttpRequest. ](./Cours/fetch.md)
 * [TP 13 - Composants Web](./Cours/tp13.md)
 * [TP 14 - Composants et POO](./Cours/tp14.md)
 * [TP 15 - jQuery, Node.js et frameworks](./Cours/tp15.md)
 * [TP 16 - Identification avec Google et Facebook](./Cours/tp16.md)
-* [TP 17 - Gestion d'erreurs et Geolocation API](./Cours/tp17.md)
+
 
 # Déboguer son code JS :
-Dans cette série de vidéos vous découvrirez les erreurs classiques qui peuvent se produire en JavaScript ainsi que les outils qui vous permettront de les identifier plus facilement : https://grafikart.fr/formations/deboguer-javascript
+* [TP 17 - Gestion d'erreurs et Geolocation API](./Cours/tp17.md)
+
+> Dans cette série de vidéos vous découvrirez les erreurs classiques qui peuvent se produire en JavaScript ainsi que les outils qui vous permettront de les identifier plus facilement : 
+
+https://grafikart.fr/formations/deboguer-javascript
 -  Cannot read property of null 
 -  RegeneratorRuntime is not defined 
 
-# Library JS [11]
-- SweetAlert
-- PhotoSwipe
-- TinySlider ou Swiper.JS
-- RellaxJS ou fullPage.js
-- AOS.JS
-- Anime.JS
-- Chart.JS
-- D3.js
-- Leaflet
-- Moment.js
-- Popper.js
+# Library JS [12][Solo]
+Qu'est-ce que ... et pourquoi en avez vous-besoin ?
+Comment l'installer et s’en servir ? [Exemple de code]
 
-# More JS
-- Babel
-- TypeScript
-- Webpack
+- [SweetAlert](https://github.com/t4t5/sweetalert)
+>  A beautiful replacement for JavaScript's "alert" 
 
-# Framework JS
-https://grafikart.fr/tutoriels/frameworkjs-744
+- [PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
+> PhotoSwipe v5 — JavaScript image gallery and lightbox
+
+- [TinySlider 2](https://github.com/ganlanyuan/tiny-slider)
+> Tiny slider for all purposes, inspired by Owl Carousel.
+
+- [Swiper.JS](https://github.com/nolimits4web/swiper)
+> Swiper - is the free and most modern mobile touch slider with hardware accelerated transitions and amazing native behavior. It is intended to be used in mobile websites, mobile web apps, and mobile native/hybrid apps.
+
+- [Rellax.JS](https://github.com/dixonandmoe/rellax)
+> Rellax is a buttery smooth, super lightweight, vanilla javascript parallax library. Update: Rellax now works on mobile (v1.0.0).
+
+- [AOS.JS](https://github.com/michalsnik/aos/tree/v2)
+> Small library to animate elements on your page as you scroll.
+
+- [Anime.JS](https://github.com/juliangarnier/anime)
+> Anime.js  is a lightweight JavaScript animation library with a simple, yet powerful API.
+
+- [Chart.JS](https://github.com/chartjs/Chart.js)
+>  Simple HTML5 Charts using the `<canvas>` tag 
+
+- [D3.js](https://github.com/d3/d3)
+> D3 (or D3.js) is a JavaScript library for visualizing data using web standards. 
+
+- [Leaflet](https://github.com/Leaflet/Leaflet)
+> Leaflet is the leading open-source JavaScript library for mobile-friendly interactive maps.
+
+- [Moment.js](https://github.com/moment/moment)
+> A JavaScript date library for parsing, validating, manipulating, and formatting dates.
+
+- [Popper.js](https://github.com/floating-ui/floating-ui/tree/v2.x)
+> Positioning tooltips and popovers is difficult. Popper is here to help!
+
+# More JS [4][4 groupe de 3]
+- Qu'est-ce que Babel JS et pourquoi en avez vous-besoin ?
+> Avez-vous déjà voulu utiliser des fonctionnalités JavaScript de pointe, mais a été coincé en attendant les navigateurs pour les soutenir ? Babel.js est un excellent outil pour compiler JavaScript vers d’autres plates-formes.
+
+![](https://miro.medium.com/max/1400/1*dmg9EOb9p8JFg4f1Y3iUGg.png)
+
+[Solution](https://blog.keziahmoselle.fr/intro-babel-et-son-fonctionnement/)
+[Solution](https://youtu.be/C2PDAGCrk_g/)
+
+---
+
+- Qu'est-ce qui rend le TypeScript si populaire, qu'est-ce qui fait que c'est un langage à la fois aussi puissant et aussi apprécié ? Et pourquoi l'apprendre ? Pourquoi utiliser TypeScript plutôt que JavaScript ?
+
+![](https://pbs.twimg.com/media/EPrhVn5UUAAd7y8?format=jpg)
+
+[Solution](https://www.youtube.com/watch?v=0o1e2pLIqWY&t=131s)
+[Solution](https://www.youtube.com/watch?v=ffCIANfx_-0)
+[Solution](https://www.jesuisundev.com/comprendre-typescript-en-5-minutes/)
+
+---
+
+- Webpack: À quoi ça sert et comment s’en servir ?
+> Il est important d'avoir un code le plus léger possible, il est aussi important de réduire au maximum le nombre de fichiers qui composent votre code !
+
+[Solution](https://blog.neolynk.fr/2019/11/20/a-quoi-sert-webpack-et-comment-fonctionne-t-il/)
+[Solution](https://www.youtube.com/watch?v=_KXGVca8uXw)
+
+---
+
+- JSLint ou ESLinter : Contrôlez la qualité de votre code Javascript
+> Le linter est un programme qui va analyser notre code et détecter les erreurs de syntaxe, les variables non utilisées, les variables qui n'existent pas, la mauvaise organisation du code, le non-respect des bonnes pratiques d'écriture de code...
+
+[Solution](https://www.youtube.com/watch?v=3CHRRSSLeJg)
+
+# Framework JS [4][4 groupe de 3]
+C’est quoi exactement ... ? Comment fonctionne ... ? Pourquoi utiliser ... ?
+
 - jQuery
 - Vue.js
 - Angular
 - React
+
+Angular vs React vs Vue ? JQuery vs Vanilla JavaScript ? ...
+
+[Solution](https://www.youtube.com/watch?v=PCgM44dSTsk)
+[Solution](https://www.youtube.com/watch?v=5Es-oq-o0Qg)
+[Solution](https://www.youtube.com/watch?v=wIZty5sGSQk)
+[Solution](https://grafikart.fr/tutoriels/frameworkjs-744)
 
 ## Notre guide de style JavaScript
 Par [Harrison Shoff](https://www.linkedin.com/in/hshoff/)

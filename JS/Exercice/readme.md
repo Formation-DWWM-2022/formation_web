@@ -81,6 +81,13 @@ Un menu hamburger est une fonctionnalité classique de l’interface utilisateur
 [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/MenuBurger/index.html)
 
 # Projet - LVL 3 : 
+## Comment faire pour créer une fenêtre modale ?
+![image](./img/FenetreModal.png)
+
+Nous allons nous intéresser à un composant incontournable dans une application Web : La fenêtre modale
+
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/FenetreModal/index.html)
+
 ## Convertisseur de devises [API]
 ![image](./img/ConvertisseurDevises.png)
 
@@ -88,39 +95,53 @@ Nous allons implémenter un convertisseur de devises qui convertit simplement la
 
 [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/ConvertisseurDevises/index.html)
 
-<!--
-## Stripe Follow Along Dropdown
-![image](./img/)
-
-Il y a quelques semaines, stripe.com a lancé un nouveau design de site Web. Il semble génial. Une chose que nous recherchons en particulier est le menu déroulant de navigation de morphing : au lieu de cacher et d’afficher un nouveau « conteneur » lorsque l’utilisateur passe d’un élément de navigation à l’autre, ils animent l’arrière-plan du menu déroulant pour faire de l’espace pour différentes tailles de contenu.
-
-[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/)
-
 ## Le Morpion
+![image](./img/LeMorpion.png)
+
 Dans ce défi, vous allez créer un jeu de morpion. Voici un résumé des règles :
 - le jeu se joue sur une grille de 3 carrés sur 3.
 - un joueur joue avec le symbole "X" et l'autre avec le symbole "O".
 - les joueurs jouent à tour de rôle. Durant son tour, un joueur doit placer son symbole dans un carré vide.
 - si un joueur a trois de ses symboles alignés sur une ligne, une colonne ou une diagonale, il gagne le jeu.
 - si il ne reste plus de carré vide, et qu'aucun joueur n'a gagné, alors le jeu est déclaré nul.
-  
+
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/LeMorpion/index.html)
+
 ## Lecteur multimédia
+![image](./img/LecteurMultimedia.png)
+
 HTML5 fournit des éléments pour intégrer du multimédia dans les documents `<video>` et `<audio>` et qui viennent avec leurs propres APIs pour contrôler la lecture, se déplacer dans le flux.. Comment réaliser les tâches les plus communes, comme créer des contrôles de lectures personnalisés.
 
-## Pong (Breakout)
-Il faut créer un jeu complet de style Breakout. Le HTML Canvas fournit le conteneur de jeu où nous dessinons des graphiques via JavaScript. Après avoir appris à utiliser la toile pour les graphiques et les animations, nous passons par les algorithmes derrière les collisions en utilisant des formes de base comme les cercles et les rectangles. Avec ces concepts et une pincée de boucles de jeu et de son, nous aurons bientôt un jeu prêt à être joué!
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/LecteurMultimedia/index.html)
 
-## Comment faire pour créer une fenêtre modale ?
-Nous allons nous intéresser à un composant incontournable dans une application Web : La fenêtre modale
+## Pong (Breakout)
+![image](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/mdn-breakout-gameplay.png)
+
+Il faut créer un jeu complet de style Breakout. Le HTML Canvas fournit le conteneur de jeu où nous dessinons des graphiques via JavaScript. Après avoir appris à utiliser la toile pour les graphiques et les animations, nous passons par les algorithmes derrière les collisions en utilisant des formes de base comme les cercles et les rectangles. Avec ces concepts et une pincée de boucles de jeu et de son, nous aurons bientôt un jeu prêt à être joué! https://developer.mozilla.org/fr/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript
+
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/Pong/index.html)
 
 ## Carrousel image [Slider]
+![image](https://blog.logrocket.com/wp-content/uploads/2022/04/perfectly-working-carousel-slider.gif)
+
 Il ne fait aucun doute que les carrousels sont des éléments essentiels dans la conception d’un site Web. Lorsque vous êtes limité dans l’espace, mais que vous souhaitez toujours afficher beaucoup d’informations, les carrousels sont très pratiques car ils sont parfaits pour afficher des groupes de contenu connexe ou non. Que ce soit pour le rendu d’un diaporama, d’une section de témoignages ou pour la présentation de plusieurs messages dans un curseur, les carrousels sont indispensables. 
 
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/CarrouselImage/index.html)
+
+## Stripe Follow Along Dropdown
+![image](./img/StripeFollowAlongDropdown.png)
+
+Il y a quelques semaines, stripe.com a lancé un nouveau design de site Web. Il semble génial. Une chose que nous recherchons en particulier est le menu déroulant de navigation de morphing : au lieu de cacher et d’afficher un nouveau « conteneur » lorsque l’utilisateur passe d’un élément de navigation à l’autre, ils animent l’arrière-plan du menu déroulant pour faire de l’espace pour différentes tailles de contenu.
+
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/StripeFollowAlongDropdown/index.html)
+
+<!--
 ## Lister les dépôts d’un utilisateur GitHub en utilisant l’API publique GitHub
 GitHub est une plateforme très essentielle dans le processus de développement logiciel, que ce soit pour les logiciels open-source, les outils privés, l’intégration continue, ou n’importe lequel de ses nombreux autres cas d’utilisation. Dans cette exercice, vous apprendrez à utiliser l’API fetch avec l’interface de programmation d’application GitHub. 
 
 ## Pokedex
 Pokédex en javascript en utilisant PokéApi. Vous pouvez rechercher votre pokémon préféré.
+-->
 
 ---
 # Projet - LVL 4 : 
@@ -148,4 +169,3 @@ Un test de dactylographie est conçu pour déterminer à quelle vitesse une pers
 ## Création de particules [AnimeJS] [Particles.js] [VanillaJS]
 
 ## Parallax Website
--->

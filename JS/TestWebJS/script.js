@@ -1,11 +1,34 @@
-// 1. créer l'élément
-var bouton = document.createElement('button');
-bouton.classList.add('yellow');
+class Accordeon {
+  constructor(conteneur) {
+    this.conteneur = conteneur;
+    this.titres = conteneur.getElementsByClassName("titre");
+    this.texts = conteneur.getElementsByClassName("text");
+    for (let i = 0; i < this.titres.length; i++) {
+      this.titres[i].addEventListener("click", (e) => {
+        this.afficher(i, e);
+      });
+    }
+  }
 
-// 2. créer le contenu du bouton (noeud textuel)
-var texteDuBouton = document.createTextNode('Mon beau bouton');
+  cacherShow(e) {
+    let shows = this.conteneur.getElementsByClassName("show");
+    for (let show of shows) {
+      if (e.currentTarget.parentNode != show) {
+        show.classList.remove("show");
+      }
+    }
+  }
 
-// 3. ajouter le contenu au bouton
-bouton.appendChild(texteDuBouton);
-// 4. ajouter le bouton au body de la page
-document.body.appendChild(bouton);
+  afficherClick(i) {
+    this.titres[i].parentNode.classList.toggle("show");
+  }
+
+  afficher(i, e) {
+    this.cacherShow(e);
+    this.afficherClick(i);
+  }
+}
+
+let acc1 = new Accordeon(document.getElementById("acc1"));
+acc1.afficher(1, null);
+let acc2 = new Accordeon(document.getElementById("acc2"));

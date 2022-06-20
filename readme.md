@@ -13,12 +13,17 @@ DevDocs combines multiple API documentations in a fast, organized, and searchabl
 
 https://devdocs.io/
 
-# Grafikart
-https://grafikart.fr
+# [Grafikart](https://grafikart.fr)
 
-# Anydesk
-https://anydesk.com/fr/downloads/thank-you?dv=win_exe
+# [Anydesk](https://anydesk.com/fr/downloads/thank-you?dv=win_exe)
 
 # Développeur Web : quotidien, salaire, parcours
-Pool : https://youtu.be/mP_fnttJ5g0
+![](https://serieall.fr/images/articles/old/BReaking_Bad_4.jpg?args)
+- Pool : https://youtu.be/mP_fnttJ5g0
+- Jesuisundev : https://www.jesuisundev.com/argent-developpeur/
 
+# [Ce que personne ne te dira sur le métier de développeur](https://www.jesuisundev.com/ce-que-personne-ne-te-dira-sur-le-metier-de-developpeur/)
+![](https://i.imgur.com/3JbH3jo.jpg)
+
+# Internet Explorer 
+![](https://turkey.postsen.com/content/uploads/2022/06/17/cb42f9f44e.jpg)

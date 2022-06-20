@@ -1,5 +1,19 @@
-body {
-    background-color: rgba(0, 0, 0, 0.8);
-    min-height: 100vh;
-    color: wheat;
+.container { 
+    margin: auto; 
+    width: 50%;
+}
+
+.text { 
+    display: none;
+}
+
+.show .text{ 
+    display: block;
+}
+
+h1 {
+    background: rgb(134, 26, 85);
+    color: #fff;
+    text-transform: uppercase;
+    padding-inline: 1em;
 }
