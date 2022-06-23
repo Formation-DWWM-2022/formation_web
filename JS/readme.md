@@ -202,6 +202,8 @@ Sans une connaissance parfaite du comportement du JavaScript et des règles d’
 
 Pour cette raison, nous ajouterons explicitement des points-virgules à la fin de (presque) toutes les instructions dans ce cours. 
 
+![]()
+
 # Library JS [12][Solo]
 Qu'est-ce que ... et pourquoi en avez vous-besoin ?
 Comment l'installer et s’en servir ? [Exemple de code]

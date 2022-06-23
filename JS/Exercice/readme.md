@@ -64,6 +64,9 @@ Une Todo List est principalement utilisé pour organiser n’importe laquelle de
 
 [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/TODOList/index.html)
 </details>
+<br>
+
+> À partir du résultat de l’exemple précédent, vous stockez les données sur localStorage
 
 ## Basculement en mode CLAIR/SOMBRE
 
@@ -183,13 +186,38 @@ Il y a quelques semaines, stripe.com a lancé un nouveau design de site Web. Il 
 
 [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/StripeFollowAlongDropdown/index.html)
 
-<!--
-## Lister les dépôts d’un utilisateur GitHub en utilisant l’API publique GitHub
-GitHub est une plateforme très essentielle dans le processus de développement logiciel, que ce soit pour les logiciels open-source, les outils privés, l’intégration continue, ou n’importe lequel de ses nombreux autres cas d’utilisation. Dans cette exercice, vous apprendrez à utiliser l’API fetch avec l’interface de programmation d’application GitHub. 
 
-## Pokedex
-Pokédex en javascript en utilisant PokéApi. Vous pouvez rechercher votre pokémon préféré.
--->
+## Lister les dépôts d’un utilisateur GitHub en utilisant l’API publique GitHub
+GitHub est une plateforme très essentielle dans le processus de développement logiciel, que ce soit pour les logiciels open-source, les outils privés, l’intégration continue, ou n’importe lequel de ses nombreux autres cas d’utilisation. Dans cette exercice, vous apprendrez à utiliser l’API fetch avec l’interface de programmation d’application GitHub.
+
+Créez un écran avec un `<input>` qui doit recevoir le nom d’utilisateur dans Github. Après avoir entré le nom de l’utilisateur et cliqué sur le bouton Rechercher l’application, vous devez chercher dans l’API de Github (comme URL ci-dessous) les données des dépôts de l’utilisateur et les afficher à l’écran : URL d’exemple : https://api.github.com/users/Myogamevideo/repos Il suffit de changer "Myogamevideo" par le nom de l’utilisateur.
+
+```html
+<input type="text" name="user">
+<button>Ajouter</button>
+```
+
+Après avoir rempli l’entrée et l’ajout, la liste suivante doit apparaître ci-dessous:
+
+```html
+<ul>
+ <li>repo1</li>
+ <li>repo2</li>
+ <li>repo3</li>
+ <li>repo4</li>
+ <li>repo5</li>
+</ul>
+```
+ 
+À partir du résultat de l’exemple précédent, ajoutez un indicateur de chargement à l’écran à la place de la liste uniquement lorsque la requête est en cours :
+
+```js
+<li>Chargement...</li>
+```
+
+Ajoutez également un message d’erreur à l’écran si l’utilisateur n’est pas présent sur Github. 
+
+> Astuce : Si l’utilisateur n’existe pas, la requête tombera sur .catch avec code d’erreur 404.
 
 ---
 
