@@ -1,5 +1,5 @@
 # COURS
-- Cours via slide 
+- [Cours via slide](./cours.md) 
 - PF.Vos-competences : https://pf.vos-competences.com/apprenant/ 
     - Formation 
         - PROGRAMMATION - GIT / GITHUB

@@ -1,15 +1,10 @@
 # JavaScript
 <!--
 - Correction
-- Regex
-- TUTO fonction par projet
-- Exercice class
 -->
 
 <!--
-- Prototype
 - Voir photo et discord
-- Sommaire RAN
 -->
 
 # Dates [11j]:
@@ -77,8 +72,9 @@ L'évaluation de ce cours comportera trois points :
   
 # Sommaire :
 * [TP 1 - Les Bases](./Cours/tp01.md)
+* [TP Additionnel - Où écrire le code JavaScript ?](./Cours/ouCodeJS.md)
 * [TP 2 - Conditions](./Cours/tp02.md)
-* [TP VAR vs LET vs CONST - Quelles sont les différences ?](./Cours/varletconst.md)
+* [TP - VAR vs LET vs CONST : Quelles sont les différences ?](./Cours/varletconst.md)
 * [TP 3 - Algorithmes et Jeux](./Cours/tp03.md)
 * [TP 4 - Fonctions](./Cours/tp04.md)
 * [TP 5 - Tableaux](./Cours/tp05.md)
@@ -87,15 +83,34 @@ L'évaluation de ce cours comportera trois points :
 * [TP 8 - Manipuler le Web avec DOM](./Cours/tp08.md)
 * [TP 9 - Manipuler les classes et styles CSS](./Cours/tp09.md)
 * [TP 10 - Manipulation DOM avancée](./Cours/tp10.md)
-* [TP La différence entre addEventListener et onclick](./Cours/addEventListenerVSonclick.md)
+* [TP Additionnel - La différence entre addEventListener et onclick](./Cours/addEventListenerVSonclick.md)
+* [TP Additionnel - Gestion du délai d’exécutio](./Cours/delaiExecution.md)
+---
+* Projet - LVL 1
+* Projet - LVL 2
+---
 * [TP 11 - Récupération de données avec AJAX](./Cours/tp11.md)
 * [TP 12 - Envoi de données avec AJAX](./Cours/tp12.md)
-* [TP Fetch - API plus flexible et plus puissante que XMLHttpRequest. ](./Cours/fetch.md)
+* [TP Additionnel - Fetch : API plus flexible et plus puissante que XMLHttpRequest](./Cours/fetch.md)
 * [TP 13 - Composants Web](./Cours/tp13.md)
+* [TP Additionnel - Introduction à l’orienté objet](./Cours/classObjectPrototype.md)
 * [TP 14 - Composants et POO](./Cours/tp14.md)
+* [TP - Introduction aux expressions régulières](./Cours/regex.md)
+* [TP Additionnel - L’élément HTML canva](./Cours/canva.md)
+---
+* Projet - LVL 3
+---
+* [TP Additionnel - L’opérateur ternaire](./Cours/operateurTernaire.md)
+---
+* Library JS
+* Framework JS
+* More JS
+---
 * [TP 15 - jQuery, Node.js et frameworks](./Cours/tp15.md)
+---
+* Projet - LVL 4
+---
 * [TP 16 - Identification avec Google et Facebook](./Cours/tp16.md)
-
 
 # Déboguer son code JS :
 * [TP 17 - Gestion d'erreurs et Geolocation API](./Cours/tp17.md)
@@ -105,6 +120,86 @@ L'évaluation de ce cours comportera trois points :
 https://grafikart.fr/formations/deboguer-javascript
 -  Cannot read property of null 
 -  RegeneratorRuntime is not defined 
+
+# Notre guide de style JavaScript
+Par [Harrison Shoff](https://www.linkedin.com/in/hshoff/)
+
+Jetez-y un coup d’œil sur Github : https://github.com/airbnb/javascript
+
+Tout le monde écrit JavaScript un peu différemment. Nous avons finalement décidé qu’il était temps que nous nous mettions d’accord sur la façon dont nous écrivons JavaScript.
+
+Nous le décrivons comme une approche plutôt raisonnable de JavaScript.
+
+Nous le libérons sous licence MIT, alors n’hésitez pas à vous servir à votre guise. Nous ne nous attendons pas à ce que tout le monde soit d’accord avec la façon dont nous faisons les choses, mais nous espérons que cela vous aidera à lancer votre propre guide de style comme modèle ou carte.
+
+## Extrait des règles qui seront à respecter:
+
+- mettre les chaînes de caractères entre apostrophes, (cf [6.1](https://github.com/airbnb/javascript/blob/master/README.md#strings--quotes))
+- usage et placement des accolades (*braces*, en anglais), (cf [16.1](https://github.com/airbnb/javascript/blob/master/README.md#blocks--braces))
+- et indentation de 2 espaces. (cf [18.1](https://github.com/airbnb/javascript/blob/master/README.md#whitespace--spaces))
+
+Par ailleurs, pensez à inclure systématiquement `'use strict';` en première ligne de tous vos programmes.
+
+---
+[Use strick](./Cours/usestrict.md)
+
+---
+
+Pour vérifier et corriger l'indentation de votre code JavaScript, vous pouvez utiliser un outil en ligne comme [jsbeautifier](http://jsbeautifier.org/) ou la fonction "prettier" de [repl.it](https://repl.it/languages/javascript).
+
+Si vous préférez utiliser votre éditeur de code préféré pour vous aider à corriger l'indentation et/ou les conventions ci-dessus, configurez-le de manière à ce qu'il respecte le guide de style d'Airbnb.
+
+## Les commentaires en JavaScript
+
+Comme pour l’immense majorité des langages de programmation, on va également pouvoir commenter en JavaScript.
+
+Les commentaires sont des lignes de texte (des indications) placées au milieu d’un script et servant à documenter le code, c’est-à-dire à expliquer ce que fait tel ou tel bout de script et éventuellement comment le manipuler.
+
+Ces indications ne seront pas lues par le navigateur et seront donc invisibles pour les visiteurs (sauf s’ils affichent le code source de la page).
+
+Commenter va donc servir aux développeurs à se repérer plus facilement dans un script, à le lire et à le comprendre plus vite. Cela peut être utile à la fois pour vous même si vous travaillez sur des projets complexes ou pour d’autres développeurs si vous êtes amené à distribuer votre code un jour ou l’autre.
+
+En JavaScript, il existe deux types de commentaires qui vont s’écrire différemment : les commentaires mono-ligne et les commentaires multi-lignes.
+
+Notez que la syntaxe des commentaires multi-lignes peut être utilisée pour écrire un commentaire mono-ligne. Vous pouvez donc vous contenter de n’utiliser que cette syntaxe.
+
+Pour écrire un commentaire multilignes, il faudra entourer le texte de notre commentaire avec la syntaxe suivante /* */.
+
+Pour écrire un commentaire monoligne, on utilisera un double slash // qui sera suivi du texte de notre commentaire (ou éventuellement la syntaxe multilignes).
+
+Dans l’exemple ci-dessous, on crée trois commentaires dans notre fichier cours.js qui utilisent les deux syntaxes et couvrent tous les cas d’utilisation :
+
+![](https://www.pierre-giraud.com/wp-content/uploads/2019/05/javascript-commentaire-monoligne-multilignes-syntaxe.png)
+
+## L’indentation en JavaScript
+
+L’indentation correspond au fait de décaler certaines lignes de code par rapport à d’autres. Cela est généralement utilisé pour rendre son code plus lisible et donc plus simple à comprendre.
+
+Pour savoir comment et quand indenter, il suffit de penser en termes de hiérarchie comme on le faisait déjà en HTML.
+
+Une bonne pratique est d’effectuer un retrait vers la droite équivalent à une tabulation à chaque fois qu’on écrit une nouvelle ligne de code à l’intérieur d’une instruction JavaScript. Nous aurons l’occasion d’illustrer cela plus tard.
+
+## Un premier point sur la syntaxe de base du JavaScript
+
+Avant de véritablement apprendre à coder en JavaScript, j’aimerais discuter d’un point qui divise la communauté des développeurs JavaScript : l’usage du point-virgule.
+
+En effet, sur le net, vous verrez certains tutoriels affirmer que « toute instruction en JavaScript doit être terminée explicitement avec un point-virgule » et d’autres auteurs dire que « les points virgules ne sont souvent pas nécessaires dans le code ».
+
+Avant tout, vous devez savoir qu’un code JavaScript est composé d’instructions. On va avoir différents types d’instruction en JavaScript : la déclaration d’une variable ou d’une fonction, la création d’une boucle, d’une condition, etc. vont toutes être des instructions.
+
+Le point-virgule est généralement utilisé en informatique pour indiquer la fin d’une instruction, c’est-à-dire pour séparer deux instructions l’une de l’autre et cela va également être le cas en JavaScript.
+
+L’idée ici est que le langage JavaScript est très bien fait et ne nous oblige pas strictement à utiliser un point-virgule pour notifier la fin de chaque instruction. En effet, le JavaScript va être capable de « deviner » quand une instruction de termine et va ajouter automatiquement des points-virgules là où ça lui semble pertinent.
+
+C’est la raison pour laquelle certains développeurs se passent tant que possible de ces points-virgules. Cependant, il y a une limite majeure à cela.
+
+Celle-ci est que tout langage informatique repose sur un ensemble de règles. Ainsi, les points-virgules ne sont pas ajoutés automatiquement par le JavaScript au hasard mais selon un ensemble de règles précises.
+
+Pour pouvoir se passer des points-virgules, il faut donc déjà bien connaitre le langage et les règles d’ajout automatique des points virgules pour créer un code avec une structure qui va pouvoir être interprétée correctement par la JavaScript.
+
+Sans une connaissance parfaite du comportement du JavaScript et des règles d’ajout, on risque d’avoir des résultats inattendus voire un code non fonctionnel puisqu’il est possible que le JavaScript ajoute des points-virgules là où on ne s’y attend pas.
+
+Pour cette raison, nous ajouterons explicitement des points-virgules à la fin de (presque) toutes les instructions dans ce cours. 
 
 # Library JS [12][Solo]
 Qu'est-ce que ... et pourquoi en avez vous-besoin ?
@@ -194,14 +289,3 @@ Angular vs React vs Vue ? JQuery vs Vanilla JavaScript ? ...
 [Solution](https://www.youtube.com/watch?v=5Es-oq-o0Qg)
 [Solution](https://www.youtube.com/watch?v=wIZty5sGSQk)
 [Solution](https://grafikart.fr/tutoriels/frameworkjs-744)
-
-## Notre guide de style JavaScript
-Par [Harrison Shoff](https://www.linkedin.com/in/hshoff/)
-
-Jetez-y un coup d’œil sur Github : https://github.com/airbnb/javascript
-
-Tout le monde écrit JavaScript un peu différemment. Nous avons finalement décidé qu’il était temps que nous nous mettions d’accord sur la façon dont nous écrivons JavaScript.
-
-Nous le décrivons comme une approche plutôt raisonnable de JavaScript.
-
-Nous le libérons sous licence MIT, alors n’hésitez pas à vous servir à votre guise. Nous ne nous attendons pas à ce que tout le monde soit d’accord avec la façon dont nous faisons les choses, mais nous espérons que cela vous aidera à lancer votre propre guide de style comme modèle ou carte.

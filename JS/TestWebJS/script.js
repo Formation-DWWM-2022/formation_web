@@ -9,7 +9,7 @@ class Accordeon {
       });
     }
   }
-
+  
   cacherShow(e) {
     let shows = this.conteneur.getElementsByClassName("show");
     for (let show of shows) {
