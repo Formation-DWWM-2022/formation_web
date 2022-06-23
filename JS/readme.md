@@ -101,6 +101,7 @@ L'évaluation de ce cours comportera trois points :
 * Projet - LVL 3
 ---
 * [TP Additionnel - L’opérateur ternaire](./Cours/operateurTernaire.md)
+* [TP Additionnel - Recherche : getElement*, querySelector*](./Cours/querySelector.md)
 ---
 * Library JS
 * Framework JS
