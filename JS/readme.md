@@ -5,6 +5,9 @@
 
 <!--
 - Voir photo et discord
+https://www.pierre-giraud.com/javascript-apprendre-coder-cours/delai-settimeout-setinterval/
+https://buzut.net/programmation-orientee-objet-javascript/
+https://javascript.info/
 -->
 
 # Dates [11j]:

@@ -56,9 +56,9 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 - [✔️🚧 BDD SQL](./BDDSQL/readme.md)
 
-- [❌🚧 PHP](./JS/PHP.md)
+- [❌🚧 PHP](./PHP/readme.md)
 
-  - [❌ Symfony]()
+- [❌🚧 Symfony](./Symfony/readme.md)
 
 - [✔️🚧 RAN](./RAN/readme.md)
 
