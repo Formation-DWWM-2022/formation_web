@@ -1,5 +1,20 @@
 # PHP
 <!--
+Correction exercice
+
+Librairy PHP :
+- https://gist.github.com/llbbl/7607016
+- https://www.cloudways.com/blog/php-libraries/
+- ...
+
+Framework PHP :
+- Symfony
+- Laravel
+- ...
+
+- More PHP
+
+- Récupérer cours Allan
 -->
 
 # Dates [11j]
@@ -80,6 +95,22 @@ Les codes des différents exemples vous seront fournis. Cependant, je vous conse
 La documentation la plus importante à mettre en favoris : <https://www.php.net/>
 - [Présentation de PHP](./CoursBase/01-presentation.md)
 - [Installer PHP sur Windows](./CoursBase/02-installer.md)
+- ...
+- [Les fonctions et Les fonctions utilisateurs](./CoursBase/07-fonctions.md)
+- [TP : COMBAT DE HEROS](./CoursBase/08-tp-combat.md)
+- [Require & Include et PHP & HTML](./CoursBase/09-require&include.md)
+- [Traitement des formulaires](./CoursBase/10-formulaire.md)
+- [Introduction aux expressions rationnelles ou expressions régulières](./CoursBase/more-expressions-regulieres.md)
+- [Les dates](./CoursBase/11-dates.md)
+- [Lecture de fichiers](./CoursBase/12-lecture&ecriture-file.md)
+- [TP : enregistrer un futur apprenant](./CoursBase/13-futur-apprenant.md)
+- [Les Cookies](./CoursBase/14-cookies.md)
+- [La session](./CoursBase/15-session.md)
+- [TP : GESTION DE MEMBRE](./CoursBase/16-tp-gestion-membre.md)
+- [Chiffrer les mots de passe](./CoursBase/more-chiffrer-mdp.md)
+- [Manipuler les images](./CoursBase/more-images.md)
+- [Générer des fichiers PDF](./CoursBase/more-pdf.md)
+- [Envoyer des emails](./CoursBase/more-send-email.md)
 
 # Notre guide de style PHP
 <!--

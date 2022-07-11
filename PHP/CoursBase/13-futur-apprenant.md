@@ -1,4 +1,4 @@
-> But du TP : créer un formulaire en utilisant des données externes d'une base de données par exemple, et valider les données reçues.
+## But du TP : créer un formulaire en utilisant des données externes d'une base de données par exemple, et valider les données reçues.
 
 > Soignez votre CSS ! Utilisez un Bootstrap par exemple
 

@@ -83,6 +83,4 @@ Le navigateur possède donc maintenant l’adresse IP de notre site et donc l’
 
 Lorsque le serveur reçoit la requête, il recherche immédiatement le fichier demandé, effectue éventuellement certaines opérations dessus et le renvoie au navigateur ou renvoie un code d’erreur si le fichier demandé est introuvable ou ne peut pas être envoyé.
 
-
-
 ["PHP est MORT..." ➡ Faut-il encore APPRENDRE PHP en 2020 ?](https://youtu.be/yYic37F5_Lo)
