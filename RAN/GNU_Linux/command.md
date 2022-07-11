@@ -1,3 +1,11 @@
+<!--
+
+https://www.freecodecamp.org/news/an-introduction-to-operating-systems/
+
+https://www.freecodecamp.org/news/command-line-for-beginners/
+
+-->
+
 # Cours : Déploiement d'un serveur linux
 
 > Ce cours s'appuie sur la base d'une distribution Linux type Debian (Ubuntu...). Néanmoins, la plupart des commandes fonctionnent pour tout environnement Linux.

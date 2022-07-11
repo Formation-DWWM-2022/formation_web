@@ -245,11 +245,6 @@ Un test de dactylographie est conçu pour déterminer à quelle vitesse une pers
 
 ## Create Video Games [Phaser.JS]
 
-## Algorithmes et Structures de Données en JavaScript
-
-- <https://www.freecodecamp.org/news/data-structures-in-javascript-with-examples/>
-- <https://github.com/trekhleb/javascript-algorithms/blob/master/README.fr-FR.md>
-
 ## Création de particules [AnimeJS] [Particles.js] [VanillaJS]
 
 ## Parallax Website

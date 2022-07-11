@@ -48,17 +48,25 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 - [✔️🚧 Javascript](./JS/readme.md)
 
-  - [❌ Angular]()
+- [✔️ TypeScript](./TypeScript/readme.md)
 
-  - [❌ React]()
+- [❌ Angular]()
 
-  - [❌ Vue]()
+- [❌ React]()
+
+- [❌ Vue]()
 
 - [✔️🚧 BDD SQL](./BDDSQL/readme.md)
 
 - [❌🚧 PHP](./PHP/readme.md)
 
+- [✔️ PHP vs JS](./PHPvsJS.md)
+
 - [❌🚧 Symfony](./Symfony/readme.md)
+
+- [❌🚧 Webpack](./Webpack/readme.md)
+
+  [❌🚧 BabelJS](./Webpack/babelJS.md)
 
 - [✔️🚧 RAN](./RAN/readme.md)
 
@@ -69,6 +77,20 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
     - [✔️ Binaire](./RAN/Binaire/readme.md)
 
     - [✔️ GNU Linux](./RAN/GNU_Linux/readme.md)
+
+    - [❌ Complexite Recherche Tri en Algorithmie](./RAN/Complexite&Recherche&Tri_Algorithmique/readme.md) 
+
+    - [❌ Modeles de conception](./RAN/ModelesConception/readme.md) 
+
+    - [✔️ Paradigmes de programmation](./RAN/ParadigmesProgrammation/readme.md)
+
+      -[✔️ Programmation orientée objet](./RAN/ParadigmesProgrammation/POO.md)
+
+    - [✔️ Framework](./RAN/Framework/readme.md) 
+
+    - [❌ Test development](./RAN/TestDevelopment/readme.md)
+
+    - [❌ Documentation technique](./RAN/DocumentationTechnique/readme.md)
 
     ### Optimisation pour les moteurs de recherche
 
@@ -88,7 +110,7 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
     - [✔️🚧 La sécurité d'un site web](./RAN/SecuriteWebSite/readme.md)
 
-    - [❌ Cookies]()
+    - [❌ Cookies](./RAN/Cookies/readme.md)
 
     ### Suite logicielle pour les développeurs
 
@@ -98,7 +120,7 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
     - [✔️ Windows](./RAN/windows.md)
 
-    - [❌ Apache]()
+    - [❌ Apache](./RAN/Apache/readme.md)
 
     - [❌ Nginx]()
 
@@ -152,6 +174,48 @@ DevDocs combines multiple API documentations in a fast, organized, and searchabl
 
 - Pool : <https://youtu.be/mP_fnttJ5g0>
 - Jesuisundev : <https://www.jesuisundev.com/argent-developpeur/>
+
+---
+## Le 11 juillet 2022 : [Salaire brut annuel - junior - en france]
+- Dev Front-end : 32K€ (720 offre sur apec)
+  - avec top 10% > 38K€
+  - avec top 30% > 35K€ 
+- Dev Back-end : 32K€ (741 offre sur apec)
+  - avec top 10% > 40K€
+  - avec top 30% > 35K€ 
+- Dev Full-stack : 33K€ (607 offre sur apec)
+  - avec top 10% > 40K€
+  - avec top 30% > 35K€ 
+---
+- Dev PHP : 30K€ (819 offre sur apec)
+  - avec top 10% > 37.5K€
+  - avec top 30% > 33K€ 
+- Dev Laravel : 30K€ (109 offre sur apec)
+  - avec top 10% > 35K€
+  - avec top 30% > 32K€ 
+- Dev Symfony : 30K€ (468 offre sur apec)
+  - avec top 10% > 36.5K€
+  - avec top 30% > 32K€ 
+- Dev Wordpress : 32K€ (65 offre sur apec)
+  - avec top 10% > 40K€
+  - avec top 30% > 35K€ 
+---
+- Dev JS : 32K€ (1215 offre sur apec)
+  - avec top 10% > 40K€
+  - avec top 30% > 35K€ 
+- Dev Angular : 32K€ (1211 offre sur apec)
+  - avec top 10% > 40K€
+  - avec top 30% > 35K€ 
+- Dev React : 32K€ (802 offre sur apec)
+  - avec top 10% > 40K€
+  - avec top 30% > 35K€ 
+- Dev VueJS : 32K€ (234 offre sur apec)
+  - avec top 10% > 38K€
+  - avec top 30% > 35K€ 
+
+> 32000€ brut annuel = 2080€ net mensuel
+
+> 40000€ brut annuel = 2600€ net mensuel
 
 # [Ce que personne ne te dira sur le métier de développeur 💣](https://www.jesuisundev.com/ce-que-personne-ne-te-dira-sur-le-metier-de-developpeur/)
 
