@@ -1,0 +1,42 @@
+main.cart-main .page-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(400px, auto);
+}
+
+main.cart-main .page-content .cart-details {
+    background-color: var(--quaternary-color);
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+
+main.cart-main .page-content table {
+    border-collapse: collapse;
+}
+
+
+main.cart-main .page-content table thead th,
+main.cart-main .page-content table tbody td,
+main.cart-main .page-content table tfoot td {
+    padding: 1rem;
+}
+
+main.cart-main .page-content table tbody td {
+    border-bottom: 2px solid var(--light-color);
+}
+
+main.cart-main .page-content table th {
+    text-align: start;
+}
+
+main.cart-main .page-content table .price-cell {
+    text-align: end;
+}
+
+main.cart-main .page-content .cart-details button {
+    align-self: flex-end;
+}

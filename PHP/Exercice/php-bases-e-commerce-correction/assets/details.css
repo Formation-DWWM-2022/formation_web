@@ -1,0 +1,48 @@
+main.details-main .page-content {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    gap: 3rem;
+}
+
+main.details-main .page-content .product-img {
+    background-color: var(--secondary-color);
+}
+
+main.details-main .page-content .product-details {
+    grid-column: span 2;
+    background-color: var(--quaternary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+main.details-main .page-content .product-details .description {
+    flex-grow: 1;
+}
+
+main.details-main .page-content .product-details .bottom-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main.details-main .page-content .product-details .price {
+    font-size: 3rem;
+}
+
+main.details-main .page-content .product-details .price .currency {
+    font-size: 2rem;
+}
+
+main.details-main .page-content .product-details .add-to-cart-form {
+    display: flex;
+}
+main.details-main .page-content .product-details .add-to-cart-form input[type="number"] {
+    padding: 0 0.5rem;
+}
+
+main.details-main .page-content .product-details .add-to-cart-form input[type="number"]:focus {
+    outline: 2px solid var(--secondary-color);
+}

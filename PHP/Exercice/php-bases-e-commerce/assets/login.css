@@ -1,0 +1,38 @@
+main.login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.login-main .login-form {
+    padding: 2rem 3rem;
+    width: 600px;
+    background-color: var(--quaternary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main.login-main .login-form .page-title {
+    text-align: center;
+}
+
+
+main.login-main .login-form .input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+main.login-main .login-form .input-field input {
+    height: 50px;
+    padding: 0 0.5rem;
+}
+
+main.login-main .login-form .input-field input:focus {
+    outline: 2px solid var(--secondary-color);
+}
+
+main.login-main .login-form input[type="submit"] {
+    align-self: center;
+}

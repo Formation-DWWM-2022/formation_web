@@ -15,6 +15,8 @@ Framework PHP :
 - More PHP
 
 - Récupérer cours Allan
+
+- Composer
 -->
 
 # Dates [11j]

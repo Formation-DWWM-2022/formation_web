@@ -28,6 +28,11 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
   - **Formation DWWM - IFPA**
     - juillet 2022 à en cours
 
+# PHP Storm & Jetbrains en centre de formation:
+- https://www.jetbrains.com/shop/eform/students
+- onglet > document officiel
+- vous mettez votre certificat de formation d'entrée
+
 # Sommaire de mes différents cours
 
 - [✔️🚧 Algorithmie](./Algorithmie/memo.md)
@@ -50,7 +55,7 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 - [✔️ TypeScript](./TypeScript/readme.md)
 
-- [❌ Angular]()
+- [❌ Angular](./Angular/readme.md)
 
 - [❌ React]()
 
@@ -224,3 +229,4 @@ DevDocs combines multiple API documentations in a fast, organized, and searchabl
 # Internet Explorer ☠️
 
 ![](https://turkey.postsen.com/content/uploads/2022/06/17/cb42f9f44e.jpg)
+

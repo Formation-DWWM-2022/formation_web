@@ -104,7 +104,8 @@ Ce n'est pas tout d'envoyer des données, il faut aussi s'assurer que les donné
 
 > Il faut garder à l'esprit que le JavaScript est facilement désactivable dans les paramètres des navigateurs et par conséquent, ce langage ne permet pas une réelle sécurité. C'est la même chose pour les CAPTCHAS codés en JavaScript. Il faudra dans ce cas privilégier une sécurisation de formulaire avec le langage PHP. Cependant, ces petits contrôles JavaScript permettent dans bien des cas d'éviter les problèmes de saisie qui ne sont pas forcément malveillants, mais plutôt causés par des étourderies de saisies
 
-[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/FormulaireVerification/index.html)
+- [Solution Video](https://youtu.be/CreEhp8I-XA)
+- [Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/FormulaireVerification/index.html)
 
 ## Horloge avec alarmes
 

@@ -1,3 +1,10 @@
+```
+- npm install --global typescript@latest
+- tsc --version ==> connaitre version TypeScript 
+- tsc --init
+- tsc --watch
+```
+
 # Comment utiliser TypeScript ?
 
 [L'instant Code : Les bases de Typescript](https://youtu.be/Tsu7TFb3ir4)

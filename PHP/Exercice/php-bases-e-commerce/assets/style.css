@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1E2019;
+    --secondary-color: #E2C044;
+    --tertiary-color: #587B7F;
+    --quaternary-color: #393E41;
+    --light-color: #D3D0CB;
+}
+
+body {
+    margin: 0;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+}
+
+header nav .nav-part {
+    display: flex;
+}
+
+header nav .nav-part a {
+    color: var(--primary-color);
+    height: 100%;
+    margin: 0;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .nav-part a.active,
+header nav .nav-part a:hover {
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
+main {
+    flex-grow: 1;
+    padding: 2rem 4rem;
+}
+
+footer {
+    background-color: var(--quaternary-color);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button,
+input[type="submit"] {
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    padding: 0 2rem;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    color: var(--secondary-color);
+}

@@ -1,8 +1,9 @@
 # Node.js
 
 ## Vidéo simples et efficace
+
 NodeJS est une plateforme construite sur le moteur JavaScript V8 de Chrome qui permet de développer des applications en utilisant du JavaScript. Il se distingue des autres plateformes gràce à une approche non bloquante permettant d'effectuer des entrées/sorties (I/O) de manière asynchrone.
-https://grafikart.fr/formations/nodejs
+<https://grafikart.fr/formations/nodejs>
 
 ## Qu'est ce que NodeJS
 
@@ -294,8 +295,9 @@ Pour finir, sachez qu'il existe d'autres petits goodies : l'affichage est bien m
 L'installation de Yarn depend de votre plateforme.
 
 Sous Linux, vous aurez à ajouter un dépôt puis l'installer avec votre gestionnaire de paquets.
-Enfin pour Windows, vous pourrez retrouver un installateur sur le site de Yarn : https://classic.yarnpkg.com/en/docs/install#windows-stable 
+Enfin pour Windows, vous pourrez retrouver un installateur sur le site de Yarn : <https://classic.yarnpkg.com/en/docs/install#windows-stable>
 
+[Grafikart : Yarn, un nouveau gestionnaire de dépendances](https://youtu.be/nKVjpgatBRM)
 ----
 
 [^1]: Un script est chargé d'exécuter une fonction bien précise lorsqu'un utilisateur réalise une action ou lorsqu'une page web est en cours d'affichage
