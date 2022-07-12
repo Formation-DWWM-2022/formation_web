@@ -10,3 +10,4 @@
 10. Qu'est-ce que le 'multithreading' ? Qu'est-ce qu'un threads ?
 11. En quoi consiste 'l'environnement d'exécution' ou 'runtime' ?
 12. Qu'elle est la différence entre une éxéecution synchrone et asynchrone ?
+

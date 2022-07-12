@@ -228,5 +228,5 @@ DevDocs combines multiple API documentations in a fast, organized, and searchabl
 
 # Internet Explorer ☠️
 
-![](https://turkey.postsen.com/content/uploads/2022/06/17/cb42f9f44e.jpg)
+![](https://nypost.com/wp-content/uploads/sites/2/2022/06/internet-explorer-grave-01.jpg?quality=75&strip=all)
 

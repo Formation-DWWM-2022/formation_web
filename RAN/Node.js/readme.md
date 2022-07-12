@@ -185,7 +185,6 @@ Sass est peut-être le plus populaire des pré-processeurs CSS; depuis des anné
 1. Initialisez le NPM
 
 NPM est le gestionnaire de nœuds pour JavaScript. NPM facilite l'installation et la désinstallation de packages tiers. Pour initialiser un projet Sass avec NPM, ouvrez votre terminal et CD (répertoire de modification) dans votre dossier de projet.
-Navigating to SASS-tutorial folder
 
 Une fois dans le dossier correct, exécutez la commande npm init. Vous serez invité à répondre à plusieurs questions sur le projet, après quoi NPM va générer un fichier package.json dans votre dossier.
 
@@ -216,7 +215,7 @@ Dans la section scripts, ajoutez une commande scss, sous la commande test, comme
 ``` json
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
-  "scss": "node-sass -watch scss -o css"
+  "scss": "node-sass -w scss -o css"
 }
 ```
 

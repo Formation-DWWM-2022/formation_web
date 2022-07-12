@@ -1,0 +1,12 @@
+// @import "bootstrap/scss/bootstrap";
+// @import "sweetalert2/src/sweetalert2";
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: aqua;
+}
+

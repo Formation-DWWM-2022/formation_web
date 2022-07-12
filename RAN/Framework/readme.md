@@ -47,7 +47,7 @@ De nombreuses tâches que les développeurs devront effectuer dans les applicati
 
 4. Suivre les bonnes pratiques de codage
 
-Les frameworks suivent généralement les meilleures pratiques de codage. 
+Les frameworks suivent généralement les meilleures pratiques de codage.
 
 Un framework fournit une hiérarchie de fichiers et dossiers optimisés. Grâce à cette séparation et classification de fichiers, l’interface s’en voit plus claire et son utilisation simplifiée - pour qui sait l’utiliser.
 
@@ -69,7 +69,7 @@ L’utilisation d’un framework ne remplace pas l’écriture d’un code sécu
 
 6. Un meilleur travail d’équipe
 
-Un framework de développement met à disposition diverses architectures formalisées en fonction des besoins pour lesquels celui-ci est utilisé. Le développement en équipe est donc facilité, et la répartition des tâches au sein de cette même équipe est plus simple puisque chacun a sa “zone” de travail.   
+Un framework de développement met à disposition diverses architectures formalisées en fonction des besoins pour lesquels celui-ci est utilisé. Le développement en équipe est donc facilité, et la répartition des tâches au sein de cette même équipe est plus simple puisque chacun a sa “zone” de travail.
 
 Les projets avec plusieurs développeurs peuvent se tromper s’il n’y a pas de clarté au sujet de :
 
@@ -92,6 +92,7 @@ Vous êtes rarement seul à utiliser un cadre de travail spécifique. Si vous re
 Pour vous donner une idée, Symfony ou React sont des frameworks utilisés par plus d’un million de développeurs, autant de personnes qui pourront vous aider en cas de blocage.
 
 # Quels sont les inconvénients d’un framework ?
+
 ## Différentes courbes d’apprentissage
 
 Maîtriser un framework peut prendre du temps et ce n’est pas simple du tout ! Toutefois, chaque framework est doté de sa propre courbe d’apprentissage : certains permettent au développeur de monter en compétences rapidement tandis que d’autres nécessitent un temps d’apprentissage plus long.
@@ -104,7 +105,7 @@ Pour comprendre et interpréter correctement les principes de base des framework
 
 Comme son nom l’indique, un framework est un cadre de travail. Il existe donc certaines limites d’utilisation de ce dernier. Par exemple, il nous impose souvent ses propres choix en termes d’architecture de notre code. Lorsqu’un développeur web souhaite accéder à des fonctionnalités du langage qui ne sont pas gérées par le framework, il peut rencontrer des difficultés. Le conseil que l’on peut donner à un développeur qui souhaite utiliser un framework est de se laisser guider par ce dernier.
 
-## Ils sont trop tentants !
+## Ils sont trop tentants
 
 Ils nous donnent l’impression que tout est plus simple grâce à eux, mais il n’y a rien de plus faux ! Ils imposent une architecture lourde et complexe aux applications, alors qu'elles n’en ont parfois pas besoin.
 
@@ -138,13 +139,14 @@ Si vous avez besoin de construire une application évolutive, choisissez un fram
 Enfin, une bonne documentation et un bon support sont importants pour que vous puissiez tirer le meilleur parti de votre framework. Un framework doté d’une communauté importante et dynamique a également plus de chances de résister à l’épreuve du temps et est également en mesure de vous aider lorsque vous rencontrez des difficultés.
 
 # Quels sont les différents types de frameworks ?
+
 ## Les frameworks d’entreprise « maison »
 
 Parlons un peu maintenant des frameworks d’entreprise. On entend par là l’ensemble des librairies développées dans certaines entreprises, leur permettant de répondre de manière plus rapide, efficace et précise à certains développements spécifiques.
 
 Souvent basés sur des frameworks existants, ces outils sont en fait des briques rajoutées à d’autres déjà existantes. Beaucoup d’entreprises avec une forte culture tech développent leurs propres frameworks, utilisés en interne mais aussi parfois mis en open source sur le net.
 
-## Quelques exemples de frameworks :
+## Quelques exemples de frameworks
 
 Avant toute chose, il est important de savoir que les frameworks ne sont pas en concurrence les uns les autres ! Souvenez-vous de ce que l’on a dit plus haut : chacun d’entre eux répond à un besoin spécifique.
 
@@ -154,6 +156,7 @@ En PHP, deux sortent du lot : Symfony et Laravel
 - Laravel, lancé en 2011 par Taylor Otwell, est l’un des frameworks les plus utilisés dans le monde. Petite anecdote : certaines parties de Laravel reposent sur Symfony.
 
 En JS : NodeJs, VueJs, Angular et React
+
 - NodeJs, doté de hautes performances et utilisable dans de nombreuses situations, a permis une grande avancée dans le monde de JavaScript (JS). Fondé en 2009 par Ryan Dahl, il a fait tomber le mur entre le frontend et le backend. C’est lui qui a rendu possible la réalisation d’applications back-end en JS. NodeJs aide notamment les entreprises dans la création d’applications évolutives et capables de gérer des connexions simultanées à haut débit. Par exemple, des entreprises comme Google ou encore PayPal utilisent NodeJs sur certaines parties de leurs applications.
 - VueJs, créé par Evan You en 2014, est un cadre de travail évolutif basé sur JavaScript dont l’approche est orientée composants. On l’utilise généralement pour la partie front-end. Il est doté d’une courbe d’apprentissage progressive, qui lui permet d’être “simple” à prendre en main. Ses très bonnes performances et son poids léger (30 ko) font de lui l’un des frameworks JavaScript les plus rapides. Nous pouvons citer quelques sites qui utilisent VueJs :  Adobe, Alibaba ou encore Nintendo.
 - Angular est le framework front-end officiel de Google et développé par ce dernier. Né en 2016, il offre des solutions prêtes à l’emploi et permet de créer des composants en JS. C’est un très bon framework pour développer des applications web hautement interactives. Orienté composant, il vous apporte une base de code solide. Cependant, il présente une certaine complexité dans sa courbe d’apprentissage, et le développement d’une application sous Angular implique nécessairement son utilisation de A à Z. Il n’est pas possible de changer de framework entre temps. Vous serez également obligé de passer par l'étape TypeScript pour utiliser Angular !
@@ -217,3 +220,13 @@ Enfin, il existe encore bien d’autres frameworks de développement web, de quo
 48. Drupal
 49. Web2Py
 50. Sinatra
+
+# Bibliothèque vs Framework, quelle est la différence ?
+
+> “Le développeur utilise une bibliothèque en appelant le code de cette dernière, tandis que le rôle du framework est d’exécuter le code du développeur”
+
+Et oui, leur fonctionnement est presque l'inverse l'un de l'autre !
+
+En français, on traduit le mot framework par “cadre applicatif”, car c'est son but, il donne un cadre, une organisation, un squelette, une méthode de travail. Tandis que la librairie, elle, n'offre que des fonctionnalités souvent décorrélées les unes des autres.
+
+Attention néanmoins car même si cette définition est valide, le mot framework étant plus attractif et synonyme de sérieux, tous les outils se déclarent comme étant des “framework” même si leur fonctionnement ressemble plutôt à celui d'une bibliothèque.

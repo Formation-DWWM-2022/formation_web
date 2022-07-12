@@ -1,0 +1,10 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: grey;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: aqua;
+    text-align: right;
+}
+
