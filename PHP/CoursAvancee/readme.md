@@ -14,4 +14,8 @@ https://gist.github.com/tomsihap/25b180b4211639dfdef487f509dcb152
 https://gist.github.com/tomsihap/4c3ad916e9c587f6ec03fb9a21226b08
 
 https://github.com/Alexandre-Loretzin/TP_combat
+
+https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/switch/ 
+
+https://www.lephpfacile.com/cours/
 -->
