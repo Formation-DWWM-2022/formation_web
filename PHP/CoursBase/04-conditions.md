@@ -770,6 +770,7 @@ En dehors de cela, on va pouvoir utiliser un switch ou une condition « classiqu
 Cependant, dans certains cas, utiliser un switch peut rendre le code plus clair et légèrement plus rapide dans son exécution.
 
 La syntaxe d’une instruction switch va être différente de celle des conditions vues jusqu’ici. Regardez plutôt l’exemple ci-dessous :
+```php
 <!DOCTYPE html>
 <html>
     <head>
