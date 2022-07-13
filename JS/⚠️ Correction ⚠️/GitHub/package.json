@@ -1,0 +1,17 @@
+{
+  "name": "GitHub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch --load-path=node_modules --style=compressed scss/style.scss css/style.css",
+    "build": "sass --load-path=node_modules --style=compressed scss/style.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}

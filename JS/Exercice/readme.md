@@ -209,18 +209,15 @@ Après avoir rempli l’entrée et l’ajout, la liste suivante doit apparaître
  <li>repo5</li>
 </ul>
 ```
- 
-À partir du résultat de l’exemple précédent, ajoutez un indicateur de chargement à l’écran à la place de la liste uniquement lorsque la requête est en cours :
-
-```js
-<li>Chargement...</li>
-```
 
 Ajoutez également un message d’erreur à l’écran si l’utilisateur n’est pas présent sur Github. 
 
 > Astuce : Si l’utilisateur n’existe pas, la requête tombera sur .catch avec code d’erreur 404.
 
 ---
+
+![](https://i.ytimg.com/vi/D3dLWxkO-9w/maxresdefault.jpg)
+[Solution](../%E2%9A%A0%EF%B8%8F%20Correction%20%E2%9A%A0%EF%B8%8F/Github/index.html)
 
 # Projet - LVL 4
 
