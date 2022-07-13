@@ -630,6 +630,203 @@ Ici, $x >= 0 renvoie true puisque 4 est bien supérieur à 0 et $y >= 0 renvoie 
 
 Dans notre troisième et dernière condition, on inverse le résultat final des comparaisons. Ici, on a toujours $x >= 0 qui renvoie true et $y >= 0 qui renvoie false et donc $x >= 0 AND $y >= 0 qui renvoie false. On inverse ensuite la valeur logique et on obtient finalement true.
 
+## Ecrire des conditions condensées avec les opérateurs ternaire et fusion null
+Dans cette nouvelle leçon, nous allons étudier en détail deux opérateurs de comparaison qu’on a jusqu’à présent laissé volontairement de côté : l’opérateur ternaire ? : et l’opérateur fusion null ??.
+
+Ces deux opérateurs vont nous permettre d’écrire des conditions plus condensées et donc d’alléger nos scripts et de gagner du temps en développement.
+
+## L’opérateur ternaire et les structures conditionnelles ternaires
+
+Les structures conditionnelles ternaires (souvent simplement abrégées “ternaires”) correspondent à une autre façon d’écrire nos conditions en utilisant une syntaxe basée sur l’opérateur ternaire ? : qui est un opérateur de comparaison.
+
+Les ternaires vont utiliser une syntaxe très condensée et nous allons ainsi pouvoir écrire toute une condition sur une ligne et accélérer la vitesse d’exécution de notre code.
+
+Avant de vous montrer les écritures ternaires, je dois vous prévenir : beaucoup de développeurs n’aiment pas les ternaires car elles ont la réputation d’être très peu lisibles et très peu compréhensibles.
+
+Ce reproche est à moitié justifié : d’un côté, on peut vite ne pas comprendre une ternaire si on est un développeur moyen ou si le code qui nous est présenté n’est pas ou mal commenté. De l’autre côté, si vous indentez et commentez bien votre code, vous ne devriez pas avoir de problème à comprendre une structure ternaire.
+
+Il reste cependant fortement recommandé de ne pas imbriquer les structures ternaires les unes dans les autres tout simplement car votre code deviendrait vite illisible et car le comportement de PHP lors de l’utilisation de plus d’un opérateur ternaire dans une seule instruction n’est pas évident.
+
+Les structures ternaires vont se présenter sous la forme suivante : test ? code à exécuter si true : code à exécuter si false.
+
+Illustrons immédiatement cela avec un exemple :
+```php
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cours PHP & MySQL</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="cours.css">
+    </head>
+    
+    <body>
+        <h1>Titre principal</h1>
+        <?php
+            $x = 4; //On affecte la valeur 4 à $x
+            
+            //Ecrire ceci :
+            if($x >= 0){
+                echo '$x stocke un nombre positif<br>';
+            }else{
+                echo '$x stocke un nombre négatif<br>';
+            }
+            
+            //Est equivalent à cela :
+            echo $x >= 0 ? '$x stocke un nb positif' : '$x stocke un nb négatif'; 
+        ?>
+        <p>Un paragraphe</p>
+    </body>
+</html>
+```
+![](https://www.pierre-giraud.com/wp-content/uploads/2019/05/php-operateur-structure-ternaire-resultat.png)
+
+Notez également qu’on va pouvoir abréger encore plus nos ternaires en omettant la partie centrale de l’opérateur ternaire, c’est-à-dire le code entre le point d’interrogation et les deux points.
+
+En utilisant cette écriture, c’est la partie située avant l’opérateur qui sera renvoyée si le test est évalué à true et la partie après l’opérateur sinon.
+```php
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cours PHP & MySQL</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="cours.css">
+    </head>
+    
+    <body>
+        <h1>Titre principal</h1>
+        <?php
+            $x = 4; //On affecte la valeur 4 à $x
+            
+            //Ecrire ceci :
+            if($x >= 0){
+                echo ($x >= 0).'<br>';
+            }else{
+                echo '$x stocke un nombre négatif<br>';
+            }
+            
+            //Est equivalent à cela :
+            echo $x >= 0 ?: '$x stocke un nb négatif'; 
+        ?>
+        <p>Un paragraphe</p>
+    </body>
+</html>
+```
+![](https://www.pierre-giraud.com/wp-content/uploads/2019/05/php-operateur-structure-ternaire-raccourcie-resultat.png)
+
+Ici, il faut bien comprendre que PHP ne va pas renvoyer le contenu de $x mais le résultat de la comparaison $x >= 0, c’est-à-dire true, convertie sous forme d’entier (c’est-à-dire 1).
+
+On est ici obligés d’utiliser un couple de parenthèses dans notre instruction if pour que le point soit bien considéré comme un opérateur de concaténation et pas comme appartenant à 0.
+
+## L’opérateur fusion null
+
+L’opérateur fusion null ?? ressemble dans sa syntaxe et dans son fonctionnement à l’opérateur ternaire.
+
+Cet opérateur utilise la syntaxe suivante : test ?? code à renvoyer si le résultat du test est NULL.
+
+Si l’expression à gauche de l’opérateur vaut NULL, alors l’expression à droite de l’opérateur sera renvoyée. Dans tous les autres cas, c’est l’expression à gauche de l’opérateur qui sera renvoyée.
+
+On va généralement utiliser cet opérateur pour tester si une variable contient quelque chose ou pas et, dans le cas où la variable est vide, lui faire stocker une valeur.
+```php
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cours PHP & MySQL</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="cours.css">
+    </head>
+    
+    <body>
+        <h1>Titre principal</h1>
+        <?php
+            $x = 4; //On affecte la valeur 4 à $x
+            $y = NULL;
+            $z;
+            
+            $resultatx = $x ?? 'NULL';
+            $resultaty = $y ?? 'NULL';
+            $resultatz = $z ?? 'NULL';
+            
+            echo '$x contient ' .$resultatx. '<br>
+                  $y contient ' .$resultaty. '<br>
+                  $z contient ' .$resultatz;
+        ?>
+        <p>Un paragraphe</p>
+    </body>
+</html>
+```
+![](https://www.pierre-giraud.com/wp-content/uploads/2019/05/php-operateur-fusion-null-resultat.png)
+
+Ici, on teste nos variables $x, $y et $z en utilisant l’opérateur fusion null. Si la variable est vide ou contient NULL, la valeur NULL sera renvoyée et stockée dans $resultatx, $resultaty ou $resultatz. Dans le cas contraire, c’est le contenu de la variable qui sera stocké.
+
+On affiche ensuite le contenu de nos variables stockant les résultats suite à l’utilisation de l’opérateur fusion null en utilisant echo.
+
+## L’instruction switch en PHP
+L’instruction switch va nous permettre d’exécuter un code en fonction de la valeur d’une variable. On va pouvoir gérer autant de situations ou de « cas » que l’on souhaite.
+
+En cela, l’instruction switch représente une alternative à l’utilisation d’un if…elseif…else mais qui est plus limitante puisque le switch ne va gérer que l’égalité comme type de comparaison.
+
+En dehors de cela, on va pouvoir utiliser un switch ou une condition « classique » de manière équivalente en PHP. Il n’y a donc pas de réel intérêt à utiliser le switch plutôt qu’un if…elseif…else.
+
+Cependant, dans certains cas, utiliser un switch peut rendre le code plus clair et légèrement plus rapide dans son exécution.
+
+La syntaxe d’une instruction switch va être différente de celle des conditions vues jusqu’ici. Regardez plutôt l’exemple ci-dessous :
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cours PHP & MySQL</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="cours.css">
+    </head>
+    
+    <body>
+        <h1>Titre principal</h1>
+        <?php
+            $x = 2; 
+            
+            switch($x){
+                case 0:
+                    echo '$x stocke la valeur 0';
+                    break;
+                case 1:
+                    echo '$x stocke la valeur 1';
+                    break;
+                case 2:
+                    echo '$x stocke la valeur 2';
+                    break;
+                case 3:
+                    echo '$x stocke la valeur 3';
+                    break;
+                case 4:
+                    echo '$x stocke la valeur 4';
+                    break;
+                default:
+                    echo '$x ne stocke pas de valeur entre 0 et 4';
+            }
+        ?>
+        <p>Un paragraphe</p>
+    </body>
+</html>
+```
+![](https://www.pierre-giraud.com/wp-content/uploads/2019/05/php-structure-controle-switch-resultat.png)
+
+La première chose à noter ici est qu’on doit fournir une variable sur laquelle on va « switcher ».
+
+Ensuite, l’instruction switch va s’articuler autour de case qui sont des cas. Si la valeur de notre variable est égale à celle du case, alors on exécute le code qui est à l’intérieur.
+
+Par exemple, le code contenu dans case 0: va être exécuté si la valeur contenue dans notre variable est 0, le code contenu dans case 1: va être exécuté si la valeur contenue dans notre variable est 1, etc.
+
+Chaque case d’un switch doit se terminer par une instruction break. Cette instruction indique au PHP qu’il doit sortir du switch.
+
+Sans break, le PHP continuerait à tester les différents autres case du switch même si un case égal à la valeur de la variable a été trouvé, ce qui ralentirait inutilement le code et pourrait produire des comportements non voulus.
+
+Enfin, à la fin de chaque switch, il convient d’indiquer une instruction default. Le default est l’équivalent du else des conditions vues précédemment : il sert à gérer tous les autres cas et son code ne sera exécuté que si aucun case ne correspond à la valeur de la variable.
+
+Pas la peine d’utiliser une instruction break au sein de default puisque default sera toujours placée en fin de switch. Si le PHP arrive jusqu’au default, alors il sortira ensuite naturellement du switch puisque celui-ci ne contient plus aucun code après default.
+
+Encore une fois, le switch ne présente pas en PHP de réel intérêt par rapport à l’utilisation d’une condition classique en dehors du fait qu’utiliser un switch peut dans certains cas réduire le temps d’exécution d’un script et que cette structure est parfois plus claire qu’un if…elseif…else contenant des dizaines de elseif.
+
+Pour le moment, je vous conseille tout de même de vous entrainer avec tous les outils que je vous présente. Vous pourrez par la suite décider de ne pas utiliser ceci ou cela, mais pour le moment il est essentiel que vous ayez une vue d’ensemble des fonctionnalités de base proposées par PHP.
+
 ### Exo 2
 
 ### 2a
