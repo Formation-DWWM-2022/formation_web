@@ -23,7 +23,6 @@ async function getRepos(username) {
         const json = await response.json()
         addReposToCard(json)
     } catch (err) {
-        console.log(err);
         createErrorCard('Problem fetching repos')
     }
 }
@@ -64,6 +63,7 @@ function createErrorCard(msg) {
 
 function addReposToCard(repos) {
     const reposEl = document.getElementById('repos')
+    console.log(repos)
 
     repos
         .slice(0, 5)

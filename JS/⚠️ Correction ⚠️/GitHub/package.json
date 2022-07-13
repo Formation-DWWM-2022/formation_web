@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "sass --watch --load-path=node_modules --style=compressed scss/style.scss css/style.css",
-    "build": "sass --load-path=node_modules --style=compressed scss/style.scss css/style.css"
+    "build": "sass --load-path=node_modules --style=compressed scss/style.scss css/style.css",
+    "lint:fix": "eslint --fix --ext .js,.js",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0"
   }
 }
