@@ -835,16 +835,11 @@ Les constantes magiques vont notamment être utiles pour récupérer des adresse
 ### Exo 7
 
 - Faite en sorte que la fonction HelloWorld retourne exactement la valeur Hello World!
-- Créer une fonction from scratch qui s'appelle quiEstLeMeilleurProf(). Elle doit retourner Le prof de programmation Web
 - Créer une fonction from scratch qui s'appelle jeRetourneMonArgument(). Exemple : Arg = "abc" ==> Return abc Arg = 123 ==> Return 123
-- Créer une fonction from scratch qui s'appelle concatenation(). Elle prendra deux arguments de type string. Elle devra retourner la concatenation des deux. Exemple : argument 1 = Antoine Argument 2 = Griezmann; Resultat : AntoineGriezmann
 - Créer une fonction from scratch qui s'appelle concatenationAvecEspace(). Elle prendra deux arguments de type string. Elle devra retourner la concatenation des deux. Exemple : argument 1 = Ngolo Argument 2 = Kante; Resultat : Ngolo Kante
 - Créer une fonction from scratch qui s'appelle somme(). Elle prendra deux arguments de type int. Elle devra retourner la somme des deux. Exemple : argument 1 = 5 Argument 2 = 5 ; Resultat : 10
-- Créer une fonction from scratch qui s'appelle soustraction(). Elle prendra deux arguments de type int. Elle devra retourner la soustraction des deux. Exemple : argument 1 = 5 Argument 2 = 5 ; Resultat : 0
-- Créer une fonction from scratch qui s'appelle multiplication(). Elle prendra deux arguments de type int. Elle devra retourner la multiplication des deux. Exemple : argument 1 = 5 Argument 2 = 5 ; Resultat : 25
 - Créer une fonction from scratch qui s'appelle estIlMajeure(). Elle prendra un argument de type int. Elle devra retourner un boolean. Si age >= 18 elle doit retourner true si age < 18 elle doit retourner false Exemple : age = 5 ==> false age = 34 ==> true
 - Créer une fonction from scratch qui s'appelle plusGrand(). Elle prendra deux arguments de type int. Elle devra retourner le plus grand des deux.
-- Créer une fonction from scratch qui s'appelle plusPetit(). Elle prendra deux arguments de type int. Elle devra retourner le plus petit des deux.
 - Créer une fonction from scratch qui s'appelle plusPetit(). Elle prendra trois arguments de type int. Elle devra retourner le plus petit des trois.
 
 ### Exo 8
@@ -852,7 +847,6 @@ Les constantes magiques vont notamment être utiles pour récupérer des adresse
 - Créer une fonction from scratch qui s'appelle premierElementTableau(). Elle prendra un argument de type array. Elle devra retourner le premier élement du tableau. Si l'array est vide, il faudra retourner null;
 - Créer une fonction from scratch qui s'appelle dernierElementTableau(). Elle prendra un argument de type array. Elle devra retourner le dernier élement du tableau. Si l'array est vide, il faudra retourner null;
 - Créer une fonction from scratch qui s'appelle plusGrand(). Elle prendra un argument de type array. Elle devra retourner le plus grand des élements présent dans l'array. Si l'array est vide, il faudra retourner null;
-- Créer une fonction from scratch qui s'appelle plusPetit(). Elle prendra un argument de type array. Elle devra retourner le plus petit des élements présent dans l'array. Si l'array est vide, il faudra retourner null;
 - Créer une fonction from scratch qui s'appelle verificationPassword(). Elle prendra un argument de type string. Elle devra retourner un boolean qui vaut true si le password fait au moins 8 caractères et false si moins.
 - Créer une fonction from scratch qui s'appelle verificationPassword(). Elle prendra un argument de type string. Elle devra retourner un boolean qui vaut true si le password respecte les règles suivantes :
   - Faire au moins 8 caractères
@@ -888,11 +882,6 @@ Avec des fonctions et des tableaux :
 - indique combien d'éléments sont supérieurs ou égaux à 10,
 - teste si la note 20 est présente ou non,
 - détermine la meilleure note obtenue.
-- On souhaite stocker les notes d'étudiants, vous utiliserez un tableau associatif pour ça :
-  - Albert : 12, 8, 9, 7, 13
-  - Michel : 14, 13, 12, 11, 10
-  - Vincent : 17, 16, 15, 18, 13
-  - Faite une fonction qui prend en paramètre un tableau de note et permet de calculer la moyenne de l'étudiant
 
 ### Exo 10
 
@@ -937,12 +926,6 @@ La fonction retournera un tableau associatif contenant les informations suivante
         valide valeur booléenne TRUE ou FALSE selon que les données dans banque sont valides ou non.
         message un message d'erreur relatif à banque si valide est FALSE.
 
-## Exo 11
-
-1. Créez une fonction qui retourne "Bonjour à tous !". Affichez le résultat avec un `echo`.
-
-2. Créez une fonction qui calcule une vitesse en mètres par secondes (`m/s`) : `vitesse (m/s) = temps (s)/distance (m)` et qui prend en argument des mètres et des secondes. Affichez la valeur dans un echo qui dit : "La durée est de xxx secondes, la distance est de xxx mètres, la vitesse est de xxx m/s".
-
 ## Calculer la différence entre deux brins d'ADN
 
 > Des généticiens ont besoin de calculer les différences entre deux brins d'ADN représentés par exemple comme suit:
@@ -964,25 +947,6 @@ Créez une fonction qui prend en paramètres obligatoires deux `string` et retou
 3. Trouver une fonction qui liste les différences entre deux tableaux
 4. Retourner le nombre de différences entre les deux tableaux
 
-<details>
-  <summary>Spoiler warning</summary>
-
-```php
-function difference(string $a, string $b) {
-
-    if( strlen($a) === strlen($b) ) {
-        $arr1 = str_split($a);
-        $arr2 = str_split($b);
-        $diff = array_diff_assoc($arr1, $arr2);
-        return count($diff);
-    }
-
-    return false;
-}
-```
-
-</details>
-
 ## Changer de l'ADN en ARN
 
 Des scientifiques (toujours les même), ont besoin de changer de l'ADN en ARN de sorte à pouvoir créer un chat-lapin mutant.
@@ -1002,24 +966,6 @@ A -> U
 
 En utilisant la fonction `strtr()`, créez une fonction qui transpose de l'ADN en ARN.
 
-<details>
-  <summary>Spoiler warning</summary>
-
-```php
-function toARN(string $adn): string {
-    $transposition = [
-        'C' => 'G',
-        'G' => 'C', 
-        'T' => 'A', 
-        'A' => 'U'
-    ];
-
-    return strtr($adn, $transposition);
-}
-```
-
-</details>
-
 ## Gérer le nom du robot
 
 Les scientifiques ont réussi, ou presque, leur mutation de chat-lapin. En réalité, ils ont créé un robot simulant leur expérience. Ils ont besoin d'une fonction qui permette de gérer l'identifiant du robot (qui peut ressembler à RXW-4382 ou WSR-3455 par exemple), qui doit changer à chaque reboot de sa carte mère.
@@ -1030,70 +976,6 @@ Les conditions sont les suivantes :
 1. Respecter le format `AAA-0000` (3 lettres, un tiret, 4 chiffres)
 2. Les lettres doivent être au hasard parmi `R, Z, S, X, W, T`
 3. Les chiffres doivent être au nombre 4
-
-<details>
-  <summary>Spoiler warning</summary>
-
-##### Étapes
-
-- Faire un tableau contenant les 6 lettres autorisées
-- Déclarer la variable $nomRobot = '';
-- Choisir au hasard 1 élément du tableau (fonction native PHP à trouver)
-- Faire une boucle pour le faire 3 fois
-- Dans la boucle : concaténer la lettre trouvée à une variable de retour
-- Concaténer un tiret
-- Générer un nombre entre 0 et 9999 et le stocker dans $nomRobotNumber
-- Gérer les cas où $nomRobotNumber ne fait que 3 chiffres :
-  - [0;9] : concaténer '000' à $nomRobot
-  - [10;99] : concaténer '00' à $nomRobot
-  - [100:999] : concaténer '0' à $nomRobot
-- Concatène $nomRobotNumber
-- return $nomRobot
-
-```php
-function robotName() {
-
-    // 1. Faire un tableau contenant les lettres autorisées
-    $validLetters = ["R", "Z", "S", "X", "W", "T"];
-
-    // 2. Déclarer la variable $nomRobot = '';
-    $newName = "";
-
-    // 3. Choisir au hasard 1 élément du tableau (fonction native PHP à trouver)
-    // 4. Faire une boucle pour le faire 3 fois
-    for ($i=0; $i < 3; $i++) {
-        // une lettre aléatoire choisie par ID grâce à rand(0,5)
-        // 5. Dans la boucle : concaténer la lettre trouvée à une variable de retour
-
-        $newName.= $validLetters[rand(0, 5)];
-    }
-
-    // 6. Concaténer un tiret
-    $newName.="-";
-
-    // 7. Générer un nombre entre 0 et 9999 et le stocker dans $nomRobotNumber
-    $robotNumber = rand(0, 9999);
-
-    // 8. Gérer les cas où $nomRobotNumber ne fait que 3 chiffres :
-    if ($robotNumber < 1000 && $robotNumber > 99) { // [0;9] : concaténer '000' à $nomRobot
-        $newName .= "0";
-    }
-    elseif ($robotNumber < 100 && $robotNumber > 9) { // [10;99] : concaténer '00' à $nomRobot
-        $newName .= "00";
-    }
-    elseif ($robotNumber < 10 ) { // [100:999] : concaténer '0' à $nomRobot
-        $newName .= "000";
-    };
-
-    // 9. Concatène $nomRobotNumber
-    $newName .= $robotNumber;
-    
-    // 10. return $nomRobot
-    return $newName;
-}
-```
-
-</details>
 
 ## Endiguer la guerre des clones
 
@@ -1116,90 +998,3 @@ var_dump($a);   // a = 0
 maFonction();   // Ajout de 1 à la globale a
 var_dump($a);   // a = 1
 ```
-
-<details>
-  <summary>Spoiler warning</summary>
-
-```php
-// On prépare un tableau vide qui contiendra la liste des noms de robots édités
-$namesList = [];
-
-function robotName() {
-
-    // On utilise la variable $namesList au sein de la fonction pour la remplir
-    // à chaque appel de la fonction.
-    // Comme elle vient du scope (la portée) global, on l'appelle avec global.
-    // Ainsi, quand on la modifie DANS la fonction, elle est aussi modifiée en
-    // dehors de la fonction.
-    global $namesList;
-
-    $validLetters = ["R", "Z", "S", "X", "W", "T"];
-    $newName = "";
-
-    for ($i=0; $i < 3; $i++) {
-        $newName.= $validLetters[rand(0, 5)];
-    }
-
-    $newName.="-";
-    $robotNumber = rand(0, 9999);
-
-    if ($robotNumber < 1000 && $robotNumber > 99) {
-        $newName .= "0";
-    }
-    elseif ($robotNumber < 100 && $robotNumber > 9) {
-        $newName .= "00";
-    }
-    elseif ($robotNumber < 10 ) {
-        $newName .= "000";
-    };
-
-    $newName .= $robotNumber;
-
-    // On teste si le nouveau nom n'existe pas dans le tableau :
-    if (!in_array($newName, $namesList)) {
-        // S'il n'existe pas, on l'ajoute au tableau et on retourne le nouveau nom
-        $namesList[] = $newName; // Autre écriture: array_push($namesList, $newName);
-        return $newName;
-    }
-
-    // Sinon, on emmet une erreur :
-    throw new Error('Vous êtes sur le point de cloner ce robot !');
-}
-```
-
-#### Solution 2 (passage de variable par référence)
-
-```php
-$robotNames = [];
-
-// Dans les arguments de la fonction, on peut préciser un passage par référence avec & : cela indique que la variable du scope supérieur passée en paramètres de la fonction, si elle est modifiée par la fonction appelée, restera modifiée dans son scope :
-
-function nameRobot(&$robotNames)
-{
-    $name = "";
-    $letters = ["R", "Z", "S", "X", "W", "T"];
-    while (strlen($name) < 3) {
-        $name .= $letters[rand(0, count($letters) - 1)];
-    }
-    $name .= "-";
-    while (strlen($name) < 8) {
-        $name .= strval(rand(0, 9));
-    }
-    
-    if (!in_array($name, $robotNames)) {
-    
-        // On ajoute à $robotNames le nouveau nom
-        array_push($robotNames, $name);
-        var_dump($robotNames);
-        return true;
-    }
-    // Si il y a une correspondance (le nom existe), on relance la fonction elle-même
-    nameRobot($robotNames);
-}
-
-var_dump($robotNames); // tableau vide
-nameRobot($robotNames); // on lance la fonction avec $robotNames en référence
-var_dump($robotNames); // tableau contenant dorénavant 1 élément !
-```
-
-</details>

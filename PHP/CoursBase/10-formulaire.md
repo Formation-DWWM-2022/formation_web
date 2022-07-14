@@ -307,6 +307,7 @@ Ici, notre if teste :
 3. ET que notre variable $prenom ait bien la forme attendue avec le fonction preg_match() à laquelle on passe une regex ;
 4. ET que notre variable $mail ne soit pas vide ;
 5. ET que notre variable $mail ait bien la forme attendue avec le fonction filter_var() et le filtre FILTER_VALIDATE_EMAIL.
+
 ### Exo 13
 
 - Demander à l’utilisateur les coordonnées de deux points : $x1, $x2, $y1 et $y2.
