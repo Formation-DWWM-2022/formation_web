@@ -1,4 +1,7 @@
 # PHP
+<!--
+https://github.com/TyTy-cf/hb-php/tree/main/heros
+-->
 
 # Dates [11j]
 
@@ -100,19 +103,35 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [Envoyer des emails](./CoursBase/more-send-email.md)
 
 ---
+- [Introduction à la programmation orientée objet PHP : classes, instances et objets]()
+- [Statique]()
+- [L'héritage]()
+- [TP : Livre d'or]()
+- [Utiliser une API avec cURL]()
+- [Les Exceptions]()
+- [PHPDoc]()
+- [PDO]()
+- [Les espaces de noms]()
+- [L'autoloader]()
+- [Composer](./composer.md)
+- [Les fonctions anonymes]()
+- [Le router]()
+- [ob_start]()
+---
 
 - [Framework PHP](./frameworkPHP.md)
-- [Composer](./composer.md)
+
 
 ---
 
-# Notre guide de style PHP -  Qu'est ce que le PSR ? 
+# Notre guide de style PHP -  Qu'est ce que le PSR ?
+
 <https://grafikart.fr/tutoriels/psr-standards-903>
 
 PSR est l’abréviation de PHP Standards Recommandation. Il s’agit d’un regroupement de standards et de conventions. L’objectif principal est de réunir les différentes méthodes de programmation présentes à travers les frameworks et CMS existants en PHP (Symfony, Laravel, PHP Natif, …). Ces conventions sont gérées par un groupe nommé PHP-Fig : ils créent, modifient ou suppriment les standards permettant de générer une uniformité parmi les différents projets réalisés en PHP.
 
 Chaque PSR est associé à un numéro et représente un dépôt contenant une liste de conventions ou diverses interfaces permettant d’améliorer la coopération entre Développeurs PHP.Ces interfaces sont fonctionnelles dans leur état actuel mais restent néanmoins personnalisables selon le besoin.Il existe une liste assez conséquente de PSR dont certains encore en “draft” (en attente de validation ou de développement). Parmi ceux-ci, la partie qui nous intéresse est la liste “active”. Il s’agit de la liste validée par PHP-Fig et qui doit être mise en place durant la programmation d’un projet en PHP.Cette liste est en constante évolution et sera amenée à changer avec le temps.
 
-- [eng] https://www.php-fig.org/psr/
-- [eng] https://code.tutsplus.com/tutorials/psr-huh--net-29314
-- [fr] https://eilgin.github.io/php-the-right-way/
+- [eng] <https://www.php-fig.org/psr/>
+- [eng] <https://code.tutsplus.com/tutorials/psr-huh--net-29314>
+- [fr] <https://eilgin.github.io/php-the-right-way/>
