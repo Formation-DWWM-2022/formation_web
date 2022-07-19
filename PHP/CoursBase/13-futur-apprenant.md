@@ -5,7 +5,7 @@
 > Le projet doit être proprement codé : utilisez les balises HTML et attributs qui conviennent ! (un `type=email` pour un input d'email par exemple)
 
 Vous allez créer une page pour enregistrer un futur apprenant.
-On utilisera la liste de pays en JSON suivante : <https://gist.githubusercontent.com/keeguon/2310008/raw/bdc2ce1c1e3f28f9cab5b4393c7549f38361be4e/countries.json>
+On utilisera la liste de pays en JSON suivante : [countries.json](./countries.json)
 
 On devra pouvoir saisir les informations suivantes :
 
