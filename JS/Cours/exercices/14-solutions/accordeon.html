@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercices</title>
+    <style>
+        body {
+            background: rgb(223, 223, 223);
+            height: 100vh;
+            color: rgb(21, 21, 21);
+        }
+
+        input {
+            height: 2em;
+            width: 300px;
+            border-radius: 5px;
+            border: none;
+            padding-inline: 0.5em;
+            text-transform: lowercase;
+        }
+
+        button {
+            color: rgb(223, 223, 223);
+            background: rgb(44, 44, 44);
+            border-radius: 5px;
+            height: 3em;
+        }
+
+        .container {
+            margin: auto;
+            width: 50%;
+        }
+
+        img {
+            width: 500px;
+            height: 250px;
+            object-fit: cover;
+            margin: 0.5em;
+        }
+
+        .text {
+            display: none;
+        }
+
+        .show .text {
+            display: block;
+        }
+
+        h1 {
+            background: rgb(134, 26, 85);
+            color: #fff;
+            text-transform: uppercase;
+            padding-inline: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="acc1">
+        <div>
+            <h1 class="titre">Les bisounours</h1>
+            <p class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+                maiores repellat explicabo facere error cupiditate quos, laboriosam
+                exercitationem accusamus repellendus beatae? Asperiores natus sit quo
+                necessitatibus consequatur nihil, optio consequuntur!
+            </p>
+        </div>
+
+        <div>
+            <h1 class="titre">Les arc-en-ciel</h1>
+            <p class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+                maiores repellat explicabo facere error cupiditate quos, laboriosam
+                exercitationem accusamus repellendus beatae? Asperiores natus sit quo
+                necessitatibus consequatur nihil, optio consequuntur!
+            </p>
+        </div>
+
+        <div>
+            <h1 class="titre">Les sucreries</h1>
+            <p class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+                maiores repellat explicabo facere error cupiditate quos, laboriosam
+                exercitationem accusamus repellendus beatae? Asperiores natus sit quo
+                necessitatibus consequatur nihil, optio consequuntur!
+            </p>
+        </div>
+    </div>
+    <hr />
+    <div class="container" id="acc2">
+        <div>
+            <h1 class="titre">Les bisounours</h1>
+            <p class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+                maiores repellat explicabo facere error cupiditate quos, laboriosam
+                exercitationem accusamus repellendus beatae? Asperiores natus sit quo
+                necessitatibus consequatur nihil, optio consequuntur!
+            </p>
+        </div>
+
+        <div>
+            <h1 class="titre">Les arc-en-ciel</h1>
+            <p class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+                maiores repellat explicabo facere error cupiditate quos, laboriosam
+                exercitationem accusamus repellendus beatae? Asperiores natus sit quo
+                necessitatibus consequatur nihil, optio consequuntur!
+            </p>
+        </div>
+
+        <div>
+            <h1 class="titre">Les sucreries</h1>
+            <p class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+                maiores repellat explicabo facere error cupiditate quos, laboriosam
+                exercitationem accusamus repellendus beatae? Asperiores natus sit quo
+                necessitatibus consequatur nihil, optio consequuntur!
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // let titres = document.getElementsByClassName("titre");
+
+        // for (let titre of titres) {
+        //   titre.addEventListener("click", function (e) {
+        //     let shows = document.getElementsByClassName("show");
+        //     for (let show of shows) {
+        //       if (e.currentTarget.parentNode != show) {
+        //         show.classList.remove("show");
+        //       }
+        //     }
+
+        //     titre.parentNode.classList.toggle("show");
+        //   });
+        // }
+
+
+        class Accordeon {
+            constructor(conteneur) {
+                this.conteneur = conteneur;
+                this.titres = conteneur.getElementsByClassName("titre");
+                this.texts = conteneur.getElementsByClassName("text");
+                this.addListener();
+            }
+
+            addListener() {
+                for (let i = 0; i < this.titres.length; i++) {
+                    this.titres[i].addEventListener("click", (e) => {
+                        this.afficher(i, e);
+                    });
+                }
+            }
+
+            cacherShow(e) {
+                let shows = this.conteneur.getElementsByClassName("show");
+                for (let show of shows) {
+                    if (e.currentTarget.parentNode != show) {
+                        show.classList.remove("show");
+                    }
+                }
+            }
+
+            afficherClick(i) {
+                this.titres[i].parentNode.classList.toggle("show");
+            }
+
+            afficher(i, e) {
+                this.cacherShow(e);
+                this.afficherClick(i);
+            }
+        }
+
+        let acc1 = new Accordeon(document.getElementById("acc1"));
+        acc1.afficher(1, null);
+        let acc2 = new Accordeon(document.getElementById("acc2"));
+    </script>
+</body>
+
+</html>

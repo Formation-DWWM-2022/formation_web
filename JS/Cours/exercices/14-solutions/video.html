@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .col-12{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="car1">
+        <div class="col-12">
+            <iframe id="carousel" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="car2">
+        <div class="col-12">
+            <iframe id="carousel" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script>
+        class Carousel {
+            constructor(
+                container,
+                videos = [
+                    "https://www.youtube.com/embed/NMBlDFWQito",
+                    "https://www.youtube.com/embed/WX9miGKXyrw",
+                    "https://www.youtube.com/embed/cpHS0uIuA_8",
+                ]
+            ) {
+                this.container = container;
+                this.buttons = container.getElementsByTagName("button");
+                this.carousel = container.querySelector("#carousel");
+                this.videos = videos;
+            }
+
+            runVideo() {
+                for (let i = 0; i < this.buttons.length; i++) {
+                    this.buttons[i].addEventListener("click", () => {
+                        this.afficher(i);
+                    });
+                }
+                this.afficher(0);
+            }
+
+            afficher(i) {
+                this.carousel.src = this._videos[i];
+            }
+
+            get videos() {
+                return this._video;
+            }
+
+            set videos(array) {
+                this._videos = [];
+                for (var url of array) {
+                    let element = document.createElement("button");
+                    element.innerHTML = "Video " + (this.buttons.length + 1);
+                    this._videos.push(url);
+                    this.container.appendChild(element);
+                    this.buttons = this.container.getElementsByTagName("button");
+                }
+            }
+
+            addVideos(url) {
+                let element = document.createElement("button");
+                element.innerHTML = "Video " + (this.buttons.length + 1);
+                this._videos.push(url);
+                this.container.appendChild(element);
+                this.buttons = this.container.getElementsByTagName("button");
+            }
+        }
+
+        let car1 = new Carousel(document.getElementById("car1"), ["https://www.youtube.com/embed/WX9miGKXyrw"]);
+        car1.addVideos("https://www.youtube.com/embed/NMBlDFWQito");
+        car1.runVideo();
+
+        let car2 = new Carousel(document.getElementById("car2"));
+        car2.runVideo();
+    </script>
+</body>
+
+</html>

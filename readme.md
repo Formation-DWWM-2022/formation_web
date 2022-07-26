@@ -28,8 +28,9 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
   - **Formation DWWM - IFPA**
     - juillet 2022 à en cours
 
-# PHP Storm & Jetbrains en centre de formation:
-- https://www.jetbrains.com/shop/eform/students
+# PHP Storm & Jetbrains en centre de formation
+
+- <https://www.jetbrains.com/shop/eform/students>
 - onglet > document officiel
 - vous mettez votre certificat de formation d'entrée
 
@@ -75,85 +76,85 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 - [✔️🚧 RAN](./RAN/readme.md)
 
-    ### Base de connaissance
+### Base de connaissance
 
-    - [✔️ Histoire des langages](./RAN/HistoireLangagesProgrammation/TP.md)
+- [✔️ Histoire des langages](./RAN/HistoireLangagesProgrammation/TP.md)
 
-    - [✔️ Binaire](./RAN/Binaire/readme.md)
+- [✔️ Binaire](./RAN/Binaire/readme.md)
 
-    - [✔️ GNU Linux](./RAN/GNU_Linux/readme.md)
+- [✔️ GNU Linux](./RAN/GNU_Linux/readme.md)
 
-    - [❌ Complexite Recherche Tri en Algorithmie](./RAN/Complexite&Recherche&Tri_Algorithmique/readme.md) 
+- [❌ Complexite Recherche Tri en Algorithmie](./RAN/Complexite&Recherche&Tri_Algorithmique/readme.md)
 
-    - [❌ Modeles de conception](./RAN/ModelesConception/readme.md) 
+- [❌ Modeles de conception](./RAN/ModelesConception/readme.md)
 
-    - [✔️ Paradigmes de programmation](./RAN/ParadigmesProgrammation/readme.md)
+- [✔️ Paradigmes de programmation](./RAN/ParadigmesProgrammation/readme.md)
 
       -[✔️ Programmation orientée objet](./RAN/ParadigmesProgrammation/POO.md)
 
-    - [✔️ Framework](./RAN/Framework/readme.md) 
+- [✔️ Framework](./RAN/Framework/readme.md)
 
-    - [❌ Test development](./RAN/TestDevelopment/readme.md)
+- [❌ Test development](./RAN/TestDevelopment/readme.md)
 
-    - [❌ Documentation technique](./RAN/DocumentationTechnique/readme.md)
+- [❌ Documentation technique](./RAN/DocumentationTechnique/readme.md)
 
-    ### Optimisation pour les moteurs de recherche
+### Optimisation pour les moteurs de recherche
 
-    - [❌ SEO avancée et réferencement](./RAN/SEO/readme.md)
+- [❌ SEO avancée et réferencement](./RAN/SEO/readme.md)
 
-    ### Logicielle orientée vers les applications réseau
+### Logicielle orientée vers les applications réseau
 
-    - [❌ TCP / IP / OSI]()
+- [❌ TCP / IP / OSI]()
 
-    - [✔️ HTTP](./RAN/HTTP/readme.md)
+- [✔️ HTTP](./RAN/HTTP/readme.md)
 
-    - [✔️ API](./RAN/API/readme.md)
+- [✔️ API](./RAN/API/readme.md)
 
-    - [✔️ JSON](./RAN/JSON/readme.md)
+- [✔️ JSON](./RAN/JSON/readme.md)
 
-    - [✔️ Node JS](./RAN/Node.js/readme.md)
+- [✔️ Node JS](./RAN/Node.js/readme.md)
 
-    - [✔️🚧 La sécurité d'un site web](./RAN/SecuriteWebSite/readme.md)
+- [✔️🚧 La sécurité d'un site web](./RAN/SecuriteWebSite/readme.md)
 
-    - [❌ Cookies](./RAN/Cookies/readme.md)
+- [❌ Cookies](./RAN/Cookies/readme.md)
 
-    ### Suite logicielle pour les développeurs
+### Suite logicielle pour les développeurs
 
-    - [✔️ Powershell](./RAN/powershell.md)
+- [✔️ Powershell](./RAN/powershell.md)
 
-    - [✔️ VSCode](./RAN/vscode.md)
+- [✔️ VSCode](./RAN/vscode.md)
 
-    - [✔️ Windows](./RAN/windows.md)
+- [✔️ Windows](./RAN/windows.md)
 
-    - [❌ Apache](./RAN/Apache/readme.md)
+- [❌ Apache](./RAN/Apache/readme.md)
 
-    - [❌ Nginx]()
+- [❌ Nginx]()
 
-    - [❌ Docker]()
+- [❌ Docker]()
 
-    - [❌ Hébergeur / Domaine]()
+- [❌ Hébergeur / Domaine]()
 
-    ### Métier : quotidien, salaire, parcours
+### Métier : quotidien, salaire, parcours
 
-    - [❌ Linkedin]()
+- [❌ Linkedin]()
 
-    - [✔️ DevOps](./RAN/DevOps/readme.md)
+- [✔️ DevOps](./RAN/DevOps/readme.md)
 
-    - [❌ Indépendant]()
+- [❌ Indépendant]()
 
-    - [❌ Jeux vidéo / Animation [métier]]()
+- [❌ Jeux vidéo / Animation [métier]]()
 
-    ### Web V3
+### Web V3
 
-    - [✔️ WEBversion](./RAN/WEBversion/readme.md)
+- [✔️ WEBversion](./RAN/WEBversion/readme.md)
 
-    - [❌ IA]()
+- [❌ IA]()
 
-    - [❌ NFT]()
+- [❌ NFT]()
 
-    - [❌ Cryptomonnaie]()
+- [❌ Cryptomonnaie]()
 
-    - [❌ IOT]()
+- [❌ IOT]()
 
 - [✔️🚧 Projet Final](./projetfinal.md)
 
@@ -169,6 +170,12 @@ DevDocs combines multiple API documentations in a fast, organized, and searchabl
 
 <https://devdocs.io/>
 
+# Rico's cheatsheets
+
+Hey! I'm @rstacruz and this is a modest collection of cheatsheets I've written.
+
+<https://devhints.io/>
+
 # [Grafikart](https://grafikart.fr)
 
 # [Anydesk](https://anydesk.com/fr/downloads/thank-you?dv=win_exe)
@@ -181,42 +188,48 @@ DevDocs combines multiple API documentations in a fast, organized, and searchabl
 - Jesuisundev : <https://www.jesuisundev.com/argent-developpeur/>
 
 ---
+
 ## Le 11 juillet 2022 : [Salaire brut annuel - junior - en france]
+
 - Dev Front-end : 32K€ (720 offre sur apec)
   - avec top 10% > 38K€
-  - avec top 30% > 35K€ 
+  - avec top 30% > 35K€
 - Dev Back-end : 32K€ (741 offre sur apec)
   - avec top 10% > 40K€
-  - avec top 30% > 35K€ 
+  - avec top 30% > 35K€
 - Dev Full-stack : 33K€ (607 offre sur apec)
   - avec top 10% > 40K€
-  - avec top 30% > 35K€ 
+  - avec top 30% > 35K€
+
 ---
+
 - Dev PHP : 30K€ (819 offre sur apec)
   - avec top 10% > 37.5K€
-  - avec top 30% > 33K€ 
+  - avec top 30% > 33K€
 - Dev Laravel : 30K€ (109 offre sur apec)
   - avec top 10% > 35K€
-  - avec top 30% > 32K€ 
+  - avec top 30% > 32K€
 - Dev Symfony : 30K€ (468 offre sur apec)
   - avec top 10% > 36.5K€
-  - avec top 30% > 32K€ 
+  - avec top 30% > 32K€
 - Dev Wordpress : 32K€ (65 offre sur apec)
   - avec top 10% > 40K€
-  - avec top 30% > 35K€ 
+  - avec top 30% > 35K€
+
 ---
+
 - Dev JS : 32K€ (1215 offre sur apec)
   - avec top 10% > 40K€
-  - avec top 30% > 35K€ 
+  - avec top 30% > 35K€
 - Dev Angular : 32K€ (1211 offre sur apec)
   - avec top 10% > 40K€
-  - avec top 30% > 35K€ 
+  - avec top 30% > 35K€
 - Dev React : 32K€ (802 offre sur apec)
   - avec top 10% > 40K€
-  - avec top 30% > 35K€ 
+  - avec top 30% > 35K€
 - Dev VueJS : 32K€ (234 offre sur apec)
   - avec top 10% > 38K€
-  - avec top 30% > 35K€ 
+  - avec top 30% > 35K€
 
 > 32000€ brut annuel = 2080€ net mensuel
 
@@ -230,3 +243,5 @@ DevDocs combines multiple API documentations in a fast, organized, and searchabl
 
 ![](https://nypost.com/wp-content/uploads/sites/2/2022/06/internet-explorer-grave-01.jpg?quality=75&strip=all)
 
+# Youtube Channel
+<https://www.youtube.com/c/Freecodecamp/videos>

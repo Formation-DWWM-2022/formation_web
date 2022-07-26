@@ -265,6 +265,8 @@ $a = [
 6. Trouver la somme de cet tableau de nombres : `$a = [ 0, 1, 2, 3, 4, 5, 6 ];`.
 
 ```php
+$a = [ 0, 1, 2, 3, 4, 5, 6 ];
+echo array_sum($a)
 ```
 
 7. Créez un array $films contenant les données suivantes :

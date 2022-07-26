@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <button>Next 1</button>
+    <div class="image-group">
+    </div>
+    <button>Next 2</button>
+    <div class="image-group">
+    </div>
+
+    <script>
+        class Galerie {
+            constructor(conteneur, urlImages) {
+                this.conteneur = conteneur;
+                this.urlImages = urlImages;
+                this.index = 0;
+                this.images = [];
+            }
+
+            ajouterImage(url) {
+                this.urlImages.push(url);
+            }
+
+            regenerer() {
+                this.conteneur.innerHTML = '';
+                for (let i = 0; i < this.urlImages.length; i++) {
+                    let img = document.createElement('img');
+                    img.classList.add("hidden");
+                    img.src = this.urlImages[i];
+                    this.conteneur.appendChild(img);
+
+                }
+                this.images = this.conteneur.getElementsByTagName('img');
+                this.show();
+            }
+
+            show() {
+                this.conteneur.getElementsByTagName('img')[this.index].classList.toggle('hidden')
+            }
+
+            button(button) {
+                button.addEventListener('click', () => {
+                    this.show();
+                    if (this.index < this.images.length - 1) {
+                        this.index++
+                    } else {
+                        this.index = 0;
+                    }
+                    this.show();
+                })
+            }
+        }
+
+        var maGalerie1 = new Galerie(document.getElementsByClassName('image-group')[0], ['https://media.giphy.com/media/sIXz0dfbPKg2xYy33S/giphy.gif']);
+        maGalerie1.button(document.getElementsByTagName('button')[0]);
+        maGalerie1.regenerer(); // générer et afficher la galerie fraîchement créée
+        maGalerie1.ajouterImage('https://media.giphy.com/media/l41JWw65TcBGjPpRK/giphy.gif');
+        maGalerie1.regenerer();
+
+
+        var maGalerie2 = new Galerie(document.getElementsByClassName('image-group')[1], ['https://media.giphy.com/media/XDyV84WineMGuHmWUy/giphy-downsized-large.gif', 'https://media.giphy.com/media/l41JWw65TcBGjPpRK/giphy.gif']);
+        maGalerie2.button(document.getElementsByTagName('button')[1]);
+        maGalerie2.regenerer(); // générer et afficher la galerie fraîchement créée
+        maGalerie2.ajouterImage('https://media.giphy.com/media/sIXz0dfbPKg2xYy33S/giphy.gif');
+        maGalerie2.regenerer();
+    </script>
+</body>
+
+</html>
