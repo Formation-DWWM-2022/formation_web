@@ -1,7 +1,7 @@
 # Qu'est-ce qu'un diagramme de classes dans le langage UML ?
 
 - Vidéo d'explication : <https://youtu.be/UI6lqHOVHic>
-- Vidéo d'explication : <https://youtu.be/8VMMu-vcF60> et https://youtu.be/nRqTXoiNUHk et https://youtu.be/a3DWVNWg2Oo et https://youtu.be/RxkarRkq10o
+- Vidéo d'explication : <https://youtu.be/8VMMu-vcF60> et <https://youtu.be/nRqTXoiNUHk> et <https://youtu.be/a3DWVNWg2Oo> et <https://youtu.be/RxkarRkq10o>
 
 Le langage de modélisation unifié (UML) peut vous aider à modéliser des systèmes de plusieurs façons. Le diagramme de classes est l'un des types les plus populaires en langage UML. Très utilisé par les ingénieurs logiciel pour documenter l'architecture des logiciels, les diagrammes de classes sont un type de diagramme de structure, car ils décrivent ce qui doit être présent dans le système modélisé.
 
@@ -139,14 +139,17 @@ la même manière lorsque la personne décède.
 Pour chacun des énoncés suivants, donnez un diagramme des classes :
 
 1. Tout écrivain a écrit au moins une œuvre
-2. Les personnes peuvent être associées à des universités en tant qu'étudiants aussi bien qu'en
+2. Une librairie vend des livres, caractérisés par leur auteur et leur nombre de pages ; certains
+livres possèdent également d’autres caractéristiques : une fourchette des âges pour les livres
+pour enfants, et la discipline et le niveau pour les livres scolaires.
+3. Les personnes peuvent être associées à des universités en tant qu'étudiants aussi bien qu'en
 tant que professeurs.
-3. Un rectangle a deux sommets qui sont des points. On construit un rectangle à partir des
+4. Un rectangle a deux sommets qui sont des points. On construit un rectangle à partir des
 coordonnées de deux points. Il est possible de calculer sa surface et son périmètre, ou encore
 de le translater.
-4. Les cinémas sont composés de plusieurs salles. Les films sont projetés dans des salles. Les
+5. Les cinémas sont composés de plusieurs salles. Les films sont projetés dans des salles. Les
 projections correspondantes ont lieu à chacune à une heure déterminée.
-5. Tous les jours, le facteur distribue des recommandés dans une zone géographique qui lui est
+6. Tous les jours, le facteur distribue des recommandés dans une zone géographique qui lui est
 affectée. Les habitants sont aussi associés à une zone géographique. Les recommandés sont
 de deux sortes : lettres ou colis. Comme plusieurs facteurs peuvent intervenir sur la même
 zone, on souhaite, pour chaque recommandé, le facteur qui l'a distribué, en plus du
@@ -180,7 +183,30 @@ Quel est le défaut de cette classe ? Proposez une autre représentation à l’
 http://niedercorn.free.fr/iris/iris1/uml/umltd5.pdf
 -->
 
-# Exercice finale
+# Exercice 5 : MonAuto
+
+Une réparation est toujours relative à un véhicule. La facture est envoyée au propriétaire (qui est toujours un
+client) du véhicule ou à une compagnie d'assurance en cas d'accident; une compagnie d'assurance est un client
+pour le garage. En cas de réparation en garantie, aucune facture n'est envoyée.
+
+Le modèle doit contenir les renseignements qui permettent de faire la facture, selon les règles suivantes :
+Un véhicule vendu par MonAuto bénéficie d'une année de garantie à partir de la date de livraison.
+
+Pour bénéficier d'une réparation sous garantie, le client doit amener son véhicule à l'atelier avant l'expiration du
+délai de garantie. En fin de période de garantie, l'atelier peut être surchargé et le Chef d'atelier ne pourra pas
+toujours effectuer la réparation avant la dateF d'expiration. Pour résoudre ce dilemme et éviter toute réclamation,
+lorsqu'un client prend un rendez-vous pour effectuer une réparation en garantie le Chef d'atelier prépare une
+fiche de réparation "garantie" et y indique la date de la demande de rendez-vous du client, en plus des 2 dates
+de réception et restitution du véhicule pour la réparation; cette date de demande de rendez-vous sera utilisée
+comme critère de réparation en garantie.
+
+> Quelques précisions :
+
+Nous ne gérons pas l'historique des changements de propriétaires des voitures; chaque fois qu'une voiture
+change de propriétaire, un nouveau véhicule sera créé avec indication de la nouvelle immatriculation, du
+nouveau propriétaire et de la date de livraison s'il s'agit d'une vente de MonAuto
+
+# Exercice 6 : Système d'informations d'une agence immobilière
 
 En tant qu'intermédiaire entre des propriétaires de biens immobiliers et d'éventuels locataires ou acheteur, une
 agence immobilière propose les différents biens suivants:

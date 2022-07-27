@@ -168,8 +168,8 @@ digramme de cas d’utilisation, sachant que le système fonctionne de la façon
 
 - Le distributeur délivre de l’argent à tout porteur de carte (carte Visa ou carte de la banque)
 - Pour les clients de la banque, il permet :
- La consultation du solde du compte
- Le dépôt d’argent (chèque ou numéraire)
+    - La consultation du solde du compte
+    - Le dépôt d’argent (chèque ou numéraire)
 - Toute transaction est sécurisée et nécessite par conséquent une authentification
 - Dans le cas où une carte est avalée par le distributeur, un opérateur de maintenance se
 charge de la récupérer. C’est la même personne qui collecte également les dépôts d’argent et
