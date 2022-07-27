@@ -26,6 +26,9 @@ L'objectif de ce cours est de transmettre les compétences nécessaires pour con
 
 Il débutera par des généralités sur les bases de données : intérêt, origine, état du marché actuel; en s'attardant sur les notions de base de ces systèmes. Le cours s'attardera ensuite sur la modélisation d'une base de données. Le formalisme UML sera introduit et utilisé pour aider à établir des modèles de bases de données. Cette partie fera appel au bon sens et l'expérience permettra à l'apprenant d'éviter certains pièges de modélisation. Une dernière partie montrera enfin comment utiliser certains types de bases de données en utilisant le langage informatique SQL. Avec cette partie, le support de cours couvre toutes les étapes du cycle de vie d'une base de données : modélisation, implémentation, utilisation.
 
+- [PIKOTARO - PPAP (Pen Pineapple Apple Pen)](https://youtu.be/Ct6BUPvE2sM)
+- [Entretien d’embauche SQL : 50 Questions à préparer](https://analyticsinsights.io/sql-50-questions-2020/)
+
 # Evaluation
 L'évaluation de ce cours comportera trois points :
 - des questions portant sur les aspects théoriques des bases de données introduits dans le cours;
@@ -38,7 +41,7 @@ L'évaluation de ce cours comportera trois points :
 - Etre capable de modéliser un problème en utilisant le formalisme UML
 - Savoir ce qu'est le language SQL et à quoi il sert
 - Pouvoir écrire et exécuter des requêtes SQL simples
- 
+
 # Sommaire 
 ## Introduction
 - Qu'est ce qu'une base de données ?
