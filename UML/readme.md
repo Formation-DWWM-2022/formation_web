@@ -9,8 +9,10 @@ UML Diagrams Full Course (Unified Modeling Language) : <https://youtu.be/WnMQ8Hl
 
 - Learn UML2.* in simple terms :  <https://github.com/imalitavakoli/learn-uml2>
 - laurent-audibert.developpez.com : <https://laurent-audibert.developpez.com/Cours-UML/>
-- [Langage UML PDF](.\cours\3-UML.pdf)
-- Les cahiers du programmeur - UML 2 - Modéliser une application web par Pascal Roques : <https://jsilab.ch/cfpa/ID/ref/UML/UML_2_ModeliserUneApplicationWeb.pdf>
+- [Memento UML 2.5](./lecture/MémentoUML2.5.pdf)
+- [Langage UML PDF](./lecture/3-UML.pdf)
+- [Les cahiers du programmeur - UML 2 - Modéliser une application web par Pascal Roques](./lecture/UML_2_ModeliserUneApplicationWeb.pdf)
+- [UML 2 par la pratique](./lecture/Roques06.pdf)
 
 # StarUML
 

@@ -120,3 +120,14 @@ L'UML utilise des éléments et les associe de différentes manières pour forme
 - 🟫 **Diagramme de temps** À l'instar d'un diagramme de séquence, le comportement des objets est représenté sur un laps de temps donné. S'il y a un seul objet, le schéma est simple. S'il y a plus d'un objet, les interactions des objets sont présentées sur ce laps de temps précis.
 - (1) 🟪 **Diagramme de cas d'utilisation** Il représente une fonctionnalité spécifique dans un système et est créé pour illustrer comment différentes fonctionnalités sont interconnectées et montrer leurs contrôleurs (ou acteurs) internes et externes.
 
+---
+
+![](../img/resume_diagram_1.png)
+
+![](../img/resume_diagram_2.png)
+
+![](../img/resume_diagram_3.png)
+
+![](../img/resume_diagram_4.png)
+
+![](../img/schema_complet_processus_modélisation_web.png)
