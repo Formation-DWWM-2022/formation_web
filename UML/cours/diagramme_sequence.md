@@ -81,7 +81,7 @@ https://lipn.univ-paris13.fr/~gerard/docs/corrections/uml-corr04.pdf
 Question : Quand un courrier électronique est envoyé par l'émetteur, celui-ci ne veut pas attendre que
 destinataire l'ait reçu et il n'y a pas d'intermédiaire. Peut-on utiliser un message synchrone ? Complétez la figure ci dessous par des fièches représentant des messages.
 
-![](..\img\exericetypesmessages.png)
+![](../img/exericetypesmessages.png)
 
 Question : Est-ce que transmettre est une opération ou un signal ? Dans tous les cas, donnez des
 éléments d'un diagramme de classe cohérent avec le diagramme de séquence.
@@ -90,7 +90,7 @@ Question : Un serveur de messagerie sert d'intermédiaire entre l'émetteur et l
 Le serveur est toujours en fonction. Est-ce qu'on peut utiliser des messages synchrones pour l'envoi et la
 récupération de emails ? Complétez la figure ci dessous par des fleèches représentant des messages
 
-![](..\img\exericetypesmessagesv2.png)
+![](../img/exericetypesmessagesv2.png)
 
 Question : Est-ce que poster est une opération ou un signal ? Dans tous les cas, proposez un diagramme de classe cohérent avec le diagramme de séquence
 
