@@ -41,4 +41,3 @@ Un développeur trouvera les diagrammes d’objets utiles dans bien des cas, not
 - Obtenir une vue d'ensemble du système que vous allez développer
 
 - Tester un diagramme de classes que vous avez créé pour la structure globale du système, en utilisant des diagrammes d'objets pour des cas d'utilisation spécifiques
-

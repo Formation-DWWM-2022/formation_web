@@ -94,19 +94,7 @@ récupération de emails ? Complétez la figure ci dessous par des fleèches rep
 
 Question : Est-ce que poster est une opération ou un signal ? Dans tous les cas, proposez un diagramme de classe cohérent avec le diagramme de séquence
 
-# Exercice 2 : Modélisation d'une interaction interne
-
-Le diagramme de classes présenté ci dessous modélise la structure interne de la bibliothèque.
-
-![](..\img\exercicemodelisationinteractioninterne.png)
-
-Un acteur adhérent peut emprunter un exemplaire d'une oeuvre donnée. L'emprunt se fait de la
-façon suivante : la méthode emprunter est appelée avec un objet de classe Adhérent donné en argument ;
-s'il reste des exemplaires dans la bibliothèque, l'un des exemplaires associés à l'oeuvre est extrait via
-la méthode extraireExemplaire, une instance de la classe Prêt est créée, puis l'exemplaire extrait de la
-bibliothèque est attribué à l'adhérent grâce à l'opération attribuer. S'il restait un exemplaire, l'oeuvre retourne "Ok" et dans le cas contraire, elle retourne "PasOk".
-
-# Exercice 3 : Documentation d'un cas d'utilisation
+# Exercice 2 : Documentation d'un cas d'utilisation
 
 La rubrique "enchaînement nominal" du cas d'utilisation "retrait d'espèces" contient les éléments suivants :
 
@@ -122,7 +110,7 @@ Question : Donner le diagramme de séquences associé à cette description textu
 <!--
 http://exercicecorrige.blogspot.com/2013/08/conversation-telephonique.html
 -->
-# Exercice 4 :  Conversation téléphonique
+# Exercice 3 :  Conversation téléphonique
 
 Décrire par un diagramme de séquences une conversation téléphonique (je décroche, tonalité, je compose le numéro, sonnerie...).
 
@@ -130,7 +118,7 @@ Décrire par un diagramme de séquences une conversation téléphonique (je déc
 http://exercicecorrige.blogspot.com/2013/08/assistance-telephonique.html?spref=bl
 -->
 
-# Exercice 5 : Assistance téléphonique
+# Exercice 4 : Assistance téléphonique
 
 Donner le diagramme de séquences correspondant au scénario suivant. Un utilisateur désire poser des questions à une assistance téléphonique. Soit un opérateur décroche dans les 10 secondes de l'appel téléphonique, et à ce moment il dialogue directement avec l'utilisateur; soit aucun opérateur n'est disponible et les 10 secondes s'écoulent, l'utilisateur est alors basculé sur un serveur vocal qui va enregistrer ses questions. Un opérateur disponible pourra ensuite consulter le serveur vocal, écouter les questions et, après réflexion, rappeler l'utilisateur. Entre le moment du premier appel et les réponses aux questions, il ne doit pas s'écouler plus d'une heure.
 
@@ -138,7 +126,7 @@ Donner le diagramme de séquences correspondant au scénario suivant. Un utilisa
 https://eeisti.fr/grug/ATrier/GI1/Semestre2/AnalyseOrienteObjet/TD6SequenceDiagramCORRIGE.pdf
 -->
 
-# Exercice 6 : Bibliothèque
+# Exercice 5 : Bibliothèque
 
 On s'intéresse à la modélisation dynamique de la gestion d'une bibliothèque. Pour emprunter un
 livre, on a le scénario suivant :
@@ -154,6 +142,23 @@ l'adhérent et le livre choisit.
 6) On incrémente le nombre de livres empruntés par l'adhérent.
 
 Etablir le diagramme de séquence de ce scénario de cas d'utilisation pour Emprunter livre.
+
+<!--
+https://lipn.univ-paris13.fr/~gerard/docs/corrections/uml-corr04.pdf
+-->
+
+
+# Exercice 6 : Modélisation d'une interaction interne
+
+Le diagramme de classes présenté ci dessous modélise la structure interne de la bibliothèque.
+
+![](..\img\exercicemodelisationinteractioninterne.png)
+
+Un acteur adhérent peut emprunter un exemplaire d'une oeuvre donnée. L'emprunt se fait de la
+façon suivante : la méthode emprunter est appelée avec un objet de classe Adhérent donné en argument ;
+s'il reste des exemplaires dans la bibliothèque, l'un des exemplaires associés à l'oeuvre est extrait via
+la méthode extraireExemplaire, une instance de la classe Prêt est créée, puis l'exemplaire extrait de la
+bibliothèque est attribué à l'adhérent grâce à l'opération attribuer. S'il restait un exemplaire, l'oeuvre retourne "Ok" et dans le cas contraire, elle retourne "PasOk".
 
 # Exercice 7 : Gestion de trajet
 
