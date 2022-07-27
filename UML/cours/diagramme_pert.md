@@ -1,6 +1,6 @@
 # Qu'est-ce qu'un diagramme de PERT ?
 
-<https://youtu.be/xAidvykSNXo>
+- Vidéo d'explication : <https://youtu.be/xAidvykSNXo>
 
 PERT, acronyme anglais de Program Evaluation Review Technique, signifie « technique d'évaluation et d'examen de programmes ». Un diagramme de PERT est un outil servant à analyser les différentes tâches qui entrent dans l'exécution d'un projet. Pensés pour les projets d'envergure, les diagrammes PERT permettent de déterminer le temps requis pour chaque tâche. Résultat : vous pouvez aisément estimer le délai de réalisation (minimum, maximum et médian) du projet dans son ensemble.
 Les diagrammes PERT offrent une visualisation claire de la durée de travail requise et de l'interdépendance des tâches, vous aidant ainsi à mieux gérer, entre autres, le séquençage des tâches et les échéances. Grâce à ce document exhaustif, vos équipes pourront réaliser les tâches plus rapidement, de façon précise, sans disperser leurs efforts : le résultat final sera meilleur, tant pour les employés que pour vos clients.

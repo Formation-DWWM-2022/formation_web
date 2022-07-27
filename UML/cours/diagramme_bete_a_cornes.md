@@ -1,6 +1,6 @@
 # Diagramme bête à cornes : définition
 
-- <https://www.youtube.com/watch?v=A6DBeXGXox8>
+- Vidéo d'explication : <https://www.youtube.com/watch?v=A6DBeXGXox8>
 
 Un diagramme bête à cornes est un outil utilisé pour l’analyse fonctionnelle du besoin. C’est un schéma qui démontre si le produit est utile pour l’utilisateur, s’il répond à ses besoins. C’est la première étape de la méthode APTE. Son nom bête à cornes vient du fait que le diagramme ressemble à une tête de taureau, la ligne qui relie les deux bulles du haut dessinant une sorte de corne.
 Quand une entreprise chercher à créer un nouveau produit ou à innover un ancien, il utilise un diagramme bête à cornes. Ce diagramme illustre l’importance du nouveau produit, ce en quoi ce produit répond aux besoins de ces utilisateurs. Ce diagramme se doit de répondre à trois questions :

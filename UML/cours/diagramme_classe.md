@@ -1,7 +1,7 @@
 # Qu'est-ce qu'un diagramme de classes dans le langage UML ?
 
-- <https://youtu.be/UI6lqHOVHic>
-- <https://youtu.be/8VMMu-vcF60>
+- Vidéo d'explication : <https://youtu.be/UI6lqHOVHic>
+- Vidéo d'explication : <https://youtu.be/8VMMu-vcF60> et https://youtu.be/nRqTXoiNUHk et https://youtu.be/a3DWVNWg2Oo et https://youtu.be/RxkarRkq10o
 
 Le langage de modélisation unifié (UML) peut vous aider à modéliser des systèmes de plusieurs façons. Le diagramme de classes est l'un des types les plus populaires en langage UML. Très utilisé par les ingénieurs logiciel pour documenter l'architecture des logiciels, les diagrammes de classes sont un type de diagramme de structure, car ils décrivent ce qui doit être présent dans le système modélisé.
 

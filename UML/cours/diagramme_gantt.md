@@ -1,6 +1,6 @@
 # Qu'est-ce qu'un diagramme de Gantt ?
 
-<https://youtu.be/1JU1KYkxZJY>
+- Vidéo d'explication : <https://youtu.be/1JU1KYkxZJY>
 
 Les exigences d'un projet peuvent être difficiles à appréhender par écrit, en particulier lorsque vous gérez de grands projets dont les tâches se chevauchent. Un diagramme de Gantt est un outil de gestion de projet conçu pour visualiser l'ensemble des tâches depuis le début d'un projet jusqu'à sa réalisation.
 

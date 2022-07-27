@@ -1,6 +1,6 @@
 # Qu’est-ce qu’un algorigramme ?
 
-- <https://www.youtube.com/watch?v=JTZ67-4wXKw>
+- Vidéo d'explication : <https://www.youtube.com/watch?v=JTZ67-4wXKw>
 
 Un algorigramme, aussi appelé organigramme de programmation, est la représentation visuelle d’un algorithme. Il montre les enchaînements de décisions et d’opérations à faire pour un algorithme donné.
 

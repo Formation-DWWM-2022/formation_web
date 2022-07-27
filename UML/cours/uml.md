@@ -8,7 +8,7 @@ L'UML n'est pas un langage de programmation, mais il existe des outils qui peuve
 
 # UML et son rôle dans la modélisation et la conception orientées objet
 
-Il existe de nombreux modèles et paradigmes de résolution de problèmes en science informatique, qui est l'étude des algorithmes et des données. On dénombre quatre catégories de modèles de résolution de problèmes : les langages impératifs, fonctionnels, déclaratifs et orientés objet (LOO). Dans le cas des langages orientés objet, les algorithmes sont exprimés en définissant des objets et en les faisant interagir les uns avec les autres. Ces objets sont des éléments que l'on peut manipuler et qui existent dans le monde réel. Il peut s'agir d'immeubles, de widgets sur un ordinateur ou encore d'êtres humains. 
+Il existe de nombreux modèles et paradigmes de résolution de problèmes en science informatique, qui est l'étude des algorithmes et des données. On dénombre quatre catégories de modèles de résolution de problèmes : les langages impératifs, fonctionnels, déclaratifs et orientés objet (LOO). Dans le cas des langages orientés objet, les algorithmes sont exprimés en définissant des objets et en les faisant interagir les uns avec les autres. Ces objets sont des éléments que l'on peut manipuler et qui existent dans le monde réel. Il peut s'agir d'immeubles, de widgets sur un ordinateur ou encore d'êtres humains.
 
 Les langages orientés objet dominent le monde de la programmation parce qu'ils modélisent des objets du monde réel. L'UML combine plusieurs notations orientées objet : Object-Oriented Design (conception orientée objet), Object Modeling Technique (technique de modélisation objet) et Object-Oriented Software Engineering (génie logiciel orienté objet).
 
@@ -56,21 +56,21 @@ L'UML fait l'objet d'améliorations continues. Sa version 2.0 étend ses spécif
 
 Familiarisez-vous avec la terminologie UML grâce à cette liste tirée du document UML 2.4.1, destiné à aider les personnes non membres d'OMG à comprendre des termes couramment utilisés.
 
-- Conformité à la syntaxe abstraite Les utilisateurs peuvent transférer des modèles à travers différents outils, même s'ils utilisent des notations différentes
-- Common Warehouse Metamodel (CWM) Interfaces standard utilisées pour permettre l'échange de métadonnées d'entrepôt et de BI entre des outils d'entrepôt de données, des plateformes d'entrepôt de données et des référentiels de métadonnées d'entrepôt dans des environnements hétérogènes distribués
-- Conformité à la syntaxe concrète Les utilisateurs peuvent continuer à utiliser une notation qu'ils connaissent dans différents outils
-- Noyau (Core) Dans le contexte d'UML, le noyau fait généralement référence au package central, qui est un métamodèle complet tout particulièrement conçu pour pouvoir être réutilisé à grande échelle
-- Unité de langage Consiste en une série de concepts de modélisation associés entre eux qui donnent aux utilisateurs la possibilité de représenter les aspects du système étudié selon un paradigme ou un format particulier
-- Niveau 0 Le niveau minimal de conformité pour une infrastructure UML - un langage unique qui fournit les types de structures de classes que l'on trouve dans les langages de programmation orientés objet les plus courants
-- Meta Object Facility (MOF) Une spécification de modélisation OMG qui fournit la base pour les définitions de métamodèles dans la famille de langages MDA d'OMG
-- Métamodèle Définit le langage et les processus à partir desquels former un modèle
-- Constructions de métamodèles Deuxième niveau de conformité dans l'infrastructure UML. Il s'agit d'une unité de langage supplémentaire pour des structures de classes plus poussées, utilisées pour créer des métamodèles tels que l'UML lui-même. L'UML n'a que deux niveaux de conformité.
-- Model Driven Architecture (MDA) Approche et plan permettant de créer un ensemble cohésif de spécifications technologiques définies par un modèle
-- Object Constraint Language (OCL) Langage déclaratif permettant de décrire des règles qui s'appliquent au langage de modélisation unifié (UML). OCL complète l'UML en fournissant des termes et des symboles d'organigramme qui sont plus précis que le langage naturel, mais moins difficiles à maîtriser que les mathématiques
-- Object Management Group (OMG) Consortium à but non lucratif de spécifications pour le secteur informatique dont les membres définissent et maintiennent la spécification UML
-- UML 1 Première version du langage de modélisation unifié
-- Langage de modélisation unifié (UML) Langage visuel permettant spécifier, créer et documenter les artefacts des systèmes
-- XMI Spécification XML des formats d'échange de modèles correspondants
+- **Conformité à la syntaxe abstraite** Les utilisateurs peuvent transférer des modèles à travers différents outils, même s'ils utilisent des notations différentes
+- **Common Warehouse Metamodel (CWM)** Interfaces standard utilisées pour permettre l'échange de métadonnées d'entrepôt et de BI entre des outils d'entrepôt de données, des plateformes d'entrepôt de données et des référentiels de métadonnées d'entrepôt dans des environnements hétérogènes distribués
+- **Conformité à la syntaxe concrète** Les utilisateurs peuvent continuer à utiliser une notation qu'ils connaissent dans différents outils
+- **Noyau (Core)** Dans le contexte d'UML, le noyau fait généralement référence au package central, qui est un métamodèle complet tout particulièrement conçu pour pouvoir être réutilisé à grande échelle
+- **Unité de langage** Consiste en une série de concepts de modélisation associés entre eux qui donnent aux utilisateurs la possibilité de représenter les aspects du système étudié selon un paradigme ou un format particulier
+- **Niveau 0** Le niveau minimal de conformité pour une infrastructure UML - un langage unique qui fournit les types de structures de classes que l'on trouve dans les langages de programmation orientés objet les plus courants
+- **Meta Object Facility (MOF)** Une spécification de modélisation OMG qui fournit la base pour les définitions de métamodèles dans la famille de langages MDA d'OMG
+- **Métamodèle** Définit le langage et les processus à partir desquels former un modèle
+- **Constructions de métamodèles** Deuxième niveau de conformité dans l'infrastructure UML. Il s'agit d'une unité de langage supplémentaire pour des structures de classes plus poussées, utilisées pour créer des métamodèles tels que l'UML lui-même. L'UML n'a que deux niveaux de conformité.
+- **Model Driven Architecture (MDA)** Approche et plan permettant de créer un ensemble cohésif de spécifications technologiques définies par un modèle
+- **Object Constraint Language (OCL)** Langage déclaratif permettant de décrire des règles qui s'appliquent au langage de modélisation unifié (UML). OCL complète l'UML en fournissant des termes et des symboles d'organigramme qui sont plus précis que le langage naturel, mais moins difficiles à maîtriser que les mathématiques
+- **Object Management Group (OMG)** Consortium à but non lucratif de spécifications pour le secteur informatique dont les membres définissent et maintiennent la spécification UML
+- **UML 1** Première version du langage de modélisation unifié
+- **Langage de modélisation unifié (UML)** Langage visuel permettant spécifier, créer et documenter les artefacts des systèmes
+- **XMI** Spécification XML des formats d'échange de modèles correspondants
 
 Voir le document [MOF complet](https://www.omg.org/spec/MOF/2.4.1/PDF/)
 
@@ -90,12 +90,12 @@ Les objets dans UML sont des entités du monde réel qui existent autour de nous
 
 Voici quelques concepts fondamentaux d'un monde orienté objet :
 
-- Objets Représentent une entité et le module de base
-- Classe Plan d'un objet
-- Abstraction Comportement d'une entité du monde réel
-- Encapsulation Mécanisme qui consiste à relier les données et à les cacher du monde extérieur
-- Héritage Mécanisme par lequel de nouvelles classes sont créées à partir d'une classe existante
-- Polymorphisme Définit le mécanisme sous différentes formes.
+- **Objets** Représentent une entité et le module de base
+- **Classe** Plan d'un objet
+- **Abstraction** Comportement d'une entité du monde réel
+- **Encapsulation** Mécanisme qui consiste à relier les données et à les cacher du monde extérieur
+- **Héritage** Mécanisme par lequel de nouvelles classes sont créées à partir d'une classe existante
+- **Polymorphisme** Définit le mécanisme sous différentes formes.
 
 # Types de diagrammes UML
 
@@ -103,19 +103,20 @@ L'UML utilise des éléments et les associe de différentes manières pour forme
 
 ## Diagrammes UML structurels
 
-- Diagramme de classes Diagramme UML le plus couramment utilisé et fondement de toute solution orientée objet. Classes d'un système, attributs et opérations, et relations entre chaque classe. Les classes sont regroupées pour créer des diagrammes de classe lors de la modélisation de systèmes de grande taille.
-- Diagramme de composants Représente la relation structurelle entre les éléments d'un système logiciel, le plus souvent utilisé avec des systèmes complexes disposant de multiples composants. Les composants communiquent à l'aide d'interfaces.
-- Diagramme de structure composite Les diagrammes de structure composite sont utilisés pour présenter la structure interne d'une classe.
-- Diagramme de déploiement Illustre les infrastructures physique et logicielle d'un système. Ils sont utiles lorsqu'une solution logicielle est déployée sur de nombreuses machines avec des configurations uniques.
-- Diagramme d'objets Montre les relations entre des objets à travers des exemples tirés du monde réel et permet de voir l'apparence d'un système à n'importe quel instant donné. Les données sont disponibles à l'intérieur des objets, elles peuvent donc être utilisées pour clarifier les relations entre des objets.
-- Diagramme de paquetages Il existe deux types de dépendances spéciales entre les paquetages : l'importation de paquetages et la fusion de paquetages. Les paquetages peuvent représenter les différents niveaux d'un système pour en révéler l'architecture. Les dépendances des paquetages peuvent être marquées pour mettre en avant le mécanisme de communication entre les différents niveaux.
+- (2) 🟪 **Diagramme de classes** Diagramme UML le plus couramment utilisé et fondement de toute solution orientée objet. Classes d'un système, attributs et opérations, et relations entre chaque classe. Les classes sont regroupées pour créer des diagrammes de classe lors de la modélisation de systèmes de grande taille.
+- (8) 🟫 **Diagramme de composants** Représente la relation structurelle entre les éléments d'un système logiciel, le plus souvent utilisé avec des systèmes complexes disposant de multiples composants. Les composants communiquent à l'aide d'interfaces.
+- 🟫 **Diagramme de structure composite** Les diagrammes de structure composite sont utilisés pour présenter la structure interne d'une classe.
+- (9) 🟫 **Diagramme de déploiement** Illustre les infrastructures physique et logicielle d'un système. Ils sont utiles lorsqu'une solution logicielle est déployée sur de nombreuses machines avec des configurations uniques.
+- (3) 🟫 **Diagramme d'objets** Montre les relations entre des objets à travers des exemples tirés du monde réel et permet de voir l'apparence d'un système à n'importe quel instant donné. Les données sont disponibles à l'intérieur des objets, elles peuvent donc être utilisées pour clarifier les relations entre des objets.
+- 🟫 **Diagramme de paquetages** Il existe deux types de dépendances spéciales entre les paquetages : l'importation de paquetages et la fusion de paquetages. Les paquetages peuvent représenter les différents niveaux d'un système pour en révéler l'architecture. Les dépendances des paquetages peuvent être marquées pour mettre en avant le mécanisme de communication entre les différents niveaux.
 
 ## Diagrammes UML comportementaux
 
-- Diagrammes d'activités Flux de travail d'entreprise ou opérationnels représentés graphiquement pour montrer l'activité de chacune des composantes du système. Les diagrammes d'activités sont utilisés comme une alternative aux diagrammes états-transitions.
-- Diagramme de communication Semblable à un diagramme de séquence, mais l'accent est mis sur les messages transmis entre les objets. La même information peut être représentée par un diagramme de séquence et différents objets.
-- Diagramme global d'interaction Il existe sept types de diagrammes d'interaction, et ce diagramme montre l'ordre dans lequel ils agissent.
-- Diagramme de séquence Montre comment les objets interagissent les uns avec les autres et dans quel ordre. Ils représentent les interactions d'un scénario particulier.
-- Diagramme états-transitions Semblable à un diagramme d'activités, il décrit le comportement des objets qui se comportent de diverses manières dans leur état actuel.
-- Diagramme de temps À l'instar d'un diagramme de séquence, le comportement des objets est représenté sur un laps de temps donné. S'il y a un seul objet, le schéma est simple. S'il y a plus d'un objet, les interactions des objets sont présentées sur ce laps de temps précis.
-- Diagramme de cas d'utilisation Il représente une fonctionnalité spécifique dans un système et est créé pour illustrer comment différentes fonctionnalités sont interconnectées et montrer leurs contrôleurs (ou acteurs) internes et externes.
+- (6) 🟪 **Diagrammes d'activités** Flux de travail d'entreprise ou opérationnels représentés graphiquement pour montrer l'activité de chacune des composantes du système. Les diagrammes d'activités sont utilisés comme une alternative aux diagrammes états-transitions.
+- (7) 🟫 **Diagramme de communication** Semblable à un diagramme de séquence, mais l'accent est mis sur les messages transmis entre les objets. La même information peut être représentée par un diagramme de séquence et différents objets.
+- 🟫 **Diagramme global d'interaction** Il existe sept types de diagrammes d'interaction, et ce diagramme montre l'ordre dans lequel ils agissent.
+- (4) 🟪 **Diagramme de séquence** Montre comment les objets interagissent les uns avec les autres et dans quel ordre. Ils représentent les interactions d'un scénario particulier.
+- (5) 🟪 **Diagramme états-transitions** Semblable à un diagramme d'activités, il décrit le comportement des objets qui se comportent de diverses manières dans leur état actuel.
+- 🟫 **Diagramme de temps** À l'instar d'un diagramme de séquence, le comportement des objets est représenté sur un laps de temps donné. S'il y a un seul objet, le schéma est simple. S'il y a plus d'un objet, les interactions des objets sont présentées sur ce laps de temps précis.
+- (1) 🟪 **Diagramme de cas d'utilisation** Il représente une fonctionnalité spécifique dans un système et est créé pour illustrer comment différentes fonctionnalités sont interconnectées et montrer leurs contrôleurs (ou acteurs) internes et externes.
+

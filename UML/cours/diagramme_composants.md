@@ -1,7 +1,5 @@
 # Qu'est-ce qu'un diagramme de composants UML ?
 
-<https://youtu.be/OcdWAGccHRM>
-
 Un diagramme de composants a pour objectif d'illustrer la relation entre les différents composants d'un système. Dans le cadre de l'UML 2.0, le terme « composant » fait référence à un module de classes qui représentent des systèmes ou des sous-systèmes indépendants ayant la capacité de s'interfacer avec le reste du système.
 
 Il existe une approche de développement entièrement articulée autour des composants: la programmation orientée composant (POC). Dans cette approche, les diagrammes de composants permettent au responsable de la planification d'identifier les différents composants afin que l'ensemble du système fonctionne selon le cahier des charges.

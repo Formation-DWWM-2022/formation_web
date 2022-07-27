@@ -1,6 +1,6 @@
 # Qu’est-ce qu’un diagramme pieuvre ?
 
-<https://youtu.be/KdELe4R-vxA>
+- Vidéo d'explication : <https://youtu.be/KdELe4R-vxA>
 
 Le diagramme pieuvre ou graphe des interactions est un schéma qui représente la relation entre un produit/service et son environnement. C’est un outil d’analyse utilisé dans le cadre de la méthode APTE (Application aux Techniques d’Entreprise). Le diagramme pieuvre permet de représenter les fonctions de service d’un produit. C’est-à-dire qu’il permet de voir quelles sont les fonctions essentielles et secondaires d’un produit et comment ces fonctions réagissent avec le milieu extérieur. Il est utilisé lors de l’analyse fonctionnelle. L’analyse fonctionnelle a pour but de créer ou d’améliorer un produit. Cela permet de connaître toutes les caractéristiques de l’objet et de déterminer ce qui le limite. Le diagramme pieuvre un excellent outil de représentation graphique de cette analyse fonctionnelle, il permet de rendre une partie du cahier des charges plus visuel et plus simple.
 

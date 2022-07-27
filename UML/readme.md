@@ -1,11 +1,16 @@
 # UML 2 -  De l'apprentissage à la pratique
+## Vidéo simples et efficace
 
-<https://youtu.be/WnMQ8HlmeXc>
+> freeCodeCamp.org [eng]
 
-# Les cahiers du programmeur - UML 2 - Modéliser une application web
+UML Diagrams Full Course (Unified Modeling Language) : <https://youtu.be/WnMQ8HlmeXc>
 
-## De Pascal Roques
-<https://jsilab.ch/cfpa/ID/ref/UML/UML_2_ModeliserUneApplicationWeb.pdf>
+## Support de cours
+
+- Learn UML2.* in simple terms :  <https://github.com/imalitavakoli/learn-uml2>
+- laurent-audibert.developpez.com : <https://laurent-audibert.developpez.com/Cours-UML/>
+- [Langage UML PDF](.\cours\3-UML.pdf)
+- Les cahiers du programmeur - UML 2 - Modéliser une application web par Pascal Roques : <https://jsilab.ch/cfpa/ID/ref/UML/UML_2_ModeliserUneApplicationWeb.pdf>
 
 # StarUML
 
@@ -123,7 +128,18 @@ La troisième raison est qu’il permet de relier, de manière très simple, les
 Donc, c’est pour toutes ces raisons qu’il est intéressant de choisir ce type d’outil pour concevoir son application web à destination des internautes.
 
 <!--
-https://marcautran.developpez.com/tutoriels/uml/conception-uml/
+- https://github.com/ClementDelgrange/Cours_analyse_informatique/blob/master/Analyse_avancee.md
 
-http://exercicecorrige.blogspot.com/2013/09/devoirdecourssuruml.html?spref=bl
+MVC
+Pattern de conception : 
+    5 patrons de construction, centrés sur la création d'objets;
+    7 patrons de structuration, ciblés sur la hiérarchie et les relations entre classes;
+    11 patrons de comportement, décrivants des mécanismes astucieux à mettre en oeuvre pour l'exécution des codes.
+Conception orientée objet :
+    Single responsibility principle / Principe de responsabilité unique
+    Open close principle / Principe d'ouverture-fermutre
+    Liskov substitution principle / Principe de substitution de Liskov
+    Interface segregation principle / Principe de ségrégation des interfaces
+    Dependency inversion principle / Principe d'inversion des dépendances
+
 -->
