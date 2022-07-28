@@ -147,7 +147,6 @@ Etablir le diagramme de séquence de ce scénario de cas d'utilisation pour Empr
 https://lipn.univ-paris13.fr/~gerard/docs/corrections/uml-corr04.pdf
 -->
 
-
 # Exercice 6 : Modélisation d'une interaction interne
 
 Le diagramme de classes présenté ci dessous modélise la structure interne de la bibliothèque.
@@ -212,14 +211,34 @@ Un seul  statut  est  proposé aux clients, celui d'adhérent. Chaque adhérent 
 - Donner le  diagramme des cas d'utilisation du système. Penser à utiliser la généralisation d’acteurs.
 - Décrire le scénario « Location Cassettes »  par un diagramme de séquence.
 
-# Exercice cas concret
+<!--
+https://www.cours-gratuit.com/exercices-uml/exercice-uml-etude-de-cas-distributeur-de-billets-diagramme-dactivites
+-->
 
-Diagramme de classe et séquence - Lumière : <http://asi.insa-rouen.fr/enseignement/siteUV/genie_logiciel/2005P/supports/s10/EXU1598.correction.pdf>
+# Exercice 10 : Etude de Cas Distributeur Automatique de Billets
 
-Un de vos collègues a effectué la partie analyse du projet de développement « minik’s ». Il
-vous a remis un DSS (Diagramme de Séquences Système) et une ébauche du modèle du
-domaine.
-Le métier étudié dans le cadre de « minik’s » est celui des boutiques (Très Petits Commerces)
-qui disposerai à terme d’une caisse sur un ordinateur commun (PC Compatible) et
-s’affranchirait ainsi des point de ventes propriétaire actuellement répandus.
-<http://exercicecorrige.blogspot.com/2013/09/exercice-diagramme-de-sequence-par-insa.html?spref=bl>
+Le déroulement normal d’utilisation d’un distributeur automatique de billets est le suivant :
+
+- le client introduit sa carte bancaire
+- la machine vérifie alors la validité de la carte et demande le code au client
+- si le code est correct, elle envoie une demande d’autorisation de prélèvement au groupement de banques. Ce dernier renvoie le solde autorisé à prélever.
+- le distributeur propose alors plusieurs montants à prélever
+- le client saisit le montant à retirer
+- après contrôle du montant par rapport au solde autorisé, le distributeur demande au client s’il désire un ticket
+- Après la réponse du client, la carte est éjectée et récupérée par le client
+- les billets sont alors délivrés (ainsi que le ticket)
+- le client récupère enfin les billets et son ticket
+
+Question : Modéliser cette situation à l’aide d’un diagramme de séquence en ne prenant en compte que le cas où tout se passe bien. NB : on identifiera les scénarios qui peuvent poser problème en incluant des commentaires dans le diagramme
+
+# Exercice 11 : Etude de Cas ascenseur
+
+Un produit va être installé pour contrôler N ascenseurs dans un gratte-ciel de M étages. Notre problème concerne la logique nécessaire au déplacement des ascenseurs entre les étages en accord avec les contraintes suivantes:
+
+- chaque ascenseur possède un ensemble de M boutons, un pour chaque étage. Un bouton s’allume lorsqu’il est appuyé et provoque le déplacement de l’ascenseur vers l’étage correspondant.
+- chaque étage, à l’exception du premier et du dernier, possède deux boutons, un pour demander la montée et un pour demander  la descente. Ces boutons s’allument lorsqu’ils sont appuyés. Ils s’éteignent quand l’ascenseur arrive à l’étage, et celui ci se déplace ensuite dans la direction demandée.
+- quand un ascenseur n’est pas requis, il reste à l’étage où il se trouve et ferme ses portes.
+
+Question : Décrire à l’aide d’un diagramme de séquence chacun des scénarios suivants:
+- requête d’ascenseur depuis l’étage
+- requête d’étage depuis l’ascenseur
