@@ -56,7 +56,7 @@ A partir du diagramme de classe ci-dessus :
 
 ![](../img/imprimante.png)
 
-Rédigez un diagramme de collaboration à partir du diagramme de séquence obtenu à la question 1.
+Rédigez un diagramme de collaboration à partir du diagramme de classe obtenu à la question 1.
 
 <!--
 http://exercicecorrige.blogspot.com/2013/08/bureau-de-poste.html
