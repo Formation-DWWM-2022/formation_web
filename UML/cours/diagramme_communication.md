@@ -42,7 +42,7 @@ Décrire par un diagramme de communication le fonctionnement d'un ascenseur (une
 <details>
   <summary>Spoiler warning</summary>
 
-![](..\img\ascenseur.png)
+![](../img/ascenseur.png)
 
 </details>
 
@@ -54,7 +54,7 @@ http://niedercorn.free.fr/iris/iris1/uml/umltd4.pdf
 
 A partir du diagramme de classe ci-dessus :
 
-![](..\img\imprimante.png)
+![](../img/imprimante.png)
 
 Rédigez un diagramme de collaboration à partir du diagramme de séquence obtenu à la question 1.
 
