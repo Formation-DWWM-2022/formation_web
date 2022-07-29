@@ -189,35 +189,6 @@ Dans une visée de gestion des équipements, un dernier éléments important à 
 
 => Vous proposerez à l'aide du formalisme UML une modélisation de système à représenter dans la base de données. Nous vous encourageons à accompagner votre diagramme de commentaires permettant de mieux comprendre les choix de modélisation effectués. Les types des objets géométriques apparaîtrons dans le diagramme.
 
-### Exercice 5 - club d'oenologie
-
-Un club d'œnologie souhaite enregistrer les résultats des dégustations qu'il organise avec ces adhérents afin d'effectuer des analyses permettant de proposer les vins les plus appréciés lors des sessions suivantes.
-
-L'association possède le nom, le prénom, l'âge et la ville de résidence de chaque adhérent.
-
-Elle note déjà sur un cahier pour chaque dégustation la date, les participants, les vins dégustés (appellation, millésime, degré, cépage principal, quantité consommée) ainsi que les impressions (sous forme de note allant de 1 à 5).
-
-=> Vous proposerez à l'aide du formalisme UML une modélisation de la base de données à mettre en place.
-
-En utilisant le langage SQL, écrivez les requêtes permettant d'effectuer les actions suivantes :
-
-    création de la table Buveur
-    suppression de la colonne naissance de la table Buveur
-    ajout de la colonne naissance à la table Buveur en y ajoutant une contrainte pour qu'un buveur ne puisse pas avoir moins de 18 ans
-    ajout du Pinot Noir dans la table Cepage
-    ajout dans la table des buveurs de Abel Mir, né en 1990 et résidant à Bordeaux
-    affichage des buveurs
-    affichage du nom de cru des vins
-    affichage des buveurs dont le nom est Mir
-    affichage des cépages dont le nom commence par un M
-    affichage du prénom des buveurs nés avant 1992
-    affichage des vins et leur cépage
-    affichage du prénom des buveurs ayant participé à la dégustation du 07/05/2015
-    affichage des vins dégustés par le buveur d'identifiant 3 à la dégustation du 07/05/2015
-    affichage, pour la dégustation du 07/05/2015, de la note de chaque dégustation, en les triant dans l'ordre croissant, avec les nom/prénom du buveur, ainsi que le cru et le millésime du vin
-    passage de la ville de résidence de Deuf John de Toulouse à Dijon
-    suppression des dégustations ayant eu lieu le 12/12/2012
-
 <!--
 https://aymeric-auberton.fr/academie/mysql/# Exercices
 
