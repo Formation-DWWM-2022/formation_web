@@ -214,6 +214,7 @@ Il nous reste enfin à intégrer les avis sur les hébergements. Ceux-ci étant 
 
 Les avis sont ajoutés sous forme de table d'association liant les adhérents et les hébergements. La cardinalité entre ces deux table des de type M-N : un adhérent peut évaluer plusieurs hébergement et un hébergement peut être évalué par plusieurs adhérents.
 
+<!--
 https://aymeric-auberton.fr/academie/mysql/# Exercices
 
 https://developpement-informatique.com/article/45/# Exercices-corriges-de-langage-sql
@@ -221,3 +222,4 @@ https://developpement-informatique.com/article/45/# Exercices-corriges-de-langag
 https://github.com/ponsfrilus/kata-sql
 
 https://github.com/XD-DENG/SQL-exercise/tree/master/SQL_exercise_01
+-->
