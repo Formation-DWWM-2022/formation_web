@@ -13,7 +13,7 @@ Etablir le MCD et le MLD dans ces deux cas.
 
 Un comité d'entreprise souhaite gérer les informations concernant les enfants de ses salariés. Un employé a réalisé le tableau suivant :
 
-![image](..\Cours\image\exerice2MCDMLD.png)					
+![image](../Cours/image/exerice2MCDMLD.png)					
 
 Quelles critiques peut-on adresser à cette solution ? Quelles propositions peut-on faire pour adopter une solution plus adéquate ?
 
