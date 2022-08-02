@@ -186,6 +186,7 @@ Hey! I'm @rstacruz and this is a modest collection of cheatsheets I've written.
 
 - Pool : <https://youtu.be/mP_fnttJ5g0>
 - Jesuisundev : <https://www.jesuisundev.com/argent-developpeur/>
+- Comment DEVENIR DÉVELOPPEUR WEB : 7 étapes INDISPENSABLES : <https://youtu.be/S_SU4gKoO-o>
 
 ---
 
@@ -244,4 +245,5 @@ Hey! I'm @rstacruz and this is a modest collection of cheatsheets I've written.
 ![](https://nypost.com/wp-content/uploads/sites/2/2022/06/internet-explorer-grave-01.jpg?quality=75&strip=all)
 
 # Youtube Channel
+
 <https://www.youtube.com/c/Freecodecamp/videos>
