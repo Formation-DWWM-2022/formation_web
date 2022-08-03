@@ -12,7 +12,7 @@ Ci-après la table à utiliser pour la première partie des exercices.
 | 1 |  Forteresse digitale |  2709626306 |  Dan Brown |  20.5
 | 2 |  La jeune fille et la nuit |  2253237620 |  Guillaume Musso |  21.9
 | 3 |  T'choupi se brosse les dents |  2092589547 |  Thierry Courtin |  5.7
-| 4 |  La Dernière Chasse  2226439412 |  Jean-Christophe Grangé |  22.9
+| 4 |  La Dernière Chasse  | 2226439412 |  Jean-Christophe Grangé |  22.9
 | 5 |  Le Signal |  2226319484 |  Maxime Chattam |  23.9
 
 # Exercice 1
