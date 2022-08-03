@@ -26,9 +26,8 @@
 | 6              | 2013-03-02 | A00107      | 47.58      |
 
 # Jointure naturelle
-L'idée d'une jointure est donc de récupérer les informations d'une table B pour les "coller" à une table A, en liant les 2 tables selon un attribut ayant les memes valeurs (n'ayant pas forcément pas le meme nom - et éventuellement sur plusieurs attribus)
 
-La jointure naturelle se fait sur des attributs ayant exactement les memes noms 
+L'idée d'une jointure naturelle est donc de récupérer les informations d'une table B pour les "coller" à une table A, en liant les 2 tables selon un attribut ayant les memes noms.
 
 ```
 SELECT FROM tableA NATURAL JOIN tableB;
@@ -38,8 +37,8 @@ SELECT FROM tableA NATURAL JOIN tableB;
 SELECT * FROM utilisateur NATURAL JOIN pays;
 ```
 
-| pays_id | user_id | user_prenom | user_ville | pays_nom                     |
-| ------- | ------- | ----------- | ---------- | ---------------------------- |
+| pays_id | user_id | user_prenom | user_ville | user_email | user_ville | pays_nom |
+| ------- | ------- | ----------- | ---------- | ---------------------------- | ---- | ---- |
 | 1       | 1       | Jérémie     | Marechal   | jeremie.marechal@example.com | Paris     | France |
 | 2       | 2       | Damien      | Lefort     | damien.lefort@example.com    | Montréal  | Canada |
 | NULL    | 3       | Sophie      | Prevost    | sophie.prevost@example.com   | Marseille | NULL   |
@@ -47,9 +46,9 @@ SELECT * FROM utilisateur NATURAL JOIN pays;
 | 1       | 5       | Léa         | Esmée      | lea.esmee@example.com        | Paris     | France |
 
 # Jointure interne
+
 La jointure interne se fait sur des attributs ayant exactement des noms différents
-Il faut noter que pour cette jointure (ainsi que la jointure naturelle), le résultat
-contient les lignes présentes dans les 2 tables
+Il faut noter que pour cette jointure (ainsi que la jointure naturelle), le résultat contient les lignes présentes dans les 2 tables
 
 ```
 SELECT ... FROM tableA INNER JOIN tableBON condition;
@@ -67,6 +66,7 @@ SELECT * FROM utilisateur INNER JOIN commande ON utilisateur.id = commande.utili
 | 2   | Damien  | Lefort   | damien.lefort@example.com    | Montréal | 2       | 2013-02-21 | A00106      | 235.35     |
 
 # Jointure externe
+
 La jointure externe permet de garder les lignes de la table A (pour jointure gauche),
 ou de la table B (pour jointure droite) ou les deux (pour jointure complète), non
 présentes dans l’autre table
@@ -74,8 +74,9 @@ présentes dans l’autre table
 ```
 SELECT ... FROM tableA {LEFT | RIGHT | FULL } [OUTER] JOIN tableB ON condition;
 ```
+
 ```
-SELECT * FROM utilisateur LEFT OUTER JOIN commande ON tilisateur.id = commande.utilisateur_id;
+SELECT * FROM utilisateur LEFT JOIN commande ON tilisateur.id = commande.utilisateur_id;
 ```
 
 | user_id | user_prenom | user_nom | user_email                   | user_ville | pays_id | date_achat | num_facture | prix_total |
@@ -89,7 +90,7 @@ SELECT * FROM utilisateur LEFT OUTER JOIN commande ON tilisateur.id = commande.u
 | 5       | Léa         | Esmée    | lea.esmee@example.com        | Paris      | 1       | NULL       | NULL        | NULL       |
 
 ```
-SELECT * FROM utilisateur RIGHT OUTER JOIN commande ON tilisateur.id = commande.utilisateur_id;
+SELECT * FROM utilisateur RIGHT JOIN commande ON tilisateur.id = commande.utilisateur_id;
 ```
 
 | user_id | user_prenom | user_nom | user_email                   | user_ville | pays_id | date_achat | num_facture | prix_total |
@@ -102,7 +103,7 @@ SELECT * FROM utilisateur RIGHT OUTER JOIN commande ON tilisateur.id = commande.
 
 ```
 SELECT * FROM utilisateur FULL JOIN commande ON utilisateur.id = commande.utilisateur_id
-``` 
+```
 
 | user_id | user_prenom | user_nom | user_email                   | user_ville | pays_id | date_achat | num_facture | prix_total |
 | ------- | ----------- | -------- | ---------------------------- | ---------- | ------- | ---------- | ----------- | ---------- |
@@ -116,35 +117,45 @@ SELECT * FROM utilisateur FULL JOIN commande ON utilisateur.id = commande.utilis
 | 6 | NULL | NULL | NULL | NULL | NULL | 2013-03-02  | A00107   | 47.58                        |
 
 # Jointure “à la main”
-On peut aussi faire les jointures internes “à la main”, i.e. faire les restrictions dans le
+
+On peut aussi faire les jointures internes “à la main”, et faire les restrictions dans le
 WHERE et lister toutes les tables dans le FROM
 L’une ou l’autre des jointures donnent le même résultat, le choix dépendant des
 habitudes de l’entreprise ou du développeur souvent
+
 ```
 SELECT ... FROM tableA , tableB WHERE condition;
 ```
+
 ```
 SELECT * FROM Etudiant, Departement WHERE Etudiant.NumDep = Departement.NumDep;
 ```
 
 # Opération ensembliste
+
 Ceci correspond à l’union, l’intersection et la différence
+
 ```
 requêteA
 UNION [ALL] | INTERSECT | EXCEPT requêteB;
 ```
+
 ```
 SELECT * FROM Etudiant WHERE Age > 18 INTERSECT SELECT * FROM Etudiant WHERE Sexe = “H”;
 ```
+
 Les 2 requêtes doivent retourner
 strictement les mêmes colonnes
 
 # Division
+
 On cherche ici dans une requête des lignes pour lesquelles ils existent (ou non) un
 résultat obtenue dans une sous-requête
+
 ```
 SELECT ... FROM TableA WHERE [NOT] EXISTS (sous-requête incluant TableA);
 ```
+
 ```
 SELECT * FROM Departement WHERE EXISTS (SELECT * FROM Etudiant WHERE NumDep = Departement.NumDep);
 ```
