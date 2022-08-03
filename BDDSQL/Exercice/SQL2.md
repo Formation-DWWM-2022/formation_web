@@ -121,7 +121,7 @@ Ci-après les trois tables à utiliser pour la troisième partie des exercices. 
 
 | id | nom | id_realisateur
 | --- |--- | ---
-| 121 | Requiem for a Dream 22
+| 121 | Requiem for a Dream | 22
 | 546 | Gladiator | 16
 | 666 | Fight Club | 61
 | 775 | Blade Runner | 16
