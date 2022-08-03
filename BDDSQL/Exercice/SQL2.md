@@ -7,6 +7,9 @@ Il est possible de télécharger le fichier .sql avec les tables et les enregist
 I / Première partie
 
 Ci-après la table à utiliser pour la première partie des exercices.
+
+> lpecom_livres
+
 | id_livre  | titre |  isbn_10 |  auteur |  prix
 | ----------| ----------|----------|----------|----------|
 | 1 |  Forteresse digitale |  2709626306 |  Dan Brown |  20.5
@@ -50,6 +53,9 @@ Quelle requête utiliser pour sélectionner uniquement les 3 premiers résultats
 II / Deuxième partie
 
 Ci-après les deux tables à utiliser pour la deuxième partie des exercices.
+
+> lpecom_etudiants
+
 | id_etudiant | prenom |nom
 |----|----|---
 | 30 | Joseph | Biblo
@@ -58,6 +64,8 @@ Ci-après les deux tables à utiliser pour la deuxième partie des exercices.
 | 33 | Ted | Bundy
 | 34 | Caroline | Martinez
 | 35 | Joséphine | Henry
+
+> lpecom_examens
 
 | id | id_examen | id_etudiant | matiere | note
 |---|---|---|---|---
@@ -112,12 +120,16 @@ III / Troisième partie
 
 Ci-après les trois tables à utiliser pour la troisième partie des exercices. Pour cette nouvelle partie d'exercices, il est préférable de ne pas utiliser la console pour s'entrainer à comprendre les requêtes.
 
+> lpecom_realisateurs
+
 | id | nom | prenom | sexe | nation
 | --- |--- | ---| --- |---
 | 16 | Scott | Ridley | 0 | uk
 | 22 | Aronofsky | Darren | 0 | us
 | 47 | Jenkins | Patty | 1 | us
 | 66 | Ritchie | Guy | 0 | uk
+
+> lpecom_films
 
 | id | nom | id_realisateur
 | --- |--- | ---
@@ -129,6 +141,8 @@ Ci-après les trois tables à utiliser pour la troisième partie des exercices. 
 | 986 | Black Swan | 22
 | 987 | Wonder Woman | 47
 | 988 | The Tomorrow Man | 85
+
+> lpecom_films_notes
 
 | id | id_film | note
 | --- |--- | ---
@@ -229,6 +243,9 @@ WHERE r.nation = "uk";
 IV / Quatrième partie
 
 Ci-après les trois tables à utiliser pour la quatrième partie des exercices. Dans les tableaux, il y a seulement un extrait aléatoire des données, donc toutes les lignes des tables ne sont pas listées. Dernier point, dans la table lpecom_cities, il y a uniquement les villes de la région Île-de-France. Pour cette nouvelle partie d'exercices, vous pouvez bien évidemment utiliser la console afin de tester vos requêtes.
+
+> lpecom_cities
+
 | id |  department_code | insee_code | zip_code | name | gps_lat | gps_lng
 | --- |--- | ---| --- |--- | ---| ---
 | 30864 | 77 |  77236 | 77480 | Jaulnes | 48.41863547486034 | 3.28138541899442
@@ -237,6 +254,8 @@ Ci-après les trois tables à utiliser pour la quatrième partie des exercices. 
 | 35532 | 95 |  95392 | 95630 | Mériel | 49.07733312500000 | 2.21302166666667
 | 31082 | 77 |  77462 | 77230 | Thieux | 49.00079873563218 | 2.67002413793103
 
+> lpecom_departments
+
 | id | region_code | code | name | slug
 | --- |--- | ---| --- |---
 | 64 | 84 | 63 | Puy-de-Dôme | puy de dome
@@ -244,6 +263,8 @@ Ci-après les trois tables à utiliser pour la quatrième partie des exercices. 
 | 68 | 44 | 67 | Bas-Rhin | bas | rhin
 | 49 | 76 | 48 | Lozère | lozere
 | 90 | 27 | 89 | Yonne | yonne
+
+> lpecom_regions
 
 | id | code | name | slug
 | --- |--- | --- | ---
@@ -300,6 +321,9 @@ V / Cinquième partie
 Ci-après les deux tables à utiliser pour la cinquième partie des exercices. Sujet d'actualité des années 2020 et 2021, la pandémie du COVID-19 va être au coeur de notre sujet pour cette nouvelle partie d'exercices. Nous utiliserons les tables lpecom_covid et lpecom_regions. La table lpecom_covid liste le nombre quotidien de personnes ayant reçu au moins une dose, par date d'injection, par région. Les colonnes n_cum_dose1 et n_cum_dose2 s'occupent de cumuler le nombre d'injection. Les colonnes couv_dose1 et couv_dose2 calculent la couverture vaccinale des régions chaque jour.
 
 Dans les tableaux, seul un extrait des données est affiché, donc toutes les lignes des tables ne sont pas listées. Pour cette nouvelle partie d'exercices, vous pouvez bien évidemment utiliser la console afin de tester vos requêtes.
+
+> lpecom_covid
+
 | id | id_region | jour | n_dose1 | n_dose2 | n_cum_dose1 | n_cum_dose2 | couv_dose1 | couv_dose2
 | --- |--- | --- | --- | --- | --- | --- | --- | ---
 | 404 | 04 | 2021-04-06 | 486 | 676 | 633 | 40066 | 22082 | 4.70 | 2.60
@@ -307,6 +331,8 @@ Dans les tableaux, seul un extrait des données est affiché, donc toutes les li
 | 303 | 03 | 2021-04-06 | 156 | 301 | 300 | 10572 | 5199 | 3.60 | 1.80
 | 505 | 06 | 2021-04-06 | 65 | 125 | 184 | 10236 | 4781 | 3.70 | 1.70
 | 101 | 01 | 2021-04-06 | 145 | 227 | 166 | 10503 | 4027 | 2.80 | 1.10
+
+> lpecom_regions
 
 | id | code | name | slug
 | --- |--- | --- |  ---
@@ -367,6 +393,9 @@ Dans cette sixième partie d'exercices, nous nous intéresserons toujours au mê
 La table lpecom_covid_vaccin_type liste les différents types de vaccins utilisés pour les injections.
 
 Dans les tableaux, seul un extrait des données est affiché, donc toutes les lignes des tables ne sont pas listées. Pour rappel, il y a uniquement les données pour les différents départements de la région Ile-de-France. Pour cette nouvelle partie d'exercices, vous pouvez bien évidemment utiliser la console afin de tester vos requêtes.
+
+> lpecom_covid_vaccin
+
 | id | dep_code | vaccin | jour | n_dose1 | n_dose2 |  n_cum_dose1 | n_cum_dose2
 | --- | ---| ---| ---| ---| ---| ---| ---
 | 2526 | 75 | 0 | 2021-04-06 | 5273 | 3457 | 370829 | 116607
@@ -375,12 +404,16 @@ Dans les tableaux, seul un extrait des données est affiché, donc toutes les li
 | 304 | 75 | 3 | 2021-04-06 | 1156 | 3 | 122709 | 141
 | 2627 | 77 | 0 | 2021-04-06 | 2626 | 1915 | 142547 | 44880
 
+> lpecom_covid_vaccin_type
+
 | id | nom
 | --- | ---
 | 0 | Tous vaccins
 | 1 | COMIRNATY Pfizer/BioNTech
 | 2 | Moderna
 | 3 | AstraZeneka
+
+> lpecom_departments
 
 | id | region_code | code | name | slug
 | --- | --- | --- | --- | ---
@@ -447,6 +480,9 @@ Cette nouvelle partie d'exercices concerne les professionnels de santé. Chaque 
 La table lpecom_rpps ne contient que les données pour les professionnels de santé de Seine-et-Marne (77).
 
 Il est possible qu'un professionel de santé apparaisse plusieurs fois dans la table. En effet, un professionel de santé peut pratiquer dans plusieurs communes. Il y a donc des doublons sur la colonne id_pp_nat.
+
+> lpecom_rpps
+
 | id | id_pp_nat | nom | prenom | code_profession | lib_profession | code_savoir_faire | lib_savoir_faire | code_postal
 | --- |  --- | --- | --- | --- | --- | --- | --- | ---
 | 4201 | 810100703585 | GELY | Florence | 10 | Médecin | SM53 | Spécialiste en Médecine Générale | 77177
