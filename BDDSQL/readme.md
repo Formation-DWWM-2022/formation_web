@@ -1,5 +1,7 @@
 # Base de données / SQL
-# Dates [7j9j]:
+
+# Dates [7j9j]
+
 - MARDI 17 MAI - Guillaume
 - MERCREDI 18 MAI - Guillaume
 - JEUDI 19 MAI
@@ -11,17 +13,19 @@
 - // VENDREDI 03 JUIN
 
 # Vidéo simples et efficace
+
 Apprendre MySQL
 
 Une base de données permet de stocker des informations pour ensuite les utiliser pour la création d'un site dynamique.
-https://grafikart.fr/formations/mysql
+<https://grafikart.fr/formations/mysql>
 
 Apprendre et maitriser SQL
 
 SQL, pour Structured Query Language, est un langage qui permet d'interroger une base de données relationnelle afin de pouvoir modifier ou récupérer des informations. Les bases de données relationnelles permettent de sauvegarder les informations sous forme de tableau à 2 dimensions.
-https://grafikart.fr/formations/apprendre-sql
+<https://grafikart.fr/formations/apprendre-sql>
 
 # Résumé du cours
+
 L'objectif de ce cours est de transmettre les compétences nécessaires pour concevoir et utiliser une base de données.
 
 Il débutera par des généralités sur les bases de données : intérêt, origine, état du marché actuel; en s'attardant sur les notions de base de ces systèmes. Le cours s'attardera ensuite sur la modélisation d'une base de données. Le formalisme UML sera introduit et utilisé pour aider à établir des modèles de bases de données. Cette partie fera appel au bon sens et l'expérience permettra à l'apprenant d'éviter certains pièges de modélisation. Une dernière partie montrera enfin comment utiliser certains types de bases de données en utilisant le langage informatique SQL. Avec cette partie, le support de cours couvre toutes les étapes du cycle de vie d'une base de données : modélisation, implémentation, utilisation.
@@ -30,46 +34,55 @@ Il débutera par des généralités sur les bases de données : intérêt, origi
 - [Entretien d’embauche SQL : 50 Questions à préparer](https://analyticsinsights.io/sql-50-questions-2020/)
 
 # Evaluation
+
 L'évaluation de ce cours comportera trois points :
+
 - des questions portant sur les aspects théoriques des bases de données introduits dans le cours;
 - un premier exercice de modélisation d'une base de données : à partir de l'énoncé d'une problématique, il s'agit de proposer un modèle UML pour l'implémentation d'une base de données. La pertinence de la modélisation et la bonne utilisation du formalisme UML seront pris en compte dans la notation;
 - un second exercice où, étant donnée le schéma d'une base de données relationnelle, il s'agit d'écrire des requêtes SQL permettant d'extraire des informations de cette base.
 
 # Objectifs
+
 - Savoir ce qu'est une base de données, un SGBD, un SGBDR, comment y sont représentées les données
 - Connaître les principaux SGBD du marché
 - Etre capable de modéliser un problème en utilisant le formalisme UML
 - Savoir ce qu'est le language SQL et à quoi il sert
 - Pouvoir écrire et exécuter des requêtes SQL simples
 
-# Sommaire 
+# Sommaire
+
 ## Introduction
+
 - Qu'est ce qu'une base de données ?
 - Historique rapide
 
 ## Préparation environnement de travail
+
 - MySQL Server et MySQL Workbench
 - PostgreSQL et pgadmin
 - L'environnement WAMP
 
 ## Conception des bases de données
+
 - Du cahier des charges au MCD
-    - Analyser le cahier des charges
-    - Décrire les entités et associations
+  - Analyser le cahier des charges
+  - Décrire les entités et associations
 - Du MCD au MLD
 - Le Modèle Physique
-    - Récapitulatif.
+  - Récapitulatif.
 
 # Qu'est-ce que PHPMyAdmin?
-L'administration d'une base de données MySQL sur Internet est gérée par un outil écrit dans PHP appelé PhpMyAdmin. La base de données elle-même est d'abord installée dans un serveur, mais phpmyadmin gère ses fonctions. Par exemple, phpmyadmin peut créer et modifier des bases de données. Vous pouvez l'utiliser pour ajouter, éditer, supprimer des champs, déposer des bases de données entières, exécuter des instructions SQL ou même transmettre des informations dans différents formats et administrer des clés. Fondamentalement, toute commande de table que vous exécuteriez à partir de la coquille à l'invite MySQL peut être accomplie ici dans cette interface utilisateur graphique. 
+
+L'administration d'une base de données MySQL sur Internet est gérée par un outil écrit dans PHP appelé PhpMyAdmin. La base de données elle-même est d'abord installée dans un serveur, mais phpmyadmin gère ses fonctions. Par exemple, phpmyadmin peut créer et modifier des bases de données. Vous pouvez l'utiliser pour ajouter, éditer, supprimer des champs, déposer des bases de données entières, exécuter des instructions SQL ou même transmettre des informations dans différents formats et administrer des clés. Fondamentalement, toute commande de table que vous exécuteriez à partir de la coquille à l'invite MySQL peut être accomplie ici dans cette interface utilisateur graphique.
 
 ![image](https://hw-images.hostwinds.com/cdn-cgi/image/f=auto%2cq=85%2cfit=scale-down%2cwidth=1800/strapi-images/IMG_Cpanel_Phpmyadmin_Overview_89ed49545a.png)
 
 ## Le langage SQL et fondamenataux des requetes SQL
+
 - Présentation
-    - Historique SQL
-    - 4 familles de requetes
-    - Documentation SQL
+  - Historique SQL
+  - 4 familles de requetes
+  - Documentation SQL
 - SELECT
 - SELECT DISTINCT
 - WHERE et Les opérateurs de comparaison
@@ -81,18 +94,19 @@ L'administration d'une base de données MySQL sur Internet est gérée par un ou
 - IN
 - BETWEEN... AND
 - Opérateurs logiques, arithmétiques et concaténation
-    - Les opérateurs logiques.
-    - Les opérateurs arithmétiques.
-    - La concaténation.
+  - Les opérateurs logiques.
+  - Les opérateurs arithmétiques.
+  - La concaténation.
 - Les fonctions d’agrégations
-    - COUNT()
-    - MIN(), MAX()
-    - SUM()
-    - AVG()
+  - COUNT()
+  - MIN(), MAX()
+  - SUM()
+  - AVG()
 - GROUP BY
 - HAVING
 
 ## Jointures
+
 - Introduction Jointures
 - Types de Jointures
 - Inner Join
@@ -102,12 +116,14 @@ L'administration d'une base de données MySQL sur Internet est gérée par un ou
 - Union
 
 ## SQL Avancé
+
 - Fonctions de dates et d’heures
 - Fonctions mathématiques
 - Fonctions de chaîne caractère
 - Sous-requêtes
 
 ## Création de base de données et tables
+
 - Types de données
 - Clé primaire
 - Clé étrangère
@@ -119,20 +135,22 @@ L'administration d'une base de données MySQL sur Internet est gérée par un ou
 - Drop Table
 
 ## Optimisation
+
 - Indexation
-    - Qu'est-ce que l'indexation ?
-    - L'indexation par arbre binaire.
-    - Avantages et inconvénients.
+  - Qu'est-ce que l'indexation ?
+  - L'indexation par arbre binaire.
+  - Avantages et inconvénients.
 - Les variables et la console MySQL
-    - Les variables.
-    - Utilisation avec la console MySQL.
+  - Les variables.
+  - Utilisation avec la console MySQL.
 - Les procédures stockées
-    - Les procédures.
-    - Les fonctions.
+  - Les procédures.
+  - Les fonctions.
 - Les triggers
-    - Les triggers.
+  - Les triggers.
 
 ## Vues
+
 - Introduction et Créations des Vues
 - Renommer et Supprimer une Vue
 
@@ -148,10 +166,7 @@ Les versions de MariaDB sont basées au moins sur la version 5.1 de MySQL. L’o
 
 # Le NoSQL
 
-Les technologies NoSQL sortent du cadre de ce cours. Néanmoins, nous invitons l'étudiant intéressé par cette problématique à consulter les documents suivants :
-
-- Un déluge de données : https://interstices.info/jcms/ni_76920/un-deluge-de-donnees, pour prendre conscience de ce que l'on entend par l'explosition des volumes de données traités par certains systèmes informatiques;
-- Le texte recopié ci-dessous, extrait du MOOC Bases de données relationnelles : Comprendre pour maîtriser (plateforme [Fun MOOC]https://www.fun-mooc.fr/courses/inria/41008S02/session02/691a55b8e3fc4c3582116eb10deb64e2/), qui explique les raisons des limites des systèmes relationnels et les solutions apportées par les systèmes NoSQL. Texte disponible sous Licence Creative Commons BY-NC-ND
+Les technologies NoSQL sortent du cadre de ce cours. Néanmoins, nous invitons l'étudiant intéressé par cette problématique à consulter cette partie.
 
 Depuis des années, SQL (Structured Query Language) est le langage standard normalisé pour interroger et mettre à jour des bases de données relationnelles. Il s'est imposé jusque dans les systèmes pour construire des sites Web, avec PHP-MySQL. Mais les exigences d'applications « extrêmes » ont conduit à remettre en question sa suprématie. On retrouve des demandes difficiles à satisfaire avec des systèmes relationnels dans deux grandes classes d'applications :
 
@@ -178,7 +193,12 @@ Si les systèmes NoSQL connaissent de grands succès, il faut bien être conscie
 
 L'engouement actuel pour ces systèmes mal connus, mal compris, non normalisés, dont on peut penser parfois à tort qu'ils représentent un progrès alors qu'ils ne sont que des solutions alternatives pour certaines niches, risque de conduire à des désillusions. Dans la plupart des cas, il reste préférable de recourir à un système relationnel pour ses langages normalisés, sa richesse de fonctionnalité, sa robustesse et même ses performances (mais oui). Réservons au NoSQL les applications avec tellement de données ou tellement de transactions que la solution relationnelle est exclue.
 
-Des outils pour faire de l'UML
+- SQL vs NoSQL & les principes ACID : <https://youtu.be/Cq0yyYid-5Y>
+- What is, Types of NoSQL Databases & Example [eng] : <https://www.guru99.com/nosql-tutorial.html>
+- MongoDB cours [eng] : <https://www.w3schools.in/mongodb/overview>
+- Maîtrisez les bases de données NoSQL [fr] : <https://openclassrooms.com/fr/courses/4462426-maitrisez-les-bases-de-donnees-nosql/4462433-choisissez-votre-famille-nosql>
+
+# Des outils pour faire de l'UML
 
 StarUML
 

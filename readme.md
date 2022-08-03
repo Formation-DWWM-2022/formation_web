@@ -187,9 +187,10 @@ Hey! I'm @rstacruz and this is a modest collection of cheatsheets I've written.
 - Pool : <https://youtu.be/mP_fnttJ5g0>
 - Jesuisundev : <https://www.jesuisundev.com/argent-developpeur/>
 - Comment DEVENIR DÉVELOPPEUR WEB : 7 étapes INDISPENSABLES : <https://youtu.be/S_SU4gKoO-o>
-- La VÉRITÉ sur le salaire des développeurs ! : <https://youtu.be/Z3ejysKJC20>
 - L’erreur que TOUS les nouveaux développeurs font ! <https://youtu.be/MGG-km9vR_E?t=394>
-
+- La VÉRITÉ sur le salaire des développeurs ! [freelance] : <https://youtu.be/Z3ejysKJC20>
+-  Hugo Dev Club [freelance] : https://www.youtube.com/channel/UC6xa4ATj7MiusIm3UgXTM0g
+- DÉVELOPPEUR FREELANCE : @Captain Dev nous livre ses secrets ! [freelance] : https://youtu.be/zZlZtFOk1GE
 ---
 
 ## Le 11 juillet 2022 : [Salaire brut annuel - junior - en france]
