@@ -115,7 +115,7 @@ Ci-après les trois tables à utiliser pour la troisième partie des exercices. 
 | id | nom | prenom | sexe | nation
 | --- |--- | ---| --- |---
 | 16 | Scott | Ridley | 0 | uk
-| 22 | Aronofsky | Darren 0 | us
+| 22 | Aronofsky | Darren | 0 | us
 | 47 | Jenkins | Patty | 1 | us
 | 66 | Ritchie | Guy | 0 | uk
 
