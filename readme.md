@@ -90,7 +90,7 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 - [✔️ Paradigmes de programmation](./RAN/ParadigmesProgrammation/readme.md)
 
-      -[✔️ Programmation orientée objet](./RAN/ParadigmesProgrammation/POO.md)
+      - [✔️ Programmation orientée objet](./RAN/ParadigmesProgrammation/POO.md)
 
 - [✔️ Framework](./RAN/Framework/readme.md)
 
