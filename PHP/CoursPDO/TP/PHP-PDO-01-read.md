@@ -1,5 +1,7 @@
 # PDO - Partie 1 : Lire des données
 
+<!-- https://github.com/tomsihap/Exercices-PDO-partie-1/blob/master/correction.php -->
+
 **Exécuter le script colyseum.sql avant de commencer. Tous les résultats devront être afficher dans une page index.php.**
 
 ## Exercice 1
