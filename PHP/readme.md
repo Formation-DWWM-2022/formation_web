@@ -3,19 +3,8 @@
 https://github.com/TyTy-cf/hb-php/tree/main/heros
 -->
 
-# Dates [11j]
+# Dates
 
-- Semaine du 04 au 08 juillet - PHP Base - Cours / Exo [avec Allan]
-- Lundi 11 juillet - PHP Base - Cours / Exo
-- Mardi 12 juillet - PHP Base - Cours / Exo
-- Mercredi 13 juillet - PHP Base - Cours / Exo
-- Jeudi 14 juillet - Ferié
-- Vendredi 15 juillet - PHP Base - Cours / Exo
-- ... Autres modules ...
-- Mercredi 10 aout - PDO - Cours / Exo [avec Allan]
-- Jeudi 11 aout - PDO - Cours / Exo [avec Allan]
-- Vendredi 12 aout - PHP Avancée - Cours / Exo [avec Allan]
-- ... Vacances ...
 - Lundi 29 aout - PHP Avancée - Cours / Exo
 - Mardi 30 aout - PHP Avancée - Cours / Exo
 - Mercredi 31 aout - PHP Avancée - Cours / Exo

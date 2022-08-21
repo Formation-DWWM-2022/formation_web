@@ -1,6 +1,11 @@
 # [MR.ROBOT](https://www.allocine.fr/series/ficheserie_gen_cserie=17966.html)
 
-<!-- https://www.root-me.org/ -->
+<!-- 
+https://www.root-me.org/ 
+https://www.leblogduhacker.fr/category/hacking-ethique/failles-web/
+https://www.leblogduhacker.fr/sandbox/
+-->
+
 
 Elliot est un jeune programmeur anti-social qui souffre d'un trouble du comportement qui le pousse à croire qu'il ne peut rencontrer des gens qu'en les hackant. Il travaille pour une firme spécialisée dans la cyber-sécurité mais un homme connu sous le nom de Mr Robot l'approche un jour pour faire tomber une compagnie surpuissante qui fait partie de celles qu'il doit justement protéger...
 
