@@ -11,7 +11,7 @@ Modèle de requête :
 ```php
 
 // 1. On se connecte à la base de données
-$bdd = new PDO('mysql:host=localhost;dbname=blog;charset=utf8;port=3306', 'root', '');
+$bdd = new PDO('mysql:host=localhost;dbname=blog', 'root', '');
 
 // 2. On prépare la requête avec des marqueurs à la place des variables (ce sont les "fausses" variables commençant par ":")
 $request = $bdd->prepare('  INSERT INTO articles(title, content)

@@ -1,10 +1,10 @@
 # PDO - TP
 Pour tous les TP, il faudra respecter ces règles :
-- Respecter le modèle MVC
+<!-- Respecter le modèle MVC -->
 - Nommer ses variables, fonctions, bases, tables et champs en anglais
 - Soigner son CSS
 - Avoir un HTML valide
-- Utiliser des classes serait un plus
+<!-- Utiliser des classes serait un plus -->
 - Mettre des commentaires utiles
 
 ## TP 1
