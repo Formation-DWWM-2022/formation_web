@@ -1,60 +1,62 @@
-const pokedex = document.getElementById('pokedex');
-const user_id = 'totoman18';
-const playlist_id = `3JBZmo7q8WxOiufCvqIvmE`;
-const accessToken = 'BQD0-WYkJHvT5BkBBc_XcvnYjGDaWKNXAJZPB6i4mIg1pX1rBEY_3vrp4Joh8936431hzocfxApiLRijXWMxldAhRCNZiV5vf0CZeVbrsoNVIlgrjR5mloqP1nIgdCs5IG-UXepTNXta2iyAzrE5_bb25hL24TCQteuz-4iqZiZz1g';
+// https://developer.spotify.com/console/post-playlist-tracks/?playlist_id=&position=&uris=
+const playlist_id = `4LdTiE0oEwocUBJzyEZeQ7`;
+const accessToken = 'BQADc9jM81A-Wy01-HKjW298Ud9Vk605Cja_g-fES3J53_ivofLTUerYveaKTa3OI2asd_SMn6sXMij1cdBwaz90t-IDttqNx6VZMRVY5a7as9drinQWKGojLyRbqP1NPlnOsbWlh_DviLW4xO1TpBFQ7o28fzmHiGmzRSP6uBs4zjEiqIiEtOk3FyqeF6l-5GdPO_AfIicv2SLcQ0ZMMeHDhQ5FCwxgheDE0AsvdFY';
 const consumer_key = 'hTplvntDbREwGcqRXjrP';
 const consumer_secret = 'fAAuWwRtvrQGstWyDeZqiOfvOvOnRKoi';
 
-const fetchPokemon = () => {
-    let promises = [];
-    // const url = `https://api.spotify.com/v1/users/${user_id}/playlists`;
-    const url = `https://api.spotify.com/v1/playlists/${playlist_id}/tracks`;
-    promises.push(
-        fetch(url, {
-            method: 'GET', headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-                'Authorization': 'Bearer ' + accessToken
-            }
-        })
-            .then(
-                (res) => res.json()
-            )
-    );
-    Promise.all(promises).then((results) => {
-        console.log(results);
-        for (item of results[0].items) {
-            console.log(item.track.name);
-            fetchDiscogs(item.track.name)
-        }
-    });
-};
-
-
-const fetchDiscogs = (name) => {
-    let promises = [];
-    const url = `https://api.discogs.com/database/search?q=${name.replace(/ /g, "-").sansAccent()}`;
-    promises.push(fetch(url, {
+async function fetchPlaylistByURL(url) {
+    const response = await fetch(url, {
         method: 'GET', headers: {
-            'Authorization': 'Discogs key=' + consumer_key + ', secret=' + consumer_secret,
-            'Access-Control-Allow-Origin': '*'
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + accessToken
         }
-    })
-        .then(
-            (res) => res.json()
-        ), sleep(3000)
-
-
-    );
-    Promise.all(promises).then((results) => {
-        console.log(results);
     });
+    const results = await response.json();
+    let all = [...results.items];
+    if (results.next != null) {
+        r = await fetchPlaylistByURL(results.next);
+        all = [...all, ...r];
+    }
+    return all;
 }
 
-const sleep = (delay, resolveValue) => new Promise((resolve) => {
-    setTimeout(() => resolve(resolveValue), delay);
-});
+async function fetchPlaylist(playlist_id) {
+    const url = `https://api.spotify.com/v1/playlists/${playlist_id}/tracks`;
+    const response = await fetch(url, {
+        method: 'GET', headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + accessToken
+        }
+    });
+    const results = await response.json();
+    let all = [...results.items];
+    if (results.next != null) {
+        r = await fetchPlaylistByURL(results.next);
+        all = [...all, ...r];
+    }
+    return all;
+};
 
+async function fetchDiscogs(idmusic, name, artist) {
+    const url = `https://api.discogs.com/database/search?q=${name.replace(/ /g, "-").sansAccent()}&artist=${artist.replace(/ /g, "-").sansAccent()}&per_page=1`;
+    const response = await fetch(url, {
+        method: 'GET', headers: {
+            'Authorization': 'Discogs key=' + consumer_key + ', secret=' + consumer_secret,
+        }
+    })
+    const results = await response.json();
+    for (item of results.results) {
+        for (genre of item.style) {
+            console.log(item.style);
+            checkPlaylist(genre).then(idplaylist => {
+                addPlaylist(idmusic, idplaylist, name, artist);
+            });
+        }
+    }
+    return results;
+};
 
 String.prototype.sansAccent = function () {
     var accent = [
@@ -76,4 +78,100 @@ String.prototype.sansAccent = function () {
     return str;
 }
 
-fetchPokemon();
+async function fetchAllPlaylistByUrl(url) {
+    let plys = [];
+    const response = await fetch(url, {
+        method: 'GET', headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + accessToken
+        }
+    });
+    const results = await response.json();
+    let all = [...results.items];
+    if (results.next != null) {
+        r = await fetchAllPlaylistByUrl(results.next);
+        all = [...all, ...r];
+    }
+    for (item of all) {
+        plys[item.name] = item.id;
+    }
+    return plys;
+}
+
+async function fetchAllPlaylist() {
+    let plys = [];
+    const url = `https://api.spotify.com/v1/me/playlists?limit=50`;
+    const response = await fetch(url, {
+        method: 'GET', headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + accessToken
+        }
+    });
+    const results = await response.json();
+    let all = [...results.items];
+    if (results.next != null) {
+        r = await fetchPlaylistByURL(results.next);
+        all = [...all, ...r];
+    }
+    for (item of all) {
+        plys[item.name] = item.id;
+    }
+    return plys;
+}
+
+async function checkPlaylist(name) {
+    plys = await fetchAllPlaylist();
+    if (name in plys) {
+        return plys[name];
+    }
+    return false;
+}
+
+async function checkInPlaylist(idmusic, idplaylist) {
+    return await fetchPlaylist(idplaylist).then(results => {
+        for (item of results) {
+            if (idmusic == item.track.id) {
+                return true;
+            }
+        }
+        return false;
+    });
+}
+
+async function addPlaylist(idmusic, idplaylist, name, artist) {
+    inplaylist = await checkInPlaylist(idmusic, idplaylist);
+    if (idplaylist != false && inplaylist == false) {
+        const url = `https://api.spotify.com/v1/playlists/${idplaylist}/tracks?uris=spotify:track:${idmusic}`;
+        const response = await fetch(url, {
+            method: 'POST', headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + accessToken
+            }
+        });
+        const results = await response.json();
+        console.log('add', idmusic, idplaylist, name, artist)
+    } else {
+        console.log('exist', idmusic, idplaylist, name, artist);
+    }
+}
+
+fetchPlaylist(playlist_id).then(results => {
+    console.log('start');
+    let index = 0;
+    setInterval(() => {
+        index++;
+        if (index >= results.length) {
+            console.log('end');
+            return;
+        }
+        track = results[index].track;
+        console.log(track.name, track.artists[0].name);
+        fetchDiscogs(track.id, track.name, track.artists[0].name)
+    }, 3000)
+    return;
+}
+);
+
