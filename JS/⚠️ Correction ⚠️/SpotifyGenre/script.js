@@ -1,6 +1,6 @@
 // https://developer.spotify.com/console/post-playlist-tracks/?playlist_id=&position=&uris=
-const playlist_id = `4LdTiE0oEwocUBJzyEZeQ7`;
-const accessToken = 'BQCGEVb7umPew4O44XcCT8Pb0Rn2a439oN6vOVVBxPuM2X_hUq93chVjesZNbe4XrwRnKP7ue4q7zzEJ39tBgFdv6WVgNIFiFtLd1huvedtRSO9h7am7o_5Efe7aHc01TNzq41h1v-EWFBCiDEaHaLqNOCSh9lV0mNRq89Dj1OPtkqYBefhE2cU3Pt1-5JsTiatpBwOjAGDxyrDOXAdjOCM_j9_Nd_zmq8e6Sv_BvpM';
+const playlist_id = `3i0XzjwfqgKR5eqU7fz1QA`;
+const accessToken = 'BQDz5-5FN5zAHjn6HkznQvDpcbDRQuNxp5hPXK_6Z-6ocJnOfO6Q53GFHUjsVPSLxtO9N1XlwL-mvWEIFhhPdNujahKtva6vk2kmMOhdoOFNt2UMLYE1YUTonMhFaE93UvP7K_Hhq2ec1BRoOvoLy1euUmRN_TrwUp5tZm1jlCfHf51FHDxY2gSNUHjSlaOISUZoNW6Lt2wFYklHgn0_wFjo_bUkZNOZC85__Cmb7cc';
 const consumer_key = 'hTplvntDbREwGcqRXjrP';
 const consumer_secret = 'fAAuWwRtvrQGstWyDeZqiOfvOvOnRKoi';
 
@@ -126,6 +126,29 @@ async function fetchAllPlaylist() {
     return plys;
 }
 
+async function fetchNumberTotalPlaylist() {
+    let plys = [];
+    const url = `https://api.spotify.com/v1/me/playlists?limit=50`;
+    const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + accessToken
+        }
+    });
+    const results = await response.json();
+    let all = [...results.items];
+    if (results.next != null) {
+        r = await fetchPlaylistByURL(results.next);
+        all = [...all, ...r];
+    }
+    for (item of all) {
+        plys[item.name] = item.tracks.total;
+    }
+    return plys;
+}
+
 async function checkPlaylist(name) {
     plys = await fetchAllPlaylist();
     if (name in plys) {
@@ -164,10 +187,15 @@ async function addPlaylist(idmusic, idplaylist, name, artist) {
     }
 }
 
+fetchNumberTotalPlaylist().then(results => {
+    console.log(results);
+});
+
 fetchPlaylist(playlist_id).then(results => {
     console.log('start');
-    let index = 0;
+    let index = -1;
     setInterval(() => {
+        console.log(index);
         index++;
         if (index >= results.length) {
             console.log('end');
