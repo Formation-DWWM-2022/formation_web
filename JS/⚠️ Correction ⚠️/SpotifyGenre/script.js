@@ -1,12 +1,13 @@
 // https://developer.spotify.com/console/post-playlist-tracks/?playlist_id=&position=&uris=
 const playlist_id = `4LdTiE0oEwocUBJzyEZeQ7`;
-const accessToken = 'BQADc9jM81A-Wy01-HKjW298Ud9Vk605Cja_g-fES3J53_ivofLTUerYveaKTa3OI2asd_SMn6sXMij1cdBwaz90t-IDttqNx6VZMRVY5a7as9drinQWKGojLyRbqP1NPlnOsbWlh_DviLW4xO1TpBFQ7o28fzmHiGmzRSP6uBs4zjEiqIiEtOk3FyqeF6l-5GdPO_AfIicv2SLcQ0ZMMeHDhQ5FCwxgheDE0AsvdFY';
+const accessToken = 'BQCGEVb7umPew4O44XcCT8Pb0Rn2a439oN6vOVVBxPuM2X_hUq93chVjesZNbe4XrwRnKP7ue4q7zzEJ39tBgFdv6WVgNIFiFtLd1huvedtRSO9h7am7o_5Efe7aHc01TNzq41h1v-EWFBCiDEaHaLqNOCSh9lV0mNRq89Dj1OPtkqYBefhE2cU3Pt1-5JsTiatpBwOjAGDxyrDOXAdjOCM_j9_Nd_zmq8e6Sv_BvpM';
 const consumer_key = 'hTplvntDbREwGcqRXjrP';
 const consumer_secret = 'fAAuWwRtvrQGstWyDeZqiOfvOvOnRKoi';
 
 async function fetchPlaylistByURL(url) {
     const response = await fetch(url, {
-        method: 'GET', headers: {
+        method: 'GET',
+        headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + accessToken
@@ -24,7 +25,8 @@ async function fetchPlaylistByURL(url) {
 async function fetchPlaylist(playlist_id) {
     const url = `https://api.spotify.com/v1/playlists/${playlist_id}/tracks`;
     const response = await fetch(url, {
-        method: 'GET', headers: {
+        method: 'GET',
+        headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + accessToken
@@ -42,7 +44,8 @@ async function fetchPlaylist(playlist_id) {
 async function fetchDiscogs(idmusic, name, artist) {
     const url = `https://api.discogs.com/database/search?q=${name.replace(/ /g, "-").sansAccent()}&artist=${artist.replace(/ /g, "-").sansAccent()}&per_page=1`;
     const response = await fetch(url, {
-        method: 'GET', headers: {
+        method: 'GET',
+        headers: {
             'Authorization': 'Discogs key=' + consumer_key + ', secret=' + consumer_secret,
         }
     })
@@ -58,7 +61,7 @@ async function fetchDiscogs(idmusic, name, artist) {
     return results;
 };
 
-String.prototype.sansAccent = function () {
+String.prototype.sansAccent = function() {
     var accent = [
         /[\300-\306]/g, /[\340-\346]/g, // A, a
         /[\310-\313]/g, /[\350-\353]/g, // E, e
@@ -81,7 +84,8 @@ String.prototype.sansAccent = function () {
 async function fetchAllPlaylistByUrl(url) {
     let plys = [];
     const response = await fetch(url, {
-        method: 'GET', headers: {
+        method: 'GET',
+        headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + accessToken
@@ -103,7 +107,8 @@ async function fetchAllPlaylist() {
     let plys = [];
     const url = `https://api.spotify.com/v1/me/playlists?limit=50`;
     const response = await fetch(url, {
-        method: 'GET', headers: {
+        method: 'GET',
+        headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + accessToken
@@ -145,7 +150,8 @@ async function addPlaylist(idmusic, idplaylist, name, artist) {
     if (idplaylist != false && inplaylist == false) {
         const url = `https://api.spotify.com/v1/playlists/${idplaylist}/tracks?uris=spotify:track:${idmusic}`;
         const response = await fetch(url, {
-            method: 'POST', headers: {
+            method: 'POST',
+            headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
                 'Authorization': 'Bearer ' + accessToken
@@ -172,6 +178,4 @@ fetchPlaylist(playlist_id).then(results => {
         fetchDiscogs(track.id, track.name, track.artists[0].name)
     }, 3000)
     return;
-}
-);
-
+});
