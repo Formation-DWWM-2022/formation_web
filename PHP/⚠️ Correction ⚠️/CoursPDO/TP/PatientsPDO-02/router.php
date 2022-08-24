@@ -1,9 +1,11 @@
 <?php
 $parPage = 5;
 $currentPage = 1;
+
 try {
     $resultat = null;
     $db = connectBD('localhost', 'root', '', 'hospitalE2N');
+
     if (isset($_GET['action']) and $_GET['action'] != null) {
         if ($_GET['action'] == 'add-patient') {
             addPatient($db);

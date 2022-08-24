@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <title>Title</title>
@@ -17,7 +17,7 @@
 </nav>
 
 <?php
-include 'C:\wamp64\www\TestWebPHP\loader.php';
+include 'D:\wamp64\www\PatientsPDO-02\loader.php';
 showMessage();
 ?>
 

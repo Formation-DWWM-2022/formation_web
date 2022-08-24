@@ -1,8 +1,8 @@
 <?php
 function addMessage($type, $msg)
 {
-    if (isset($SESSION['messages']) and !empty($SESSION['messages'])) {
-        $messages = $SESSION['messages'];
+    if (isset($_SESSION['messages']) and !empty($_SESSION['messages'])) {
+        $messages = $_SESSION['messages'];
     }
     $messages[] = [$type => $msg];
     $_SESSION['messages'] = $messages;
@@ -15,7 +15,7 @@ function removeMessages()
 
 function showMessage()
 {
-    if (isset($_SESSION['messages']) and empty($SESSION['messages'])) {
+    if (isset($_SESSION['messages']) and !empty($_SESSION['messages'])) {
         foreach ($_SESSION['messages'] as $messages) {
             foreach ($messages as $type => $msg){
                 ?>

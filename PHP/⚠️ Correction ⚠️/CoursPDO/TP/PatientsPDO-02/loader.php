@@ -1,6 +1,6 @@
 <?php
 session_start();
-// var_dump($_SESSION, $_POST, $_GET);
+var_dump($_SESSION, $_POST, $_GET);
 
 // SERVICE
 include "service/bdd.php";
