@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "pseudo": "cc",
+        "email": "cc@example.fr",
+        "password": "ejhgvfyegbfvuyeg"
+    },
+    {
+        "id": 2,
+        "pseudo": "aa",
+        "email": "aa@example.fr",
+        "password": "ergerger"
+    },
+    {
+        "id": "62da59d229885",
+        "pseudo": "cc",
+        "email": "alex@drosalys.fr",
+        "password": "$2y$10$4Vhy.qB8ErvR\/Grz8xU\/a.K\/E7tniD76O9H0tnP8EzhhAxPy0aF6u"
+    },
+    {
+        "id": "62da5d86bdc05",
+        "pseudo": "cc",
+        "email": "pm@d.fr",
+        "password": "$2y$10$UBoAEyqZRpvevd99IqooVOuR0.ETnHXPHHGW.CH38Zl.5RjIylD4K"
+    },
+    {
+        "id": "6305f3d636150",
+        "pseudo": "&lt;h1&gt;ccc&lt;\/h1&gt;",
+        "email": "alexzev@drosalys.fr",
+        "password": "$2y$10$E2RS2kMshIdfsVXhko.QtuyXrXc3CA0JquZXfXv\/94QmtB9wY5cxK"
+    }
+]

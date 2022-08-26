@@ -1,6 +1,6 @@
 // https://developer.spotify.com/console/post-playlist-tracks/?playlist_id=&position=&uris=
-const playlist_id = `3i0XzjwfqgKR5eqU7fz1QA`;
-const accessToken = 'BQDz5-5FN5zAHjn6HkznQvDpcbDRQuNxp5hPXK_6Z-6ocJnOfO6Q53GFHUjsVPSLxtO9N1XlwL-mvWEIFhhPdNujahKtva6vk2kmMOhdoOFNt2UMLYE1YUTonMhFaE93UvP7K_Hhq2ec1BRoOvoLy1euUmRN_TrwUp5tZm1jlCfHf51FHDxY2gSNUHjSlaOISUZoNW6Lt2wFYklHgn0_wFjo_bUkZNOZC85__Cmb7cc';
+const playlist_id = `71v9IFSsguAZlw3WL8Ai5m`;
+const accessToken = 'BQA7VDcv5o6O2TkTqlJoaUGo-b2ybC2R9sf2y0o-WyvudTzBtLBU3dqXhAMVeHVJtHD7n9vEoc3uHBQjgobr24_LcBT_gQbMXspcxUDdMMkwoTJsKtup9ryMNVwGX3KrfiMmKKAnH8WizWUjo00f8PlK8fwOHCXchEpu_JOVU5l6Uk8QyC-HM3Y87FvW1oXfKII1sL9CcZP66xAoTR_Lk-Rs_L6XbveRX3-5AwFh_Js';
 const consumer_key = 'hTplvntDbREwGcqRXjrP';
 const consumer_secret = 'fAAuWwRtvrQGstWyDeZqiOfvOvOnRKoi';
 
