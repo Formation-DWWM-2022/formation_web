@@ -4,19 +4,16 @@ include 'loader.php';
 try {
     $resultat = null;
     $db = connectBD('localhost', 'root', '', 'mediathequewf3');
-    $id = (isset($_POST['id'])
-        and checkForm(['id' => $_POST['id']])['valide'] == 1)
-        ? $_POST['id'] : null;
+    $id = (isset($_GET['id']) and checkForm(['id' => $_GET['id']])) ? $_GET['id'] : null;
     $currentPage = (isset($_GET['page']) and $_GET['page'] > 0) ? (int)$_GET['page'] : 1;
-
     if (
         isset($_GET['action'])
         and $_GET['action'] != null
         and isset($_GET['type'])
         and $_GET['type'] != null
     ) {
-        $action = $_GET['action'];
-        $type = $_GET['type'];
+        $action = htmlspecialchars($_GET['action']);
+        $type = htmlspecialchars($_GET['type']);
 
         // AUTH
         if ($type == 'auth') {
@@ -87,7 +84,7 @@ try {
                     $repo->update($media);
                 }
             } else {
-                header('Location: index.php');
+                //header('Location: index.php');
             }
 
         } elseif ($type == 'type') {
