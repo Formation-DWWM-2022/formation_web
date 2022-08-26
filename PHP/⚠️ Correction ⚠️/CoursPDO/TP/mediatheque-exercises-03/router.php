@@ -157,7 +157,7 @@ try {
                             type.id AS tid, type.name
                             FROM user
                             LEFT JOIN media ON user.media_id = media.id 
-                            LEFT JOIN type ON media.type_id = type.id WHERE user.id = ' . $id);
+                            LEFT JOIN type ON media.type_id = type.id WHERE user.id = "' . $id . '"');
             } elseif ($action == 'liste' and $currentPage > 0) {
                 $users = $repo->fetchAllWithLimit($currentPage, $parPage);
             } elseif ($action == 'liste') {
