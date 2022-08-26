@@ -51,7 +51,6 @@ class TypeRepository
         $sth = $this->db->prepare('DELETE FROM type WHERE id = :id');
         $sth->bindParam(':id', $id);
         $sth->execute();
-        return $sth->fetch(PDO::FETCH_ASSOC);
     }
 
     function update(Type $type)

@@ -1,22 +1,37 @@
 <?php
 
+/**
+ *
+ */
 class Media
 {
+    /**
+     * @var int|null
+     */
     private ?int $id;
+    /**
+     * @var string
+     */
     private string $title;
+    /**
+     * @var string
+     */
     private string $creator;
-    private int $type_id;
+    /**
+     * @var Type|null
+     */
+    private ?Type $type_id;
 
     /**
      * @param int|null $id
      * @param string $title
      * @param string $creator
-     * @param int $type_id
+     * @param Type|null $type_id
      */
     public function __construct(int $id = null,
                                 string $title,
                                 string $creator,
-                                int    $type_id)
+                                Type $type_id = null)
     {
         if ($id != null) {
             $this->id = $id;
@@ -75,17 +90,17 @@ class Media
     }
 
     /**
-     * @return int
+     * @return Type|null
      */
-    public function getTypeId(): int
+    public function getTypeId(): ?Type
     {
         return $this->type_id;
     }
 
     /**
-     * @param int $type_id
+     * @param Type|null $type_id
      */
-    public function setTypeId(int $type_id): void
+    public function setTypeId(?Type $type_id): void
     {
         $this->type_id = $type_id;
     }

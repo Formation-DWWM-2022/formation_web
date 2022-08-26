@@ -15,15 +15,12 @@
     <select class="form-control" id="type_id" name="type_id">
         <?php foreach ($types as $type) { ?>
             <option
-                <?php echo (isset($media) and $media->type_id == $type->id)
+                <?php echo (isset($media) and $media->getTypeId() == $type)
                     ? 'selected' : ''; ?>
-                    value="<?= $type->id; ?>">
-                <?= $type->name; ?>
+                    value="<?= $type->getId(); ?>">
+                <?= $type->getName(); ?>
             </option>
         <?php } ?>
     </select>
-    <input type="text" class="form-control" id="type_id" name="type_id"
-           placeholder="type_id"
-           value="<?php echo (isset($media) and $media->getTypeId() != null) ? $media->getTypeId() : '' ?>">
 </div>
 <button type="submit" class="btn btn-primary">Envoyer</button>

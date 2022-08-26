@@ -9,14 +9,13 @@
                     echo $_SESSION['pseudo'];
                     ?>
                     <a href="admin.php" class="btn btn-success">Admin</a>
-                    <a class="btn btn-primary" href="router.php?action=deconnexion&type=auth">Deconnexion</a>
-
+                    <a class="btn btn-primary" href="index.php?action=deconnexion&type=auth">Deconnexion</a>
                     <?php
                 }
                 ?>
             </h4>
             <div class="row">
-                <form method="post" class="col-6" action="router.php?action=inscription&type=auth">
+                <form method="post" class="col-6" action="index.php?action=inscription&type=auth">
                     <div class="mb-3">
                         <h3>Inscription</h3>
                     </div>
@@ -40,7 +39,7 @@
                     </div>
                 </form>
 
-                <form class="col-6" method="post" action="router.php?action=connexion&type=auth">
+                <form class="col-6" method="post" action="index.php?action=connexion&type=auth">
                     <h3>Connexion</h3>
                     <div class="mb-3">
                         <input class="form-control" type="email" name="mail" placeholder="Email">
