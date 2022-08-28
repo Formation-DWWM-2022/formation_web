@@ -1,6 +1,9 @@
 # PHP
 <!--
 https://github.com/TyTy-cf/hb-php/tree/main/heros
+https://github.com/phprouter/main
+https://phprouter.com/
+https://grafikart.fr/tutoriels/router-628
 -->
 
 # Dates
