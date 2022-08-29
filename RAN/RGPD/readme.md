@@ -1,0 +1,1 @@
+<!-- https://lincnil.github.io/Guide-RGPD-du-developpeur/ -->
