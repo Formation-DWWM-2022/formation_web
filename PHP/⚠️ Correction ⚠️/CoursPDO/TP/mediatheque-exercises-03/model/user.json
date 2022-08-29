@@ -28,5 +28,11 @@
         "pseudo": "&lt;h1&gt;ccc&lt;\/h1&gt;",
         "email": "alexzev@drosalys.fr",
         "password": "$2y$10$E2RS2kMshIdfsVXhko.QtuyXrXc3CA0JquZXfXv\/94QmtB9wY5cxK"
+    },
+    {
+        "id": "63086906e0875",
+        "pseudo": "pseudo",
+        "email": "a@drosalys.fr",
+        "password": "$2y$10$g23tkRDy5UJnpWK5YdPq2uH2WNnDHX6KYNQiI72B3Da37b9XZBKs."
     }
 ]

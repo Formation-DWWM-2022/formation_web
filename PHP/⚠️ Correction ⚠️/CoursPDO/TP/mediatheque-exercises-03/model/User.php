@@ -2,36 +2,48 @@
 
 class User
 {
-    private string $id = '';
+    private ?string $id;
     private string $pseudo;
     private string $password;
     private string $email;
+    private ?Media $media_id;
 
     /**
+     * @param string|null $id
      * @param string $pseudo
      * @param string $password
      * @param string $email
+     * @param Media|null $media_id
      */
-    public function __construct(string $pseudo, string $password, string $email)
+    public function __construct(string $id = null,
+                                string $pseudo,
+                                string $password,
+                                string $email,
+                                Media $media_id = null)
     {
-        $this->id = uniqid();
+        if($id == null){
+            $this->id = uniqid();
+        }else{
+            $this->id = $id;
+        }
         $this->pseudo = $pseudo;
         $this->password = $password;
         $this->email = $email;
+        $this->media_id = $media_id;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getId(): string
+    public function getId(): ?string
     {
         return $this->id;
     }
 
     /**
-     * @param string $id
+     * @param string|null $id
      */
-    public function setId(string $id): void
+    public function setId(?string $id): void
     {
         $this->id = $id;
     }
@@ -82,6 +94,22 @@ class User
     public function setEmail(string $email): void
     {
         $this->email = $email;
+    }
+
+    /**
+     * @return Media|null
+     */
+    public function getMediaId(): ?Media
+    {
+        return $this->media_id;
+    }
+
+    /**
+     * @param Media|null $media_id
+     */
+    public function setMediaId(?Media $media_id): void
+    {
+        $this->media_id = $media_id;
     }
 }
 

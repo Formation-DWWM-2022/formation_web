@@ -8,20 +8,24 @@
                     <th scope="col">#</th>
                     <th scope="col">pseudo</th>
                     <th scope="col">email</th>
+                    <th scope="col">media</th>
+                    <th scope="col">action</th>
                 </tr>
                 </thead>
                 <tbody>
                 <?php
                 if ($users != null) {
-                    foreach ($users as $user) { ?>
+                    foreach ($users as $user) {
+                        ?>
                         <tr>
                             <th scope="row"><?= $user->getId() ?></th>
-                            <td><?= $user->getPseudo() ?></td>
-                            <td><?= $user->getEmail() ?></td>
-<!--                            <td>-->
-<!--                                <a href="profil-user.php?action=profil&type=user&id=--><?//= $user->getId() ?><!--"-->
-<!--                                   class="btn btn-primary">voir user</a>-->
-<!--                            </td>-->
+                            <td><?= $user->getPseudo() != null ? $user->getPseudo() : '' ?></td>
+                            <td><?= $user->getEmail() != null ? $user->getEmail() : '' ?></td>
+                            <td><?= $user->getMediaId() != null ? $user->getMediaId()->getTitle() : '' ?></td>
+                            <td>
+                                <a href="profil-user.php?action=profil&type=user&id=<?= $user->getId() ?>"
+                                   class="btn btn-primary">voir user</a>
+                            </td>
                         </tr>
                     <?php }
                 }

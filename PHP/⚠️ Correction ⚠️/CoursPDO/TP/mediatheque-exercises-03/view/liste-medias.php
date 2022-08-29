@@ -23,7 +23,7 @@
                             <th scope="row"><?= $media->getId() ?></th>
                             <td><?= $media->getTitle() ?></td>
                             <td><?= $media->getCreator() ?></td>
-                            <td><?= $media->getTypeId() ?></td>
+                            <td><?= $media->getTypeId()->getName() ?></td>
                             <td>
                                 <a href="profil-media.php?action=profil&type=media&id=<?= $media->getId() ?>"
                                    class="btn btn-primary">voir media</a>
@@ -50,7 +50,7 @@
                 </ul>
             </nav>
 
-            <a href="ajout-media.php" class="my-3 btn btn-primary">ajout media</a>
+            <a href="ajout-media.php?action=ajout&type=media" class="my-3 btn btn-primary">ajout media</a>
         </div>
     </div>
 </div>

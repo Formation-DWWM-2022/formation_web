@@ -16,7 +16,7 @@ class MediaRepository
 
         $title = $media->getTitle();
         $creator = $media->getCreator();
-        $type_id = $media->getTypeId();
+        $type_id = $media->getTypeId()->getId();
 
         var_dump($title, $creator, $type_id);
 
@@ -34,21 +34,29 @@ class MediaRepository
 
     function fetchAll()
     {
-        $sth = $this->db->prepare('SELECT * FROM media');
+        $req = 'SELECT media.id, media.title, media.creator, media.type_id, type.name
+                FROM media 
+                LEFT JOIN type ON media.type_id = type.id 
+                ORDER BY media.title ASC';
+        $sth = $this->db->prepare($req);
         $sth->execute();
-        return $sth->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE,
-            'Media',
-            [NULL, '', '', 0]);
+        $result = $sth->fetchAll(PDO::FETCH_ASSOC);
+        foreach ($result as $media) {
+            $medias[] = new Media($media['id'], $media['title'],
+                $media['creator'], new Type($media['type_id'],
+                    $media['name']));
+        }
+        return $medias;
     }
 
-    function fetch($req)
+    function fetch($req): Media
     {
         $sth = $this->db->prepare($req);
         $sth->execute();
-        $sth->setFetchMode(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE,
-            'Media',
-            [NULL, '', '', 0]);
-        return $sth->fetch();
+        $media = $sth->fetch(PDO::FETCH_ASSOC);
+        return new Media($media['mid'], $media['title'],
+            $media['creator'], new Type($media['type_id'],
+                $media['name']));
     }
 
     function delete($id)
@@ -56,7 +64,6 @@ class MediaRepository
         $sth = $this->db->prepare('DELETE FROM media WHERE id = :id');
         $sth->bindParam(':id', $id);
         $sth->execute();
-        return $sth->fetch(PDO::FETCH_ASSOC);
     }
 
     function update(Media $media)
@@ -67,7 +74,7 @@ class MediaRepository
         $id = $media->getId();
         $title = $media->getTitle();
         $creator = $media->getCreator();
-        $type_id = $media->getTypeId();
+        $type_id = $media->getTypeId()->getId();
 
         if ($title != null and $creator != null and $type_id != null and $id != null) {
             $sth = $this->db->prepare($req);
@@ -89,18 +96,24 @@ class MediaRepository
         return $sth->fetch(PDO::FETCH_ASSOC);
     }
 
-    public function fetchAllWithLimit($currentPage, $parPage)
+    public function fetchAllWithLimit($currentPage, $parPage): array
     {
         $premier = ($currentPage * $parPage) - $parPage;
-        $req = 'SELECT id, title, creator, type_id FROM media ORDER BY title 
-            DESC LIMIT :premier, :parpage';
+        $medias = [];
+        $req = 'SELECT media.id, media.title, media.creator, media.type_id, type.name
+                FROM media 
+                LEFT JOIN type ON media.type_id = type.id 
+                ORDER BY media.title ASC LIMIT :premier, :parpage';
         $sth = $this->db->prepare($req);
         $sth->bindValue(':premier', $premier, PDO::PARAM_INT);
         $sth->bindValue(':parpage', $parPage, PDO::PARAM_INT);
         $sth->execute();
-        $medias = $sth->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE,
-            'Media',
-            [NULL, '', '', 0]);
+        $result = $sth->fetchAll(PDO::FETCH_ASSOC);
+        foreach ($result as $media) {
+            $medias[] = new Media($media['id'], $media['title'],
+                $media['creator'], new Type($media['type_id'],
+                    $media['name']));
+        }
         return $medias;
     }
 }

@@ -4,7 +4,7 @@
         <div class="col-12">
             <h1 class="my-3">Admin</h1>
 
-            <a class="btn btn-primary" href="router.php?action=deconnexion">Deconnexion</a>
+            <a class="btn btn-primary" href="router.php?action=deconnexion&type=auth">Deconnexion</a>
 
             <h4>
                 <?php
