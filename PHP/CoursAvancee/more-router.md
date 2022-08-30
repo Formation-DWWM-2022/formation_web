@@ -126,9 +126,7 @@ public function match($url){
     $this->matches = $matches;
     return true;
 }
-```
 
-```php
 private function paramMatch($match){
     if(isset($this->params[$match[1]])){
         return '(' . $this->params[$match[1]] . ')';

@@ -5,6 +5,14 @@ https://www.root-me.org/
 https://www.leblogduhacker.fr/category/hacking-ethique/failles-web/
 https://www.leblogduhacker.fr/sandbox/
 https://www.cnil.fr/fr/cybersecurite
+https://nouvelle-techno.fr/articles/php-les-failles-et-attaques-courantes-comment-se-proteger
+https://www.youtube.com/watch?v=9nOtmUSBR90
+https://www.hackerone.com/hackers
+https://fr.wikipedia.org/wiki/George_Hotz
+https://github.com/geohot
+
+https://fr.wikipedia.org/wiki/Jo%C3%ABl_Spolsky
+https://fr.wikipedia.org/wiki/Jeff_Atwood
 -->
 
 
