@@ -53,15 +53,15 @@ L’ensemble des acteurs de cette concertation ont pour l’instant déposé pas
 
 En ce qui concerne les fonctionnalités clés de l’initiative, elles seront déployées d’ici 2022. Ainsi, la communauté des développeurs pourra commencer à prendre en main ces nouveaux outils et les adopter massivement. Ce n’est qu’à la fin 2022 que Google commencera la phase 1 une fois les tests terminés et les API déployées dans Chrome. La disparition des cookies tiers sera ensuite progressive et s’étalera sur trois mois entre la mi-2023 pour se terminer à la fin de cette même année. 
 
+[Privacy Sandbox - Google](https://youtu.be/I9jzqbdxAdk)
+
+---
+
 # Chrome : Google repousse la fin des cookies à 2024 
 
 Les cookies, ces fichiers laissés par les sites web pour suivre l'internaute et lui proposer des publicités personnalisées, ont mauvaise presse. À tel point que Google prépare leur disparition de Chrome, mais il faudra se monter plus patient qu'annoncé. 
 
 Début 2020, Google annonçait la fin progressive des cookies tiers, ceux qui permettent aux sites web et aux annonceurs de créer un profil publicitaire à l’internaute. Cela ne signifiait pas évidemment que le moteur de recherche allait abandonner sa poule aux œufs d’or : l’entreprise a mis au point une nouvelle technique de suivi, en fait un ensemble de techniques baptisées « Privacy Sandbox ».
-
-[](https://youtu.be/I9jzqbdxAdk)
-
----
 
 # Des cookies dont personne ne veut plus
 
