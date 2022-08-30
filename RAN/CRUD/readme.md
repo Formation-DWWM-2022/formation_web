@@ -189,7 +189,7 @@ require_once('close.php');
 </html>
 ```
 
-Affichage d'un seul enregistrement de la base de données (READ)
+# Affichage d'un seul enregistrement de la base de données (READ)
 
 Nous allons maintenant afficher un enregistrement de la table "liste" dans le fichier "details.php" sur la base de son "id".
 
