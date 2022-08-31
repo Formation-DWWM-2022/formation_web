@@ -6,6 +6,7 @@
             - Cours interactif
                 - Introduction à Git et GitHub
 - Memo : http://ndpsoftware.com/git-cheatsheet.html#loc=workspace
+- Tiktok : https://vm.tiktok.com/ZMNcPr6kp/
 
 # TP Git & Github
 ## 0. Quelques pré requis

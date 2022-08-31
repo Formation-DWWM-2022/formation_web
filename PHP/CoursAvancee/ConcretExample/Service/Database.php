@@ -66,7 +66,7 @@ class Database
         return $n;
     }
 
-    function delete($table, $cond = null)
+    function deleteCond($table, $cond = null)
     {
         $sql = "DELETE FROM `$table`";
         if ($cond) {
@@ -80,6 +80,18 @@ class Database
             }
             $stmt->execute();
             return $stmt->rowCount(); // 1
+        } catch (PDOException $e) {
+            return 'Error: ' . $e->getMessage();
+        }
+    }
+
+    function delete(int $id)
+    {
+        try {
+            $stmt = $this->db->prepare("DELETE FROM {$this->table} WHERE id = :id");
+            $stmt->bindParam(':id', $id);
+            $stmt->execute();
+            return $stmt->rowCount();
         } catch (PDOException $e) {
             return 'Error: ' . $e->getMessage();
         }

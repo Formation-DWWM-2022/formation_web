@@ -1,0 +1,1 @@
+<!-- https://github.com/TyTy-cf/hb-php/tree/main/mvc_api/pokemon -- >

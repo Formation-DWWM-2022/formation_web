@@ -1,12 +1,18 @@
 # Template PHP : c’est quoi ?
 
+- ob_start : https://youtu.be/UAlLDgP2AUo
+
 Le principe est de séparer le code PHP de la mise en page HTML; Le code PHP dans un fichier, la mise en page contenant les balises HTML dans un autre fichier. On se retrouve alors avec, d’un coté, le script qui fait tout ce qu’il a à faire (ex: récupération de données dans une base de données, traitement…), et d’un autre coté, la mise en page avec des zones prédéfinies où seront placées les données générées par le script.
+
+![](https://nouvelle-techno.fr/assets/uploads/content/3a26c490110a26e47761864c9a1d7257.jpg)
 
 L’avantage évident est de pouvoir travailler uniquement sur la mise en page, sans modifier quoi que ce soit dans le code PHP et inversement, ou de diviser efficacement le travail à faire, le programmeur s’occupant uniquement de la partie scripting, et le designeur, de la mise en page.
 
 Représentation simpliste du fonctionnement d’un système de template :
 
 ![](https://phpcodeur.net/wp-content/uploads/2021/09/php_templates_1.jpg)
+
+En PHP les fonctions de bufferisation de sortie : https://www.php.net/manual/fr/ref.outcontrol.php
 
 # Template TWIG
 

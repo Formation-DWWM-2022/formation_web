@@ -5,9 +5,6 @@ https://gist.github.com/tomsihap/0e10bd34ed1cb8ba1366866849e3da96
 Création d'une API
 https://gist.github.com/tomsihap/17348ad09c632282ecf55d1552d0dd0a
 
-Utiliser une API avec AJAX et jQuery
-https://gist.github.com/tomsihap/930cd94463ced8539b9ca7fe7a1e2434
-
 EXERCICE [ROUTE] : Créer des pages [ROUTE]
 EXERCICE [ROUTE] : Gérer un formulaire 
 EXERCICE [ROUTE] : Enregistrer les données d'un formulaire
@@ -18,8 +15,4 @@ https://gist.github.com/tomsihap/4c3ad916e9c587f6ec03fb9a21226b08
 
 Combat PDO
 https://github.com/Alexandre-Loretzin/TP_combat
-
-https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/switch/ 
-
-https://www.lephpfacile.com/cours/
 -->

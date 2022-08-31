@@ -1,15 +1,6 @@
 # PHP
-<!--
-https://github.com/TyTy-cf/hb-php/tree/main/heros
-https://github.com/phprouter/main
-https://phprouter.com/
-https://grafikart.fr/tutoriels/router-628
--->
-
 # Dates
 
-- Lundi 29 aout - PHP Avancée - Cours / Exo
-- Mardi 30 aout - PHP Avancée - Cours / Exo
 - Mercredi 31 aout - PHP Avancée - Cours / Exo
 - Jeudi 01 septembre - PHP Avancée - Cours / Exo
 - Vendredi 02 septembre - PHP Avancée - Cours / Exo
