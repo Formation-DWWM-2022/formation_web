@@ -1,6 +1,7 @@
 # L’architecture MVC : bien la comprendre
 
 - Le MVC qu’est ce que c’est ? (Model View Controller) : https://youtu.be/HxhwAc7zzgE
+- What Is The MVC Model : https://youtu.be/3OKOe7CraGY?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
 
 Modèle-vue-contrôleur ou MVC est un motif d'architecture logicielle destiné aux interfaces graphiques lancé en 1978 et très populaire pour les applications web. Ce type d’architecture, aujourd’hui très répandu dans les projets d’applications web, doit son succès notamment à sa forte maintenabilité et à sa facilité à être utilisé en travail collaboratif. Le motif est composé de trois types de modules ayant trois responsabilités différentes : les modèles, les vues et les contrôleurs.
 
