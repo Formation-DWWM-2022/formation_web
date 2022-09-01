@@ -7,12 +7,12 @@
 - Coding
 - Exo
 
-## Level :
+## Level 2 :
 - QCM
 - Spotify
 - RPG
 
-## Level :
+## Level 3 :
 - Travaux pratique
     - TP1
     - TP2
