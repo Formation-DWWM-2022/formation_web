@@ -1,4 +1,6 @@
-# Hydrarter
+# Hydrater
+
+-  Hydrater les entités : https://youtu.be/aYBBWC9Gv7s
 
 Hydrater ? Un terme précis pour dire que le formulaire va remplir les attributs de l'objet avec les valeurs entrées par le visiteur. Faire <?php setPseudo('winzou') ?> et <?php setDate(new \Datetime()) ?>, etc., c'est hydrater l'objet Article.
 

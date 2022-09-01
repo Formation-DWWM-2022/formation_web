@@ -13,9 +13,9 @@ Version actuelle : 8, publiée le 8 septembre 2020.
 
 Exigences techniques :
 
-    PHP >= 7.2.5 (ou utiliser Laravel Homestead)
-    Composer installé
-    Prise en charge des bases de données MySQL 5.6+, PostgreSQL 9.4+, SQLite 3.8.8+, SQL Server 2017+.
+- PHP >= 7.2.5 (ou utiliser Laravel Homestead)
+- Composer installé
+- Prise en charge des bases de données MySQL 5.6+, PostgreSQL 9.4+, SQLite 3.8.8+, SQL Server 2017+.
 
 ### Les avantages de Laravel
 
@@ -31,12 +31,12 @@ Packalyst, une collection de paquets Laravel, compte plus de 15 000 paquets que 
 
 Laravel fournit une gamme de méthodes et de fonctionnalités de sécurité, couvrant les points suivants :
 
-    Authentification
-    Autorisation
-    Vérification d’e-mail
-    Cryptage
-    Hachage
-    Réinitialisation du mot de passe
+- Authentification
+- Autorisation
+- Vérification d’e-mail
+- Cryptage
+- Hachage
+- Réinitialisation du mot de passe
 
 Eloquent ORM et Fluent Query Builder de Laravel protègent contre les attaques par injection SQL car ils utilisent la liaison de paramètres PDO. La protection contre la falsification de requêtes intersites (Cross-Site Request Forgery – CSRF), qui utilise un jeton de formulaire CSRF caché, est également activée par défaut.
 
@@ -48,20 +48,20 @@ L’écosystème Laravel dispose de plusieurs outils utiles tels que Mix pour la
 
 Laravel bénéficie d’une large communauté de développeurs (comme WordPress). Vous pouvez les trouver sur :
 
-    Laracasts : un portail d’apprentissage avec des cours, un blog, un podcast et un forum.
-    io : un portail communautaire avec plus de 45 000 utilisateurs.
-    Le sous-reddit Laravel : elle abrite 50 000 artisans Laravel.
+- Laracasts : un portail d’apprentissage avec des cours, un blog, un podcast et un forum.
+- io : un portail communautaire avec plus de 45 000 utilisateurs.
+- Le sous-reddit Laravel : elle abrite 50 000 artisans Laravel.
 
 ### Qui utilise Laravel ?
 
-    Vogue archive – mode
-    Ascot – hippodrome
-    Camping World RV & Outdoors – détaillant
-    Restaurants.com – moteur de recherche pour les restaurants
-    Barchart – stocks et partage
-    Visit Maine – tourisme
-    Fischer Homes – construction
-    Explore Georgia – tourisme
+- Vogue archive – mode
+- Ascot – hippodrome
+- Camping World RV & Outdoors – détaillant
+- Restaurants.com – moteur de recherche pour les restaurants
+- Barchart – stocks et partage
+- Visit Maine – tourisme
+- Fischer Homes – construction
+- Explore Georgia – tourisme
 
 ## Symfony
 
@@ -77,8 +77,8 @@ Version actuelle : 5.1.4
 
 Exigences techniques :
 
-    PHP >= 7.2.5
-    Composer installé
+- PHP >= 7.2.5
+- Composer installé
 
 ### Les avantages de Symfony
 

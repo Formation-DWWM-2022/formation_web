@@ -73,3 +73,27 @@ Comme on l’a vu au long de ce cours, MVC est un pattern de développement aujo
 Basé sur ses trois éléments (modèle, vue, contrôleur), il permet d’uniformiser un développement, très utile pour un travail en équipe.
 
 Cependant, il a ses avantages et inconvénients, inconvénients qui ont poussé à l’émergence de son évolution, [Flux](../Flux/readme.md), très utilisé aujourd’hui via React.
+
+# Symfony VS Flat PHP
+Pourquoi Symfony est-il mieux que d’ouvrir un fichier et d’écrire en PHP procedurale ?
+
+Si vous n’avez jamais utilisé de framework PHP, si vous n’êtes pas familier avec la philosophie Model-View-Controller (MVC), ou si vous vous demandez simplement quel est la hype autour de Symfony, cet article est pour vous. Au lieu de vous dire que Symfony vous permet de développer un logiciel plus rapide et meilleur qu’avec PHP procedurale, vous verrez par vous-même.
+
+Dans cet article, vous écrirez une application de base en PHP procedurale, puis la refacturerez pour qu’elle soit plus organisée. Vous voyagerez à travers le temps, en voyant les décisions derrière pourquoi le développement web a évolué au cours des dernières années à où il est maintenant.
+
+À la fin, vous verrez comment Symfony peut vous sauver de tâches banales et vous laisser reprendre le contrôle de votre code.
+
+Sommaire :
+- Un blog de base en PHP procedurale
+    - Isoler la présentation
+    - Isolation de la logique d’application (domaine)
+    - Isolation de la disposition
+- Ajouter une page "show" Blog
+- Un "contrôleur avant" à la rescousse
+    - Création du contrôleur avant
+    - Ajoutez une touche de Symfony
+    - L’exemple d’application dans Symfony
+- Où Symfony livre
+
+
+- https://symfony.com/doc/current/introduction/from_flat_php_to_symfony.html

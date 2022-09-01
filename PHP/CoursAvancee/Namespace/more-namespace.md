@@ -1,7 +1,6 @@
-# Namespaces et Autoload
+# Namespaces
 
 - Les namespaces : https://youtu.be/kvtDrWCiLAw?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
-- Autoloading et Composer : https://youtu.be/HuXWn20lLao?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
 
 Dans cette partie, nous allons voir comment organiser nos classes afin de simplifier la structure et éviter les conflits avec d'autres objets qui porteraient le même nom. Nous verrons également dans la 2ème partie comment mettre en place un chargement automatique de nos fichiers afin d'éviter de mettre de nombreuses lignes de "require".
 
