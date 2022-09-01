@@ -55,7 +55,8 @@ Changez le code pour résoudre le problème.
 
 Essayez d’écrire la solution avec une méthode getter à l’intérieur du parent qui peut être utilisée à partir de la classe enfant.
 
----  
+--- 
+ 
 Dans l’exemple suivant, nous créerons une classe Utilisateur abstraite et deux classes enfants (classes Admin et Viewer) qui hériteront de la classe abstraite.
 
 Créez une classe abstraite avec le nom de l’utilisateur, qui a une méthode abstraite avec le nom de stateYourRole().
