@@ -1,5 +1,8 @@
 # Les méthodes et les classes abstraites en PHP objet
 
+- Les classes abstraites : https://youtu.be/GWero_Nks6U?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
+- Abstract Classes in OOP PHP : https://youtu.be/Eu7l8utquGY?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+
 En PHP orienté objet, nous allons pouvoir définir des classes et des méthodes dites « abstraites ». Nous allons présenter dans cette leçon les intérêts des classes et méthodes abstraites et voir comment déclarer des classes et des méthodes comme abstraites en pratique.
 
 # Les classes et méthodes abstraites : définition et intérêt

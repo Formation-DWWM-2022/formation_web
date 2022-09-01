@@ -1,6 +1,7 @@
 # Classes étendues et héritage en PHP orienté objet
 
 - L'héritage : https://youtu.be/aFJL5Fbq5hM
+- L'héritage : https://youtu.be/cRsgRrsS-v0?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
 
 Dans cette nouvelle leçon, nous allons voir comment étendre une classe et comprendre les intérêts qu’il va y avoir à faire cela. Nous expliquerons également comment fonctionne l’héritage dans le cadre de la programmation orientée objet en PHP.
 

@@ -1,5 +1,8 @@
 # Les méthodes PHP constructeur et destructeur
 
+- Constructors and Destructors in OOP PHP : https://youtu.be/ToomaGjgqBw?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+- Delete Objects In OOP PHP : https://youtu.be/xeKc5VGUkPM?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+
 Nous allons nous intéresser à deux méthodes spéciales qui vont pouvoir être définies dans nos classes qui sont les méthodes constructeur et destructeur.
 
 # La méthode constructeur : définition et usage

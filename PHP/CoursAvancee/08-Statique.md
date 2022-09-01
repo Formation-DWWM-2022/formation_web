@@ -1,6 +1,9 @@
 # Les propriétés et méthodes statiques en PHP objet
 
 - Statique : https://youtu.be/C0EP6d2sJPc
+- Attributs et méthodes statiques : https://youtu.be/q_1P1YOCcHo?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
+- Static Properties And Methods In OOP PHP : https://youtu.be/L9jLxuLAAIY?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+- Scope Resolution Operators in OOP PHP : https://youtu.be/rzew3ZgDMPA?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
 
 Dans cette nouvelle leçon, nous allons découvrir ce que sont les propriétés et méthodes statiques, leur intérêt et comment créer et utiliser des propriétés et méthodes statiques.
 

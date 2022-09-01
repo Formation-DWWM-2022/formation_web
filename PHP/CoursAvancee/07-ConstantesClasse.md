@@ -1,5 +1,7 @@
 # Les constantes de classe en PHP objet
 
+- Constantes de classe : https://youtu.be/nFel08NGr9A?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
+
 Nous n’en avons pas véritablement parlé jusqu’à présent mais nous allons également pouvoir définir des constantes dans une classe. Nous allons dans cette leçon apprendre à le faire et apprendre à accéder à la valeur d’une constante avec l’opérateur de résolution de portée.
 
 # Rappel sur les constantes et définition de constantes dans une classe

@@ -1,5 +1,8 @@
 # Les interfaces en PHP orienté objet
 
+- Les Interfaces : https://youtu.be/ub92d6URoh0?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
+- Interfaces in OOP PHP : https://youtu.be/jHjjsgRNFVE?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+
 Dans cette nouvelle leçon, nous allons découvrir le concept d’interfaces en PHP orienté objet. Nous allons ici particulièrement insister la compréhension de ce qu’est une interface, la différence entre une interface et une classe abstraite ainsi que sur les cas où il va être intéressant de définir des interfaces.
 
 # Définition des interfaces en PHP objet et différence avec les classes abstraites
