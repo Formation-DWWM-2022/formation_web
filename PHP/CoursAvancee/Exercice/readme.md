@@ -13,9 +13,9 @@
 
 ---
 
-- [05-Etendre&Heritage](05-Etendre&Heritage.md)
-- [06-Surcharge](06-Surcharge.md)
-- [07-ConstantesClasse](07-ConstantesClasse.md)
+- [05-Etendre&Heritage](../05-Etendre&Heritage.md)
+- [06-Surcharge](../06-Surcharge.md)
+- [07-ConstantesClasse](../07-ConstantesClasse.md)
 - [08-Statique](../08-Statique.md)
 
 ---
@@ -24,8 +24,8 @@
 
 ---
 
-- [09-ClassesAbstraites.md]
-- [10-Interfaces.md]
+- [09-ClassesAbstraites](../09-ClassesAbstraites.md)
+- [10-Interfaces](../10-Interfaces.md)
 
 ---
 
@@ -33,7 +33,7 @@
 
 --- 
 
-- [11-MethodesMagiques.md]
+- [11-MethodesMagiques](../11-MethodesMagiques.md)
 
 --- 
 
