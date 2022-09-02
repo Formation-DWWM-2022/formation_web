@@ -1,6 +1,9 @@
 # Créer un Router 
 
 - Tutoriel PHP - Créer un Router : https://youtu.be/I-DN2C7Gs7A
+- Créer un routeur : https://youtu.be/20bdeEutfuo?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
+- Améliorer le routeur : https://youtu.be/CkvmU9TR1Zo?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
+- CRÉER UN ROUTER : https://youtu.be/Q9PZXoe-aAE
 
 Dans ce tutoriel je vous propose de découvrir comment créer un Router pour gérer l'éxécution d'un certain code suivant l'URL qui est tapée par l'utilisateur.
 

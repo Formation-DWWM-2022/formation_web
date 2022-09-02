@@ -1,0 +1,1 @@
+- Late static binding : https://youtu.be/y3VgktuzT9o?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3

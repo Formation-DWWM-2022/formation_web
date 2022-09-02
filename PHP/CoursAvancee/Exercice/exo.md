@@ -42,7 +42,7 @@ y deux propriétés bureau_de_vote et vote, ainsi qu’une méthode avoter(), qu
 une personne a voté dans la propriété vote.
 
 # Exercice 8
-Créez deux namespaces, nommés Firme::Client et Firme::Commercial, possédant chacun
+Créez deux namespaces, nommés Firme\Client et Firme\Commercial, possédant chacun
 des classes Personne. Chacune d’elles doit avoir des propriétés pour enregistrer les coor-
 données de la personne et son code, un constructeur et des méthodes set() et get() pour
 pouvoir modifier et afficher les propriétés. Créez ensuite des objets représentant deux

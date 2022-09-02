@@ -1,6 +1,9 @@
 # Définition et gestion des erreurs en PHP
  
 - Les Exceptions  : https://youtu.be/210s8-uYSrg
+- Les exceptions : https://youtu.be/vIdvm2ByPVg?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
+- exceptions : https://youtu.be/ePFxa2VcCoE
+- Les Exception : le trou dans la raquette du typage : https://youtu.be/YfoLM0vWALM
 
 ![](https://miro.medium.com/max/800/1*o8_J0OCUyL_SDF6r6EeXNA.jpeg)
 

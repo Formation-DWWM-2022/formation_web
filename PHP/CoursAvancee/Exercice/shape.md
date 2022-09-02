@@ -21,6 +21,6 @@ Rectangle.php devrait hériter de la classe Shape. Les exigences de la classe Re
 Circle.php devrait hériter de la classe Shape. Les exigences de la classe Circle sont :
 - Une constante de classe nommée SHAPE_TYPE avec une valeur de 3.
 - Une propriété à rayon protégé.
-- Un constucteur qui accepte un paramètre de rayon et initialise la propriété radius. **N’oubliez pas d’appeler le constructeur de la classe Shape.
+- Un constucteur qui accepte un paramètre de rayon et initialise la propriété rayon. **N’oubliez pas d’appeler le constructeur de la classe Shape.
 - Une méthode d’espace public qui calcule et retourne l’aire de l’objet Cercle.
-- Une méthode publique getFullDescription qui retourne la chaîne : Circle<#id> : name - radius avec les variables id, name, et radius a substitué les valeurs des objets.
+- Une méthode publique getFullDescription qui retourne la chaîne : Circle<#id> : name - rayon avec les variables id, name, et rayon a substitué les valeurs des objets.

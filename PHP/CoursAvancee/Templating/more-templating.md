@@ -1,6 +1,7 @@
 # Template PHP : c’est quoi ?
 
 - ob_start : https://youtu.be/UAlLDgP2AUo
+-  Le renderer : https://youtu.be/BMcX8Da1gqc?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
 
 Le principe est de séparer le code PHP de la mise en page HTML; Le code PHP dans un fichier, la mise en page contenant les balises HTML dans un autre fichier. On se retrouve alors avec, d’un coté, le script qui fait tout ce qu’il a à faire (ex: récupération de données dans une base de données, traitement…), et d’un autre coté, la mise en page avec des zones prédéfinies où seront placées les données générées par le script.
 
