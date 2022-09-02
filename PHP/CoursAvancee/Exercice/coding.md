@@ -79,7 +79,7 @@ Dans ce tutoriel, nous avons vu qu’une classe peut implémenter plus d’une i
 
 Créez une classe utilisateur avec une propriété et des méthodes $username protégées qui peuvent définir et obtenir $username.
 
-Créez une interface Auteur avec les méthodes abstraites suivantes qui peuvent donner à l’utilisateur un tableau de droits d’auteur. La première méthode est setAuthorPrivileges(), et elle obtient un paramètre de $array, et la deuxième méthode est getAuthorPrivileges().
+Créez une interface Auteur avec les méthodes suivantes qui peuvent donner à l’utilisateur un tableau de droits d’auteur. La première méthode est setAuthorPrivileges(), et elle obtient un paramètre de $array, et la deuxième méthode est getAuthorPrivileges().
 
 Créez une interface d’éditeur avec des méthodes pour définir et obtenir les privilèges de l’éditeur.
 

@@ -1,6 +1,8 @@
 # Comment installer et utiliser Composer ?
 
-<https://grafikart.fr/tutoriels/composer-480>
+- Installer et utiliser Composer : https://youtu.be/riC0__cXkcA
+- Utiliser Composer pour gérer les librairies PHP ! : https://youtu.be/exaTOIhzYdk
+- Tutoriel Composer : <https://grafikart.fr/tutoriels/composer-480>
 
 Nous allons vous montrer comment installer et utiliser Composer sur différentes plateformes. Composer est un gestionnaire de dépendances pour PHP. C’est un outil simple et fiable que les développeurs utilisent pour gérer et intégrer des paquets ou des bibliothèques externes dans leurs projets basés sur PHP. Ainsi, ils n’ont pas à créer leurs pages ou applications web à partir de zéro.
 

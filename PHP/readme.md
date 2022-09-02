@@ -134,7 +134,7 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [Classe permettant de gérer des formulaires](./CoursAvancee/GeneratorForm/more-generator-form.md)
 - [Simple PHP class for Validation](./CoursAvancee/Validator/more-validator.md)
 - [Namespace](./CoursAvancee/Namespace/more-namespace.md)
-- [L'autoload](./CoursAvancee/Autoload/more-autoload.md) <!-- PAS FINIS -->
+- [Pourquoi le chargement automatique?](./CoursAvancee/Autoload/more-autoload.md)
 - [Repository](./CoursAvancee/Repository/Personnage/PersonnageManager.php) <!-- PAS FINIS -->
 - [QueryBuilder]() <!-- PAS FINIS -->
 - [Hydrater](./CoursAvancee/more-hydrater.md)
