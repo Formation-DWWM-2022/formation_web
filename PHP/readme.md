@@ -135,7 +135,8 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [Simple PHP class for Validation](./CoursAvancee/Validator/more-validator.md)
 - [Namespace](./CoursAvancee/Namespace/more-namespace.md)
 - [Pourquoi le chargement automatique?](./CoursAvancee/Autoload/more-autoload.md)
-- [Repository](./CoursAvancee/Repository/Personnage/PersonnageManager.php) <!-- PAS FINIS -->
+- [Repository](./CoursAvancee/Repository/more-repository.md)
+
 - [QueryBuilder]() <!-- PAS FINIS -->
 - [Hydrater](./CoursAvancee/more-hydrater.md)
 - [Gestion de membre](./CoursAvancee/GestionMembre/more-authentification.md) <!-- PAS FINIS -->
