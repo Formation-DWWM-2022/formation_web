@@ -1,5 +1,8 @@
 # Classes étendues et héritage en PHP orienté objet
 
+- L'héritage : https://youtu.be/aFJL5Fbq5hM
+- L'héritage : https://youtu.be/cRsgRrsS-v0?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
+
 Dans cette nouvelle leçon, nous allons voir comment étendre une classe et comprendre les intérêts qu’il va y avoir à faire cela. Nous expliquerons également comment fonctionne l’héritage dans le cadre de la programmation orientée objet en PHP.
 
 # Étendre une classe : principe et utilité
@@ -168,6 +171,7 @@ Cependant, créer des classes filles qui sont des « copies » d’une classe m�
 Ici, nous pouvons par exemple définir de nouvelles propriétés et méthodes spécifiques à notre classe Admin. On pourrait par exemple permettre aux objets de la classe Admin de bannir un utilisateur ou d’obtenir la liste des utilisateurs bannis.
 
 Pour cela, on peut rajouter une propriété $ban qui va contenir la liste des utilisateurs bannis ainsi que deux méthodes setBan() et getBan(). Nous n’allons évidemment ici pas véritablement créer ce script mais simplement créer le code pour ajouter un nouveau prénom dans $ban et pour afficher le contenu de la propriété.
+
 ```php
 <?php
     class Admin extends Utilisateur{

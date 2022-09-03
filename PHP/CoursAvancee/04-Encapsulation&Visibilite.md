@@ -1,4 +1,7 @@
 # Encapsulation et visibilité des propriétés et méthodes PHP
+
+- Visibility And Inheritance : https://youtu.be/X6xY4Ouydas?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+
 Nous allons présenter le principe d’encapsulation et comprendre ses enjeux et intérêt et allons voir comment implémenter ce principe en pratique via les niveaux de visibilité des propriétés, méthodes et des constantes de classe.
 
 Nous étudierons plus en détail les constantes dans une prochaine leçon, je n’en parlerai donc pas véritablement ici. 

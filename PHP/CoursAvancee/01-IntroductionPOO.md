@@ -1,5 +1,10 @@
 # Introduction à la programmation orientée objet PHP : classes, instances et objets
 
+- L'objet DateTime : https://youtu.be/DhMcHjDOitE
+- Créer une classe : https://youtu.be/PKbVJFaXZQA?list=PLeeuvNW2FHViGGhcU0Q-6jqOJeizLiql3
+- Introduction To OOP PHP : https://youtu.be/Anz0ArcQ5kI?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+- Create Classes In OOP PHP : https://youtu.be/iEGUOE9RKqM?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+
 Nous allons redécouvrir le PHP sous un nouvel angle avec la programmation orientée objet. La programmation orientée objet est une façon différente de coder qui va suivre des règles différentes et va amener une syntaxe différente, ce qui fait qu’elle peut être perçue comme difficile à comprendre pour des débutants.
 
 Je vais essayer de vous présenter le PHP orienté objet étape par étape et vous conseille fortement de ne pas faire l’impasse sur cette partie car cette nouvelle façon d’écrire son code va posséder des avantages indéniables qu’on va illustrer ensemble et est l’une des grandes forces du PHP.

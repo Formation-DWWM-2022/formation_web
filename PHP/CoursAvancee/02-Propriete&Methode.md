@@ -1,5 +1,8 @@
 # Propriétés et méthodes en PHP orienté objet
 
+- Les class : https://youtu.be/HUhjN12HZR0
+- Properties And Methods In OOP PHP : https://youtu.be/U-SIguEOk0o?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+
 Nous allons définir ce que sont les propriétés et les méthodes et allons ajouter des propriétés et des méthodes à notre classe Utilisateur créée dans la leçon précédente afin de tendre vers une classe fonctionnelle.
 
 # Les propriétés : définition et usage

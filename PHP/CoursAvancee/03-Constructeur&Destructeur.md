@@ -1,5 +1,8 @@
 # Les méthodes PHP constructeur et destructeur
 
+- Constructors and Destructors in OOP PHP : https://youtu.be/ToomaGjgqBw?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+- Delete Objects In OOP PHP : https://youtu.be/xeKc5VGUkPM?list=PL0eyrZgxdwhypQiZnYXM7z7-OTkcMgGPh
+
 Nous allons nous intéresser à deux méthodes spéciales qui vont pouvoir être définies dans nos classes qui sont les méthodes constructeur et destructeur.
 
 # La méthode constructeur : définition et usage
@@ -102,6 +105,7 @@ Ici, on peut déjà avoir un premier aperçu d’un script « utile » en pratiq
 ```
 ![](https://www.pierre-giraud.com/wp-content/uploads/2019/05/php-objet-exemple-script-argument-constructeur-passage.png)
 ![](https://www.pierre-giraud.com/wp-content/uploads/2019/05/php-objet-exemple-script-argument-constructeur-resultat.png)
+
 On crée ici un formulaire en HTML qui va demander un nom d’utilisateur et un mot de passe à nos visiteurs. Vous pouvez imaginer que ce formulaire est un formulaire d’inscription. Ensuite, en PHP, on récupère les informations envoyées et on les utilise pour créer un nouvel objet. L’intérêt ici est que notre objet va avoir accès aux méthodes définies dans notre classe.
 
 Bien évidemment, ici, notre script n’est pas complet puisqu’en pratique il faudrait analyser la cohérence des données envoyées et vérifier qu’elles ne sont pas dangereuses et car nous stockerions également les informations liées à un nouvel utilisateur en base de données pour pouvoir par la suite les réutiliser lorsque l’utilisateur revient sur le site et souhaite s’identifier.
@@ -121,6 +125,7 @@ Dans ces cas-là, on va pouvoir effectuer ces opérations dans le destructeur pu
 Il est difficile d’expliquer concrètement l’intérêt d’un destructeur ici à des personnes qui n’ont pas une connaissance poussée du PHP. Pas d’inquiétude donc si vous ne comprenez pas immédiatement l’intérêt d’une telle méthode, on pourra illustrer cela de manière plus concrète lorsqu’on parlera des bases de données.
 
 On va utiliser la syntaxe function __destruct() pour créer un destructeur. Notez qu’à la différence du constructeur, il est interdit de définir des paramètres dans un destructeur.
+
 ```php
 <?php
     class Utilisateur{

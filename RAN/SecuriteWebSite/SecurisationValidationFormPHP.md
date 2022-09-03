@@ -1,7 +1,5 @@
 # Sécurisation et validation des formulaires en PHP
 
-- Tout SAVOIR sur la faille XSS : https://youtu.be/Bkg7JoBs2ac 
-
 Nous allons comprendre l’importance de la validation des données envoyées par les formulaires et allons voir comment mettre en place un premier système de validation de ces données.
 
 # Ne jamais faire confiance aux données utilisateurs

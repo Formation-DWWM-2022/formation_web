@@ -1,15 +1,6 @@
 # PHP
-<!--
-https://github.com/TyTy-cf/hb-php/tree/main/heros
-https://github.com/phprouter/main
-https://phprouter.com/
-https://grafikart.fr/tutoriels/router-628
--->
-
 # Dates
 
-- Lundi 29 aout - PHP Avancée - Cours / Exo
-- Mardi 30 aout - PHP Avancée - Cours / Exo
 - Mercredi 31 aout - PHP Avancée - Cours / Exo
 - Jeudi 01 septembre - PHP Avancée - Cours / Exo
 - Vendredi 02 septembre - PHP Avancée - Cours / Exo
@@ -69,9 +60,19 @@ Chaque notion du cours est illustré par des exemples les plus concrets possible
 
 Les codes des différents exemples vous seront fournis. Cependant, je vous conseille d’adopter une attitude active et de vous exercer sur chacun d’entre eux plutôt que de simplement les copier-coller si vous souhaitez véritablement progresser.
 
+## MEMO
+
+- [LearnXinYminutes](./LearnXinYminutes.md)
+- [Cheatsheet](./cheatsheet.md)
+- [Emezeta PHP Card](./emezeta-php-card-v0.2.png)
+- [FastPHP](./FastPHP.pdf)
+- [PHP7 Cours et exercice](./2009_php-5-2_5-3-cours-et-exercices.pdf)
+
 # Sommaire
 
 La documentation la plus importante à mettre en favoris : <https://www.php.net/>
+
+## PHP de base
 
 - [Présentation de PHP](./CoursBase/01-presentation.md)
 - [Installer PHP sur Windows](./CoursBase/02-installer.md)
@@ -91,30 +92,78 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [La session](./CoursBase/15-session.md)
 - [TP : GESTION DE MEMBRE](./CoursBase/16-tp-gestion-membre.md)
 - [Chiffrer les mots de passe](./CoursBase/more-chiffrer-mdp.md)
-- [Générer des fichiers PDF](./CoursBase/more-pdf.md)
-- [Envoyer des emails](./CoursBase/more-send-email.md)
+- [TP E-commerce by Allan](./TPE-commerce/PHPBasesTPE-commerce.docx)
 
 ---
-- [Introduction à la programmation orientée objet PHP : classes, instances et objets]()
-- [Statique]()
-- [L'héritage]()
-- [TP : Livre d'or]()
-- [Utiliser une API avec cURL]()
-- [Les Exceptions]()
-- [PHPDoc]()
-- [PDO]()
-- [Les espaces de noms]()
-- [L'autoloader]()
+
+## PHP avec MySQL [PDO]
+
+- [Introduction aux bases de données, au SQL et au MySQL](./CoursPDO/01-introductionPDO.md)
+- [Se connecter à une base de données MySQL en PHP](./CoursPDO/02-connexion.md)
+- [Créer une base de données MySQL et une table dans la base](./CoursPDO/03-dataDefinitionLanguage.md)
+- [Insérer des données dans une table MySQL](./CoursPDO/04-dataManipulationLanguage.md)
+- [Sélection simple de données dans une table MySQL en PHP](./CoursPDO/05-dataQueryLanguage.md)
+- [Memo](./CoursPDO/memo.md)
+- [TP](./CoursPDO/TP/PHP-PDO-01-read.md)
+
+--- 
+
+## PHP Avancée
+
+- [Introduction à la programmation orientée objet PHP : classes, instances et objets](./CoursAvancee/01-IntroductionPOO.md)
+- [Propriétés et méthodes en PHP orienté objet](./CoursAvancee/02-Propriete&Methode.md)
+- [Les méthodes PHP constructeur et destructeur](./CoursAvancee/03-Constructeur&Destructeur.md)
+- [ Encapsulation et visibilité des propriétés et méthodes PHP](./CoursAvancee/04-Encapsulation&Visibilite.md)
+- [Classes étendues et héritage en PHP orienté objet](./CoursAvancee/05-Etendre&Heritage.md)
+- [Surcharge d’éléments et opérateur de résolution de portée en PHP](./CoursAvancee/06-Surcharge.md)
+- [Les constantes de classe en PHP objet](./CoursAvancee/07-ConstantesClasse.md)
+- [Les propriétés et méthodes statiques en PHP objet](./CoursAvancee/08-Statique.md)
+- [Les méthodes et les classes abstraites en PHP objet](./CoursAvancee/09-ClassesAbstraites.md)
+- [Les interfaces en PHP orienté objet](./CoursAvancee/10-Interfaces.md)
+- [Les méthodes magiques en orienté objet PHP](./CoursAvancee/11-MethodesMagiques.md)
+- [Définition et gestion des erreurs en PHP](./CoursAvancee/12-Exception.md)
+- [Comparaison du code orienté objet et du code procédural](./CoursAvancee/ComparaisonCodePOOvsProcedural.md)
+- [L’évolution d’un objet PHP au fil des années](./evolutionPHP.md)
+
+--- 
+
+## PHP Avancée TECHNIQUE
+
+- [PHPDoc](./PHPDoc.md)
+- [Config.php](./CoursAvancee/more-config.md)
+- [Classe permettant de gérer des formulaires](./CoursAvancee/GeneratorForm/more-generator-form.md)
+- [Simple PHP class for Validation](./CoursAvancee/Validator/more-validator.md)
+- [Namespace](./CoursAvancee/Namespace/more-namespace.md)
+- [Pourquoi le chargement automatique?](./CoursAvancee/Autoload/more-autoload.md)
+- [Repository](./CoursAvancee/Repository/more-repository.md)
+
+- [QueryBuilder]() <!-- PAS FINIS -->
+- [Hydrater](./CoursAvancee/more-hydrater.md)
+- [Gestion de membre](./CoursAvancee/GestionMembre/more-authentification.md) <!-- PAS FINIS -->
+- [Templating](./CoursAvancee/Templating/more-templating.md)
+- [Router](./CoursAvancee/Router/more-router.md)
+- [Tester son code]() <!-- PAS FINIS -->
+- [Un example concret](./CoursAvancee/ConcretExample/index.php) <!-- PAS FINIS -->
+- [MVC](../RAN/MVC/readme.md) <!-- PAS FINIS -->
 - [Composer](./composer.md)
-- [Les fonctions anonymes]()
-- [Le router]()
-- [ob_start]()
----
-
 - [Framework PHP](./frameworkPHP.md)
 
+---
+
+## PHP Utilitaire
+
+- [Présentation des filtres PHP](./CoursAvancee/more-filtre.md)
+- [Mettre en place une pagination](./CoursAvancee/more-pagination.md)
+- [API](./CoursAvancee/more-api.md) <!-- PAS FINIS -->
+- [Générer des fichiers PDF](./CoursAvancee/more-pdf.md)
+- [Envoyer des emails](./CoursAvancee/more-send-email.md)
 
 ---
+
+## PHP Extra Avancee
+
+- 
+-
 
 # Notre guide de style PHP -  Qu'est ce que le PSR ?
 
