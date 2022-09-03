@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>SpotifyGenre</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div class="container">
-            <h1>SpotifyGenre</h1>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SpotifyGenre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center my-5">SpotifyGenre</h1>
+                <div class="alert alert-warning" role="alert" id="alert">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon">Playlist ID</span>
+                    <input type="text" class="form-control" id="id_playlist">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon">Token spotify</span>
+                    <input type="text" class="form-control" id="token_spotify">
+                </div>
+                <a href="https://developer.spotify.com/console/post-playlist-tracks/?playlist_id=&position=&uris=" target="_blank" class="btn btn-primary">Get token</a>
+                <button id="go-playlists" class="btn btn-warning">Liste des playlists</button>
+                <button id="go-sucess" class="btn btn-success">Let's go !</button>
+                <div class="row">
+                    <div class="col-4">
+                        <ul id="list-playlist" class="my-3 list-group list-group-flush">
+                        </ul>
+                    </div>
+                    <div class="col-8">
+                        <div class="row" id="list_music">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <script src="script.js"></script>
-    </body>
+    </div>
+    <script src="script.js"></script>
+</body>
+
 </html>

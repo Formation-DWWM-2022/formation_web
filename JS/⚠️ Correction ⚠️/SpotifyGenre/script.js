@@ -1,6 +1,6 @@
 // https://developer.spotify.com/console/post-playlist-tracks/?playlist_id=&position=&uris=
-const playlist_id = `2crBeXuMUcwwh0J1cP9jKJ`;
-const accessToken = 'BQD0-3ZDAgcJ9XoYnIvlfLRyTO_RdvMoY4oYs3rihVzu7bLOQwVSMwjffFFUbns6-siwu86bQZzXc2gqIVnSIDeUq1dp4A9yu0lm2f1vdnICRoiDhUI1dddgypNJQfGUnAlYdXYtI9lN3EG6AoEZmXvWOoYn2gVv5l6UgIcdTORbCCn1XXhMNloMTtW_FqDexLFDab4wHIJ1_OPH1uMbtmxB76HkgN-cvOzoEGrU0Y0';
+var playlist_id = `2crBeXuMUcwwh0J1cP9jKJ`;
+var accessToken = 'BQBqbD_kPpUgN39ncs61zQ8FYw_M382ULP1_shEpFP4KsuTB3Qnc6QiozcP_kuAeVDefmZ-zfFL8zVOQaeS5LweIVU70VFGJy6y1EinXZ8zbXyHQw21Rxj2GMSWSBXhRuJpoQHrgzWzukKv_8mToZ-PPokLRUgBYGxQT3yngX1RDk7qBQuq4zzKAc3pafuj1theRGqo4dfZv7_DWL0U2nv2THy-y9ssxrZwHMXXDUJI';
 const consumer_key = 'hTplvntDbREwGcqRXjrP';
 const consumer_secret = 'fAAuWwRtvrQGstWyDeZqiOfvOvOnRKoi';
 
@@ -41,7 +41,7 @@ async function fetchPlaylist(playlist_id) {
     return all;
 };
 
-async function fetchDiscogs(idmusic, name, artist) {
+async function fetchDiscogs(track, idmusic, name, artist) {
     const url = `https://api.discogs.com/database/search?q=${name.replace(/ /g, "-").sansAccent()}&artist=${artist.replace(/ /g, "-").sansAccent()}&per_page=1`;
     const response = await fetch(url, {
         method: 'GET',
@@ -50,11 +50,26 @@ async function fetchDiscogs(idmusic, name, artist) {
         }
     })
     const results = await response.json();
+    if (results.results.length === 0) {
+        affichageMusic(track, styles, null);
+    }
     for (item of results.results) {
         for (genre of item.style) {
-            console.log(item.style);
+            var styles = item.style;
+            let date = new Date(track.album.release_date);
+            let year = date.getFullYear().toString();
+            checkPlaylist(year).then(idplaylist => {
+                addPlaylist(idmusic, idplaylist, name, artist).then(ok => {
+                    console.log(ok, styles, idmusic, name, artist, track);
+                    affichageMusic(track, styles, ok);
+                });
+            });
+
             checkPlaylist(genre).then(idplaylist => {
-                addPlaylist(idmusic, idplaylist, name, artist);
+                addPlaylist(idmusic, idplaylist, name, artist).then(ok => {
+                    console.log(ok, styles, idmusic, name, artist, track);
+                    affichageMusic(track, styles, ok);
+                });
             });
         }
     }
@@ -127,7 +142,6 @@ async function fetchAllPlaylist() {
 }
 
 async function fetchNumberTotalPlaylist() {
-    let plys = [];
     const url = `https://api.spotify.com/v1/me/playlists?limit=50`;
     const response = await fetch(url, {
         method: 'GET',
@@ -138,21 +152,36 @@ async function fetchNumberTotalPlaylist() {
         }
     });
     const results = await response.json();
+    if (typeof results.error !== 'undefined') {
+        showErrorMessage(results.error.message);
+    }
+
     let all = [...results.items];
     if (results.next != null) {
         r = await fetchPlaylistByURL(results.next);
         all = [...all, ...r];
     }
-    for (item of all) {
-        plys[item.name] = item.tracks.total;
-    }
-    return plys;
+    all.sort(comparePlaylist);
+    return all;
 }
+
+function comparePlaylist(a, b) {
+    if (a.tracks.total > b.tracks.total) {
+        return -1;
+    }
+    if (a.tracks.total < b.tracks.total) {
+        return 1;
+    }
+    return 0;
+}
+
 
 async function checkPlaylist(name) {
     plys = await fetchAllPlaylist();
     if (name in plys) {
         return plys[name];
+    } else {
+        showErrorMessage('Playlist ' + name + ' not found');
     }
     return false;
 }
@@ -181,29 +210,115 @@ async function addPlaylist(idmusic, idplaylist, name, artist) {
             }
         });
         const results = await response.json();
-        console.log('add', idmusic, idplaylist, name, artist)
-    } else {
-        console.log('exist', idmusic, idplaylist, name, artist);
     }
+    return inplaylist;
 }
 
-fetchNumberTotalPlaylist().then(results => {
-    console.log(results);
-});
 
-fetchPlaylist(playlist_id).then(results => {
-    console.log('start');
-    let index = -1;
-    setInterval(() => {
-        console.log(index);
-        index++;
-        if (index >= results.length) {
-            console.log('end');
-            return;
+
+function affichageMusic(track, styles = [], ok = false) {
+    let list_music = document.getElementById("list_music");
+    let card = document.createElement("div");
+    card.classList.add('col-6');
+    let bg = "";
+    if (ok == null) {
+        bg = "border border-info";
+    } else {
+        bg = ok ? "border border-danger" : "border border-success";
+    }
+    card.innerHTML = '<div class="card ' + bg + '"><div class = "card-body "> <h5 class ="card-title " > ' + track.name + ' - ' +
+        track.artists[0].name +
+        ' </h5> <p class = "card-text" > POPULARITY : ' +
+        track.popularity + ' - DATE : ' +
+        track.album.release_date + '</p> <a target="_blank" href = "' +
+        track.external_urls.spotify + '" class = "btn btn-primary"> GO </a> </div> <div class="card-footer text-muted"> ' +
+        styles + '</div> </div>';
+    list_music.appendChild(card);
+}
+
+
+
+try {
+    let go = document.querySelector('#go-sucess');
+    let goplaylists = document.querySelector('#go-playlists');
+
+    goplaylists.addEventListener('click', () => {
+        let id_playlist = document.querySelector('#id_playlist').value;
+        let token_spotify = document.querySelector('#token_spotify').value;
+
+        if (id_playlist != '' && id_playlist != null) {
+            playlist_id = id_playlist;
         }
-        track = results[index].track;
-        console.log(track.name, track.artists[0].name);
-        fetchDiscogs(track.id, track.name, track.artists[0].name)
-    }, 3000)
-    return;
-});
+
+        if (token_spotify != '' && token_spotify != null) {
+            accessToken = token_spotify;
+        }
+
+        fetchNumberTotalPlaylist().then(results => {
+            let div_list_playlist = document.getElementById("list-playlist");
+            results.forEach(element => {
+                let liid = document.createElement('li');
+                let liname = document.createElement('li');
+                let litotal = document.createElement('li');
+                liid.innerHTML = 'id : ' + element.id;
+                liname.innerHTML = 'name : ' + element.name;
+                litotal.innerHTML = 'total : ' + element.tracks.total;
+
+                let ul = document.createElement("ul");
+                ul.appendChild(liid);
+                ul.appendChild(liname);
+                ul.appendChild(litotal);
+
+                let li = document.createElement("li");
+                li.classList.add("list-group-item");
+                li.appendChild(ul);
+
+                div_list_playlist.appendChild(li);
+            });
+        });
+    })
+    go.addEventListener('click', () => {
+        let id_playlist = document.querySelector('#id_playlist').value;
+        let token_spotify = document.querySelector('#token_spotify').value;
+
+        if (id_playlist != '' && id_playlist != null) {
+            playlist_id = id_playlist;
+        }
+
+        if (token_spotify != '' && token_spotify != null) {
+            accessToken = token_spotify;
+        }
+
+        fetchPlaylist(playlist_id).then(results => {
+            showSuccessMessage('start');
+            let index = -1;
+            setInterval(() => {
+                console.log(index);
+                index++;
+                if (index >= results.length) {
+                    showSuccessMessage('end');
+                    return;
+                }
+                track = results[index].track;
+                fetchDiscogs(track, track.id, track.name, track.artists[0].name);
+            }, 3000);
+        });
+    })
+} catch (error) {
+    console.error(error);
+    showErrorMessage(error);
+}
+
+function showErrorMessage(error = '') {
+    let alert = document.querySelector('#alert');
+    let p = document.createElement('p');
+    p.innerHTML = error;
+    alert.appendChild(p);
+}
+
+function showSuccessMessage(success = '') {
+    let alert = document.querySelector('#alert');
+    let p = document.createElement('p');
+    p.innerHTML = success;
+    alert.appendChild(p);
+}
