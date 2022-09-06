@@ -81,87 +81,112 @@ echo $ville2->getinfo();
 // //Fin du script
 // echo "Fin du script";
 
-class form
+/**
+ *
+ */
+class Form
 {
-    protected $code;
-    protected $codeinit;
-    protected $codetext;
-    protected $codesubmit;
-    public function __construct($action, $titre, $methode = "post")
+    /**
+     * @var string
+     */
+    protected string $code;
+
+    /**
+     * @param string $action
+     * @param string $titre
+     * @param string $methode
+     */
+    public function __construct(string $action, string $titre, string $methode = "post")
     {
-        $this->codeinit = "<form action=\"$action\" method=\"$methode\">";
-        $this->codeinit .= "<fieldset><legend><b>$titre</b></legend>";
+        $this->code = "<form action=\"$action\" method=\"$methode\">";
+        $this->code .= "<fieldset><legend><b>$titre</b></legend>";
     }
+
     //********************************************
-    public function settext($name, $libelle, $methode = "post")
+
+    /**
+     * @param string $name
+     * @param string $libelle
+     * @return void
+     */
+    public function setText(string $name, string $libelle): void
     {
-        $this->codetext .= "<b>$libelle</b><input type=\"text\" name=\"$name\" /><br /><br />";
+        $this->code .= "<b>$libelle</b><input type=\"text\" name=\"$name\" /><br /><br />";
     }
+
     //************************************************
-    public function setsubmit($name = "envoi", $value = "Envoyer")
+
+    /**
+     * @param string $name
+     * @param string $value
+     * @return void
+     */
+    public function setSubmit(string $name = "envoi", string $value = "Envoyer"): void
     {
-        $this->codesubmit = "<input type=\"submit\" name=\"$name\" value=\"Envoyer\"/><br />";
+        $this->code .= "<input type=\"submit\" name=\"$name\" value=\"$value\"/><br />";
     }
+
     //**************************
-    public function getform()
+
+    /**
+     * @return string
+     */
+    public function getForm(): string
     {
-        $this->code = "";
-        $this->code .= $this->codeinit;
-        $this->code .= $this->codetext;
-        $this->code .= $this->codesubmit;
         $this->code .= "</fieldset></form>";
-        echo $this->code;
+        return $this->code;
     }
 }
 
-$myform = new form("traitement.php", "Accès au site", "post");
-$myform->settext("nom", "Votre nom : &nbsp;");
-$myform->settext("code", "Votre code : ");
-$myform->setsubmit();
-$myform->getform();
+$myform = new Form("form.php", "Accès au site", "post");
+$myform->setText("nom", "Votre nom :");
+$myform->setText("code", "Votre code : ");
+$myform->setSubmit();
+echo $myform->getForm();
 
-class form2 extends form
+/**
+ *
+ */
+class Form2 extends Form
 {
-    protected $coderadio;
-    protected $codecase;
-    public function __construct($action, $titre, $methode = "post")
+    /**
+     * @param string $action
+     * @param string $titre
+     * @param string $methode
+     */
+    public function __construct(string $action, string $titre, string $methode = "post")
     {
         parent::__construct($action, $titre, $methode = "post");
     }
-    //********************************************
-    public function setradio($name, $libelle, $value)
+
+//********************************************
+
+    /**
+     * @param string $name
+     * @param string $libelle
+     * @param string $value
+     * @param string $type
+     * @return void
+     */
+    public function setRadioCheck(string $name, string $libelle, string $value, string $type): void
     {
-        $this->coderadio .= "<b>$libelle</b><input type=\"radio\" name=\"$name\" value=\"$value\"/><br />";
-    }
-    //************************************************
-    public function setcase($name, $libelle, $value)
-    {
-        $this->codecase .= "<b>$libelle</b><input type=\"checkbox\" name=\"$name\" value=\"$value\" /><br />";
-    }
-    //**************************
-    public function getform()
-    {
-        $this->code = "";
-        $this->code .= $this->codeinit;
-        $this->code .= $this->codetext;
-        $this->code .= $this->coderadio;
-        $this->code .= $this->codecase;
-        $this->code .= $this->codesubmit;
-        $this->code .= "</fieldset></form>";
-        echo $this->code;
+        $this->code .= "<b>$libelle</b><input type=\"$type\" name=\"$name\" value=\"$value\"/><br />";
     }
 }
+
 //***************************
-$myform = new form2("traitementb.php", "Coordonnées et sports préférés", "post");
-$myform->settext("nom", "Votre nom : &nbsp;");
-$myform->settext("code", "Votre code : ");
-$myform->setradio("sexe", " Homme ", "homme");
-$myform->setradio("sexe", " Femme ", "femme");
-$myform->setcase("loisir", " Tennis ", "tennis");
-$myform->setcase("loisir", " Equitation ", "équitaion");
-$myform->setcase("loisir", " Football ", "football");
-$myform->setsubmit();
-$myform->getform();
+$myform = new Form2("form.php", "Coordonnées et sports préférés", "post");
+$myform->setText("nom", "Votre nom : &nbsp;");
+$myform->setText("code", "Votre code : ");
+$myform->setRadioCheck("sexe", "Homme", "homme", "radio");
+$myform->setRadioCheck("sexe", "Femme", "femme", "radio");
+$myform->setRadioCheck("loisir[]", "Tennis", "tennis", "checkbox");
+$myform->setRadioCheck("loisir[]", "Equitation", "équitaion", "checkbox");
+$myform->setRadioCheck("loisir[]", "Football", "football", "checkbox");
+$myform->setSubmit();
+echo $myform->getForm();
+
+var_dump($_POST);
 
 // //Classe personne
 // abstract class personne

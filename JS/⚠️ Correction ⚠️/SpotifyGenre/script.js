@@ -3,6 +3,16 @@ var playlist_id = `2crBeXuMUcwwh0J1cP9jKJ`;
 var accessToken = 'BQBqbD_kPpUgN39ncs61zQ8FYw_M382ULP1_shEpFP4KsuTB3Qnc6QiozcP_kuAeVDefmZ-zfFL8zVOQaeS5LweIVU70VFGJy6y1EinXZ8zbXyHQw21Rxj2GMSWSBXhRuJpoQHrgzWzukKv_8mToZ-PPokLRUgBYGxQT3yngX1RDk7qBQuq4zzKAc3pafuj1theRGqo4dfZv7_DWL0U2nv2THy-y9ssxrZwHMXXDUJI';
 const consumer_key = 'hTplvntDbREwGcqRXjrP';
 const consumer_secret = 'fAAuWwRtvrQGstWyDeZqiOfvOvOnRKoi';
+const dev_play = [
+    '2crBeXuMUcwwh0J1cP9jKJ', '71v9IFSsguAZlw3WL8Ai5m', '2l95pJBkQk25btE95oA1sX', '6m03fso9H0uGg31WCKyjWq',
+    '0zgcyUgSbmmnUKKhrpXifm',
+    '1JW9ZkBegfALjI3KM35bck', '1ozCkHu7kbCXxBgQQi1wRU', '1yeqo2RT99TZIKhPRF41iI', '3i0XzjwfqgKR5eqU7fz1QA',
+    '4Q1MgqGFnmWVj7TozO8xkx', '42zfnwh6kgQjXZ9VVQLhaW', '4rUrv2uO54SAGlaVLYIdky', '3JBZmo7q8WxOiufCvqIvmE',
+    '32gWifXS6ClMFczeQCKUMc', '4LdTiE0oEwocUBJzyEZeQ7', '2iDwhWfs3fGKVG9TwVmCDH', '5YIqPdCE0d0TnRFPoTDbsQ',
+    '3sAraEcRxigL1oCDwOweB5', '7gdtG4OtoFF2NeyUfnDrzF', '4oY4DBAwWuGwURw614RgjD'
+];
+let index_dev_play = getRandomIntInclusive(0, 20);
+
 
 async function fetchPlaylistByURL(url) {
     const response = await fetch(url, {
@@ -33,6 +43,9 @@ async function fetchPlaylist(playlist_id) {
         }
     });
     const results = await response.json();
+    if (typeof results.error !== 'undefined') {
+        showErrorMessage(results.error.message);
+    }
     let all = [...results.items];
     if (results.next != null) {
         r = await fetchPlaylistByURL(results.next);
@@ -53,18 +66,19 @@ async function fetchDiscogs(track, idmusic, name, artist) {
     if (results.results.length === 0) {
         affichageMusic(track, styles, null);
     }
+
+    let date = new Date(track.album.release_date);
+    let year = date.getFullYear().toString();
+    checkPlaylist(year).then(idplaylist => {
+        addPlaylist(idmusic, idplaylist, name, artist).then(ok => {
+            console.log(ok, idmusic, name, artist, track);
+            affichageMusic(track, styles, ok);
+        });
+    });
+
     for (item of results.results) {
         for (genre of item.style) {
             var styles = item.style;
-            let date = new Date(track.album.release_date);
-            let year = date.getFullYear().toString();
-            checkPlaylist(year).then(idplaylist => {
-                addPlaylist(idmusic, idplaylist, name, artist).then(ok => {
-                    console.log(ok, styles, idmusic, name, artist, track);
-                    affichageMusic(track, styles, ok);
-                });
-            });
-
             checkPlaylist(genre).then(idplaylist => {
                 addPlaylist(idmusic, idplaylist, name, artist).then(ok => {
                     console.log(ok, styles, idmusic, name, artist, track);
@@ -76,7 +90,7 @@ async function fetchDiscogs(track, idmusic, name, artist) {
     return results;
 };
 
-String.prototype.sansAccent = function() {
+String.prototype.sansAccent = function () {
     var accent = [
         /[\300-\306]/g, /[\340-\346]/g, // A, a
         /[\310-\313]/g, /[\350-\353]/g, // E, e
@@ -236,11 +250,60 @@ function affichageMusic(track, styles = [], ok = false) {
     list_music.appendChild(card);
 }
 
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function delay(delayInms) {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve(2);
+        }, delayInms);
+    });
+}
+
+async function goAllPlaylist() {
+    id_playlist = dev_play[index_dev_play];
+    if (id_playlist != '' && id_playlist != null) {
+        playlist_id = id_playlist;
+    }
+
+    let token_spotify = document.querySelector('#token_spotify').value;
+    if (token_spotify != '' && token_spotify != null) {
+        accessToken = token_spotify;
+    }
+
+    let delayres = await delay(3000);
+
+    fetchPlaylist(playlist_id).then(results => {
+        showSuccessMessage('start');
+        let index = -1;
+        setInterval(() => {
+            console.log(index);
+            index++;
+            if (index >= results.length) {
+                showSuccessMessage('end');
+                index_dev_play = getRandomIntInclusive(0, 20);
+                setTimeout(() => { goAllPlaylist(); }, 3000);
+                return;
+            }
+            track = results[index].track;
+            fetchDiscogs(track, track.id, track.name, track.artists[0].name);
+        }, 3000);
+    });
+}
 
 
 try {
     let go = document.querySelector('#go-sucess');
     let goplaylists = document.querySelector('#go-playlists');
+    let goall = document.querySelector('#go-all');
+
+    goall.addEventListener('click', () => {
+        goAllPlaylist();
+    });
 
     goplaylists.addEventListener('click', () => {
         let id_playlist = document.querySelector('#id_playlist').value;
@@ -256,6 +319,7 @@ try {
 
         fetchNumberTotalPlaylist().then(results => {
             let div_list_playlist = document.getElementById("list-playlist");
+            div_list_playlist.innerHTML = "";
             results.forEach(element => {
                 let liid = document.createElement('li');
                 let liname = document.createElement('li');
@@ -321,4 +385,4 @@ function showSuccessMessage(success = '') {
     let p = document.createElement('p');
     p.innerHTML = success;
     alert.appendChild(p);
-}
+} 
