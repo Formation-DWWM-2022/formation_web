@@ -10,12 +10,12 @@ class Autoloader
      *                      /!\    /!\    /!\
      */
 
-    public static $folderList = null;
+    public static ?array $folderList = null;
 
     /**
      *
      */
-    static function register()
+    static function register(): void
     {
         spl_autoload_register(array(__CLASS__, 'autoloadClass'));
     }
@@ -23,7 +23,7 @@ class Autoloader
     /**
      * fonction qui se charge de l'autoload des class
      */
-    public static function autoloadClass($className)
+    public static function autoloadClass(string $className): void
     {
         // parcours de chaque dossier dans $folderList
         foreach (self::$folderList as $folder) {
@@ -33,16 +33,15 @@ class Autoloader
             $path = __DIR__ . "/";
 
             // nom du fichier de la class
-            $fileName = str_replace(__NAMESPACE__ . '\\', '', $className);
-            $fileName = str_replace('\\', '/', $fileName);
-            $fileName =  $fileName . ".php";
+            // $fileName = str_replace(__NAMESPACE__ . '\\', '', $className);
+            $fileName = str_replace('\\', '/', $className);
+            $fileName = $fileName . ".php";
 
             // vérification si le fichier de la class se trouve dans la liste de dossier de $folderList
             $fileFound = self::findFile($fileName, $folder);
 
             if ($fileFound == true) {
-
-                require_once($path . $fileName);
+                require_once($path . '/' . $fileName);
                 break;
             }
         }
@@ -51,7 +50,7 @@ class Autoloader
     /**
      * fonction qui se charge de vérifier l'éxistence du fichier de la class
      */
-    private static function findFile($className, $folder)
+    private static function findFile(string $className, string $folder): bool
     {
         $path = __DIR__ . "/" . $folder;
 
@@ -61,9 +60,11 @@ class Autoloader
             while (($fichier = readdir($folderOpened)) !== false) {
                 if (preg_match('#^[a-zA-Z0-9_]+\.php$#', $fichier)) {
                     // si le fichier trouvé correspond à celui de la class
-                    if ($folder.$fichier == $className) return true;
+                    if ($folder . $fichier == $className)
+                        return true;
                 }
             } // while
         }
+        return false;
     } // private static function findFile()
 }
