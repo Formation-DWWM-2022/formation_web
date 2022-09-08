@@ -136,17 +136,16 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [Namespace](./CoursAvancee/Namespace/more-namespace.md)
 - [Pourquoi le chargement automatique?](./CoursAvancee/Autoload/more-autoload.md)
 - [Repository](./CoursAvancee/Repository/more-repository.md)
-
-- [QueryBuilder]() <!-- PAS FINIS -->
 - [Hydrater](./CoursAvancee/more-hydrater.md)
-- [Gestion de membre](./CoursAvancee/GestionMembre/more-authentification.md) <!-- PAS FINIS -->
+- [Gestion de membre](./CoursAvancee/GestionMembre/more-authentification.md)
 - [Templating](./CoursAvancee/Templating/more-templating.md)
 - [Router](./CoursAvancee/Router/more-router.md)
-- [Tester son code]() <!-- PAS FINIS -->
+
 - [Un example concret](./CoursAvancee/ConcretExample/index.php) <!-- PAS FINIS -->
 - [MVC](../RAN/MVC/readme.md) <!-- PAS FINIS -->
 - [Composer](./composer.md)
 - [Framework PHP](./frameworkPHP.md)
+- [Tester son code]() <!-- PAS FINIS -->
 
 ---
 
@@ -154,7 +153,7 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 
 - [Présentation des filtres PHP](./CoursAvancee/more-filtre.md)
 - [Mettre en place une pagination](./CoursAvancee/more-pagination.md)
-- [API](./CoursAvancee/more-api.md) <!-- PAS FINIS -->
+- [API](./CoursAvancee/more-api.md)
 - [Générer des fichiers PDF](./CoursAvancee/more-pdf.md)
 - [Envoyer des emails](./CoursAvancee/more-send-email.md)
 
