@@ -4,6 +4,7 @@ namespace App\Controller\Front;
 
 use App\Form\FormUser;
 use App\Repository\ISportRepository;
+use App\Repository\SportRepository;
 use App\Service\View;
 
 class HomeController
@@ -12,9 +13,9 @@ class HomeController
 
     private ISportRepository $sportRepository;
 
-     public function __construct(ISportRepository  $sportRepository)
+     public function __construct()
      {
-         $this->sportRepository = $sportRepository;
+         $this->sportRepository = new SportRepository();
      }
 
     public function invoke(): string
@@ -27,9 +28,4 @@ class HomeController
                 'sports' => $this->sportRepository->findAll()
             ]);
     }
-
-//    public function getUser($params): User
-//    {
-//        return $this->users->findByUsername($params['username']);
-//    }
 }

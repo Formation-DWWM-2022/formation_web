@@ -6,6 +6,7 @@ require_once 'Autoloader.php';
 use App\Autoloader;
 use App\Controller\Back\SportController;
 use App\Controller\Front\HomeController;
+use App\Exception\RouterException;
 use App\Repository\SportRepository;
 use App\Repository\UserRepository;
 use App\Security\Auth;
@@ -22,7 +23,8 @@ Autoloader::$folderList =
         "App/Exception/",
         "App/Service/",
         "App/Security/",
-        "App/Form/"
+        "App/Form/",
+        "App/Validator/"
     ];
 Autoloader::register();
 
@@ -56,53 +58,38 @@ try {
 
     // HomePage
     $router->get('/', function () {
-        $db = new Database();
-        $sportRepository = new SportRepository($db->getDb());
-        $homeController = new HomeController($sportRepository);
-        echo $homeController->invoke();
+        echo (new HomeController())->invoke();
     });
 
     // Sport CRUD methods
     $router->get('/admin/sport/', function () {
-        $db = new Database();
-        $sportRepository = new SportRepository($db->getDb());
-        $sportController = new SportController($sportRepository);
-        echo $sportController->invoke();
+        echo (new SportController())->invoke();
     });
 
     $router->get('/admin/sport/:id', function ($params) {
-        $db = new Database();
-        $sportRepository = new SportRepository($db->getDb());
-        $sportController = new SportController($sportRepository);
-        echo $sportController->getSportById($params);
+        echo (new SportController())->getSportById($params);
     });
 
-    $router->get('/admin/sport/delete/:id', function () {
-        $db = new Database();
-        $sportRepository = new SportRepository($db->getDb());
-        $sportController = new SportController($sportRepository);
-        echo $sportController->deleteSportById();
+    $router->post('/admin/sport/delete/:id', function ($params) {
+        (new SportController())->deleteSportById($params);
     });
 
     $router->get('/admin/sport/add', function () {
-        $db = new Database();
-        $sportRepository = new SportRepository($db->getDb());
-        $sportController = new SportController($sportRepository);
-        echo $sportController->addSport();
+        var_dump('ok');
+        (new SportController())->addSport();
     });
 
-    $router->get('/admin/sport/update/:id', function () {
-        $db = new Database();
-        $sportRepository = new SportRepository($db->getDb());
-        $sportController = new SportController($sportRepository);
-        echo $sportController->updateSportById();
+    $router->post('/admin/sport/add', function () {
+        (new SportController())->addSport();
+    });
+
+    $router->post('/admin/sport/update/:id', function ($params) {
+        (new SportController())->updateSportById($params);
     });
 
     $router->run();
-
-
-} catch (Exception $e) {
-    echo 'Error: ' . $e->getMessage();
+} catch(RouterException|Exception $e) {
+    die('Error: ' . $e->getMessage());
 }
 
 

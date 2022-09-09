@@ -18,21 +18,10 @@ class FormSport
         return $form;
     }
 
-    static function buildUpdateForm(Sport $sport): Form
-    {
-        $form = new Form('post', URL_ROOT . 'admin/form/delete/' . $sport->id);
-        $form->debutForm()
-            ->ajoutLabelFor('design', 'Design')
-            ->ajoutInput('text', 'design', ['id' => 'design', 'class' => 'form-control'])
-            ->ajoutBouton('Modifier', ['class' => 'btn btn-primary'])
-            ->finForm();
-        return $form;
-    }
-
     public static function buildUpdateFormWithSport(Sport $sport): Form
     {
         $form = new Form();
-        $form->debutForm('post', URL_ROOT . 'admin/form/update/' . $sport->id)
+        $form->debutForm('post', URL_ROOT . 'admin/sport/update/' . $sport->id)
             ->ajoutLabelFor('design', 'Design')
             ->ajoutInput('text', 'design', ['id' => 'design', 'class' => 'form-control', 'value' => $sport->design])
             ->ajoutBouton('Modifier', ['class' => 'btn btn-primary'])
@@ -43,7 +32,7 @@ class FormSport
     public static function buildDeleteFormWithSport($sport): Form
     {
         $form = new Form();
-        $form->debutForm('post', URL_ROOT . 'admin/form/delete/' . $sport->id)
+        $form->debutForm('post', URL_ROOT . 'admin/sport/delete/' . $sport->id)
             ->ajoutBouton('Delete', ['class' => 'btn btn-danger'])
             ->finForm();
         return $form;

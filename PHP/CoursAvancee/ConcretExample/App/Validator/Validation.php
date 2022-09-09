@@ -7,10 +7,6 @@ namespace App\Validator;
  */
 class Validation
 {
-
-    /**
-     * @var array $patterns
-     */
     public array $patterns = array(
         'uri' => '[A-Za-z0-9-\/_?&=]+',
         'url' => '[A-Za-z0-9-:.\/_?&=#]+',

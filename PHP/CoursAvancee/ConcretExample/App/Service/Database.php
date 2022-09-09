@@ -7,7 +7,7 @@ use PDOException;
 
 class Database
 {
-    private ?PDO $db = null;
+    protected ?PDO $db = null;
 
     public function __construct()
     {
@@ -17,11 +17,6 @@ class Database
         } catch (PDOException $e) {
             die('Error: ' . $e->getMessage());
         }
-    }
-
-    public function getDb(): ?PDO
-    {
-        return $this->db;
     }
 
     function customSelect(string $sql)

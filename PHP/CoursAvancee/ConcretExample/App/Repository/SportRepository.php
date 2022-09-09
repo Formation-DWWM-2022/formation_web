@@ -3,21 +3,15 @@
 namespace App\Repository;
 
 use App\Entity\Sport;
+use App\Service\Database;
 use PDO;
 use PDOException;
 
-class SportRepository implements ISportRepository
+class SportRepository extends Database implements ISportRepository
 {
-    private PDO $connection;
-
-    public function __construct(PDO $connection)
-    {
-        $this->connection = $connection;
-    }
-
     public function add(Sport $sport)
     {
-        $stmt = $this->connection->prepare("INSERT INTO sport (design) VALUES (:design)");
+        $stmt = $this->db->prepare("INSERT INTO sport (design) VALUES (:design)");
         $stmt->bindValue(':design', $sport->getDesign());
         $stmt->execute();
         $stmt = null;
@@ -25,7 +19,7 @@ class SportRepository implements ISportRepository
 
     public function findAll() : array
     {
-        $stmt = $this->connection->prepare("SELECT * FROM sport ORDER BY design ASC");
+        $stmt = $this->db->prepare("SELECT * FROM sport ORDER BY design ASC");
         $stmt->execute();
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
         $arr = $stmt->fetchAll();
@@ -44,7 +38,7 @@ class SportRepository implements ISportRepository
 
     public function findByDesign(string $design): Sport
     {
-        $stmt = $this->connection->prepare("SELECT * FROM sport WHERE design = :design");
+        $stmt = $this->db->prepare("SELECT * FROM sport WHERE design = :design");
         $stmt->bindValue(':design', $design);
         $stmt->execute();
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
@@ -60,24 +54,25 @@ class SportRepository implements ISportRepository
 
     public function update(Sport $sport)
     {
-        $stmt = $this->connection->prepare("UPDATE sport SET design = :design WHERE id = :id");
+        var_dump($sport);
+        $stmt = $this->db->prepare("UPDATE sport SET design = :design WHERE id = :id");
         $stmt->bindValue(':design', $sport->design);
-        $stmt->bindValue(':design', $sport->id);
+        $stmt->bindValue(':id', $sport->id);
         $stmt->execute();
         $stmt = null;
     }
 
     public function remove(Sport $sport)
     {
-        $stmt = $this->connection->prepare("DELETE FROM sport WHERE id = :id");
-        $stmt->bindValue(':design', $sport->id);
+        $stmt = $this->db->prepare("DELETE FROM sport WHERE id = :id");
+        $stmt->bindValue(':id', $sport->id);
         $stmt->execute();
         $stmt = null;
     }
 
-    public function findById($params)
+    public function findById($params): Sport
     {
-        $stmt = $this->connection->prepare("SELECT * FROM sport WHERE id = :id");
+        $stmt = $this->db->prepare("SELECT * FROM sport WHERE id = :id");
         $stmt->bindValue(':id', $params);
         $stmt->execute();
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
