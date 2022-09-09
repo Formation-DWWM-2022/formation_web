@@ -12,7 +12,7 @@ class SportRepository extends Database implements ISportRepository
     public function add(Sport $sport)
     {
         $stmt = $this->db->prepare("INSERT INTO sport (design) VALUES (:design)");
-        $stmt->bindValue(':design', $sport->getDesign());
+        $stmt->bindValue(':design', $sport->design);
         $stmt->execute();
         $stmt = null;
     }

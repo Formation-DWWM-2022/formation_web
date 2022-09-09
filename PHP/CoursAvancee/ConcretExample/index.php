@@ -36,24 +36,15 @@ try {
 
     // Auth
     $router->post('/', function () {
-        $db = new Database();
-        $userRepository = new UserRepository($db->getDb());
-        $auth = new Auth($userRepository);
-        $auth->postRegister();
+        (new Auth())->postRegister();
     });
 
     $router->get('user/new-password', function () {
-        $db = new Database();
-        $userRepository = new UserRepository($db->getDb());
-        $auth = new Auth($userRepository);
-        echo $auth->getUpdatePassword();
+        echo (new Auth())->getUpdatePassword();
     });
 
     $router->post('user/new-password', function () {
-        $db = new Database();
-        $userRepository = new UserRepository($db->getDb());
-        $auth = new Auth($userRepository);
-        echo $auth->postUpdatePassword();
+        echo (new Auth())->postUpdatePassword();
     });
 
     // HomePage
@@ -66,25 +57,24 @@ try {
         echo (new SportController())->invoke();
     });
 
-    $router->get('/admin/sport/:id', function ($params) {
-        echo (new SportController())->getSportById($params);
-    });
-
-    $router->post('/admin/sport/delete/:id', function ($params) {
-        (new SportController())->deleteSportById($params);
-    });
-
-    $router->get('/admin/sport/add', function () {
-        var_dump('ok');
-        (new SportController())->addSport();
+    $router->get('/admin/sport/create', function () {
+        echo (new SportController())->addSport();
     });
 
     $router->post('/admin/sport/add', function () {
         (new SportController())->addSport();
     });
 
+    $router->post('/admin/sport/delete/:id', function ($params) {
+        (new SportController())->deleteSportById($params);
+    });
+
     $router->post('/admin/sport/update/:id', function ($params) {
         (new SportController())->updateSportById($params);
+    });
+
+    $router->get('/admin/sport/:id', function ($params) {
+        echo (new SportController())->getSportById($params);
     });
 
     $router->run();

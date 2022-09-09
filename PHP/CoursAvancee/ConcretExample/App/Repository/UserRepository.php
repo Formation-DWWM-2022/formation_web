@@ -3,16 +3,11 @@
 namespace App\Repository;
 
 use App\Entity\User;
+use App\Service\Database;
 use PDO;
 
-class UserRepository implements IUserRepository
+class UserRepository extends Database implements IUserRepository
 {
-    private PDO $connection;
-
-    public function __construct(PDO $connection)
-    {
-        $this->connection = $connection;
-    }
 
     public function add(User $user)
     {

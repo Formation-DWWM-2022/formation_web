@@ -5,6 +5,7 @@ namespace App\Security;
 use App\Entity\User;
 use App\Form\FormUser;
 use App\Repository\IUserRepository;
+use App\Repository\UserRepository;
 use App\Service\Input;
 use App\Service\Redirect;
 use App\Service\Session;
@@ -19,9 +20,9 @@ class Auth
 
     private IUserRepository $userRepository;
 
-    public function __construct(IUserRepository  $userRepository)
+    public function __construct()
     {
-        $this->userRepository = $userRepository;
+        $this->userRepository = new UserRepository();
     }
 
     static function isLogin()

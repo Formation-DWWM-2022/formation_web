@@ -10,7 +10,7 @@ class FormSport
     static function buildCreateForm(): Form
     {
         $form = new Form();
-        $form->debutForm('post', URL_ROOT . 'admin/form/add')
+        $form->debutForm('post', URL_ROOT . 'admin/sport/add')
             ->ajoutLabelFor('design', 'Design')
             ->ajoutInput('text', 'design', ['id' => 'design', 'class' => 'form-control'])
             ->ajoutBouton('Ajouter', ['class' => 'btn btn-primary'])

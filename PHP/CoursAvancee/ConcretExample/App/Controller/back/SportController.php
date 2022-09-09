@@ -68,12 +68,13 @@ class SportController
 
     public function addSport()
     {
-        var_dump('ok');
         if (Input::exists()) {
+            var_dump($_POST);
             $val = new Validation;
             $val->name('design')->value(Input::get('design'))->pattern('alpha')->required();
             if ($val->isSuccess()) {
-                $sport = new Sport(Input::get('design'));
+                $design = Input::get('design');
+                $sport = new Sport($design);
                 $this->sportRepository->add($sport);
                 Redirect::to('admin/sport');
             }
