@@ -3,13 +3,15 @@
         <div class="col-12">
             <h3> Liste des sports existants</h3>
             <div class="row">
-                <?php foreach ($sports as $sport) { ?>
-                    <div class="col-3">
-                        <li><?php echo $sport->design; ?></li>
-                    </div>
-                <?php } ?>
+                <?php if (isset($sports) && !empty($sports)) {
+                    foreach ($sports as $sport) {
+                        include 'templates/front/partials/component/card/sport-card.php';
+                    }
+                } ?>
             </div>
-            <?= $formUser->create(); ?>
+            <div class="my-3">
+                <?= $formUser->create(); ?>
+            </div>
             <a href="ajout.php" title="S'inscrire" class="btn btn-primary">
                 S'inscrire
             </a>

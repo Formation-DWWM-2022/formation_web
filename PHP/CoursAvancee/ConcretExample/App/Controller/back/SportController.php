@@ -8,12 +8,12 @@ use App\Repository\ISportRepository;
 use App\Repository\SportRepository;
 use App\Service\Input;
 use App\Service\Redirect;
-use App\Service\View;
+use App\Service\ViewBack;
 use App\Validator\Validation;
 
 class SportController
 {
-    use View;
+    use ViewBack;
 
     private ISportRepository $sportRepository;
 

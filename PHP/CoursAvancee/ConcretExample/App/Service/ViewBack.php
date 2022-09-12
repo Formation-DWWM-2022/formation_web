@@ -2,8 +2,11 @@
 
 namespace App\Service;
 
-trait View {
-    function render($title = '', $file, $variables = [], $layout = APP_ROOT.'/templates/front/base.php') {
+use App\Service\View;
+
+trait ViewBack
+{
+    function render($title = '', $file, $variables = [], $layout = APP_ROOT.'/templates/back/base.php') {
         $content = $this->renderContent($file, $variables);
         ob_start();
         include $layout;

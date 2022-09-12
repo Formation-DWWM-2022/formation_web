@@ -59,22 +59,26 @@ class Auth
     function postRegister(): void
     {
         if (Input::exists()) {
-            if (Token::check(Input::get('token'))) {
-                $val = new Validation;
-                $val->name('mail')->value(Input::get('name'))->pattern('email')->required();
-                if ($val->isSuccess()) {
-                    $user = new User();
+            $val = new Validation();
+            $val->name('mail')->value(Input::get('mail'))->required();
+            if ($val->isSuccess() && Validation::is_email(Input::get('mail'))) {
+                var_dump($_POST);
+                $user = $this->userRepository->findByMail(Input::get('mail'));
+                if ($user) {
+                    Session::addMessage('success', 'You have been login successfully ! ' . $user->getNom());
+                } else {
+                    $user = new User(Input::get('mail'));
                     try {
                         $this->userRepository->add($user);
                         Session::addMessage('success', 'You have been registered and can now log in!');
                         Redirect::to('/');
-                    } catch(Exception $e) {
+                    } catch (Exception $e) {
                         die($e->getMessage());
                     }
-                } else {
-                    foreach ($val->getErrors() as $error) {
-                        Session::addMessage('error', $error);
-                    }
+                }
+            } else {
+                foreach ($val->getErrors() as $error) {
+                    Session::addMessage('error', $error);
                 }
             }
         }

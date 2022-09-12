@@ -12,12 +12,10 @@ class Token {
     public static function check($token): bool
     {
         $tokenName = TOKEN_NAME;
-
         if(Session::exists($tokenName) && $token === Session::get($tokenName)) {
             Session::delete($tokenName);
             return true;
         }
-
         return false;
     }
 

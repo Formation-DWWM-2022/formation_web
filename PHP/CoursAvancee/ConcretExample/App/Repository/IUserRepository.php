@@ -15,4 +15,8 @@ interface IUserRepository
     public function update(User $user);
 
     public function remove(User $user);
+
+    public function findById($params): User;
+
+    public function findByMail(string $mail);
 }

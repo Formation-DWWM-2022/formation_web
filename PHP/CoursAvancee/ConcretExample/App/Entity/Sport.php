@@ -2,18 +2,21 @@
 
 namespace App\Entity;
 
+use App\Repository\SportRepository;
 use Exception;
 
 class Sport
 {
     private int $id;
     private string $design;
+    private SportRepository $sportRepository;
 
     /**
      * @param string $design
      */
     public function __construct(string $design)
     {
+        $this->sportRepository = new SportRepository();
         $this->design = $design;
     }
 
@@ -36,13 +39,19 @@ class Sport
     /**
      * @throws Exception
      */
-    public function __get($property){
-        if('design' === $property) {
+    public function __get($property)
+    {
+        if ('design' === $property) {
             return $this->design;
-        } elseif('id' === $property) {
+        } elseif ('id' === $property) {
             return $this->id;
         } else {
             throw new Exception('Propriété invalide !');
         }
+    }
+
+    public function getNumberUser(): int
+    {
+        return $this->sportRepository->findNumberUser($this);
     }
 }

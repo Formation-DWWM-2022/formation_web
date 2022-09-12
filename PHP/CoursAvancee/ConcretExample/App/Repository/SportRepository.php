@@ -85,4 +85,20 @@ class SportRepository extends Database implements ISportRepository
         $sport->setId($arr['id']);
         return $sport;
     }
+
+    public function findNumberUser(Sport $sport)
+    {
+        $stmt = $this->db->prepare(
+            "SELECT count(*) as number_user 
+            FROM sport 
+            INNER JOIN pratique ON pratique.id_sport = sport.id 
+            INNER JOIN user ON pratique.id_user = user.id
+            WHERE pratique.id_sport = :id"
+        );
+        $stmt->bindValue(':id', $sport->id);
+        $stmt->execute();
+        $stmt->setFetchMode(PDO::FETCH_ASSOC);
+        $arr = $stmt->fetch();
+        return $arr['number_user'];
+    }
 }

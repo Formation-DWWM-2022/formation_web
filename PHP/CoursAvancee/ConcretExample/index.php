@@ -5,6 +5,7 @@ require_once 'Autoloader.php';
 
 use App\Autoloader;
 use App\Controller\Back\SportController;
+use App\Controller\Back\UserController;
 use App\Controller\Front\HomeController;
 use App\Exception\RouterException;
 use App\Repository\SportRepository;
@@ -35,7 +36,7 @@ try {
     $router = new Router($_GET['url']);
 
     // Auth
-    $router->post('/', function () {
+    $router->post('user/register', function () {
         (new Auth())->postRegister();
     });
 
@@ -77,8 +78,33 @@ try {
         echo (new SportController())->getSportById($params);
     });
 
+    // User CRUD methods
+    $router->get('/admin/user/', function () {
+        echo (new UserController())->invoke();
+    });
+
+    $router->get('/admin/user/create', function () {
+        echo (new UserController())->addUser();
+    });
+
+    $router->post('/admin/user/add', function () {
+        (new UserController())->addUser();
+    });
+
+    $router->post('/admin/user/delete/:id', function ($params) {
+        (new UserController())->deleteUserById($params);
+    });
+
+    $router->post('/admin/user/update/:id', function ($params) {
+        (new UserController())->updateUserById($params);
+    });
+
+    $router->get('/admin/user/:id', function ($params) {
+        echo (new UserController())->getUserById($params);
+    });
+
     $router->run();
-} catch(RouterException|Exception $e) {
+} catch (RouterException|Exception $e) {
     die('Error: ' . $e->getMessage());
 }
 

@@ -9,7 +9,7 @@ class Session
         return isset($_SESSION[$name]);
     }
 
-    public static function put(string $name, string $value): string
+    public static function put(string $name, $value)
     {
         return $_SESSION[$name] = $value;
     }
