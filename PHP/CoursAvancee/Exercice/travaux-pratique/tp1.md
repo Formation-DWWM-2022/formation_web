@@ -44,10 +44,7 @@ permet à l’utilisateur de choisir son niveau. Les choix possibles sont « dé
 « confirmé », « pro » ou « supporter ». Une zone de saisie de texte et un bouton
 d’envoi particulier permettent au visiteur d’ajouter un nouveau sport dans la table
 s’il n’est pas proposé dans la liste. Après l’enregistrement du nouveau sport, le visi-
-teur est dirigé vers la page d’inscription mise à jour avec ce nouveau sport.
-    – Le formulaire se termine par les habituels boutons d’envoi et de réinitialisation.
-– Lien vers la page d’accueil.
-– Script vérifiant l’existence de saisies dans les zones de texte et les listes de sélection,
+teur est dirigé vers la page d’inscription mise à jour avec ce nouveau sport. Le formulaire se termine par l'habituels bouton d’envoi. Script vérifiant l’existence de saisies dans les zones de texte et les listes de sélection,
 enregistrant les données dans la base sportifs et affichant l’identifiant généré.
 
 ### La page de recherche
