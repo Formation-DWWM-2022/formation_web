@@ -12,7 +12,7 @@
             <div class="my-3">
                 <?= $formUser->create(); ?>
             </div>
-            <a href="ajout.php" title="S'inscrire" class="btn btn-primary">
+            <a href="<?= URL_ROOT . "user/register" ?>" title="S'inscrire" class="btn btn-primary">
                 S'inscrire
             </a>
             <p>Vous pourrez accéder à la page de recherche ou vous inscrire dans un autre sport après vous être

@@ -9,12 +9,16 @@ use PDOException;
 
 class UserRepository extends Database implements IUserRepository
 {
-    public function add(User $user)
+    public function add(User $user) : User
     {
-        $stmt = $this->db->prepare("INSERT INTO user (mail) VALUES (:mail)");
+        $stmt = $this->db->prepare("INSERT INTO user (nom, prenom, departement, mail) VALUES (:nom, :prenom, :departement, :mail)");
+        $stmt->bindValue(':nom', $user->getNom());
+        $stmt->bindValue(':prenom', $user->getPrenom());
+        $stmt->bindValue(':departement', $user->getDepartement());
         $stmt->bindValue(':mail', $user->getMail());
         $stmt->execute();
         $stmt = null;
+        return $this->findById($this->db->lastInsertId());
     }
 
     public function findAll() : array

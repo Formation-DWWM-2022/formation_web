@@ -2,28 +2,40 @@
 
 namespace App\Form;
 
+use App\Entity\Departement;
 use App\Entity\Sport;
 use App\Entity\User;
+use App\Repository\SportRepository;
 use App\Service\Form;
 use App\Service\Token;
 
 class FormUser
 {
-    static function buildLoginUser(): Form
+    static function buildRegisterForm(array $sports, array $niveau): Form
     {
         $form = new Form();
-        $form->debutForm()
-            ->ajoutLabelFor('design', 'Design')
-            ->ajoutInput('text', 'design', ['id' => 'design', 'class' => 'form-control'])
-            ->ajoutBouton('Ajouter', ['class' => 'btn btn-primary'])
+        $form->debutForm('post', URL_ROOT . 'user/register')
+            ->ajoutLabelFor('nom', 'Nom')
+            ->ajoutInput('text', 'nom', ['id' => 'nom', 'class' => 'form-control'])
+            ->ajoutLabelFor('prenom', 'Prénom')
+            ->ajoutInput('text', 'prenom', ['id' => 'prenom', 'class' => 'form-control'])
+            ->ajoutLabelFor('departement', 'Département')
+            ->ajoutSelect('departement', Departement::getDepartement(), ['id' => 'departement', 'class' => 'form-control'])
+            ->ajoutLabelFor('mail', 'Mail')
+            ->ajoutInput('email', 'mail', ['id' => 'mail', 'class' => 'form-control'])
+            ->ajoutLabelFor('sport', 'Sport')
+            ->ajoutSelect('sport', $sports, ['id' => 'sport', 'class' => 'form-control'])
+            ->ajoutLabelFor('niveau', 'Niveau')
+            ->ajoutSelect('niveau', $niveau, ['id' => 'niveau', 'class' => 'form-control'])
+            ->ajoutBouton('Envoi', ['class' => 'btn btn-primary'])
             ->finForm();
         return $form;
     }
 
-    static function buildRegisterUserForm(): Form
+    static function buildLoginUserForm(): Form
     {
         $form = new Form();
-        $form->debutForm('post', URL_ROOT . 'user/register')
+        $form->debutForm('post', URL_ROOT . 'user/login')
             ->ajoutLabelFor('mail', 'Mail')
             ->ajoutInput('email', 'mail', ['id' => 'mail', 'class' => 'form-control'])
             ->ajoutBouton('Envoi', ['class' => 'btn btn-primary'])
@@ -34,7 +46,7 @@ class FormUser
     static function buildNewPasswordUserForm(): Form
     {
         $form = new Form();
-        $form->debutForm('post', URL_ROOT.'user/new-password')
+        $form->debutForm('post', URL_ROOT . 'user/new-password')
             ->ajoutLabelFor('password_current', 'Current Password')
             ->ajoutInput('password', 'password_current', ['id' => 'password_current', 'class' => 'form-control'])
             ->ajoutLabelFor('password_new', 'New Password')
@@ -47,7 +59,7 @@ class FormUser
         return $form;
     }
 
-    public static function buildDeleteFormWithUser(User $user) : Form
+    public static function buildDeleteFormWithUser(User $user): Form
     {
         $form = new Form();
         $form->debutForm('post', URL_ROOT . 'admin/user/delete/' . $user->getId())

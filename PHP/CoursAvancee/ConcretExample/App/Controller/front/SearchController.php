@@ -7,21 +7,21 @@ use App\Repository\ISportRepository;
 use App\Repository\SportRepository;
 use App\Service\View;
 
-class HomeController
+class SearchController
 {
     use View;
 
     private ISportRepository $sportRepository;
 
-     public function __construct()
-     {
-         $this->sportRepository = new SportRepository();
-     }
+    public function __construct()
+    {
+        $this->sportRepository = new SportRepository();
+    }
 
     public function invoke(): string
     {
         return $this->render(
-            SITE_NAME . ' - HomePage',
+            SITE_NAME . ' - SearchPage',
             'front/pages/home.php',
             [
                 'formUser' => FormUser::buildLoginUserForm(),

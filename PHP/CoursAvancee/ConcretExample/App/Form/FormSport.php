@@ -7,6 +7,17 @@ use App\Service\Form;
 
 class FormSport
 {
+    static function buildCreateFormInUserRegister(): Form
+    {
+        $form = new Form();
+        $form->debutForm('post', URL_ROOT . 'user/register/sport/add')
+            ->ajoutLabelFor('sport', 'Sport')
+            ->ajoutInput('text', 'design', ['id' => 'sport', 'class' => 'form-control'])
+            ->ajoutBouton('Ajouter', ['class' => 'btn btn-primary'])
+            ->finForm();
+        return $form;
+    }
+
     static function buildCreateForm(): Form
     {
         $form = new Form();

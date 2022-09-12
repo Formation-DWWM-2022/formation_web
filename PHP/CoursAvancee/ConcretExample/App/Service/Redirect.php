@@ -4,16 +4,16 @@ namespace App\Service;
 
 class Redirect
 {
-    public static function to($location = null)
+    public static function to($location = null, $replace = true, $response_code = 200)
     {
         if ($location) {
             if (is_numeric($location)) {
                 if ($location == 404) {
-                    header('Location: ' . URL_ROOT . '404', true, 'HTTP/1.0 404 Not Found');
+                    header('Location: ' . URL_ROOT . '404', true, 404);
                     exit();
                 }
             }
-            header('Location: ' . URL_ROOT . $location);
+            header('Location: ' . URL_ROOT . $location, $replace, $response_code);
             exit();
         }
     }

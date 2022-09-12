@@ -54,7 +54,6 @@ class SportRepository extends Database implements ISportRepository
 
     public function update(Sport $sport)
     {
-        var_dump($sport);
         $stmt = $this->db->prepare("UPDATE sport SET design = :design WHERE id = :id");
         $stmt->bindValue(':design', $sport->design);
         $stmt->bindValue(':id', $sport->id);
@@ -100,5 +99,22 @@ class SportRepository extends Database implements ISportRepository
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
         $arr = $stmt->fetch();
         return $arr['number_user'];
+    }
+
+    public function fetchAllForSelect(): array
+    {
+        $stmt = $this->db->prepare("SELECT * FROM sport ORDER BY design ASC");
+        $stmt->execute();
+        $stmt->setFetchMode(PDO::FETCH_ASSOC);
+        $arr = $stmt->fetchAll();
+        if (!$arr) {
+            throw new PDOException("Could not find sport in database");
+        }
+        $stmt = null;
+        $sports = [];
+        foreach ($arr as $sport) {
+            $sports[$sport['id']] = $sport['design'];
+        }
+        return $sports;
     }
 }

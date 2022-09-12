@@ -7,11 +7,13 @@ use App\Autoloader;
 use App\Controller\Back\SportController;
 use App\Controller\Back\UserController;
 use App\Controller\Front\HomeController;
+use App\Controller\Front\SearchController;
 use App\Exception\RouterException;
 use App\Repository\SportRepository;
 use App\Repository\UserRepository;
 use App\Security\Auth;
 use App\Service\Database;
+use App\Service\Redirect;
 use App\Service\Router;
 use App\Service\Session;
 
@@ -36,8 +38,20 @@ try {
     $router = new Router($_GET['url']);
 
     // Auth
+    $router->post('user/login', function () {
+        (new Auth())->postLogin();
+    });
+
+    $router->get('user/register', function () {
+        echo (new Auth())->getRegister();
+    });
+
     $router->post('user/register', function () {
         (new Auth())->postRegister();
+    });
+
+    $router->post('user/register/sport/add', function () {
+        (new Auth())->addSport();
     });
 
     $router->get('user/new-password', function () {
@@ -52,6 +66,16 @@ try {
     $router->get('/', function () {
         echo (new HomeController())->invoke();
     });
+
+    if (Auth::isAuthenticated()) {
+        // Search
+        $router->get('/search', function () {
+            echo (new SearchController())->invoke();
+        });
+    } else {
+        Redirect::to('user/register', true);
+    }
+
 
     // Sport CRUD methods
     $router->get('/admin/sport/', function () {
@@ -105,7 +129,7 @@ try {
 
     $router->run();
 } catch (RouterException|Exception $e) {
-    die('Error: ' . $e->getMessage());
+    die('Error: ' . $e);
 }
 
 

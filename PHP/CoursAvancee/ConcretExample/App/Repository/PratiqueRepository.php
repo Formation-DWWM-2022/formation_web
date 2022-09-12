@@ -3,39 +3,18 @@
 namespace App\Repository;
 
 use App\Entity\Pratique;
+use App\Service\Database;
 use PDO;
 
-class PratiqueRepository implements IPratiqueRepository
+class PratiqueRepository extends Database implements IPratiqueRepository
 {
-    private PDO $connection;
-
-    public function __construct(PDO $connection)
+    public function add(Pratique $pratique)
     {
-        $this->connection = $connection;
-    }
-
-    public function add(Pratique $Pratique)
-    {
-        // TODO: Implement add() method.
-    }
-
-    public function findAll(): array
-    {
-        // TODO: Implement findAll() method.
-    }
-
-    public function update(Pratique $Pratique)
-    {
-        // TODO: Implement update() method.
-    }
-
-    public function remove(Pratique $Pratique)
-    {
-        // TODO: Implement remove() method.
-    }
-
-    public function findByDesign(string $pratique): Pratique
-    {
-        // TODO: Implement findByDesign() method.
+        $stmt = $this->db->prepare("INSERT INTO pratique (id_user, id_sport, niveau) VALUES (:id_user, :id_sport, :niveau)");
+        $stmt->bindValue(':id_user', $pratique->id_user);
+        $stmt->bindValue(':id_sport', $pratique->id_sport);
+        $stmt->bindValue(':niveau', $pratique->niveau);
+        $stmt->execute();
+        $stmt = null;
     }
 }
