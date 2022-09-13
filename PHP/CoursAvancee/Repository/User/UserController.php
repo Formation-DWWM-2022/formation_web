@@ -5,28 +5,28 @@ include_once 'UserRepository.php';
 
 class UserController
 {
-    private $users;
+    private UserRepository $userRepository;
 
-    public function __construct(IUserRepository $users)
+    public function __construct(IUserRepository $userRepository)
     {
-        $this->users = $users;
+        $this->userRepository = $userRepository;
     }
 
     public function addUser($params)
     {
         $user = new User($params['username'], $params['password']);
-        $this->users->add($user);
+        $this->userRepository->add($user);
     }
 
     public function getUser($params): User
     {
-        return $this->users->findByUsername($params['username']);
+        return $this->userRepository->findByUsername($params['username']);
     }
 
     public function changePassword($params)
     {
         $user = $this->getUser($params);
         $user->changePassword($params['oldPassword'], $params['newPassword']);
-        $this->users->update($user);
+        $this->userRepository->update($user);
     }
 }

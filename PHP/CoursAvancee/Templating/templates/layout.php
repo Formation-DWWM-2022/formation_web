@@ -9,15 +9,18 @@
 </head>
 
 <body>
-   <nav class="navbar bg-light">
-      <div class="container">
-         <a class="navbar-brand" href="">Index</a>
-
-      </div>
-   </nav>
-
+   <header>
+      <nav class="navbar bg-light">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="<?= URL_ROOT ?>"><?= SITE_NAME ?></a>
+         </div>
+      </nav>
+      <?php //Session::showMessage(); ?>
+   </header>
    <?= $content ?>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+   <footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+   </footer>
 </body>
 
 </html>

@@ -1,7 +1,10 @@
 # Example Concret de site MVC simple
 
 # Etape 1 : Lancement
-- Création du repository Github et inviter ses collégues dev
+- Création d'un repository Github et inviter ses collégues dev 
+
+![](https://media.giphy.com/media/NytMLKyiaIh6VH9SPm/giphy.gif)
+
 - Creer un 1er commit avec cette hiearchie de dossier :
 
 ```
@@ -43,11 +46,13 @@ assets
  | app.js
 ```
 
+- maintenant je met en pratique les namespaces pour tous mes projet. [namespace](../Namespace/more-namespace.md)
+
 # Etape 2 : index.php + .htacess + Autoloader + Router + RouterException
 
-- Je commence par remplir mon `.htaccess` pour rediriger toutes les URLs sur le fichier ` index.php`.
+- Je commence par remplir mon `.htaccess` pour rediriger toutes les URLs sur le fichier ` index.php`. [.htaccess](.htaccess)
 
-- Dans le fichier `index.php`, je commence par inclure mes fichiers de configuration et configurer mon Autoloader avec le chemin vers lequelle trouver mes classes :
+- Dans le fichier `index.php`, je commence par inclure mes fichiers de configuration et configurer mon Autoloader avec le chemin vers lequelle trouver toutes mes classes :
 
 ```php
 require_once 'Autoloader.php';
@@ -71,7 +76,7 @@ Autoloader::$folderList =
 Autoloader::register();
 ```
 
-- Je n'oublie pas de remplir mon fichier `Autoloader.php` qui permet d'inclure dans mes futur fichier les classes que j'utilise dans mes méthodes.
+- Je n'oublie pas de remplir mon fichier `Autoloader.php` qui permet d'inclure dans mes futur fichier les classes que j'utilise dans mes méthodes. [Autoloader](../Autoload/more-autoload.md)
 
 - Je continue mon fichier `index.php` en démarrant ma session
 
@@ -79,7 +84,7 @@ Autoloader::register();
 session_start();
 ```
 
-- puis en intégrant le systeme de Router qui permet de lancer une méthode d'un controlleur en fonction de URL soumis au navigateur :
+- puis en intégrant le systeme de `Router.php` qui permet de lancer une méthode d'un controlleur en fonction de URL soumis au navigateur :
 
 ```php
 try {
@@ -99,7 +104,7 @@ try {
 }
 ```
 
-- Je n'oublie pas de remplir ma classe `Router.php` , `Route.php` et `RouterException.php` qui permet d'utiliser les méthode adéquat à un bon routeur URL
+- Je n'oublie pas de remplir ma classe `Router.php` , `Route.php` et `RouterException.php` qui permet d'utiliser les méthode adéquat à un bon routeur URL. [Router](../Router/more-router.md)
 
 - Enfin de compte je vais utliser sur mon fichier `index.php` :
 
@@ -109,6 +114,8 @@ use App\Controller\HomeController;
 use App\Exception\RouterException;
 use App\Service\Router;
 ```
+
+![](https://media.giphy.com/media/bGgsc5mWoryfgKBx1u/giphy.gif)
 
 # Etape 3 : Citation + BDD 
 - Je passe à la création de mon entité en créant une classe `Citation.php` qui est la représentation en PHP de ma table en BDD :
@@ -236,6 +243,8 @@ COMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 ```
 
+![](https://media.giphy.com/media/11R2VWSdFb4OmQ/giphy-downsized-large.gif)
+
 # Etape 4 : HomeControlleur + View +  templates
 - Je passe au `HomeControlleur.php` en créant la méthode invoke() et add(). Ce controlleur instancie un objet $citationRepository pour pouvoir faire des requetes CRUD en BDD facilement. Mon controlleur utilise la classe `View.php` pour générer la vue avec la méthode render() donc j'ai besoin que mon controlleur herite de ces méthodes. La méthode invoke() permet d'afficher ma page d'acceuil avec un formulaire de création de citation et la listes de mes citations en BDD en utilisant le templates `accueil.php` alors que la méthode add() vérifie les champs de mon formulaire poster. Si tous les champs sont bon, il insére en BDD, cette nouvelle instance de objet citation et redirige vers ma page accueil :
 
@@ -292,7 +301,7 @@ class HomeController
 }
 ```
 
-- Je n'oublie pas de récupérer la classe `View.php` et de créer mes templates `accueil.php` :
+- Je n'oublie pas de récupérer la classe `View.php` et de créer mes templates `accueil.php` : [View](../Templating/more-templating.md)
 
 ```php
 <div class="container">
@@ -346,6 +355,8 @@ class HomeController
 </html>
 ```
 
+![](https://media.giphy.com/media/MWjXKZe5EcdjNU5z7a/giphy.gif)
+
 # Etape 5 : CitationRepository + ICitationRepository + Database + config
 
 - Dans cette étape, je vais créer l'interface représentant ma base de données Citation dans le fichier `ICitationRepository.php` :
@@ -362,7 +373,7 @@ interface ICitationRepository
 }
 ```
 
-- vue que j'utilise une base de donnée MySQL via une liaison PDO. Je vais créer une classe `CitationRepository.php` qui hérite de `Database.php` que j'ai préalablement remplie et implémente cette instance de classe `ICitationRepository.php` que je viens de créer
+- vue que j'utilise une base de donnée MySQL via une liaison PDO. Je vais créer une classe `CitationRepository.php` qui hérite de `Database.php` que j'ai préalablement remplie et implémente cette instance de classe `ICitationRepository.php` que je viens de créer : [Database](citation/App/service/Database.php)
 
 ```php
 namespace App\Repository;
@@ -404,7 +415,7 @@ class CitationRepository extends Database implements ICitationRepository
 }
 ```
 
-- pour que ma connexion en Database fonctionne je vais configurer mon site avec un fichier de configuration `config.php` :
+- pour que ma connexion en Database fonctionne je vais configurer mon site avec un fichier de configuration `config.php` : [Config](../more-config.md)
 
 ```php
 //nom du site
@@ -428,9 +439,11 @@ const SESSION_NAME = 'user';
 const TOKEN_NAME = 'token';
 ```
 
+![](https://media.giphy.com/media/kPrlykW2TpVU4HWx2O/giphy.gif)
+
 # Etape 6 : Validator + Input + Redirect + FormCitation
 
-- Pour finir, je vais avoir d'un générateur de formulaire de création de Citation dans le fichier `FormCitation.php` qui utilise la classe `Form.php` que j'ai préalablement remplie :
+- Pour finir, je vais avoir d'un générateur de formulaire de création de Citation dans le fichier `FormCitation.php` qui utilise la classe `Form.php` que j'ai préalablement remplie : [GeneratorForm](../GeneratorForm/more-generator-form.md)
 
 ```php
 namespace App\Form;
@@ -454,7 +467,7 @@ class FormCitation
 }
 ```
 
-- Pour vérifier mon formulaire dans le `HomeControlleur.php`, je vais avoir aussi besoin de remplir la classe `Input.php` et `Validator.php`.
+- Pour vérifier mon formulaire dans le `HomeControlleur.php`, je vais avoir aussi besoin de remplir la classe `Input.php` et `Validator.php`. [Input](citation/App/service/Input.php) [Validator](../Validator/more-validator.md)
 
 - Enfin, pour rediriger au mieux mes utilisateurs, je vais remplir la classe `Redirect.php` :
 
@@ -480,6 +493,10 @@ class Redirect
 
 ```
 
+![](https://media.giphy.com/media/iddm3qLpC8x3djZDSm/giphy.gif)
+
 # Conclusion
 
 Normalement apres avoir fait toutes les étapes, vous avez un modéle de MVC POO complet simple et efficace pour un site de citation Open-bar
+
+![](https://media.giphy.com/media/nmBKiNb7h3tIv3BO8D/giphy.gif)
