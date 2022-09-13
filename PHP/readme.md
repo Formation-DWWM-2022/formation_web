@@ -141,13 +141,9 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [Templating](./CoursAvancee/Templating/more-templating.md)
 - [Router](./CoursAvancee/Router/more-router.md)
 - [MVC](../RAN/MVC/readme.md)
-
----
-
-- [Un example concret](./CoursAvancee/ConcretExample/index.php) <!-- PAS FINIS -->
+- [Un example concret](./CoursAvancee/ConcretExample/more-concretExample.md)
 - [Composer](./composer.md)
 - [Framework PHP](./frameworkPHP.md)
-- [Tester son code]() <!-- PAS FINIS -->
 
 ---
 
@@ -155,7 +151,7 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 
 - [Présentation des filtres PHP](./CoursAvancee/more-filtre.md)
 - [Mettre en place une pagination](./CoursAvancee/more-pagination.md)
-- [API](./CoursAvancee/more-api.md)
+- [API](./CoursAvancee/API/more-api.md)
 - [Générer des fichiers PDF](./CoursAvancee/more-pdf.md)
 - [Envoyer des emails](./CoursAvancee/more-send-email.md)
 
@@ -163,8 +159,17 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 
 ## PHP Extra Avancee
 
--  
--
+- Le chainage de méthodes en PHP
+- Les closures et les classes anonymes en PHP objet
+- Le mot clef final en PHP objet
+- La résolution statique à la volée ou late static bindings en PHP
+- Utiliser les traits en orienté objet PHP
+- L’interface Iterator et le parcours d’objets en PHP
+- Le passage d’objets en PHP : identifiants et références
+- Le clonage d’objets et la méthode magique PHP __clone()
+- La comparaison d’objets PHP
+- Les enums
+- L'injection de dependances
 
 # Notre guide de style PHP -  Qu'est ce que le PSR ?
 
