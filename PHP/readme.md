@@ -140,9 +140,11 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [Gestion de membre](./CoursAvancee/GestionMembre/more-authentification.md)
 - [Templating](./CoursAvancee/Templating/more-templating.md)
 - [Router](./CoursAvancee/Router/more-router.md)
+- [MVC](../RAN/MVC/readme.md)
+
+---
 
 - [Un example concret](./CoursAvancee/ConcretExample/index.php) <!-- PAS FINIS -->
-- [MVC](../RAN/MVC/readme.md) <!-- PAS FINIS -->
 - [Composer](./composer.md)
 - [Framework PHP](./frameworkPHP.md)
 - [Tester son code]() <!-- PAS FINIS -->
@@ -161,7 +163,7 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 
 ## PHP Extra Avancee
 
-- 
+-  
 -
 
 # Notre guide de style PHP -  Qu'est ce que le PSR ?
