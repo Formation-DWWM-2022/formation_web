@@ -1,4 +1,7 @@
 # PHP
+
+![](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+
 # Dates
 
 - Mercredi 31 aout - PHP Avancée - Cours / Exo
@@ -122,14 +125,12 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [Les interfaces en PHP orienté objet](./CoursAvancee/10-Interfaces.md)
 - [Les méthodes magiques en orienté objet PHP](./CoursAvancee/11-MethodesMagiques.md)
 - [Définition et gestion des erreurs en PHP](./CoursAvancee/12-Exception.md)
-- [Comparaison du code orienté objet et du code procédural](./CoursAvancee/ComparaisonCodePOOvsProcedural.md)
-- [L’évolution d’un objet PHP au fil des années](./evolutionPHP.md)
 
 --- 
 
 ## PHP Avancée TECHNIQUE
 
-- [PHPDoc](./PHPDoc.md)
+- [PHPDoc](./PHPDoc/PHPDoc.md)
 - [Config.php](./CoursAvancee/more-config.md)
 - [Classe permettant de gérer des formulaires](./CoursAvancee/GeneratorForm/more-generator-form.md)
 - [Simple PHP class for Validation](./CoursAvancee/Validator/more-validator.md)
@@ -142,6 +143,13 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [Router](./CoursAvancee/Router/more-router.md)
 - [MVC](../RAN/MVC/readme.md)
 - [Un example concret](./CoursAvancee/ConcretExample/more-concretExample.md)
+
+---
+
+## Ressource
+
+- [Comparaison du code orienté objet et du code procédural](./CoursAvancee/ComparaisonCodePOOvsProcedural.md)
+- [L’évolution d’un objet PHP au fil des années](./evolutionPHP.md)
 - [Composer](./composer.md)
 - [Framework PHP](./frameworkPHP.md)
 
