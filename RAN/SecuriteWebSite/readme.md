@@ -13,6 +13,7 @@ https://github.com/geohot
 
 https://fr.wikipedia.org/wiki/Jo%C3%ABl_Spolsky
 https://fr.wikipedia.org/wiki/Jeff_Atwood
+https://youtu.be/opKCYHuVPIM
 -->
 
 
