@@ -1,10 +1,4 @@
-<!-- 
-https://www.freecodecamp.org/news/javascript-design-patterns-explained/
-https://designpatternsphp.readthedocs.io/en/latest/README.html
-- https://github.com/ClementDelgrange/Cours_analyse_informatique/blob/master/Analyse_avancee.md
--->
-
-# Analyse et coneption
+# Analyse et conception
 
 Ce cours constitue une introduction au génie logiciel. Il présente les grands enjeux et les bonnes pratiques liés à l'activité de réalisation de logiciels :
 
@@ -73,14 +67,25 @@ Les dimensions du génie logiciel sont donc multiples :
     - DRY
     - KISS
     - YAGNI
-- [Patrons logiciels](./patronsLogiciels.md)
-
-
 - [SOLID](./SOLID.md)
-
-
-- Production de code source
-- Gestion des versions
-- Travail collaboratif
-- Tests
-- Documentation
+    - S : Single Responsibility Principle
+    - O : Open/Closed Principle
+    - L : Liskov’s Substitution Principle
+    - I : Interface Segregation Principle
+    - D : Dependency Inversion Principle
+- [STUPID](./STUPID.md)
+    - S : Singleton
+    - T : Tight Coupling
+    - U : Untestability
+    - P : Premature Optimization
+    - I : Indescriptive Naming
+    - D : Duplication
+- [Patrons logiciels](./patronsLogiciels.md) <!-- pas finis -->
+- [Production de code source](./productionCodeSource.md)
+    - [Convetion de nommage pour PHP](https://github.com/Formation-DWWM-2022/formation_web/tree/main/PHP#notre-guide-de-style-php----quest-ce-que-le-psr-)
+    - [Convetion de nommage pour JS](https://github.com/Formation-DWWM-2022/formation_web/tree/main/JS#notre-guide-de-style-javascript)
+- [Gestion des versions](../../GIT/readme.md)
+- [Travail collaboratif](../../GIT/readme.md)
+- [Tests](../TestDevelopment/readme.md)
+- [Documentation](../DocumentationTechnique/readme.md)
+- [Refactoring](./refactoring.md)

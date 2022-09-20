@@ -165,7 +165,7 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 
 ---
 
-## PHP Extra Avancee
+## PHP Extra Avancee  <!-- pas finis -->
 
 - Le chainage de méthodes en PHP
 - Les closures et les classes anonymes en PHP objet
