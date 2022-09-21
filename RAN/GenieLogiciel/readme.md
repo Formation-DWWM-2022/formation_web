@@ -80,7 +80,45 @@ Les dimensions du génie logiciel sont donc multiples :
     - P : Premature Optimization
     - I : Indescriptive Naming
     - D : Duplication
-- [Patrons logiciels](./patronsLogiciels.md) <!-- pas finis -->
+- [Patrons logiciels](./patronsLogiciels.md)
+    - Patrons d'architecture
+        - Architecture Client/Server 
+        - Architecture Component-Based 
+        - Architecture Domain Driven Design
+        - Architecture Layered 
+        - Architecture Message-bus
+        - Architecture en étages : N-Tier / 3-Tier
+        - Architecture Object-Oriented
+        - Architecture Service-Oriented
+        - Architecture P2P : Pair à pair
+        - Architecture [MVC : Modèle-Vue-Contrôleur](../MVC/readme.md)
+        - Architecture MVP : Modèle-Vue-Présentation
+        - Architecture MVVM : Modèle-Vue-Vue-Modèle
+        - Architecture HMVC : Hierarchical model–view–controller
+    - [Anti-patterns](./anti-patterns.md)
+    - Patron de conception
+        - Fabrique (Factory Method) ⭐⭐⭐
+        - Fabrique abstraite (Abstract Factory) ⭐⭐⭐
+        - Monteur (Builder) ⭐⭐⭐
+        - Prototype ⭐⭐
+        - Singleton ⭐⭐
+        - Adaptateur (Adapter) ⭐⭐⭐
+        - Composite ⭐⭐
+        - Décorateur (Decorator) ⭐⭐
+        - Façade (Facade) ⭐⭐
+        - Pont (Bridge) ⭐
+        - Procuration (Proxy) ⭐
+        - Poids mouche (Flyweight)
+        - Commande (Command)  ⭐⭐⭐
+        - Itérateur (Iterator) ⭐⭐⭐
+        - Observateur (Observer) ⭐⭐⭐
+        - Stratégie (Strategy) ⭐⭐⭐
+        - État (State) ⭐⭐
+        - Patron de méthode (Template Method) ⭐⭐
+        - Chaîne de responsabilité (Chain of Responsibility)  ⭐
+        - Mémento (Memento) ⭐
+        - Visiteur (Visitor) ⭐
+        - Médiateur (Mediator)
 - [Production de code source](./productionCodeSource.md)
     - [Convetion de nommage pour PHP](https://github.com/Formation-DWWM-2022/formation_web/tree/main/PHP#notre-guide-de-style-php----quest-ce-que-le-psr-)
     - [Convetion de nommage pour JS](https://github.com/Formation-DWWM-2022/formation_web/tree/main/JS#notre-guide-de-style-javascript)

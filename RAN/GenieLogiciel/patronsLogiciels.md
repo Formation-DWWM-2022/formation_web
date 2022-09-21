@@ -168,7 +168,7 @@ Parfois, votre modèle est structuré sous forme d’un arbre où la relation en
 
 Enfin, une bonne pratique logicielle consiste à favoriser la composition plutôt que l’héritage quand il s’agit d’ajouter de nouveaux comportements à un objet. Le design pattern `Decorator` répond à ce besoin, et il est très populaire en PHP.
 
-- Les patrons comportementaux mettent en place une communication efficace et répartissent les responsabilités entre les objets. 
+- Les patrons comportementaux mettent en place une communication efficace et répartissent les responsabilités entre les objets. [Behavioral](./behavioralPattern.md)
     - Commande (Command)  ⭐⭐⭐
         - Prend une action à effectuer et la transforme en un objet autonome qui contient tous les détails de cette action. Cette transformation permet de paramétrer des méthodes avec différentes actions, planifier leur exécution, les mettre dans une file d’attente ou d’annuler des opérations effectuées.
         - [Article](https://refactoring.guru/fr/design-patterns/prototype) - [PHP](https://refactoring.guru/fr/design-patterns/prototype/php/example#lang-features)
