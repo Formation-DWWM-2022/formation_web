@@ -58,6 +58,7 @@ Selon la complexité du test à écrire, un test double peut être :
 - Mink : https://mink.behat.org/en/latest/index.html
 
 # Outils PHP
+- [PHPUnit cours](./PHPUnitCours.md)
 - Tutoriel PHP - Les Tests Unitaires : https://youtu.be/jZB49who6rk
 - Exercice : Tester son code : https://youtu.be/yt7utxhDyVg
 - Tests en programmation : PHPUnit : https://youtu.be/TK4i5Xw7MgA
@@ -67,6 +68,10 @@ Selon la complexité du test à écrire, un test double peut être :
 # Outils JS
 ... 
 
+# TP - exercices
+- [TP Selenium IDE](./SeleniumTP.md)
+- [TP PHPUnit](./PHPUnitTP.md)
+- [TP PHPUnit TDD](./PHPUnitTDDTP.md)
 
 # Le linting, une bonne pratique !
 Le linting ("linter" son code) est une pratique qui vise à améliorer la qualité de votre code et de ce fait la reprise et la maintenabilité de celui-ci.
