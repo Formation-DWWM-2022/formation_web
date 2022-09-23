@@ -4,7 +4,7 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 ![image](https://camo.githubusercontent.com/b6874609548fc6a181e3ca2bf11fbb05051fd7ec9b605b510f8bf99fd5c2fed2/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f78543944505071774f436f786933415357632f67697068792e676966)
 
-# Expérience PRO et EDUCATION
+# Expérience PRO et EDUCATION ‍💻🎓
 
 ![](https://media3.giphy.com/media/KDYB0cH4HW8xc3VIAx/giphy.gif?cid=ecf05e4797wud7kwvr56ezonienf2s5m018r9lmo2pi924zm&rid=giphy.gif&ct=g)
 
@@ -28,6 +28,9 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
   - **Formation DWWM - IFPA**
     - juillet 2022 à en cours
 
+# [Ma veille techno ! 👨‍💻](https://twitter.com/i/lists/1572146247682723842?s=20)
+# [Spotify ▷](https://open.spotify.com/user/totoman18?si=9344b6d78bce4fac)
+# [Linkedin 📙](https://www.linkedin.com/in/alexandrebougrat/)
 # [PHP Storm & Jetbrains en centre de formation](./phpstorm.md)
 # [Anydesk](https://anydesk.com/fr/downloads/thank-you?dv=win_exe)
 
