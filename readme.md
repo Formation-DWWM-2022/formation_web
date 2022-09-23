@@ -4,7 +4,7 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 ![image](https://camo.githubusercontent.com/b6874609548fc6a181e3ca2bf11fbb05051fd7ec9b605b510f8bf99fd5c2fed2/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f78543944505071774f436f786933415357632f67697068792e676966)
 
-# Expérience PRO ou EDUCATION
+# Expérience PRO et EDUCATION
 
 ![](https://media3.giphy.com/media/KDYB0cH4HW8xc3VIAx/giphy.gif?cid=ecf05e4797wud7kwvr56ezonienf2s5m018r9lmo2pi924zm&rid=giphy.gif&ct=g)
 
@@ -28,7 +28,43 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
   - **Formation DWWM - IFPA**
     - juillet 2022 à en cours
 
+# [PHP Storm & Jetbrains en centre de formation](./phpstorm.md)
+# [Anydesk](https://anydesk.com/fr/downloads/thank-you?dv=win_exe)
+
+# Front-End Checklist
+
+La Checklist Front-End est une liste exhaustive de tous les élements dont vous avez besoin avant de lancer votre site HTML en production.
+
+<https://github.com/ynizon/Front-End-Checklist>
+
+# DevDocs
+
+DevDocs combines multiple API documentations in a fast, organized, and searchable interface. Here's what you should know before you start
+
+<https://devdocs.io/>
+
+# Rico's cheatsheets
+
+Hey! I'm @rstacruz and this is a modest collection of cheatsheets I've written.
+
+<https://devhints.io/>
+
+![](https://i.imgur.com/3JbH3jo.jpg)
+
+# [Freecodecamp](https://www.youtube.com/c/Freecodecamp/videos)
+# [Grafikart](https://grafikart.fr)
+
+# Internet Explorer ☠️
+
+![](https://nypost.com/wp-content/uploads/sites/2/2022/06/internet-explorer-grave-01.jpg?quality=75&strip=all)
+
 # Sommaire de mes différents cours
+
+- [✔️🚧 Projet Final](./projetfinal.md)
+
+- [✔️🚧 Stage](./stage.md)
+
+--- 
 
 - [✔️🚧 Algorithmie](./Algorithmie/memo.md)
 <!-- VIDEO GRAFIKART TO COURS ECRIT -->
@@ -48,6 +84,10 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 - [✔️🚧 Javascript](./JS/readme.md)
 
+- [❌🚧 Webpack](./Webpack/readme.md)
+
+  [❌🚧 BabelJS](./Webpack/babelJS.md)
+
 - [✔️ TypeScript](./TypeScript/readme.md)
 
 - [❌ Angular](./Angular/readme.md)
@@ -64,9 +104,7 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 - [❌🚧 Symfony](./Symfony/readme.md)
 
-- [❌🚧 Webpack](./Webpack/readme.md)
-
-  [❌🚧 BabelJS](./Webpack/babelJS.md)
+---
 
 - [✔️🚧 RAN](./RAN/readme.md)
 
@@ -84,7 +122,7 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 - [✔️ Paradigmes de programmation](./RAN/ParadigmesProgrammation/readme.md)
 
-      - [✔️ Programmation orientée objet](./RAN/ParadigmesProgrammation/POO.md)
+  - [✔️ Programmation orientée objet](./RAN/ParadigmesProgrammation/POO.md)
 
 - [✔️ Framework](./RAN/Framework/readme.md)
 
@@ -150,130 +188,3 @@ Je suis Bougrat Alexandre, développeur full stack et formateur chez Drosalys à
 
 - [❌ IOT]()
 
-- [✔️🚧 Projet Final](./projetfinal.md)
-
-# PHP Storm & Jetbrains en centre de formation
-
-- <https://www.jetbrains.com/shop/eform/students>
-- onglet > document officiel
-- vous mettez votre certificat de formation d'entrée
-
-## Astuce PHPStorm :
-- 15 astuces de productivité sous PHPStorm ! : https://youtu.be/NQAipbQR3jA
-- Pourquoi utiliser PHPStorm ? : https://youtube.com/playlist?list=PLjwdMgw5TTLVVi_LxB1smRKA7EgFIF6Do
-- PHPStorm vs VSCode for PHP Development : https://youtu.be/O9nIE-40uKk
-- 5 Reasons Why I don't use VS Code as my primary IDE : https://youtu.be/sqnbT1pKvkQ
-
-## Mes plugins :
-- https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-
-- https://plugins.jetbrains.com/plugin/7216-dummy-text-generator/
-- https://plugins.jetbrains.com/plugin/12453-hadouken-progress-bar
-- https://plugins.jetbrains.com/plugin/8580-cpu-usage-indicator
-- https://plugins.jetbrains.com/plugin/9406-code-screenshots
-- https://plugins.jetbrains.com/plugin/1800-database-navigator
-
-### Obligatoire :
-- https://plugins.jetbrains.com/plugin/7320-php-annotations
-- https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
-- https://plugins.jetbrains.com/plugin/7219-symfony-support
-- https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
-
-## Activer la vérification d'orthographe en francais
-- https://www.security-helpzone.com/2020/03/25/phpstorm-verificateur-orthographe-francais/
-
-## Reformatting Code :
-Visual Studio Code : SHIFT + ALT + F
-PHPStorm : CTRL + ALT + L 
-
-# Front-End Checklist
-
-La Checklist Front-End est une liste exhaustive de tous les élements dont vous avez besoin avant de lancer votre site HTML en production.
-
-<https://github.com/ynizon/Front-End-Checklist>
-
-# DevDocs
-
-DevDocs combines multiple API documentations in a fast, organized, and searchable interface. Here's what you should know before you start
-
-<https://devdocs.io/>
-
-# Rico's cheatsheets
-
-Hey! I'm @rstacruz and this is a modest collection of cheatsheets I've written.
-
-<https://devhints.io/>
-
-# [Grafikart](https://grafikart.fr)
-
-# [Anydesk](https://anydesk.com/fr/downloads/thank-you?dv=win_exe)
-
-# Développeur Web : quotidien, salaire, parcours
-
-![](https://serieall.fr/images/articles/old/BReaking_Bad_4.jpg?args)
-
-- Pool : <https://youtu.be/mP_fnttJ5g0>
-- Jesuisundev : <https://www.jesuisundev.com/argent-developpeur/>
-- Comment DEVENIR DÉVELOPPEUR WEB : 7 étapes INDISPENSABLES : <https://youtu.be/S_SU4gKoO-o>
-- L’erreur que TOUS les nouveaux développeurs font ! <https://youtu.be/MGG-km9vR_E?t=394>
-- La VÉRITÉ sur le salaire des développeurs ! [freelance] : <https://youtu.be/Z3ejysKJC20>
--  Hugo Dev Club [freelance] : https://www.youtube.com/channel/UC6xa4ATj7MiusIm3UgXTM0g
-- DÉVELOPPEUR FREELANCE : @Captain Dev nous livre ses secrets ! [freelance] : https://youtu.be/zZlZtFOk1GE
----
-
-## Le 11 juillet 2022 : [Salaire brut annuel - junior - en france]
-
-- Dev Front-end : 32K€ (720 offre sur apec)
-  - avec top 10% > 38K€
-  - avec top 30% > 35K€
-- Dev Back-end : 32K€ (741 offre sur apec)
-  - avec top 10% > 40K€
-  - avec top 30% > 35K€
-- Dev Full-stack : 33K€ (607 offre sur apec)
-  - avec top 10% > 40K€
-  - avec top 30% > 35K€
-
----
-
-- Dev PHP : 30K€ (819 offre sur apec)
-  - avec top 10% > 37.5K€
-  - avec top 30% > 33K€
-- Dev Laravel : 30K€ (109 offre sur apec)
-  - avec top 10% > 35K€
-  - avec top 30% > 32K€
-- Dev Symfony : 30K€ (468 offre sur apec)
-  - avec top 10% > 36.5K€
-  - avec top 30% > 32K€
-- Dev Wordpress : 32K€ (65 offre sur apec)
-  - avec top 10% > 40K€
-  - avec top 30% > 35K€
-
----
-
-- Dev JS : 32K€ (1215 offre sur apec)
-  - avec top 10% > 40K€
-  - avec top 30% > 35K€
-- Dev Angular : 32K€ (1211 offre sur apec)
-  - avec top 10% > 40K€
-  - avec top 30% > 35K€
-- Dev React : 32K€ (802 offre sur apec)
-  - avec top 10% > 40K€
-  - avec top 30% > 35K€
-- Dev VueJS : 32K€ (234 offre sur apec)
-  - avec top 10% > 38K€
-  - avec top 30% > 35K€
-
-> 32000€ brut annuel = 2080€ net mensuel
-
-> 40000€ brut annuel = 2600€ net mensuel
-
-# [Ce que personne ne te dira sur le métier de développeur 💣](https://www.jesuisundev.com/ce-que-personne-ne-te-dira-sur-le-metier-de-developpeur/)
-
-![](https://i.imgur.com/3JbH3jo.jpg)
-
-# Internet Explorer ☠️
-
-![](https://nypost.com/wp-content/uploads/sites/2/2022/06/internet-explorer-grave-01.jpg?quality=75&strip=all)
-
-# Youtube Channel
-
-<https://www.youtube.com/c/Freecodecamp/videos>
