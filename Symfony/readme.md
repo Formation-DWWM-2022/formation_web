@@ -1,4 +1,5 @@
 <!--
+https://cours.davidannebicque.fr/symfony/semestre-3/eco-systeme
 
 https://gist.github.com/tomsihap/bbec9a89da170c7d4e02bf8046799878
 
@@ -12,19 +13,12 @@ https://gist.github.com/tomsihap/bbec9a89da170c7d4e02bf8046799878
 https://gist.github.com/tomsihap/e939150d64b25c7b4010c847a3e77d48
 https://www.udemy.com/course/apprendre-symfony-par-la-creation-dun-site-ecommerce/
 https://thomgo.github.io/Exercices/backend/symfony/
-https://grafikart.fr/formations/symfony-4-pratique
-http://pigne.org/teaching/infoweb/lab/TP_Introduction_Symfony
 https://learn.web-develop.me/view/courses/symfony-5-le-guide-complet-debutants-et-intermediaires
-https://cours.davidannebicque.fr/symfony/semestre-3/eco-systeme
 https://github.com/search?q=symfony+cours+6&type=Repositories
 https://github.com/codewithdary/symfony-6-course/tree/main
 https://github.com/Alexandre-Peyron/symfony-training-course
 https://github.com/Dannebicque/symfony-lp/blob/master/tp.md
 https://github.com/Pierre-brtrd/Cours_Symfony_Pierre_Brtrd
-https://wiki.juniorisep.com/media/consultants/formation_symfony5_1.pdf
-https://www.youtube.com/watch?v=AJZML9SYSTk&list=PLFHz2csJcgk-t8ErN1BHUUxTNj45dkSqS&index=23
-https://www.youtube.com/watch?v=Lqlq5K-s4Qc&list=PLUiuGjup8Vg5t20nu7aaJDnbHlhzXbbuN&index=42
-https://www.youtube.com/watch?v=2EMU9TYzvB0&list=PLkHw7J3J2iaoIowz7LIImIFHkMJzO_84F&index=10
 
 -->
 
@@ -34,7 +28,7 @@ https://www.youtube.com/watch?v=2EMU9TYzvB0&list=PLkHw7J3J2iaoIowz7LIImIFHkMJzO_
 
 # Dates
 
-- Vendredi 23 septembre 
+- Lundi 26 septembre 
 - Au jeudi 20 octobre
 
 # Vidéo simples et efficace
@@ -73,28 +67,49 @@ Les codes des différents exemples vous seront fournis. Cependant, je vous conse
 
 La documentation la plus importante à mettre en favoris : https://symfony.com/doc/current/index.html
 
-- Introduction - Qu'est ce que Symfony et pourquoi l'utiliser ?
-- Installation 1er projet symfony
-- Structure de Symfony - MVC - .env
-- Creation 1er page - creer un controleur et gestion des routes - retourner une reponse
-- Twig , moteur de template - Les variables - Les conditions (if, else, for, set) - Réutiliser un template - Les filtres et fonctions - Ajouter du CSS et du JS
-- Installer Boostrap sur Symfony / Twig
-- Création entité : User
-- Decouvrir ORM Doctrine - enregistrer table User en BDD
-- Fixture - requêtes avec les repository - migrations - ManyToOne - ManyToMany
-- Formulaire inscription
-- Sauvegarder information inscription en BDD
-- Encoder les mots de passe utilisateur
+- [Introduction - Qu'est ce que Symfony et pourquoi l'utiliser ?](./Cours/01-introduction.md)
+- [Eco-Système de Symfony](./Corus/../Cours/02-eco-systeme.md)
+- [Architecture de Symfony](./Cours/03-architecture.md)
+- [Première page avec Symfony](./Cours/04-premiere-page.md)
+- [Controller et Routes](./Cours/05-controller&routes.md)
+- [Vues (TWIG)](./Cours/06-vues.md)
+- [Boostrap installation](./Cours/07-boostrap.md)
+- [Exercice](/Cours/08-exercice.md)
+- [Modèles - Entités - ORM](./Cours/09-modele&entite&orm.md)
+- [Relations entre entités](./Cours/10-relation-entity.md)
+- [Formulaires](./Cours/11-formulaires.md)
+- [Securite](./Cours/12-securite.md)
+
+<!-- 
 - Valider les données validator
-- CRUD
-- pagination
+- Pagination
 - Les vues privées : espace profil utilisateur
 - Bundle EasyAdmin
-- Comprendre les sessions
 - Mailjet ou Swiftmailer
 - Installer Stripe
-- Tester son code
 - Les commandes CRON
+- Auth 2FA
+- API HTTPCLIENT
+- Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/
+-->
+
+# TP 
+
+
+# Créer un environnement Symfony collaboratif
+
+* [ ] composer create-project symfony/skeleton nom_du_projet
+* [ ] cd nom_du_projet
+* [ ] composer require twig annotation orm
+* [ ] composer require maker debug-pack --dev
+* [ ] cp .env .env.local
+* [ ] git init
+* [ ] Créer le dépôt sur GitHub
+* [ ] git remote add origin https://github.com/....git
+* [ ] git add * (attention, fonctionne grâce au .gitignore de symfony)
+* [ ] git commit -m "installation de symfony"
+* [ ] git push origin master
+
 
 # Notre guide de style PHP -  Qu'est ce que le PSR ?
 
