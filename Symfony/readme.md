@@ -95,6 +95,22 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 
 # TP 
 
+# VS extensions
+
+I personally think that the following extensions are Must-Haves when working with Symfony:
+• Community Material Theme (Extra)
+• PHP Intelephense
+• PHPDoc Comment
+• PHP Namespace Resolver
+• HTML Snippets
+• JavaScript (ES6) code snippets
+• Symfony code snippets and Twig Support & yaml
+• Symfony for VSCode
+• Twig
+• Twig Language
+• Twig Language 2VScode Great Icons
+• Bracket Pair Colorizer
+• Emmet Live
 
 # Créer un environnement Symfony collaboratif
 
