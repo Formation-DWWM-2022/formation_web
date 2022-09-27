@@ -1,0 +1,31 @@
+{% extends "base.html.twig" %}
+{% block title %}
+    Personnes du Carnet
+{% endblock %}
+
+{% block stylesheets %}
+	{{ parent() }}
+	<link rel="stylesheet" href="static/css/tabstyle.css"/>
+{% endblock %}
+
+{% block body %}
+	<h2>{{titre}}</h2>
+	<table id="jolie" class="centre">
+		<tr>
+			<td>N°</td>
+			<td>Nom</td>
+			<td>Prenom</td>
+			<td>Age</td>
+			<td>Ville</td>
+		</tr>
+		{% for ami in amis %}
+			<tr>
+				<td>{{ami.ID}}</td>
+				<td>{{ami.NOM}}</td>
+				<td>{{ami.PRENOM}}</td>
+				<td>{{ami.NAISSANCE}}</td>
+				<td>{{ami.VILLE}}</td>
+			</tr>
+		{% endfor %}
+	</table>
+{% endblock %}
