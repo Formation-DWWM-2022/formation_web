@@ -28,8 +28,7 @@ https://github.com/Pierre-brtrd/Cours_Symfony_Pierre_Brtrd
 
 # Dates
 
-- Lundi 26 septembre 
-- Au jeudi 20 octobre
+- Lundi 26 septembre au jeudi 20 octobre
 
 # Vidéo simples et efficace
 > Code With Dary [eng]
@@ -61,7 +60,8 @@ Les codes des différents exemples vous seront fournis. Cependant, je vous conse
 
 ## MEMO
 
-[A Symfony Cheatsheet](./memo.md)
+- [A Symfony Cheatsheet](./memo.md)
+- [Symfony summary](./symfony-summary.md)
 
 # Sommaire
 
@@ -80,7 +80,18 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [Formulaires](./Cours/11-formulaires.md)
 - [Securite](./Cours/12-securite.md)
 
+---
+
+- [Symfony data fixtures](./Cours/more-fixture.md)
+- [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md)
+
+---
+
+- [Example de blog symfony complet](./ExampleBlog/readme.md)
+- [Example d'un site e-commerce](./ExampleECommerce/readme.md)
+
 <!-- 
+- Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
 - Valider les données validator
 - Pagination
 - Les vues privées : espace profil utilisateur
@@ -90,10 +101,23 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - Les commandes CRON
 - Auth 2FA
 - API HTTPCLIENT
-- Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/
+- Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/ - EventDispatcher - le système d'événements
+- composant symfony/var-dumper
+- UrlGenerator : générer des URLs dynamiquement en fonction des routes
 -->
 
 # TP 
+
+- TP d'introduction à Symfony
+- TP forum
+- TP outil de dépôt de travaux étudiants
+- TP projet vacances 
+- TP notaResto, le site de notation de restaurants (GRP 2 - 3)
+- TP symazon, une boutique en ligne (GRP 2 - 3)
+- TP JobBoard (GRP 2 - 3)
+- TP d'évaluation dealabs (GRP 2)
+
+<!-- form ajax -->
 
 # VS extensions
 

@@ -1,6 +1,6 @@
 # Architecture de Symfony
 
-Avec la version 4, Symfony à grandement simplifié la structure de ses répertoires et à normalisé les appelations pour coïncider avec la pratique de la majorité des framexork.
+Avec la version 4, Symfony à grandement simplifié la structure de ses répertoires et à normalisé les appelations pour coïncider avec la pratique de la majorité des framework.
 
 Symfony à également abandonné la notion de Bundle, qui était nécessaire pour développer son projet.
 

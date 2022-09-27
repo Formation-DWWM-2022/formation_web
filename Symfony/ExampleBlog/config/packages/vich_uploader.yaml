@@ -1,0 +1,36 @@
+knp_gaufrette:
+    stream_wrapper: ~
+
+    adapters:
+        article_adapter:
+            local:
+                directory: "%kernel.project_dir%/public/images/articles"
+
+    filesystems:
+        article_fs:
+            adapter: article_adapter
+
+vich_uploader:
+    db_driver: orm
+    storage: gaufrette
+
+    mappings:
+        articles_image:
+            uri_prefix: /images/articles
+            upload_destination: article_fs
+            directory_namer: app.directory_namer.article
+            namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
+            inject_on_load: false
+            delete_on_update: true
+            delete_on_remove: true
+
+        user_image:
+            uri_prefix: /images/users
+            upload_destination: "%kernel.project_dir%/public/images/users"
+            namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
+            inject_on_load: false
+            delete_on_update: true
+            delete_on_remove: true
+
+    metadata:
+        type: attribute

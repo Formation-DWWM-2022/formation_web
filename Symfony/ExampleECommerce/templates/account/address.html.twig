@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mes addresses - Boutique Project{% endblock %}
+
+{% block content %}
+    <a class="btn btn-info btn-sm float-right" href="{{ path('account_address_add') }}">Ajouter une Adresses</a>
+
+    <h1> Mes addresses</h1>
+    <a href="{{ path('account') }}"><i class="fas fa-arrow-left"></i> Retour</a>
+    <hr>
+    {% if app.user.addresses|length == 0 %}
+        <p class="text-center">
+            vous n aveza pas encore ajouté d'adresse dans votre compte client .
+        </a>
+    {% else %}
+        <div class="row">
+        {% for item in app.user.addresses %}
+            <div class="col-md-4 " >
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{item.name}}</h5>
+                        <p class="card-text">{{item.address}}</p><br>
+                        {{item.address}} - {{item.city}} - {{item.pays}}
+                        <hr>                    
+                        <a href="{{ path('account_address_delete',{'id': item.id}) }}" title="supprimer" class="btn float-right btn-danger mx-1 btn-sm" ><i class="fas fa-trash"></i></a>
+                        <a href="{{ path('account_address_edit',{'id': item.id}) }}" title="modifier" class="btn float-right btn-warning mx-1 btn-sm" ><i class="fas fa-pencil-alt"></i></a>
+                    </div> 
+                </div> 
+            </div> 
+        {% endfor %}
+        </div> 
+    {% endif %}
+    
+{% endblock %}

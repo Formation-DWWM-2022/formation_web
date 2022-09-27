@@ -1,0 +1,77 @@
+# Translation French Form
+form:
+  filter:
+    fields:
+      search: Rechercher
+      yes: Oui
+      no: Non
+    btn: Filtrer
+
+  user:
+    title:
+      edit: Editer un utilisateur
+      create: Créer un utilisateur
+      register: S'inscrire
+      login: Se connecter
+    fields:
+      firstname: "Prénom:"
+      lastname: "Nom:"
+      email: "Email:"
+      address: "Adresse:"
+      zipcode: "Code postal:"
+      image: "Image:"
+      choices.user: Utilisateur
+      choices.editor: Éditeur
+      choices.admin: Administrateur
+      roles: "Rôles:"
+      city: "Ville:"
+      password:
+        main: "Mot de passe:"
+        repeat: Répétez le mot de passe
+
+  tag:
+    title:
+      edit: "Modifier une catégorie"
+      create: "Créer une catégorie"
+    fields:
+      title: "Titre:"
+
+  article:
+    title:
+      create: Création d'un article
+      edit: Modification d'un article
+    fields:
+      title:
+        label: "Titre:"
+        placeholder: "Titre de l'article"
+      content:
+        label: "Contenu:"
+        placeholder: "Contenu de l'article"
+      tags: "Catégories:"
+      image:
+        multiple: "Images:"
+        single: "Image:"
+      enable: "Actif:"
+    btn:
+      create: Créer
+      add_image: Ajouter une image
+
+  comments:
+    title:
+      add: Ajouter un commentaire
+    fields:
+      title:
+        label: "Titre:"
+        placeholder: Titre de votre commentaire
+      content:
+        label: "Contenu:"
+        placeholder: "Contenu de votre commentaire"
+      grade:
+        label: "Note:"
+        help: "Sélectionnez une note pour l'article"
+      gdpr:
+        label: Rgpd
+        help: "En cochant cette case vous acceptez notre politique de confidentialité"
+
+# Bundles
+vich_uploader.form_label.delete_confirm: Supprimer l'image ?

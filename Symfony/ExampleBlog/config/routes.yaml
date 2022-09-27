@@ -1,0 +1,10 @@
+controllers:
+  resource: ../src/Controller/
+  type: attribute
+
+logout:
+  path: /logout
+
+login_api:
+  path: /api/login
+  controller: 'App\Api\Controller\SecurityController::apiLogin'

@@ -1,0 +1,44 @@
+{{ form_start(form) }}
+{% if form.prenom is defined and form.nom is defined %}
+	<div class="row">
+		<div class="col-md-6">
+			{{ form_row(form.prenom) }}
+		</div>
+		<div class="col-md-6">
+			{{ form_row(form.nom) }}
+		</div>
+	</div>
+{% endif %}
+
+{% if form.imageFile is defined %}
+	<div class="row">
+		{{ form_row(form.imageFile)}}
+	</div>
+{% endif %}
+
+{% if form.roles is defined %}
+	<div class="col-md-12">
+		{{ form_row(form.roles) }}
+	</div>
+{% endif %}
+
+{% if form.address is defined and form.zipCode is defined and form.ville is defined %}
+	<div class="row">
+		<div class="col-md-8">
+			{{ form_row(form.address) }}
+		</div>
+		<div class="col-md-4">
+			{{ form_row(form.zipCode) }}
+		</div>
+	</div>
+
+	<div class="col-md-6">
+		{{ form_row(form.ville) }}
+	</div>
+{% endif %}
+
+<div class="text-center">
+	<button class="btn btn-primary">{{ button_label|default('Save') }}</button>
+</div>
+{{ form_row(form._token) }}
+{{ form_end(form, {render_rest: false}) }}

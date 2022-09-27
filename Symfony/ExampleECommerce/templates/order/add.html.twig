@@ -1,0 +1,93 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Paiement de ma commande - Boutique Project{% endblock %}
+
+{% block content %}
+    <h2>Mon recapitulatif de paiement</h2>
+    <p> Vériviez vos informations avant de payer votre commande </p>
+    <hr> 
+    {% for message in app.flashes("success") %}
+        <p style="color:green;">{{ message }}</p>
+    {% endfor %}
+    <div class="row">
+        <div class="col-md-6">
+            <b>Mon adresse de livraison</b><br>
+            <div class="form-check">
+                {{delivery_content|raw}}            
+            </div>
+            <hr>
+            <b>Mon transporteur.</b><br>
+            <div class="form-check">
+                {{carriers.name}}<br>
+                {{carriers.description}}<br>
+                {{ ( (carriers.prix) / 100 )|number_format(2,',','.')  }} €
+            </div>  
+        </div>  
+        <div class="col-md-6">
+            <div class="text-center">
+                <b>Ma commande</b>
+                <p>Retrouvez le récapitulatif de vos produits.</p>
+            </div>
+            <div class="order-summary">
+                {% set Total = 0 %}
+                {% for item in cart %}
+                    {% set Total = Total + item.product.price * item.quantity %}
+                    <div class="row {% if item >0 %}mt-2{% endif %} ">
+                        <div class="col-md-3">
+                            <img src="/uploads/{{ item.product.illustration }}" alt="{{ item.product.name }}" class="img-thumbnail rounded mx-auto d-block" style=" height: 75px; ">
+                        </div>
+                        <div class="col-md-7 my-auto">
+                            {{ item.product.name }}<br>
+                            <small>{{ item.product.subtitle }}</small><br>
+                            <span class="text-center">x {{ item.quantity }}</span>
+                        </div>
+                        <div class="col-md-2 my-auto">
+                            {{ ( (item.product.price * item.quantity) / 100 )|number_format(2,',','.')  }} € 
+                        </div >
+                    </div>
+                {% endfor %}
+            </div>
+            <hr>
+            <strong>Sous-Total : </strong> {{ ( (Total) / 100 )|number_format(2,',','.')  }} € <br>
+            <strong>Livraison : </strong>  {{ ( (carriers.prix) / 100 )|number_format(2,',','.')  }} €
+            <hr>
+            <strong>Tolal : </strong> {{((Total + carriers.prix) / 100 )|number_format(2,',','.')  }} €
+
+            <a id="checkout-button" class="btn btn-success mt-3 btn-block" >Payer | {{((Total + carriers.prix) / 100 )|number_format(2,',','.')  }}</a>
+        </div>
+    </div>
+{% endblock %}
+{% block javascript %}
+    <script src="https://js.stripe.com/v3/"></script>
+    <script type="text/javascript">
+    // Create an instance of the Stripe object with your publishable API key
+    var stripe = Stripe("pk_test_51J7l6eBj9FnjdIPW6vjIeelPILdTsSQavHBz4xs1cfxxyoJc0QlfPDQG1JBC7jqR0NZQUfiDxfFVGFB25oWuHBxU00d64WamCF");
+    
+    var checkoutButton = document.getElementById("checkout-button");
+    checkoutButton.addEventListener("click", function () {
+        fetch("/commande/create-session/{{reference}}", {
+            method: "POST",
+        })
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (session) {
+            if(session.error=='order') {
+                window.location.replace('{{ path('order') }}')
+            }
+            return stripe.redirectToCheckout({ sessionId: session.id });
+        })
+        .then(function (result) {
+            // If redirectToCheckout fails due to a browser or network
+            // error, you should display the localized error message to your
+            // customer using error.message.
+            if (result.error) {
+                alert(result.error.message);
+            }
+        })
+        .catch(function (error) {
+            console.error("Error:", error);
+        });
+    });
+  </script>
+{% endblock %}

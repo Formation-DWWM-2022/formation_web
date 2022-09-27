@@ -104,6 +104,10 @@ Une lecture intéressante sur la logique d'évolution du framework Symfony : [ht
 * [Git (différent de GitHub)](https://git-scm.com/)
 * Le gestionnaire de dépendance [Composer](https://getcomposer.org/)
 * Le nouveau gestionnaire d'installation de Symfony : [https://symfony.com/download](https://symfony.com/download)
+    - Open a PowerShell terminal (version 5.1 or later) and run:
+        - `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time`
+        - `irm get.scoop.sh | iex`
+        - `scoop install symfony-cli`
 * Une maîtrise de son système d'exploitation ! (fichiers cachés, variables PATH, php.ini, console...)
 
 Vous pouvez suivre aussi les éléments de la documentation officielle : [https://symfony.com/doc/current/setup.html](https://symfony.com/doc/current/setup.html)
