@@ -82,6 +82,7 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 
 ---
 
+- [The VarDumper Component](https://symfony.com/doc/current/components/var_dumper.html#dump-examples-and-output)
 - [Symfony data fixtures](./Cours/more-fixture.md)
 - [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md)
 
@@ -102,8 +103,6 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - Auth 2FA
 - API HTTPCLIENT
 - Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/ - EventDispatcher - le système d'événements
-- composant symfony/var-dumper
-- UrlGenerator : générer des URLs dynamiquement en fonction des routes
 -->
 
 # TP 
