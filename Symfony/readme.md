@@ -82,6 +82,7 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 
 ---
 
+- [Copie et référence d’images](./Cours/more-add-images-webpack.md)
 - [The VarDumper Component](https://symfony.com/doc/current/components/var_dumper.html#dump-examples-and-output)
 - [Symfony data fixtures](./Cours/more-fixture.md)
 - [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md)
