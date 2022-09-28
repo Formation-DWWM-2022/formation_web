@@ -339,4 +339,4 @@ $doctrine->getRepository(Post::class)->maRequete('test');
 * Créer une page qui va afficher le titre de la catégorie en id 1 et le post en id 1.
 * Créer un nouveau post identique au premier en changeant le titre.
 * Créer une page qui affiche la totalité des entités Post.
-* Créer une page qui récupère le Post avec le Titre "Post 1".
+* Créer une page qui récupère le Post avec le Titre "Post 1". 
