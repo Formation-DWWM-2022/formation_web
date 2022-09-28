@@ -7,6 +7,11 @@
 yarn add file-loader@^6.0.0 --dev
 ``` 
 
+3. Installer le bundle `@popperjs/core`
+```
+yarn add @popperjs/core
+``` 
+
 3. Pour référencer un fichier image traité par Webpack, vous pouvez utiliser la méthode copyFiles() pour copier ces fichiers dans votre répertoire de sortie final. Commencez par l’activer dans webpack.config.js :
 
 ```
@@ -36,3 +41,18 @@ Cela copiera tous les fichiers des assets/images dans public/build/images. Si le
 
 5. Relancer `yarn watch`
 
+## Assets
+
+TWIG propose de gérer facilement les URL de vos images, fichiers CSS ou encore javascript.
+
+Pour cela vous aurez besoin d'ajouter le bundle suivant :
+
+```bash
+composer require symfony/asset
+```
+
+Ensuite, vous pouvez écrire dans TWIG
+
+```markup
+<img src="{{ asset('build/images/logo.png') }}" alt="Symfony!" />
+```
