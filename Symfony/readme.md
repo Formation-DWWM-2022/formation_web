@@ -86,6 +86,7 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [The VarDumper Component](https://symfony.com/doc/current/components/var_dumper.html#dump-examples-and-output)
 - [Symfony data fixtures](./Cours/more-fixture.md)
 - [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md)
+- [Pagination with KnpPaginatorBundle](https://symfonycasts.com/screencast/symfony4-doctrine-relations/pagination)
 
 ---
 
@@ -95,7 +96,6 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 <!-- 
 - Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
 - Valider les données validator
-- Pagination
 - Les vues privées : espace profil utilisateur
 - Bundle EasyAdmin
 - Mailjet ou Swiftmailer

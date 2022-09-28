@@ -27,13 +27,16 @@ On va également installer, si vous ne l'avez pas encore fait, le bundle "maker"
 composer require symfony/maker-bundle --dev
 ```
 
-Une fois ces deux éléments installés, il faut configurer la connexion à la base de données. Pour ce faire, il faut éditer le fichier `.env` à la racine de votre projet, qui doit normalement contenir une ligne d'exemple.
+Une fois ces deux éléments installés, il faut configurer la connexion à la base de données. Pour ce faire, il faut éditer le fichier `.env.local` à la racine de votre projet, qui doit normalement contenir une ligne d'exemple.
 
 ```
 # .env
 
 # customize this line!
 DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name"
+
+# example
+DATABASE_URL="mysql://root:@127.0.0.1:3306/cours_symfony?serverVersion=8&charset=utf8mb4"
 
 # to use sqlite:
 # DATABASE_URL="sqlite:///%kernel.project_dir%/var/app.db"
@@ -43,8 +46,11 @@ DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name"
 
 Une fois le fichier à jour avec vos données, vous pouvez créer votre base de données depuis la console.
 
-```bash
+```php
 php bin/console doctrine:database:create
+
+//ou
+symfony console doctrine:database:create
 ```
 
 Les modifications de structure de votre base de données devront être réalisées avec la console pour que Symfony puisse faire le lien entre les tables et l'ORM.
@@ -53,8 +59,11 @@ Les modifications de structure de votre base de données devront être réalisé
 
 Utilisez la commande `make:entity` (qui est dans le bundle maker) pour avoir une série de question vous permettant de créer votre entité avec l'utilisation de l'ORM Doctrine. Vous pouvez créer une nouvelle entité ou modifier (ajouter des champs) une entité déjà existante en saisissant son nom.
 
-```bash
+```php
 php bin/console make:entity
+
+//ou
+symfony console make:entity
 ```
 
 Vous allez devoir répondre à une suite de question avec le nom de l'entité (par défaut cela donnera le nom de la table), et les champs à créer. Dans Symfony une entité possède toujours un champs id, qui est la clé primaire et qui est auto-incrémenté. Vous ne devez donc pas l'ajouter dans la console.
@@ -72,9 +81,14 @@ Une fois terminé, le fichier d'Entité et le _repository_ associé sont génér
 
 Exemple dans la console :
 
-```bash
+```php
 php bin/console make:entity
 
+//ou
+symfony console make:entity
+```
+
+```
 Class name of the entity to create or update:
 > Product
 
@@ -94,10 +108,10 @@ Can this field be null in the database (nullable) (yes/no) [no]:
 > price
 
 Field type (enter ? to see all types) [string]:
-> integer
+> float
 
 Can this field be null in the database (nullable) (yes/no) [no]:
-> no
+> yes
 
  to stop adding fields):
 >
@@ -110,29 +124,23 @@ Et le code de l'entité généré dans `src/Entity/Product.php` :
 // src/Entity/Product.php
 namespace App\Entity;
 
+use App\Repository\ProductRepository;
+use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
-/**
- * @ORM\Entity(repositoryClass="App\Repository\ProductRepository")
- */
+#[ORM\Entity(repositoryClass: ProductRepository::class)]
 class Product
 {
-    /**
-     * @ORM\Id
-     * @ORM\GeneratedValue
-     * @ORM\Column(type="integer")
-     */
-    private $id;
+    #[ORM\Id]
+    #[ORM\GeneratedValue]
+    #[ORM\Column]
+    private ?int $id = null;
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $name;
+    #[ORM\Column(length: 255)]
+    private ?string $name = null;
 
-    /**
-     * @ORM\Column(type="integer")
-     */
-    private $price;
+    #[ORM\Column(nullable: true)]
+    private ?float $price = null;
 
     public function getId()
     {
@@ -154,20 +162,29 @@ php bin/console doctrine:schema:update -f
 
 //ou
 php bin/console d:s:u -f
+
+//ou
+symfony console d:s:u -f
 ```
 
 #### Mettre à jour votre base de données : méthode 2
 
 La création d'un fichier de migration qui va contenir le code SQL a exécuter en fonction de votre SGBD.
 
-```bash
+```php
  php bin/console make:migration
+
+//ou
+symfony console make:migration
 ```
 
 La mise à jour de votre base de données en fonction du fichier précédemment généré.
 
-```bash
+```php
 php bin/console doctrine:migrations:migrate
+
+//ou
+symfony console d:m:m
 ```
 
 Si vous consultez votre PHPMyAdmin vous verrez la table apparaître.
@@ -185,17 +202,15 @@ Après chaque modification ou ajout il faut de nouveau générer le fichier de m
 Une fois la base de données mise en place on va pouvoir insérer, modifier, supprimer et récupérer des informations de la base de données sans saisir de requêtes via des méthodes en initialisant l'entité fraichement créée :
 
 ```php
-/**
- * @Route("/test", name="test")
- */
-public function test()
+#[Route("/test", name="test")]
+public function test(ManagerRegistry $doctrine)
 {
     $post = new Post(); // initialise l'entité
     $post->setTitle('Mon titre'); // on set les différents champs
     $post->setEnable(true);
     $post->setDateCreated(new \Datetime);
 
-    $em = $this->getDoctrine()->getManager(); // on récupère le gestionnaire d'entité
+    $em = $doctrine->getManager(); // on récupère le gestionnaire d'entité
     $em->persist( $post ); // on déclare une modification de type persist et la génération des différents liens entre entité
     $em->flush(); // on effectue les différentes modifications sur la base de données 
     // réelle
@@ -209,20 +224,18 @@ Il existe à la place de `$em->persist, $em->remove($post);` qui permettra de fa
 Ce dernier code effectue une création dans la base de données; pour une modification il suffit de modifier l'instanciation de l'entité de la sorte :
 
 ```php
-/**
- * @Route("/test/modification", name="test")
- */
-public function testModification()
+#[Route("/test/modification", name="test_modification")]
+public function testModification(ManagerRegistry $doctrine)
 {
     // récupération du post avec id 1 
-    $post = $this->getDoctrine()->getRepository(Post::class)->find(1); 
+    $post = $doctrine->getRepository(Post::class)->find(1); 
     //equivalent à SELECT * FROM post WHERE id=1
     
     $post->setTitle('Mon titre'); // on set les différents champs
     $post->setEnable(true);
     $post->setDateCreated(new \Datetime);
 
-    $em = $this->getDoctrine()->getManager(); // on récupère le gestionnaire d'entité
+    $em = $doctrine->getManager(); // on récupère le gestionnaire d'entité
     $em->flush(); // on effectue les différentes modifications sur la base de données 
     // réelle
 
@@ -251,15 +264,13 @@ Exemple
 
 ```php
 // Modifications multiples : 
-/**
- * @Route("/est", name="test")
- */
-public function test()
+#[Route("/test", name="test")]
+public function test(ManagerRegistry $doctrine)
 {
     // récupération de tous les posts
-    $posts = $this->getDoctrine()->getRepository(Post::class)->findAll(); 
+    $posts = $doctrine->getRepository(Post::class)->findAll(); 
     //équivalent à SELECT * FROM post
-    $em = $this->getDoctrine()->getManager(); // on récupère le gestionnaire d'entité
+    $em = $doctrine->getManager(); // on récupère le gestionnaire d'entité
 
     foreach($posts as $post)
     {
@@ -278,40 +289,40 @@ Si aucune requête prédéfinie ne correspond à vos besoin, vous pouvez bien s�
 Vous pouvez également générer vos requêtes manuellement pour avoir une requête complexe et précise directement dans le _controller_ mais idéalement il faudrait le placer dans le _repository_ dédié.
 
 ```php
-// src/AppBundle/Repository/Post.php
+// src/Repository/Post.php
 
-public function maRequete( $where )
-{
-    // avec querybuilder
-    $queryBuilder = $this->createQueryBuilder("p");
-
-    $queryBuilder->where(' p.title like :w');
-    $queryBuilder->setParameter(':w', '%'.$where.'%');
-    $query = $queryBuilder->getQuery(); // on récupère la requêtes 
-
-       return $query->getResult(); // on renvoie le résultat
-}
-//OU
- public function maRequeteSQL( $where )
+    public function maRequete( $where )
     {
-        // avec requête SQL
-        $em = $this->getEntityManager();
-        $query = $em->createQuery('SELECT p from AppBundle:Post p 
-    WHERE p.title like :w');
+        // avec querybuilder
+        $queryBuilder = $this->createQueryBuilder("p");
 
-        $query->setParameter(':w', '%'.$where.'%');
-
+        $queryBuilder->where(' p.title like :w');
+        $queryBuilder->setParameter(':w', '%'.$where.'%');
+        $query = $queryBuilder->getQuery(); // on récupère la requêtes 
 
         return $query->getResult(); // on renvoie le résultat
-     }
-}
+    }
+    //OU
+    public function maRequeteSQL( $where )
+        {
+            // avec requête SQL
+            $em = $this->getEntityManager();
+            $query = $em->createQuery('SELECT p from AppBundle:Post p 
+        WHERE p.title like :w');
+
+            $query->setParameter(':w', '%'.$where.'%');
+
+
+            return $query->getResult(); // on renvoie le résultat
+        }
+    }
 ```
 
 Et l'utiliser dans votre _controller_
 
 ```php
-// src/AppBundle/Controller/DefautController
-$this->getDoctrine()->getRepository(Post::class)->maRequete('test');
+// src/Controller/DefautController
+$doctrine->getRepository(Post::class)->maRequete('test');
 ```
 
 ## Exercice
@@ -328,4 +339,4 @@ $this->getDoctrine()->getRepository(Post::class)->maRequete('test');
 * Créer une page qui va afficher le titre de la catégorie en id 1 et le post en id 1.
 * Créer un nouveau post identique au premier en changeant le titre.
 * Créer une page qui affiche la totalité des entités Post.
-* Créer une page qui récupère le Post avec le Titre "Post 1"
+* Créer une page qui récupère le Post avec le Titre "Post 1".
