@@ -62,6 +62,7 @@ Les codes des différents exemples vous seront fournis. Cependant, je vous conse
 
 - [A Symfony Cheatsheet](./memo.md)
 - [Symfony summary](./symfony-summary.md)
+- [DQL méthodes les plus utilisées dans une application simple](./DQL-memo.md)
 
 # Sommaire
 
@@ -84,9 +85,11 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 
 - [Copie et référence d’images](./Cours/more-add-images-webpack.md)
 - [The VarDumper Component](https://symfony.com/doc/current/components/var_dumper.html#dump-examples-and-output)
+- [Pagination with KnpPaginatorBundle](https://symfonycasts.com/screencast/symfony4-doctrine-relations/pagination)
+
 - [Symfony data fixtures](./Cours/more-fixture.md)
 - [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md)
-- [Pagination with KnpPaginatorBundle](https://symfonycasts.com/screencast/symfony4-doctrine-relations/pagination)
+- [How to Schedule Emails in PHP - Run Automated Scripts Using CRON - Full PHP 8 Tutorial](https://youtu.be/9q1Nt6lHXq8)
 
 ---
 
@@ -96,11 +99,9 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 <!-- 
 - Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
 - Valider les données validator
-- Les vues privées : espace profil utilisateur
 - Bundle EasyAdmin
 - Mailjet ou Swiftmailer
 - Installer Stripe
-- Les commandes CRON
 - Auth 2FA
 - API HTTPCLIENT
 - Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/ - EventDispatcher - le système d'événements
