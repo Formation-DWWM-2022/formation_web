@@ -177,18 +177,21 @@ I personally think that the following extensions are Must-Haves when working wit
 ---
 
 * [ ] ouvrir un invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
 * [ ] `docker exec -it php8-sf6 bash`
 * [ ] `yarn watch`
 
 --- 
 
 * [ ] ouvrir un invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
 * [ ] `docker exec -it php8-sf6 bash`
 * [ ] `symfony console make:controller nom_du_controller`
 
 --- 
 
 * [ ] ouvrir un invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
 * [ ] `docker exec -it php8-sf6 bash`
 * [ ] `cp .env .env.local`
 * changer dans le fichier `.env.local` la  `DATABASE_URL ` par `DATABASE_URL="mysql://root:password@votre_ip:port_databse/nom_projet?serverVersion=8&charset=utf8mb4"`
