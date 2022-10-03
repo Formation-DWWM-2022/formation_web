@@ -97,7 +97,7 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [Example d'un site e-commerce](./ExampleECommerce/readme.md)
 
 <!-- 
-- Cours DOCTRINE
+- Lancement CV en ligne
 - Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
 - Valider les données validator
 - Bundle EasyAdmin
@@ -138,72 +138,13 @@ I personally think that the following extensions are Must-Haves when working wit
 • Bracket Pair Colorizer
 • Emmet Live
 
-# Créer un environnement Symfony collaboratif
+# PHPStorm [Code With Me]
+- [Découvrez Code With Me : l’outil pour le développement collaboratif de JetBrains](https://blog.jetbrains.com/fr/blog/2020/09/29/decouvrez-code-with-me-version-eap-l-outil-pour-le-developpement-collaboratif-de-jetbrains/)
+- [Getting started with Code With Me](https://www.jetbrains.com/help/idea/code-with-me.html)
 
+# [Cours d'installation de Docker Desktop sur votre machine](../Docker/installation-docker.md)
+# [Créer un environnement Symfony collaboratif](../Docker/environnement-symfony.md)
 
-* [ ] ouvrir l'application `Docker Desktop` en administrateur 
-
---- 
-
-* [ ] ouvrir un invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet`
-* [ ] `git clone https://github.com/Myogamevideo/docker_sf6 nom_du_projet`
-* [ ] `cd nom_du_projet`
-* [ ] `cd project`
-* [ ] `git clone https://github.com/Myogamevideo/starter_sf6.git nom_du_projet`
-* [ ] `cd ..`
-* [ ] `docker-compose up -d --build`
-* [ ] attendre 5 min ...
-* [ ] vérifier sur l'application `Docker Desktop` dans l'onglet `Containers` dans le container `docker_symfony` dans l'image `php-sf6` que le message `Web server listening` appareit
-
----
-
-* [ ] supprimer le dossier `.git` et le fichier `.gitignore` dans le dossier `nom_du_projet`
-* [ ] supprimer le fichier `.gitignore` dans le dossier `nom_du_projet\project`
-* [ ] supprimer le dossier `.git` dans le dossier `nom_du_projet\project\nom_du_projet`
-
----
-
-* [ ] ouvrir un invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet`
-* [ ] `git init`
-* [ ] Créer le dépôt sur GitHub
-* [ ] `git remote add origin https://github.com/....git`
-* [ ] `git branch -m main`
-* [ ] `git add *` (attention, fonctionne grâce au .gitignore de symfony)
-* [ ] `git commit -m "installation de symfony"`
-* [ ] `git push origin master`
-
----
-
-* [ ] ouvrir un invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
-* [ ] `docker exec -it php8-sf6 bash`
-* [ ] `yarn watch`
-
---- 
-
-* [ ] ouvrir un invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
-* [ ] `docker exec -it php8-sf6 bash`
-* [ ] `symfony console make:controller nom_du_controller`
-
---- 
-
-* [ ] ouvrir un invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
-* [ ] `docker exec -it php8-sf6 bash`
-* [ ] `cp .env .env.local`
-* changer dans le fichier `.env.local` la  `DATABASE_URL ` par `DATABASE_URL="mysql://root:password@votre_ip:port_databse/nom_projet?serverVersion=8&charset=utf8mb4"`
-    * avec `votre_ip` : https://github.com/Myogamevideo/docker_sf6#ipconfig
-    * avec `port_databse` : vérifier sur l'application `Docker Desktop` dans l'onglet `Containers` dans le container `docker_symfony` dans l'image `database-1` le port (ex: 54356)
-    * avec `nom_projet` : le nom du projet
-* [ ] ouvrir un onglet du navigateur sur `http://votre_ip:8080`
-    * avec `votre_ip` : https://github.com/Myogamevideo/docker_sf6#ipconfig
-* [ ] `docker exec -it php8-sf6 bash`
-* [ ] `symfony console make:entity`
-* [ ] `symfony console make:migration`
-* [ ] `symfony console d:m:m`
 
 # Notre guide de style PHP -  Qu'est ce que le PSR ?
 

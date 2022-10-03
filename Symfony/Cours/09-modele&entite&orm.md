@@ -325,6 +325,28 @@ Et l'utiliser dans votre _controller_
 $doctrine->getRepository(Post::class)->maRequete('test');
 ```
 
+## DQL méthodes les plus utilisées dans une application simple :
+- select()
+- addSelect()
+- from()
+- join()
+- leftJoin()
+- where()
+- andWhere()
+- orWhere()
+- groupBy()
+- addGroupBy()
+- having()
+- andHaving()
+- orHaving()
+- orderBy()
+- addOrderBy()
+- setMaxResults()
+- setParameter()
+- setParamaters()
+
+Pour avoir des exemples d'utilisations de ces méthodes et une description plus approfondie : https://www.doctrine-project.org/projects/doctrine-orm/en/2.13/reference/query-builder.html#working-with-querybuilder
+
 ## Exercice
 
 * Créer une entité "Post" avec :
