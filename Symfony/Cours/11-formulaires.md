@@ -168,14 +168,14 @@ return $this->render('template.html.twig', ['form' => $form->createView()]);
 
 Ensuite nous aurons plusieurs fonctions twig utiles:
 
-* `{{ form }}` permet d'afficher tout le formulaire&#x20;
-* `{{ form_start  }}` permet de générer la balise `<form>` avec les différents attributs
-* `{{ form_end }}` permet de générer la fermeture de `<form>` avec les différents champs restants non affichés
+* `{{ form(mon formulaire) }}` permet d'afficher tout le formulaire&#x20;
+* `{{ form_start(mon formulaire)  }}` permet de générer la balise `<form>` avec les différents attributs
+* `{{ form_end(mon formulaire) }}` permet de générer la fermeture de `<form>` avec les différents champs restants non affichés
 * `{{ form_errors }}` affiche les erreurs éventuelles du formulaire
 * `{{ form_widget(mon formulaire.nomduchamps) }}` affiche le type de champs&#x20;
 * `{{  form_label(mon formulaire.nomduchamps) }}` affiche le label du champs
 * `{{ form_row(monformulaire.nomduchamps) }}` affiche le form\_widget et form\_label
-* `{{ form_rest }}` affiche les champs restants non récupéré précédemment (token de vérification par exemple)
+* `{{ form_rest(mon formulaire) }}` affiche les champs restants non récupéré précédemment (token de vérification par exemple)
 
 Ces fonctions permettent une grande maîtrise de la mise en forme d'un formulaire. Cependant, elle implique de détailler les éléments.
 
@@ -209,18 +209,21 @@ Une fois le formulaire créé et affiche via TWIG il faut rajouter un comporteme
 Dans la majorité des cas on va tester si :
 
 ```php
-public function newAction(Request $request){
+public function newAction(ManagerRegistry $doctrine, Request $request){
   //... génération ou récupération du formulaire
 
   $form->handleRequest($request); // hydratation du form 
   if($form->isSubmitted() && $form->isValid()){ // test si le formulaire a été soumis et s'il est valide
-    $em = $this->getDoctrine()->getManager(); // on récupère la gestion des entités
+    $em = $doctrine->getManager(); // on récupère la gestion des entités
     $em->persist($task); // on effectue les mise à jours internes
     $em->flush(); // on effectue la mise à jour vers la base de données
     return $this->redirectToRoute('show_task', ['id' => $task->getId()]); // on redirige vers la route show_task avec l'id du post créé ou modifié 
   }
 }
+
 ```
+
+[Processing Forms](https://symfony.com/doc/current/forms.html#processing-forms)
 
 ### Validation
 
@@ -246,7 +249,7 @@ class Author
 
 Ici on vérifiera que le champs name doit être rempli.
 
-### Exercice
+## Exercice 1
 
 * Créer un formulaire directement dans DefaultController qui gèrera la création des Post
 * Créer un formulaire directement dans DefaultController qui gèrera la modification des Post
@@ -276,17 +279,17 @@ php bin/console make:form
 
 Attention si vous modifier une entité les FormType ne sont pas générés automatiquement il faudra rajouter manuellement le champs fraichement créé.
 
-### Exercice
+## Exercice 2
 
 * Générer le CRUD de Post avec l'url /admin/post
 * Générer le CRUD de PostCategory avec l'url /admin/postcategory
 * Tester le fonctionnement
 * Mettre les liens dans le menu pour aller sur le listing post et listing postcategory; mettre en actif si url courante
 
-### Exercice
+## Exercice 3
 
 * On va créer une page de recherche
-*  Modifier le repository de Post pour créer une méthode `search($word)` qui recherchera dans le titre et le contenu le mot $word
+* Modifier le repository de Post pour créer une méthode `search($word)` qui recherchera dans le titre et le contenu le mot $word
 
     Tips : [https://symfony.com/doc/current/doctrine.html#querying-for-objects-the-repository](https://symfony.com/doc/current/doctrine.html#querying-for-objects-the-repository)
 
