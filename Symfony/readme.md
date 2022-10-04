@@ -86,7 +86,6 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [Copie et référence d’images](./Cours/more-add-images-webpack.md)
 - [The VarDumper Component](https://symfony.com/doc/current/components/var_dumper.html#dump-examples-and-output)
 - [Pagination with KnpPaginatorBundle](https://symfonycasts.com/screencast/symfony4-doctrine-relations/pagination)
-
 - [Symfony data fixtures](./Cours/more-fixture.md)
 - [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md)
 - [How to Schedule Emails in PHP - Run Automated Scripts Using CRON - Full PHP 8 Tutorial](https://youtu.be/9q1Nt6lHXq8)
@@ -97,6 +96,8 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [Example d'un site e-commerce](./ExampleECommerce/readme.md)
 
 <!-- 
+- Translation
+- Formulaire avec entity
 - Lancement CV en ligne
 - Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
 - Valider les données validator
@@ -139,12 +140,12 @@ I personally think that the following extensions are Must-Haves when working wit
 • Emmet Live
 
 # PHPStorm [Code With Me]
+
 - [Découvrez Code With Me : l’outil pour le développement collaboratif de JetBrains](https://blog.jetbrains.com/fr/blog/2020/09/29/decouvrez-code-with-me-version-eap-l-outil-pour-le-developpement-collaboratif-de-jetbrains/)
 - [Getting started with Code With Me](https://www.jetbrains.com/help/idea/code-with-me.html)
 
 # [Cours d'installation de Docker Desktop sur votre machine](../Docker/installation-docker.md)
 # [Créer un environnement Symfony collaboratif](../Docker/environnement-symfony.md)
-
 
 # Notre guide de style PHP -  Qu'est ce que le PSR ?
 
