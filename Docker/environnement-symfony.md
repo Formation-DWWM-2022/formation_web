@@ -192,7 +192,7 @@ Suivre le [cours d'installation](./installation-docker.md) de `Docker Desktop` s
 * [ ] `cd project`
 * [ ] `git clone https://github.com/Myogamevideo/starter_sf6.git nom_du_projet` OU votre starter symfony OU nouveau projet symfony
 * [ ] `cd ..`
-* [ ] `docker build --build-arg PROJECT_NAME=nom_du_projet`
+* [ ] `docker-compose build --build-arg project_name=nom_du_projet`
 * [ ] `docker-compose up -d`
 * [ ] attendre 5 min ...
 * [ ] vérifier sur l'application `Docker Desktop` dans l'onglet `Containers` dans le container `docker_symfony` dans l'image `php-sf6` que le message `Web server listening` apparaît
@@ -256,8 +256,10 @@ Suivre le [cours d'installation](./installation-docker.md) de `Docker Desktop` s
 ## Access 
 - PHPMyAdmin : http://votre_ip:8080/
 - Website : http://votre_ip:9000/
+- MailDev : http://votre_ip:1080/
 
 DATABASE_URL="mysql://root:password@votre_ip:3306/nom_du_projet?serverVersion=8&charset=utf8mb4"
+MAILER
 
 ## IPConfig
 Open powershell
@@ -268,5 +270,3 @@ ipconfig
 
 > Adresse IPv4 : 192.168.130.149
 
-## Mailer
-...
