@@ -148,7 +148,7 @@ Il vous faut d'installer sur votre machine avant toute manipulation :
 * changer dans le fichier `.env.local` la  `DATABASE_URL ` par `DATABASE_URL="mysql://root:@localhost:3306/nom_projet?serverVersion=8&charset=utf8mb4"`
     * avec `nom_projet` : le nom du projet
 * [ ] ouvrir un onglet du navigateur sur `http://localhost/phpmyadmin/`
-    * avec `votre_ip` : https://github.com/Myogamevideo/docker_sf6#ipconfig
+    * avec `votre_ip` : IPConfig
 * [ ] `symfony console make:entity`
 * [ ] `symfony console make:migration`
 * [ ] `symfony console d:m:m`
@@ -244,11 +244,29 @@ Suivre le [cours d'installation](./installation-docker.md) de `Docker Desktop` s
 * [ ] `docker exec -it php8-sf6 bash`
 * [ ] `cp .env .env.local`
 * changer dans le fichier `.env.local` la  `DATABASE_URL ` par `DATABASE_URL="mysql://root:password@votre_ip:port_databse/nom_projet?serverVersion=8&charset=utf8mb4"`
-    * avec `votre_ip` : https://github.com/Myogamevideo/docker_sf6#ipconfig
+    * avec `votre_ip` : IPConfig
     * avec `port_databse` : vérifier sur l'application `Docker Desktop` dans l'onglet `Containers` dans le container `docker_symfony` dans l'image `database-1` le port (ex: 54356)
     * avec `nom_projet` : le nom du projet
 * [ ] ouvrir un onglet du navigateur sur `http://votre_ip:8080`
-    * avec `votre_ip` : https://github.com/Myogamevideo/docker_sf6#ipconfig
+    * avec `votre_ip` : IPConfig
 * [ ] `symfony console make:entity`
 * [ ] `symfony console make:migration`
 * [ ] `symfony console d:m:m`
+
+## Access 
+- PHPMyAdmin : http://votre_ip:8080/
+- Website : http://votre_ip:9000/
+
+DATABASE_URL="mysql://root:password@votre_ip:3306/nom_du_projet?serverVersion=8&charset=utf8mb4"
+
+## IPConfig
+Open powershell
+
+```
+ipconfig
+```
+
+> Adresse IPv4 : 192.168.130.149
+
+## Mailer
+...
