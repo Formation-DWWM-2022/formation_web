@@ -171,7 +171,7 @@ Ensuite nous aurons plusieurs fonctions twig utiles:
 * `{{ form(mon formulaire) }}` permet d'afficher tout le formulaire&#x20;
 * `{{ form_start(mon formulaire)  }}` permet de générer la balise `<form>` avec les différents attributs
 * `{{ form_end(mon formulaire) }}` permet de générer la fermeture de `<form>` avec les différents champs restants non affichés
-* `{{ form_errors }}` affiche les erreurs éventuelles du formulaire
+* `{{ form_errors(mon formulaire) }}` affiche les erreurs éventuelles du formulaire
 * `{{ form_widget(mon formulaire.nomduchamps) }}` affiche le type de champs&#x20;
 * `{{  form_label(mon formulaire.nomduchamps) }}` affiche le label du champs
 * `{{ form_row(monformulaire.nomduchamps) }}` affiche le form\_widget et form\_label
@@ -263,8 +263,11 @@ Ici on vérifiera que le champs name doit être rempli.
 
 Ce que nous venons de faire manuellement peut être généré en ligne de commande par Symfony via la commande :
 
-```
-bin/console make:crud
+```php
+php bin/console make:crud
+
+// ou
+symfony console make:crud
 ```
 
 On vous demandera le nom de l'entité précédé du nom de bundle, le chemin pour ce crud et si vous souhaitez avoir les fonction d'édition (ajout/ modification) mettez oui.
@@ -273,6 +276,9 @@ On peut également générer seulement les FormType :
 
 ```
 php bin/console make:form
+
+// ou
+symfony console make:form
 ```
 
 Attention si vous modifier une entité les FormType ne sont pas générés automatiquement il faudra rajouter manuellement le champs fraichement créé.
