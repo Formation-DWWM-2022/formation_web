@@ -243,6 +243,183 @@ Grâce à la console, il est possible de générer un mot de passe selon l'encod
 bin/console security:encode-password
 ```
 
+## Inscription
+
+**Super ! On peut se connecter.**
+On ne peut toujours pas créer de compte. Une nouvelle commande de Symfony va générer de quoi faire cette création de compte, mais il va falloir un peu de travail de votre part.
+
+Allez hop ! On ouvre le terminal de commande et on tape :
+
+```
+symfony console make:registration-form
+
+# Vous pouvez aussi utiliser une autre commande
+# php bin/console make:registration-form
+```
+
+Une nouvelle série de questions vous est posée.
+
+```
+Do you want to add a @UniqueEntity validation annotation on your Users class to make sure duplicate accounts aren't created? (yes/no) [yes] :
+Je vous conseille de répondre yes à cette question, car cela permet d'éviter que plusieurs comptes utilisateur utilisent la même adresse e-mail.
+
+Do you want to send an email to verify the user's email address after registration? (yes/no) [yes] :
+Ici, on nous demande si l'on veut envoyer un e-mail à l'utilisateur afin de vérifier la validité de son adresse e-mail.
+
+What email address will be used to send registration confirmations? e.g. mailer@your-domain.com :
+Si vous avez répondu oui à la question précédente, entrez une adresse e-mail. Elle sera utilisée en tant qu'adresse expéditeur.
+
+What "name" should be associated with that email address? e.g. "Acme Mail Bot" :
+Entrez ici un nom qui sera utilisé lors de l'envoi de l'e-mail de vérification.
+
+Do you want to automatically authenticate the user after registration? (yes/no) [yes] :
+Répondez oui si vous souhaitez connecter automatiquement l'utilisateur une fois qu'il est inscrit.
+
+What route should the user be redirected to after registration? :
+Si vous avez répondu non à la question précédente, entrez le nom d'une route existante pour rediriger l'utilisateur. Cependant, il ne sera pas connecté automatiquement.
+```
+
+Si vous avez opté pour l'envoi d'un e-mail pour la vérification de l'adresse e-mail de l'utilisateur, suivez les étapes suivantes. Dans le cas contraire, vous pouvez passer au chapitre suivant.
+
+```
+composer require symfonycasts/verify-email-bundle
+```
+
+Ensuite, ouvrez le fichier "src/Controller/RegistrationController.php" et modifiez la méthode verifyUserEmail(). Pour le moment, elle ressemble à cela :
+
+```php
+/**
+ * @Route("/verify/email", name="app_verify_email")
+ */
+public function verifyUserEmail(Request $request): Response
+{
+    $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
+
+    // validate email confirmation link, sets User::isVerified=true and persiststry {$this->emailVerifier->handleEmailConfirmation($request, $this->getUser());
+    } catch (VerifyEmailExceptionInterface $exception) {
+        $this->addFlash('verify_email_error', $exception->getReason());
+
+        return $this->redirectToRoute('app_register');
+    }
+
+    // @TODO Change the redirect on success and handle or remove the flash message in your templates$this->addFlash('success', 'Your email address has been verified.');
+
+    return $this->redirectToRoute('app_register');
+}
+```
+
+Modifiez la dernière ligne de la méthode, à savoir $this->redirectToRoute(), en indiquant un nom de route où renvoyer l'utilisateur une fois son adresse e-mail vérifiée :
+
+```php
+return $this->redirectToRoute('home');
+```
+
+Un message flash est créé contenant un message de succès. Pensez à bien l'afficher dans la vue vers laquelle l'utilisateur sera redirigé !
+
+Mettez à jour votre base de données avec la commande suivante :
+
+```
+symfony console doctrine:schema:update --force
+
+# Vous pouvez aussi utiliser une autre commande
+# php bin/console doctrine:update:schema --force
+```
+
+Une route est maintenant disponible :
+
+- Pour s'inscrire : "/register". Le nom de cette route est "app_register"
+
+## Mot de passe oublié ?
+
+On continue sur l'utilisation des outils mis à disposition par Symfony. Attaquons-nous maintenant au mot de passe oublié !
+Toujours dans le terminal de commande, entrez ceci :
+
+```
+composer require symfonycasts/reset-password-bundle
+```
+
+Ce bundle n'est en effet pas installé par défaut. Ensuite, tapez la commande suivante :
+
+```
+symfony console make:reset-password
+
+# Vous pouvez aussi utiliser une autre commande
+# php bin/console make:reset-password
+```
+
+On repart avec une nouvelle série de questions. ?
+
+```
+What route should users be redirected to after their password has been successfully reset? [app_home] :
+Une fois que l'utilisateur a correctement modifié son mot de passe, où le rediriger ? Le mieux reste le formulaire de connexion soit "app_login".
+
+What email address will be used to send reset confirmations? e.g. mailer@your-domain.com :
+Ici, nous pouvons choisir l'adresse e-mail utilisée pour envoyer l'e-mail permettant de modifier le mot de passe.
+
+What "name" should be associated with that email address? e.g. "Acme Mail Bot" :
+On définit le nom qui sera affiché dans le mail de modification du mot de passe envoyé.
+```
+
+Mettez à jour votre base de données avec la commande suivante :
+
+```
+symfony console doctrine:schema:update --force
+
+# Vous pouvez aussi utiliser une autre commande
+# php bin/console doctrine:update:schema --force
+```
+
+Pensez à fournir les informations nécessaires pour l'envoi de l'e-mail dans le fichier ".env", à la variable d'environnement MAILER_DSN.
+
+Une route est maintenant disponible :
+
+- Pour retrouver son mot de passe : "/reset-password" ; le nom de la route est "app_forgot_password_request"
+
+## Sécuriser une route
+
+Avoir des membres, c'est bien, mais sécuriser les routes de votre application, c'est mieux.
+Pourquoi sécuriser ? Tout simplement pour bloquer l'accès de certaines pages aux visiteurs non enregistrés, sans un compte membre par exemple.
+
+Ouvrez un contrôleur et placez-vous sur une méthode dont vous souhaitez ouvrir l'accès seulement aux membres. Au-dessus de cette méthode, inscrivez l'annotation suivante :
+
+```php
+// ...
+
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
+
+// ...
+
+/**
+ * @IsGranted("ROLE_USER")
+ * @Route("/ma_route", name="nom_de_ma_route")
+ */
+public function maMethode()
+{
+  //...
+}
+```
+
+J'ai ajouté l'annotation IsGranted("ROLE_USER") sans oublier son namespace. ?
+ROLE_USER est important, car c'est le rôle attribué à un utilisateur quand celui-ci s'inscrit. Dorénavant, l'accès à cette page est autorisé uniquement aux utilisateurs inscrits et connectés.
+
+Si par contre, vous souhaitez bloquer la totalité des routes dans un contrôleur, déplacez l'annotation au-dessus de la classe comme ceci :
+
+```php
+// ...
+
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
+
+// ...
+
+/**
+ * @IsGranted("ROLE_USER")
+ */
+class NomDeMonController extends AbstractController
+{
+  // ... 
+}
+```
+
 ## Exercice
 
 Mettre en place une classe User, et créer le formulaire de connexion en suivant la documentation. Filtrer la partie création de catégorie uniquement à des utilisateurs ayant le rôle ROLE_ADMIN.

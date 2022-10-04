@@ -85,6 +85,7 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 
 - [Copie et référence d’images](./Cours/more-add-images-webpack.md)
 - [The VarDumper Component](https://symfony.com/doc/current/components/var_dumper.html#dump-examples-and-output)
+- [Les formulaires complet](https://writecode.fr/tutoriel/les-formulaires)
 - [Pagination with KnpPaginatorBundle](https://symfonycasts.com/screencast/symfony4-doctrine-relations/pagination)
 - [CKEditor 4](http://www.adrientainoff.fr/blog/Integrer-un-editeur-ckeditor-dans-symfony-5-avec-code-snippet)
 - [Translation – Do you understand ?](https://blog.gary-houbre.fr/developpement/symfony-translation-do-you-understand)
@@ -95,12 +96,10 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 
 - [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md)
 - [How to Schedule Emails in PHP - Run Automated Scripts Using CRON - Full PHP 8 Tutorial](https://youtu.be/9q1Nt6lHXq8)
-- [EasyAdmin : un admin bundle simple et efficace pour Symfony]()
-
----
-
+- [EasyAdmin : un admin bundle simple et efficace pour Symfony](https://aymeric-cucherousset.fr/symfony-6-menu-d-administration-avec-easyadmin-4/)
 - [Un jolie système de notifications avec SweetAlert2](https://pentiminax.fr/un-jolie-systeme-de-notifications-avec-sweetalert2-1675)
- 
+- [Authentification 2FA avec Symfony](https://yoandev.co/authentification-2fa-avec-symfony/)
+
 ---
 
 - [Example de blog symfony complet](./ExampleBlog/readme.md)
@@ -110,10 +109,8 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - Formulaire avec entity et class
 - Lancement CV en ligne
 - Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
-- Bundle EasyAdmin
 - Mailjet ou Swiftmailer
 - Installer Stripe
-- Auth 2FA
 - API HTTPCLIENT
 - Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/ - EventDispatcher - le système d'événements
 -->
