@@ -253,13 +253,19 @@ Suivre le [cours d'installation](./installation-docker.md) de `Docker Desktop` s
 * [ ] `symfony console make:migration`
 * [ ] `symfony console d:m:m`
 
+## Recevoir des email
+* [ ] ouvrir une invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
+* [ ] `docker exec -it php8-sf6 bash`
+* [ ] php bin/console messenger:consume async
+
 ## Access 
 - PHPMyAdmin : http://votre_ip:8080/
 - Website : http://votre_ip:9000/
 - MailDev : http://votre_ip:1080/
 
 DATABASE_URL="mysql://root:password@votre_ip:3306/nom_du_projet?serverVersion=8&charset=utf8mb4"
-MAILER
+MAILER_DSN=smtp://votre_ip:1025
 
 ## IPConfig
 Open powershell
