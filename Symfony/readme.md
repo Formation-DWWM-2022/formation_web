@@ -88,10 +88,19 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [Pagination with KnpPaginatorBundle](https://symfonycasts.com/screencast/symfony4-doctrine-relations/pagination)
 - [CKEditor 4](http://www.adrientainoff.fr/blog/Integrer-un-editeur-ckeditor-dans-symfony-5-avec-code-snippet)
 - [Translation – Do you understand ?](https://blog.gary-houbre.fr/developpement/symfony-translation-do-you-understand)
+- [Validation](https://symfony.com/doc/current/validation.html)
 - [Symfony data fixtures](./Cours/more-fixture.md)
+
+---
+
 - [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md)
 - [How to Schedule Emails in PHP - Run Automated Scripts Using CRON - Full PHP 8 Tutorial](https://youtu.be/9q1Nt6lHXq8)
+- [EasyAdmin : un admin bundle simple et efficace pour Symfony]()
 
+---
+
+- [Un jolie système de notifications avec SweetAlert2](https://pentiminax.fr/un-jolie-systeme-de-notifications-avec-sweetalert2-1675)
+ 
 ---
 
 - [Example de blog symfony complet](./ExampleBlog/readme.md)
@@ -101,7 +110,6 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - Formulaire avec entity et class
 - Lancement CV en ligne
 - Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
-- Valider les données validator
 - Bundle EasyAdmin
 - Mailjet ou Swiftmailer
 - Installer Stripe
