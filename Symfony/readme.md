@@ -87,6 +87,7 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [The VarDumper Component](https://symfony.com/doc/current/components/var_dumper.html#dump-examples-and-output)
 - [Les formulaires complet](https://writecode.fr/tutoriel/les-formulaires)
 - [Pagination with KnpPaginatorBundle](https://symfonycasts.com/screencast/symfony4-doctrine-relations/pagination)
+- [Envoyer un e-mail](https://writecode.fr/tutoriel/envoyer-un-e-mail) | [Créez un formulaire de contact avec Symfony 6](https://www.conciergerie.dev/blog/creer-un-formulaire-de-contact-avec-symfony-6) | [Symfony Mailer – Et si je t’envoi un mail](https://blog.gary-houbre.fr/developpement/symfony-et-si-je-tenvoi-un-mail-avec-mailer)
 - [CKEditor 4](http://www.adrientainoff.fr/blog/Integrer-un-editeur-ckeditor-dans-symfony-5-avec-code-snippet)
 - [Translation – Do you understand ?](https://blog.gary-houbre.fr/developpement/symfony-translation-do-you-understand)
 - [Validation](https://symfony.com/doc/current/validation.html)
@@ -109,8 +110,6 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 <!-- 
 - Lancement CV en ligne
 - Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
-- Mailjet ou Swiftmailer - Mailcatcher
-- Installer Stripe
 - API HTTPCLIENT
 - Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/ - EventDispatcher - le système d'événements
 -->
