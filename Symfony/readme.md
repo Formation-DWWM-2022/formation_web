@@ -99,6 +99,7 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [EasyAdmin : un admin bundle simple et efficace pour Symfony](https://aymeric-cucherousset.fr/symfony-6-menu-d-administration-avec-easyadmin-4/)
 - [Un jolie système de notifications avec SweetAlert2](https://pentiminax.fr/un-jolie-systeme-de-notifications-avec-sweetalert2-1675)
 - [Authentification 2FA avec Symfony](https://yoandev.co/authentification-2fa-avec-symfony/)
+- [Accepting Payments in Symfony Using STRIPE](https://youtu.be/xh8wFxiANMI)
 
 ---
 
@@ -106,10 +107,9 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [Example d'un site e-commerce](./ExampleECommerce/readme.md)
 
 <!-- 
-- Formulaire avec entity et class
 - Lancement CV en ligne
 - Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
-- Mailjet ou Swiftmailer
+- Mailjet ou Swiftmailer - Mailcatcher
 - Installer Stripe
 - API HTTPCLIENT
 - Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/ - EventDispatcher - le système d'événements
