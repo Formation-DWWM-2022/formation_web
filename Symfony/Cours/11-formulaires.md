@@ -227,7 +227,7 @@ public function newAction(ManagerRegistry $doctrine, Request $request){
 
 ### Validation
 
-Les validations permettent de gérer des contraintes au niveau du formulaire ; Par exemple pour pourra forcer en PHP que le champs email soit bien un email ou que tel champs ne peut pas dépasser tel nombre de caractères, vous trouverez la liste des contraintes basiques sur site site de symfony : [http://symfony.com/doc/4.1/validation.html](http://symfony.com/doc/4.1/validation.html)
+Les validations permettent de gérer des contraintes au niveau du formulaire ; Par exemple pour pourra forcer en PHP que le champs email soit bien un email ou que tel champs ne peut pas dépasser tel nombre de caractères, vous trouverez la liste des contraintes basiques sur site site de symfony : [http://symfony.com/doc/6.1/validation.html](http://symfony.com/doc/4.1/validation.html)
 
 Ces contraintes ou assert peuvent être gérée de plusieurs façon XML, JSON, YAML, PHP ou en annotation dans notre cas; il faudra utiliser cette ligne tout en haut du contrôleur :
 
@@ -240,9 +240,7 @@ Pour ensuite pouvoir utiliser l'annotation :
 ```php
 class Author
 {
-    /**
-     * @Assert\NotBlank()
-     */
+    #[Assert\NotBlank]
     public $name;
 }
 ```

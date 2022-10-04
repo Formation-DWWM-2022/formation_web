@@ -86,6 +86,8 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [Copie et référence d’images](./Cours/more-add-images-webpack.md)
 - [The VarDumper Component](https://symfony.com/doc/current/components/var_dumper.html#dump-examples-and-output)
 - [Pagination with KnpPaginatorBundle](https://symfonycasts.com/screencast/symfony4-doctrine-relations/pagination)
+- [CKEditor 4](http://www.adrientainoff.fr/blog/Integrer-un-editeur-ckeditor-dans-symfony-5-avec-code-snippet)
+- [Translation – Do you understand ?](https://blog.gary-houbre.fr/developpement/symfony-translation-do-you-understand)
 - [Symfony data fixtures](./Cours/more-fixture.md)
 - [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md)
 - [How to Schedule Emails in PHP - Run Automated Scripts Using CRON - Full PHP 8 Tutorial](https://youtu.be/9q1Nt6lHXq8)
@@ -96,8 +98,7 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [Example d'un site e-commerce](./ExampleECommerce/readme.md)
 
 <!-- 
-- Translation
-- Formulaire avec entity
+- Formulaire avec entity et class
 - Lancement CV en ligne
 - Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
 - Valider les données validator
@@ -125,19 +126,19 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 # VS extensions
 
 I personally think that the following extensions are Must-Haves when working with Symfony:
-• Community Material Theme (Extra)
-• PHP Intelephense
-• PHPDoc Comment
-• PHP Namespace Resolver
-• HTML Snippets
-• JavaScript (ES6) code snippets
-• Symfony code snippets and Twig Support & yaml
-• Symfony for VSCode
-• Twig
-• Twig Language
-• Twig Language 2VScode Great Icons
-• Bracket Pair Colorizer
-• Emmet Live
+- Community Material Theme (Extra)
+- PHP Intelephense
+- PHPDoc Comment
+- PHP Namespace Resolver
+- HTML Snippets
+- JavaScript (ES6) code snippets
+- Symfony code snippets and Twig Support & yaml
+- Symfony for VSCode
+- Twig
+- Twig Language
+- Twig Language 2VScode Great Icons
+- Bracket Pair Colorizer
+- Emmet Live
 
 # PHPStorm [Code With Me]
 
