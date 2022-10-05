@@ -5,10 +5,10 @@
 Réaliser un forum, en utilisant Symfony. Votre forum devra intégrer les fonctionnalités suivantes :
 
 * Inscription, connexion, déconnexion
-* Création de message dans les catégories du forum
+* Création de message dans les catégories du forum 
 * Possibilité de répondre à un message
 * Une recherche simple
-* Liste des catégories, sous catégories, et messages associés
+* Liste des catégories, sous catégories, et messages associés par date de création
 * Administration : Création des catégories et sous-catégories, administration des messages
 * Il y aura 2 niveaux d'accès : Administrateur,  membre (possibilité de créer un message ou de modifier ses messages)
 * Un message pourra intégrer des fichiers (images a minima)
@@ -33,8 +33,6 @@ Pour cette première séance vous devrez mettre en place les éléments suivants
 
 * Une nouvelle installation de Symfony
 * Mettre en place les controllers et les vues nécessaires à la navigation "publique" du site
-  * Les vues seront des prototypes, n'hésitez pas à mettre des données fictives pour les remplacer ensuite par les données issues de la base de données.
-  * Ces données pourraient venir du controller de manière fictive.
 * Intégrer un template ou une librairie CSS et faire un minimum de mise en page
 * Réfléchir au MCD que vous aller mettre en place.
 
