@@ -35,8 +35,11 @@ Si vous ne disposez pas encore d'une classe permettant la gestion des utilisateu
 
 L'instruction ci-dessous permet de lancer la consôle pour créer la table User.
 
-```
-bin/console make:user
+```php
+php bin/console make:user
+
+//ou
+symfony console make:user
 ```
 
 Symfony va vous poser plusieurs questions afin de configurer les éléments (le nom de l'entité, si vous utilisez doctrine, le champ correspondant au login, et l'encodage du password.
@@ -75,21 +78,26 @@ Une fois cette commande executée vous avez un fichier d'entité de créé, un r
 
 Il faut ensuite mettre à jour votre base de données, avec les commandes suivantes:
 
-```
-bin/console d:s:u -f
+```php
+php bin/console d:s:u -f
 
-#ou
+//ou
+php bin/console make:migration
+php bin/console doctrine:migrations:migrate
 
-bin/console make:migration
-bin/console doctrine:migrations:migrate
+//ou
+symfony console d:s:u -f
 ```
 
 ### Créer la partie connexion
 
 Une nouvelle fois la console va nous permettre de dégrossir le travail et produire le contrôleur, le fichier de configuration et le formulaire de connexion.
 
-```
-bin/console make:auth
+```php
+php bin/console make:auth
+
+//ou
+symfony console make:auth
 ```
 
 Pour le résultat ci-dessous.
@@ -225,9 +233,7 @@ firewalls:
 La méthode dans le contrôleur peut se résumer à :
 
 ```php
-/**
- * @Route("/deconnexion", name="app_logout")
- */
+#[Route("/deconnexion", name="app_logout")]
 public function logout(): void
 {
 }
@@ -239,8 +245,11 @@ Cette méthode qui ne retourne rien, permet la déconnexion, et la redirection s
 
 Grâce à la console, il est possible de générer un mot de passe selon l'encodage utilisé par Symfony.
 
-```bash
-bin/console security:encode-password
+```php
+php bin/console security:encode-password
+
+//ou
+symfony console security:encode-password
 ```
 
 ## Inscription
@@ -288,9 +297,7 @@ composer require symfonycasts/verify-email-bundle
 Ensuite, ouvrez le fichier "src/Controller/RegistrationController.php" et modifiez la méthode verifyUserEmail(). Pour le moment, elle ressemble à cela :
 
 ```php
-/**
- * @Route("/verify/email", name="app_verify_email")
- */
+#[Route("/verify/email", name="app_verify_email")]
 public function verifyUserEmail(Request $request): Response
 {
     $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
@@ -389,10 +396,8 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 
 // ...
 
-/**
- * @IsGranted("ROLE_USER")
- * @Route("/ma_route", name="nom_de_ma_route")
- */
+#[IsGranted("ROLE_USER")]
+#[Route("/ma_route", name="nom_de_ma_route")]
 public function maMethode()
 {
   //...
@@ -411,9 +416,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 
 // ...
 
-/**
- * @IsGranted("ROLE_USER")
- */
+#[IsGranted("ROLE_USER")]
 class NomDeMonController extends AbstractController
 {
   // ... 

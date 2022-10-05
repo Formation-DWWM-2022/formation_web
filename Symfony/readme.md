@@ -58,6 +58,14 @@ Chaque notion du cours est illustré par des exemples les plus concrets possible
 
 Les codes des différents exemples vous seront fournis. Cependant, je vous conseille d’adopter une attitude active et de vous exercer sur chacun d’entre eux plutôt que de simplement les copier-coller si vous souhaitez véritablement progresser.
 
+# PHPStorm [Code With Me]
+
+- [Découvrez Code With Me : l’outil pour le développement collaboratif de JetBrains](https://blog.jetbrains.com/fr/blog/2020/09/29/decouvrez-code-with-me-version-eap-l-outil-pour-le-developpement-collaboratif-de-jetbrains/)
+- [Getting started with Code With Me](https://www.jetbrains.com/help/idea/code-with-me.html)
+
+# [Cours d'installation de Docker Desktop sur votre machine](../Docker/installation-docker.md)
+# [Créer un environnement Symfony collaboratif](../Docker/environnement-symfony.md)
+
 ## MEMO
 
 - [A Symfony Cheatsheet](./memo.md)
@@ -143,14 +151,6 @@ I personally think that the following extensions are Must-Haves when working wit
 - Twig Language 2VScode Great Icons
 - Bracket Pair Colorizer
 - Emmet Live
-
-# PHPStorm [Code With Me]
-
-- [Découvrez Code With Me : l’outil pour le développement collaboratif de JetBrains](https://blog.jetbrains.com/fr/blog/2020/09/29/decouvrez-code-with-me-version-eap-l-outil-pour-le-developpement-collaboratif-de-jetbrains/)
-- [Getting started with Code With Me](https://www.jetbrains.com/help/idea/code-with-me.html)
-
-# [Cours d'installation de Docker Desktop sur votre machine](../Docker/installation-docker.md)
-# [Créer un environnement Symfony collaboratif](../Docker/environnement-symfony.md)
 
 # Notre guide de style PHP -  Qu'est ce que le PSR ?
 
