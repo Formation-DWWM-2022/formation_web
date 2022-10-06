@@ -61,6 +61,129 @@ La différence entre les deux environnements c’est que sous Docker chaque prog
 - Déploiements faciles
 - Outils gratuits OpenSource
 
+# Docker
+
+Suivre le [cours d'installation](./installation-docker.md) de `Docker Desktop` sur votre machine
+
+## Graphique de mon systeme Docker + php 8.1 + symfony 6
+
+
+## A chaque lancement du projet
+* [ ] ouvrir l'application `Docker Desktop` en administrateur 
+* [ ] ouvrir une invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet`
+* [ ] `docker-compose up -d`
+* [ ] attendre 5 min ...
+* [ ] vérifier sur l'application `Docker Desktop` dans l'onglet `Containers` dans le container `docker_symfony` dans l'image `php-sf6` que le message `Web server listening` apparaît
+
+---
+
+## Eteindre un serveur / arret du dev
+* [ ] ouvrir une invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet`
+* [ ] `docker-compose down`
+* [ ] attendre 5 min ...
+* [ ] fermer l'application `Docker Desktop`
+
+--- 
+
+## 1er lancement du projet
+* [ ] ouvrir l'application `Docker Desktop` en administrateur 
+* [ ] ouvrir une invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet`
+* [ ] `git clone https://github.com/Myogamevideo/docker_sf6 nom_du_projet`
+* [ ] `cd nom_du_projet`
+* [ ] `cd project`
+* [ ] `git clone https://github.com/Myogamevideo/starter_sf6.git nom_du_projet` OU votre starter symfony OU nouveau projet symfony
+* [ ] `cd ..`
+* [ ] `docker-compose build --build-arg project_name=nom_du_projet`
+* [ ] `docker-compose up -d`
+* [ ] attendre 5 min ...
+* [ ] vérifier sur l'application `Docker Desktop` dans l'onglet `Containers` dans le container `docker_symfony` dans l'image `php-sf6` que le message `Web server listening` apparaît
+
+---
+
+## Partager son code à son équipe de dev sur Github [1er commit]
+
+* [ ] supprimer le dossier `.git` et le fichier `.gitignore` dans le dossier `nom_du_projet`
+* [ ] supprimer le fichier `.gitignore` dans le dossier `nom_du_projet\project`
+* [ ] supprimer le dossier `.git` dans le dossier `nom_du_projet\project\nom_du_projet`
+* [ ] ouvrir une invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet`
+* [ ] `git init`
+* [ ] créer le dépôt sur GitHub
+* [ ] `git remote add origin https://github.com/....git`
+* [ ] `git add *` (attention, fonctionne grâce au .gitignore de symfony)
+* [ ] `git commit -m "installation de symfony"`
+* [ ] `git branch -m main`
+* [ ] `git push --set-upstream origin main`
+
+## Partager son code à son équipe de dev sur Github [all commit]
+* [ ] `cd dossier_parent_du_projet\nom_du_projet`
+* [ ] `git add *`
+* [ ] `git commit -m "votre_message"`
+* [ ] `git push origin main`
+
+---
+
+## Lancer le build de votre style && JS = `yarn watch`
+* [ ] ouvrir une invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
+* [ ] `docker exec -it php8-sf6 bash`
+* [ ] `yarn watch`
+
+--- 
+
+## Créer un controlleur
+* [ ] ouvrir une invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
+* [ ] `docker exec -it php8-sf6 bash`
+* [ ] `symfony console make:controller nom_du_controller`
+
+--- 
+
+## Créer un entity et vous connectez à votre BDD
+* [ ] ouvrir une invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
+* [ ] `docker exec -it php8-sf6 bash`
+* [ ] `cp .env .env.local`
+* changer dans le fichier `.env.local` la  `DATABASE_URL ` par `DATABASE_URL="mysql://root:password@votre_ip:port_databse/nom_projet?serverVersion=8&charset=utf8mb4"`
+    * avec `votre_ip` : IPConfig
+    * avec `port_databse` : vérifier sur l'application `Docker Desktop` dans l'onglet `Containers` dans le container `docker_symfony` dans l'image `database-1` le port (ex: 54356)
+    * avec `nom_projet` : le nom du projet
+* [ ] ouvrir un onglet du navigateur sur `http://votre_ip:8080`
+    * avec `votre_ip` : IPConfig
+* [ ] `symfony console make:entity`
+* [ ] `symfony console make:migration`
+* [ ] `symfony console d:m:m`
+
+## Recevoir des email
+* [ ] ouvrir une invite de commande en administrateur 
+* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
+* [ ] `docker exec -it php8-sf6 bash`
+* [ ] `php bin/console messenger:consume async`
+
+## Access 
+- PHPMyAdmin : http://votre_ip:8080/
+- Website : http://votre_ip:9000/
+- MailDev : http://votre_ip:1080/
+
+DATABASE_URL="mysql://root:password@votre_ip:3306/nom_du_projet?serverVersion=8&charset=utf8mb4"
+MAILER_DSN=smtp://votre_ip:1025
+
+## IPConfig
+Open powershell
+
+```
+ipconfig
+```
+
+> Adresse IPv4 : 192.168.130.149
+
+---
+---
+---
+
 # WAMP
 
 Suivre le [cours d'installation] de `Wamp` sur votre machine
@@ -116,13 +239,13 @@ Il vous faut d'installer sur votre machine avant toute manipulation :
 * [ ] `git branch -m main`
 * [ ] `git add *` (attention, fonctionne grâce au .gitignore de symfony)
 * [ ] `git commit -m "installation de symfony"`
-* [ ] `git push origin master`
+* [ ] `git push origin main`
 
 ## Partager son code à son équipe de dev sur Github [all commit]
 * [ ] `cd wamp\www\nom_du_projet`
 * [ ] `git add *`
 * [ ] `git commit -m "votre_message"`
-* [ ] `git push origin master`
+* [ ] `git push origin main`
 
 ---
 
@@ -152,127 +275,3 @@ Il vous faut d'installer sur votre machine avant toute manipulation :
 * [ ] `symfony console make:entity`
 * [ ] `symfony console make:migration`
 * [ ] `symfony console d:m:m`
-
----
----
----
-
-# Docker
-
-Suivre le [cours d'installation](./installation-docker.md) de `Docker Desktop` sur votre machine
-
-## Graphique de mon systeme Docker + php 8.1 + symfony 6
-
-
-## A chaque lancement du projet
-* [ ] ouvrir l'application `Docker Desktop` en administrateur 
-* [ ] ouvrir une invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet`
-* [ ] `docker-compose up -d`
-* [ ] attendre 5 min ...
-* [ ] vérifier sur l'application `Docker Desktop` dans l'onglet `Containers` dans le container `docker_symfony` dans l'image `php-sf6` que le message `Web server listening` apparaît
-
----
-
-## Eteindre un serveur / arret du dev
-* [ ] ouvrir une invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet`
-* [ ] `docker-compose down`
-* [ ] attendre 5 min ...
-* [ ] fermer l'application `Docker Desktop`
-
---- 
-
-## 1er lancement du projet
-* [ ] ouvrir l'application `Docker Desktop` en administrateur 
-* [ ] ouvrir une invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet`
-* [ ] `git clone https://github.com/Myogamevideo/docker_sf6 nom_du_projet`
-* [ ] `cd nom_du_projet`
-* [ ] `cd project`
-* [ ] `git clone https://github.com/Myogamevideo/starter_sf6.git nom_du_projet` OU votre starter symfony OU nouveau projet symfony
-* [ ] `cd ..`
-* [ ] `docker-compose build --build-arg project_name=nom_du_projet`
-* [ ] `docker-compose up -d`
-* [ ] attendre 5 min ...
-* [ ] vérifier sur l'application `Docker Desktop` dans l'onglet `Containers` dans le container `docker_symfony` dans l'image `php-sf6` que le message `Web server listening` apparaît
-
----
-
-## Partager son code à son équipe de dev sur Github [1er commit]
-
-* [ ] supprimer le dossier `.git` et le fichier `.gitignore` dans le dossier `nom_du_projet`
-* [ ] supprimer le fichier `.gitignore` dans le dossier `nom_du_projet\project`
-* [ ] supprimer le dossier `.git` dans le dossier `nom_du_projet\project\nom_du_projet`
-* [ ] ouvrir une invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet`
-* [ ] `git init`
-* [ ] créer le dépôt sur GitHub
-* [ ] `git remote add origin https://github.com/....git`
-* [ ] `git branch -m main`
-* [ ] `git add *` (attention, fonctionne grâce au .gitignore de symfony)
-* [ ] `git commit -m "installation de symfony"`
-* [ ] `git push origin master`
-
-## Partager son code à son équipe de dev sur Github [all commit]
-* [ ] `cd dossier_parent_du_projet\nom_du_projet`
-* [ ] `git add *`
-* [ ] `git commit -m "votre_message"`
-* [ ] `git push origin master`
-
----
-
-## Lancer le build de votre style && JS = `yarn watch`
-* [ ] ouvrir une invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
-* [ ] `docker exec -it php8-sf6 bash`
-* [ ] `yarn watch`
-
---- 
-
-## Créer un controlleur
-* [ ] ouvrir une invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
-* [ ] `docker exec -it php8-sf6 bash`
-* [ ] `symfony console make:controller nom_du_controller`
-
---- 
-
-## Créer un entity et vous connectez à votre BDD
-* [ ] ouvrir une invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
-* [ ] `docker exec -it php8-sf6 bash`
-* [ ] `cp .env .env.local`
-* changer dans le fichier `.env.local` la  `DATABASE_URL ` par `DATABASE_URL="mysql://root:password@votre_ip:port_databse/nom_projet?serverVersion=8&charset=utf8mb4"`
-    * avec `votre_ip` : IPConfig
-    * avec `port_databse` : vérifier sur l'application `Docker Desktop` dans l'onglet `Containers` dans le container `docker_symfony` dans l'image `database-1` le port (ex: 54356)
-    * avec `nom_projet` : le nom du projet
-* [ ] ouvrir un onglet du navigateur sur `http://votre_ip:8080`
-    * avec `votre_ip` : IPConfig
-* [ ] `symfony console make:entity`
-* [ ] `symfony console make:migration`
-* [ ] `symfony console d:m:m`
-
-## Recevoir des email
-* [ ] ouvrir une invite de commande en administrateur 
-* [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
-* [ ] `docker exec -it php8-sf6 bash`
-* [ ] php bin/console messenger:consume async
-
-## Access 
-- PHPMyAdmin : http://votre_ip:8080/
-- Website : http://votre_ip:9000/
-- MailDev : http://votre_ip:1080/
-
-DATABASE_URL="mysql://root:password@votre_ip:3306/nom_du_projet?serverVersion=8&charset=utf8mb4"
-MAILER_DSN=smtp://votre_ip:1025
-
-## IPConfig
-Open powershell
-
-```
-ipconfig
-```
-
-> Adresse IPv4 : 192.168.130.149
-

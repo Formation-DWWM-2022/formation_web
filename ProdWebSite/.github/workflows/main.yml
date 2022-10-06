@@ -1,0 +1,55 @@
+name: PHP Composer - 🚀 Deploy website on push
+
+on:
+    push:
+        branches: [ "main" ]
+    pull_request:
+        branches: [ "main" ]
+
+permissions:
+    contents: read
+
+jobs:
+    build-web-deploy:
+        name: 🎉 Deploy
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                shell: bash
+                working-directory: htdocs
+        steps:
+            # composer install
+            -   name: 🚚 Get latest code
+                uses: actions/checkout@v3
+            -   name: Validate composer.json and composer.lock
+                run: composer validate --strict
+            -   name: Cache Composer packages
+                id: composer-cache
+                uses: actions/cache@v3
+                with:
+                    path: vendor
+                    key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+                    restore-keys: |
+                        ${{ runner.os }}-php-
+            -   name: Install dependencies
+                run: composer install --prefer-dist --no-progress
+
+            # npm build
+            -   name: Use Node.js
+                uses: actions/setup-node@v2
+                with:
+                    node-version: "14.x"
+
+            -   name: Install dependencies
+                run: npm install
+
+            -   name: Run build
+                run: npm run-script build
+
+            # deploy in ftp
+            -   name: 📂 Sync files
+                uses: SamKirkland/FTP-Deploy-Action@4.3.2
+                with:
+                    server: ftpupload.net
+                    username: epiz_32733643
+                    password: ${{ secrets.ftp_password }}
