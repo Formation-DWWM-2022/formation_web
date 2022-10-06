@@ -66,7 +66,7 @@ La différence entre les deux environnements c’est que sous Docker chaque prog
 Suivre le [cours d'installation](./installation-docker.md) de `Docker Desktop` sur votre machine
 
 ## Graphique de mon systeme Docker + php 8.1 + symfony 6
-
+<!-- inserer image -->
 
 ## A chaque lancement du projet
 * [ ] ouvrir l'application `Docker Desktop` en administrateur 
