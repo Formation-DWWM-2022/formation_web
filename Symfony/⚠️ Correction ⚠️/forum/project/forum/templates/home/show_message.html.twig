@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Message {{ message.title }}!{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-5">
+                {% include 'home/recursive_parent_category.html.twig' with {'category' : message.category}%}
+            </div>
+            <div class="col-12 mt-5">
+                <h1>{{ message.title }}</h1>
+                <p>{{ message.content }}</p>
+            </div>
+            {% if app.user %}
+                <div class="col-12 mt-5 p-2 border border-dark">
+                    <h3>Répondre</h3>
+                    {% include 'message/_form.html.twig' %}
+                </div>
+            {% endif %}
+            <div class="col-12 mt-5">
+                <h3>Les réponses</h3>
+                <table class="table table-dark table-striped">
+                    <tbody>
+                    {% if message.messages|length > 0 %}
+                        {% for message in message.messages %}
+                            <tr {% if app.user is not null and app.user == message.user %} class="table-secondary" {% endif %}>
+                                <td>
+                                    <p>{{ message.content }}</p>
+                                </td>
+                                <td>
+                                    <p>By {{ message.user.email }}</p>
+                                    <p>{{ message.dateCreated|date('d/m H:s') }}</p>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    {% else %}
+                        <tr>
+                            <td>
+                                <p>Aucune réponse pour le moment</p>
+                            </td>
+                        </tr>
+                    {% endif %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-12 mt-5">
+                <div class="row">
+                    {% for message in otherMessages|slice(0,3) %}
+                        <div class="col-4 px-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ message.title }}</h5>
+                                    <p class="card-text">{{ message.content|length > 10 ? message.content|slice(0, 10) ~ '...' : message.content }}</p>
+                                    <a href="{{ path('app_front_message_show', { 'message' : message.id }) }}"
+                                       class="btn btn-primary">Répondre</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

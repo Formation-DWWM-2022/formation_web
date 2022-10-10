@@ -1,0 +1,60 @@
+version: '3'
+
+services:
+    php8-sf6:
+        container_name: php8-sf6
+        build:
+            context: php8-sf6
+            args:
+                PROJECT_NAME: starter_sf6
+        ports:
+            - "9000:8000"
+        volumes:
+            -  ./project:/var/www/html
+        command: bash -c "
+            composer install
+            && yarn install
+            && yarn build
+            && symfony server:start"
+
+    ###> doctrine/doctrine-bundle ###
+    database:
+        image: 'mysql:latest'
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+        ports:
+            # To allow the host machine to access the ports below, modify the lines below.
+            # For example, to allow the host to connect to port 3306 on the container, you would change
+            # "3306" to "3306:3306". Where the first port is exposed to the host and the second is the container port.
+            # See https://docs.docker.com/compose/compose-file/compose-file-v3/#ports for more information.
+            - '3306:3306'
+        volumes:
+            # You may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
+            - db-data:/var/lib/mysql
+
+    phpmyadmin:
+        image: phpmyadmin
+        restart: always
+        links:
+            - database
+        environment:
+            PMA_HOST: database
+            PMA_USER: root
+            PMA_PASSWORD: password
+        ports:
+            - "8080:80"
+        volumes:
+            # You may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
+            - db-data:/var/lib/mysql
+
+    mailer:
+        image: schickling/mailcatcher
+        ports:
+            - "1080:1080"
+            - "1025:1025"
+
+volumes:
+    ###> doctrine/doctrine-bundle ###
+    db-data:
+    ###< doctrine/doctrine-bundle ###

@@ -1,0 +1,16 @@
+App\Entity\Message:
+    message_{1..1000}:
+        title: <sentence(3)>
+        content: <text(200)>
+        dateCreated: <dateTimeBetween("-200 days", "now")>
+        category: '@category*'
+        message: '@message*'
+        user: '@user*'
+
+    messageNull_{1..100}:
+        title: <sentence(3)>
+        content: <text(200)>
+        dateCreated: <dateTimeBetween("-200 days", "now")>
+        category: '@category*'
+        message: null
+        user: '@user*'

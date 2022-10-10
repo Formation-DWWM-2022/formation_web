@@ -1,0 +1,24 @@
+{% from _self import recursiveCategory %}
+{% for category in categories %}
+    {{ recursiveCategory(category) }}
+{% endfor %}
+
+{% macro recursiveCategory(category) %}
+    {% import _self as self %}
+    <ul class="list-group">
+        <li class="list-group-item">
+            <a href="{{ path('app_front_category_show', {category : category.id}) }}"
+               class="fw-bolder text-dark text-decoration-none">{{ category.title }}</a>
+            <span class="badge bg-primary rounded-pill">{{ category.messages|length }}</span>
+        </li>
+        {% if category.categories|length > 0 %}
+            <ul>
+                {% for category in category.categories %}
+                    {{ self.recursiveCategory(category) }}
+                {% endfor %}
+            </ul>
+        {% else %}
+            <div class="my-1"></div>
+        {% endif %}
+    </ul>
+{% endmacro %}
