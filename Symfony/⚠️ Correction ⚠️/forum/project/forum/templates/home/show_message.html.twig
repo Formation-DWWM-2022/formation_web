@@ -26,7 +26,7 @@
                         {% for message in message.messages %}
                             <tr {% if app.user is not null and app.user == message.user %} class="table-secondary" {% endif %}>
                                 <td>
-                                    <p>{{ message.content }}</p>
+                                    <p>{{ message.content|raw }}</p>
                                 </td>
                                 <td>
                                     <p>By {{ message.user.email }}</p>
