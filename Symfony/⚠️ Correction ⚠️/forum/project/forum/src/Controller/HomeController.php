@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Category;
 use App\Entity\Message;
 use App\Form\MessageType;
+use App\Form\SearchType;
 use App\Repository\CategoryRepository;
 use App\Repository\MessageRepository;
 use DateTime;
@@ -133,4 +134,27 @@ class HomeController extends AbstractController
             'form' => $form->createView()
         ]);
     }
+
+    #[Route('/search', name: 'app_search')]
+    public function recherchePost(Request $request, PaginatorInterface $paginator): Response
+    {
+        $formR = $this->createForm(SearchType::class);
+        $pagination = [];
+
+        $formR->handleRequest($request);
+        if ($formR->isSubmitted() && $formR->isValid()) {
+            $title = $formR->getData()['title'];
+            $pagination = $paginator->paginate(
+                $this->messageRepository->findByTitle($title), /* query NOT result */
+                $request->query->getInt('page', 1)/*page number*/,
+                5/*limit per page*/
+            );
+        }
+
+        return $this->render('home/show_category.html.twig', [
+            'formR' => $formR->createView(),
+            'pagination' => $pagination,
+        ]);
+    }
+
 }

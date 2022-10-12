@@ -36,6 +36,13 @@
                     </ul>
                 </li>
                 <a class="nav-link" href="{{ path('app_contact') }}">Contact</a>
+                <li class="nav-item">
+                    {% set searchType = get_search_type() %}
+                    {{ form_start(searchType) }}
+                    {{ form_widget(searchType.title) }}
+                    <button class="btn btn-primary">{{ button_label|default('Save') }}</button>
+                    {{ form_end(searchType) }}
+                </li>
             </div>
         </div>
     </div>

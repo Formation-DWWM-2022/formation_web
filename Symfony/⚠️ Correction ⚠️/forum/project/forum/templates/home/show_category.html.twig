@@ -1,14 +1,20 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Category {{ category.title }}!{% endblock %}
+{% block title %}
+    {% if category is defined %}
+        Category {{ category.title }}!
+    {% endif %}
+{% endblock %}
 
 {% block body %}
     <div class="container">
         <div class="row">
-            <div class="col-12 mt-5">
-                {% include 'home/recursive_parent_category.html.twig' %}
-            </div>
-            {% if app.user %}
+            {% if category is defined %}
+                <div class="col-12 mt-5">
+                    {% include 'home/recursive_parent_category.html.twig' %}
+                </div>
+            {% endif %}
+            {% if app.user and form is defined %}
                 <div class="col-12 mt-5 p-2 border border-dark">
                     <h3>{{ 'topic.create'|trans }}</h3>
                     {% include 'message/_form.html.twig' %}
@@ -43,6 +49,8 @@
                                 </td>
                             </tr>
                         {% endfor %}
+                        {{ knp_pagination_render(pagination) }}
+
                     {% else %}
                         <tr>
                             <td>
@@ -53,15 +61,16 @@
                     </tbody>
                 </table>
 
-                {{ knp_pagination_render(pagination) }}
             </div>
 
-            <div class="col-12 mt-5">
-                {% if category.categories|length > 0 %}
-                    <h3>Les autres catégories sur le meme sujet de discussion : </h3>
-                {% endif %}
-                {% include 'home/recursive_category.html.twig' with {'categories' : category.categories} %}
-            </div>
+            {% if category is defined %}
+                <div class="col-12 mt-5">
+                    {% if category.categories|length > 0 %}
+                        <h3>Les autres catégories sur le meme sujet de discussion : </h3>
+                    {% endif %}
+                    {% include 'home/recursive_category.html.twig' with {'categories' : category.categories} %}
+                </div>
+            {% endif %}
         </div>
     </div>
 {% endblock %}

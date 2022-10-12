@@ -86,4 +86,13 @@ class MessageRepository extends ServiceEntityRepository
             ->setParameter('category', $category->getId())
             ->orderBy('m.dateCreated', 'DESC');
     }
+
+    public function findByTitle(mixed $title): QueryBuilder
+    {
+        return $this->createQueryBuilder('m')
+            ->where('m.title = :title')
+            ->andWhere('m.message is null')
+            ->setParameter('title', $title)
+            ->orderBy('m.dateCreated', 'DESC');
+    }
 }
