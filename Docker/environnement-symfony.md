@@ -129,7 +129,7 @@ Suivre le [cours d'installation](./installation-docker.md) de `Docker Desktop` s
 ## Lancer le build de votre style && JS = `yarn watch`
 * [ ] ouvrir une invite de commande en administrateur 
 * [ ] `cd dossier_parent_du_projet\nom_du_projet\project\nom_du_projet`
-* [ ] `docker exec -it php8-sf6 bash`
+* [ ] `yarn --watch`
 * [ ] `yarn watch`
 
 --- 
