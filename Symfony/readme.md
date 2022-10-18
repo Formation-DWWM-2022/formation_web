@@ -116,7 +116,6 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [Example d'un site e-commerce](./ExampleECommerce/readme.md)
 
 <!-- 
-- Lancement CV en ligne
 - Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
 - API HTTPCLIENT
 - Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/ - EventDispatcher - le système d'événements
