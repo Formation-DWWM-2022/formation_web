@@ -1,6 +1,6 @@
-<!-- https://youtu.be/x3c1ih2NJEg -->
-
 # Comment fonctionne Internet ?
+
+- How does the INTERNET work? https://youtu.be/x3c1ih2NJEg
 
 La cours que vous regardez maintenant a parcouru des milliers de kilomètres depuis un Google Data Center pour vous atteindre.
 

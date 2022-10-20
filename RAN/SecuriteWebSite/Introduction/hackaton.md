@@ -54,5 +54,6 @@ C'est loin d'être le seul ténor à organiser des hackathons. Avant lui, Yahoo!
 
 FourSquare a aussi mis sur pied ses "Global Hackathons" qui ont pu réunir des centaines de développeurs répartis dans plusieurs villes en même temps. Le spécialiste BeMyApp organise aussi très régulièrement des hackathons, dans le monde entier. Mais aujourd'hui, le phénomène a pris beaucoup d'ampleur : il y a des hackathons organisés autour de l'open data par la capitale des Etats-Unis, pour des femmes, ou bien pour résoudre les problèmes de l'eau dans le monde ou encore en l'honneur des vétérans américains...
 
-- Hackathon en france : https://www.eventbrite.fr/d/france/hackathon/?page=1
+- La cuisine du web [Lyon] : https://www.lacuisineduweb.com/
+- Hackathon en france : https://www.eventbrite.fr/d/france/hackathon
 - [Def con](https://defcon.org/) est la convention hacker la plus connue à travers le monde. Elle est tenue chaque année à Las Vegas, Nevada aux États-Unis. La première convention DEF CON s'est déroulée en juin 1993. 

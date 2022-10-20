@@ -1,26 +1,18 @@
 
 <!-- 
-Bug bounty 
-CTF 
-Hackatlon
-
-
-
-https://www.root-me.org/ 
 https://www.leblogduhacker.fr/category/hacking-ethique/failles-web/
 https://www.leblogduhacker.fr/sandbox/
 https://www.cnil.fr/fr/cybersecurite
 https://nouvelle-techno.fr/articles/php-les-failles-et-attaques-courantes-comment-se-proteger
 https://www.youtube.com/watch?v=9nOtmUSBR90
 https://www.hackerone.com/hackers
-https://fr.wikipedia.org/wiki/George_Hotz
 http://stephane.lavirotte.com/teach/cours/envinfo1/15%20Internet%20et%20Securite.pdf 
 https://www.youtube.com/watch?v=pHI2zitLph8 
 -->
 
 <!--
 Stack Overflow :
-https://github.com/geohot
+
 https://fr.wikipedia.org/wiki/Jo%C3%ABl_Spolsky
 https://fr.wikipedia.org/wiki/Jeff_Atwood
 -->
@@ -188,30 +180,102 @@ Les codes des différents exemples vous seront fournis. Cependant, je vous conse
 
 # Sommaire
 
-- [Bug bounty : peut-on en vivre ?](./bugBounty.md)
-- [Hackathon](./hackaton.md)
-- [CTF - Capture du drapeau](./ctf.md)
+## Introduction :
+- [Bug bounty : peut-on en vivre ?](./Introduction/bugBounty.md)
+- [Qu'est ce qu'un Hackathon ?](./Introduction/hackaton.md)
+- [CTF - Capture du drapeau](./Introduction/CTF.md)
+- [Les différents types de Hackers](./Introduction/differentsTypesHackers.md)
+- [Métiers de la cybersécurité](./Introduction/metierCybersecurite.md)
+
+## Histoire et actualités
+- [Les pirates les plus dangereux et célèbres de notre génération](https://www.leblogduhacker.fr/top-10-des-hackers-les-plus-celebres/)
+- George hotz
+    - [Pourquoi Apple et Tesla ont peur de ce génie?](https://youtu.be/eqpng2m7D2g)
+    - [george hotz archive](https://www.youtube.com/c/georgehotzarchive)
+    - [Github](https://github.com/geohot)
+- [Les principaux groupes de hackers](https://guardia.school/le-lab/les-principaux-groupes-de-hackers.html)
+- Qui sont les Anonymous ? 
+    - [Qui sont les Anonymous ?](https://youtu.be/wgfi40WVBL0)
+    - [Anonymous déclare la guerre à l'organisation de l'État islamique](https://youtu.be/QsaFQR_zFWA)
+    - [Guerre en Ukraine : la menace cyber](https://youtu.be/fFuq5tzjslY)
+- Edward snowden
+    - [Snowden - Bande-annonce VF](https://youtu.be/cJ8YXaLK73o)
+    - [Une vie : Edward Snowden](https://youtu.be/Lm4A3rzpivI)
+
+## Agence de protection en France
+L'Agence nationale de la sécurité des systèmes d'information (ANSSI) est un service français créé par décret en juillet 2009. Ce service à compétence nationale est rattaché au secrétariat général de la Défense et de la Sécurité nationale (SGDSN), autorité chargée d'assister le Premier ministre dans l'exercice de ses responsabilités en matière de défense et de sécurité nationale. 
+
+## Pein encourue en France
+La peine encourue est 6 mois à 7 ans d’emprisonnement et 30 000€ à 750 000€ d’amende.  Le hacker encourt également, au titre des peines complémentaires, la confiscation du matériel informatique qui a servi ou était destiné à commettre l’infraction. Il convient de préciser que le hacker engage sa responsabilité pénale mais également sa responsabilité civile. Il devra ainsi verser des dommages-intérêts à la victime pour l’indemniser.
+
+## Connaissance
+- [Comment fonctionne Internet ?](../Internet/readme.md)
+- [Qu'est-ce que le modèle OSI ?](../OSI/readme.md) <!-- pas finis -->
+- [IP / TCP / UDP](../IPTCPUDP/readme.md) <!-- pas finis -->
+- Adresse MAC
+- Ports et protocoles
+- [Qu'est-ce que le DNS ?](../DNS/readme.md) <!-- pas finis -->
+- [HTTP]()
+- [HTTPS]()
+- [SSLvsTLS]()
+- SSH 
+- VPN 
+- NTP
+- DHCP
+- SMB
+- Powershell
+- WSL
+- FTP, STP et FTPS
+- LAN, MAN , WAN
+- NAT et PAT
+- VirtualBox et virtualisation
+- SMTP , POP , IMAP et MAPI
+- Ping
+- DMZ
+- NFS
+- Mot de passe, hash et cryptographie
+- DHCP
+- Metaverse / Bitcoin / NFT
+- QR code
+
+## Syteme et materiels 
+- [Linux]()
+- Docker
+- Wifi, 5G, Bluetooth, 802.1x, Ethernet
+- Cloud Computing [lass , pass , sass]
+- NAS
+- USB Rubber Ducky
+- O .MG cable
+
+## Attaque
+- [Ingénierie sociale](./attaque/ingenierieSociale.md)
+- [TP - Hacking](./attaque/tp-hacking.md)
+- [Quel sont les différents types de virus informatique ?](./attaque/virus.md) <!-- pas finis -->
+- [OWASP](./attaque/owasp.md) <!-- pas finis -->
+- [Qu’est-ce que le dark web et comment y accéder ?](./attaque/darkWeb.md)
+- [Qu’est-ce que le téléchargement de fichiers torrent ? Comment cela fonctionne-t-il ?](./attaque/torrent.md)
+- [Shodan](https://youtu.be/lwSrR21syBk) n'est certes pas tout jeune sur le Web, créé en 2009 par John Matherly, Shodan scanne en permanence l'ensemble des systèmes connectés sur Internet (serveurs, box internet, routeurs ...) et catalogue l'ensemble des services exposés par ces systèmes dans son moteur de recherche : serveur Web, SSH, RTSP .. etc.
+
+## Protection
+- [Qu'est-ce qu'un pare-feu ? [Firewall - Proxy]](./pareFeu.md)
 
 <!--
-# Outils
-- Bug bounty : 9 outils à UTILISER (c'est simple et gratuit) : https://youtu.be/opKCYHuVPIM
+- Anonyme et vie privé
+- Antivirus & desinfection
+- NAT et PAT
+- IDS et IPS
+- Passerelle d'API
+- Zone démilitarisée
+- Signal
+-->
 
-- Différent type de hacker
-- Social engineering
-- Firewall
-- Mot de passe, hash et cryptographie
-- Log4JShell
-- Ransomware
-- VPN
-- HTTPS
-- SSH
-- Docker
+- [reCAPTACHA]()
+
+## Outils
+<!--
+- Bug bounty : 9 outils à UTILISER (c'est simple et gratuit) : https://youtu.be/opKCYHuVPIM
 - Kali linux
-- OWASP Top 10
-- Webcam / Wifi / Password / Scan reseau / fausse page / ordianateur
-- DDOS
-- Darkweb, Deepweb et TOR
-- Cloud Computing [lass , pass , sass]
+- Wireshark
 -->
 
 <!--

@@ -4,6 +4,7 @@
 
 Sécurité : Pour ceux qui touchent à la sécurité informatique, le bug bounty peut apparaître comme une porte d’entrée alléchante : perspective de récompense financière et liberté de s’organiser, loin des contraintes du milieu professionnel. Mais ce rythme n’est pas forcément pour tout le monde. 
 
+- Qu'est-ce qu'un hacker éthique ? Rencontre avec le hacker SaxX, champion de la cybersécurité https://youtu.be/SPBqJQb8HBI
 - Cybersécurité : le bug bounty, quand les hackers volent au secours des entreprises : https://youtu.be/FFkzficBeOM
 - Qu'est-ce que le bug bounty ? https://youtu.be/b69hHHD0Tug
 - Bug bounty : 5 étapes AVANT de se lancer (des sociétés recrutent) : https://youtu.be/R7HvkJ8hZtM
