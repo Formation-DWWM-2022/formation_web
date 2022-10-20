@@ -75,6 +75,8 @@ La présence d’un risque informatique peut être mise en évidence grâce à d
 
 ## Qu’est-ce qu’un spam ?
 
+- Le SPAM, c'est quoi ? (définition, aide, lexique, tuto, explication) https://www.youtube.com/watch?v=adsKzd0isrU
+
 Un spam (ou message indésirable) désigne toute communication non désirée ou non sollicitée, souvent envoyée en masse via Internet ou un service de messagerie électronique. Sur mobile, les SMS indésirables proviennent généralement de numéros inconnus ou d’automates d’appel. Leur objectif consiste typiquement à promouvoir un produit ou un service.
 
 Les expéditeurs de spam, ou « spammeurs », ne se limitent pas aux SMS. En effet, les spams peuvent revêtir de nombreuses formes, des appels téléphoniques provenant de numéros inconnus aux courriers indésirables qui inondent nos boîtes de réception.
@@ -126,6 +128,8 @@ Les renifleurs matériels (hardware) sont souvent intégrés aux appareils rése
 
 ## Qu’est-ce qu’une attaque DDoS ?
 
+- Comprendre l'attaque DDOS en 4 minutes https://www.youtube.com/watch?v=n4Zs0qcgjXI
+
 Une attaque par déni de service distribué (DDoS) est une cyberattaque qui vise à « faire planter » des sites Web ou des serveurs en les inondant de trafic Internet. Ce pic de trafic submerge l’infrastructure du site ciblé, ce qui provoque généralement son arrêt. Dès lors, les utilisateurs du site ou service en question ne pourront plus y accéder tant que l’attaque DDoS n’aura pas été résolue.
 
 Bien qu’il existe plusieurs types d’attaques DDoS, toutes envoient généralement des spams à partir d’un réseau d’appareils infectés et visent à perturber les fonctionnalités normales d’un site Web en l’inondant de trafic Internet.
@@ -142,9 +146,14 @@ Le terme botnet vient de « robot network », c’est-à-dire « réseau de robo
 
 ## Qu’est-ce qu’un botnet ?
 
+- INRIA- Qu'est-ce qu'un Bot ou un Botnet ? : https://www.youtube.com/watch?v=KnlU_t8wKPI
+- Les BOTS nous envahissent !!! (chatbot, botnet, spambot...) https://www.youtube.com/watch?v=BZRr1ABDkKA&list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4&index=6
+
 Un botnet est un groupe d’ordinateurs liés par un malware, c’est-à-dire un programme malveillant, et contrôlés par le créateur de ce botnet, que l’on appelle le bot herder, ou maître de botnet. Ces pirates infectent les ordinateurs afin de créer des botnets qu’ils contrôlent comme un groupe pour lancer des cyberattaques de grande ampleur, envoyer des spams et lancer des campagnes de phishing.
 
 ## Qu’est-ce que le doxing ?
+
+- L'info en deux minutes: le doxing, ou la vengeance en ligne https://youtu.be/ehEbLEB69_I
 
 Le doxing (ou doxxing) est un type de harcèlement en ligne qui consiste à dévoiler les informations personnelles de quelqu’un, telles que son vrai nom, son adresse, sa profession ou d’autres données d’identification, et à les exposer publiquement, généralement sur Internet. Le doxing consiste à exposer des informations censées rester privées, sans le consentement de la victime.
 
@@ -159,6 +168,8 @@ Bien que le concept date de plusieurs dizaines d’années, le doxing est toujou
 Les attaques par doxing vont des plus bénignes, comme de fausses inscriptions à des courriers ou des livraisons de pizzas, aux plus dangereuses, comme le harcèlement de la famille ou de l’employeur de la victime, le swatting, l’usurpation d’identité, les menaces et autres formes de cyberharcèlement, voire le harcèlement en personne. 
 
 ## Qu’est-ce que le swatting ?
+
+- Quand le POLICE débarque chez les STREAMERS en LIVE ! (SWATTING) https://www.youtube.com/watch?v=BY5fxHhydBU
 
 Le swatting consiste à appeler la police pour signaler une urgence grave, comme une alerte à la bombe ou une prise d’otages, à l’adresse de la victime. Une équipe du SWAT se rend sur place, pensant que l’urgence est réelle, et surprend la victime. Les streamers sont souvent la cible de swatting, les malfaiteurs cherchant à interrompre leurs diffusions en direct.
 
@@ -178,6 +189,8 @@ Une fois la victime convaincue qu’elle doit payer le logiciel frauduleux, le s
 
 ## Qu’est-ce qu’un adware ?
 
+- Nordnet - L'Antivirus Securitoo VS l’Adware https://youtu.be/OFSGW2Z3pbU
+
     FÉLICITATIONS !!! VOUS AVEZ ÉTÉ SÉLECTIONNÉ POUR GAGNER UN IPHONE GRATUIT !!!
     CLIQUEZ ICI !!!
 
@@ -190,6 +203,8 @@ Le but des adwares est de générer des revenus pour leurs propriétaires, qui s
 Cependant, toutes les publicités à l’air louche que vous voyez en ligne ne sont pas forcément des adwares. L’adware réside à l’intérieur même de votre système d’où il envoie des messages publicitaires. Si vous vous trouvez notamment sur un site douteux comme une plateforme de streaming illégale, vous verrez énormément de publicités suspectes (mais non dues à un adware). Si vous cliquez sur l’une de ces publicités, vous aurez probablement affaire à des malwares ou à d’autres problèmes, même s’il ne s’agit pas d’adwares, et il est toujours préférable d’ignorer tout message publicitaire en ligne d’origine douteuse. (Si une offre vous semble particulièrement aguichante, il est préférable d’effectuer une recherche Google pour en vérifier la légitimité : ne cliquez pas directement sur la publicité.)
 
 ## Qu’est-ce qu’un ransomware ?
+
+- Le Ransomware expliqué en 5 minutes https://www.youtube.com/watch?v=G_lFrgwjw9E&t=258s
 
 Un ransomware est un type de malware, c’est-à-dire un programme malveillant, qui chiffre des fichiers, voire tout un ordinateur, puis exige une rançon en échange de l’accès aux fichiers ou à l’ordinateur. Les ransomwares utilisent le chiffrement pour bloquer l’accès aux fichiers ou aux ordinateurs infectés rendus inutilisables par la victime. Ils s’attaquent en général à tous les types de fichiers, qu’il s’agisse de documents personnels ou professionnels.
 
@@ -211,6 +226,8 @@ Le terme « pornware » désigne une catégorie de programmes qui affiche du con
 
 # Qu’est-ce qu’un spyware ?
 
+- Nordnet - L'Antivirus Securitoo VS le Spyware https://www.youtube.com/watch?v=MsGHmVBMxa8
+
 Un spyware est un type de malware qui reste dissimulé pendant qu'il enregistre secrètement des informations et suit vos activités en ligne sur vos ordinateurs ou appareils mobiles. Il peut surveiller et copier tout ce que vous saisissez, chargez, téléchargez et stockez. Certaines souches de spyware peuvent en outre activer les caméras et les micros pour vous observer et vous écouter sans être détectées.
 
 Par définition, les spywares sont conçus pour être invisibles, ce qui peut être l’un de leurs attributs les plus nuisibles : plus ils arrivent à rester dissimulés, plus ils peuvent nuire. Il s’agit en quelque sorte d’un harceleur virtuel qui surveille l’utilisation de votre appareil, collectant au passage vos données personnelles.
@@ -225,6 +242,8 @@ Les enregistreurs de frappe se divisent en deux catégories : logiciels et maté
 
 ## Qu’est-ce qu’un cheval de Troie ? 
 
+- CE CHEVAL DE TROIE EST INDÉTECTABLE DES ANTIVIRUS ?! https://www.youtube.com/watch?v=BhebeWurUQM&t=204s
+
 Un malware de type cheval de Troie est un fichier, un programme ou un morceau de code qui semble être légitime et sûr, mais qui est en fait malveillant. Les chevaux de Troie sont dissimulés dans un logiciel légitime (d’où leur nom) et sont souvent conçus pour espionner les victimes ou voler des données. De nombreux chevaux de Troie téléchargent également des malwares supplémentaires après leur installation.
 
 Les chevaux de Troie tirent leur nom du poème épique grec L’Iliade. Dans l’histoire, Ulysse élabore un plan pour construire un cheval de bois géant que ses ennemis, les Troyens, recevraient en cadeau dans leur ville. Mais le ventre du cheval cache une légion de soldats, qui surgissent dans la nuit pour décimer la ville de Troie de l’intérieur.
@@ -233,6 +252,8 @@ Les malwares de type cheval de Troie fonctionnent de la même manière : ils se 
 
 ## Qu’est-ce qu’une vulnérabilité zero-day ?
 
+- Qu'est-ce qu'une faille zero-day? Pourquoi est ce que personne n'est en sécurité ? https://www.youtube.com/watch?v=xfxEM9EtfWM
+
 Une vulnérabilité « zero-day » désigne une faille de sécurité informatique qui n’est pas encore connue ou corrigée par l’éditeur du produit concerné. Les éditeurs ne découvrent l’existence d’une vulnérabilité zero-day qu’en cas de cyberattaque, c’est-à-dire au jour zéro (en anglais « zero-day »).
 
 Pour mener à bien leur offensive, les hackers doivent faire preuve d’une grande rapidité en exploitant une vulnérabilité avant que les développeurs du logiciel ne la découvrent et la neutralisent.
@@ -240,6 +261,8 @@ Pour mener à bien leur offensive, les hackers doivent faire preuve d’une gran
 En résumé : une attaque zero-day est donc une violation de sécurité qui cible une vulnérabilité du même nom. D’autre part, il faut savoir que le mode opératoire des cybercriminels implique souvent la création de logiciels malveillants spécifiques, dits « malwares zero-day ». Lorsqu’un logiciel est visé par une attaque zero-day, ses développeurs doivent rapidement identifier la faille, comprendre comment celle-ci a été exploitée et publier un correctif afin d’empêcher les futurs assauts.
 
 ## Le cryptojacking se développe
+
+- Le cryptoJacking, c’est quoi ? https://www.youtube.com/watch?v=qtUN4kvKL7A
 
 De telles opportunités ne pouvaient laisser les cybercriminels indifférents. Ils ont même trouvé une solution pour contourner le problème des ressources informatiques énormes que requiert le minage de cryptomonnaies. Pourquoi investir dans des puces de traitement et du matériel coûteux quand vous pouvez vous servir des ordinateurs d’autres utilisateurs pour faire le travail ? 
 

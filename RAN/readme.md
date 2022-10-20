@@ -64,6 +64,13 @@
 
 - [❌ IOT]()
 
+
+<!--
+Stack Overflow :
+
+https://fr.wikipedia.org/wiki/Jo%C3%ABl_Spolsky
+https://fr.wikipedia.org/wiki/Jeff_Atwood
+
 https://cours-web.ch/outils/cloudstorage.html
 https://github.com/Fyndir/Note-de-cours
 https://www.youtube.com/watch?v=SwcNkCY1dmo
@@ -80,3 +87,4 @@ https://www.schoolmouv.fr/cours/internet-le-reseau-des-reseaux/fiche-de-cours
 
 Défis :
 - Coder sans voir le résultat
+-->

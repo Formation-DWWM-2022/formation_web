@@ -1,4 +1,7 @@
 # Qu’est-ce qu’un hôte FTP ou hébergeur FTP ? À quoi sert-il ?
+
+- FTP, SFTP et FTPS pour les débutants : https://youtu.be/FZ8TyOUSQMI
+
 ## Définition et usages du protocole FTP
 
 Comme son nom l’indique, le File Transfer Protocol (FTP) est un protocole de transfert de fichiers par Internet. Il permet l’échange de commandes et de données entre un ordinateur ou un logiciel, le client FTP, et un serveur, l’hôte FTP. Ce serveur FTP est un répertoire distant. Il héberge les données de votre site web ou de vos applications afin de faciliter leur mise en ligne, leur migration ou leur partage… à la manière d’un centre de données.

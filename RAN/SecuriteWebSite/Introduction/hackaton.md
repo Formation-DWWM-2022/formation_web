@@ -3,6 +3,7 @@
 - Qu'est ce qu'un Hackathon ? https://youtu.be/LEhzAEE0LLg
 - Qu'est ce qu'un Hackathon ? https://youtu.be/J4ioxBB3v7A
 - COMMENT RÉUSSIR SON HACKATHON À COUP SÛR ? https://youtu.be/jmLatGjARgM
+- On a reçu le hacker qui rend fou Epic Games ! (et beaucoup d'autres...) https://youtu.be/9nOtmUSBR90
 
 Avez-vous déjà entendu parler du “Hackathon” ? 
 
