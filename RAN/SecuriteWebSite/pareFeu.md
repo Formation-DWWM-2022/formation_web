@@ -5,6 +5,8 @@
 
 Un firewall ou pare-feu est un appareil de sécurité réseau qui surveille le trafic réseau entrant et sortant et autorise ou bloque les paquets de donnés en se basant sur un ensemble de règles de sécurité prédéfinies. Il est chargé de dresser une barrière entre votre réseau interne sécurisés et contrôlés qui sont dignes de confiance et le trafic entrant provenant de sources externes (comme Internet) afin de bloquer le trafic malveillant des virus et des pirates. Les pare-feu constituent la première ligne de défense des réseaux depuis plus de 25 ans. Un pare-feu peut être un équipement physique, un logiciel ou une combinaison des deux.
 
+![](https://academy.avast.com/hs-fs/hubfs/New_Avast_Academy/What%20is%20a%20firewall%20and%20do%20you%20need%20one%20(Academy)/Academy-Firewall-1.png?width=1320&name=Academy-Firewall-1.png)
+
 # Comment fonctionne un firewall ?
 
 Les firewalls analysent soigneusement le trafic entrant en fonction de règles préétablies et filtrent le trafic provenant de sources non sécurisées ou suspectes pour empêcher les attaques. Les firewalls surveillent le trafic au point d’entrée d’un ordinateur, appelé port, qui est l’endroit où les informations sont échangées avec des appareils externes. Par exemple, “L’adresse source 172.18.1.1 est autorisée à atteindre la destination 172.18.2.1 par le port 22”.

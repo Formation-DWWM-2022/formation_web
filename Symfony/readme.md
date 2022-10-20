@@ -103,7 +103,6 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 
 ---
 
-
 - [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md) | [tailwindcss](https://tailwindcss.com/)
 - [How to Schedule Emails in PHP - Run Automated Scripts Using CRON - Full PHP 8 Tutorial](https://youtu.be/9q1Nt6lHXq8)
 - [EasyAdmin : un admin bundle simple et efficace pour Symfony](https://aymeric-cucherousset.fr/symfony-6-menu-d-administration-avec-easyadmin-4/)

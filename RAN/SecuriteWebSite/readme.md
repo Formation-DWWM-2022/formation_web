@@ -228,7 +228,6 @@ La peine encourue est 6 mois à 7 ans d’emprisonnement et 30 000€ à 750 000
 - FTP, STP et FTPS
 - LAN, MAN , WAN
 - NAT et PAT
-- VirtualBox et virtualisation
 - SMTP , POP , IMAP et MAPI
 - Ping
 - DMZ
@@ -237,20 +236,12 @@ La peine encourue est 6 mois à 7 ans d’emprisonnement et 30 000€ à 750 000
 - DHCP
 - Metaverse / Bitcoin / NFT
 - QR code
-
-## Syteme et materiels 
-- [Linux]()
-- Docker
-- Wifi, 5G, Bluetooth, 802.1x, Ethernet
-- Cloud Computing [lass , pass , sass]
-- NAS
-- USB Rubber Ducky
-- O .MG cable
+- Paquet
 
 ## Attaque
 - [Ingénierie sociale](./attaque/ingenierieSociale.md)
-- [TP - Hacking](./attaque/tp-hacking.md)
 - [Quel sont les différents types de virus informatique ?](./attaque/virus.md) <!-- pas finis -->
+- [TP - Hacking](./attaque/tp-hacking.md)
 - [OWASP](./attaque/owasp.md) <!-- pas finis -->
 - [Qu’est-ce que le dark web et comment y accéder ?](./attaque/darkWeb.md)
 - [Qu’est-ce que le téléchargement de fichiers torrent ? Comment cela fonctionne-t-il ?](./attaque/torrent.md)
@@ -267,12 +258,21 @@ La peine encourue est 6 mois à 7 ans d’emprisonnement et 30 000€ à 750 000
 - Passerelle d'API
 - Zone démilitarisée
 - Signal
+- https://blog.avast.com/multi-factor-authentication-for-app-security-avast?_ga=2.208712916.773087245.1666164681-939493078.1666162553
 -->
 
 - [reCAPTACHA]()
 
-## Outils
+## Syteme et materiels 
 <!--
+- [Linux]()
+- Docker
+- Wifi, 5G, Bluetooth, 802.1x, Ethernet
+- Cloud Computing [lass , pass , sass]
+- NAS
+- USB Rubber Ducky
+- O .MG cable
+- Machine virtuel / VirtualBox et virtualisation
 - Bug bounty : 9 outils à UTILISER (c'est simple et gratuit) : https://youtu.be/opKCYHuVPIM
 - Kali linux
 - Wireshark
