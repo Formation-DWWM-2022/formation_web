@@ -103,12 +103,14 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 
 ---
 
-- [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md)
+
+- [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md) | [tailwindcss](https://tailwindcss.com/)
 - [How to Schedule Emails in PHP - Run Automated Scripts Using CRON - Full PHP 8 Tutorial](https://youtu.be/9q1Nt6lHXq8)
 - [EasyAdmin : un admin bundle simple et efficace pour Symfony](https://aymeric-cucherousset.fr/symfony-6-menu-d-administration-avec-easyadmin-4/)
 - [Un jolie système de notifications avec SweetAlert2](https://pentiminax.fr/un-jolie-systeme-de-notifications-avec-sweetalert2-1675)
 - [Authentification 2FA avec Symfony](https://yoandev.co/authentification-2fa-avec-symfony/)
 - [Accepting Payments in Symfony Using STRIPE](https://youtu.be/xh8wFxiANMI)
+- [Discover Symfony UX. UI with Stimulus = fewer JS headaches for you](https://www.symfonystation.com/symfony-ux-stimulus-js-ui) | [Symfony UX : une révolution pour le framework français ?](https://baptisteprieto.fr/symfony/symfony-ux-une-revolution-pour-le-framework-francais/) | [Symfony UX Turbo : peut-on se passer de JavaScript pour nos applications modernes ?](https://www.novaway.fr/blog/tech/symfony-ux-turbo)
 
 ---
 
