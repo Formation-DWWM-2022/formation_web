@@ -192,6 +192,18 @@ Les codes des différents exemples vous seront fournis. Cependant, je vous conse
     - [Snowden - Bande-annonce VF](https://youtu.be/cJ8YXaLK73o)
     - [Une vie : Edward Snowden](https://youtu.be/Lm4A3rzpivI)
 
+- TOP film & series :
+    - [The Great Hack : L'affaire Cambridge Analytica](https://youtu.be/8YO7dXNhFjc)
+    - [Les nouveaux soldats de la chine](https://www.arte.tv/fr/videos/092189-000-A/les-nouveaux-soldats-de-la-chine/)
+    - [THE SOCIAL NETWORK](https://youtu.be/lB95KLmpLR4)
+    - [Cyber Hell : Le réseau de l'horreur](https://youtu.be/hpceNxQASKw)
+    - [The Face of Anonymous](https://www.youtube.com/watch?v=zoPooWE2qBM)
+    - [Black Mirror](https://youtu.be/MXSSzRp2N60)
+    - [Scorpion](https://youtu.be/U402uMSRq1g)
+    - [Person of Interest](https://youtu.be/FKdeOznTeHU)
+    - [How to Sell Drugs Online](https://youtu.be/3sxg1xXmd0I)
+    - [The Billion Dollar Code](https://www.youtube.com/watch?v=iDvPvqImb-4)
+
 ## Agence de protection en France
 L'Agence nationale de la sécurité des systèmes d'information (ANSSI) est un service français créé par décret en juillet 2009. Ce service à compétence nationale est rattaché au secrétariat général de la Défense et de la Sécurité nationale (SGDSN), autorité chargée d'assister le Premier ministre dans l'exercice de ses responsabilités en matière de défense et de sécurité nationale. 
 
