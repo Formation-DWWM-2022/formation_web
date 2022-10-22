@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mes commandes - Boutique Project{% endblock %}
+
+{% block content %}
+    <h1>Mes commandes</h1>
+    <a href="{{ path('account') }}"><i class="fas fa-arrow-left"></i> Retour</a>
+    {% if order|length != 0 %}
+            <table class="table mt-4">
+                <thead>
+                    <tr>
+                    <th scope="col">Reference</th>
+                    <th scope="col">Nombre de produit</th>
+                    <th scope="col">Passé le</th>
+                    <th scope="col">Total</th>
+                    <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in order %}
+                        <tr>
+                        <td><span class="badge badge-secondary" >{{ item.reference }}</span></td>
+                        <td>{{ item.orderDetails|length }}</td>
+                        <th scope="row">{{ item.createdAt|date('d/m/Y') }}</th>
+                        <td>{{ ( (item.getTotal + item.carrierPrice) / 100 )|number_format(2,',','.')  }} € </td>
+                        <td><a href="{{ path('account_order_show',{'reference': item.reference}) }}" title="voir ma commande" clas="btn-info btn btn-sm"><i class="fa-2x fas fa-eye" ></i></a></td>
+                        </tr>
+                    {% endfor %} 
+                </tbody>
+            </table> 
+    {% else %}
+        <p> vous n'avez pas encore passé de commande.</p>
+    {% endif %}
+{% endblock %}

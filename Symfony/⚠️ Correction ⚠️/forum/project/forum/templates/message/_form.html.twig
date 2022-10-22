@@ -1,0 +1,8 @@
+{{ form_start(form) }}
+    {% if form.title is defined and form.title.vars.value == "" %}
+        {{ form_label(form.title) }}
+        {{ form_widget(form.title) }}
+    {% endif %}
+    {{ form_row(form.content) }}
+<button class="btn btn-primary">{{ button_label|default('Save') }}</button>
+{{ form_end(form) }}

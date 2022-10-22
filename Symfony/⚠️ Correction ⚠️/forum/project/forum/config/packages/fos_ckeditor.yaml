@@ -1,0 +1,12 @@
+# Read the documentation: https://symfony.com/doc/current/bundles/FOSCKEditorBundle/index.html
+
+twig:
+    form_themes:
+        - '@FOSCKEditor/Form/ckeditor_widget.html.twig'
+
+fos_ck_editor:
+    configs:
+        BasicConfig:
+            language: fr
+            uiColor: "#000000"
+            toolbar: [ [ 'Bold', 'Italic', 'Link' ] , [ 'Undo', 'Redo' ] , [ 'NumberedList', 'BulletedList' ] ]

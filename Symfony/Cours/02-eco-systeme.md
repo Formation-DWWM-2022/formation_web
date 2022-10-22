@@ -85,3 +85,18 @@ Il est assez facile de modifier le maker pour que le code généré corresponde 
 ## Moteur de template
 
 Un moteur de template est un "langage", un "outil" permettant d'écrire les vues (partie visible) de manière efficace et rapide. Symfony utilise [_Twig_](https://twig.symfony.com/doc/3.x/) par défaut.
+
+## NodeJS 
+https://github.com/Formation-DWWM-2022/formation_web/tree/main/RAN/Node.js#nodejs
+
+## Yarn 
+https://github.com/Formation-DWWM-2022/formation_web/tree/main/RAN/Node.js#quest-ce-quun-package-manager-
+
+## Npm 
+https://github.com/Formation-DWWM-2022/formation_web/blob/main/RAN/Node.js/npm.md
+
+## Webpack 
+https://blog.neolynk.fr/2019/11/20/a-quoi-sert-webpack-et-comment-fonctionne-t-il/
+
+## Webpack 
+https://www.youtube.com/watch?v=_KXGVca8uXw

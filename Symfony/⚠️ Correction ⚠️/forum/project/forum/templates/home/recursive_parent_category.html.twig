@@ -1,0 +1,16 @@
+{% from _self import recursiveParentCategory %}
+Catégories :
+{% if category.category is not null %}
+    {{ recursiveParentCategory(category.category) }}
+{% endif %}
+<a href="{{ path('app_front_category_show', {category : category.id}) }}"
+   class="text-dark text-decoration-underline">{{ category.title }}</a>
+
+{% macro recursiveParentCategory(category) %}
+    {% import _self as self %}
+    {% if category.category is not null %}
+        {{ self.recursiveParentCategory(category.category) }}
+    {% endif %}
+    <a href="{{ path('app_front_category_show', {category : category.id}) }}"
+       class="fw-bolder text-dark text-decoration-none">{{ category.title }} ></a>
+{% endmacro %}

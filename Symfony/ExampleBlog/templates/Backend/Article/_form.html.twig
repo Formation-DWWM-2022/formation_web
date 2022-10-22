@@ -1,0 +1,38 @@
+{{ form_start(form, {'attr': {'class': 'form-article'}}) }}
+
+{{ form_row(form.titre) }}
+{{ form_row(form.categories) }}
+<div class="row mb-4">
+	<div class="col-md-12">
+		{{ form_label(form.articleImages) }}
+		<ul id="image-fields-list" class="d-flex flex-wrap gap-2 justify-content-between" data-prototype="{{ form_widget(form.articleImages.vars.prototype)|e }}" data-widget-tags="{{ '<li class="w-30 image-fields"></li>'|e }}" data-widget-counter="{{ form.articleImages|length }}">
+			{% for imageField in form.articleImages %}
+				<li class="list-image w-30">
+					<a class="js-remove-image btn btn-danger">
+						<span class="fa fa-close"></span>
+					</a>
+					{{ form_errors(imageField) }}
+					{{ form_widget(imageField) }}
+				</li>
+			{% endfor %}
+		</ul>
+		<button type="button" class="btn btn-primary add-another-collection-widget" data-list-selector="#image-fields-list">{{ 'form.article.btn.add_image'|trans(domain = 'forms') }}</button>
+	</div>
+</div>
+<div class="mb-3">
+	<label for="article[content]">{{ 'form.article.fields.content.label'|trans(domain = 'forms') }}</label>
+	<div id="editor" class="ckeditor-input" data-placeholder="{{ 'form.article.fields.content.placeholder'|trans(domain = 'forms') }}">
+		{{ form.content.vars.value|raw }}
+	</div>
+	<div id="word-count"></div>
+	{{ form_row(form.content) }}
+</div>
+<div class="mb-3">
+	{{ form_widget(form.active)}}
+</div>
+<div class="mt-4 text-center">
+	<button type="submit" class="btn btn-primary">{{ button_label|default('Enregistrer') }}</button>
+</div>
+
+{{ form_widget(form._token) }}
+{{ form_end(form, {render_rest: false}) }}

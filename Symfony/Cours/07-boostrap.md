@@ -8,17 +8,11 @@ Nous allons découvrir ensemble comment mettre en place simplement Bootstrap, pu
 # Initialisation du projet Symfony, Webpack Encore et PostCSS
 
 Commençons par créer un nouveau projet Symfony.
-
-```
-symfony new bootstrap --full
-cd bootstrap
-```
-
 Puis installons Webpack Encore selon les instructions de la [documentation Symfony](https://symfony.com/doc/current/frontend/encore/installation.html).
 
 ```
 composer require symfony/webpack-encore-bundle
-npm install
+yarn install
 ```
 
 Renommons le fichier /assets/styles/app.css en app.scss, et modifions le fichier /assets/app.js.
@@ -27,8 +21,6 @@ import './styles/app.css';
 # Par
 import './styles/app.scss';
 ```
-
-Allez dans le fichier webpack.config.js à la racine du projet Symfony puis enlevez « // » avant .enableSassLoader() pour activer le SassLoader
 
 ```
 /*
@@ -45,6 +37,7 @@ import './styles/app.scss';
 import './bootstrap';
 ```
 
+Allez dans le fichier webpack.config.js à la racine du projet Symfony puis enlevez « // » avant .enableSassLoader() pour activer le SassLoader
 Puis installer le SassLoader avec npm
 
 ```
@@ -125,23 +118,13 @@ Bon c’est bien beau toutes ces lignes de commandes, mais testons réellement q
 
 Créons un contrôleur pour tester et lançons le serveur interne.
 
-```
-symfony console make:controller Home
-symfony serve -d
-```
-
-Vérifions que la route fonctionne.
-Et ajoutons du code “bootstrap” (issue de la doc) dans le fichier /templates/home/index.html.twig.
-
-Démarrer le serveur web et connecter vous sur le projet
-
-```
-symfony serve -d
-```
-
 Et ensuite n’oubliez pas de recompiler
 ```
 npm run build
+
+or
+
+yarn watch
 ```
 
 Il est aussi possible de mettre automatiquement les formulaires sous le thème de Bootstrap, ajoutez dans le fichier config/packages/twig.yaml :

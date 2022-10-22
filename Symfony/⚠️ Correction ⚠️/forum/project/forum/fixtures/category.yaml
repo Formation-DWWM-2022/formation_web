@@ -1,0 +1,8 @@
+App\Entity\Category:
+    categoryNull_{1..10}:
+        title: <sentence(3)>
+        category: '@category*'
+
+    category_{1..10}:
+        title: <sentence(3)>
+        category: null

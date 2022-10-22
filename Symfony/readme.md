@@ -28,8 +28,7 @@ https://github.com/Pierre-brtrd/Cours_Symfony_Pierre_Brtrd
 
 # Dates
 
-- Lundi 26 septembre 
-- Au jeudi 20 octobre
+- Lundi 26 septembre au jeudi 20 octobre
 
 # Vidéo simples et efficace
 > Code With Dary [eng]
@@ -59,9 +58,19 @@ Chaque notion du cours est illustré par des exemples les plus concrets possible
 
 Les codes des différents exemples vous seront fournis. Cependant, je vous conseille d’adopter une attitude active et de vous exercer sur chacun d’entre eux plutôt que de simplement les copier-coller si vous souhaitez véritablement progresser.
 
+# PHPStorm [Code With Me]
+
+- [Découvrez Code With Me : l’outil pour le développement collaboratif de JetBrains](https://blog.jetbrains.com/fr/blog/2020/09/29/decouvrez-code-with-me-version-eap-l-outil-pour-le-developpement-collaboratif-de-jetbrains/)
+- [Getting started with Code With Me](https://www.jetbrains.com/help/idea/code-with-me.html)
+
+# [Cours d'installation de Docker Desktop sur votre machine](../Docker/installation-docker.md)
+# [Créer un environnement Symfony collaboratif](../Docker/environnement-symfony.md)
+
 ## MEMO
 
-[A Symfony Cheatsheet](./memo.md)
+- [A Symfony Cheatsheet](./memo.md)
+- [Symfony summary](./symfony-summary.md)
+- [DQL méthodes les plus utilisées dans une application simple](./DQL-memo.md)
 
 # Sommaire
 
@@ -80,36 +89,68 @@ La documentation la plus importante à mettre en favoris : https://symfony.com/d
 - [Formulaires](./Cours/11-formulaires.md)
 - [Securite](./Cours/12-securite.md)
 
+---
+
+- [Copie et référence d’images](./Cours/more-add-images-webpack.md)
+- [The VarDumper Component](https://symfony.com/doc/current/components/var_dumper.html#dump-examples-and-output)
+- [Les formulaires complet](https://writecode.fr/tutoriel/les-formulaires)
+- [Pagination with KnpPaginatorBundle](https://symfonycasts.com/screencast/symfony4-doctrine-relations/pagination)
+- [Envoyer un e-mail](https://writecode.fr/tutoriel/envoyer-un-e-mail) | [Créez un formulaire de contact avec Symfony 6](https://www.conciergerie.dev/blog/creer-un-formulaire-de-contact-avec-symfony-6) | [Symfony Mailer – Et si je t’envoi un mail](https://blog.gary-houbre.fr/developpement/symfony-et-si-je-tenvoi-un-mail-avec-mailer)
+- [CKEditor 4](http://www.adrientainoff.fr/blog/Integrer-un-editeur-ckeditor-dans-symfony-5-avec-code-snippet)
+- [Translation – Do you understand ?](https://blog.gary-houbre.fr/developpement/symfony-translation-do-you-understand)
+- [Validation](https://symfony.com/doc/current/validation.html)
+- [Symfony data fixtures](./Cours/more-fixture.md)
+
+---
+
+- [Tailwind Elements avec Symfony 6 !](./Cours/more-tailwind.md) | [tailwindcss](https://tailwindcss.com/)
+- [How to Schedule Emails in PHP - Run Automated Scripts Using CRON - Full PHP 8 Tutorial](https://youtu.be/9q1Nt6lHXq8)
+- [EasyAdmin : un admin bundle simple et efficace pour Symfony](https://aymeric-cucherousset.fr/symfony-6-menu-d-administration-avec-easyadmin-4/)
+- [Un jolie système de notifications avec SweetAlert2](https://pentiminax.fr/un-jolie-systeme-de-notifications-avec-sweetalert2-1675)
+- [Authentification 2FA avec Symfony](https://yoandev.co/authentification-2fa-avec-symfony/)
+- [Accepting Payments in Symfony Using STRIPE](https://youtu.be/xh8wFxiANMI)
+- [Discover Symfony UX. UI with Stimulus = fewer JS headaches for you](https://www.symfonystation.com/symfony-ux-stimulus-js-ui) | [Symfony UX : une révolution pour le framework français ?](https://baptisteprieto.fr/symfony/symfony-ux-une-revolution-pour-le-framework-francais/) | [Symfony UX Turbo : peut-on se passer de JavaScript pour nos applications modernes ?](https://www.novaway.fr/blog/tech/symfony-ux-turbo)
+
+---
+
+- [Example de blog symfony complet](./ExampleBlog/readme.md)
+- [Example d'un site e-commerce](./ExampleECommerce/readme.md)
+
 <!-- 
-- Valider les données validator
-- Pagination
-- Les vues privées : espace profil utilisateur
-- Bundle EasyAdmin
-- Mailjet ou Swiftmailer
-- Installer Stripe
-- Les commandes CRON
-- Auth 2FA
+- Les service Symfony - Container de Services - DependencyInjection - Autowiring - CompilerPasses 
 - API HTTPCLIENT
-- Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/
+- Notification: https://yoandev.co/des-notifications-symfony-au-top-avec-notyf/ - EventDispatcher - le système d'événements
 -->
 
 # TP 
 
+- TP d'introduction à Symfony
+- TP forum
+- TP outil de dépôt de travaux étudiants
+- TP projet vacances 
+- TP notaResto, le site de notation de restaurants (GRP 2 - 3)
+- TP symazon, une boutique en ligne (GRP 2 - 3)
+- TP JobBoard (GRP 2 - 3)
+- TP d'évaluation dealabs (GRP 2)
 
-# Créer un environnement Symfony collaboratif
+<!-- form ajax -->
 
-* [ ] composer create-project symfony/skeleton nom_du_projet
-* [ ] cd nom_du_projet
-* [ ] composer require twig annotation orm
-* [ ] composer require maker debug-pack --dev
-* [ ] cp .env .env.local
-* [ ] git init
-* [ ] Créer le dépôt sur GitHub
-* [ ] git remote add origin https://github.com/....git
-* [ ] git add * (attention, fonctionne grâce au .gitignore de symfony)
-* [ ] git commit -m "installation de symfony"
-* [ ] git push origin master
+# VS extensions
 
+I personally think that the following extensions are Must-Haves when working with Symfony:
+- Community Material Theme (Extra)
+- PHP Intelephense
+- PHPDoc Comment
+- PHP Namespace Resolver
+- HTML Snippets
+- JavaScript (ES6) code snippets
+- Symfony code snippets and Twig Support & yaml
+- Symfony for VSCode
+- Twig
+- Twig Language
+- Twig Language 2VScode Great Icons
+- Bracket Pair Colorizer
+- Emmet Live
 
 # Notre guide de style PHP -  Qu'est ce que le PSR ?
 

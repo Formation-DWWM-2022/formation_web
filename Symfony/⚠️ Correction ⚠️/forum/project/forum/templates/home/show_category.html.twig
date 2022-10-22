@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {% if category is defined %}
+        Category {{ category.title }}!
+    {% endif %}
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            {% if category is defined %}
+                <div class="col-12 mt-5">
+                    {% include 'home/recursive_parent_category.html.twig' %}
+                </div>
+            {% endif %}
+            {% if app.user and form is defined %}
+                <div class="col-12 mt-5 p-2 border border-dark">
+                    <h3>{{ 'topic.create'|trans }}</h3>
+                    {% include 'message/_form.html.twig' %}
+                </div>
+            {% endif %}
+            <div class="col-12 mt-5">
+                <h3>La liste des différents topics ({{ pagination.getTotalItemCount }})</h3>
+                <table class="table table-dark table-striped">
+                    <tbody>
+                    {# {% if messages|length > 0 %} #}
+                    {% if pagination|length > 0 %}
+                        {# {% for message in messages %} #}
+                        {% for message in pagination %}
+                            <tr {% if app.user is not null and app.user == message.user %} class="table-secondary" {% endif %}>
+                                <td>
+                                    <h3>{{ message.title }}</h3>
+                                    <p>{{ message.content|length > 10 ? message.content|slice(0, 10) ~ '...' : message.content }}</p>
+                                </td>
+                                <td>
+                                    <a class="btn btn-light py-3"
+                                       href="{{ path('app_front_message_show', { 'message' : message.id }) }}">
+                                        Répondre
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>By {{ message.user.email }}</p>
+                                    <p>le {{ message.dateCreated|date('d/m/y') }}
+                                        à {{ message.dateCreated|date('H:i') }}</p>
+                                </td>
+                                <td>
+                                    <span class="badge bg-primary rounded-pill">{{ message.messages|length }}</span>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        {{ knp_pagination_render(pagination) }}
+
+                    {% else %}
+                        <tr>
+                            <td>
+                                <p>{{ 'topic.empty'|trans }}</p>
+                            </td>
+                        </tr>
+                    {% endif %}
+                    </tbody>
+                </table>
+
+            </div>
+
+            {% if category is defined %}
+                <div class="col-12 mt-5">
+                    {% if category.categories|length > 0 %}
+                        <h3>Les autres catégories sur le meme sujet de discussion : </h3>
+                    {% endif %}
+                    {% include 'home/recursive_category.html.twig' with {'categories' : category.categories} %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,20 @@
+// Import variable
+@import "./variable";
+
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
+
+// Import structure
+@import "./structure";
+
+// Import Components
+@import "./Components/header.scss";
+@import "./Components/blog-card";
+@import "./Components/banner";
+@import "./Components/comments.scss";
+@import "./Components/slider.scss";
+@import "./Components/user.scss";
+@import "./Components/footer.scss";
+
+// Import article
+@import "./Article/article.scss";

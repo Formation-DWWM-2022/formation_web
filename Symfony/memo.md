@@ -121,9 +121,7 @@ php bin/console security:encode-password
 Named route returning (or rendering) a twig template:
 
 ```php
-/**
- * @Route("/project", name="index")
- */
+#[Route("/project", name:"index")]
 public function index()
 {
     return $this->render('project/index.html.twig', [
@@ -136,9 +134,7 @@ public function index()
 An API-route returning JSON. The route is restricted to POST requests:
 
 ```php
-/**
- * @Route("/project/toggle", name="project_toggle", methods={"POST"})
- */
+#[Route("/project/toggle", name:"project_toggle", methods:"POST")]
 public function index()
 {
     return $this->json(['value' => rand(0, 10)]);
@@ -150,9 +146,7 @@ public function index()
 ## Route with parameters having requirements
 
 ```php
-/**
- * @Route("/project/{id}", requirements={"id"="\d+"}, name="project_show")
- */
+#[Route("/project/{id}", requirements:{"id"="\d+"}, name:"project_show")]
 public function show($id)
 {
     return new Response("Test $id");
@@ -162,9 +156,7 @@ public function show($id)
 It's also possible to write the requirements directly after the parameter in the route string enclosed in < >
 
 ```php
-/**
- * @Route("/project/{id<\d+>}", name="project_show")
- */
+#[Route("/project/{id<\d+>}", name:"project_show")]
 ```
 
 ## Parameter-Converter
@@ -172,9 +164,7 @@ It's also possible to write the requirements directly after the parameter in the
 The parameter converter automatically fetches entity objects rom the database from route parameters. In this example a BlogPost object is automatically created if the Parameter slug can be associated with a post:
 
 ```php
-/**
- * @Route("/blog/{slug}", name="blog_show")
- */
+#[Route("/blog/{slug}", name:"blog_show")]
 public function show(BlogPost $post)
 {
     // $post is the object whose slug matches the routing parameter

@@ -3,10 +3,7 @@
 Symfony est entre autres un framework Web. Il contient un ensemble de ressources qui facilitent la création d’applications Web utilisant le design pattern MVC (Model View Controller).
 TP + Questions
 
-Il y a 2 choses à faire dans ce TP :
-
-1. Suivre les étapes afin de réaliser le TP.
-2. Répondre en parallèle aux questions qui sont posées tout au long de l’énoncé. Les réponses sont à écrire dans le questionnaire Eureka se trouvant sur la page du cours.
+Suivre les étapes afin de réaliser le TP.
 
 Il est possible de travailler en binôme pour ce TP. En revanche, les réponses aux questions  doivent être répondues par tout le monde.
 

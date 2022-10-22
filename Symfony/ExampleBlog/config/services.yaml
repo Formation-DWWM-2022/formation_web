@@ -1,0 +1,53 @@
+# This file is the entry point to configure your own services.
+# Files in the packages/ subdirectory configure your dependencies.
+
+# Put parameters here that don't need to change on each machine where the app is deployed
+# https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
+parameters:
+    container.dumper.inline_factories: true
+    locale: fr
+    app.supported_locales: "fr|en"
+    brand_name: "My App Symfony"
+
+services:
+    # default configuration for services in *this* file
+    _defaults:
+        autowire: true # Automatically injects dependencies in your services.
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+
+    # makes classes in src/ available to be used as services
+    # this creates a service per class whose id is the fully-qualified class name
+    App\:
+        resource: "../src/"
+        exclude:
+            - "../src/DependencyInjection/"
+            - "../src/Entity/"
+            - "../src/Kernel.php"
+
+    App\Api\OpenApi\JwtDecorator:
+        decorates: "api_platform.openapi.factory"
+        arguments: ["@.inner"]
+
+    # add more service definitions when explicit configuration is needed
+    # please note that last definitions always *replace* previous ones
+
+    App\Validator\EmailDomainValidator:
+        class: App\Validator\EmailDomainValidator
+        arguments:
+            $globalBlockedDomains: "globalblocked.fr, aze.fr"
+
+    App\DataFixtures\Providers\HashPasswordProvider:
+        tags: [{ name: nelmio_alice.faker.provider }]
+
+    App\DataFixtures\Providers\ArticleImageProvider:
+        tags: [{ name: nelmio_alice.faker.provider }]
+
+    App\DataFixtures\Providers\CategorieProvider:
+        tags: [{ name: nelmio_alice.faker.provider }]
+
+    App\DataFixtures\Providers\ArticleProvider:
+        tags: [{ name: nelmio_alice.faker.provider }]
+
+    app.directory_namer.article:
+        class: App\Services\ArticleDirectoryNamer
+        public: true

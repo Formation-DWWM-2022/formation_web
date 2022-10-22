@@ -149,7 +149,7 @@ Pour installer le maker (si vous n'avez pas installé un projet avec toutes les 
 
 Ensuite pour utiliser le maker, dans le projet saisir la commande suivante
 
-`bin/console make:controller NomDuController`
+`php bin/console make:controller NomDuController`
 
 Cette commande va générer un controller nommé "NomDuController" (dans src/controller) et la vue associée dans le repertoire templates/NomDuController, avec une méthode index.
 

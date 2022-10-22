@@ -1,0 +1,12 @@
+### Composer template
+composer.phar
+/vendor/
+# composer.lock
+
+## Npm template
+/node_modules/
+yarn.lock
+# package-lock.json
+css/style.css
+css/style.css.map
+

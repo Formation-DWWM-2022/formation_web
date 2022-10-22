@@ -1,0 +1,8 @@
+welcome: Bienvenue
+
+category:
+    list: Liste des différentes catégories et sous-catégories
+
+topic:
+    create: Créer un topic
+    empty: No topic yet
