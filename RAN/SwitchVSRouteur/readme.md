@@ -1,0 +1,11 @@
+# Commutateur réseau : Quel est le rôle du switch ?
+
+Lorsque plusieurs postes de travail sont reliés en réseau au sein du même parc informatique, on utilise généralement un switch, ou commutateur réseau qui reçoit et répartit les différentes informations sur le réseau informatique d’entreprise. Cela permet d’améliorer les performances du réseau en consommant moins de bande passante. De plus, le switch contribue à la protection des données informatiques et régulant l’accès aux informations échangées.
+
+# Qu’est-ce qu’un switch, ou commutateur réseau ?
+
+En informatique, un switch est un boîtier doté de quatre à plusieurs centaines de ports Ethernet, et qui sert à relier en réseau différents éléments du système informatique. Il permet notamment de créer différents circuits au sein d’un même réseau, de recevoir des informations et d’envoyer des données vers un destinataire précis en les transportant via le port adéquat. Le switch présente plusieurs avantages dans la gestion de votre parc informatique. Il contribue à la sécurité du réseau et à la protection des données échangées via le réseau. D’autre part, il permet de connecter davantage de postes de travail sur le même réseau Ethernet. Le switch permet avant tout de répartir l’information de manière « intelligente » au sein de l’entreprise. Il contrôle et sécurise au maximum votre réseau pour vous éviter les intrusions. Une fois paramètré par un technicien informatique, le switch distribue l’information seulement aux utilisateurs prédéfinis en fonction de la typologie de collaborateurs (pôle finance, direction, marketing…) et/ou de certaines restrictions, améliorant ainsi la confidentialité des données d’entreprise.
+
+Ne pas confondre switch, hub et routeur
+
+Il est aisé de confondre switch et hub. Pourtant, les hubs réseaux ne filtrent pas les informations reçues et les diffusent à l’ensemble des postes du réseau sans distinction. Opter pour un switch plutôt qu’un hub permet, en triant les données, de libérer de la bande passante et de booster les performances de votre réseau informatique, surtout s’il comprend un grand nombre d’utilisateurs simultanés. Le routeur, quant à lui, a pour fonction de relier le réseau interne d’entreprise au réseau internet externe et à partager une même connexion internet à différents postes de travail.

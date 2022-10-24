@@ -230,6 +230,7 @@ La peine encourue est 6 mois à 7 ans d’emprisonnement et 30 000€ à 750 000
 - [Cryptographie, chiffrement et hachage : comment ça marche ?](../ChiffrementHash/readme.md)
 - [Mot de passe](../Password/readme.md)
 - NAT et PAT 
+- WEP, WPA, WPA2 et WPA3 / SSID / WPS
 
 <!--
 https://www.it-connect.fr/le-nat-et-le-pat-pour-les-debutants/
@@ -275,8 +276,8 @@ https://youtu.be/OUMGp3HHel4?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 
 ## Sytéme et materiels 
 
-- Switch / Routeur
-- Wifi, 5G, Bluetooth, 802.1x, Ethernet
+- [Switch (ou commutateur) vs Routeur](../SwitchVSRouteur/readme.md)
+- Wifi, 5G, Bluetooth, 802.1x, Ethernet, RJ45
 - NAS
 
 ---
