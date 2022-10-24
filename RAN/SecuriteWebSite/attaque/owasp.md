@@ -1,5 +1,3 @@
-- TOP 10 OWASP et ses vulnérabilités : https://youtu.be/pHI2zitLph8
-
 # Identifiez les risques de sécurité pour une entreprise
 ## Appréhendez l'importance de la sécurité
 
@@ -38,6 +36,7 @@ De nos jours, la plupart des informations se trouvent facilement sur le web. Un 
 ## Découvrez les mesures de sécurité pour les applications web
 
 Il existe trois principes de sécurité qui peuvent être appliqués pour garantir la sécurité d’une application ou d’une infrastructure.
+
 1. La confidentialité. C'est l'assurance que les personnes non autorisées n'accèdent pas à des informations sensibles.
 2. L'intégrité. Elle permet d'être sûr que les données sont fiables et n'ont pas été modifiées par des personnes non autorisées.
 3. La disponibilité. C'est l’assurance qu'il n'y a pas de perturbation d'un service ou de l'accessibilité aux données.
@@ -85,3 +84,99 @@ L’Open Web Application Security Project (OWASP) est un organisme impartial, mo
 L'OWASP organise des rencontres et des conférences ouvertes à tous à travers le monde. Il est donc possible de rencontrer et d’échanger avec la communauté pour effectuer une veille constante.
 
 En tant que développeur web, il est important d'apprendre comment sécuriser votre application, afin qu'elle ne soit pas vulnérable aux attaques courantes. Le Top Ten de l'OWASP fournit des lignes directrices à suivre permettant de respecter des bonnes pratiques pour protéger une application web. Cela vous permettra de prendre en compte la sécurité dès vos premiers développements et apportera également une crédibilité supplémentaire à vos clients ou à l’entreprise pour laquelle vous travaillez. De plus, si vous avez besoin de développer votre application web selon les normes RGPD, PCI DSS ou autre, vous devrez d'abord la sécuriser avec l’OWASP ! 
+
+# Découvrez l'Open Web Application Security Project (OWASP)
+
+- TOP 10 OWASP et ses vulnérabilités : https://youtu.be/pHI2zitLph8
+
+Il existe une multitude d’attaques permettant de compromettre un système. Nous allons nous concentrer sur les attaques ciblant les applications web et sur la façon de les sécuriser.
+
+## Découvrez le principe d'une attaque web ?
+
+Les attaques web tirent parti des failles de sécurité de vos applications web. On parle également de vulnérabilités. Le Top Ten de l'OWASP est un document proposant une classification des attaques web les plus courantes ainsi que les contre-mesures associées. 
+
+Lors du développement d’applications, les développeurs ne sont pas forcément au fait des mesures de sécurité à appliquer, et la sécurité représente souvent une contrainte budgétaire et opérationnelle.
+
+C'est pour cette raison qu'il est important de prendre en compte la sécurité dès les premiers développements. En effet, une prise en compte tardive de la sécurité pourra représenter un coût supplémentaire, sans parler du risque encouru en cas d’attaque.
+
+## Découvrez l’OWASP ?
+
+L'Open Web Application Security Project (OWASP) est une organisation à but non lucratif fondée en 2004 pour prévenir de manière proactive les attaques sur les applications web. Il s'agit du premier effort de normalisation des pratiques de développement sécurisé.
+
+En 2001, l'OWASP n'était pas une organisation officielle, mais plutôt un collectif qui préconisait des pratiques de développement sécurisé.
+
+Ce collectif a pris de l'ampleur et est devenu l’OWASP foundation en 2004, avec une norme éthique pour maintenir une neutralité et l'absence de pressions commerciales.
+
+L'OWASP n'est réglementée par aucune entreprise. Elle propose un référentiel neutre permettant d’accompagner les entreprises dans le processus de sécurisation ou d’audit de sécurité.
+
+## Découvrez comment le Top Ten de l'OWASP est utilisé par les entreprises
+
+Avec l'évolution d'Internet, les plus grandes entreprises ont une présence significative en ligne, ce qui les oblige à fournir et à maintenir des applications web.
+
+La plupart des processus internes utilisent également des applications web. Toute application qui traite des données sensibles peut être attaquée et nécessite donc une sécurité standardisée.
+
+Les entreprises qui ne traitent pas de données sensibles, mais qui ont besoin d'une plateforme web pour leur business, sont également exposées aux attaques web.
+
+Par exemple, une entreprise qui fournit des informations, comme un site d'actualité, peut ne pas avoir besoin des données personnelles de ses clients mais nécessite que le site web soit disponible pour permettre la continuité de service. Si une attaque faisait s'effondrer le site, cela aurait une incidence sur les revenus de l'entreprise.
+
+Le Top Ten de l'OWASP fournit une base de référence avec une liste de contrôles à effectuer pour atténuer les risques les plus courants en matière de sécurité. Cette base de référence est également utilisée pour répondre à des normes réglementaires plus strictes, telles que le RGPD par exemple.
+
+Pour plus d'informations, reportez-vous sur la page web de [l’OWASP](https://owasp.org/www-project-top-ten/) (en anglais).
+
+## Appréhendez l'OWASP Top Ten
+
+Dans le Top Ten de l’OWASP, les attaques sont classées par ordre d’importance. Les vulnérabilités présentes dans le Top Ten existent dans les applications web de tous les langages et frameworks. Il n'existe pas de langage de programmation exempt de vulnérabilités.
+
+Voici les 10 attaques les plus fréquentes contre les applications web, selon le Top Ten de l’OWASP en 2017.
+
+1. [Injection](./owasp/InjectionSQL.md) <!-- pas finis -->
+
+Une attaque par injection est une attaque permettant l’injection de code arbitraire dans l’application. Cela se produit lorsque des données non maîtrisées sont exécutées par le moteur présent sur le backend de l’application. Les données de l’attaquant sont exécutées sans autorisations adéquates.
+
+L’injection de code non autorisée peut permettre à un attaquant d’accéder à des données auxquelles il n’a normalement pas accès.
+
+2. Piratage de session
+
+Beaucoup d'applications exigent qu'un utilisateur se connecte pour arriver sur des pages auxquelles lui seul a accès. L’application est vulnérable à une attaque si un utilisateur malveillant peut obtenir un accès non autorisé aux mots de passe, clés et jetons pour pirater la session d'un autre utilisateur.
+
+3. Exposition de données sensibles
+
+Les données stockées ou échangées via une application doivent être protégées pour éviter l’interception par une personne malveillante. Les bases de données qui enregistrent les données personnelles, les données de cartes de crédit, les noms d'utilisateur et les mots de passe représentent une cible de choix pour un pirate. Si ces données ne sont pas chiffrées, elles ne sont pas sécurisées et peuvent être récupérées lorsqu’elles sont en transit par exemple. L'utilisation de techniques de chiffrement et de pratiques de sécurité peut atténuer ce type d’attaques.
+
+4. Entités externes XML (XXE)
+
+Le format XML permet de faciliter l’échange de données sous forme d'arborescence. Il est largement utilisé sur Internet. Il peut être exploité via l’injection XXE ou XML External Entity. XML External Entity est une attaque contre les applications qui parsent des entrées XML (exemple flux RSS). Cette attaque a lieu lorsque l'analyseur XML est mal configuré et contient une référence à une entité externe.
+
+5. Contournement du contrôle d’accès.
+
+Cette attaque vise les fonctionnalités des applications web qui nécessitent un contrôle d'accès. Dans ce cas, les pirates peuvent utiliser l'URL pour contourner l'authentification, par exemple. Ce type d’exploitation peut par exemple révéler comment une base de données est organisée.
+
+6. Security Misconfiguration
+
+Une mauvaise configuration de sécurité est le plus souvent observée dans les en-têtes HTTP qui permettent de donner des indications sur la configuration du serveur, ou via la gestion des exceptions par défaut. Les codes d'erreur et les exceptions courantes peuvent donner à un attaquant un aperçu de l'application.
+
+7. Cross-Site Scripting  (XSS)
+
+Les failles XSS se produisent chaque fois qu'une application inclut des données non fiables dans une nouvelle page web sans validation ou échappement. Les failles XSS permettent aux attaquants d'exécuter des scripts dans le navigateur de la victime, ce qui peut détourner des sessions utilisateur, altérer des sites web ou rediriger l'utilisateur vers un site malveillant.
+
+8. Désérialisation non sécurisée (Insecure Deserialisation)
+
+Une vulnérabilité de type “insecure deserialisation” permet à un utilisateur malveillant d'accéder et de modifier les fonctionnalités de l’application ciblée.
+
+9. Utilisation de composants présentant des vulnérabilités connues
+
+Même si votre application est sécurisée, vous devez vous assurer que le framework, les bibliothèques, les appels API et la plateforme que vous utilisez ne sont pas vulnérables.
+
+Lorsqu'une nouvelle vulnérabilité est découverte, un correctif est généralement proposé. Il faudra alors l’appliquer pour garantir la sécurité de l’application.
+
+10. Manque de surveillance et de monitoring
+
+Pour garantir la sécurité d’une application, il est nécessaire de surveiller et de monitorer les connexions. De nombreux serveurs vulnérables servent de rebond aux attaquants. La mise en place de monitoring permettra de détecter une anomalie sur le serveur.
+
+> Mais, est-il possible de sécuriser le code de toutes les attaques présentes dans le Top Ten de l'OWASP ?
+
+Absolument !
+
+Si vous utilisez les bonnes pratiques de sécurité et que vous êtes conscient des risques, vous avez une longueur d'avance !
+
+Rappelez-vous que 80 % des applications présentent des vulnérabilités communes telles que décrites dans l'OWASP. Apprendre à les connaître et utiliser des techniques simples de développement sécurisé dont nous parlerons dans ce cours vous aidera à créer un code de qualité !

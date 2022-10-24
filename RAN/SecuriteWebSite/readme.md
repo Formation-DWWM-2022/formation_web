@@ -235,17 +235,19 @@ La peine encourue est 6 mois à 7 ans d’emprisonnement et 30 000€ à 750 000
 - [Cryptographie, chiffrement et hachage : comment ça marche ?](../ChiffrementHash/readme.md)
 - [Mot de passe](../Password/readme.md)
 - [Le NAT et le PAT](../NAT&PAT/readme.md)
-- WEP , WAP 2 3 , SSID , WPS
+- [WEP, WPA ou WPA2 — Quel est le meilleur protocole de sécurité Wi-Fi ?](../ProtocoleWIFI/readme.md)
 
 ## Attaque
 
 - [Ingénierie sociale](./Attaque/ingenierieSociale.md)
 - [Quel sont les différents types de virus informatique ?](./Attaque/virus.md)
-- [TP - Hacking](./Attaque/tp-hacking.md)
 - [Qu’est-ce que le dark web et comment y accéder ?](./Attaque/darkWeb.md)
+- [ProtonVPN - OpenVPN - TOR browser](./Attaque/goToDarkWeb.md)
+- [TP - Hacking](./Attaque/tp-hacking.md)
 - [Qu’est-ce que le téléchargement de fichiers torrent ? Comment cela fonctionne-t-il ?](./Attaque/torrent.md)
 - [Shodan](https://youtu.be/lwSrR21syBk) n'est certes pas tout jeune sur le Web, créé en 2009 par John Matherly, Shodan scanne en permanence l'ensemble des systèmes connectés sur Internet (serveurs, box internet, routeurs ...) et catalogue l'ensemble des services exposés par ces systèmes dans son moteur de recherche : serveur Web, SSH, RTSP .. etc.
-- [OWASP](./Attaque/owasp.md) <!-- pas finis -->
+- [Identifiez les risques de sécurité pour une entreprise](./Attaque/owasp.md) <!-- pas finis -->
+- [Juice Shop – Une boutique en ligne trouée pour s’exercer au ethical hacking](./Attaque/juiceshop.md)
 
 ## Protection
 
@@ -265,6 +267,10 @@ https://youtu.be/RBK0wmREvkY?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 <!--
 - https://blog.avast.com/multi-factor-authentication-for-app-security-avast?_ga=2.208712916.773087245.1666164681-939493078.1666162553
 - https://www.avast.com/fr-fr/c-how-does-two-factor-authentication-work
+
+https://www.cnetfrance.fr/produits/box-wifi-securite-39707618-vpn-wps-et-autres-mesures_7.htm
+https://www.netspotapp.com/fr/blog/wifi-settings/how-to-change-wifi-password.html#Comment_trouver_un_mot_de_passe_WiFi_et_le_rendre_plus_fort
+https://www.netspotapp.com/fr/blog/wifi-security/7-ways-to-stop-a-wifi-hacker.html#Top_7
 -->
 
 - RGPD
@@ -272,9 +278,11 @@ https://youtu.be/RBK0wmREvkY?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 https://youtu.be/OUMGp3HHel4?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 -->
 
+
+
 ## Sytéme et materiels
 
-- [Switch (ou commutateur) vs Routeur](../SwitchVSRouteur/readme.md)
+- [Quelle est la différence entre switch et routeur](../SwitchVSRouteur/readme.md)
 - Wifi, 5G, Bluetooth, 802.1x, Ethernet, RJ45, NFC
 - NAS
 

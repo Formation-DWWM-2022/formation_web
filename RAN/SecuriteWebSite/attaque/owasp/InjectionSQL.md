@@ -2,7 +2,7 @@
 
 - Comprendre l'injection SQL en 2 minutes : https://youtu.be/sIsjlfBZVzo
   
-## Exemple 1 : 
+## Exemple 1 
 
 Jusqu’à présent, nous avons fourni nous-mêmes les valeurs à insérer en base de données. Cependant, en pratique, nous allons très souvent stocker et manipuler des données envoyées directement par les utilisateurs.
 
@@ -80,7 +80,7 @@ Pour cette raison, vous devez une nouvelle fois faire toujours très attention d
 
 ---
 
-## Exemple 2 : 
+## Exemple 2 
 
 ![](https://adamatlinc.files.wordpress.com/2015/09/mrr4.jpg)
 
@@ -92,12 +92,11 @@ Je te montre en PHP, mais on s’en fout du langage, le problème est le même p
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "username", "username", "dbname");
+$dbco = new PDO("mysql:host=$servname;dbname=$dbname", $user, $pass);
+$dbco->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $sql = "SELECT * FROM users WHERE email='" . $email . "' AND encrypted_password='" . $password . "'";
-$result = $mysqli->query($sql);
-
-$mysqli->close();
+$result = $dbco->exec($sql);
 ?>
 ```
 
@@ -144,24 +143,9 @@ SELECT * FROM users WHERE email='email@email.com';DROP TABLE users;--' AND encry
 
 Ce qui va gentiment supprimer ta base de données d’utilisateurs.
 
-
 ## Atténuation
 
 Pour éviter cet enfer, il faut juste que tu « échappes » les caractères de contrôle SQL des variables. Concrètement ça veut dire que SQL va les considérer comme des strings, pas un caractère de contrôle SQL. Et pour faire ça, il faut utiliser les fonctions intégrées dans ton langage.
-
-```php
-<?php
-$mysqli = new mysqli("localhost", "username", "username", "dbname");
-
-$email = $mysqli->real_escape_string($email);
-$password = $mysqli->real_escape_string($password);
-
-$sql = "SELECT * FROM users WHERE email='" . $email . "' AND encrypted_password='" . $password . "'";
-$result = $mysqli->query($sql);
-
-$mysqli->close();
-?>
-```
 
 Encore une fois ici c’est du PHP, mais tu as des systèmes intégrés d’échappement de caractère dans tous les langages, frameworks possibles !
 
