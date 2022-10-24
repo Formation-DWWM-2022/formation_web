@@ -170,7 +170,8 @@ Les codes des différents exemples vous seront fournis. Cependant, je vous conse
 
 # Sommaire
 
-## Introduction :
+## Introduction
+
 - [Bug bounty : peut-on en vivre ?](./Introduction/bugBounty.md)
 - [Qu'est ce qu'un Hackathon ?](./Introduction/hackaton.md)
 - [CTF - Capture du drapeau](./Introduction/CTF.md)
@@ -178,6 +179,7 @@ Les codes des différents exemples vous seront fournis. Cependant, je vous conse
 - [Métiers de la cybersécurité](./Introduction/metierCybersecurite.md)
 
 ## Histoire et actualités
+
 - [Les pirates les plus dangereux et célèbres de notre génération](https://www.leblogduhacker.fr/top-10-des-hackers-les-plus-celebres/)
 - George hotz
     - [Pourquoi Apple et Tesla ont peur de ce génie?](https://youtu.be/eqpng2m7D2g)
@@ -205,12 +207,15 @@ Les codes des différents exemples vous seront fournis. Cependant, je vous conse
     - [The Billion Dollar Code](https://www.youtube.com/watch?v=iDvPvqImb-4)
 
 ## Agence de protection en France
+
 L'Agence nationale de la sécurité des systèmes d'information (ANSSI) est un service français créé par décret en juillet 2009. Ce service à compétence nationale est rattaché au secrétariat général de la Défense et de la Sécurité nationale (SGDSN), autorité chargée d'assister le Premier ministre dans l'exercice de ses responsabilités en matière de défense et de sécurité nationale. 
 
 ## Pein encourue en France
+
 La peine encourue est 6 mois à 7 ans d’emprisonnement et 30 000€ à 750 000€ d’amende.  Le hacker encourt également, au titre des peines complémentaires, la confiscation du matériel informatique qui a servi ou était destiné à commettre l’infraction. Il convient de préciser que le hacker engage sa responsabilité pénale mais également sa responsabilité civile. Il devra ainsi verser des dommages-intérêts à la victime pour l’indemniser.
 
 ## Connaissance
+
 - [Comment fonctionne Internet ?](../Internet/readme.md)
 - [Qu'est-ce que le modèle OSI ?](../OSI/readme.md)
 - [IP](../IP/readme.md)
@@ -231,18 +236,9 @@ La peine encourue est 6 mois à 7 ans d’emprisonnement et 30 000€ à 750 000
 - [Mot de passe](../Password/readme.md)
 - [Le NAT et le PAT](../NAT&PAT/readme.md)
 - WEP , WAP 2 3 , SSID , WPS
-- NFC
-- NAT et PAT 
-- WEP, WPA, WPA2 et WPA3 / SSID / WPS
-
-<!--
-https://www.it-connect.fr/le-nat-et-le-pat-pour-les-debutants/
-https://youtu.be/jq3SLuhIyPI
--->
-
-
 
 ## Attaque
+
 - [Ingénierie sociale](./Attaque/ingenierieSociale.md)
 - [Quel sont les différents types de virus informatique ?](./Attaque/virus.md)
 - [TP - Hacking](./attaque/tp-hacking.md)
@@ -251,8 +247,8 @@ https://youtu.be/jq3SLuhIyPI
 - [Shodan](https://youtu.be/lwSrR21syBk) n'est certes pas tout jeune sur le Web, créé en 2009 par John Matherly, Shodan scanne en permanence l'ensemble des systèmes connectés sur Internet (serveurs, box internet, routeurs ...) et catalogue l'ensemble des services exposés par ces systèmes dans son moteur de recherche : serveur Web, SSH, RTSP .. etc.
 - [OWASP](./Attaque/owasp.md) <!-- pas finis -->
 
-
 ## Protection
+
 <!--
 https://youtu.be/RBK0wmREvkY?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 -->
@@ -276,12 +272,10 @@ https://youtu.be/RBK0wmREvkY?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 https://youtu.be/OUMGp3HHel4?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 -->
 
-
-
-## Sytéme et materiels 
+## Sytéme et materiels
 
 - [Switch (ou commutateur) vs Routeur](../SwitchVSRouteur/readme.md)
-- Wifi, 5G, Bluetooth, 802.1x, Ethernet, RJ45
+- Wifi, 5G, Bluetooth, 802.1x, Ethernet, RJ45, NFC
 - NAS
 
 ---
