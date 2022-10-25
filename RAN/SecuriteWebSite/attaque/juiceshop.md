@@ -8,12 +8,6 @@ Juice Shop est écrit en javascript et repose sur Node.js, Express et AngularJS.
 
 La base de données de Juice Shop est réinitialisée proprement à chaque redémarrage du service et chaque challenge réussi est inscrit sur un tableau de scores et peut être utilisé dans le cadre d’un CTF. Surtout qu’il est possible de personnaliser l’application pour lui donner le look et le contenu de votre choix.
 
-Et pour ne rien gâcher, Juice Shop est libre (licence MIT).
-
-Amusez-vous bien !
-
-## Pourquoi le magasin de jus existe
-
 Pour l’utilisateur sans méfiance le Juice Shop ressemble juste à une petite boutique en ligne qui vend - surprise! - jus de fruits et légumes et les produits associés. Mis à part l’aspect du paiement et de la livraison entièrement surfaits du commerce électronique, le Juice Shop est entièrement fonctionnel. Mais ce n’est que la pointe de l’iceberg. Le Juice Shop contient 101 défis de difficulté variable où vous êtes censé exploiter les vulnérabilités de sécurité sous-jacentes. Ces vulnérabilités ont été intentionnellement implantées dans l’application exactement à cette fin, mais d’une manière qui se produit réellement dans le développement web "réel" aussi bien!
 
 Votre progression de piratage est suivie par l’application en utilisant des notifications push immédiates pour les exploits réussis ainsi qu’un tableau de pointage pour l’aperçu des progrès. Trouver ce tableau de pointage est en fait l’un des défis (les plus faciles)! L’idée derrière cela est d’utiliser des techniques de gamification pour vous motiver à obtenir autant de défis résolus que possible - similaire à débloquer des réalisations dans de nombreux jeux vidéo modernes.
@@ -21,6 +15,10 @@ Votre progression de piratage est suivie par l’application en utilisant des no
 Le développement du Juice Shop a commencé en septembre 2014 à titre d’initiative personnelle de l’auteur, lorsque son employeur avait besoin d’un environnement d’exercice de sécurité plus moderne pour une application Web interne. L’environnement précédemment utilisé était encore de l’époque de rendu côté serveur ASP/JSP/Servlet et ne reflétait pas la réalité de la technologie web actuelle. Le Juice Shop a été développé en tant que logiciel open-source sans aucune marque d’entreprise dès le début. À la fin de 2014, la majeure partie de la fonctionnalité de commerce électronique actuelle était opérationnelle. Ainsi qu’un nombre initial de vulnérabilités. Au fil des ans, d’autres variantes de vulnérabilités ont été ajoutées. En parallèle, l’application a été mise à jour avec les dernières technologies web (par ex. WebSockets et OAuth 2.0) et les frameworks frontaux (par ex. en passant d’AngularJS avec Bootstrap à Angular avec Material Design). Certaines de ces capacités supplémentaires ont permis d’ajouter des vulnérabilités correspondantes - et la liste des défis s’allonge depuis.
 
 Outre le cas d’utilisation du hacker et de la formation de sensibilisation, les outils de test de pénétration et les scanners de sécurité automatisés sont invités à utiliser le Juice Shop comme une sorte d’application de cobaye pour vérifier comment leurs produits s’adaptent aux interfaces d’application JavaScript et REST.
+
+Et pour ne rien gâcher, Juice Shop est libre (licence MIT).
+
+Amusez-vous bien !
 
 ## Aperçu de l’architecture
 
@@ -36,7 +34,7 @@ Le diagramme suivant montre les chemins de communication de haut niveau entre le
 
 ![](https://pwning.owasp-juice.shop/introduction/img/architecture-diagram.png)
 
-# TP OWASP Juice Shop
+# TP - OWASP Juice Shop
 
 ![](https://pwning.owasp-juice.shop/cover.jpg)
 
@@ -74,4 +72,8 @@ Si ce n’est pas délibérément désactivé (voir Personnalisation), vous pouv
 
 <!--
 Solution : https://pwning.owasp-juice.shop/appendix/solutions.html
+
+https://curiositykillscolby.com/
+
+https://curiositykillscolby.com/2020/10/29/pwning-owasps-juice-shop-pt-1-security-policy/
 -->
