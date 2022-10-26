@@ -281,15 +281,27 @@ https://youtu.be/OUMGp3HHel4?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 
 - [Quelle est la différence entre switch et routeur](../SwitchVSRouteur/readme.md)
 - [Qu'est-ce que le Wi-Fi ?](../Wifi/readme.md)
-- 5G, Bluetooth, 802.1x, Ethernet, RJ45, NFC
+- [Réseaux mobiles](../ReseauxMobiles/readme.md)
+- [Connexion Bluetooth](../Bluetooth/readme.md)
+- [Connexion et protocole Ethernet](../Ethernet/readme.md)
+- Fibre optique
+- NFC
+- Zigbee
+- LoRaWAN et LoRa
+- Sigfox
+- ZeeWave
+- EnOcean
+
+---
+
 - NAS
 - Arduino
 - Raspberry
 
 ---
 
-- [Kali Linux : pourquoi cet outil Linux est-il connu des pirates informatiques ?](../KaliLinux/readme.md)
 - [Machine virtuel, virtualisation et VirtualBox](../VM&VirtualBox/readme.md) <!-- pas finis -->
+- [Kali Linux : pourquoi cet outil Linux est-il connu des pirates informatiques ?](../KaliLinux/readme.md)
 - WSL et Linux
 - Powershell vs CMD
 - Docker
