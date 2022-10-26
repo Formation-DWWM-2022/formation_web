@@ -280,32 +280,47 @@ https://youtu.be/OUMGp3HHel4?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 ## Sytéme et materiels
 
 - [Quelle est la différence entre switch et routeur](../SwitchVSRouteur/readme.md)
-- [# Qu'est-ce que le Wi-Fi ?](../Wifi/readme.md)
+- [Qu'est-ce que le Wi-Fi ?](../Wifi/readme.md)
 - 5G, Bluetooth, 802.1x, Ethernet, RJ45, NFC
 - NAS
+- Arduino
+- Raspberry
 
 ---
 
+- [Kali Linux : pourquoi cet outil Linux est-il connu des pirates informatiques ?](../KaliLinux/readme.md)
+- [Machine virtuel, virtualisation et VirtualBox](../VM&VirtualBox/readme.md) <!-- pas finis -->
 - WSL et Linux
 - Powershell vs CMD
 - Docker
 - Cloud Computing [lass , pass , sass]
-- [Machine virtuel, virtualisation et VirtualBox](../VM&VirtualBox/readme.md)
 - Metaverse / Bitcoin / NFT
 - QR code
 
 ---
 
-- USB Rubber Ducky
-- O .MG cable
+- [USB Rubber Ducky – Le canard hacker](./Attaque/USBRuberDucky.md)
+- [La clé USB qui va griller votre ordinateur](./Attaque/USBKiller.md)
+- [O .MG cable](./Attaque/O.MGcable.md)
+
+---
+
 - 9 outils à UTILISER : <https://youtu.be/opKCYHuVPIM>
-- [Kali Linux : pourquoi cet outil Linux est-il connu des pirates informatiques ?](../KaliLinux/readme.md)
 - Wireshark
 - Nmap
 - John The Ripper
 - Burp suite
 - Metasploit
 - Blue
+- Empire
+- [Social engineering Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit)
+  - Social Engineering Toolkit (SET), en français « boite à outils pour l‘ingénierie sociale » est un outil qui a été developper en Python par TrustedSec c'est un outil open-source et multiplateforme qui propose un choix de fonctions permettant diverses attaques basées sur l'hameçonnage informatique. On retrouve ainsi différents outils tel que :
+    - Un outil pour copier des pages web contenant des formulaires (Facebook, site de banque, etc.)
+    - Un outil de mail bombing pour spammer des boites mails ou des numéros téléphone
+    - Un systèmes de gestion de RAT ou d'exploit en utilisant le framework Metasploit
+- [ExploitDB](https://www.exploit-db.com/)
+  - La base de données d'exploits est une archive des exploits publics et des logiciels vulnérables correspondants, développés pour être utilisés par les testeurs de pénétration et les chercheurs sur la vulnérabilité. Son objectif est de constituer la collection la plus complète d’exploits, de shellcode et d’articles rassemblés par le biais de soumissions directes, de listes de diffusion et d’autres sources publiques, et de les présenter dans une base de données disponible et facile à naviguer. La base de données d'exploits est un référentiel pour les exploits et les preuves de concepts plutôt que des avis, ce qui en fait une ressource précieuse pour ceux qui ont besoin de données exploitables tout de suite.
+- [Aircrack-ng](https://fr.wikipedia.org/wiki/Aircrack)
 
 <!--
 # Règles de piratage - ✔️ Outils de piratage recommandés

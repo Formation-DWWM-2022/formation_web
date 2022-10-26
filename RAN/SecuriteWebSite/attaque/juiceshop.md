@@ -45,7 +45,7 @@ Vous devez avoir Docker installé pour exécuter Juice Shop comme un conteneur �
 - Installez Docker sur votre ordinateur.
 - Sur la ligne de commande, lancez `docker pull bkimminich/juice-shop` pour télécharger la dernière image décrite ci-dessus.
 Lancez `docker run -d -p 3000:3000 bkimminich/juice-shop` pour lancer le conteneur avec cette image.
-Naviguez jusqu’à http://localhost:3000.
+Naviguez jusqu’à <http://localhost:3000>.
 
 ## Catégories de vulnérabilité
 
@@ -69,11 +69,9 @@ Enfin, chaque défi indique s’il est actuellement non résolu ou résolu. La p
 
 Si ce n’est pas délibérément désactivé (voir Personnalisation), vous pouvez passer le curseur sur chaque étiquette non résolue pour voir un indice pour ce défi. Si une icône "livre" est également affichée dans l’étiquette, vous pouvez cliquer dessus pour être redirigé vers la section d’indices correspondante.
 
-
 <!--
-Solution : https://pwning.owasp-juice.shop/appendix/solutions.html
-
-https://curiositykillscolby.com/
-
-https://curiositykillscolby.com/2020/10/29/pwning-owasps-juice-shop-pt-1-security-policy/
+Solution : 
+- https://pwning.owasp-juice.shop/appendix/solutions.html
+- https://curiositykillscolby.com/
+- https://curiositykillscolby.com/2020/10/29/pwning-owasps-juice-shop-pt-1-security-policy/
 -->

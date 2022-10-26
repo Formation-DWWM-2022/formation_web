@@ -131,7 +131,7 @@ Crack le mot de passe du zip
   - Windows : <https://nmap.org/dist/nmap-7.93-setup.exe>
   - Linux : `sudo apt-get install nmap`
 - ExploitDB
-  - Windows : Google
+  - Windows : <https://www.exploit-db.com/>
   - Linux : `sudo apt -y install exploitdb-bin-sploits exploitdb-papers`
 
 ## Solution

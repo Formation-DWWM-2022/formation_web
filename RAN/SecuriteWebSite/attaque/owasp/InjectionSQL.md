@@ -1,8 +1,8 @@
 # Un premier point sur l’injection SQL
 
-- Comprendre l'injection SQL en 2 minutes : https://youtu.be/sIsjlfBZVzo
+- Comprendre l'injection SQL en 2 minutes : <https://youtu.be/sIsjlfBZVzo>
   
-## Exemple 1 
+## Exemple 1
 
 Jusqu’à présent, nous avons fourni nous-mêmes les valeurs à insérer en base de données. Cependant, en pratique, nous allons très souvent stocker et manipuler des données envoyées directement par les utilisateurs.
 
@@ -80,7 +80,7 @@ Pour cette raison, vous devez une nouvelle fois faire toujours très attention d
 
 ---
 
-## Exemple 2 
+## Exemple 2
 
 ![](https://adamatlinc.files.wordpress.com/2015/09/mrr4.jpg)
 
@@ -151,6 +151,7 @@ Encore une fois ici c’est du PHP, mais tu as des systèmes intégrés d’éch
 
 Cette injection est la plus courante, mais il existe d’autres types d’injection de code.
 
-# Bienvenue dans le Bac à Sable !
-- Injection SQL : https://www.leblogduhacker.fr/sandbox/injectionsql.php 
-- Injection SQL : https://www.hacksplaining.com/exercises/sql-injection#/start
+# Bienvenue dans le Bac à Sable
+
+- Injection SQL : <https://www.leblogduhacker.fr/sandbox/injectionsql.php>
+- Injection SQL : <https://www.hacksplaining.com/exercises/sql-injection#/start>

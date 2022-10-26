@@ -1,13 +1,14 @@
 # Identifiez les risques de sécurité pour une entreprise
+
 ## Appréhendez l'importance de la sécurité
 
-En 2012, la société Yahoo a été piratée.  À cause d'une mauvaise configuration de la sécurité des bases de données, les mots de passe des utilisateurs ont été rendus publics. Vous pouvez imaginer à quel point cela a nui à l’entreprise, et combien d'argent elle a perdu - sans parler de l'effet que cela a eu sur plus de 450 000 utilisateurs ! 
+En 2012, la société Yahoo a été piratée.  À cause d'une mauvaise configuration de la sécurité des bases de données, les mots de passe des utilisateurs ont été rendus publics. Vous pouvez imaginer à quel point cela a nui à l’entreprise, et combien d'argent elle a perdu - sans parler de l'effet que cela a eu sur plus de 450 000 utilisateurs !
 
 Une faille aussi importante aurait-elle pu être évitée ?
 
 Probablement ! 80 % des attaques sur les applications web sont dues à de mauvaises pratiques de développement, qui sont à l’origine des vulnérabilités découvertes et exploitées.
 
-De plus en plus d'entreprises utilisent des applications web pour traiter des données privées, telles que des informations personnelles (nom, date de naissance, numéro d'identification national, etc.) ou des données bancaires. Toutes ces données représentent un attrait considérable pour un attaquant. 
+De plus en plus d'entreprises utilisent des applications web pour traiter des données privées, telles que des informations personnelles (nom, date de naissance, numéro d'identification national, etc.) ou des données bancaires. Toutes ces données représentent un attrait considérable pour un attaquant.
 
 Une fuite de données due à un piratage a un impact majeur sur l’image d’une entreprise. Ces dommages se matérialisent bien souvent par des pertes financières. Le cas de Yahoo n’est pas une exception : de nombreuses entreprises sont victimes de piratages exposant les données des utilisateurs. Mais ce n'est pas tout, l'image de marque des entreprises piratées est également écornée en cas d'attaque.
 
@@ -43,13 +44,13 @@ Il existe trois principes de sécurité qui peuvent être appliqués pour garant
 
 La sécurité de l'information repose sur l'équilibre entre ces trois principes.
 
-Ces principes fondamentaux sont des éléments clés dans l’élaboration des politiques de sécurité en entreprise. Mais il existe également des réglementations imposées pour certains secteurs d’activités qui influencent également les politiques de sécurité des entreprises. 
+Ces principes fondamentaux sont des éléments clés dans l’élaboration des politiques de sécurité en entreprise. Mais il existe également des réglementations imposées pour certains secteurs d’activités qui influencent également les politiques de sécurité des entreprises.
 
 Il existe de nombreux règlements en fonction des domaines d’activité des entreprises, en voici quelques-uns qui pourront vous être utiles.
 
 ## Identifiez les principales réglementations de sécurité pour les applications web
 
-En 2018, le règlement général sur la protection des données (RGPD) est entré en vigueur. Il modifie la manière dont les données personnelles sont stockées et utilisées et la façon dont les entreprises les traitent. Il permet aux résidents de l'Union européenne de contrôler leurs informations personnelles, comme leur nom, leur âge, leur affiliation politique et leur orientation sexuelle, par exemple. 
+En 2018, le règlement général sur la protection des données (RGPD) est entré en vigueur. Il modifie la manière dont les données personnelles sont stockées et utilisées et la façon dont les entreprises les traitent. Il permet aux résidents de l'Union européenne de contrôler leurs informations personnelles, comme leur nom, leur âge, leur affiliation politique et leur orientation sexuelle, par exemple.
 
 Les entreprises ne respectant pas le RGPD sont passibles d'une amende. Bien qu'il soit basé sur la législation de l'Union européenne, il concerne tous les pays car les applications web sont disponibles dans le monde entier. Les entreprises en dehors de l’UE qui font du business avec des entreprises européennes devront respecter le RGPD pour leurs applications web à destination du marché européen.
 
@@ -63,11 +64,11 @@ De plus, il est nécessaire d’avoir la possibilité de supprimer les données 
 
 ### Découvrez la norme PCI DSS
 
-La norme Payment Card Industry Data Security Standard (PCI DSS) est une norme établie pour toutes les entreprises qui traitent des données bancaires. La sécurisation des données bancaires met l'accent sur la sécurité lors de la transmission, du traitement et du stockage des données. 
+La norme Payment Card Industry Data Security Standard (PCI DSS) est une norme établie pour toutes les entreprises qui traitent des données bancaires. La sécurisation des données bancaires met l'accent sur la sécurité lors de la transmission, du traitement et du stockage des données.
 
 De plus en plus de plateformes web et de solutions de stockage gèrent les applications pour les entreprises, il est essentiel que le fournisseur soit également conforme à la norme PCI DSS.
 
-Si vous créez une application web qui traite des données bancaires, comme une boutique en ligne ou un site web par abonnement, vous devez chiffrer les transmissions pour garantir la sécurité des données en transit. Les données bancaires transmises en texte clair constituent une violation de la norme PCI DSS, ce qui peut faire l’objet d’une amende. 
+Si vous créez une application web qui traite des données bancaires, comme une boutique en ligne ou un site web par abonnement, vous devez chiffrer les transmissions pour garantir la sécurité des données en transit. Les données bancaires transmises en texte clair constituent une violation de la norme PCI DSS, ce qui peut faire l’objet d’une amende.
 
 Si vous souhaitez en savoir plus, voici le [site officiel du PCI DSS (en anglais)](https://www.pcisecuritystandards.org/).
 
@@ -83,17 +84,17 @@ L’Open Web Application Security Project (OWASP) est un organisme impartial, mo
 
 L'OWASP organise des rencontres et des conférences ouvertes à tous à travers le monde. Il est donc possible de rencontrer et d’échanger avec la communauté pour effectuer une veille constante.
 
-En tant que développeur web, il est important d'apprendre comment sécuriser votre application, afin qu'elle ne soit pas vulnérable aux attaques courantes. Le Top Ten de l'OWASP fournit des lignes directrices à suivre permettant de respecter des bonnes pratiques pour protéger une application web. Cela vous permettra de prendre en compte la sécurité dès vos premiers développements et apportera également une crédibilité supplémentaire à vos clients ou à l’entreprise pour laquelle vous travaillez. De plus, si vous avez besoin de développer votre application web selon les normes RGPD, PCI DSS ou autre, vous devrez d'abord la sécuriser avec l’OWASP ! 
+En tant que développeur web, il est important d'apprendre comment sécuriser votre application, afin qu'elle ne soit pas vulnérable aux attaques courantes. Le Top Ten de l'OWASP fournit des lignes directrices à suivre permettant de respecter des bonnes pratiques pour protéger une application web. Cela vous permettra de prendre en compte la sécurité dès vos premiers développements et apportera également une crédibilité supplémentaire à vos clients ou à l’entreprise pour laquelle vous travaillez. De plus, si vous avez besoin de développer votre application web selon les normes RGPD, PCI DSS ou autre, vous devrez d'abord la sécuriser avec l’OWASP !
 
 # Découvrez l'Open Web Application Security Project (OWASP)
 
-- TOP 10 OWASP et ses vulnérabilités : https://youtu.be/pHI2zitLph8
+- TOP 10 OWASP et ses vulnérabilités : <https://youtu.be/pHI2zitLph8>
 
 Il existe une multitude d’attaques permettant de compromettre un système. Nous allons nous concentrer sur les attaques ciblant les applications web et sur la façon de les sécuriser.
 
 ## Découvrez le principe d'une attaque web ?
 
-Les attaques web tirent parti des failles de sécurité de vos applications web. On parle également de vulnérabilités. Le Top Ten de l'OWASP est un document proposant une classification des attaques web les plus courantes ainsi que les contre-mesures associées. 
+Les attaques web tirent parti des failles de sécurité de vos applications web. On parle également de vulnérabilités. Le Top Ten de l'OWASP est un document proposant une classification des attaques web les plus courantes ainsi que les contre-mesures associées.
 
 Lors du développement d’applications, les développeurs ne sont pas forcément au fait des mesures de sécurité à appliquer, et la sécurité représente souvent une contrainte budgétaire et opérationnelle.
 
@@ -135,11 +136,11 @@ Une attaque par injection est une attaque permettant l’injection de code arbit
 
 L’injection de code non autorisée peut permettre à un attaquant d’accéder à des données auxquelles il n’a normalement pas accès.
 
-2. Piratage de session
+2. [Piratage de session](./owasp/PiratageSession.md) <!-- pas finis -->
 
 Beaucoup d'applications exigent qu'un utilisateur se connecte pour arriver sur des pages auxquelles lui seul a accès. L’application est vulnérable à une attaque si un utilisateur malveillant peut obtenir un accès non autorisé aux mots de passe, clés et jetons pour pirater la session d'un autre utilisateur.
 
-3. Exposition de données sensibles
+3. [Exposition de données sensibles](./owasp/expositionDonne.md)
 
 Les données stockées ou échangées via une application doivent être protégées pour éviter l’interception par une personne malveillante. Les bases de données qui enregistrent les données personnelles, les données de cartes de crédit, les noms d'utilisateur et les mots de passe représentent une cible de choix pour un pirate. Si ces données ne sont pas chiffrées, elles ne sont pas sécurisées et peuvent être récupérées lorsqu’elles sont en transit par exemple. L'utilisation de techniques de chiffrement et de pratiques de sécurité peut atténuer ce type d’attaques.
 
