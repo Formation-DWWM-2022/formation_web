@@ -85,6 +85,13 @@ https://openclassrooms.com/fr/courses/5432586-explorez-le-panorama-des-objets-co
 https://openclassrooms.com/fr/courses/5079046-mettez-en-place-une-architecture-pour-objets-connectes-avec-le-standard-onem2m/5079053-decouvrez-l-internet-des-objets
 https://www.schoolmouv.fr/cours/internet-le-reseau-des-reseaux/fiche-de-cours
 
+- Zigbee
+- LoRaWAN et LoRa
+- Sigfox
+- ZeeWave
+- EnOcean
+- Homekit
+
 Défis :
 - Coder sans voir le résultat
 -->

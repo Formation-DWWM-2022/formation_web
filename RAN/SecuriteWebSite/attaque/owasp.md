@@ -181,3 +181,14 @@ Absolument !
 Si vous utilisez les bonnes pratiques de sécurité et que vous êtes conscient des risques, vous avez une longueur d'avance !
 
 Rappelez-vous que 80 % des applications présentent des vulnérabilités communes telles que décrites dans l'OWASP. Apprendre à les connaître et utiliser des techniques simples de développement sécurisé dont nous parlerons dans ce cours vous aidera à créer un code de qualité !
+
+Autre attaque possible :
+
+- Faille upload
+- Click jacking
+- Cookie poisoning
+- CSRF
+- Dos
+- DROWN
+- POODLE
+- ...

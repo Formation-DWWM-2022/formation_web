@@ -106,5 +106,3 @@ Ainsi, si vous vous déplacez dans le logement avec un appareil, il captera le m
 Le Wi-Fi est une technologie très encadrée. Le décret N° 2002-775 du 3 mai 2002 précise les valeurs limites d'exposition du public. Dans ce décret, il est indiqué que le Wi-Fi ne doit pas dépasser 61 V/m (Volt par mètre). Plusieurs études ont montré que les mesures réalisées à 50cm d'une borne Wi-Fi étaient de 2,8 V/m, soit 21 fois moins que l'exposition maximale inscrite dans le décret.
 
 Les ondes électromagnétiques sont également remises en cause. Les ondes Wi-Fi n'étant pas permanentes, on peut considérer que la puissance de celles-ci est souvent inférieure à la limite fixée par la règlementation radioélectrique du gouvernement.
-
-## Conclusion
