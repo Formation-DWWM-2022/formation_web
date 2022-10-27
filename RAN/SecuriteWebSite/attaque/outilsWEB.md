@@ -65,4 +65,26 @@ Le mot-clé dans la citation précédente est avancé! Plus précisément, Kali 
 
 Bien qu’il existe des distributions de pentesting plus légers, ils présentent encore essentiellement un obstacle élevé pour les personnes nouvellement dans le domaine de la sécurité informatique. Si vous vous sentez encore capable, essayez Kali Linux !
 
-![](https://pwning.owasp-juice.shop/part1/img/kali.jpg)X
+![](https://pwning.owasp-juice.shop/part1/img/kali.jpg)
+
+## Liste de scanner de site web 
+
+- Grabber
+- Vega
+- Zed Attack Proxy
+- Wapiti
+- W3af
+- WebScarab
+- Skipfish
+- Ratproxy
+- SQLMap
+- Wfuzz
+- Grendel-Scan
+- Watcher
+- X5S
+- Arachni
+- BurpSuite
+- Commix
+- Jexboss
+- DBeaver
+- SQL ninja
