@@ -164,7 +164,7 @@ Les failles XSS se produisent chaque fois qu'une application inclut des données
 
 Une vulnérabilité de type “insecure deserialisation” permet à un utilisateur malveillant d'accéder et de modifier les fonctionnalités de l’application ciblée.
 
-9. [Utilisation de composants présentant des vulnérabilités connues - A09:2017 - Using Components with Known Vulnerability](https://crashtest-security.com/using-components-with-known-vulnerabilities/)
+9. [Utilisation de composants présentant des vulnérabilités connues - A09:2017 - Using Components with Known Vulnerability](./owasp/ComponentsKnowVulnerability.md)
 
 Même si votre application est sécurisée, vous devez vous assurer que le framework, les bibliothèques, les appels API et la plateforme que vous utilisez ne sont pas vulnérables.
 
