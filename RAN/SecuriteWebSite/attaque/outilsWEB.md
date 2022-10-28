@@ -88,3 +88,7 @@ Bien qu’il existe des distributions de pentesting plus légers, ils présenten
 - Jexboss
 - DBeaver
 - SQL ninja
+- XssPy
+- Nikto
+- Golismero
+- OWASP Xenotix XSS

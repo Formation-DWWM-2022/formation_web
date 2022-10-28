@@ -144,33 +144,33 @@ Beaucoup d'applications exigent qu'un utilisateur se connecte pour arriver sur d
 
 Les données stockées ou échangées via une application doivent être protégées pour éviter l’interception par une personne malveillante. Les bases de données qui enregistrent les données personnelles, les données de cartes de crédit, les noms d'utilisateur et les mots de passe représentent une cible de choix pour un pirate. Si ces données ne sont pas chiffrées, elles ne sont pas sécurisées et peuvent être récupérées lorsqu’elles sont en transit par exemple. L'utilisation de techniques de chiffrement et de pratiques de sécurité peut atténuer ce type d’attaques.
 
-4. Entités externes XML (XXE) - A04:2017 - XML External Entities (XXE)
+4. [Entités externes XML (XXE) - A04:2017 - XML External Entities (XXE)](https://www.youtube.com/watch?v=W7-hIfAgfNM)
 
 Le format XML permet de faciliter l’échange de données sous forme d'arborescence. Il est largement utilisé sur Internet. Il peut être exploité via l’injection XXE ou XML External Entity. XML External Entity est une attaque contre les applications qui parsent des entrées XML (exemple flux RSS). Cette attaque a lieu lorsque l'analyseur XML est mal configuré et contient une référence à une entité externe.
 
-5. Contournement du contrôle d’accès - A05:2017 - Broken Access Contr
+5. [Contournement du contrôle d’accès - A05:2017 - Broken Access Control](https://www.youtube.com/watch?v=aVlBaxikKOQ&t=20s)
 
 Cette attaque vise les fonctionnalités des applications web qui nécessitent un contrôle d'accès. Dans ce cas, les pirates peuvent utiliser l'URL pour contourner l'authentification, par exemple. Ce type d’exploitation peut par exemple révéler comment une base de données est organisée.
 
-6. Security Misconfiguration - A06:2017 - Security Misconfiguration
+6. [Security Misconfiguration - A06:2017 - Security Misconfiguration](https://www.youtube.com/watch?v=4ZoHIur0rrc)
 
 Une mauvaise configuration de sécurité est le plus souvent observée dans les en-têtes HTTP qui permettent de donner des indications sur la configuration du serveur, ou via la gestion des exceptions par défaut. Les codes d'erreur et les exceptions courantes peuvent donner à un attaquant un aperçu de l'application.
 
-7. Cross-Site Scripting  (XSS) - A07:2017 - Cross-Site Scripting (XSS)
+7. [Cross-Site Scripting  (XSS) - A07:2017 - Cross-Site Scripting (XSS)](https://www.youtube.com/watch?v=ZHvwVsoQx3o)
 
 Les failles XSS se produisent chaque fois qu'une application inclut des données non fiables dans une nouvelle page web sans validation ou échappement. Les failles XSS permettent aux attaquants d'exécuter des scripts dans le navigateur de la victime, ce qui peut détourner des sessions utilisateur, altérer des sites web ou rediriger l'utilisateur vers un site malveillant.
 
-8. Désérialisation non sécurisée (Insecure Deserialisation) - A08:2017 - [Insecure Deserialization](https://crashtest-security.com/insecure-deserialization/)
+8. [Désérialisation non sécurisée (Insecure Deserialisation) - A08:2017 - Insecure Deserialization](https://crashtest-security.com/insecure-deserialization/)
 
 Une vulnérabilité de type “insecure deserialisation” permet à un utilisateur malveillant d'accéder et de modifier les fonctionnalités de l’application ciblée.
 
-9. Utilisation de composants présentant des vulnérabilités connues - A09:2017 - [Using Components with Known Vulnerability](https://crashtest-security.com/using-components-with-known-vulnerabilities/)
+9. [Utilisation de composants présentant des vulnérabilités connues - A09:2017 - Using Components with Known Vulnerability](https://crashtest-security.com/using-components-with-known-vulnerabilities/)
 
 Même si votre application est sécurisée, vous devez vous assurer que le framework, les bibliothèques, les appels API et la plateforme que vous utilisez ne sont pas vulnérables.
 
 Lorsqu'une nouvelle vulnérabilité est découverte, un correctif est généralement proposé. Il faudra alors l’appliquer pour garantir la sécurité de l’application.
 
-10. [Manque de surveillance et de monitoring - A010:2017 - Insufficient Logging & Monitoring](https://crashtest-security.com/insufficient-logging-monitoring-guide/)
+10. [Manque de surveillance et de monitoring - A010:2017 - Insufficient Logging & Monitoring](./owasp/InsufficientLogging&Monitoring.md)
 
 Pour garantir la sécurité d’une application, il est nécessaire de surveiller et de monitorer les connexions. De nombreux serveurs vulnérables servent de rebond aux attaquants. La mise en place de monitoring permettra de détecter une anomalie sur le serveur.
 
@@ -244,12 +244,12 @@ Rappelez-vous que 80 % des applications présentent des vulnérabilités commune
 
 Autre attaque possible :
 
-- Faille upload
-- Click jacking
-- Cookie poisoning
-- CSRF
-- Dos
-- TLS Session Resumption
+- Faille upload : <https://www.youtube.com/watch?v=rPdn88pO7x0> - <https://www.youtube.com/watch?v=dRYy6gJBmyM>
+- Click jacking : <https://youtu.be/_tz0O5-cndE> - <https://www.youtube.com/watch?v=Pdc5KJfOQpI>
+- Cookie poisoning : <https://www.youtube.com/watch?v=QE7gNcICAek>
+- CSRF : <https://www.youtube.com/watch?v=X7SPRJaPL9c>
+- Dos : <https://www.youtube.com/watch?v=Sw-nvtZixFw>
+- TLS Session Resumption : <https://www.youtube.com/watch?v=1V8Gp9zHQjM>
 - Certificate Revocation
 - Trusted Certificates
 - HSTS

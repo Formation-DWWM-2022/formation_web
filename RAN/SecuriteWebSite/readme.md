@@ -245,7 +245,7 @@ La peine encourue est 6 mois à 7 ans d’emprisonnement et 30 000€ à 750 000
 - [TP - Hacking](./Attaque/tp-hacking.md)
 - [Qu’est-ce que le téléchargement de fichiers torrent ? Comment cela fonctionne-t-il ?](./Attaque/torrent.md)
 - [Shodan](https://youtu.be/lwSrR21syBk) n'est certes pas tout jeune sur le Web, créé en 2009 par John Matherly, Shodan scanne en permanence l'ensemble des systèmes connectés sur Internet (serveurs, box internet, routeurs ...) et catalogue l'ensemble des services exposés par ces systèmes dans son moteur de recherche : serveur Web, SSH, RTSP .. etc.
-- [Identifiez les risques de sécurité pour une entreprise](./Attaque/owasp.md) <!-- pas finis -->
+- [Identifiez les risques de sécurité pour une entreprise](./Attaque/owasp.md)
 - [Juice Shop – Une boutique en ligne trouée pour s’exercer au ethical hacking](./Attaque/juiceshop.md)
 - [Outils de piratage recommandés contre un site web](./Attaque/outilsWEB.md)
 

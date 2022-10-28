@@ -69,9 +69,10 @@ Enfin, chaque défi indique s’il est actuellement non résolu ou résolu. La p
 
 Si ce n’est pas délibérément désactivé (voir Personnalisation), vous pouvez passer le curseur sur chaque étiquette non résolue pour voir un indice pour ce défi. Si une icône "livre" est également affichée dans l’étiquette, vous pouvez cliquer dessus pour être redirigé vers la section d’indices correspondante.
 
+## [Solution](./owasp/solutionJuice.md)
+
 <!--
 Solution : 
 - https://pwning.owasp-juice.shop/appendix/solutions.html
 - https://curiositykillscolby.com/
-- https://curiositykillscolby.com/2020/10/29/pwning-owasps-juice-shop-pt-1-security-policy/
 -->
