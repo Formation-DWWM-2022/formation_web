@@ -94,4 +94,9 @@ https://www.schoolmouv.fr/cours/internet-le-reseau-des-reseaux/fiche-de-cours
 
 Défis :
 - Coder sans voir le résultat
--->
+
+- WSL et Linux
+- Powershell vs CMD
+- Docker
+- Cloud Computing [lass , pass , sass]
+- IA

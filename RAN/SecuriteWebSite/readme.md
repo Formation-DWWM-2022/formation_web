@@ -278,14 +278,6 @@ La peine encourue est 6 mois à 7 ans d’emprisonnement et 30 000€ à 750 000
 - [Kali Linux : pourquoi cet outil Linux est-il connu des pirates informatiques ?](../KaliLinux/readme.md)
 - [Machine virtuel, virtualisation et VirtualBox](../VM&VirtualBox/readme.md)
 
-<!--
-- WSL et Linux
-- Powershell vs CMD
-- Docker
-- Cloud Computing [lass , pass , sass]
-- Metaverse / Bitcoin / NFT
--->
-
 ## Protection
 
 <!--
@@ -307,6 +299,7 @@ https://youtu.be/RBK0wmREvkY?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 - HTTPS
 - Porte carte bancaire [NFC]
 - Bluetooth
+- Symfony
 
 - Wifi :
 - https://www.cnetfrance.fr/produits/box-wifi-securite-39707618-vpn-wps-et-autres-mesures_7.htm

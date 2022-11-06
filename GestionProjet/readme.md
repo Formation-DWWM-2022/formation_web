@@ -1,4 +1,3 @@
-# Désoler pour les fautes de grammaire et d'orthographe de ce cours/TP
 
 <!--
 https://github.com/Alexandre-Loretzin/agile-dev
@@ -12,12 +11,12 @@ https://github.com/Alexandre-Loretzin/agile-dev
 
 ## Création de groupe (par 2)
 
-- Groupe 1 : Amandine / Laetitia
-- Groupe 2 : Bruno / Franck
-- Groupe 3 : David / Maxime
-- Groupe 4 : Baptiste / François
-- Groupe 5 : Ousmane / Alexis
-- Groupe 6 : Lucas / Olivier
+- Groupe 1 :
+- Groupe 2 :
+- Groupe 3 :
+- Groupe 4 :
+- Groupe 5 :
+- Groupe 6 :
 
 ## TP N°0
 
@@ -159,7 +158,7 @@ https://github.com/Alexandre-Loretzin/agile-dev
 
 ---
 
-# Jeux de role = J2 - 13 / 04 / 2022 ET J3 - ET 14 / 04 / 2022 ET J4 - 15 / 04 / 2022 ET J5 - 20 / 04 / 2022
+# Jeux de role
 
 # Objectif Gestion de projet + Maquettage (Jeux de role)
 
@@ -172,12 +171,12 @@ https://github.com/Alexandre-Loretzin/agile-dev
 ## Entreprise porteur du projet (En équipe de 2)
 
 - Voir cahier des charges en fonction de chaque theme
-  - Groupe 1 (Miel) : Amandine Laetitia - 10k
-  - Groupe 2 (Spa) : Francois Baptiste - 20k à 17k
-  - Groupe 3 (Fleuriste) : Maxime David - 15k500
-  - Groupe 4 (Mécanique) : Lucas Olivier - 6k
-  - Groupe 5 (Sushi) : Alexis Ousmane - 15k
-  - Groupe 6 (Bière) : Bruno Franck - 20k à 14k
+  - Groupe 1 (Miel) :  - 10k
+  - Groupe 2 (Spa) :  - 20k à 17k
+  - Groupe 3 (Fleuriste) :  - 15k500
+  - Groupe 4 (Mécanique) :  - 6k
+  - Groupe 5 (Sushi) :  - 15k
+  - Groupe 6 (Bière) :  - 20k à 14k
 
 ## Planning de jeux de role
 

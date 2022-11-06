@@ -3,6 +3,7 @@
 Quand on décide de créer un site internet pour son entreprise, il est important d’adopter une bonne démarche initiale en se posant les bonnes questions. Avant le début du développement du site web, il y a toute une phase de préparation, de la définition du besoin au choix de la solution technique ou du prestataire, qui est capitale. Durant cette phase de préparation, les questions sont nombreuses, et elles dépassent souvent le cadre du site web. Sans une démarche de travail efficace, la préparation de la création du site internet peut durer trop longtemps ou négliger certaines facettes du projet.
 
 # Histoire & définition de la gestion de projet web
+
 Pour certains, la gestion de projet est une « discipline » récente. En réalité, c’est une activité qui remonte très loin, quasiment à la nuit des temps. Les Égyptiens n’auraient jamais construit leurs pyramides, ni les Chinois leur Grande Muraille, ni les Romains leurs aqueducs sans compétences en gestion de projet. Evidemment, le terme (Project Management en anglais) n’était pas employé, mais comme souvent la réalité préexiste au nom. Toutes ces constructions antiques n’ont pas été réalisées au hasard, sans plans, sans emplois du temps, sans équipes, sans budget et sans tous les éléments que l’on associe aujourd’hui à la gestion de projet.
 
 La discipline appelée « Project Management » n’a été standardisée que dans les années 1950. A cette époque, beaucoup d’entreprises avaient structuré leur process de management et de production. Le diagramme de Gantt, qui permet de représenter visuellement l’avancement d’un projet, était déjà en usage. La Méthode du Chemin Critique, qui permet de planifier les étapes d’un projet et de prioriser les chantiers, a été développé en 1957. Au-delà de ces méthodes types, beaucoup de personnes impliquées dans la gestion de projet utilisaient leurs propres méthodes de Project Management. Les choses ont changé avec la publication de l’ouvrage de référence « A Guide to the Project Management Body of Knowledge », publié par le Project Management Institute (PMI) et certifié par l’American National Standards Institute (ANSI) en 1998, qui a contribué à standardiser les méthodes de gestion de projet.
@@ -12,13 +13,14 @@ Ces dernières années ont également été une période de gros changements dan
 C’est aussi à cette époque que voient le jour de nouvelles méthodologies et de nouveaux standards qui mettent en avant le rôle de l’équipe et du travail collaboratif dans la réussite d’un projet. En 2016, il ne suffit plus de démontrer ses compétences techniques pour obtenir une certification officielle de chef de projet. Des compétences plus larges, extra-techniques en quelque sorte, sont exigées : en stratégie, en gestion de la relation clients, en leadership (coaching, intelligence émotionnelle…). Le chef de projet d’aujourd’hui n’est plus un pur technicien, mais doit être l’équivalent d’un mini-CEO, disposant de compétences techniques et stratégiques ainsi qu’une vue d’ensemble du projet.
 
 # Le rôle du chef de projet web
+
 Un chef de projet, comme son nom l’indique, est la personne qui, au sein d’une organisation, est en charge de la conception et de l’exécution d’un projet spécifique ou de plusieurs projets. Plus précisément, le chef de projet a en charge : la planification, la budgétisation, le pilotage et le reporting d’un projet. D’ailleurs, pendant qu’on y est, il n’est pas inutile de rappeler en deux mots ce qu’est un projet. Un projet c’est un process qui a un début et une fin et qui aboutit à une réalisation concrète (un produit, un service…). Le chef de projet est la personne qui supervise le process de production.
 
 Dans certains cas, c’est aussi lui qui est chargé de pitcher le projet devant la direction. Dans d’autres cas, le projet est déjà approuvé quand on le lui confie. Le chef de projet fait le point entre la direction et les équipes qui seront chargées d’exécuter le projet. Le rôle du chef de projet est de s’assurer que tout se déroule comme prévu, que le périmètre est respecté, que les reportings sont réalisés régulièrement, que le planning et le budget sont respectés.
 
 Potentiellement, le chef de projet peut provenir aussi bien du marketing, de l’IT, des ressources humaines, de la publicité, etc. Il y a autant de profils qu’il y a de types de projets. C’est la raison pour laquelle il n’existe pas de fiche de poste type du chef de projet et de formation universitaire standard. Certains chefs de projet n’ont d’ailleurs suivi ni cursus dans le supérieur ni formation certificatoire.
 
-Voici une synthèse des différents rôles du chef de projet (web ou non) 
+Voici une synthèse des différents rôles du chef de projet (web ou non)
 
     - Identifier les ressources nécessaires. L’un des premiers rôles du chef de projet, en début de mission, est d’identifier les ressources qui seront nécessaires à la bonne exécution du projet et à l’atteinte des objectifs. Par ressources, il faut entendre aussi bien les ressources financières que les ressources humaines (compétences / talents nécessaires) et techniques (outils…). Cela suppose une parfaite compréhension du projet.
 
@@ -31,7 +33,7 @@ Voici une synthèse des différents rôles du chef de projet (web ou non)
     - Satisfaire les parties prenantes. L’objectif du chef de projet est de livrer aux parties prenantes (les maîtres d’ouvrage : la direction, les investisseurs, le client) une réalisation conforme à leurs attentes (ou les dépassant) et de s’assurer de leur satisfaction. Pour cela, le chef de projet ne doit pas s’isoler et foncer tête baissée dans le projet. Il doit être en communication permanente avec les parties prenantes, leur faire part des avancées du projet, les tenir au courant des obstacles rencontrés, être à l’écoute de leurs feedbacks. 
 
     - Gérer les problèmes et les risques. La réalisation d’un projet (web ou autre) n’est jamais un long fleuve tranquille. Des problèmes, des imprévus, des obstacles surgissent dans tout projet. Ce qui fait la qualité d’un chef de projet, c’est en bonne partie sa capacité à résoudre rapidement les obstacles quand ils se présentent. Elle réside aussi dans sa capacité à gérer les risques, c’est-à-dire à anticiper les problèmes et à tout mettre en oeuvre pour éviter qu’ils n’adviennent.
-    
+
 # Les principales méthodologies en gestion de projet web
 
 Il n’existe pas une seule et unique méthode de gestion de projet, loin de là. Un grand nombre de méthodologies en gestion de projet web se sont développées au fil du temps. Je vais donc vous présenter les principales approches – certaines sont très anciennes, d’autres beaucoup plus récentes.
@@ -72,7 +74,8 @@ Toutes ces méthodologies s’appliquent à la gestion de projet en général, m
 Vous pourrez donc trouver de nombreuses méthodologie de projet web en fonction de l'entreprise, du type de projet, voire des préférences des gestionnaires de projet, mais dans l'absolu, le cycle de méthodologie projet reste assez stable.
 
 # Qu'est-ce que ma gestion de projet web ?
-La gestion de projet web est une méthodologie continue pour mettre en oeuvre un site internet. Il y a plusieurs volets clés dans la conduite de projet pour assurer le respect de la qualité, des délais et du budget. La création d’un site ou la refonte d’un ancien site est une mission qui dure plusieurs mois et qui nécessite plusieurs étapes. D’abord en amont grâce à une réflexion aboutie et ensuite en aval par sa mise en ligne. Nous allons ici vous montrer quelles sont les étapes indispensables lors de la création et la gestion de votre projet internet. 
+
+La gestion de projet web est une méthodologie continue pour mettre en oeuvre un site internet. Il y a plusieurs volets clés dans la conduite de projet pour assurer le respect de la qualité, des délais et du budget. La création d’un site ou la refonte d’un ancien site est une mission qui dure plusieurs mois et qui nécessite plusieurs étapes. D’abord en amont grâce à une réflexion aboutie et ensuite en aval par sa mise en ligne. Nous allons ici vous montrer quelles sont les étapes indispensables lors de la création et la gestion de votre projet internet.
 
     Une démarche structurée qui tient compte de l'idée du client
     Une gestion de projet opérationnelle
@@ -89,12 +92,14 @@ Les livrables peuvent être plus ou moins nombreux et leur production dépend du
 ---
 
 # Etape 1 : (Avant-pojet et besoin / Préparer la création de votre site internet / Évaluer le budget pour créer votre site internet)
+
 Les points que nous allons évoquer en premier concernent principalement les projets numériques de taille critique (plusieurs centaines de milliers d'euros de production, nombreuses équipes impliquées dans la mise en oeuvre, enjeux économiques très importants).
 Les équipes projets, sous l'impulsion du porteur de projet principal, peuvent être amenées à travailler sur la faisabilité du projet à travers différents indicateurs : faisabilité économique, technique, fonctionnelle.
 On parle d'étude de faisabilité. L'étude de faisabilité sous-tend le dimensionnement du projet, sa réalisation voire son abandon. C'est une des toutes premières étapes du projet digital. Si les indicateurs de l'étude de faisabilité sont au vert, le projet sera lancé.
 Dans les projets informatiques importants, l'usage est de procéder à la rédaction d'un cahier des charges.
 
 ## La phase d’analyse ou la prise de brief
+
 La phase d’analyse projet est l'étape qui précède la mise en place d'une méthodologie projet. C'est l'idée, la source, les individus créateurs du projet et tous les éléments qui vont déclencher le projet. A ce stade, les porteurs de projet s'appuient sur leur intuition et d'éventuelles études de marché, voire des études de faisabilité. C'est l'étape du projet dans laquelle on va rassembler toutes les informations nécessaires à la conception du dispositif numérique. Elle s'articule principalement autour de l'analyse des besoins et débouche sur la rédaction d'une note de cadrage présentant les enjeux du projet, ses objectifs, ainsi que les besoins auxquels il devra répondre.
 
 Quel que soit la configuration du projet, l'essentiel de la phase d'avant-projet réside dans ce que l'on appelle l'analyse du besoin. L'analyse d'une besoin est une intervention qui rassemble le recueil des besoins métiers (côté émetteur) ainsi que le recueil des besoins utilisateurs (côté usagers).
@@ -109,18 +114,21 @@ Il faut donc construire une prise de brief autour de plusieurs points :
     - Ordonner besoins les fonctionnalités importances et les contraintes technique
     - Quel objectif pour quel type de site internet ?
 
-## Cahier des charges (site ecommerce - refonte - basique):
+## Cahier des charges (site ecommerce - refonte - basique)
+
 Cette étape est incontournable et obligatoire. Le cahier des charges est le document de référence pour l’intégralité du projet. Il permet de structurer l’aspect technique, de détailler ses tenants et aboutissants, de définir l’expression du besoin et les contraintes techniques.
 Au-delà du fait qu’il est indispensable, si vous souhaitez demander des devis à plusieurs prestataires, le cahier des charges vous permet de noter votre besoin de manière claire et d’avoir ainsi un comparatif précis. C’est la pierre angulaire d’un projet de création de site internet. C'est un travail relativement important qui couvre de nombreuses thématiques (stratégie digitale, dimension économique, marketing, technique, fonctionnelle, graphique, méthodologique). Le cahier des charges évoque notamment les exigences en matière de coûts, de qualité et de délais.
 
 Il faut découper son projet en plusieurs prestations :
+
 - Conception des maquettes
-- Intégration 
+- Intégration
 - Développement du site
-- Maintenance 
+- Maintenance
 - Accompagnement WebMarketing
 
 Si le site doit vendre des produits, il faut penser au catalogue de produits
+
 - Définir des catégories de produits
 - Organiser la recherche de produits sur votre site
 - Détailler le rôle des fiches produits
@@ -131,14 +139,15 @@ Si le site doit vendre des produits, il faut penser au catalogue de produits
 - Mise à jour du contenu sur votre site
 - Interface & synchronisation avec des outils tiers
 
-AIDE : https://www.lafabriquedunet.fr/thematique/cahier-charges-site-web/
-AID : https://www.lafabriquedunet.fr/conseils/preparer-projet-web/rediger-brief-creation-site-internet/
+AIDE : <https://www.lafabriquedunet.fr/thematique/cahier-charges-site-web/>
+AID : <https://www.lafabriquedunet.fr/conseils/preparer-projet-web/rediger-brief-creation-site-internet/>
 
-## Chiffrage de projet (Budget) :
+## Chiffrage de projet (Budget)
+
 L'analyse fonctionnelle et ou le cahier des charges contribuent à affiner la vision du projet. Ce sont des bases solides pour établir le chiffrage du projet. Bien sûr, il n'est pas indispensable d'être équipé d'un arsenal de documentation pour évaluer les coûts d'un projet. Néanmoins, il est toujours plus simple d'établir le budget de quelque chose que l'on arrive à conceptualiser... Comme dit le Docteur Ergo : un objet conçu est un objet perçu... Ceci vaut même pour des petits projets.
 
 - Combien coûte la création d’un site internet ?
-- Créer un site WordPress en 2022: combien ça coûte ? 
+- Créer un site WordPress en 2022: combien ça coûte ?
 - Combien coûte la création d’un site internet avec un logiciels de création de sites web (WordPress.com vs Weebly vs GoDaddy vs Strikingly vs Jimdo vs SITE123 vs Wix vs SimpleSite vs Squarespace vs Duda) --> Quels sont les risques ?
 
 - Combien ça coûte vraiment l’hébergement d’un site web ?
@@ -149,12 +158,13 @@ L'analyse fonctionnelle et ou le cahier des charges contribuent à affiner la vi
 - Combien coûte la traduction d'un site web ?
 
 - Tarifs des développeurs freelances dans les grandes villes de France ?
-- Tarifs des freelances web par compétences métier ? 
+- Tarifs des freelances web par compétences métier ?
 - Tarifs des freelances web par langege de programmation ? (hopwork)
 - Tarifs des freelances web par pays ? (freelancer)
-- Freelance VS Agence web ? 
+- Freelance VS Agence web ?
 
 ## Comment faire un benchmark des sites web concurrents ?
+
 Un benchmark a pour but de comparer les performances des meilleures entreprises d’un même secteur d’activité. Réaliser régulièrement ce travail comparatif permet à la fois de positionner son entreprise par rapport à ses concurrents et de s’inspirer des bonnes pratiques.
 
 Dans le domaine digital, un benchmark est essentiel pour identifier quelles sont les stratégies webmarketing et les outils digitaux utilisés ainsi que de choisir les bonnes solutions pour créer un site internet professionnel et efficace.
@@ -163,6 +173,7 @@ Dans le domaine digital, un benchmark est essentiel pour identifier quelles sont
 
 Commencez votre benchmark en analysant les différents points sur lesquels vous avez encore des faiblesses. En clair, vous établissez le diagnostic de votre site internet ou votre entreprise à un instant donné.
 Vous pouvez piocher dans :
+
 - Les résultats tirés des analyses et statistiques liées à votre site internet
 - Les retours clients et les questions fréquemment posées à votre support
 
@@ -176,7 +187,7 @@ L’objectif principal d’une stratégie digitale efficace est d’être facile
 
 Il est important de se renseigner sur les performances des sites web concurrents pour pouvoir toujours être à jour et suivre la tendance. Cependant, il ne s’agit pas de copier tout ce que font vos concurrents bien évidemment ! Le tout est de s’inspirer des tendances du moment et suivre les performances des sites internet.
 
-En fonction de votre audience, vous ne ferez pas la même chose que vos concurrents. Votre manière de faire doit être guidée en fonction de vos clients et non de vos concurrents. 
+En fonction de votre audience, vous ne ferez pas la même chose que vos concurrents. Votre manière de faire doit être guidée en fonction de vos clients et non de vos concurrents.
 
 Il est nécessaire de garder à jour son benchmarking afin d’optimiser son site. Le monde d’internet change très souvent et évolue à une vitesse folle. Il n’est donc pas rare que les sites internet changent très régulièrement ainsi il faut constamment rester à la page de ce qu’il se fait sur internet.
 
@@ -196,7 +207,7 @@ Les mots-clés sont un élément essentiel. Ce sont les mots les plus tapés dan
 
 Pour trouver facilement des mots-clés qui fonctionnent bien, vous pouvez regarder ceux qui sont souvent utilisés par vos concurrents. Mais comment les trouver ? Eh bien il existe plusieurs outils pour les trouver facilement, tel que Semrush par exemple.
 
-Vos concurrents utilisent-ils les réseaux sociaux pour attirer de nouveaux clients et fidéliser leur communauté ? 
+Vos concurrents utilisent-ils les réseaux sociaux pour attirer de nouveaux clients et fidéliser leur communauté ?
 
 Les données récoltées sur les réseaux sociaux est précieuse pour évaluer les informations qui sont valorisées par votre audience cible. Elles peuvent vous donner des indications objectives pour améliorer votre stratégie de création et diffusion de contenus.
 Surveiller les réseaux sociaux peut également vous permettre de repérer de potentiels clients, ou même tendances sur votre secteur. Vous pouvez également vous abonner aux influenceurs présents dans votre secteur. Ils sont un canal de diffusion très efficace en ce moment !
@@ -210,7 +221,8 @@ La dernière étape de votre benchmark consiste et évaluer de manière objectiv
 - Quelles sont les pages existantes et leur contenu (présentation de l’équipe, page contact, etc.)
 - Les outils de conversion utilisés (formulaire de contact, newsletter, liens de partage, commentaires, etc.)
 
-Pour tester un site web gratuitement, vous pouvez utiliser le Mobile Tester d’Orson.io, qui vous permettra: 
+Pour tester un site web gratuitement, vous pouvez utiliser le Mobile Tester d’Orson.io, qui vous permettra:
+
 - De déterminer si le site est responsive ou non
 - Quel est le temps de chargement du site
 - Mesurer la bonne dimension du titre et de la description du site
@@ -228,6 +240,7 @@ Comment réussir le benchmark des sites concurrents ?
 De même, sans phase d'avant-projet, il ne sera pas possible de considérer le projet sous l'angle des objectifs de qualités, de coût et de délais. On ne pourra donc pas cadenasser les risques. Or la gestion des risques projet est un enjeu majeur de la gestion de projet, et elle suppose une bonne visualisation des coûts du projet, des délais de mise en oeuvre et de la qualité escomptée au regard des moyens à disposition...
 
 ---
+
 # Etape 2 : Devis
 
 Lorsque vous avez rédigé le cahier des charges, vous pouvez le transmettre à l’agence digitale retenue. Il faut généralement compter une à deux semaines pour que l’agence web puisse s’imprégner du cahier des charges et vous faire un premier retour. Elle rédige ensuite le dossier technique. Ce dossier transpose vos demandes en données plus « techniques », plus opérationnelles. Il s’agit, en fait, d’une liste de fonctionnalités proposées par l’agence digitale, comme le choix du CMS utilisé, le nombre de gabarits, une proposition d’arborescence,  les modules utilisés. De même, le dossier technique précise la réglementation RGPD, les formulaires, le référencement, etc.
@@ -239,6 +252,7 @@ L’agence digitale envoie ensuite à son client le cahier technique, accompagn�
     Contenu d’un devis de création de site internet : https://www.lafabriquedunet.fr/blog/evaluer-devis-creation-site-internet/ 
 
 # Etape 3 : Conception centrée sur l'utilisateur [UCD] (Pilotage stratégique - La phase de conception)
+
 La phase d'avant-projet vise à rassembler l'information nécessaire à la mise en oeuvre du projet. Une réunion dite de kick-off marque le lancement du projet.
 La première étape revient à cadrer le projet : on parle de cadrage fonctionnel. Le cadrage fonctionnel vise à déterminer l'envergure éditoriale et fonctionnelle du projet. Ce travail est réalisé à travers un ensemble de réunions chez le commanditaire. Pour les projets ecommerce, qui présentent un périmètre spécifique, on aura recours au cadrage de projet ecommerce. Il s'agira de travailler sur l'offre de produits et de services, les réseaux de distribution, la logistique... bref, tout un ensemble de paramètres qui dépassent les problématiques de façonnage au sens strict.
 
@@ -277,15 +291,17 @@ Avant le démarrage du développement du site, il est important de valider un ce
 La phase de conception s'articule autour de la conception fonctionnelle, la conception éditoriale, ainsi que la conception graphique. La conception est une phase de recherche dans laquelle tous les concepteurs cherchent à trouver des solutions de conception.
 Ces solutions de conception se matérialisent par des principes d'arborescence sur le plan éditorial, le maquettage de quelques écrans clés au travers des wireframes pour la conception fonctionnelle, et l'esquisse d'une ligne graphique désignée par le directeur artistique. A ce stade, on fixe les éléments structurants du dispositif digital et il n'est pas encore question de produire du code.
 
-Les méthodes UX présupposent un cadre dans lequel l'expérience utilisateur est prise en compte à chacune des étapes du projet. La méthode de design d'expérience utilisateur suppose un cycle de conception centrée sur les utilisateurs finaux. 
+Les méthodes UX présupposent un cadre dans lequel l'expérience utilisateur est prise en compte à chacune des étapes du projet. La méthode de design d'expérience utilisateur suppose un cycle de conception centrée sur les utilisateurs finaux.
 
 L'identification des scénarios d'utilisation critiques et création de fiches persona pour les profils d'utilisateurs les plus importants. Les solutions de conception sont testées et évaluées avec des usagers représentatifs de l'audience du dispositif digital (test de perception). Ainsi, définir son cœur de cible a l’air évident mais par expérience, nous avons constaté qu’elle ne l’ai pas toujours pour tous nos clients qui ont parfois des difficultés à décrire précisément les caractéristiques de leur cible. Commençons donc par définir un groupe cible. Découvrez à qui et pour qui vous allez vendre vos produits. Quel est leur âge ? Sont-ils des hommes ou des femmes ? De quelle CSP sont-ils ? Sont-ils clients de longue date ou novice avec votre produit ? Si votre groupe cible s'avère être tout sauf homogène, vous pouvez envisager de les catégoriser. Par exemple, si vous ciblez principalement des hommes, ils peuvent être divisés en experts et profanes. Créer des personas nécessite une certaine pratique ou au moins une bonne base théorique. Les personas aident à mieux saisir le cœur de cible. Il est possible d’avoir déjà défini des utilisateurs cibles comme des hommes d'âge moyen avec beaucoup ou peu d'expérience préalable. Mais ce n'est pas assez pour une démarche UCD. Pour réellement créer une conception centrée sur les futurs utilisateurs, il est important d’apprendre à les connaître « en personne ». Cela peut paraître idiot, mais cela vaut la peine d’essayer. Concevoir pour Paul, 32 ans, qui ne peut pas attendre la sortie de produits innovants avec des nouvelles fonctionnalités, nécessite une approche complètement différente de la conception pour Jeanne, 39 ans, qui préfère ne pas être impliqué avec les aspects mais le doit pour professionnel. S’inspirer de la vie via une liste de caractéristiques utilisateurs vous rendra la tâche plus simple pour concevoir pour votre cœur de cible. Essayez de définir les personas de manière aussi détaillée que possible, mais n’incluez que les informations pertinentes en tant qu'utilisateur. Par exemple, n'hésitez pas à mentionner si votre client aime le sport et quel sport, si l'activité physique est en quelque sorte pertinente pour votre produit. Vous pouvez également utiliser des caractéristiques plus indirectes comme les voyages, la mode, le bricolage… Alors que les scénarios d'utilisation décrivent la situation globale dans laquelle les utilisateurs interagissent avec votre produit, des cas d'utilisation décrivent des actions plus spécifiques. Habituellement, un cas d'utilisation peut être divisé en tâches simples que l'utilisateur doit remplir pour atteindre un objectif défini. Ces tâches peuvent être aussi précises que (1) cliquez sur un bouton de menu, (2) sélectionnez l'un des éléments du menu déroulant, et (3) cliquez sur l'élément sélectionné.
 
 S’en suit ensuite une phase d’aller-retours. A l’Agence digitale, les aller-retours sont illimités jusqu’à entière satisfaction du client.
 
 ---
+
 # Etape 4 : Le développement / production
-La production s'appuie sur la phase de conception et la validation des principes structurants du dispositif digital pour lancer la réalisation complète du projet. En matière éditorial, il s'agira d'écrire les contenus. La production graphique aura pour objectif de décliner tous les écrans de la ligne graphique (Prototypage). Le développement front-end et l'intégration sont réalisés sur la base des maquettes graphiques et en suivant le tracé régulateur fixé par les wireframes. Un projet numérique implique forcément une phase de programmation. Les développements informatiques peuvent faire l'objet d'une phase spécifique en fonction de la charge de travail. Les développements informatiques constituent une partie de la production. 
+
+La production s'appuie sur la phase de conception et la validation des principes structurants du dispositif digital pour lancer la réalisation complète du projet. En matière éditorial, il s'agira d'écrire les contenus. La production graphique aura pour objectif de décliner tous les écrans de la ligne graphique (Prototypage). Le développement front-end et l'intégration sont réalisés sur la base des maquettes graphiques et en suivant le tracé régulateur fixé par les wireframes. Un projet numérique implique forcément une phase de programmation. Les développements informatiques peuvent faire l'objet d'une phase spécifique en fonction de la charge de travail. Les développements informatiques constituent une partie de la production.
 
 La gestion de projet générale suggère du pilotage stratégique, et sa mise en oeuvre opérationnelle, du suivi. Le suivi de projet constitue donc la partie opérationnelle de la gestion de projet. Il est question de suivi du planning (délais), de suivi de production (qualité) et de suivi des consommations (budget).
 
@@ -303,9 +319,11 @@ Dès lors qu’une page webdesignée est validée par le client, celle-ci passe 
 Le temps de développement d’un site Internet varie considérablement en fonction de nombre et de la complexité des fonctionnalités retenues lors du dossier technique. Cependant, nous partons du principe qu’il faut 3 à 5 semaines pour un site vitrine et 5 à 8 semaines pour un site eCommerce.
 
 # Etape 5 : Le recettage & mise en ligne du site (Suivi opérationnel - Promouvoir votre site internet)
+
 La phase de recette consiste à tester le dispositif digital. On parle de débuggage. Corriger les problèmes techniques, ajuster les dysfonctionnements sur le plan du design, corriger les fautes d'orthographes et de grammaires. Par extension, la phase de test considère également un ensemble de tests techniques afin de valider la satisfaction du client et des utilisateurs.
 
 Le verrouillage du contenu et du code est nécessaire avant de lancer la phase de test du nouveau site web. Voici les éléments sur lesquels il est important de porter votre attention.
+
 - La vitesse du site (à savoir la durée nécessaire au chargement de chacune des pages) influe sur l'expérience utilisateur, sur le taux de conversion et même sur le classement dans les résultats de recherche depuis que Google a ajouté ce critère dans son algorithme de référencement en 2010. Des outils de test tels que Website Grader permettent de se faire une idée générale de la vitesse de chargement d'un site web.
 - Il est important de vérifier que toutes les images du site sont compressées afin d'accélérer la vitesse de chargement des pages. Veillez également à ce que les images contiennent du texte alternatif pour que les moteurs de recherche puissent les identifier et les indexer. Des outils tels que TinyPNG permettent de réduire la taille des fichiers. Vérifiez également que la qualité et la taille des images sont cohérentes.
 - Chaque page du site web doit inclure une balise titre et une méta-description uniques. Bien que tout le contenu du site doive être optimisé pour le SEO, les éléments sur lesquels il est essentiel de se concentrer sont les titres de page, les méta-descriptions, les titres des paragraphes, le corps du texte, le titre des images, leur texte alternatif, ainsi que les URL.
@@ -335,17 +353,19 @@ Maintenant que vous avez une meilleure idée des canaux que vous allez privilég
 Maintenant que vous savez quel budget vous allez allouer à chaque poste de dépense et qui dans votre équipe, sera responsable de chaque tâche, vous devez planifier ces actions dans le temps.
 
 # Etape 6 : La maintenance et l’optimisation post mise en ligne
+
 Le projet est mis en ligne et on procède aux premières analyses. La communication, l'animation et les techniques webmarketing seront à l'oeuvre pour dynamiser le dispositif, au lancement, et tout au long de la durée de vie du projet.
 
 En théorie, une fois mis en ligne, le nouveau site internet doit être parfait. En pratique, même les sites les mieux préparés nécessitent souvent quelques mises à jour. Plutôt que de passer un temps considérable à concevoir un site web qui n'aura peut-être pas l'effet escompté, il est préférable de commencer par en publier une version initiale stable et fiable, puis de l'améliorer au fur et à mesure. Créer un document répertoriant toutes les améliorations à apporter après le lancement vous permettra de les réaliser à mesure que vous découvrirez comment les visiteurs interagissent avec le site. Il faudra aussi continuer de réaliser une assistance technique en continu, la correction des anomalies et mettre à jour du CMS et des modules
 
 # Etape 7 : Le SEO (Search Engine Optimization)
+
 A cela s'ajoute les expertises transversales, telles que le SEO (search engine optimization) ainsi que les méthodologies d'évaluation de l'expérience utilisateur. Ces expertises métier sont à l'oeuvre à chaque étape...
 
 - Estimer le coût d’un campagne emailing
 - Améliorer votre référencement avec les réseaux sociaux
 - Choisir ses indicateurs clés de performance
-- https://www.lafabriquedunet.fr/blog/canaux-acquisition-trafic-web/
+- <https://www.lafabriquedunet.fr/blog/canaux-acquisition-trafic-web/>
 
 Une méthodologie projet bien orchestrée établit des objectifs clairs en matière de délais, de budget et de qualité. Ces 3 piliers sont les bases de la gestion de projet stratégique et opérationnelle.
 Une bonne gestion de projet est focalisée sur le dispositif digital et non sur la production de livrables. Les livrables restent des traces de la prestation et participent à faire avancer le projet pas à pas. Il faut toutefois éviter les projets centrés sur les livrables qui tendent à privilégier la documentation projet à l'avancement réel de la fabrication du site internet !
@@ -353,4 +373,5 @@ Une bonne gestion de projet est focalisée sur le dispositif digital et non sur 
 Une bonne gestion de projet prévoit un temps d'avant-projet pour poser les fondations et clarifier les besoins. La réalisation d'un planning détaillé est la pierre angulaire du projet. Des outils de suivi de production doivent permettre de visualiser l'avancement jour après jour. Les outils de pilotage et les réunions sont les techniques quotidiennes de coordination et de suivi. Pas besoin de réinventer la roue !
 
 ---
+
 # Jeux de role = J3 - 14 / 04 / 2022 ET J4 - 15 / 04 / 2022
