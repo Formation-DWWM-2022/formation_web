@@ -3,11 +3,9 @@
 https://github.com/Alexandre-Loretzin/agile-dev
 -->
 
-# COURS = J1 - 07 / 04 / 2022
-
 # Gestion de projet en général
 
-## -> Cours : Histoire & définition de la gestion de projet web <-
+## -> [Cours : Histoire & définition de la gestion de projet web](./cours.md) <-
 
 ## Création de groupe (par 2)
 
@@ -44,7 +42,7 @@ https://github.com/Alexandre-Loretzin/agile-dev
 
 # Ma vision de la gestion de projet
 
-## -> Cours : Qu'est-ce que ma gestion de projet web ? <-
+## -> [Cours : Qu'est-ce que ma gestion de projet web](./cours.md) ? <-
 
 # Etape 1
 

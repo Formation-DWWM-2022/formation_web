@@ -1,8 +1,8 @@
-# COURS = J1 - 07 / 04 / 2022 ET J2 - 13 / 04 / 2022
+# COURS
 
 Quand on décide de créer un site internet pour son entreprise, il est important d’adopter une bonne démarche initiale en se posant les bonnes questions. Avant le début du développement du site web, il y a toute une phase de préparation, de la définition du besoin au choix de la solution technique ou du prestataire, qui est capitale. Durant cette phase de préparation, les questions sont nombreuses, et elles dépassent souvent le cadre du site web. Sans une démarche de travail efficace, la préparation de la création du site internet peut durer trop longtemps ou négliger certaines facettes du projet.
 
-# Histoire & définition de la gestion de projet web
+## Histoire & définition de la gestion de projet web
 
 Pour certains, la gestion de projet est une « discipline » récente. En réalité, c’est une activité qui remonte très loin, quasiment à la nuit des temps. Les Égyptiens n’auraient jamais construit leurs pyramides, ni les Chinois leur Grande Muraille, ni les Romains leurs aqueducs sans compétences en gestion de projet. Evidemment, le terme (Project Management en anglais) n’était pas employé, mais comme souvent la réalité préexiste au nom. Toutes ces constructions antiques n’ont pas été réalisées au hasard, sans plans, sans emplois du temps, sans équipes, sans budget et sans tous les éléments que l’on associe aujourd’hui à la gestion de projet.
 
@@ -12,7 +12,7 @@ Ces dernières années ont également été une période de gros changements dan
 
 C’est aussi à cette époque que voient le jour de nouvelles méthodologies et de nouveaux standards qui mettent en avant le rôle de l’équipe et du travail collaboratif dans la réussite d’un projet. En 2016, il ne suffit plus de démontrer ses compétences techniques pour obtenir une certification officielle de chef de projet. Des compétences plus larges, extra-techniques en quelque sorte, sont exigées : en stratégie, en gestion de la relation clients, en leadership (coaching, intelligence émotionnelle…). Le chef de projet d’aujourd’hui n’est plus un pur technicien, mais doit être l’équivalent d’un mini-CEO, disposant de compétences techniques et stratégiques ainsi qu’une vue d’ensemble du projet.
 
-# Le rôle du chef de projet web
+## Le rôle du chef de projet web
 
 Un chef de projet, comme son nom l’indique, est la personne qui, au sein d’une organisation, est en charge de la conception et de l’exécution d’un projet spécifique ou de plusieurs projets. Plus précisément, le chef de projet a en charge : la planification, la budgétisation, le pilotage et le reporting d’un projet. D’ailleurs, pendant qu’on y est, il n’est pas inutile de rappeler en deux mots ce qu’est un projet. Un projet c’est un process qui a un début et une fin et qui aboutit à une réalisation concrète (un produit, un service…). Le chef de projet est la personne qui supervise le process de production.
 
@@ -34,7 +34,7 @@ Voici une synthèse des différents rôles du chef de projet (web ou non)
 
     - Gérer les problèmes et les risques. La réalisation d’un projet (web ou autre) n’est jamais un long fleuve tranquille. Des problèmes, des imprévus, des obstacles surgissent dans tout projet. Ce qui fait la qualité d’un chef de projet, c’est en bonne partie sa capacité à résoudre rapidement les obstacles quand ils se présentent. Elle réside aussi dans sa capacité à gérer les risques, c’est-à-dire à anticiper les problèmes et à tout mettre en oeuvre pour éviter qu’ils n’adviennent.
 
-# Les principales méthodologies en gestion de projet web
+## Les principales méthodologies en gestion de projet web
 
 Il n’existe pas une seule et unique méthode de gestion de projet, loin de là. Un grand nombre de méthodologies en gestion de projet web se sont développées au fil du temps. Je vais donc vous présenter les principales approches – certaines sont très anciennes, d’autres beaucoup plus récentes.
 
@@ -73,6 +73,8 @@ Toutes ces méthodologies s’appliquent à la gestion de projet en général, m
 
 Vous pourrez donc trouver de nombreuses méthodologie de projet web en fonction de l'entreprise, du type de projet, voire des préférences des gestionnaires de projet, mais dans l'absolu, le cycle de méthodologie projet reste assez stable.
 
+---
+
 # Qu'est-ce que ma gestion de projet web ?
 
 La gestion de projet web est une méthodologie continue pour mettre en oeuvre un site internet. Il y a plusieurs volets clés dans la conduite de projet pour assurer le respect de la qualité, des délais et du budget. La création d’un site ou la refonte d’un ancien site est une mission qui dure plusieurs mois et qui nécessite plusieurs étapes. D’abord en amont grâce à une réflexion aboutie et ensuite en aval par sa mise en ligne. Nous allons ici vous montrer quelles sont les étapes indispensables lors de la création et la gestion de votre projet internet.
@@ -91,7 +93,7 @@ Les livrables peuvent être plus ou moins nombreux et leur production dépend du
 
 ---
 
-# Etape 1 : (Avant-pojet et besoin / Préparer la création de votre site internet / Évaluer le budget pour créer votre site internet)
+## Etape 1 : (Avant-pojet et besoin / Préparer la création de votre site internet / Évaluer le budget pour créer votre site internet)
 
 Les points que nous allons évoquer en premier concernent principalement les projets numériques de taille critique (plusieurs centaines de milliers d'euros de production, nombreuses équipes impliquées dans la mise en oeuvre, enjeux économiques très importants).
 Les équipes projets, sous l'impulsion du porteur de projet principal, peuvent être amenées à travailler sur la faisabilité du projet à travers différents indicateurs : faisabilité économique, technique, fonctionnelle.
@@ -241,7 +243,7 @@ De même, sans phase d'avant-projet, il ne sera pas possible de considérer le p
 
 ---
 
-# Etape 2 : Devis
+## Etape 2 : Devis
 
 Lorsque vous avez rédigé le cahier des charges, vous pouvez le transmettre à l’agence digitale retenue. Il faut généralement compter une à deux semaines pour que l’agence web puisse s’imprégner du cahier des charges et vous faire un premier retour. Elle rédige ensuite le dossier technique. Ce dossier transpose vos demandes en données plus « techniques », plus opérationnelles. Il s’agit, en fait, d’une liste de fonctionnalités proposées par l’agence digitale, comme le choix du CMS utilisé, le nombre de gabarits, une proposition d’arborescence,  les modules utilisés. De même, le dossier technique précise la réglementation RGPD, les formulaires, le référencement, etc.
 
@@ -251,7 +253,7 @@ L’agence digitale envoie ensuite à son client le cahier technique, accompagn�
 
     Contenu d’un devis de création de site internet : https://www.lafabriquedunet.fr/blog/evaluer-devis-creation-site-internet/ 
 
-# Etape 3 : Conception centrée sur l'utilisateur [UCD] (Pilotage stratégique - La phase de conception)
+## Etape 3 : Conception centrée sur l'utilisateur [UCD] (Pilotage stratégique - La phase de conception)
 
 La phase d'avant-projet vise à rassembler l'information nécessaire à la mise en oeuvre du projet. Une réunion dite de kick-off marque le lancement du projet.
 La première étape revient à cadrer le projet : on parle de cadrage fonctionnel. Le cadrage fonctionnel vise à déterminer l'envergure éditoriale et fonctionnelle du projet. Ce travail est réalisé à travers un ensemble de réunions chez le commanditaire. Pour les projets ecommerce, qui présentent un périmètre spécifique, on aura recours au cadrage de projet ecommerce. Il s'agira de travailler sur l'offre de produits et de services, les réseaux de distribution, la logistique... bref, tout un ensemble de paramètres qui dépassent les problématiques de façonnage au sens strict.
@@ -299,7 +301,7 @@ S’en suit ensuite une phase d’aller-retours. A l’Agence digitale, les alle
 
 ---
 
-# Etape 4 : Le développement / production
+## Etape 4 : Le développement / production
 
 La production s'appuie sur la phase de conception et la validation des principes structurants du dispositif digital pour lancer la réalisation complète du projet. En matière éditorial, il s'agira d'écrire les contenus. La production graphique aura pour objectif de décliner tous les écrans de la ligne graphique (Prototypage). Le développement front-end et l'intégration sont réalisés sur la base des maquettes graphiques et en suivant le tracé régulateur fixé par les wireframes. Un projet numérique implique forcément une phase de programmation. Les développements informatiques peuvent faire l'objet d'une phase spécifique en fonction de la charge de travail. Les développements informatiques constituent une partie de la production.
 
@@ -318,7 +320,7 @@ Dès lors qu’une page webdesignée est validée par le client, celle-ci passe 
 
 Le temps de développement d’un site Internet varie considérablement en fonction de nombre et de la complexité des fonctionnalités retenues lors du dossier technique. Cependant, nous partons du principe qu’il faut 3 à 5 semaines pour un site vitrine et 5 à 8 semaines pour un site eCommerce.
 
-# Etape 5 : Le recettage & mise en ligne du site (Suivi opérationnel - Promouvoir votre site internet)
+## Etape 5 : Le recettage & mise en ligne du site (Suivi opérationnel - Promouvoir votre site internet)
 
 La phase de recette consiste à tester le dispositif digital. On parle de débuggage. Corriger les problèmes techniques, ajuster les dysfonctionnements sur le plan du design, corriger les fautes d'orthographes et de grammaires. Par extension, la phase de test considère également un ensemble de tests techniques afin de valider la satisfaction du client et des utilisateurs.
 
@@ -352,13 +354,13 @@ En fonction de votre activité et surtout de votre audience cible, vous allez de
 Maintenant que vous avez une meilleure idée des canaux que vous allez privilégier pour atteindre votre audience cible ainsi que du budget que vous allez allouer à ces différents leviers, vous devez réfléchir aux ressources humaines que cela va impliquer. En effet, vous ne serez pas en mesure de tout faire tout seul, vous allez manquer de temps et, certainement de compétences sur certains aspects de la communication digitale.
 Maintenant que vous savez quel budget vous allez allouer à chaque poste de dépense et qui dans votre équipe, sera responsable de chaque tâche, vous devez planifier ces actions dans le temps.
 
-# Etape 6 : La maintenance et l’optimisation post mise en ligne
+## Etape 6 : La maintenance et l’optimisation post mise en ligne
 
 Le projet est mis en ligne et on procède aux premières analyses. La communication, l'animation et les techniques webmarketing seront à l'oeuvre pour dynamiser le dispositif, au lancement, et tout au long de la durée de vie du projet.
 
 En théorie, une fois mis en ligne, le nouveau site internet doit être parfait. En pratique, même les sites les mieux préparés nécessitent souvent quelques mises à jour. Plutôt que de passer un temps considérable à concevoir un site web qui n'aura peut-être pas l'effet escompté, il est préférable de commencer par en publier une version initiale stable et fiable, puis de l'améliorer au fur et à mesure. Créer un document répertoriant toutes les améliorations à apporter après le lancement vous permettra de les réaliser à mesure que vous découvrirez comment les visiteurs interagissent avec le site. Il faudra aussi continuer de réaliser une assistance technique en continu, la correction des anomalies et mettre à jour du CMS et des modules
 
-# Etape 7 : Le SEO (Search Engine Optimization)
+## Etape 7 : Le SEO (Search Engine Optimization)
 
 A cela s'ajoute les expertises transversales, telles que le SEO (search engine optimization) ainsi que les méthodologies d'évaluation de l'expérience utilisateur. Ces expertises métier sont à l'oeuvre à chaque étape...
 
@@ -374,4 +376,4 @@ Une bonne gestion de projet prévoit un temps d'avant-projet pour poser les fond
 
 ---
 
-# Jeux de role = J3 - 14 / 04 / 2022 ET J4 - 15 / 04 / 2022
+# Jeux de role
