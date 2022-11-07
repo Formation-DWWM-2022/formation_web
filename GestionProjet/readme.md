@@ -18,7 +18,7 @@ https://github.com/Alexandre-Loretzin/agile-dev
 
 ## TP N°0
 
-    Q1 : Qu'elle est le rôle du chef de projet web ?  (Definition et une explication simple)
+    Q1 : Quel est le rôle du chef de projet web ?  (Definition et une explication simple)
 
     Q2 : A quoi correspond les principales méthodologie : (Pour chaque méthode une definition et une explication simple)
         - La méthode Waterfall
@@ -38,7 +38,7 @@ https://github.com/Alexandre-Loretzin/agile-dev
         - Lean Six Sigma
         - Process-Based Project Management
 
-    Q3 : Qu'elle serait votre méthode prefere ou la plus optimiser à vos yeux ?
+    Q3 : Quel serait votre méthode prefere ou la plus optimiser à vos yeux ?
 
 # Ma vision de la gestion de projet
 
@@ -115,9 +115,9 @@ https://github.com/Alexandre-Loretzin/agile-dev
 
     Q3 : Qu'est-ce qu'un diagramme de Gantt ? (Definition et une explication simple)
 
-    Q4 : Qu'elles sont les outils utilisés par le chef de projet pour communiquer et planifier  ? (Lister et expliquer | ex : outils de communication interne ...)
+    Q4 : Quels sont les outils utilisés par le chef de projet pour communiquer et planifier  ? (Lister et expliquer | ex : outils de communication interne ...)
 
-    Q5 : Qu'elles sont les différences entre la conception fonctionnelle, la conception éditoriale et la conception graphique ? (Definition et une explication simple)
+    Q5 : Quels sont les différences entre la conception fonctionnelle, la conception éditoriale et la conception graphique ? (Definition et une explication simple)
 
     Q6 : Est-ce que les dev participe à cette étape ? (Definition et une explication simple)
 
