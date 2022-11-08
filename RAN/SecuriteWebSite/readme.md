@@ -300,8 +300,7 @@ https://youtu.be/RBK0wmREvkY?list=PLP0aqyZ5GFdlBGREcooB3UZrWrTkcajV4
 - Porte carte bancaire [NFC]
 - Bluetooth
 - Symfony
-
 - Wifi :
-- https://www.cnetfrance.fr/produits/box-wifi-securite-39707618-vpn-wps-et-autres-mesures_7.htm
-- https://www.netspotapp.com/fr/blog/wifi-settings/how-to-change-wifi-password.html#Comment_trouver_un_mot_de_passe_WiFi_et_le_rendre_plus_fort
-- https://www.netspotapp.com/fr/blog/wifi-security/7-ways-to-stop-a-wifi-hacker.html#Top_7
+  - https://www.cnetfrance.fr/produits/box-wifi-securite-39707618-vpn-wps-et-autres-mesures_7.htm
+  - https://www.netspotapp.com/fr/blog/wifi-settings/how-to-change-wifi-password.html#Comment_trouver_un_mot_de_passe_WiFi_et_le_rendre_plus_fort
+  - https://www.netspotapp.com/fr/blog/wifi-security/7-ways-to-stop-a-wifi-hacker.html#Top_7

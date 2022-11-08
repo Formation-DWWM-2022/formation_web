@@ -109,14 +109,14 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [Memo](./CoursPDO/memo.md)
 - [TP](./CoursPDO/TP/PHP-PDO-01-read.md)
 
---- 
+---
 
 ## PHP Avancée
 
 - [Introduction à la programmation orientée objet PHP : classes, instances et objets](./CoursAvancee/01-IntroductionPOO.md)
 - [Propriétés et méthodes en PHP orienté objet](./CoursAvancee/02-Propriete&Methode.md)
 - [Les méthodes PHP constructeur et destructeur](./CoursAvancee/03-Constructeur&Destructeur.md)
-- [ Encapsulation et visibilité des propriétés et méthodes PHP](./CoursAvancee/04-Encapsulation&Visibilite.md)
+- [Encapsulation et visibilité des propriétés et méthodes PHP](./CoursAvancee/04-Encapsulation&Visibilite.md)
 - [Classes étendues et héritage en PHP orienté objet](./CoursAvancee/05-Etendre&Heritage.md)
 - [Surcharge d’éléments et opérateur de résolution de portée en PHP](./CoursAvancee/06-Surcharge.md)
 - [Les constantes de classe en PHP objet](./CoursAvancee/07-ConstantesClasse.md)
@@ -126,7 +126,7 @@ La documentation la plus importante à mettre en favoris : <https://www.php.net/
 - [Les méthodes magiques en orienté objet PHP](./CoursAvancee/11-MethodesMagiques.md)
 - [Définition et gestion des erreurs en PHP](./CoursAvancee/12-Exception.md)
 
---- 
+---
 
 ## PHP Avancée TECHNIQUE
 
