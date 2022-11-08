@@ -91,7 +91,7 @@ https://github.com/Alexandre-Loretzin/agile-dev
 
     Q12 : Quels sont les outils à utiliser réussir le benchmark des sites concurrents ? (Lister et expliquer | ex : Google PageSpeed tools ...)
 
-## COURS :  J2 - 13 / 04 / 2022
+## COURS
 
 # Etape 2 : Devis
 
