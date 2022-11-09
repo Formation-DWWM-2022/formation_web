@@ -17,14 +17,23 @@
 - Quel matériel de minage choisir ?
 - Quel matériel choisir pour un rig de mining cryptos ? (ETH et autres)
 - Est-ce encore rentable pour un particulier de miner du bitcoin en France ?
+- Crypto Crash : 5 chiffres pour tout comprendre du plus gros crash crypto
+- Créer sa cryptomonnaie
+
 
 <!--
+- Brave wallet
+- effet levier
+- stablecoin
+- terra / luna
+- Crypto ecologique
+- staking de crypto en France 
 - Qu'est-ce que la preuve de travail ou proof-of-work (PoW) ?
 - logiciel de minage
 - Blockchain
 - Cryptomonnaie
 - Altecoin
-- Bitcoin / Etherum / Etherum 2.0 / Solana / DogeCoin / Monero / Cardano / LiteCoin
+- Bitcoin / Etherum / Etherum 2.0 / Solana / DogeCoin / Monero / Cardano / LiteCoin / ZCash
 - Metaverse / NFT
 - tokens / smart contrats 
 - Play to Earn
@@ -34,7 +43,17 @@
 - Qu'est-ce qu'une plate-forme minière?
 - Qu'est-ce qu'une ferme à bitcoins ?
 - Comment miner ?
-- Comment ouvrir un wallet ?
-- Comment créer une cryptomonnaie
-- Pourquoi la crise du bitcoin et des altecoins
+- Comment ouvrir un wallet ? Metamask
+
+
+Quels sont les meilleurs logiciels de minage de crypto-monnaies ?
+
+Les logiciels de minage permettent de relier votre puissance de calcul aux données de la blockchain. Ils sont essentiels pour obtenir la preuve de travail. Le choix du logiciel dépend principalement du type de crypto-monnaie que vous souhaitez miner. L’outil CG Miner est très populaire pour miner du Bitcoin. Si vous optez pour l’Ethereum, le logiciel conseillé est alors Claymore.
+
+Des applications sont également disponibles sur votre smartphone pour faciliter le minage de crypto-monnaie. Le principe est souvent de rejoindre un mining pool. Nous pouvons en citer quelques-unes afin que puissiez les essayer :
+
+    Bee Network
+    Pi Network
+    Eagle Network
+    Fortune Network 
 -->

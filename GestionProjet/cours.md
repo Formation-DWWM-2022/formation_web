@@ -281,7 +281,7 @@ Lorsque vous avez rédigé le cahier des charges, vous pouvez le transmettre à 
 
 L’agence digitale envoie ensuite à son client le cahier technique, accompagné d’un devis et d’un planning de réalisation. Après votre validation, la création de votre site internet peut commencer.
 
-    Les pieges a éviter sur un devis : https://www.lafabriquedunet.fr/blog/ (devis-site-internet-les-pieges-a-eviter/
+    Les pieges a éviter sur un devis : https://www.lafabriquedunet.fr/blog/devis-site-internet-les-pieges-a-eviter/
 
     Contenu d’un devis de création de site internet : https://www.lafabriquedunet.fr/blog/evaluer-devis-creation-site-internet/ 
 
