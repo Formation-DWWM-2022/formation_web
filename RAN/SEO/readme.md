@@ -40,6 +40,7 @@
 - [Comprendre et faire de la publicité en ligne](./JV%20-%20J2%20_%2001.1%20-%20QUIZZ%20-%20Comprendre%20et%20faire%20de%20la%20publicit%C3%A9%20en%20ligne%20%2B%20CORRECTION%20(1).pdf)
 - [Les algorithmes et les filtres de Google](./algoFiltresGoogle.md)
 - [SEO local : définition et explication du référencement local](./seoLocal.md)
+- [Quel est le prix d’un référencement sur Google ?](./prixReferencement.md)
 - [Mesurer et analyser ses actions en ligne](./JV%20-%20J2%20_%2003%20-%20ATELIER%20-%20Mesurer%20et%20analyser%20ses%20actions%20en%20ligne%20%2B%20CORRECTION%20(1).pdf)
 
 <!--
