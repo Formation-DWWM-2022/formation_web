@@ -151,11 +151,11 @@ L'analyse fonctionnelle et ou le cahier des charges contribuent à affiner la vi
 
 - Combien coûte la création d’un site internet ?
 
-> Un site vitrine pour un professionnel indépendant est souvent compris entre 1000€ et 2 000 €. Un site internet professionnel complet se facture entre 3 0000 et 8 000 € (5 à 10 pages). Et vous compterez entre 10 000 à 100 000 €, si vous avez besoin de développements web plus élaborés (espace réservés pour les membres, vente en ligne, réservation de cours… ).
+> Un site vitrine pour un professionnel indépendant est souvent compris entre 1000€ et 2 000 €. Un site internet professionnel complet se facture entre 3 000 et 8 000 € (5 à 10 pages). Et vous compterez entre 10 000 à 100 000 €, si vous avez besoin de développements web plus élaborés (espace réservés pour les membres, vente en ligne, réservation de cours… ).
 
 - Créer un site WordPress en 2022: combien ça coûte ?
 
-> Un site vitrine pour un professionnel indépendant est souvent compris entre 800€ et 2 000 €. Un site internet professionnel complet se facture entre 2 0000 et 5 000 € (5 à 10 pages). Pour un site e-commerce avec Wordpress, les coûts évoluent entre 8 000 € pour un site avec un petite catalogue produit et des fonctionnalités de base à 30 000 € pour un projet complet avec plusieurs centaines de produits et une synchronisation avec votre système d'information commercial par exemple.
+> Un site vitrine pour un professionnel indépendant est souvent compris entre 800€ et 2 000 €. Un site internet professionnel complet se facture entre 2 000 et 5 000 € (5 à 10 pages). Pour un site e-commerce avec Wordpress, les coûts évoluent entre 8 000 € pour un site avec un petite catalogue produit et des fonctionnalités de base à 30 000 € pour un projet complet avec plusieurs centaines de produits et une synchronisation avec votre système d'information commercial par exemple.
 
 - Combien coûte la création d’un site internet avec un logiciels de création de sites web (WordPress.com vs Weebly vs GoDaddy vs Strikingly vs Jimdo vs SITE123 vs Wix vs SimpleSite vs Squarespace vs Duda) --> Quels sont les risques ?
 
