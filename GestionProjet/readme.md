@@ -196,7 +196,7 @@ https://github.com/Alexandre-Loretzin/agile-dev
 - Phase 12 : (reu) : Satisfaction ?
 
 ---
-
+<!--
 - Phase 11 : Dev prototypage / SUIVI DE PROJET [Tableau] / test usage + site pré-production
 - Phase 12 : (reu) : Rendu de projet infini
 
@@ -206,6 +206,9 @@ https://github.com/Alexandre-Loretzin/agile-dev
 - Phase 14 : (reu) : Point sur les tests
 - Phase 15 : Plan de communication solide pour accompagner son lancement
 - Phase 16 : (reu) : Lancement
+
+-->
+
 - Phase 17 : Document amélioration futur
 
 ## Liste des choses à faire en maquettage
