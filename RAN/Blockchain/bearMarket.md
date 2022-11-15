@@ -8,6 +8,8 @@ Ces périodes de marché étant extrêmement puissantes, la redescente est ensui
 
 ![](https://coinacademy.fr/wp-content/uploads/2021/12/bitcoin-halving-1024x518.png.webp)
 
+- [❌ LE BEARMARKET ❌ C'EST QUOI? QUAND? COMMENT? (Regarde avant que ce soit trop tard..)](https://youtu.be/_5pcMWX87Jc)
+
 ## Qu’est-ce qu’un bear market dans le marché des cryptos ? Définition et explications
 
 Un bear market, ou « marché d’ours » en français, correspond à une correction du prix et à une tendance baissière qui dure plusieurs mois ou années. Ce terme nous vient du monde boursier et est le contraire d’un bull market (« marché de taureau »).

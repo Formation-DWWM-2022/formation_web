@@ -36,9 +36,7 @@ Le remplissage ne paie pas, car un texte pauvre sera identifié comme tel aussi 
 
 ## Les balises peuvent influencer le référencement de vos textes
 
-Les balises sont des éléments en HTML d’une page web. Elles occupent une place importante pour les moteurs de recherche, et en particulier pour Google. Les balises title et meta description permettent d’attirer les internautes sur votre page et créer du trafic sur votre site web.
-
-- URL : il est important qu’elle contienne des mots-clés pertinents en relation avec le contenu de votre page.
+Les balises sont des éléments en HTML d’une page web. Elles occupent une place importante pour les moteurs de recherche, et en particulier pour Google. Les balises title et meta description permettent d’attirer les internautes sur votre page et créer du trafic sur votre site web. L'URL est important il faut qu’elle contienne des mots-clés pertinents en relation avec le contenu de votre page.
 
 La rédaction de balises de qualité est un élément fondamental pour optimiser votre référencement SEO et pour attirer du trafic sur votre site web.
 
@@ -52,11 +50,11 @@ Les 3 critères principaux de la balise title :
 
 Passons aux balises title en doubles. Pour rappel, il ne faut jamais avoir 2 balises Title en double dans son site, car c’est soit signe de pages dupliquées, soit de plusieurs pages ciblant un seul mot clé, ce qui dessert fortement le SEO de la page et du site.
 
-– S’il n’y en a pas : tant mieux, il n’y a rien à faire
-– S’il y en a : repérer le nombre et le type de page(s) concernée(s) :
-    - S’il s’agit de pages produits avec des variantes (couleur, taille, etc) : on vous conseille de préciser dans le Title la variante unique pour ce produit. S’il n’y a pas d’intérêt SEO à cette variante (si personne ne cherche une requête aussi précise) on vous conseille même de supprimer la page et la rediriger vers une seule page produit qui concentre toutes les variantes « inutiles » en SEO. Mais tout dépend de votre architecture technique / CMS.
-    - S’il s’agit de pages paginées : on vous recommande de modifier les title pour indiquer « page 2 » / « page 3 ». Plus de détail dans cet article.
-    - S’il s’agit de pages censées être différentes : alors tout simplement modifiez les balises title pour être plus précis. Si vous avez des pages « agence immobilière + ville », précisez bien la ville dans le title et pas seulement « agence immobilière ».
+- S’il n’y en a pas : tant mieux, il n’y a rien à faire
+- S’il y en a : repérer le nombre et le type de page(s) concernée(s) :
+  - S’il s’agit de pages produits avec des variantes (couleur, taille, etc) : on vous conseille de préciser dans le Title la variante unique pour ce produit. S’il n’y a pas d’intérêt SEO à cette variante (si personne ne cherche une requête aussi précise) on vous conseille même de supprimer la page et la rediriger vers une seule page produit qui concentre toutes les variantes « inutiles » en SEO. Mais tout dépend de votre architecture technique / CMS.
+  - S’il s’agit de pages paginées : on vous recommande de modifier les title pour indiquer « page 2 » / « page 3 ». Plus de détail dans cet article.
+  - S’il s’agit de pages censées être différentes : alors tout simplement modifiez les balises title pour être plus précis. Si vous avez des pages « agence immobilière + ville », précisez bien la ville dans le title et pas seulement « agence immobilière ».
 
 ![](https://web.archive.org/web/20201028024347im_/https://smartkeyword.io/wp-content/uploads/2018/01/balise-title-seo-zalando-smartkeyword.png)
 
@@ -77,10 +75,10 @@ Les 3 axes à surveiller lors de la création d’une url
 - Mots clés :  Votre url ne contient pas forcément les mots clé principaux de votre requête. Ce n’est pas un ranking Factor de Google! Même si sur la requête “chaussures femme” ci-dessus, on voit que tous les résultats de la 1ère page ont mis ce mot clé dans leur url, il s’agit que d’ergonomie et surtout pas de SEO.
 - Taille : Il est généralement recommandé d’avoir des urls de moins de 100 caractères, ce qui suffit dans la plupart des cas à inclure le mot clé principal tout en gardant une url concise.
 - Ergonomie : Comme mentionné plus haut, une url lisible et claire tant pour vos utilisateurs que pour les moteurs de recherche vous aidera à améliorer votre attractivité :
-    – Eviter les urls dynamiques incompréhensibles (<http://mondomain.com/?param36=qsdjYJkf1>), ou tout du moins utilisez des url « canonical » (c.f remarques utiles ci-dessous).
-    – Préférez les tirets « – » aux underscores « _ » pour séparer vos mots.
-    – Evitez les caractères complexes et les accents (« é », « % », « ç » …), ils nécessitent un encodage spécial qui rend votre url moins attractive.
-    – Evitez de définir une hiérarchie d’url trop profonde comme « <http://mondomain.com/produits/vetements/chaussures/ville/homme/rouge/taille39/pdt1>″. Il est recommandé de s’en tenir à deux ou trois niveaux de hiérarchie maximum.
+  - Eviter les urls dynamiques incompréhensibles (<http://mondomain.com/?param36=qsdjYJkf1>), ou tout du moins utilisez des url « canonical » (c.f remarques utiles ci-dessous).
+  - Préférez les tirets « – » aux underscores « _ » pour séparer vos mots.
+  - Evitez les caractères complexes et les accents (« é », « % », « ç » …), ils nécessitent un encodage spécial qui rend votre url moins attractive.
+  - Evitez de définir une hiérarchie d’url trop profonde comme « <http://mondomain.com/produits/vetements/chaussures/ville/homme/rouge/taille39/pdt1>″. Il est recommandé de s’en tenir à deux ou trois niveaux de hiérarchie maximum.
   - Proscrire : URLs dynamiques, “_” tiret bas, caractères spéciaux, symboles, accents, majuscules et hiérarchies trop profondes
   - Ne pas contenir de majuscules, accents, caractères spéciaux, et ponctuation (apostrophes….)
   - Ne pas contenir un paramètre « ? » (sauf s’il renvoie vers le bon contenu avec le sigle « = »).

@@ -45,3 +45,17 @@
 - [Mesurer et analyser ses actions en ligne](./JV%20-%20J2%20_%2003%20-%20ATELIER%20-%20Mesurer%20et%20analyser%20ses%20actions%20en%20ligne%20%2B%20CORRECTION%20(1).pdf)
 
 ## [Google’s 200 Ranking Factors: The Complete List (2022)](https://backlinko.com/google-ranking-factors)
+
+## Pour aller plus loin [BY GOOGLE]
+
+- Découvrez toute une gamme de formations sans frais conçues pour vous aider à développer votre activité ou votre carrière. Vous pouvez vous former en sélectionnant des modules spécifiques ou en suivant un cours entier si vous le préférez. [Les cours](https://learndigital.withgoogle.com/ateliersnumeriques/courses)
+
+- La plate-forme de formation centralisée pour tous les internautes qui souhaitent tirer le meilleur parti des solutions et outils professionnels de Google [Les formations disponibles](https://skillshop.exceedlms.com/student/catalog/browse)
+
+- Ce cours sans frais, agréé par l'IAB Europe (Interactive Advertising Bureau), vous permettra de maîtriser les fondamentaux du marketing numérique. Il comprend 26 modules qui ont tous été créés par des formateurs Google. Les nombreux exercices et exemples réels vous aideront à exploiter concrètement vos connaissances. [La certification](https://learndigital.withgoogle.com/ateliersnumeriques/course/digital-marketing)
+
+- À distance ou en présentiel dans nos cinq Ateliers Numériques, inscrivez‑vous à la session la plus adaptée à vos besoins et posez vos questions en direct. [Formations interactives et conseils personnalisés](https://learndigital.withgoogle.com/ateliersnumeriques/f2f)
+
+- De plus en plus d'employés, d'enseignants et d'étudiants travaillent à distance. Pour vous aider, nous avons rassemblé quelques outils et ressources que vous pouvez utiliser pour rester connecté et productif. [Travailler, enseigner et apprendre à distance](https://learndigital.withgoogle.com/ateliersnumeriques/remote-work)
+
+- Élaborés par Google, ces programmes de formations en ligne permettent d'acquérir des compétences professionnelles pour des métiers d'avenir comme le Support IT, le Project Management, la Data Analyse ou l'UX Design. Aucun diplôme ou expérience préalable ne sont nécessaires. [Google Career Certificates](https://grow.google/intl/fr_fr/google-certificates)

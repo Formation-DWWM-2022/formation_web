@@ -100,3 +100,6 @@ Défis :
 - Docker
 - Cloud Computing [lass , pass , sass]
 - IA
+
+- Sopify
+- Dropshipping
