@@ -4,6 +4,11 @@ Les stablecoins sont un type de cryptomonnaies dont l'objectif est de suivre le 
 
 ![](https://cryptoast.fr/wp-content/uploads/2022/03/stablecoin-cryptomonnaie-stable-dollar-euro.png.webp)
 
+- [Tout comprendre sur les monnaies stables (ou stablecoins) en 20 minutes !](https://youtu.be/s1FjaedTh7M)
+- [Qu'est ce qu'un Stablecoin : Comment ça marche | Quels sont les meilleurs ?](https://youtu.be/76u0BBxNcxQ)
+- [TOP des STABLE COIN - Lequel est le MEILLEUR? Pourquoi?](https://youtu.be/xQ8lCXPVadg)
+- [Les stablecoins : ce qu'il faut savoir](https://youtu.be/JVevBz84_HU)
+
 ## Qu'est-ce qu'un stablecoin ?
 
 L'un des plus gros freins à l'adoption des cryptomonnaies a toujours été la grande volatilité de ce marché. C'est dans ce contexte qu'interviennent les stablecoins.

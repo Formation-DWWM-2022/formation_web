@@ -12,6 +12,11 @@ Je me suis donc dit qu'un cours pour présenter le principe du Bitcoin et de la 
 
 ![](https://s3-eu-west-1.amazonaws.com/sdz-upload/prod/upload/bitcoin_illu_intro1.jpg)
 
+- [Le Bitcoin et la Blockchain (avec Heu?Reka)](https://youtu.be/du34gPopY5Y)
+- [Tout savoir sur Bitcoin en 2022 (en 75 minutes seulement)](https://youtu.be/CYLOhmoHM6I)
+- [Qu'est ce que le Bitcoin? Comment fonctionne t-il ? [Simplification]](https://youtu.be/KizblvpFk9E)
+- [LE BITCOIN, C'EST QUOI ? COMMENT EN OBTENIR ? Explication !](https://youtu.be/89L22vEl74Q)
+
 ## Une brève histoire des monnaies
 
 Le Bitcoin est une nouvelle monnaie virtuelle. Comme je vous le disais en introduction, cette illustration pourrait vous faire croire que des pièces de Bitcoin existent vraiment... mais en réalité les pièces de Bitcoin n'existent pas !

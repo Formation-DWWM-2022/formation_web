@@ -10,6 +10,9 @@ En échange de la puissance allouée au réseau, les mineurs sont récompensés 
 
 ![](https://cryptoast.fr/wp-content/uploads/2020/08/transaction-blockchain.jpg.webp)
 
+- [Pool de minage (tout comprendre en 10 minutes)](https://youtu.be/3z41GqfAzmg)
+- [Comment choisir sa pool de minage ? (Critères, rewards prop, pplns, pps, etc.)](https://youtu.be/ow9BVb2MdI8)
+
 ## Mais alors, quelle est la place des pools de minage dans tout ceci ?
 
 Et bien c’est assez simple à comprendre. Là où il y a quelques années la difficulté présente sur le réseau était assez faible pour permettre le minage individuel avec une puissance de calcul réduite, il est aujourd’hui impensable de miner en solitaire avec un matériel modeste. En effet, plus la taille du réseau et son nombre d’acteurs augmentent, plus la puissance requise pour « créer un bloc » est élevée.

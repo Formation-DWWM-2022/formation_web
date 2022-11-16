@@ -2,6 +2,10 @@
 
 ![](https://www.presse-citron.net/app/uploads/2022/05/crypto-monnaies-meilleures-performances.jpg)
 
+- [COMPRENDRE LA CHUTE CRYPTO, STRATÉGIE ET ANALYSE DU MARCHÉ - Bitcoin mai 2022 - RIP Terra Luna](https://youtu.be/8F488MW8q2g)
+- [Terra luna la tragédie d'un géant de la crypto monnaie ! explication et prévision ? ❗️](https://youtu.be/Zh5I0AzV6IE)
+- [Terra Luna - l'histoire d'un effondrement! 📉](https://youtu.be/WoQrqKx_4us)
+
 « Winter is coming » entendait-on dans la célèbre série Game of Thrones. Sur le marché des crypto, l’hiver semble interminable. Les investisseurs le savent, cette période de l’année rime toujours avec une baisse des valeurs. Mais en 2022, l’hiver est particulièrement rude.
 
 Le crypto crash édition 2022 restera sans doute dans le annales. En dehors des baisses vertigineuses des principales crypto, ce crypto crash a surtout été marqué par le feuilleton Terra/Luna, le stablecoin qui n’a eu de stable que le nom.

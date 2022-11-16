@@ -6,6 +6,10 @@ Pour accéder aux sites dans le Darknet, les utilisateurs doivent utiliser un lo
 
 Il faut savoir qu'un site ou un service qui fonctionne sur un réseau chiffré et caché ne signifie pas nécessairement qu'il est illégal ou suspect. Par exemple, les journalistes vivant dans des pays aux régimes oppressifs, les dénonciateurs politiques et les activistes utilisent le Darknet pour communiquer en ligne sans laisser d'empreinte numérique et sans avoir à révéler leur identité.
 
+- [Bitcoin et Silk Road, les liaisons dangereuses – Les Contes de Monte-Crypto](https://youtu.be/yHVSo6fZQzw)
+- [Pourquoi le #monero est maintenant plus utiliser sur le #darknet au lieu que le #bitcoin](https://youtu.be/aCXR2B6H6dc)
+- [Les coins privés ont-il un avenir ? (XMR, Zcash, Dash...)](https://youtu.be/w16IPmwSJCY)
+
 ## Qu’est-ce que Silk Road ?
 
 Silk Road était l'un des sites Darknet les plus connus. Il s’agissait d’une « place de marché anonyme ». Silk Road était utilisé par ses utilisateurs comme un marché noir pour tous les types d'activités illégales (dans la plupart des pays), comme l'achat et la vente de drogues, de données de cartes de crédit ou même des armes. C'était le premier marché noir Darknet de ce genre et le précurseur de nombreux sites similaires.

@@ -6,6 +6,8 @@ Entre autres, la preuve de travail permet de dissuader les attaques par déni de
 
 ![](https://cryptoast.fr/wp-content/uploads/2018/06/pow-proof-of-work-preuve-de-travail.jpg.webp)
 
+- [Le Proof of Work du Bitcoin expliqué (Preuve de Travail)](https://youtu.be/gtpOytEONOQ)
+
 ## D'où vient la preuve de travail ?
 
 Le concept de preuve de travail a été décrit pour la première fois par Cynthia Dwork and Moni Naor en 1992, au sein d'un article intitulé Pricing via Processing or Combatting Junk Mail. Cet article présente comment il est possible d'utiliser le procédé pour combattre le courrier indésirable (spam) dans les boîtes e-mail. En 1997, Adam Back a implémenté l'idée avec Hashcash, un algorithme permettant de produire de manière simple des preuves de travail grâce à une fonction de hachage, et dont l'utilisation principale était le courrier électronique.

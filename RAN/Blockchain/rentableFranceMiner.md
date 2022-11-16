@@ -12,6 +12,10 @@ Si un particulier cherche à obtenir des cryptomonnaies, et notamment du bitcoin
 
 Les machines Asics (pour “Application-specific integrated circuit”) sont composées de puces programmées pour réaliser des calculs complexes. En tournant 24h sur 24h, elles permettent aux mineurs qui sécurisent le réseau Bitcoin d’être rémunérés en bitcoins. Dans la plupart des cas, ces machines sont installées dans ce que l’on appelle des "fermes de minages", mais certains particuliers peuvent décider de s'en procurer, pour miner eux-mêmes des bitcoins en faisant du "solo mining". Concrètement, cela revient à valider un bloc du réseau Bitcoin tout seul. Une technique marginale, mais qui existe un peu partout sur la planète. Pour rappel, un peu comme un livre numérique, la blockchain (ou chaîne de blocs) regroupe tous les blocs (transactions) d'un réseau, du plus ancien au plus récent.
 
+- [Est-ce que les particuliers ont encore un intérêt à miner du Bitcoin?](https://youtu.be/CeApIiP26Vg)
+- [Miner du BITCOIN est-ce RENTABLE ?](https://youtu.be/DGxajxkvmAY)
+- [LE MINAGE EST RENTABLE EN FRANCE ?](https://youtu.be/hA1pVGprEd4)
+
 ## Admettons qu'une personne décide de se lancer dans le solo mining avec une machine Asic, quels sont les investissements de base à réaliser, et quels facteurs prendre en compte?
 
 Pour qu'une machine de minage puisse devenir rentable pour un particulier, de nombreux facteurs sont à prendre en compte. D’une part, il y a un premier investissement économique, puisqu'une machine vaut à ce jour dans les 10.000 dollars. Le prix de la machine de minage peut d'ailleurs changer, en fonction de la consommation électrique et de la puissance de hash (TH/s) de la machine, c’est-à-dire la puissance de calcul de la machine: globalement, plus elle est puissante et consomme moins d’électricité, plus elle sera chère et inversement.

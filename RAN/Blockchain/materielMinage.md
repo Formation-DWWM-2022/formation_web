@@ -4,6 +4,8 @@ Avant de commencer à miner ses premières cryptomonnaies, il va falloir s’int
 
 ![](https://journalducoin-com.exactdn.com/app/uploads/2019/12/Quel-materiel-de-minage-choisir-V1.jpg?strip=all&lossy=1&quality=66&resize=1160%2C653&ssl=1)
 
+- [Asic VS Rig DE MINAGE, Que choisir ?](https://youtu.be/kQujjKpGm78)
+
 ## Le minage par GPUs
 
 Ce type de minage a plusieurs noms, certains parlent de RIG (un Rig étant l’infrastructure complète de la machine), d’autres de minage par GPUs (Graphics processing Unit), communément appelées les cartes graphiques.

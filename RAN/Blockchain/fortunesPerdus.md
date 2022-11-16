@@ -4,6 +4,8 @@ En raison de la nature du bitcoin et de la crypto-monnaie, toute la responsabili
 
 Ces fortunes se perdent de la même manière que les gens perdent des comptes de messagerie ou de vieilles photographies stockées sur des ordinateurs. Mots de passe oubliés, dysfonctionnements matériels, remplacement de matériel défectueux, etc. Le potentiel d’erreur humaine impliqué dans la tenue négligente d’un portefeuille est assez élevé. Avec ces informations en tête, regardons la liste des plus.
 
+- [L'histoire de l'homme qui aurait 7000 Bitcoins (BTC) mais qui aurait oublié son mot de passe](https://youtu.be/Nj-qrYpzvDU)
+
 1. Le portefeuille de Satoshi Nakamot
 
 Le créateur légendaire de Bitcoin, Satoshi Nakamoto, possède une fortune bitcoin bien connue dont il est à la tête depuis le début. Il y a eu beaucoup de spéculations sur les raisons pour lesquelles Satoshi a fait cela et pourquoi Satoshi a quitté le monde du bitcoin juste au moment où celui-ci commençait à attirer l’attention du grand public.

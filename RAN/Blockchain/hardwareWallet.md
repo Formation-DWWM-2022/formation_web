@@ -1,10 +1,14 @@
-# Tout savoir sur les wallets matériels pour cryptomonnaies 
+# Tout savoir sur les wallets matériels pour cryptomonnaies
 
 Technologie : Qu'est-ce qu'un portefeuille de bitcoins ? Et pourquoi les portefeuilles matériels, dits "cold wallet", sont aujourd'hui indispensables à ceux qui entreprennent d'investir dans ce secteur en croissance.
 
 ![](https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/edit/ne/2019/01/Cryptomonnaie%20(2)__w630.jpg)
 
 Un portefeuille bitcoin est un dispositif qui stocke et gère les clés privées que vous détenez pour votre cryptomonnaie. Il fonctionne de la même manière que l'argent que vous conservez dans votre portefeuille ou votre sac à main, ou que vos coordonnées bancaires stockées sur vos cartes de crédit ou de débit.
+
+- [Quel wallet crypto choisir ?](https://youtu.be/9wrnQ4rjNRU)
+- [Quel portefeuille crypto choisir ? Wallet](https://youtu.be/UhiclrzZ7A8)
+- [Quel wallet faut-il choisir pour ses cryptos ?](https://youtu.be/Ivp_huQDJa4)
 
 ## Quels sont les différents types de portefeuilles de cryptomonnaie ?
 
@@ -23,6 +27,7 @@ Bref, les portefeuilles bitcoin matériels vous donnent un contrôle complet et 
 ## Quels sont les avantages et les inconvénients des portefeuilles cryptographiques matériels ?
 
 Les avantages des portefeuilles matériels :
+
 - Une sécurité améliorée : un vide total entre vos clés privées et tout le reste.
 - Un meilleur contrôle : vous tenez vos clés et pouvez les conserver séparément de tous vos autres appareils.
 - Un transport facile : les portefeuilles matériels bitcoin sont petits et faciles à transporter. Mais ils peuvent également être stockés en toute sécurité dans un coffre-fort ou un dépôt de sécurité.

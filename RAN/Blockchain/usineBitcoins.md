@@ -1,6 +1,7 @@
 # La plus grande usine à bitcoins consommera l’équivalent d’un demi-réacteur nucléaire
 
-- Plongée inédite dans les mines géantes du bitcoin au Kazakhstan https://youtu.be/uYSFKmnHPv0
+- [Bitcoin : des usines de minage géantes au Texas](https://youtu.be/-0JyEeH8rVU)
+- [Plongée inédite dans les mines géantes du bitcoin au Kazakhstan](https://youtu.be/uYSFKmnHPv0)
 
 Enfin, il a été possible de pénétrer dans le Saint des Saints : sur vingt rangées, et près de 300 mètres de long, dans un bruit assourdissant, 23 000 ordinateurs tournent à plein régime. Tous les mêmes, tous avec le même programme, branchés les uns aux autres, avec deux ventilateurs chacun. L’effet masse est tel que les ordinateurs provoquent un courant d’air, qui arrive frais de l’extérieur à travers des alvéoles et est expulsé chaud dans une salle de refroidissement et s’échappe par le toit.
 

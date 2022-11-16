@@ -4,6 +4,10 @@
 
 Depuis quelques années, nous pouvons lire beaucoup d’articles et d’études nous expliquant que l’utilisation croissante des cryptomonnaies est un « désastre écologique ». En 2021, Elon Musk le fondateur de Tesla faisait volte-face en annonçant qu’il refuserait les paiements en Bitcoin. Il les jugeait à l’époque trop coûteux pour l’environnement. Quelques mois avant, ce même Elon Musk avait acheté pour 1,5 milliard de dollars de Bitcoin. Derrière l’indignation à géométrie variable qui règne, nous avons cherché des réponses sur l’impact écologique des cryptomonnaies.
 
+- [Bitcoin catastrophe ou bénédiction écologique ? Bitcoin explication pollution - bitcoin pollue](https://youtu.be/bJh6apM2n24)
+- [Pour en finir définitivement avec le débat “Bitcoin & écologie”](https://youtu.be/VsBnEzL5voM)
+- [Le Bitcoin peut-il être écolo ? - CRYPTO #07 - String Theory](https://youtu.be/hwTSa2mgQJ0)
+
 ## La crypto-pollution : une réalité, et des opinions contestables
 
 Le développement des projets blockchains ces dernières années est décrit comme un fléau écologique. Ce sujet a pris de l’ampleur dans le discours des écologistes, en particulier après les nombreux articles dénonçant le Bitcoin comme principal responsable. 

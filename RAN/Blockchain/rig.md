@@ -4,6 +4,10 @@ Quand on se lance dans l’aventure du Mining, plein de questions devraient vous
 
     “De quel matériel ai-je besoin pour démarrer ?”
 
+- [💰📀 Choisir ses composants pour miner des cryptos 2022 (matériel minage)🚀](https://youtu.be/vn1x1SDcAdw)
+- [Quels matériels pour miner des cryptos en 2022 ?🚀🚀🚀](https://youtu.be/BL3rbMGJ1Yc)
+- [On a coupé nos rigs ! Bilan post-Merge ETH. Quel avenir pour le mining ?](https://youtu.be/ik4N9Bi05d8)
+
 ## Les composants principaux du RIG
 
 > La carte mère
@@ -55,6 +59,7 @@ Afin de coupler plusieurs alimentations entre elles, vous pouvez utiliser des co
 Les risers vont permettre de déporter les GPUs de la carte mère et ainsi pouvoir utiliser les ports PCI-E 1x présents sur votre carte. Il existe plusieurs versions, la dernière en date est la 009s. Ces risers sont primordiaux et leur qualité doit être la meilleure possible.
 
 Un point important est à prendre en compte sur ce composant, les types d’alimentation. Il en existe 3 :
+
 - Le 6 pin
 - Le molex
 - Le sata
@@ -63,7 +68,7 @@ Le 6 pin est le plus performant et le plus fiable. Il faut toujours privilégier
 
 Le molex est l’entre deux et est à utiliser si vous n’avez pas le choix des 6 Pin (pas assez de câbles par exemple)
 
-Le sata est le câble d’alimentation le moins fiable et le moins performant. Il est généralement livré un adaptateur en sata avec les risers, il ne faut pas l’utiliser. 
+Le sata est le câble d’alimentation le moins fiable et le moins performant. Il est généralement livré un adaptateur en sata avec les risers, il ne faut pas l’utiliser.
 
 Les seuls points importants à respecter, on n’utilise pas les ports SATA / MOLEX et on préfère le PCI-e !
 

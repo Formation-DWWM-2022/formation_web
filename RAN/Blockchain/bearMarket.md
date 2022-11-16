@@ -14,7 +14,7 @@ Ces périodes de marché étant extrêmement puissantes, la redescente est ensui
 
 Un bear market, ou « marché d’ours » en français, correspond à une correction du prix et à une tendance baissière qui dure plusieurs mois ou années. Ce terme nous vient du monde boursier et est le contraire d’un bull market (« marché de taureau »).
 
-Ces deux animaux ne sont pas choisis au hasard, l’ours frappe son adversaire de haut en bas, tandis que le taureau le soulève par les cornes de bas en haut. Habituellement, un bear market est défini par une baisse de plus de 20% de l’actif. 
+Ces deux animaux ne sont pas choisis au hasard, l’ours frappe son adversaire de haut en bas, tandis que le taureau le soulève par les cornes de bas en haut. Habituellement, un bear market est défini par une baisse de plus de 20% de l’actif.
 
 Avec l’extrême volatilité du marché crypto, le bear market correspond plutôt à une baisse d’environ 80% du Bitcoin. La régression est encore plus violente pour les altcoins, parfois moins 98%, soit un prix divisé par 50 ! La confiance accordée au marché des cryptomonnaies est alors très faible, les investisseurs particuliers sont pour la plupart écœurés et se désintéressent du sujet.
 
@@ -22,7 +22,7 @@ Avec l’extrême volatilité du marché crypto, le bear market correspond plut�
 
 ## Les différents bear market du marché crypto
 
-En juin 2011, le Bitcoin atteint le prix de 32$. La première longue correction baissière a alors lieu, renvoyant le Bitcoin a une valeur de 2$ en novembre de la même année soit 94% de correction. Il faudra attendre février 2013 pour qu’un nouvel ATH (all-time high, ou plus haut historique en français) ait lieu. 
+En juin 2011, le Bitcoin atteint le prix de 32$. La première longue correction baissière a alors lieu, renvoyant le Bitcoin a une valeur de 2$ en novembre de la même année soit 94% de correction. Il faudra attendre février 2013 pour qu’un nouvel ATH (all-time high, ou plus haut historique en français) ait lieu.
 
 En novembre 2013, le Bitcoin est coté à plus de 1200$. Après cette phase de bulle, le marché baissier débute et le prix chute de plus de 85% pour se retrouver à près de ~170$ en août 2015. Après 4 ans d’attente, le prix du Bitcoin retrouve les 1000$, la tendance devient bull, et le prix monte jusqu’à près de 20 000$ en moins d'un an.
 
@@ -34,7 +34,7 @@ En novembre 2013, le Bitcoin est coté à plus de 1200$. Après cette phase de b
 08/01/2021 à 22/01/2021 | 14 | 42000 | 28800 | -31% | 31
 26/06/2019 à 13/03/2020 | 261 | 13880 | 3850 | -72% | 493
 17/12/2017 à 15/12/2018 | 363 | 19783 | 3130 | -84% | 1095
-08/11/2017 à 12/11/2017 | 4	| 7879 | 5507 | -30% | 8
+08/11/2017 à 12/11/2017 | 4 | 7879 | 5507 | -30% | 8
 02/09/2017 à 15/09/2017 | 13 | 5014 | 2951 | -41% | 40
 11/06/2017 à 16/07/2017 | 35 | 3025 | 1837 | -39% | 55
 10/03/2017 à 24/03/2017 | 14 | 1326 | 892 | -33% | 48
@@ -50,10 +50,9 @@ En novembre 2013, le Bitcoin est coté à plus de 1200$. Après cette phase de b
 
 L’analyse des bullruns précédents, ainsi que certains indicateurs, peuvent nous aider à comprendre où l’on se situe dans le bullrun actuel. Attention toutefois, on ne peut prédire avec exactitude l’évolution du cours du Bitcoin selon des analyses de phases passées.
 
-Les indicateurs qui vont être présentés sont seulement indicatifs, iIl ne faut pas se baser seulement sur eux pour établir sa stratégie. Il est toujours plus sage d'apprendre à prendre des profits car il est impossible de timer parfaitement un top de marché. 
+Les indicateurs qui vont être présentés sont seulement indicatifs, iIl ne faut pas se baser seulement sur eux pour établir sa stratégie. Il est toujours plus sage d'apprendre à prendre des profits car il est impossible de timer parfaitement un top de marché.
 
 - Le Rainbow Chart
 - Extensions de Fibonacci et RSI
 - MVRV Z-Score
 - RHODL
-

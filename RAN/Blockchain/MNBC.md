@@ -4,6 +4,10 @@ La majorité des économies mondiales considèrent l’émission d’une monnaie
 
 ![](https://cryptoast.fr/wp-content/uploads/2021/07/monnaie-numerique-banque-centrale-mnbc-.jpg.webp)
 
+- [Les banques centrales se lancent à tout-va dans les monnaies numériques](https://youtu.be/nc5C30ZBan8)
+- [L'arrivée des MNBC accélérera-t-elle l'adoption de masse du Bitcoin ?](https://youtu.be/-f4ymJ6eKOs)
+- [Les travaux innovants autour d’une monnaie numérique de banque centrale (MNBC) | Banque de France](https://youtu.be/vNFoVyOCqSE)
+
 ## À quoi servent les monnaies numériques de banque centrale ?
 
 Les monnaies numériques de banque centrale (MNBC) sont des versions exclusivement numériques des monnaies fiat émises par diverses banques centrales. Elles fonctionnent avec des registres en réseau, qui permettent d’enregistrer les transactions. Les MNBC sont centralisées : elles sont uniquement émises par la banque centrale du pays ou de la région et ne reposent a priori pas sur un réseau de mineurs, à l’inverse du Bitcoin (BTC) par exemple.

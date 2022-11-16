@@ -1,5 +1,8 @@
 # Un étudiant de 19 ans piégé et tué pour 200 000 euros de cryptomonnaie
 
+- [Ne stockez JAMAIS des Bitcoins chez vous.](https://youtu.be/ey9_04jclqo)
+- [L'histoire de mon agression | Hasheur Live](https://youtu.be/yWPMHy7zB8M)
+
 Un étudiant, ingénieur en informatique, sans histoire et âgé de 19 ans aurait été assassiné dans le seul but de lui voler ses cryptomonnaies. 5 suspects ont été mis en examen.
 
 Accueil » Actu des cryptomonnaies » Actualité du Bitcoin (BTC) » Un étudiant de 19 ans piégé et tué pour 200 000 euros de cryptomonnaie

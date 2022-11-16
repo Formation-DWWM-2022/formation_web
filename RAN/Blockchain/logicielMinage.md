@@ -2,6 +2,10 @@
 
 Première étape pour commencer à miner des cryptomonnaies, le choix d'un logiciel de minage nécessite de prendre certains paramètres en considération. Afin de générer des revenus supplémentaires, ou même de s'enrichir plus largement, de plus en plus de gens s'intéressent aux cryptomonnaies. Sujet réservé aux experts il y a encore quelques années, le minage des monnaies virtuelles est d'autant plus intéressant qu'il ne nécessite pas d'investir son propre argent, si ce n'est pour acquérir le matériel informatique et le logiciel adéquats. Le choix de ce dernier doit en effet se faire selon certains critères précis.
 
+- [Logiciel de minage crypto monnaie (par où commencer)](https://youtu.be/SVJ1J85Jf9M)
+- [Les meilleurs logiciels pour miner des crypto](https://youtu.be/2_JGKlcLOhs)
+- [QUEL LOGICIEL DE MINAGE UTILISER POUR MINER DE LA CRYPTOMONNAIE EN 2021, OS POUR DÉBUTANT](https://youtu.be/BBaS0lCsqbA)
+
 ## Pourquoi utiliser un logiciel de minage ?
 
 Un logiciel de minage est un programme informatique par l'intermédiaire duquel les utilisateurs d'une cryptomonnaie valident les transactions effectuées au sein d'une blockchain. Ce processus, appelé minage, nécessite une grande puissance de calcul.  Les mineurs allient la puissance de calcul brut de leurs machines aux logiciels de minage, afin de valider le plus de blocs possible. Ils obtiennent ainsi des récompenses sous forme de tokens, fournis dans la cryptomonnaie qu'ils minent. Un logiciel de minage peut se présenter sous la forme la plus simple d'une interface en ligne de commande (CLI), ou encore sous celle d'une interface bien plus sophistiquée, à l'image des logiciels couramment utilisés par le grand public.

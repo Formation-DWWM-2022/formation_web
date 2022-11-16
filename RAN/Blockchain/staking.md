@@ -4,6 +4,10 @@ Comme de nombreux aspects des cryptomonnaies, le staking peut être un concept c
 
 ![](https://images.ctfassets.net/q5ulk4bp65r7/3tzJIgkHEKOaubmZIUA5HY/35a85bd3cd3595af8bcf02725a020a0c/Learn_Illustration_What_is_Staking.png?w=768&fm=png)
 
+- [Le staking expliqué en 10 minutes !](https://youtu.be/VHPsHyYSSWo)
+- [Le STAKING c'est quoi ? c'est rentable ?](https://youtu.be/F3ZGixM7klw)
+- [Staking - Presentation et explication](https://youtu.be/OdAuS0GjFYU)
+
 ## Comment fonctionne le staking ?
 
 Si une cryptomonnaie que vous détenez peut faire l'objet de staking (les options actuelles incluent le Tezos, le Cosmos et désormais l'Ethereum via la nouvelle mise à niveau ETH2), vous pouvez miser une partie de vos avoirs et gagner un taux de pourcentage de récompense au fil du temps. Cela implique généralement un « staking pool », que vous pouvez considérer comme étant similaire à un compte d'épargne portant intérêt.
@@ -21,11 +25,11 @@ Pour une blockchain relativement simple telle que celle du Bitcoin (qui fonction
 
 ## Qu'est-ce qu'une Preuve d'enjeu ?
 
-Un nouveau mécanisme de consensus appelé Preuve d'enjeu a vu le jour, dans le but  d'augmenter la vitesse et l'efficacité tout en réduisant les frais. La Preuve d'enjeu réduit considérablement les coûts, en n'imposant pas à tous les mineurs la résolution de problèmes mathématiques qui est un processus qui consomme beaucoup d'énergie. Au lieu de cela, les transactions sont validées par des personnes qui sont littéralement investies dans la blockchain via le staking. 
+Un nouveau mécanisme de consensus appelé Preuve d'enjeu a vu le jour, dans le but  d'augmenter la vitesse et l'efficacité tout en réduisant les frais. La Preuve d'enjeu réduit considérablement les coûts, en n'imposant pas à tous les mineurs la résolution de problèmes mathématiques qui est un processus qui consomme beaucoup d'énergie. Au lieu de cela, les transactions sont validées par des personnes qui sont littéralement investies dans la blockchain via le staking.
 
-- Le staking est une fonction similaire au minage, car c'est le processus au moyen duquel un participant au réseau est sélectionné pour ajouter le dernier lot de transactions à la blockchain et gagner des cryptomonnaies en contrepartie. 
+- Le staking est une fonction similaire au minage, car c'est le processus au moyen duquel un participant au réseau est sélectionné pour ajouter le dernier lot de transactions à la blockchain et gagner des cryptomonnaies en contrepartie.
 - Les mises en œuvre exactes varient d'un projet à l'autre, mais en substance, les utilisateurs mettent leurs jetons en jeu pour avoir une chance d'ajouter un nouveau bloc sur la blockchain en contrepartie d'une récompense. Leurs jetons bloqués constituent une garantie de légitimité de toute nouvelle transaction qu'ils ajoutent à la blockchain.
-- Le réseau choisit les validateurs (tels qu'ils sont généralement connus) en fonction de la taille et de la durée de détention de leur staking. Ainsi, les participants les plus investis sont récompensés. S'il s'avère que les transactions d'un nouveau bloc ne sont pas valides, les utilisateurs peuvent voir une partie de leur staking détruit par le réseau, ce que l'on appelle un événement de « slashing ». 
+- Le réseau choisit les validateurs (tels qu'ils sont généralement connus) en fonction de la taille et de la durée de détention de leur staking. Ainsi, les participants les plus investis sont récompensés. S'il s'avère que les transactions d'un nouveau bloc ne sont pas valides, les utilisateurs peuvent voir une partie de leur staking détruit par le réseau, ce que l'on appelle un événement de « slashing ».
 
 ## Quels sont les avantages du staking ?
 
@@ -45,10 +49,8 @@ Quasiment toutes les plateformes crypto de ce top 5 ont obtenu le statut de PSAN
 
 En général, le staking est ouvert à tous ceux qui veulent y participer. Cela dit, devenir un validateur complet peut nécessiter un investissement minimum important (par exemple, l'ETH2 requiert un minimum de 32 ETH), des connaissances techniques ainsi qu'un ordinateur dédié capable d'effectuer des validations de jour comme de nuit sans interruption. À ce niveau, la participation s'accompagne de considérations de sécurité et constitue une obligation sérieuse, car un temps d'arrêt peut entraîner la baisse de la mise d'un validateur.
 
-Mais pour la grande majorité des participants, il existe un moyen plus simple de participer. Avec une plateforme d'échange comme Coinbase, vous pouvez contribuer à un pool de staking en investissant un montant en fonction de vos moyens. Cela réduit les obstacles d'accès et permet aux investisseurs de commencer à gagner des récompenses sans avoir à utiliser leur propre matériel de validation. Le staking est disponible pour la plupart des clients de Coinbase aux États-Unis et dans de nombreux autres pays. 
+Mais pour la grande majorité des participants, il existe un moyen plus simple de participer. Avec une plateforme d'échange comme Coinbase, vous pouvez contribuer à un pool de staking en investissant un montant en fonction de vos moyens. Cela réduit les obstacles d'accès et permet aux investisseurs de commencer à gagner des récompenses sans avoir à utiliser leur propre matériel de validation. Le staking est disponible pour la plupart des clients de Coinbase aux États-Unis et dans de nombreux autres pays.
 
 ## Notre sélection des 3 meilleures plateformes de staking crypto
 
 ![](https://cdn.discordapp.com/attachments/755679567598977034/1042035716215017492/image.png)
-
-

@@ -1,8 +1,12 @@
 # Qu'est-ce qu'une carte crypto ?
 
-De plus en plus de cartes crypto sont proposées par des plateformes comme Binance, Bitpanda ou encore Coinbase. Mais comment choisir celle qui vous convient ? À quelle plateforme faire confiance ? Quelles sont les caractéristiques de chaque crypto-carte ? 
+De plus en plus de cartes crypto sont proposées par des plateformes comme Binance, Bitpanda ou encore Coinbase. Mais comment choisir celle qui vous convient ? À quelle plateforme faire confiance ? Quelles sont les caractéristiques de chaque crypto-carte ?
 
 ![](https://cryptoast.fr/wp-content/uploads/2022/05/cartes-crypto-comparatif-meilleures-cartes-payer-cryptomonnaie.jpg.webp)
+
+- [Les cartes CRYPTO](https://youtu.be/ZdcQ3ltL5fo)
+- [Comparatif Cartes CRYPTO bancaires | Mon classement 2022](https://youtu.be/nfIqojcMtT0)
+- [MEILLEURE CARTE CRYPTO? BINANCE OU CRYPTO.COM ?](https://youtu.be/zORPfuYnffc)
 
 ## L'origine des cartes crypto
 

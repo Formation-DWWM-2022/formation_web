@@ -2,6 +2,13 @@
 
 Le succès et la volatilité des cryptomonnaies ont conduit les autorités du monde entier à se saisir de la question de leur régulation fiscale et juridique. Aux États-Unis, ces actifs numériques sont en passe de tomber dans le cadre de la réglementation financière classique. Côté européen, la Commission européenne prévoit la mise en place d’un cadre juridique vers 2024. Cependant, chaque État membre met en place sa propre politique fiscale. En la matière, la France s’avère être le pays où l’on taxe le plus les cryptomonnaies.
 
+- [La fiscalité crypto 2022 : ce qu'il faut savoir !](https://youtu.be/3C5fIG0s4iU)
+- [Impôt et Crypto - Flat Tax, particulier, professionnel ?](https://youtu.be/fLPetGzntLg)
+- [Tout comprendre en 8 minutes - Crypto Déclaration fiscale - Fiscalité Bitcoin / Crypto monnaie](https://youtu.be/YOfU2JQJPRU)
+- [Régulation : quel avenir pour les cryptomonnaies ?](https://youtu.be/2HcHZCjSR7U)
+- [MICA en moins de 15min, ça change quoi ? | Régulation Européenne](https://youtu.be/Sj0nJSCNhBU)
+- [🇫🇷 Fiscalité Crypto 2022 : Comment et quoi déclarer ?](https://youtu.be/FIVn2oR4iQg)
+
 ## L’ascension des cryptomonnaies
 
 Les cryptomonnaies sont des monnaies numériques émises sans intervention des banques centrales (on parle aussi de cryptoactifs ou d’actifs numériques). Elles se caractérisent par l’absence de support physique (ni pièce, ni billet, ni chèque, ni carte bancaire) et échappent ainsi au contrôle des banques centrales. Sur le plan idéologique, les cryptomonnaies sont une forme de monnaie libertaire qui ne délègue pas le contrôle de la masse monétaire aux Banques centrales et aux gouvernements pour le rendre aux individus.

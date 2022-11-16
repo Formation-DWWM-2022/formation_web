@@ -6,6 +6,9 @@ Les objectifs de cet ambitieux projet étaient de concevoir un protocole démocr
 
 Le point détaillé sur ce réseau pas tout à fait comme les autres.
 
+- [Effondrement de l'écosystème Terra Luna | Conséquences & Théories](https://youtu.be/rICV4w-OhO4)
+- [Terra Luna - l'histoire d'un effondrement! 📉](https://youtu.be/WoQrqKx_4us)
+
 ## Fonctionnement de Terra Luna
 
 Cette blockchain conçue sur mesure accueille des stablecoins adossés aux monnaies dites traditionnelles (dollar, euro, livre sterling…).

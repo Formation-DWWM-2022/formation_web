@@ -1,10 +1,13 @@
-# Qui sont les milliardaires de la crypto ? 
+# Qui sont les milliardaires de la crypto ?
 
 Ils s’appellent Changpeng Zhao, Brian  Armstrong, les frères Winklevoss, Vitalik Buterin… Jeunes et audacieux, ils ont le plus souvent la trentaine ou la quarantaine. Ce sont les nouveaux milliardaires avec, pour certains, une fortune qui défie celle des fondateurs de Facebook ou Google…
 
 Il a fallu attendre l'année 2020 pour qu'un personnage de l'univers de la cryptomonnaie s'insinue dans les classements des grandes fortunes gérées par des médias tels que Forbes ou Fortune. Il s'agissait de Chris Larsen, cofondateur de Ripple, créateur de la monnaie XRP.
 
 Dès 2021, ils étaient sept à figurer dans le Forbes 400 qui donne la liste des 400 plus grandes fortunes américaines et ce magazine avait alors noté qu'à eux sept, ils représentaient 55,1 milliards de dollars. Et ils sont voués à être de plus en plus nombreux. Qui sont ces milliardaires de la cryptomonnaie et comment ont-ils bâti leur réussite ?
+
+- [Ils sont devenus milliardaires grâce au BITCOIN](https://youtu.be/Y4-D_aRLv7o)
+- [Milliardaire grâce au Bitcoin | 3 histoires incroyables](https://youtu.be/O5bWNLJyUTw)
 
 ## Changpeng Zhao
 
