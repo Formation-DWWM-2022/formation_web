@@ -61,11 +61,11 @@
 
 - [Qu’est-ce que le Web3, cette version décentralisée d’Internet ?](./web3.md)
 - [Smart Contract, vers la sécurisation et l’automatisation des obligations contractuelles](./smartContrats.md)
-- Qu’est-ce qu’un NFT et pourquoi investir ?
-- Quelle régulation et fiscalité pour les tokens non fongibles (NFT) ?
-- Comment créer un token non fongible (NFT) gratuitement ?
+- [Qu’est-ce qu’un NFT et pourquoi investir ?](./nft.md)
+- [Quelle régulation et fiscalité pour les tokens non fongibles (NFT) ?]()
+- [Comment créer un token non fongible (NFT) gratuitement ?](./createNFT.md)
 - [Metaverse : comprendre ces mondes virtuels basés sur la blockchain et les NFTs](./metaverse.md)
 - [Guide des Play to Earn – Gagner des crypto monnaies en jouant à des jeux sur la blockchain](./playToEarn.md)
 - [Blockchain et jeux vidéo : un réel cas d'utilisation ?](./useCaseVideoGameBlockchain.md)
 - [RealT Avis et Tuto (2022) : la plateforme qui révolutionne l’immobilier grâce à la tokenisation](https://cryptoast.fr/realt-tokenisation-biens-immobiliers/)
-- Move-to-Earn : votre activité physique récompensée en cryptomonnaies
+- [Move-to-Earn : votre activité physique récompensée en cryptomonnaies](./move-to-Earn.md)
