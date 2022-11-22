@@ -66,63 +66,102 @@ Chaque notion du cours est illustré par des exemples les plus concrets possible
 
 La documentation la plus importante à mettre en favoris : <https://fr.wordpress.org/support/>
 
-## 1A • L’écosystème WordPress et les prérequis
+## L’écosystème WordPress et les prérequis
 
 Avant d'entrer dans le vif du sujet il est intéressant d'en savoir un peu plus sur l'écosystème WordPress, de réviser quelques bases de WordPress et prendre connaissance des prérequis.
 
 - [Développeur VS Wordpress](./customOne.md)
 - [Introduction](./introduction.md)
+- [WordPress.com ou WordPress.org, quelle différence ?](./orgVsCom.md)
+- [Faire du business avec WordPress, c’est possible!](./business.md)
 - [Installation de WordPress en local](./installation.md)
-- Créez un site moderne et professionnel avec WordPress :
-  - Connectez-vous au dashboard WordPress
-  - Créez vos premier article
-    - intégrer du texte & images
-    - intégrer une vidéo avec Youtube dans l'un de vos articles
-    - intégrer du son
-  - Vérifiez le temps de chargement de votre site
-  - Passez votre site en français
-  - Changez le titre et le slogan de votre site
-  - Modifiez la catégorie par défaut de vos articles
-  - Configurez les paramètres de commentaires
-  - Créez votre page d’accueil et votre page de blog
-  - Configurez votre page d’accueil et votre page de blog
-  - Créez votre menu de navigation
-  - Accédez au customizer et ajoutez votre logo
-  - Modifiez les options d’apparence du thème
-  - Définissez les objectifs du site
-  - Pensez au référencement dès le début
-  - Définissez la structure de votre site
-  - Choisissez votre thème et votre page builder
-  - Installez votre thème WordPress
-  - Choisissez et installez les extensions WordPress pertinentes pour votre projet
-  - Définissez une charte graphique
-  - Paramétrez les options du thème en fonction de votre charte
-  - Prenez en main le page builder Elementor
-  - Personnalisez le hero de votre page d’accueil
-  - Personnalisez le contenu de la page
-  - Ajoutez un formulaire de contact avec WP Form
-  - Ajoutez un pop-up d’inscription à une newsletter
-  - Sauvegardez votre site régulièrement avec Updraft Plus
-  - Configurez une page d’attente personnalisée
-  - Créez un header ou un footer personnalisé avec Elementor et OceanWP
-  - Ajoutez des CSS personnalisés
-  - Créez des types de contenus personnalisés
-  - Les principaux axes d’optimisation SEO
-  - Optimisation SEO à l’aide de SEO Press
-  - Vérifiez le temps de chargement de votre site
-  - Optimisez le temps de chargement de votre site
-  - Supprimez les contenus non utilisés
-  - Vérifiez le bon affichage des pages sur tout type d’écran
-  - Vérifiez que vos contenus répondent bien aux bonnes pratiques d’accessibilité
-  - Vérifiez que le site ne contient pas de liens cassés
-  - Vérifiez que les formulaires fonctionnent correctement
-  - Créez les pages légalement obligatoires
-  - Protégez votre site des hackers
+- [Installer WordPress en automatique chez OVH](https://youtu.be/fTkZUUGWvgE)
+- [Créez un site moderne et professionnel avec WordPress](./creerSiteModerne.md)
 
-- [Pourquoi WordPress a peur de ce génie belge](https://youtu.be/J403Rt7i-R0)
+## Exercice LVL1
 
-## Exercice
+- [WordPress : Création de contenu](./wp01.md)
+- [WordPress : Création de contenu 2](./wp07.md)
+- [WordPress : Création de contenu en HTML](./wp03.md)
+- [WordPress : Créer une page de contact complète](./wp04.md)
+- [WordPress : Mise en forme de blocs](./wp06.md)
+
+## Installer WordPress et travailler en local
+
+Avant de se lancer dans la création de son thème, voyons d'abord comment mettre en place un environnement de travail sur votre ordinateur.
+
+- [Mettez en place une page d’accueil personnalisée et créez votre menu de navigation tous en personnalisant l’apparence du site grâce au customizer](./pageMenuApparance.md)
+- [Le menu “Réglages” de WordPress : Faites les bons choix !](./reglages.md)
+- [Rôles, droits et privilèges des utilisateurs WordPress](./user.md)
+- [Les catégories sous WordPress : Mode d’emploi](./categories.md)
+- [Aller plus loin avec les Pages WordPress](./pages.md)
+- [Aller plus loin avec son Menu WordPress](./menu.md)
+- [On vous dit tout sur les Widgets WordPress !](./widget.md)
+- [Choisissez votre thème et votre page builder](./choiceThemePageBuilder.md)
+- [Choisissez et installez les extensions WordPress pertinentes pour votre projet](./choiceExtension.md)
+- [Prenez en main Elementor et designez votre page d’accueil](./elementor.md)
+- [Intégrez des fonctionnalités complémentaires grâce aux extensions](./fonctionnalitesComplementaires.md)
+
+## Exercice LVL2
+
+- [WordPress : étudiant](./cv.pdf)
+- Wordpress : client
+  - [escalade](./escalade.pdf)
+  - [fitness](./fitness.pdf)
+  - [sushi](./sushis.pdf)
+  - [yoga](./yoga.pdf)
+
+## Le eCommerce avec WooCommerce
+
+- [Installer, configurer et utiliser WooCommerce](./wooCommerce.md) <!-- pas finis -->
+
+## Sauvegarder WordPress
+
+- [Sauvegardez votre site régulièrement avec Updraft Plus](./updraftPlus.md)
+- [Mettre à jour WordPress tout simplement !](./maj.md) <!-- pas finis -->
+
+## Le SEO et WordPress
+
+- [Optimisez le SEO et suivez le trafic de votre site](./seo.md)
+
+## La Sécurité sous WordPress
+
+- [Protégez votre site des hackers](./protection.md) <!-- pas finis -->
 
 <!--
-- Site de base wordpress : CV + blog : <https://votre-webmaster-freelance.fr/exercice-wordpress-etudiant-cci/> ou <https://votre-webmaster-freelance.fr/exercice-wordpress-etudiant/>
+## Les Check-lists WordPress
+
+## Créer son thème
+
+Dans cette partie nous allons apprendre à créer un thème à partir de rien.
+
+## Advanced Custom Fields
+
+## Concepts avancés
+
+## Page Builders et Gutenberg
+
+## Mettre en ligne son site WordPress
+
+## Les extensions incontournables
+
+## Approche MVC avec Timber et Twig
 -->
+
+## Vous êtes un développeur de thèmes
+
+Bravo ! Votre site est maintenant en ligne, déclaré à Google, et votre trafic tracké par Google Analytics. Vous pouvez faire une pause et célébrer cet accomplissement !
+
+L’histoire ne fait bien sûr que commencer et il sera important de publier régulièrement du contenu, d’analyser votre trafic et votre positionnement SEO, et de procéder régulièrement aux mises à jour de WordPress et de ses composants.
+
+Vous avez maintenant toutes les clés en main pour :
+
+- mettre en ligne WordPress sur un hébergeur ;
+- prendre en main l’administration WordPress ;
+- configurer le thème et les extensions d’un site WordPress ;
+- personnaliser les contenus et le design d’un site WordPress ;
+- optimiser la configuration d’un site WordPress.
+
+J’espère que vous avez apprécié ce moment passé ensemble, et que ce cours vous a donné envie d’aller plus loin dans le monde du webdesign ! Bonne continuation !
+
+- [Pourquoi WordPress a peur de ce génie belge](https://youtu.be/J403Rt7i-R0)

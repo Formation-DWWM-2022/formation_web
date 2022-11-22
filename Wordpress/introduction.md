@@ -79,6 +79,8 @@ La maison mère derrière WordPress s’appelle Automattic et embauche aujourd�
 
 En 2015 Automattic rachète WooCommerce, l’extension e-commerce la plus populaire sur WordPress.
 
+- [10 ans d’histoire WordPress – WordPress Story](https://wpformation.com/wordpress-story-histoire/)
+
 ## Parts de marché
 
 ![](https://cours-web.ch/wp/img/wordpress-usage-2017.png)
