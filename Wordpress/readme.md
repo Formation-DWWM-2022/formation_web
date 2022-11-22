@@ -83,8 +83,6 @@ Avant d'entrer dans le vif du sujet il est intéressant d'en savoir un peu plus 
 - [WordPress : Création de contenu](./wp01.md)
 - [WordPress : Création de contenu 2](./wp07.md)
 - [WordPress : Création de contenu en HTML](./wp03.md)
-- [WordPress : Créer une page de contact complète](./wp04.md)
-- [WordPress : Mise en forme de blocs](./wp06.md)
 
 ## Installer WordPress et travailler en local
 
@@ -104,6 +102,8 @@ Avant de se lancer dans la création de son thème, voyons d'abord comment mettr
 
 ## Exercice LVL2
 
+- [WordPress : Créer une page de contact complète](./wp04.md)
+- [WordPress : Mise en forme de blocs](./wp06.md)
 - [WordPress : étudiant](./cv.pdf)
 - Wordpress : client
   - [escalade](./escalade.pdf)
