@@ -113,7 +113,7 @@ Avant de se lancer dans la création de son thème, voyons d'abord comment mettr
 
 ## Le eCommerce avec WooCommerce
 
-- [Installer, configurer et utiliser WooCommerce](./wooCommerce.md) <!-- pas finis -->
+- [Installer, configurer et utiliser WooCommerce](./wooCommerce.md)
 
 ## Sauvegarder WordPress
 
@@ -128,9 +128,11 @@ Avant de se lancer dans la création de son thème, voyons d'abord comment mettr
 
 - [Protégez votre site des hackers](./protection.md) <!-- pas finis -->
 
-<!--
 ## Les Check-lists WordPress
 
+- [ToDo List après installation WordPress](./toDoList.md)
+
+<!--
 ## Créer son thème
 
 Dans cette partie nous allons apprendre à créer un thème à partir de rien.
