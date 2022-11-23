@@ -84,9 +84,7 @@ Avant d'entrer dans le vif du sujet il est intéressant d'en savoir un peu plus 
 - [WordPress : Création de contenu 2](./wp07.md)
 - [WordPress : Création de contenu en HTML](./wp03.md)
 
-## Installer WordPress et travailler en local
-
-Avant de se lancer dans la création de son thème, voyons d'abord comment mettre en place un environnement de travail sur votre ordinateur.
+## Travailler en local
 
 - [Mettez en place une page d’accueil personnalisée et créez votre menu de navigation tous en personnalisant l’apparence du site grâce au customizer](./pageMenuApparance.md)
 - [Le menu “Réglages” de WordPress : Faites les bons choix !](./reglages.md)
@@ -118,7 +116,6 @@ Avant de se lancer dans la création de son thème, voyons d'abord comment mettr
 ## Sauvegarder WordPress
 
 - [Sauvegardez votre site régulièrement avec Updraft Plus](./updraftPlus.md)
-- [Mettre à jour WordPress tout simplement !](./maj.md) <!-- pas finis -->
 
 ## Le SEO et WordPress
 
@@ -126,16 +123,17 @@ Avant de se lancer dans la création de son thème, voyons d'abord comment mettr
 
 ## La Sécurité sous WordPress
 
-- [Protégez votre site des hackers](./protection.md) <!-- pas finis -->
+- [Protégez votre site des hackers](./protection.md)
 
 ## Les Check-lists WordPress
 
 - [ToDo List après installation WordPress](./toDoList.md)
 
-<!--
 ## Créer son thème
 
 Dans cette partie nous allons apprendre à créer un thème à partir de rien.
+
+- [WordPress sous le capot : les fichiers du coeur et la base de données](./fichierCapot.md)
 
 ## Advanced Custom Fields
 
@@ -148,7 +146,6 @@ Dans cette partie nous allons apprendre à créer un thème à partir de rien.
 ## Les extensions incontournables
 
 ## Approche MVC avec Timber et Twig
--->
 
 ## Vous êtes un développeur de thèmes
 
@@ -167,3 +164,10 @@ Vous avez maintenant toutes les clés en main pour :
 J’espère que vous avez apprécié ce moment passé ensemble, et que ce cours vous a donné envie d’aller plus loin dans le monde du webdesign ! Bonne continuation !
 
 - [Pourquoi WordPress a peur de ce génie belge](https://youtu.be/J403Rt7i-R0)
+
+<!-->
+- [Mettre à jour WordPress tout simplement !](./maj.md)
+- <https://wpmarmite.com/optimiser-wordpress/>
+- <https://wpmarmite.com/htaccess-wordpress/>
+- <https://wpmarmite.com/wordpress-multilingue/>
+-->

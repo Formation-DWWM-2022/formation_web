@@ -3,6 +3,8 @@
 - [ELEMENTOR : Comment l’utiliser pour créer un site WordPress ? (2020) - Tuto FR](https://youtu.be/ctpCTo-Fc9Y)
 - [ELEMENTOR : Formation / tutoriel 100% gratuit sur WordPress](https://youtu.be/f7V5D2zxfjI)
 - [WordPress Elementor : Le tutoriel ultime (et gratuit) | Formation 2021/2022 en français](https://youtu.be/_LixFHi9SKs)
+- [Elementor ou Divi : Quel est le meilleur constructeur de page WordPress ?](https://www.youtube.com/watch?v=vSXl8NtIG4Y)
+- [Tutoriel Full Site Editing : Le futur de WordPress ?](https://youtu.be/p_0xWlMVYD4)
 
 La page d’accueil ainsi que les autres pages importées via le site de démo sont déjà créées avec Elementor. Pour les éditer avec Elementor, il suffit donc de visiter la page que vous souhaitez éditer et de cliquer sur “Modifier avec Elementor” dans la top bar d’administration.
 
