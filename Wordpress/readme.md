@@ -133,7 +133,23 @@ Avant d'entrer dans le vif du sujet il est intéressant d'en savoir un peu plus 
 
 Dans cette partie nous allons apprendre à créer un thème à partir de rien.
 
+- [Prérequis techniques pour développer sous WordPress](./prerequis.md)
+- [Créer son thème ou utiliser des page builders ?](./creerVSPageBuilder.md)
+- [Starter themes, Frameworks WordPress ou fait-maison ?](./starterVsFrameworkVsMaison.md)
 - [WordPress sous le capot : les fichiers du coeur et la base de données](./fichierCapot.md)
+- [Debugguer son code avec le log PHP et le Debug True](./debugguerPHP.md)
+- [Analyse wp-config.php et bonnes pratiques](./analyseConfig.md)
+
+  Les concepts de base pour créer son thème
+
+- [Introduction : anatomie d’un thème](./anatomie.md)
+- [Créer la base de son thème WordPress](./creerBase.md)
+- [L’en-tête et le pied de page](./headerFooter.md)
+
+  Les fonctionnalités de thème de WordPress
+
+- [Les Hooks et le fichier functions.php](./hookFunctions.md)
+- [Charger les scripts et les styles](./chargerCSSJS.md)
 
 ## Advanced Custom Fields
 
