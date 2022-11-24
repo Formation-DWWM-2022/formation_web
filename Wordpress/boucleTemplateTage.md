@@ -203,3 +203,118 @@ La fonction the_permalink() permet d’afficher le lien vers l’article. il fau
 Vous pouvez configurer la structure des permaliens dans Réglages > Permaliens.
 
 Dans cet exemple je n’ai mis le lien que sur le texte « Lire la suite », mais j’aurais pu également l’appliquer sur le titre ainsi que sur l’image mise en avant, de la même manière.
+
+> Pour de belles URLs et un meilleur référencement optez pour la configuration « Titre de publication » /%postname%/ qui est normalement le réglage par défaut.
+
+## Afficher un article (single)
+
+Passons maintenant aux articles. En cliquant sur un lien dans la page du blog, c’est la page single.php qui est appelée. Voici le code PHP que j’ai choisi d’y mettre :
+
+```php
+<?php get_header(); ?>
+  <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
+    
+    <article class="post">
+      <?php the_post_thumbnail(); ?>
+
+      <h1><?php the_title(); ?></h1>
+
+      <div class="post__meta">
+        <?php echo get_avatar( get_the_author_meta( 'ID' ), 40 ); ?>
+        <p>
+          Publié le <?php the_date(); ?>
+          par <?php the_author(); ?>
+          Dans la catégorie <?php the_category(); ?>
+          Avec les étiquettes <?php the_tags(); ?>
+        </p>
+      </div>
+
+      <div class="post__content">
+        <?php the_content(); ?>
+      </div>
+    </article>
+
+  <?php endwhile; endif; ?>
+<?php get_footer(); ?>
+```
+
+Copiez-le dans single.php et affichez un article sur votre blog :
+
+![](https://capitainewp.io/wp-content/uploads/2017/05/single-article-1600x1433.jpg.webp)
+
+On va passer en revue les nouveaux template tags utilisés dans cette page :
+
+    L’avatar de l’auteur
+
+La fonction get_avatar() permet de récupérer l’avatar de l’auteur, en se servant du service Gravatar. Si vous n’en n’avez pas déjà fait un, allez le créer gratuitement sur ce site.
+
+> Gravatar appartient à Automattic, la maison mère de WordPress. Ce service d’avatars décentralisé est utilisé par de nombreux services web comme Github ou Stack Overflow par exemple.
+
+Vous allez me demander pourquoi je n’ai pas utilisé the_avatar() : tout simplement parce que cette fonction n’existe pas ! Pourquoi ? Eh bien, euh, bonne question !
+
+Le premier paramètre attendu est l’identifiant de l’utilisateur dont on doit afficher l’avatar. Dans notre cas, c’est l’auteur. On récupère son identifiant par un autre template tag get_the_author_meta('ID').
+
+```php
+<?php echo get_avatar( get_the_author_meta( 'ID' ), 40 ); ?>
+```
+
+Le second paramètre est la taille de l’image. En effet Gravatar peut la générer à la volée pour vous. J’ai défini 40 pour une image carrée de 40px de côté.
+
+## Les catégories et les étiquettes
+
+Et enfin on utilise the_category() et the_tags() pour afficher la catégorie et les éventuelles étiquettes (anciennement mots-clés).
+
+Cela aura pour effet d’afficher des listes `<ul><li>`. En cliquant sur une catégorie, vous afficherez une archive des derniers articles de cette catégorie seulement.
+
+Notez que je n’ai pas affiché les catégories ni les étiquettes dans la page archive, mais j’aurais pu tout à fait le faire : le choix des informations que vous allez afficher ou non est complètement arbitraire en fonction des besoins de votre site. Les template tags fonctionnent dans n’importe quelle boucle.
+
+## Liste des Template Tags les plus utilisés
+
+Pour résumer, voici la liste des templates tags que l’on va utiliser le plus régulièrement :
+
+    - the_title() : affiche le titre de l’article ou la page ;
+    - the_content() : affiche le contenu, écrit depuis l’éditeur visuel (Gutenberg ou TinyMCE) ;
+    - the_post_thumbnail() : affiche l’éventuelle image mise en avant ;
+    - the_excerpt() : affiche un extrait de l’article, soit le contenu du champ extrait, soit le début de l’article jusqu’à la balise Lire la suite ;
+    - the_category() : affiche une liste de la ou des catégories sélectionnées ;
+    - the_tags() : affiche une liste des éventuelles étiquettes de l’article ;
+    the_author() : affiche le nom de l’auteur ;
+    the_author_link() : affiche le nom de l’auteur avec un lien vers son site personnel ;
+    - the_date() : affiche une fois les dates où des articles ont été publiés ;
+    - the_time() : affiche la date de publication de chaque article ;
+    - the_permalink() : affiche l’URL vers l’article, à mettre dans une balise <a> ;
+    - comment_number() : affiche le nombre de commentaires publiés dans l’article ;
+    get_avatar() : Récupère l’avatar d’un utilisateur depuis le service Gravatar ;
+
+Utilisez-les comme bon vous semble dans vos templates !
+
+Pour connaitre la liste complète de tous les templates tags, référez-vous à la documentation officielle : liste des template tags.
+
+En règle générale, allez toujours faire un tour dans la documentation développeurs afin de tout savoir de la fonction que vous souhaitez utiliser et ses éventuels paramètres (comme on a pu le voir avec le nombre de commentaires) et en découvrir de nouvelles.
+
+Un bon développeur lit la documentation ! Comme on dit dans le métier : RTFM ! <https://developer.wordpress.org/reference/>
+
+## Les équivalents en « get »
+
+Parfois, vous aurez besoin de récupérer la valeur sans directement l’afficher dans votre template, afin de la traiter en PHP. Si vous souhaitez récupérer la valeur du titre sans l’afficher par exemple, the_title() ne fonctionnera pas, il faudra alors utiliser son équivalent get_the_title() :
+
+```php
+<?php 
+ $title = get_the_title();
+ 
+ // Si le titre contient le mot "promo", j'ajoute un emoji
+ if( strpos( $title, 'promo' ) !== false ) {
+  $title = '💰' . $title; 
+ }
+?>
+<h1><?php echo $title; ?></h1>
+```
+ 
+Retenez donc que :
+
+    Les fonctions en the_ affichent directement la donnée dans le template ;
+    Les fonctions en get_ la récupèrent sans l’afficher, en vue d’un traitement.
+
+Comme vous pouvez vous en douter, il existe un équivalent « get » à chacun des template tags.
+
+Grâce à la boucle WordPress, aux template tags et au template hierarchy, on a ajouté pas mal de dynamisme à notre thème ! Dans les cours suivants, on va voir quelques autres concepts utiles pour gérer nos templates.

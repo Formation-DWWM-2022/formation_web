@@ -148,11 +148,16 @@ Les concepts de base pour créer son thème
 - [Préparer des faux contenus avec FakerPress](fakerPress.md)
 - [Le Template Hierarchy](./templateHierarchy.md)
 - [La boucle WordPress et les templates tags](./boucleTemplateTage.md)
+- [Les templates parts](./templatesParts.md)
+- [Les conditional tags](./conditionalTags.md)
+- [Les templates de pages personnalisés](./pagePersonnalises.md)
+- [Les champs personnalisés : custom fields](./customFields.md)
 
 Les fonctionnalités de thème de WordPress
 
 - [Les Hooks et le fichier functions.php](./hookFunctions.md)
 - [Charger les scripts et les styles](./chargerCSSJS.md)
+- [Les images mises en avant, les tailles d’images et le srcset](./imagesTaille.md)
 
 ## Advanced Custom Fields
 
