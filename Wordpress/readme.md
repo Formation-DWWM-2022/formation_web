@@ -140,13 +140,16 @@ Dans cette partie nous allons apprendre à créer un thème à partir de rien.
 - [Debugguer son code avec le log PHP et le Debug True](./debugguerPHP.md)
 - [Analyse wp-config.php et bonnes pratiques](./analyseConfig.md)
 
-  Les concepts de base pour créer son thème
+Les concepts de base pour créer son thème
 
 - [Introduction : anatomie d’un thème](./anatomie.md)
 - [Créer la base de son thème WordPress](./creerBase.md)
 - [L’en-tête et le pied de page](./headerFooter.md)
+- [Préparer des faux contenus avec FakerPress](fakerPress.md)
+- [Le Template Hierarchy](./templateHierarchy.md)
+- [La boucle WordPress et les templates tags](./boucleTemplateTage.md)
 
-  Les fonctionnalités de thème de WordPress
+Les fonctionnalités de thème de WordPress
 
 - [Les Hooks et le fichier functions.php](./hookFunctions.md)
 - [Charger les scripts et les styles](./chargerCSSJS.md)
