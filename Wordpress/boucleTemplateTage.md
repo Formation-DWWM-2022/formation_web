@@ -198,7 +198,7 @@ Ah, et une dernière chose importante :
 
     Le Permalien
 
-La fonction the_permalink() permet d’afficher le lien vers l’article. il faut placer cette fonction dans l’attribut href de la balise <a>. On appelle ces liens des permaliens et ils sont générés automatiquement par WordPress.
+La fonction the_permalink() permet d’afficher le lien vers l’article. il faut placer cette fonction dans l’attribut href de la balise `<a>`. On appelle ces liens des permaliens et ils sont générés automatiquement par WordPress.
 
 Vous pouvez configurer la structure des permaliens dans Réglages > Permaliens.
 

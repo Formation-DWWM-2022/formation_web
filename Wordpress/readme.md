@@ -102,12 +102,12 @@ Avant d'entrer dans le vif du sujet il est intéressant d'en savoir un peu plus 
 
 - [WordPress : Créer une page de contact complète](./wp04.md)
 - [WordPress : Mise en forme de blocs](./wp06.md)
-- [WordPress : étudiant](./cv.pdf)
 - Wordpress : client
   - [escalade](./escalade.pdf)
   - [fitness](./fitness.pdf)
   - [sushi](./sushis.pdf)
   - [yoga](./yoga.pdf)
+- [WordPress : étudiant](./cv.pdf)
 
 ## Le eCommerce avec WooCommerce
 
