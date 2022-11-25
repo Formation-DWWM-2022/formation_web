@@ -158,6 +158,7 @@ Les fonctionnalités de thème de WordPress
 - [Les Hooks et le fichier functions.php](./hookFunctions.md)
 - [Charger les scripts et les styles](./chargerCSSJS.md)
 - [Les images mises en avant, les tailles d’images et le srcset](./imagesTaille.md)
+- [Les menus et le moteur de recherche](./menuMoteurRecherche.md)
 
 ## Advanced Custom Fields
 
