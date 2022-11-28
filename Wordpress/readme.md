@@ -140,7 +140,9 @@ Dans cette partie nous allons apprendre à créer un thème à partir de rien.
 - [Debugguer son code avec le log PHP et le Debug True](./debugguerPHP.md)
 - [Analyse wp-config.php et bonnes pratiques](./analyseConfig.md)
 
-Les concepts de base pour créer son thème
+### Les concepts de base pour créer son thème
+
+WordPress fournit toute une architecture ainsi que des fonctions pour vous aider dans la conception de votre thème. Et les maitriser vous fera gagner beaucoup de temps !
 
 - [Introduction : anatomie d’un thème](./anatomie.md)
 - [Créer la base de son thème WordPress](./creerBase.md)
@@ -153,14 +155,38 @@ Les concepts de base pour créer son thème
 - [Les templates de pages personnalisés](./pagePersonnalises.md)
 - [Les champs personnalisés : custom fields](./customFields.md)
 
-Les fonctionnalités de thème de WordPress
+### Les fonctionnalités de thème de WordPress
+
+Tout ce qu'il faut connaitre pour configurer votre thème via le fichier functions.php : Images à la Une, menus, sidebar, commentaires...
 
 - [Les Hooks et le fichier functions.php](./hookFunctions.md)
 - [Charger les scripts et les styles](./chargerCSSJS.md)
 - [Les images mises en avant, les tailles d’images et le srcset](./imagesTaille.md)
 - [Les menus et le moteur de recherche](./menuMoteurRecherche.md)
+- [Les sidebars et les widgets](./sidebarsWidgets.md)
+- [La pagination et la navigation entre articles](./paginationNavigation.md)
+- [Les commentaires](./commentaires.md)
+
+### Les Custom Post Types et Taxonomies
+
+Ou en français, les types de publication personnalisés. Ils vont permettre de publier du contenu qui n'irait ni dans les pages, ni dans les articles.
+
+- [Les types de publications et les taxonomies](./typePublication&Taxonomies.md)
+- [Créer un Custom Post Type dans un thème](./creerCustomPostTye.md)
+- [CPT, Template Hierarchy et Conditionnal tags](./cptTemplateHierarchyConditionnalTags.md)
+- [Créer des Taxonomies](./creerTaxonomies.md)
 
 ## Advanced Custom Fields
+
+On peut vite atteindre les limites de WordPress, et être bloqué dans la réalisation de designs modernes et avancés. Heureusement pour nous, Advanced Custom Fields, qui s'est rapidement imposé comme un outil incontournable, va nous sauver la mise grâce à son sytème de champs additionnels améliorés. Aujourd'hui, il est impossible de s'en passer !
+
+![Les limites de WordPress](./limitesWordPress.md)
+
+### Les champs de base d'ACF
+
+On commence par les bases : Comment créer et assigner un groupe de champ, découvrir tous les champs disponibles et et leurs subtilités.
+
+- [Advanced Custom fields : Créer son premier groupe de champs](./creerGroupeChamps.md)
 
 ## Concepts avancés
 
