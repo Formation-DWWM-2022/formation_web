@@ -81,10 +81,6 @@ Je ne me risquerais donc pas à dire que les constructeurs sont des usines. Surt
 
 Si vous savez développer des thèmes sur mesure avec WordPress, vous n’avez virtuellement plus aucune limite. Et ces compétences vous permettront d’accéder à une clientèle plus qualifiée, et des projets plus intéressants.
 
-Lorsque j’avais mon agence, j’ai pu réaliser des projets originaux avec des défis uniques, comme la réalisation d’un outil de personnalisation de wing suits qu’il aurait été impossible à réaliser avec des extensions classiques.
-
-![](https://capitainewp.io/wp-content/uploads/2017/05/wingsuit-1600x804.jpg)
-
 D’ailleurs les offres d’emploi pour développeurs WordPress qualifiés sont nombreuses, et comme il y a une pénurie de développeurs, les recruteurs ont du mal à trouver les bons profils.
 
 > Mon conseil c’est donc de maitriser le développement WordPress, car ça vous sera forcément utile. Et vu que les profils développeurs WordPress sont rares, vous devriez trouver facilement un emploi, ou des clients !

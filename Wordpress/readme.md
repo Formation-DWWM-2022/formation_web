@@ -187,16 +187,139 @@ On peut vite atteindre les limites de WordPress, et être bloqué dans la réali
 On commence par les bases : Comment créer et assigner un groupe de champ, découvrir tous les champs disponibles et et leurs subtilités.
 
 - [Advanced Custom fields : Créer son premier groupe de champs](./creerGroupeChamps.md)
+- [Les principaux champs ACF (1/3) • Contenus et médias](./contenus&Medias.md)
+- [Les principaux champs ACF (2/3) • Choix, relations et jQuery](./choixRelationsJQuery.md)
+- [Les principaux champs ACF (3/3) • Dispositions et champs de la version Pro](./dispositionsChampsPro.md)
 
+### Les champs avancés d'ACF
+
+Maintenant, il est temps d'aller plus loin et de libérer tout le potentiel d'ACF grâce à des champs avancés vraiment remarquables : relationnel, répéteur, flexible...
+
+- [Le champ galerie d’ACF, avec lightbox et diaporama](./galerieACFlightboxDiaporama.md)
+- [Le champ répéteur d’ACF](./repeteurACF.md)
+- [Le champ flexible d’ACF](./flexibleACF.md)
+- Le champ relationnel d’ACF
+- Le champ Google Map d’ACF
+
+### Aller plus loin avec ACF
+
+ACF nous permet d'aller encore plus loin en nous donnant la possibilité de créer des pages d'options, de mettre en forme nos champs, les exporter et les versionner, et même de créer des blocs dans Gutenberg.
+
+- Créer une page d’options avec ACF
+- Mise en forme des champs, logique conditionnelle et dispositions ACF
+- Assigner des champs aux taxonomies, utilisateurs, menus, widgets…
+- Hooker les champs ACF pour modifier leurs valeurs
+- Créer des blocs dans Gutenberg avec ACF
+- Export Json des groupes ACF : Synchronisation local – en ligne
+- Utiliser les formulaires ACF en front
+- Des Add-ons utiles pour ACF
+- Étude de cas : Foodtruck • Relationnel + Options + CPT + Map + Shortcodes
+
+<!--
 ## Concepts avancés
+
+Tirer parti des Hooks, internationaliser son thème, utiliser de l'Ajax et l'API Rest dans vos thèmes... Découvrez les concepts avancés de WordPress.
+
+### La WP Query
+
+Autre concept très important de WordPress, la WP Query vous permettra de récupérer des publications afin de les afficher à votre façon sur votre site.
+
+- Créer des requêtes personnalisées avec la WP Query
+- Modifier les paramètres de la boucle WordPress
+
+### Utiliser les hooks : actions et filtres
+
+Utiliser la puissance du système de hooks afin de modifier ou personnaliser le comportement du CMS
+
+- Utiliser le hook « save post » pour ajouter un temps de lecture à un article
+- Utiliser le hook « save post » pour créer un sommaire
+
+### WordPress et ajax
+
+Utiliser Ajax en toute simplicité dans vos thèmes pour réaliser une recherche dynamique ou encore un "Load more".
+
+- Créer une requête Ajax avec WordPress
+- WordPress et Ajax : lancer une recherche dynamique
+- WordPress, Ajax et JSON : charger une définition au survol
+
+### Personnaliser l’admin WP
+
+WordPress vous permet de personnaliser l'interface d'administration afin de l'épurer pour vos clients ou ajouter de nouveaux blocs pour vos besoins spécifiques.
+
+- Personnaliser la page de connexion de WordPress et son logo
+
+### La WP Rest API
+
+WordPress dispose désormais d'une API Rest qui vous permettra de relier votre site à des applications tierces et mobiles. Tout un monde de nouvelles possibilités et technologies s'offre à vous.
+
+- L’API REST de WordPress
+
+### L'URL Rewriting
+
+Pour aller encore plus loin, il est possible de manipuler les URL de WordPress, ce qui va nous offrir de nouvelles possibilités pour aller plus loin que la structure des permaliens originale.
+
+- La réécriture d’URL dans WordPress
+
+### Concepts en vrac
+
+Allons plus loin avec l'API Transient, Heartbeats, les rôles utilisateurs et l'internationalisation de votre thème.
+
+- Les rôles utilisateurs et capacités
+- Internationaliser et traduire son thème WordPress
+- WordPress et les thèmes enfants
 
 ## Page Builders et Gutenberg
 
+Les Pages Builders comme Elementor et l'arrivée récente de Gutenberg ont changé l'écosystème WordPress et la façon dont on fait nos thèmes. On va découvrir leurs possibilités et étudier la possibilité de les utiliser dans nos thèmes sur mesure, afin de nous faire gagner du temps.
+
+### Gutenberg, l'éditeur de blocs
+
+Gutenberg est l'éditeur moderne de WordPress, qui moderne l'écriture de contenus riches avec une approche en blocs qui permet aux développeurs de créer les leurs. Présentation de cet éditeur dynamique, flexible et moderne.
+
+- Présentation du projet Gutenberg
+- Gutenberg n’est pas (encore) un page builder
+- Pourquoi apprendre à développer avec Gutenberg
+
+### Les Page Builders
+
+Les Page Builders ont connu un développement rapide ces dernières années. Ils sont présent sur tous les thèmes premium. Voyons comment les intégrer dans nos thèmes afin de tirer parti de leur puissance de personnalisation.
+
+- Quel constructeur de pages utiliser en agence ?
+
+### Constructeurs de pages et développement sur mesure
+
+Les constructeurs de pages sont devenus incontournables ces dernières années car ils permettent d'aller vite, et réduire les coûts de fabrication (ainsi que le budget client). Mais cela ne veut pas dire qu'il faut choisir entre page builder ou développement sur mesure. Il existe une approche hybride qui consiste à créer des blocs sur mesure pour ces constructeurs.
+
+- Page builders + développement sur mesure : une approche hybride
+- Les Shortcodes
+
 ## Mettre en ligne son site WordPress
+
+On a bien progressé, il est temps de mettre en ligne une première version du site. Voici comment réussir sa mise en ligne sans encombre et passer en HTTPS.
+
+- Quel hébergeur choisir pour son site WordPress ?
+- Mettre en ligne un site WordPress local
+- Comment rapatrier un site en ligne en local
+- asser son site WordPress en HTTPS avec un certificat SSL Let’s Encrypt
 
 ## Les extensions incontournables
 
+Utiliser des extensions ou tout développer sur mesure ? Quelles extensions utiliser avec son thème ? Comment en tirer parti et s'interfacer avec ? Découvrez comment développer en harmonie avec vos extensions favorites.
+
+- Bien choisir ses extensions WordPress
+- Les extensions incontournables d’un site WordPress
+- Performances : optimiser le temps de chargement avec un cache
+- Performances : optimiser les images avec Imagify
+- Quelles extensions pour travailler en e-commerce avec WordPress ?
+- Quelles extensions pour un site multilangue avec WordPress ?
+
 ## Approche MVC avec Timber et Twig
+
+Séparer le code PHP du template, c'est bien plus propre. Et comme c'est impossible dans WordPress de base, nous allons utiliser Timber et Twig en toute simplicité !
+
+- Timber pour WordPress : avantages d’une approche MVC
+
+-->
 
 ## Vous êtes un développeur de thèmes
 
@@ -221,4 +344,6 @@ J’espère que vous avez apprécié ce moment passé ensemble, et que ce cours 
 - <https://wpmarmite.com/optimiser-wordpress/>
 - <https://wpmarmite.com/htaccess-wordpress/>
 - <https://wpmarmite.com/wordpress-multilingue/>
+- Boostrap
+- Timber
 -->
