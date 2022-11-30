@@ -62,7 +62,7 @@ Le créateur de thème va créer des groupes de champs qu’il va ensuite assign
 
 Et ces champs peuvent être du texte, du contenu riche, des images, des liens, des fichiers…
 
-Sur la capture d’écran, on voit les champs ACF Capitaine WP qui me permettent d’administrer le contenu de mes pages Formation.
+Sur la capture d’écran, on voit les champs ACF Alex qui me permettent d’administrer le contenu de mes pages Formation.
 
 ![](https://capitainewp.io/wp-content/uploads/2019/02/champs-acf-1600x551.jpg.webp)
 

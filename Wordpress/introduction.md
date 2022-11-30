@@ -164,7 +164,7 @@ Pour conclure sur cette section, je dirais que ce sont ces 2 facteurs qui donnen
 
 Avec la bonne formation, les bonnes ressources et les bons outils, WordPress est facile à maitriser. J’ai toujours été impressionné par la facilité avec laquelle je réussissais mes sites. La documentation est très bien expliquée, les concepts sont simples à appréhender, les fonctions fournies par le CMS permettent de gagner énormément de temps, et de ne pas réinventer la roue à chaque fois.
 
-Mais apprendre soi-même peut vite être galère : il existe presque trop de ressources et tutoriels sur Internet. La formation Capitaine WP a pour objectif de réunir tout cela dans un cours pédagogique vous permettant d’acquérir les bonnes pratiques correctement et rapidement.
+Mais apprendre soi-même peut vite être galère : il existe presque trop de ressources et tutoriels sur Internet. La formation a pour objectif de réunir tout cela dans un cours pédagogique vous permettant d’acquérir les bonnes pratiques correctement et rapidement.
 
 Souvent les gens ont une certaine appréhension : « j’ai beaucoup de travail et pas assez de temps pour apprendre WordPress, je vais devoir me conformer à une nouvelle logique », et ça, le cerveau n’aime pas ! En effet celui-ci est un flemmard : il est conçu pour prendre des habitudes et faire les choses avec le moins d’effort possible. Il n’aime pas l’idée qu’on lui demande un nouvel effort, même si celui-ci lui permettra d’être encore plus zen sur le long terme.
 
@@ -184,7 +184,7 @@ Vous n’aurez alors plus aucune raison de préférer votre CMS maison.
 
 3. Emploi : les profils WordPress sont très recherchés
 
-Ces dernières années, beaucoup d’agences ont opté pour WordPress. Beaucoup de freelances en reconversion ont également opté pour le CMS (comme j’ai pu le constater sur WPChef). Et du côté des startups, on voit fleurir des entreprises comme WP Media, WeGlot ou encore WP Serveur.
+Ces dernières années, beaucoup d’agences ont opté pour WordPress. Beaucoup de freelances en reconversion ont également opté pour le CMS. Et du côté des startups, on voit fleurir des entreprises comme WP Media, WeGlot ou encore WP Serveur.
 
 Il y a donc du monde dans l’univers WordPress, et les entreprises et startups ont besoin de développeurs, et ont bien souvent du mal à en trouver.
 

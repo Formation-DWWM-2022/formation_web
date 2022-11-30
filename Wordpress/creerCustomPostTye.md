@@ -15,10 +15,10 @@ Mais avant cela, il va falloir placer le code dans un Hook WordPress. Le hook in
 ```php
 <?php 
 
-function capitaine_register_post_types() {
+function alex_register_post_types() {
  // La déclaration de nos Custom Post Types et Taxonomies ira ici
 }
-add_action( 'init', 'capitaine_register_post_types' );
+add_action( 'init', 'alex_register_post_types' );
 ```
 
 ## CPT, version simple
@@ -28,7 +28,7 @@ La déclaration d’un type de publication s’effectue via la fonction register
 ```php
 <?php 
 
-function capitaine_register_post_types() {
+function alex_register_post_types() {
  
     // CPT Portfolio
     $labels = array(
@@ -52,7 +52,7 @@ function capitaine_register_post_types() {
 
  register_post_type( 'portfolio', $args );
 }
-add_action( 'init', 'capitaine_register_post_types' ); // Le hook init lance la fonction
+add_action( 'init', 'alex_register_post_types' ); // Le hook init lance la fonction
 ```
 
 On va d’abord vérifier que ça fonctionne : rendez-vous dans votre interface d’administration WordPress, et normalement vous devriez voir apparaître votre type de publication dans le menu de gauche :

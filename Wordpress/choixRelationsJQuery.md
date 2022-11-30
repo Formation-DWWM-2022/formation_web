@@ -165,7 +165,7 @@ Ce sont peut-être les deux champs les moins utiles d’ACF, mais ils pourraient
 
 Le champ Taxonomie permet de lister et choisir une catégorie ou une étiquette. Mais il vaut du coup mieux utiliser l’interface native des taxonomies.
 
-Le champ Utilisateur permet de choisir un utilisateur, un peu comme c’est le cas avec l’auteur. Dans le cadre de Capitaine WP, je suis l’auteur de toutes les publications, mais j’utilise ce champ pour définir quelle personne présente telle ou telle formation.
+Le champ Utilisateur permet de choisir un utilisateur, un peu comme c’est le cas avec l’auteur. Dans le cadre de Alex, je suis l’auteur de toutes les publications, mais j’utilise ce champ pour définir quelle personne présente telle ou telle formation.
 
 Leur documentation : <https://www.advancedcustomfields.com/resources/taxonomy/>
 

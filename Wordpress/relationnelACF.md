@@ -163,7 +163,7 @@ Pour commencer on va déclarer nos types de publication à partir du fichier fun
 
 ```php
 <?php 
-function capitaine_register_post_types() {
+function alex_register_post_types() {
   
     // Agences (pour le champ Relationnel)
     $labels = array(
@@ -196,7 +196,7 @@ function capitaine_register_post_types() {
 
     register_post_type( 'country', $args );
 }
-add_action( 'init', 'capitaine_register_post_types' );
+add_action( 'init', 'alex_register_post_types' );
 ```
 
 Suite à ça, il faut bien penser à aller dans Réglages > Permaliens et cliquer sur le bouton Enregistrer, sans rien changer, pour mettre à jour la structure des URL de WordPress.

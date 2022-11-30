@@ -166,7 +166,7 @@ En regardant le code (clic droit, afficher le code source de la page) on voit bi
 
 ```html
 <a href="http://wp.local/">
-      <img src="http://wp.local/wp-content/themes/capitaine/img/logo.svg" alt="Logo" />
+      <img src="http://wp.local/wp-content/themes/alex/img/logo.svg" alt="Logo" />
 </a>
 ```
 

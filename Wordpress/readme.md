@@ -198,15 +198,28 @@ Maintenant, il est temps d'aller plus loin et de libérer tout le potentiel d'AC
 - [Le champ galerie d’ACF, avec lightbox et diaporama](./galerieACFlightboxDiaporama.md)
 - [Le champ répéteur d’ACF](./repeteurACF.md)
 - [Le champ flexible d’ACF](./flexibleACF.md)
-<!-- besoin du cours WP Query et pas finis
-- [Le champ relationnel d’ACF](./relationnelACF.md)
-- Le champ Google Map d’ACF
 
+## Concepts avancés
+
+### La WP Query
+
+Autre concept très important de WordPress, la WP Query vous permettra de récupérer des publications afin de les afficher à votre façon sur votre site.
+
+- [Créer des requêtes personnalisées avec la WP Query](./WPQuery.md)
+- [Modifier les paramètres de la boucle WordPress](./parametreBoucle.md)
+
+### Personnaliser l’admin WP
+
+WordPress vous permet de personnaliser l'interface d'administration afin de l'épurer pour vos clients ou ajouter de nouveaux blocs pour vos besoins spécifiques.
+
+- [Personnaliser la page de connexion de WordPress et son logo](./connexionLogo.md)
 
 ### Aller plus loin avec ACF
 
 ACF nous permet d'aller encore plus loin en nous donnant la possibilité de créer des pages d'options, de mettre en forme nos champs, les exporter et les versionner, et même de créer des blocs dans Gutenberg.
 
+- [Le champ relationnel d’ACF](./relationnelACF.md)
+- Le champ Google Map d’ACF
 - Créer une page d’options avec ACF
 - Mise en forme des champs, logique conditionnelle et dispositions ACF
 - Assigner des champs aux taxonomies, utilisateurs, menus, widgets…
@@ -216,59 +229,13 @@ ACF nous permet d'aller encore plus loin en nous donnant la possibilité de cré
 - Utiliser les formulaires ACF en front
 - Des Add-ons utiles pour ACF
 - Étude de cas : Foodtruck • Relationnel + Options + CPT + Map + Shortcodes
--->
-
-## Concepts avancés
-
-Tirer parti des Hooks, internationaliser son thème, utiliser de l'Ajax et l'API Rest dans vos thèmes... Découvrez les concepts avancés de WordPress.
-
-### La WP Query
-
-Autre concept très important de WordPress, la WP Query vous permettra de récupérer des publications afin de les afficher à votre façon sur votre site.
-
-- [Créer des requêtes personnalisées avec la WP Query](./WPQuery.md)
-- [Modifier les paramètres de la boucle WordPress]
-
-### Utiliser les hooks : actions et filtres
-
-Utiliser la puissance du système de hooks afin de modifier ou personnaliser le comportement du CMS
-
-- Utiliser le hook « save post » pour ajouter un temps de lecture à un article
-- Utiliser le hook « save post » pour créer un sommaire
-
-### WordPress et ajax
-
-Utiliser Ajax en toute simplicité dans vos thèmes pour réaliser une recherche dynamique ou encore un "Load more".
-
-- Créer une requête Ajax avec WordPress
-- WordPress et Ajax : lancer une recherche dynamique
-- WordPress, Ajax et JSON : charger une définition au survol
-
-### Personnaliser l’admin WP
-
-WordPress vous permet de personnaliser l'interface d'administration afin de l'épurer pour vos clients ou ajouter de nouveaux blocs pour vos besoins spécifiques.
-
-- Personnaliser la page de connexion de WordPress et son logo
-
-### La WP Rest API
-
-WordPress dispose désormais d'une API Rest qui vous permettra de relier votre site à des applications tierces et mobiles. Tout un monde de nouvelles possibilités et technologies s'offre à vous.
-
-- L’API REST de WordPress
-
-### L'URL Rewriting
-
-Pour aller encore plus loin, il est possible de manipuler les URL de WordPress, ce qui va nous offrir de nouvelles possibilités pour aller plus loin que la structure des permaliens originale.
-
-- La réécriture d’URL dans WordPress
 
 ### Concepts en vrac
 
 Allons plus loin avec l'API Transient, Heartbeats, les rôles utilisateurs et l'internationalisation de votre thème.
 
-- Les rôles utilisateurs et capacités
-- Internationaliser et traduire son thème WordPress
-- WordPress et les thèmes enfants
+- [Internationaliser et traduire son thème WordPress](./internationaliser.md) <!-- pas finis -->
+- [WordPress et les thèmes enfants](./themeEnfants.md)
 
 ## Page Builders et Gutenberg
 
@@ -278,22 +245,22 @@ Les Pages Builders comme Elementor et l'arrivée récente de Gutenberg ont chang
 
 Gutenberg est l'éditeur moderne de WordPress, qui moderne l'écriture de contenus riches avec une approche en blocs qui permet aux développeurs de créer les leurs. Présentation de cet éditeur dynamique, flexible et moderne.
 
-- Présentation du projet Gutenberg
-- Gutenberg n’est pas (encore) un page builder
-- Pourquoi apprendre à développer avec Gutenberg
+- [Présentation du projet Gutenberg](./projetGutenberg.md)
+- [Gutenberg n’est pas (encore) un page builder](./GutenbergBuilder.md)
+- [Pourquoi apprendre à développer avec Gutenberg](./developperGutenberg.md)
 
 ### Constructeurs de pages et développement sur mesure
 
 Les constructeurs de pages sont devenus incontournables ces dernières années car ils permettent d'aller vite, et réduire les coûts de fabrication (ainsi que le budget client). Mais cela ne veut pas dire qu'il faut choisir entre page builder ou développement sur mesure. Il existe une approche hybride qui consiste à créer des blocs sur mesure pour ces constructeurs.
 
-- Page builders + développement sur mesure : une approche hybride
-- Les Shortcodes
+- [Page builders + développement sur mesure : une approche hybride](./approcheHybride.md)
+- [Les Shortcodes](./shortcodes.md)
 
 ## Approche MVC avec Timber et Twig
 
 Séparer le code PHP du template, c'est bien plus propre. Et comme c'est impossible dans WordPress de base, nous allons utiliser Timber et Twig en toute simplicité !
 
-- Timber pour WordPress : avantages d’une approche MVC
+- [Timber pour WordPress : avantages d’une approche MVC](./timberMVC.md)
 
 ## Vous êtes un développeur de thèmes
 
@@ -312,14 +279,28 @@ Vous avez maintenant toutes les clés en main pour :
 J’espère que vous avez apprécié ce moment passé ensemble, et que ce cours vous a donné envie d’aller plus loin dans le monde du webdesign ! Bonne continuation !
 
 - [Pourquoi WordPress a peur de ce génie belge](https://youtu.be/J403Rt7i-R0)
-
-<!-->
+- [Boostrap et SASS](../RAN/Node.js/exercice/tp_npm.md)
 - [Mettre à jour WordPress tout simplement !](./maj.md)
-- <https://wpmarmite.com/optimiser-wordpress/> - Performances : optimiser les images avec Imagify - Performances : optimiser le temps de chargement avec un cache
 
-- <https://wpmarmite.com/htaccess-wordpress/>
-- <https://wpmarmite.com/wordpress-multilingue/> - Quelles extensions pour un site multilangue avec WordPress ?
+## Prochainement
 
-- Boostrap
-- Timber
--->
+- Le fichier .htaccess dans WordPress
+- Créer un Blueprint avec Local by Flywheel
+- Désactiver certaines fonctionnalités de WordPress pour un site plus performant
+- Créer un Custom Post Type sans programmation avec CPT UI
+- Les paramètres avancés de Custom Post Type
+- Créer un système de filtre avec la WP Query
+- Utiliser la puissance du système de hooks afin de modifier ou personnaliser le comportement du CMS. Utiliser le hook « save post » pour ajouter un temps de lecture à un article. Utiliser le hook « save post » pour créer un sommaire
+- Utiliser Ajax en toute simplicité dans vos thèmes pour réaliser une recherche dynamique ou encore un "Load more".
+  - Créer une requête Ajax avec WordPress — Lecture : 13 min
+  - WordPress et Ajax : charger dynamiquement des articles via un « load more »
+  - WordPress et Ajax : lancer une recherche dynamique
+  - WordPress, Ajax et JSON : charger une définition au survol
+- Ajouter des metabox dans l’admin WordPress
+- Personnaliser et alléger l’interface d’administration pour vos utilisateurs
+- WordPress dispose désormais d'une API Rest qui vous permettra de relier votre site à des applications tierces et mobiles. Tout un monde de nouvelles possibilités et technologies s'offre à vous. Lire et écrire des données via l’API Rest de WordPress avec authentification
+- Pour aller encore plus loin, il est possible de manipuler les URL de WordPress, ce qui va nous offrir de nouvelles possibilités pour aller plus loin que la structure des permaliens originale. La réécriture d’URL dans WordPress. Réecrire les URL d’un système de filtre.
+- Comment fonctionne WordPress ? Quelle est l'organisation de la base de données ? Dans quel ordre sont chargés les modules ? Connaitre WordPress en profondeur vous permettra de mieux développer vos thèmes. Comment fonctionne la WP query dans le coeur. Les variables globales utiles de WP. Comment se charge le coeur de WP
+- Créer des blocs avec Gutenberg
+- Créer un Widget natif Elementor
+- On a bien progressé, il est temps de mettre en ligne une première version du site. Voici comment réussir sa mise en ligne sans encombre et passer en HTTPS.

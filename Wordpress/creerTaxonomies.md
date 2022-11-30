@@ -16,7 +16,7 @@ Pour déclarer une nouvelle taxonomie on utilise la fonction register_taxonomy()
 
 ```php
 <?php 
-function capitaine_register_post_types() {
+function alex_register_post_types() {
  $labels = array( … );
     $args = array( … );
     
@@ -38,7 +38,7 @@ function capitaine_register_post_types() {
 
     register_taxonomy( 'type-projet', 'portfolio', $args );
 }
-add_action( 'init', 'capitaine_register_post_types' );
+add_action( 'init', 'alex_register_post_types' );
 ```
 
 On retrouve la même logique que pour les CPT. Étudions les différents paramètres :

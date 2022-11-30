@@ -1,0 +1,1 @@
+- <https://wpmarmite.com/wordpress-multilingue/> - Quelles extensions pour un site multilangue avec WordPress ?

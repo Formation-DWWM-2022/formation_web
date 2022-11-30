@@ -41,11 +41,9 @@ Vous pouvez :
     Diviser les commentaires en pages (je déconseille) ;
     Ne pas publier les commentaires tant que l’administrateur n’a pas validé (c’est ce que je fais sur ce site, mais sur d’autres je laisse ouvert) ;
 
-Les réglages que vous choisirez vont dépendre des sites. Sur CapitaineWP et WPChef on active la modération : on valide manuellement chaque commentaire. Cela demande un peu plus de travail.
+Les réglages que vous choisirez vont dépendre des sites. 
 
 Si vous autorisez automatiquement la publication d’un commentaire, vous vous retrouverez peut-être avec des commentaires « impolis » qu’il faudra filtrer.
-
-Sur WPChef seuls les étudiants connectés peuvent publier un commentaire. Sur CapitaineWP, comme certains cours sont gratuits, j’ai autorisé la publication de commentaires par tous !
 
 Pour modérer vos commentaires, vous irez ensuite dans le menu Commentaires :
 

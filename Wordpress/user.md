@@ -1,5 +1,7 @@
 # Rôles, droits et privilèges des utilisateurs WordPress
 
+<!-- https://capitainewp.io/formations/developper-theme-wordpress/roles-utilisateurs-capacites -->
+
 WordPress utilise un concept de rôles, conçu pour donner au propriétaire du site la possibilité de contrôler ce que les utilisateurs peuvent ou ne peuvent pas faire sur le site.
 
 Un propriétaire de site peut donc gérer l’accès des utilisateurs à des tâches telles que l’écriture et l’édition d’articles, la création de pages, la définition des liens, créer des catégories, modérer les commentaires, la gestion des plugins, la gestion des thèmes, et la gestion des autres utilisateurs, en assignant un rôle spécifique à chacun des utilisateurs.

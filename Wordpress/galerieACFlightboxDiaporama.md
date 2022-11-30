@@ -221,7 +221,7 @@ Côté template, on va simplement ajouter une `<div>` dans le pied de page. C’
   <div class="lightbox"></div> <!– On a juste besoin d ajouter ça ! –>
 
   <footer class="site__footer">
-    Formation ACF • Capitaine WP
+    Formation ACF
   </footer>
   
   <?php wp_footer(); ?>

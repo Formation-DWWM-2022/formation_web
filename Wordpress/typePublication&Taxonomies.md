@@ -78,12 +78,12 @@ Mais il y a aussi le mode hiérarchique, où le CPT se comporte comme les pages 
 
 > On verra plus tard que certaines extensions se servent des CPT pour stocker des données, ils ne sont alors pas affichés sur le site ou dans l’administration.
 
-    Les types de publication Capitaine WP
+    Les types de publication
 
 Prenons l’exemple de ce site ! J’ai créé plusieurs types de publication en plus de ceux par défaut, voici leurs usages :
 
 - Pages : accueil, présentation du concept, tarifs, contact, mentions…
-- Articles : le blog Capitaine WP où j’écris des actualités sur WordPress, des tutoriels (hors formation) ;
+- Articles : le blog Alex où j’écris des actualités sur WordPress, des tutoriels (hors formation) ;
 - Formations : la liste des formations disponibles avec toutes les informations ;
 - Cours : les cours, comme celui-ci, rattachés à une formation ;
 - Définitions : les définitions dans les blocs bleus (comme vu plus haut)  ;

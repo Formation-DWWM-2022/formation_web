@@ -469,7 +469,7 @@ Par défaut, plusieurs modes de paiement sont proposés :
 - chèque ;
 - paiement à la livraison.
 
-> Pour sécuriser les paiements, mettez en place un certificat SSL pour activer le HTTPS sur la page de paiement, au minimum. La procédure est différente selon les hébergeurs mais sur WPChef, nous avons pu le mettre en place assez facilement avec O2switch et Let’s Encrypt. Au-delà du paiement, vous ne vous ferez pas une bonne réputation si votre site se fait pirater et que votre fichier client est dérobé.
+> Pour sécuriser les paiements, mettez en place un certificat SSL pour activer le HTTPS sur la page de paiement, au minimum. La procédure est différente selon les hébergeurs, nous avons pu le mettre en place assez facilement avec O2switch et Let’s Encrypt. Au-delà du paiement, vous ne vous ferez pas une bonne réputation si votre site se fait pirater et que votre fichier client est dérobé.
 
 Vous pouvez en activer d’autres, comme le célèbre Stripe, à l’aide de l’extension WooCommerce Stripe Payment Gateway.
 

@@ -105,7 +105,7 @@ Comme on n’a pas (encore) de menu sur notre site pour accéder au blog, on va 
 
 ![](https://capitainewp.io/wp-content/uploads/2019/01/blog-archive-1600x1405.jpg.webp)
 
-Notez que cette fois, on met des `<h2>` pour les titres d’article, et le titre principal de la page est « Le blog Capitaine WP ». Comme vous le savez sûrement, il devrait toujours n’y avoir qu’un seul `<h1>` par page.
+Notez que cette fois, on met des `<h2>` pour les titres d’article, et le titre principal de la page est « Le blog Alex ». Comme vous le savez sûrement, il devrait toujours n’y avoir qu’un seul `<h1>` par page.
 
 Voyons maintenant les nouveaux templates tags ajoutés :
 
