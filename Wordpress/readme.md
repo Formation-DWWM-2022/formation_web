@@ -198,8 +198,10 @@ Maintenant, il est temps d'aller plus loin et de libérer tout le potentiel d'AC
 - [Le champ galerie d’ACF, avec lightbox et diaporama](./galerieACFlightboxDiaporama.md)
 - [Le champ répéteur d’ACF](./repeteurACF.md)
 - [Le champ flexible d’ACF](./flexibleACF.md)
-- Le champ relationnel d’ACF
+<!-- besoin du cours WP Query et pas finis
+- [Le champ relationnel d’ACF](./relationnelACF.md)
 - Le champ Google Map d’ACF
+
 
 ### Aller plus loin avec ACF
 
@@ -214,8 +216,8 @@ ACF nous permet d'aller encore plus loin en nous donnant la possibilité de cré
 - Utiliser les formulaires ACF en front
 - Des Add-ons utiles pour ACF
 - Étude de cas : Foodtruck • Relationnel + Options + CPT + Map + Shortcodes
+-->
 
-<!--
 ## Concepts avancés
 
 Tirer parti des Hooks, internationaliser son thème, utiliser de l'Ajax et l'API Rest dans vos thèmes... Découvrez les concepts avancés de WordPress.
@@ -224,8 +226,8 @@ Tirer parti des Hooks, internationaliser son thème, utiliser de l'Ajax et l'API
 
 Autre concept très important de WordPress, la WP Query vous permettra de récupérer des publications afin de les afficher à votre façon sur votre site.
 
-- Créer des requêtes personnalisées avec la WP Query
-- Modifier les paramètres de la boucle WordPress
+- [Créer des requêtes personnalisées avec la WP Query](./WPQuery.md)
+- [Modifier les paramètres de la boucle WordPress]
 
 ### Utiliser les hooks : actions et filtres
 
@@ -280,12 +282,6 @@ Gutenberg est l'éditeur moderne de WordPress, qui moderne l'écriture de conten
 - Gutenberg n’est pas (encore) un page builder
 - Pourquoi apprendre à développer avec Gutenberg
 
-### Les Page Builders
-
-Les Page Builders ont connu un développement rapide ces dernières années. Ils sont présent sur tous les thèmes premium. Voyons comment les intégrer dans nos thèmes afin de tirer parti de leur puissance de personnalisation.
-
-- Quel constructeur de pages utiliser en agence ?
-
 ### Constructeurs de pages et développement sur mesure
 
 Les constructeurs de pages sont devenus incontournables ces dernières années car ils permettent d'aller vite, et réduire les coûts de fabrication (ainsi que le budget client). Mais cela ne veut pas dire qu'il faut choisir entre page builder ou développement sur mesure. Il existe une approche hybride qui consiste à créer des blocs sur mesure pour ces constructeurs.
@@ -293,33 +289,11 @@ Les constructeurs de pages sont devenus incontournables ces dernières années c
 - Page builders + développement sur mesure : une approche hybride
 - Les Shortcodes
 
-## Mettre en ligne son site WordPress
-
-On a bien progressé, il est temps de mettre en ligne une première version du site. Voici comment réussir sa mise en ligne sans encombre et passer en HTTPS.
-
-- Quel hébergeur choisir pour son site WordPress ?
-- Mettre en ligne un site WordPress local
-- Comment rapatrier un site en ligne en local
-- asser son site WordPress en HTTPS avec un certificat SSL Let’s Encrypt
-
-## Les extensions incontournables
-
-Utiliser des extensions ou tout développer sur mesure ? Quelles extensions utiliser avec son thème ? Comment en tirer parti et s'interfacer avec ? Découvrez comment développer en harmonie avec vos extensions favorites.
-
-- Bien choisir ses extensions WordPress
-- Les extensions incontournables d’un site WordPress
-- Performances : optimiser le temps de chargement avec un cache
-- Performances : optimiser les images avec Imagify
-- Quelles extensions pour travailler en e-commerce avec WordPress ?
-- Quelles extensions pour un site multilangue avec WordPress ?
-
 ## Approche MVC avec Timber et Twig
 
 Séparer le code PHP du template, c'est bien plus propre. Et comme c'est impossible dans WordPress de base, nous allons utiliser Timber et Twig en toute simplicité !
 
 - Timber pour WordPress : avantages d’une approche MVC
-
--->
 
 ## Vous êtes un développeur de thèmes
 
@@ -341,9 +315,11 @@ J’espère que vous avez apprécié ce moment passé ensemble, et que ce cours 
 
 <!-->
 - [Mettre à jour WordPress tout simplement !](./maj.md)
-- <https://wpmarmite.com/optimiser-wordpress/>
+- <https://wpmarmite.com/optimiser-wordpress/> - Performances : optimiser les images avec Imagify - Performances : optimiser le temps de chargement avec un cache
+
 - <https://wpmarmite.com/htaccess-wordpress/>
-- <https://wpmarmite.com/wordpress-multilingue/>
+- <https://wpmarmite.com/wordpress-multilingue/> - Quelles extensions pour un site multilangue avec WordPress ?
+
 - Boostrap
 - Timber
 -->
