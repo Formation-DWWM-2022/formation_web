@@ -73,27 +73,39 @@ L'évaluation de ce cours comportera un points :
 - [Export Defaults VS Names Exports - 4 min](./video/21%20Export%20Default%20VS%20Named%20Exports_HD.mp4)
 - [Exercice pour réviser les props et les childrens - 5 min](./video/22%20Exercice%20pour%20r%C3%A9viser%20les%20props%20et%20les%20childrens_HD.mp4)
 - [Correction exercice sur les props et les childrens - 14 min]
-- [Les composants et les props - 6 min](./video//24%20Notes%20sur%20les%20composants%20et%20les%20props_HD.mp4)
+- [Les composants et les props - 6 min](./video/24%20Notes%20sur%20les%20composants%20et%20les%20props_HD.mp4)
 - [Les événements dans React et changement de state - 33min](./video/25%20Les%20%C3%A9v%C3%A9nements%20dans%20React%20et%20changement%20de%20state_HD.mp4)
-
-<!--
-- [Note - le constructor]()
+- [Note - le constructor](./constructor.md)
 - [Exercice incrémenter un state dans React - 38 min](./video/28%20Exercice%20Incr%C3%A9menter%20un%20state%20dans%20React_HD.mp4)
 - [Destructing array et callback function + invoquer une méthode dans les props - 18 min](./video/29%20Destructuring%20array%20et%20callback%20function%20%2B%20invoquer%20une%20m%C3%A9thode%20dans%20les%20props_HD.mp4)
 - [Exercice événements React dans un composant fonction - 3 min](./video/30%20Exercice%20%C3%A9v%C3%A9nements%20React%20dans%20un%20composant%20fonction_HD.mp4)
 - [Correction exercice sur les événements React dans un composant fonction - 5 min]
-
---- J2 : 07/12 ---
-
-- [Passer une fonction dans Props - 28 min]() - [Maman.js](./Maman.js) - [Toto.js](./Toto.js)
-- [Exercice passer une fonction dans props - 3 min]()
+- [Passer une fonction dans Props - 28 min](./video/32%20Passer%20une%20fonction%20dans%20Props_HD.mp4) - [Maman.js](./Maman.js) - [Toto.js](./Toto.js)
+- [Exercice passer une fonction dans props - 3 min](./video/34%20Exercice%20-%20Passer%20une%20fonction%20dans%20props_HD.mp4)
 - [Correction exercice passer une fonction dans prop - 8 min]
-- [React Fragment - 18 min]()
-- [Le Destructing - Partie 1 - 13 min]()
-- [Le Destructing dans React - Partie 2 - 18 min]()
-- [Les Conditions dans ReactJS - 15 min]()
-- [Les images dans React - 17 min]()
-- [Les formulaires dans React - 29 min]()
-- [Note - infos packages npm - Boostrao et Styled-Components]
-- [Le CSS dans React - 41 min]
--->
+- [React Fragment - 18 min](./video/36%20React%20Fragment_HD.mp4)
+- [Le Destructing - Partie 1 - 13 min](./video/37%20Le%20Destructuring%20-%20Partie1_HD.mp4)
+- [Le Destructing dans React - Partie 2 - 18 min](./video/38%20Le%20Destructuring%20dans%20React%20-%20Partie%202_HD.mp4)
+- [Les Conditions dans ReactJS - 15 min](./video/39%20Les%20Conditions%20dans%20React%20JS_HD.mp4)
+- [Les images dans React - 17 min](./video/40%20Les%20Images%20dans%20React_HD.mp4)
+- [Les formulaires dans React - 29 min](./video/41%20Les%20Formulaires%20dans%20React_HD.mp4)
+- [Note - infos packages npm - Boostrap et Styled-Components](./packagesNPMBoostrap&StyledComponents.md)
+- [Le CSS dans React - 41 min](./video/44%20Le%20CSS%20dans%20React_HD.mp4)
+- [Exercice 1 - CSS Bootstrap - 2 min](./video/45%20Exercice%201%20-%20CSS%20Bootstrap_HD.mp4)
+- [Correction de l'exercice CSS Bootstrap - 10 min]
+- [Exercice 2 - CSS et Props d'un Custom Button - 4 min](./video/47%20Exercice%202%20-%20CSS%20et%20Props%20d'un%20Custom%20Button_HD.mp4)
+- [Correction de l'exercice 2 - Custom Button - 13 min]
+- [Exercice 3 - Gérer le onClick sur le custom button - 2 min](./video/49%20Exercice%203%20-%20G%C3%A9rer%20le%20onClick%20sur%20le%20custom%20button_HD.mp4)
+- [Correction de l'exercice 3 - onClick sur custom button - 5 min]
+- [Présentation du package React-Bootstrap - 36 min](./video/51%20Pr%C3%A9sentation%20du%20package%20React-Bootstrap_HD.mp4)
+- [Exercice 4: Utiliser le package React-Bootstrap - 2 min](./video/52%20Exercice%204%20Utiliser%20le%20package%20React-Bootstrap_HD.mp4)
+- [Correction de l'exercice 4]
+
+## Le Cycle de Vie d'un Composant React avec les classes
+
+- [Introduction aux méthodes de cycle de vie - 8 min]()
+- [La Phase de Montage - 25 min]()
+- [La Phase de Mise à Jour - 7 min]()
+- [La Phase de Démontage - 16 min]()
+- [La méthode getDerivedStateFromProps - 25 min]()
+- [La méthode shouldComponentUpdate - 17 min]()

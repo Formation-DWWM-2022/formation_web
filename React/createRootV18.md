@@ -4,11 +4,11 @@ Dans la précédente vidéo, au niveau du fichier index.js , nous avons vu comme
 
 Voici un petit rappel:
 
--[](https://img-b.udemycdn.com/redactor/raw/article_lecture/2022-08-02_17-19-42-af3155f4521243aa04069d80e00399f0.png)
+-[](https://media.discordapp.net/attachments/1049594731010732073/1049632986930356244/2022-08-02_17-19-42-af3155f4521243aa04069d80e00399f0.png)
 
 Notez qu'une alternative existe pour avoir le même rendu avec un peu moins de code. En effet, vous pouvez importer seulement la méthode createRoot() et l'enchaîner avec le render() (voir la capture ci-dessous).
 
--[](https://img-b.udemycdn.com/redactor/raw/article_lecture/2022-08-02_17-21-30-05634e53915f9c2b9e8bc4e4d5ef1a92.png)
+-[](https://media.discordapp.net/attachments/1049594731010732073/1049633005104283741/2022-08-02_17-21-30-05634e53915f9c2b9e8bc4e4d5ef1a92.png)
 
 ATTENTION !
 
