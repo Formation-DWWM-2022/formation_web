@@ -4,38 +4,37 @@ La réalisation de projets étant la seule façon de progresser en programmation
 
 Cette longue section de 42 vidéos détaillées (Plus de 10 heures de cours) vous aidera à la fois à mettre en pratique quelques-unes des notions acquises lors de ma formation sur React JS tout en vous permettant de vous lancer dans un vrais projet React JS. A la fin de cette formation, vous serez parfaitement capables d’intervenir sur n’importe quel projet sous React JS sans difficulté.
 
-- Introduction et présentation de l'application. - 7 min
+- 1 - Introduction et présentation de l'application. - 7 min - [Marvel-Quiz Github](https://github.com/DonkeyGeek/marvel-quiz) - [marvel-Quiz-Slides.pdf](./marvel-Quiz-Slides.pdf) - [App.css](./App.css)
 - 2 - Installation de notre application - 3 min
-- 3 - Création des composants Header, Landing et Footer - 18 min
+- 3 - Création des composants Header, Landing et Footer - 18 min - [App.css](./App%20(1).css)
 - 4 - Les boutons sur Landing et animation Wolverine - 19 min
-- 5- Les évènements onMouseOver et onMouseOut - 11 min
+- 5 - Les évènements onMouseOver et onMouseOut - 11 min
 - 6 - Route, Link, Exact, et Switch dans React - 21 min
-- Note React Router Dom version 6
+- [Note - React Router Dom version 6](./reactRouterDomV6.md)
 - 7- Les images et le inline CSS dans React.js - 6 min
-- Instructions mise à jour Firebase 9 - 10 min
+- Instructions mise à jour Firebase 9 - 10 min - [update-process.pdf](./update-process.pdf)
 - 8- Configuration Firebase - 8 min
-- 8- Configuration Firebase - Firebase 9 - 8 min
+- 8 - Configuration Firebase - Firebase 9 - 8 min - [firebaseConfig.js](./firebaseConfig.js)
 - 9 - Instancier la class Firebase via le Contexte - 11 min
 - 9 - Instancier la class Firebase via le Contexte - Firebase 9 - 2 min
 - 10 - Authentification via Firebase - 9 min
-- 10 - Authentification via Firebase - Firebase 9 - 4 min
+- 10 - Authentification via Firebase - Firebase 9 - 4 min [firebaseConfig.js](./firebaseConfig%20(1).js)
 - 11 - Inscription via Firebase - 39 min
-- 11 - Inscription via Firebase - Firebase 9 - 6 min
-- Note concernant la vidéo suivante
+- 11 - Inscription via Firebase - Firebase 9 - 6 min - [firebase-7-index.js](./firebase-7-index.js) - [firebase-9-index.js](./firebase-9-index.js)
 - 12 - Les redirections dans React - 9 min
 - 12 - Les redirections dans React (React Router Dom v6) - 2 min
 - 13 - Connexion via Firebase - 27 min
-- 13 - Connexion via Firebase - Firebase 9 - 6 min
+- 13 - Connexion via Firebase - Firebase 9 - 6 min - [firebase-7-index.js](./firebase-7-index%20(1).js) - [firebase-9-index.js](./firebase-9-index%20(1).js)
 - 14 - Déconnexion via Firebase - 18 min
-- 14 - Déconnexion via Firebase - Firebase 9 - 5 min
+- 14 - Déconnexion via Firebase - Firebase 9 - 5 min - [Welcome-version-7-index.js](./Welcome-version-7-index.js) - [Quiz-version-7-index.js](./Quiz-version-7-index.js) - [logout-version7-index.js](./logout-version7-index.js) - [logout-avec-firebase-9-index.js](./logout-avec-firebase-9-index.js)
 - 15 - Gestion de la session utilisateur via Firebase - 18 min
-- 15 - Gestion de la session utilisateur via Firebase - Firebase 9 - 3 min
+- 15 - Gestion de la session utilisateur via Firebase - Firebase 9 - 3 min - [firebase-9-Welcome-index.js](./Firebase-9-Welcome-index.js) - [Firebase-7-Welcome-index.js](./Firebase-7-Welcome-index.js)
 - 16 - Changer un mot de passe oublié via Firebase - 30 min
-- 16 - Changer un mot de passe oublié via Firebase - Firebase 9 - 10 min
+- 16 - Changer un mot de passe oublié via Firebase - Firebase 9 - 10 min - [Firebase-7-ForgetPassword-index.js](./Firebase-7-ForgetPassword-index.js) - [Firebase-9-ForgetPassword-index.js](./Firebase-9-ForgetPassword-index.js)
 - 17 - Firebase – Cloud Firestore - 16 min
-- 17 - Firebase – Cloud Firestore - Firebase 9 - 13 min
+- 17 - Firebase – Cloud Firestore - Firebase 9 - 13 min - [Firebase-9-Signup-index.js](./Firebase-9-Signup-index.js) - [Firebase-9-firebaseConfig.js](./Firebase-9-firebaseConfig.js)
 - 18 - Récupérer de la data de Cloud Firestore - 14 min
-- 18 - Récupérer de la data de Cloud Firestore - Firebase 9 - 7 min
+- 18 - Récupérer de la data de Cloud Firestore - Firebase 9 - 7 min - [firebase-9-Welcome-index.js](./firebase-9-Welcome-index%20(1).js)
 - 19 - Composant Quiz, Levels et Progressbar - 15 min
 - 20 - Récupérer les questions à poser dans le quiz - 19 min
 - 21 - Récupérer les questions à poser dans le quiz – 2 - 11 min

@@ -62,6 +62,7 @@ L'évaluation de ce cours comportera un points :
 - [Coder une application React de A à Z jusqu'au déploiement sur Firebase - 12h 1min](./CoderuneapplicationReactdeAàZjusqu'audéploiementsurFirebase.md)
 - [UPDATE React Router v6 - 2h 6min](./UPDATEReactRouterv6.md)
 
+<!--
 ## Sommaire Redux avec React - 7h 32min - 2J
 
 - [Maitriser Redux avec React - 4h 35min](./MaitriserReduxavecReact.md)
@@ -70,3 +71,4 @@ L'évaluation de ce cours comportera un points :
 ## Sommaire React native
 
 ...
+-->
