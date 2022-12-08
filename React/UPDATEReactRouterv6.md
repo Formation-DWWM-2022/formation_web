@@ -1,0 +1,21 @@
+# UPDATE: React Router v6
+
+- Application et Node Modules - 4 min
+- Révisions React Router v5 avant mise à jour vers v6 - 7 min
+- Routes et Route - 7 min
+- Link et NavLink - 9 min
+- Navigate - 3 min
+- Redirection programmée - 8 min
+- Navigate avec replace - 6 min
+- Gérer les routes inexistants via ErrorPage - 2 min
+- Exercice 1
+- Correction Exercice 1 - 3 min
+- Exercice 2 - 1 min
+- Correction Exercice 2 - 5 min
+- Routes imbriques (Nested Routes) - 14 min
+- Route Index - 3 min
+- Récupérer la data dans l'URL - 12 min
+- Récupérer une data d'une API via paramètres Route - 10 min
+- Paramètres de requêtes - 12 min
+- Fichiers à télécharger
+- Lazy Loading Routes - 20 min

@@ -1,0 +1,39 @@
+# Les Hooks (React V16.8+) - 7h 22 min
+
+- C'est quoi ces Hooks ? - 1 min
+- Hook d’état – useState – Partie 1 - 15 min
+- Update UUID
+- Hook d’état – useState – Partie 2 - 37 mim
+- Hook d’effet – useEffect après Render - 16 min
+- Hook d’effet – useEffect avec Condition - 7 min
+- Hook d’effet – useEffect comme ComponentDidMount - 5 min
+- Note - Update React 18
+- Hook d’effet – useEffect avec Nettoyage - 26 min
+- Hook de Contexte – useContext - 14 min
+- useReducer – Introduction - 4 min
+- useReducer – Partie 2 - 10 min
+- useReducer – Partie 3 - 15 min
+- useCallback – Partie 1 - 19 min
+- useCallback – Partie 2 - 11 min
+- useMemo - 29 min
+- useRef - 20 min
+- useImperativeHandle - 19 min
+- Note useLayoutEffect
+- useLayoutEffect - 16 min
+- Custom Hooks - Partie 1 - 23 min
+- Note concernant la vidéo suivante
+- Custom Hooks - Partie 2 - 18 min
+- Custom Hooks - Partie 3 - 9 min
+- Custom Hooks - Partie 4 - 12 min
+- Custom Hooks - Partie 5 - 14 min
+- Custom Hooks - Partie 6 - 14 min
+- useDebugValue - 15 min
+- useDebugValue (Suite) - 4 min
+- Custom Hook useFetch avec Async/Await - 7 min
+- Nouveaux Hooks de React 18.0.0 +.
+- Note: Document à télécharger
+- useTransition (React >=18) - 21 min
+- useTransition (React >=18) - Suite - 10 min
+- Alternative au hook useTransition
+- useDeferedValue (React >=18) - 7 min
+- useId (React >=18) - 23 min

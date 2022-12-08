@@ -1,0 +1,62 @@
+# Coder une application React de A à Z jusqu'au déploiement sur Firebase - 12h 1min
+
+La réalisation de projets étant la seule façon de progresser en programmation, j’ai donc décidé de compléter cette formation React JS pour débutants avec une nouvelle section dans laquelle nous allons réaliser, ensemble, étape par étape, une application React Js nommée "Marvel Quiz".
+
+Cette longue section de 42 vidéos détaillées (Plus de 10 heures de cours) vous aidera à la fois à mettre en pratique quelques-unes des notions acquises lors de ma formation sur React JS tout en vous permettant de vous lancer dans un vrais projet React JS. A la fin de cette formation, vous serez parfaitement capables d’intervenir sur n’importe quel projet sous React JS sans difficulté.
+
+- Introduction et présentation de l'application. - 7 min
+- 2 - Installation de notre application - 3 min
+- 3 - Création des composants Header, Landing et Footer - 18 min
+- 4 - Les boutons sur Landing et animation Wolverine - 19 min
+- 5- Les évènements onMouseOver et onMouseOut - 11 min
+- 6 - Route, Link, Exact, et Switch dans React - 21 min
+- Note React Router Dom version 6
+- 7- Les images et le inline CSS dans React.js - 6 min
+- Instructions mise à jour Firebase 9 - 10 min
+- 8- Configuration Firebase - 8 min
+- 8- Configuration Firebase - Firebase 9 - 8 min
+- 9 - Instancier la class Firebase via le Contexte - 11 min
+- 9 - Instancier la class Firebase via le Contexte - Firebase 9 - 2 min
+- 10 - Authentification via Firebase - 9 min
+- 10 - Authentification via Firebase - Firebase 9 - 4 min
+- 11 - Inscription via Firebase - 39 min
+- 11 - Inscription via Firebase - Firebase 9 - 6 min
+- Note concernant la vidéo suivante
+- 12 - Les redirections dans React - 9 min
+- 12 - Les redirections dans React (React Router Dom v6) - 2 min
+- 13 - Connexion via Firebase - 27 min
+- 13 - Connexion via Firebase - Firebase 9 - 6 min
+- 14 - Déconnexion via Firebase - 18 min
+- 14 - Déconnexion via Firebase - Firebase 9 - 5 min
+- 15 - Gestion de la session utilisateur via Firebase - 18 min
+- 15 - Gestion de la session utilisateur via Firebase - Firebase 9 - 3 min
+- 16 - Changer un mot de passe oublié via Firebase - 30 min
+- 16 - Changer un mot de passe oublié via Firebase - Firebase 9 - 10 min
+- 17 - Firebase – Cloud Firestore - 16 min
+- 17 - Firebase – Cloud Firestore - Firebase 9 - 13 min
+- 18 - Récupérer de la data de Cloud Firestore - 14 min
+- 18 - Récupérer de la data de Cloud Firestore - Firebase 9 - 7 min
+- 19 - Composant Quiz, Levels et Progressbar - 15 min
+- 20 - Récupérer les questions à poser dans le quiz - 19 min
+- 21 - Récupérer les questions à poser dans le quiz – 2 - 11 min
+- 22 - Valider une réponse & activer le bouton - 12 min
+- 23 - Validation de la réponse et gestion du score - 15 min
+- 24 - Affichage des Notifications via React Toastify - 17 min
+- 25 - Terminer un niveau et accéder aux réponses - 7 min
+- 26 - Bouton de validation et le composant ProgressBar - 13 min
+- 27- Travailler le JSX du composant QuizOver - 18 min
+- 28 - Gestion des affichages sur le composant QuizOver - 27 min
+- 29 - Chargement des questions du niveau suivant - 23 min
+- 30 - Correction Bug pourcentage de réussite - 10 min
+- 31 - Le package react-stepper-horizontal - 22 min
+- 32 - Les icônes via le package React-icons - 11 min
+- 33 - Destructuring et création du composant Loader - 23 min
+- 34 - Afficher une info-bulle via react-tooltip - 6 min
+- 35 - Afficher un Modal (PopUp) dans React - 13 min
+- 36 - API MARVEL - 12 min
+- 37 - Axios et Marvel API - 22 min
+- 38 - LocalStorage pour stocker la datas de Marvel API - 22 min
+- 39 - Affichage de la data dans le Modal - 16 min
+- 40- Les règles de sécurité Cloud Firestore - 7 min
+- 41- Variables d’environnement pour Firebase config - 6 min
+- 42 - Déploiement de notre application sur Firebase - 11 min

@@ -1,0 +1,36 @@
+# Les concepts de ReactJS - 7h 57 min
+
+- Props et State - Partie 1 - 20 min
+- Props et State - Partie 2 - 27 min
+- Révisions : Composants, Props et States - 20 min
+- Correction exercice sur les props et les states - 8min
+- Export Defaults VS Names Exports - 4 min
+- Exercice pour réviser les props et les childrens - 5 min
+- Correction exercice sur les props et les childrens - 14 min
+- Les composants et les props - 6 min
+- Les événements dans React et changement de state - 33min
+- [Note - le constructor](./constructor.md)
+- Exercice incrémenter un state dans React - 38 min
+- Destructing array et callback function + invoquer une méthode dans les props - 18 min
+- Exercice événements React dans un composant fonction - 3 min
+- Correction exercice sur les événements React dans un composant fonction - 5 min
+- Passer une fonction dans Props - 28 min - [Maman.js](./Maman.js) - [Toto.js](./Toto.js)
+- Exercice passer une fonction dans props - 3 min
+- Correction exercice passer une fonction dans prop - 8 min
+- React Fragment - 18 min
+- Le Destructing - Partie 1 - 13 min
+- Le Destructing dans React - Partie 2 - 18 min
+- Les Conditions dans ReactJS - 15 min
+- Les images dans React - 17 min
+- Les formulaires dans React - 29 min
+- [Note - infos packages npm - Boostrap et Styled-Components](./packagesNPMBoostrap&StyledComponents.md)
+- Le CSS dans React - 41 min
+- Exercice 1 - CSS Bootstrap - 2 min
+- Correction de l'exercice CSS Bootstrap - 10 min
+- Exercice 2 - CSS et Props d'un Custom Button - 4 min
+- Correction de l'exercice 2 - Custom Button - 13 min
+- Exercice 3 - Gérer le onClick sur le custom button - 2 min
+- Correction de l'exercice 3 - onClick sur custom button - 5 min
+- Présentation du package React-Bootstrap - 36 min
+- Exercice 4: Utiliser le package React-Bootstrap - 2 min
+- Correction de l'exercice 4
