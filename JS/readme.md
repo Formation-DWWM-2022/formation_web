@@ -10,25 +10,7 @@ https://buzut.net/programmation-orientee-objet-javascript/
 https://javascript.info/
 -->
 
-# Dates [11j]:
-- // Mardi 07 juin [PF] Distanciel
-- Mercredi 08 juin - Cours / Exo : TP01 - TP02 - TP03
-- Jeudi 09 juin - Cours / Exo : TP04 - TP05 - TP06
-- Vendredi 10 juin - Cours / Exo : TP07 - TP08 - TP09
-- // Lundi 13 juin [Anglais] Distanciel
-- Mardi 14 juin - Cours / Exo : TP09 - TP10 - Projet
-- Mercredi 15 juin - Projet
-- Jeudi 16 juin - Cours / Exo : TP11 - TP12
-- Vendredi 17 juin - TP13 - TP14 - Projet
-- // Lundi 20 juin [RAN] Distanciel - Projet
-- Mardi 21 juin - Cours / Exo : TP16 - TP17 - Library JS
-- Mercredi 22 juin - Projet - More JS
-- Jeudi 23 juin - Projet - Framework JS
-- // Vendredi 24 juin [PF] - Autodidacte
-- // Lundi 27 juin [RAN] - Recherche de stage 
-- // Mardi 28 juin [APPUI] - DS
-
-# Vidéo simples et efficace
+## Vidéo simples et efficace
 > Pierre Giraud : 
 
 Bienvenue dans ce nouveau cours traitant du langage de programmation JavaScript. Ce tutoriel est accessible à tous et pourra être bénéfique à chacun, que vous soyez déjà un expert en JavaScript ou un complet néophyte.
@@ -50,7 +32,7 @@ https://www.youtube.com/watch?v=XkvrHQNmigs&list=PLEagTQfI6nPPVSKoYo2p8Cf8eijcyz
 - LibrairyJS : https://www.youtube.com/watch?v=x5kTcfN9xL0&list=PLEiMYEzpB4Qu8A6ycWzv_Q8BkvE2F8K9P
 - Débuter Javascript de zéro, apprendre les bases : https://www.youtube.com/watch?v=QB1DTl7HFnc&list=PLEiMYEzpB4Qt1mtW0yzJDJccqp7LKQBeF
 
-# Résumé du cours
+## Résumé du cours
 JavaScript est un langage de programmation qui ajoute de l'interactivité à votre site web (par exemple : jeux, réponses quand on clique sur un bouton ou des données entrées dans des formulaires, composition dynamique, animations). Ce cours vous aide à débuter dans ce langage passionnant et vous donne une idée de ses possibilités.
 
 - Cours du prof (voir sommaire)
@@ -60,20 +42,20 @@ JavaScript est un langage de programmation qui ajoute de l'interactivité à vot
 - Cours 3WAcademy (https://apprendre-html.3wa.fr/javascript/intro-javascript)
 - Cours complet (https://fr.javascript.info/)
 
-# Evaluation 
+## Evaluation 
 L'évaluation de ce cours comportera trois points :
 - des questions portant sur les aspects théoriques des bases de JavaScript introduits dans le cours ;
 - un premier exercice de modélisation d'une application web : à partir de l'énoncé d'une problématique, il s'agit de proposer un modèle de code JavaScript sans utiliser l'API DOM. La pertinence du code et la bonne utilisation des bonnes pratiques seront pris en compte dans la notation ;
 - un second exercice où, étant donné la documentation d'un API et d'une librairie, il s'agit d'écrire des composant Web permettant d'extraire des informations d'un API et de les afficher via l'API DOM de JavaScript.
 
-# Objectifs
+## Objectifs
 - Savoir associer un programme JavaScript à une page HTML
 - Connaître la syntaxe de base de JavaScript et comprendre les théories de base derrière la programmation orientée objet
 - Savoir sélectionner un élément de la page en fonction de ses attributs id ou class et associer un comportement lorsqu'on interagit avec celui-ci (par exemple afficher une fenêtre de dialogue lorsqu'un utilisateur clic sur un élément de la page)
 - Savoir modifier un élément de la page lorsqu'un événement se produit (par exemple le cacher lorsqu'on clique dessus)
 - Écrire du code propre et facile à maintenir
   
-# Sommaire :
+## Sommaire :
 * [TP 1 - Les Bases](./Cours/tp01.md)
 * [TP Additionnel - Où écrire le code JavaScript ?](./Cours/ouCodeJS.md)
 * [TP 2 - Conditions](./Cours/tp02.md)
@@ -116,7 +98,7 @@ L'évaluation de ce cours comportera trois points :
 ---
 * [TP 16 - Identification avec Google et Facebook](./Cours/tp16.md)
 
-# Déboguer son code JS :
+## Déboguer son code JS :
 * [TP 17 - Gestion d'erreurs et Geolocation API](./Cours/tp17.md)
 
 > Dans cette série de vidéos vous découvrirez les erreurs classiques qui peuvent se produire en JavaScript ainsi que les outils qui vous permettront de les identifier plus facilement : 
@@ -125,7 +107,7 @@ https://grafikart.fr/formations/deboguer-javascript
 -  Cannot read property of null 
 -  RegeneratorRuntime is not defined 
 
-# Notre guide de style JavaScript
+## Notre guide de style JavaScript
 Par [Harrison Shoff](https://www.linkedin.com/in/hshoff/)
 
 Jetez-y un coup d’œil sur Github : https://github.com/airbnb/javascript
@@ -136,7 +118,7 @@ Nous le décrivons comme une approche plutôt raisonnable de JavaScript.
 
 Nous le libérons sous licence MIT, alors n’hésitez pas à vous servir à votre guise. Nous ne nous attendons pas à ce que tout le monde soit d’accord avec la façon dont nous faisons les choses, mais nous espérons que cela vous aidera à lancer votre propre guide de style comme modèle ou carte.
 
-## Extrait des règles qui seront à respecter:
+### Extrait des règles qui seront à respecter:
 
 - mettre les chaînes de caractères entre apostrophes, (cf [6.1](https://github.com/airbnb/javascript/blob/master/README.md#strings--quotes))
 - usage et placement des accolades (*braces*, en anglais), (cf [16.1](https://github.com/airbnb/javascript/blob/master/README.md#blocks--braces))
@@ -153,7 +135,7 @@ Pour vérifier et corriger l'indentation de votre code JavaScript, vous pouvez u
 
 Si vous préférez utiliser votre éditeur de code préféré pour vous aider à corriger l'indentation et/ou les conventions ci-dessus, configurez-le de manière à ce qu'il respecte le guide de style d'Airbnb.
 
-## Les commentaires en JavaScript
+### Les commentaires en JavaScript
 
 Comme pour l’immense majorité des langages de programmation, on va également pouvoir commenter en JavaScript.
 
@@ -175,7 +157,7 @@ Dans l’exemple ci-dessous, on crée trois commentaires dans notre fichier cour
 
 ![](https://www.pierre-giraud.com/wp-content/uploads/2019/05/javascript-commentaire-monoligne-multilignes-syntaxe.png)
 
-## L’indentation en JavaScript
+### L’indentation en JavaScript
 
 L’indentation correspond au fait de décaler certaines lignes de code par rapport à d’autres. Cela est généralement utilisé pour rendre son code plus lisible et donc plus simple à comprendre.
 
@@ -207,7 +189,7 @@ Pour cette raison, nous ajouterons explicitement des points-virgules à la fin d
 
 ![]()
 
-# Library JS [12][Solo]
+## Library JS [12][Solo]
 Qu'est-ce que ... et pourquoi en avez vous-besoin ?
 Comment l'installer et s’en servir ? [Exemple de code]
 
@@ -247,7 +229,7 @@ Comment l'installer et s’en servir ? [Exemple de code]
 - [Popper.js](https://github.com/floating-ui/floating-ui/tree/v2.x)
 > Positioning tooltips and popovers is difficult. Popper is here to help!
 
-# More JS [4][4 groupe de 3]
+## More JS [4][4 groupe de 3]
 - Qu'est-ce que Babel JS et pourquoi en avez vous-besoin ?
 > Avez-vous déjà voulu utiliser des fonctionnalités JavaScript de pointe, mais a été coincé en attendant les navigateurs pour les soutenir ? Babel.js est un excellent outil pour compiler JavaScript vers d’autres plates-formes.
 
@@ -281,7 +263,7 @@ Comment l'installer et s’en servir ? [Exemple de code]
 
 [Solution](https://www.youtube.com/watch?v=3CHRRSSLeJg)
 
-# Framework JS [4][4 groupe de 3]
+## Framework JS [4][4 groupe de 3]
 C’est quoi exactement ... ? Comment fonctionne ... ? Pourquoi utiliser ... ?
 
 - jQuery
