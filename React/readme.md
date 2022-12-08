@@ -47,9 +47,9 @@ L'évaluation de ce cours comportera un points :
 - Savoir modifier un élément de la page lorsqu'un événement se produit (par exemple le cacher lorsqu'on clique dessus)
 - Écrire du code propre et facile à maintenir
 
-- [Google drive](https://drive.google.com/drive/folders/1jSI3oi1FjV1YZHZuIl8e-BYkaI0wmBoM?usp=share_link)
-
 ## Sommaire ReactJS - 38h 27 min - 7J
+
+[Google drive](https://drive.google.com/drive/folders/1jSI3oi1FjV1YZHZuIl8e-BYkaI0wmBoM?usp=share_link)
 
 - Introduction - 13 min
 - Information importante relative au packages NPM - 9 min
